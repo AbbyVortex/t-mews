@@ -5,11 +5,12 @@ on:
       operation:
         description: Operation (send the one-time test before monitoring)
         type: choice
-        options: [check, test, monitor]
+        options: [check, test, monitor, keepalive]
         default: check
         required: true
   schedule:
     - cron: '2-57/5 * * * *'
+    - cron: '23 4 * * 1'
 permissions:
   contents: write
 concurrency:
@@ -20,7 +21,8 @@ jobs:
     if: >-
       github.event.repository.private == false &&
       github.ref == format('refs/heads/{0}', github.event.repository.default_branch) &&
-      (github.event_name == 'workflow_dispatch' || vars.T_MEWS_ENABLED == 'true')
+      ((github.event_name == 'workflow_dispatch' && inputs.operation != 'keepalive') ||
+       (github.event_name == 'schedule' && github.event.schedule == '2-57/5 * * * *' && vars.T_MEWS_ENABLED == 'true'))
     runs-on: ubuntu-24.04
     timeout-minutes: 5
     steps:
@@ -39,3 +41,27 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
           PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
+  keepalive:
+    if: >-
+      github.event.repository.private == false &&
+      github.ref == format('refs/heads/{0}', github.event.repository.default_branch) &&
+      vars.T_MEWS_ENABLED == 'true' &&
+      ((github.event_name == 'schedule' && github.event.schedule == '23 4 * * 1') ||
+       (github.event_name == 'workflow_dispatch' && inputs.operation == 'keepalive'))
+    runs-on: ubuntu-24.04
+    timeout-minutes: 2
+    permissions:
+      contents: read
+      actions: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - name: Renew active monitor workflow via GitHub API
+        run: node --experimental-strip-types scripts/workflow-keepalive.ts
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          T_MEWS_ENABLED: ${{ vars.T_MEWS_ENABLED }}

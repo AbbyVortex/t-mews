@@ -1,6 +1,6 @@
-# GitHub Actions 暫定運用
+# GitHub Actions メイン運用
 
-Cloudflareに接続せず、既存のRSSアダプター・分類器・監視処理・Pushover送信を共有する一時ランナーです。Node.js組み込みSQLiteでD1インターフェイスを置き換え、実行間の状態を `monitor-state` ブランチの `state.json` に保存します。
+Cloudflareに接続せず、既存のRSSアダプター・分類器・監視処理・Pushover送信を共有するメインの実行環境です。Node.js組み込みSQLiteでD1インターフェイスを置き換え、実行間の状態を `monitor-state` ブランチの `state.json` に保存します。Cloudflare/D1版は切替用として保持します。
 
 ## 起動順序
 
@@ -13,11 +13,25 @@ Cloudflareに接続せず、既存のRSSアダプター・分類器・監視処�
 
 状態ファイルやブランチが消えた場合、通常監視は新規baselineを勝手に作り直さず停止します。テスト操作だけが最初の状態を作成できます。状態を失った際に不用意にtestを再実行しないでください。
 
-## 停止・期限
+## 停止・継続運用
 
 Actions → T-MEWS monitor → メニュー → Disable workflow で停止。repository variable `T_MEWS_ENABLED=false` でも定期監視ジョブを停止できます。実行中のジョブには反映されないため、必要ならその実行もCancelします。
 
-初回監視から5日でRSS取得とPushover送信を自動停止します。期限はstateテーブル内の `actionsEndAt`（UTC Unix秒）。終了後はworkflowも無効化してください。期限後もスケジュールイベント自体は発生し、ジョブは状態を確認して終了します。
+Actions版は終了期限なしで継続します。初期実験のstateテーブルに残る `actionsEndAt` は履歴として保持し、監視の停止条件には使いません。baseline・投稿・通知台帳の初期化や手動移行は不要です。Cloudflare版の `EXPERIMENT_END_AT` は変更していません。
+
+## 無活動による自動停止の予防
+
+GitHubは公開リポジトリで60日間活動がないとscheduleを自動停止します。[公式の停止仕様](https://docs.github.com/en/actions/how-tos/manage-workflow-runs/disable-and-enable-workflows)に対応するため、同じ `T-MEWS monitor` workflowに週1回のkeepaliveを組み込んでいます。
+
+- RSS監視: `2-57/5 * * * *`。毎時02・07・12…57分。
+- keepalive: `23 4 * * 1`。毎週月曜04:23 UTC（日本時間13:23）。GitHub側の遅延はあり得ます。
+- keepaliveは専用jobで、自分のworkflowが `active` であることをGETで確認したうえで [Enable workflow API](https://docs.github.com/en/rest/actions/workflows#enable-a-workflow) をPUTします。リポジトリへcommitや `state.json` の書き込みを行いません。
+- 認証には実行ごとに自動発行される [GITHUB_TOKEN](https://docs.github.com/en/actions/concepts/security/github_token) を使います。追加Secrets、PATの発行・期限更新、手作業の定期メンテナンスは不要です。専用jobだけに `actions: write` とcheckout用の `contents: read` を与え、Pushover Secretsは渡しません。
+- `T_MEWS_ENABLED=false` または空ならkeepaliveを実行しません。workflowが非activeならAPIで復活させません。同じworkflow内にあるため、Disable workflowで監視とkeepaliveをまとめて停止できます。実行中のjobも止めたい場合はCancelしてください。GETとPUTの間に手動停止が入るごく短い競合はAPIの条件付き更新がないため完全には排除できません。
+- 各API要求には15秒のtimeout、jobには2分の上限があります。keepaliveが失敗したらGitHub上で失敗として確認でき、次の週に再試行します。5分RSS監視は独立した条件で動くため、keepaliveの成否には依存しません。keepaliveからPushover通知は送りません。
+- APIの確認が必要な場合だけ、Run workflowのoperation `keepalive` を選べます。RSS取得・Pushover・状態保存は実行しません。通常運用でこの手動操作は不要です。
+
+有効なworkflowへ事前にenableを呼ぶ方法は [gh-workflow-keepaliveの実装](https://github.com/liskin/gh-workflow-keepalive)でも採用されています。GitHubの公式文書は有効化APIを説明していますが、無活動時計の更新動作を契約的に保証してはいません。本実装は無活動停止の予防であり、既に停止したworkflowやGitHubサービス全体の障害からの自動復旧機構ではありません。導入時のAPI成功確認と、60日を超える実運用実績は区別してください。
 
 ## 重複防止と障害
 

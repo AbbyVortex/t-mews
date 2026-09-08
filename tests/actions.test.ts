@@ -44,7 +44,7 @@ test('Actions: no test means no monitoring; missing or invalid state fails close
  const store=new MemoryStore();const db=new LocalD1();store.state=db.snapshot();db.close();
  await assert.rejects(runAction('monitor',store,secrets,async()=>{throw new Error('must not fetch')}));
 });
-test('Actions: temporary RSS failure and recovery, scheduled delays, five-day expiry',async()=>{
+test('Actions: temporary RSS failure and recovery across delayed runs',async()=>{
  const store=new MemoryStore();let outage=false;const titles:string[]=[];
  const fetcher=(async(input:any,init:any)=>{
   if(String(input).includes('pushover')){titles.push(new URLSearchParams(init.body).get('title')!);return Response.json({status:1});}
@@ -55,7 +55,27 @@ test('Actions: temporary RSS failure and recovery, scheduled delays, five-day ex
  assert.equal(titles.length,2);
  await runAction('monitor',store,secrets,fetcher,start+1200);assert.match(titles.at(-1)!,/offline/);
  outage=false;await runAction('monitor',store,secrets,fetcher,start+1500);assert.match(titles.at(-1)!,/recovered/);
- await runAction('monitor',store,secrets,async()=>{throw new Error('expired should not fetch')},start+5*86400);
+});
+
+test('Actions: primary operation survives the legacy five-day expiry and retains delivery dedup',async()=>{
+ const store=new MemoryStore();let feed=xml('1','Codex performance',start-100);let pushes=0;
+ const fetcher=(async(input:any)=>{
+  if(String(input).includes('pushover')){pushes++;return Response.json({status:1});}
+  return new Response(feed);
+ }) as typeof fetch;
+ await runAction('test',store,secrets,fetcher,start);await runAction('monitor',store,secrets,fetcher,start);
+ const baseline=store.state!.tables.state.find(r=>r.key==='baselineAt')!.value;
+ const legacyEnd=String(start+5*86400);
+ store.state!.tables.state.push({key:'actionsEndAt',value:legacyEnd});
+ for(const day of [6,61]) {
+  feed=xml(String(day),'Resetting the usage limits tomorrow.',start+day*86400-60);
+  await runAction('monitor',store,secrets,fetcher,start+day*86400);
+  await runAction('monitor',store,secrets,fetcher,start+day*86400+300);
+ }
+ assert.equal(pushes,4,'one test, one online and two distinct post alerts');
+ assert.equal(store.state!.tables.state.find(r=>r.key==='baselineAt')!.value,baseline);
+ assert.equal(store.state!.tables.state.find(r=>r.key==='actionsEndAt')!.value,legacyEnd);
+ assert.equal(store.state!.tables.notifications.filter(r=>r.status==='sent').length,4);
 });
 test('GitHub store uses CAS, rejects private repos and missing state',async()=>{
  const privateFetch=(async()=>Response.json({private:true})) as typeof fetch;

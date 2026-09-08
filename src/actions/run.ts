@@ -1,5 +1,5 @@
 import {LocalD1,type Snapshot} from './sqlite';
-import {monitor,readState} from '../monitor';
+import {monitor} from '../monitor';
 import {notify} from '../pushover';
 import {fetchSource} from '../sources';
 import type {Env,Fetcher} from '../types';
@@ -27,10 +27,7 @@ export async function runAction(mode:'test'|'monitor'|'check',store:Store,secret
   }else {
    const test=await db.prepare("SELECT status FROM notifications WHERE id='test'").first<any>();
    if(test?.status!=='sent')throw new Error('A successful one-time Pushover test is required before monitoring');
-   const state=await readState(env.DB);
-   const end=state.actionsEndAt??now+5*86400;
-   if(!state.actionsEndAt)await db.prepare("INSERT INTO state VALUES('actionsEndAt',?)").bind(JSON.stringify(end)).run();
-   env.EXPERIMENT_END_AT=new Date(end*1000).toISOString();
+   // Primary Actions operation has no expiry. Preserve any legacy actionsEndAt as history.
    await monitor(env,now,safeFetch);
   }
   return {mode,posts:(await db.prepare('SELECT COUNT(*) n FROM posts').first<any>())?.n,notifications:(await db.prepare("SELECT COUNT(*) n FROM notifications WHERE status='sent'").first<any>())?.n};

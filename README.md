@@ -1,8 +1,8 @@
 # T-MEWS
 
-Tibo Mushroom Early Warning System。@thsottiaux の公開RSSを毎分確認し、利用枠・リセット関連だけをPushoverへ通知する実験用Cloudflare Workerです。
+Tibo Mushroom Early Warning System。@thsottiaux の公開RSSを確認し、利用枠・リセット関連だけをPushoverへ通知するサービスです。
 
-**GitHub Actions暫定版を追加しています。** publicリポジトリの標準ランナーで5分間隔を設定でき、Cloudflareへの通信は不要です。[設定・停止方法](GITHUB-ACTIONS.md)を参照してください。分類器・RSSアダプター・Pushover送信・監視ロジックは両ランタイムで共有します。
+**メイン運用はGitHub Actionsです。** publicリポジトリの標準ランナーで5分間隔の監視を継続し、週1回のAPI keepaliveで無活動による自動停止を予防します。追加の認証情報やダミーコミットは不要です。[設定・停止方法](GITHUB-ACTIONS.md)を参照してください。毎分実行のCloudflare/D1版も保持し、分類器・RSSアダプター・Pushover送信・監視ロジックを共有します。
 
 ## 構成
 
@@ -67,6 +67,8 @@ Cloudflareの個別アカウント情報はGit管理外の `wrangler.local.jsonc
 Pushoverの `PUSHOVER_USER_KEY` と `PUSHOVER_APP_TOKEN` はWorker secretsだけに保存します。`.dev.vars`、ソース、D1、ログへ書きません。専用PowerShell入力スクリプトは非表示で入力を受け、Wranglerの標準入力へ渡します。チャットへ貼り付けないでください。
 
 ## 即時停止
+
+GitHub Actions版は Actions → T-MEWS monitor → メニュー → **Disable workflow** で監視とkeepaliveを同時に停止します。実行中のjobには必要に応じてCancelも行ってください。以下はCloudflare版へ切り替えた場合の操作です。
 
 Cloudflare → Workers & Pages → t-mews → Settings → Variables and Secrets で `MONITOR_ENABLED` を `false` にし、保存・反映します。Cron自体を停止する場合は Settings → Triggers → Cron Triggers から毎分の式を削除します。ローカルの `wrangler.jsonc` も同じ状態にして、再デプロイで復活しないようにしてください。
 
