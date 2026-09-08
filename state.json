@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "tables": {
+    "posts": [],
+    "source_health": [],
+    "state": [],
+    "events": [],
+    "notifications": [
+      {
+        "id": "test",
+        "post_id": null,
+        "kind": "test",
+        "created_at": 1788855434,
+        "status": "sending",
+        "sent_at": null
+      }
+    ]
+  }
+}
