@@ -1,0 +1,172 @@
+[
+  {
+    "text": "The password reset will land tomorrow in the Codex account settings UI.",
+    "expectedNotify": false,
+    "reason": "Scheduled password reset feature is technical/account security, not usage allowance."
+  },
+  {
+    "text": "The database reset will land around 2pm tomorrow. Codex helped write the migration.",
+    "expectedNotify": false,
+    "reason": "Reset will land must not override the explicit database-reset subject."
+  },
+  {
+    "text": "Codex will reset the usage counters in our test database tomorrow. Subscription limits are unchanged.",
+    "expectedNotify": false,
+    "reason": "Usage counters in a test database are implementation details; subscription change is denied."
+  },
+  {
+    "text": "We raised the Codex context limit to one million tokens today. This improves long-codebase analysis.",
+    "expectedNotify": false,
+    "reason": "Context window capacity is not a subscription allowance."
+  },
+  {
+    "text": "Could you reset my Codex usage tomorrow? I have a demo to finish.",
+    "expectedNotify": false,
+    "reason": "A request for an individual reset is neither an announcement nor a strong issuer tease."
+  },
+  {
+    "text": "Will the Codex usage reset land tomorrow? I am asking, not announcing anything.",
+    "expectedNotify": false,
+    "reason": "Question explicitly disclaims an announcement."
+  },
+  {
+    "text": "We won't reset Codex usage limits tomorrow. The current weekly allowance is unchanged.",
+    "expectedNotify": false,
+    "reason": "Direct reset denial and unchanged allowance must not trigger."
+  },
+  {
+    "text": "I can't promise a Codex usage reset tomorrow. We are still looking into options.",
+    "expectedNotify": false,
+    "reason": "Explicitly uncommitted possibility stays below the notification threshold."
+  },
+  {
+    "text": "Who says your Codex usage won't reset in a while 👀",
+    "expectedNotify": true,
+    "reason": "Rhetorical who-says tease is a strong hint despite won't."
+  },
+  {
+    "text": "I think it is time to find the reset button tomorrow and dust it off.",
+    "expectedNotify": true,
+    "reason": "Target-author reset-button use tomorrow is the requested strong-hint pattern."
+  },
+  {
+    "text": "The banked reset has landed. Have a good weekend!",
+    "expectedNotify": true,
+    "reason": "Completed banked-reset distribution does not need a separate paid-user keyword."
+  },
+  {
+    "text": "Banked reset eligibility now includes Plus subscribers. You won't need a Pro account to claim this grant.",
+    "expectedNotify": true,
+    "reason": "Eligibility expansion is material; won't describes an unnecessary requirement, not a denied grant."
+  },
+  {
+    "text": "Banked reset eligibility is unchanged. We are not expanding the program today.",
+    "expectedNotify": false,
+    "reason": "Static eligibility and explicit denial of change are not a new distribution event."
+  },
+  {
+    "text": "Can you distribute a banked reset to all paid Codex users tomorrow?",
+    "expectedNotify": false,
+    "reason": "A banked-reset request must not become a distribution announcement."
+  },
+  {
+    "text": "The banked resets granted to paid Codex users yesterday expire tomorrow at 8pm PT. Use them before then.",
+    "expectedNotify": true,
+    "reason": "Specific banked-reset expiry timing is explicitly in scope."
+  },
+  {
+    "text": "Starting today, we have doubled the weekly Codex allowance for Plus subscribers.",
+    "expectedNotify": true,
+    "reason": "Explicit effective weekly allowance increase."
+  },
+  {
+    "text": "We won't double the weekly Codex allowance tomorrow. There is no quota change planned.",
+    "expectedNotify": false,
+    "reason": "Directly denied increase and no planned quota change."
+  },
+  {
+    "text": "Weekly Codex usage limits are unchanged. We doubled database capacity and could improve benchmarks next week.",
+    "expectedNotify": false,
+    "reason": "Change words in an unrelated sentence cannot override unchanged subscription limits."
+  },
+  {
+    "text": "Codex uses 50% less memory on our weekly benchmark now. The results are faster and more stable.",
+    "expectedNotify": false,
+    "reason": "Memory and benchmark performance are not weekly allowance or charged subscription usage."
+  },
+  {
+    "text": "Tomorrow we are bringing back the 5h limit for Plus accounts across Codex and ChatGPT Work. Pro users won't be affected.",
+    "expectedNotify": true,
+    "reason": "Confirmed 5h rule reinstatement; unrelated Pro exemption must not veto it."
+  },
+  {
+    "text": "For clarity, Pro has no 5h limit and its weekly usage is still 20X Plus. We are keeping the existing rules.",
+    "expectedNotify": false,
+    "reason": "Restates existing quota rules without a material change."
+  },
+  {
+    "text": "Your Codex and ChatGPT Work reset will land at 6pm PST. We could not have shipped the latest editor without our team.",
+    "expectedNotify": true,
+    "reason": "Unrelated could/not wording in a separate sentence must not erase an explicit reset time."
+  },
+  {
+    "text": "We are resetting usage for all paid Codex users today. Could retained images explain the earlier drain? We are investigating that separately.",
+    "expectedNotify": true,
+    "reason": "A separate diagnostic question cannot demote an explicit reset announcement."
+  },
+  {
+    "text": "We can't wait to see what you build. All Codex usage has now been reset for everyone.",
+    "expectedNotify": true,
+    "reason": "Can't wait is unrelated enthusiasm before an explicit completed global reset."
+  },
+  {
+    "text": "We reduced the usage drawn from paid ChatGPT subscriptions by 30% today. Model quality has not changed and we could improve latency next.",
+    "expectedNotify": true,
+    "reason": "Confirmed subscription consumption reduction survives unrelated quality negation and latency speculation."
+  },
+  {
+    "text": "Codex raised the recursion limit to fix a Python crash.",
+    "expectedNotify": false,
+    "reason": "Technical recursion limits are not paid usage allowance."
+  },
+  {
+    "text": "We will reset the UI layout tomorrow. Codex weekly usage remains unchanged.",
+    "expectedNotify": false,
+    "reason": "Unrelated usage context must not turn a UI reset into an alert."
+  },
+  {
+    "text": "If we ever launch the feature, we will reset usage for all paid Codex users tomorrow.",
+    "expectedNotify": true,
+    "reason": "Conditional future reset remains a hint, not a confirmed announcement."
+  },
+  {
+    "text": "We no longer have a 5h limit for Plus accounts in Codex.",
+    "expectedNotify": true,
+    "reason": "Removing a time-window limit is a material change."
+  },
+  {
+    "text": "The banked reset is no longer available.",
+    "expectedNotify": true,
+    "reason": "Ending banked reset availability is a material rule change."
+  },
+  {
+    "text": "The weekly Codex limit is now 2.5x what it was.",
+    "expectedNotify": true,
+    "reason": "Numeric allowance multipliers and alternate word order express a change."
+  },
+  {
+    "text": "We are resetting Codex usage after fixing a database reset bug.",
+    "expectedNotify": true,
+    "reason": "Technical reset phrases must not erase a separate explicit usage reset."
+  },
+  {
+    "text": "We are not launching a new Codex plan. No 5h limits is just a proposal.",
+    "expectedNotify": false,
+    "reason": "Denied plan launches must not activate an exemption announcement rule."
+  },
+  {
+    "text": "Introducing a new Codex team plan with no 5h limits.",
+    "expectedNotify": true,
+    "reason": "A confirmed new-plan exemption also works within a sentence."
+  }
+]
