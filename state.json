@@ -4,15 +4,22 @@
     "posts": [],
     "source_health": [],
     "state": [],
-    "events": [],
+    "events": [
+      {
+        "id": "notification:test",
+        "event_type": "notification_sent",
+        "created_at": 1788855434,
+        "details": "{\"kind\":\"test\",\"postId\":null}"
+      }
+    ],
     "notifications": [
       {
         "id": "test",
         "post_id": null,
         "kind": "test",
         "created_at": 1788855434,
-        "status": "sending",
-        "sent_at": null
+        "status": "sent",
+        "sent_at": 1788855434
       }
     ]
   }
