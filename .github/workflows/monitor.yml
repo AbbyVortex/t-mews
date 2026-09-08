@@ -8,9 +8,8 @@ on:
         options: [check, test, monitor]
         default: check
         required: true
-# Enable only after the real one-time test succeeds:
-#  schedule:
-#    - cron: '2-57/5 * * * *'
+  schedule:
+    - cron: '2-57/5 * * * *'
 permissions:
   contents: write
 concurrency:
