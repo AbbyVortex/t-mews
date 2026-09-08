@@ -1541,11 +1541,21 @@
         "value": "1788855495"
       },
       {
+        "key": "lastCleanup",
+        "value": "1788855495"
+      },
+      {
         "key": "lastSuccess",
         "value": "1788855495"
       }
     ],
     "events": [
+      {
+        "id": "notification:online",
+        "event_type": "notification_sent",
+        "created_at": 1788855495,
+        "details": "{\"kind\":\"online\",\"postId\":null}"
+      },
       {
         "id": "notification:test",
         "event_type": "notification_sent",
@@ -1559,8 +1569,8 @@
         "post_id": null,
         "kind": "online",
         "created_at": 1788855495,
-        "status": "sending",
-        "sent_at": null
+        "status": "sent",
+        "sent_at": 1788855495
       },
       {
         "id": "test",
