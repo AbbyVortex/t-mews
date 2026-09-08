@@ -1,0 +1,12 @@
+node_modules/
+.wrangler/
+.dev.vars*
+.env*
+work/
+dist/
+*.log
+wrangler.local.jsonc
+DEPLOYMENT-STATUS.md
+VALIDATION.md
+*.sqlite*
+state.json
