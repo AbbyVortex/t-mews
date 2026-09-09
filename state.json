@@ -1599,13 +1599,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 606
+      },
+      {
+        "id": "x:2097746417012166816",
+        "x_status_id": "2097746417012166816",
+        "canonical_url": "https://x.com/thsottiaux/status/2097746417012166816",
+        "fingerprint": "b8db56a4726eb6b6d7ed2f7f550b79d09f5cd24e6cf4332242e6e92899ce375e",
+        "published_at": 1788976694,
+        "detected_at": 1788977597,
+        "text": "Worth clarifying that this is flatly false and the two options are just two independent ways to opt-out.\n\nWe respect our users' choice whether to use their data to “improve our models for everyone” regardless of where they express that choice. Users can opt out in the in-app settings or indeed also in our privacy portal. They do not need to opt out in both places, and we will make this clearer in our Help Center.\n\nhttps://privacy.openai.com/policies/en/",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 903
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1788976533,
+        "last_success_at": 1788977597,
         "last_failure_at": null,
         "offline_since": null,
         "failure_episodes": 0,
@@ -1631,7 +1648,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1788976533"
+        "value": "1788977597"
       }
     ],
     "events": [
