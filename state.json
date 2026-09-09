@@ -1582,13 +1582,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 644
+      },
+      {
+        "id": "x:2097559315150426222",
+        "x_status_id": "2097559315150426222",
+        "canonical_url": "https://x.com/thsottiaux/status/2097559315150426222",
+        "fingerprint": "85aa9add236f6a7ecfaea497bf35179b01556d978b719a3e25c998db16140ba9",
+        "published_at": 1788932086,
+        "detected_at": 1788932692,
+        "text": "Demand for Astra is really unprecedented. We're pulling all the levers possible to sustain the demand, but I've not seen anything like it until now and we went through very steep growth before. Priority will always be to keep excellent service for existing users, but we might have to pause new Pro subscriptions for a bit if this continues.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 606
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1788931809,
+        "last_success_at": 1788932692,
         "last_failure_at": null,
         "offline_since": null,
         "failure_episodes": 0,
@@ -1614,7 +1631,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1788931809"
+        "value": "1788932692"
       }
     ],
     "events": [
