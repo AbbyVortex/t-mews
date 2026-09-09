@@ -1514,13 +1514,64 @@
         "notified": 0,
         "notification_status": "baseline",
         "detection_latency_seconds": 10676
+      },
+      {
+        "id": "x:2097476797298520292",
+        "x_status_id": "2097476797298520292",
+        "canonical_url": "https://x.com/thsottiaux/status/2097476797298520292",
+        "fingerprint": "39ea837551448a26fa602dfcf5b5cd5b671930cd6f54715eb873742368d5f39f",
+        "published_at": 1788912412,
+        "detected_at": 1788913964,
+        "text": "Look! A fish!",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 1552
+      },
+      {
+        "id": "x:2097482307812859978",
+        "x_status_id": "2097482307812859978",
+        "canonical_url": "https://x.com/thsottiaux/status/2097482307812859978",
+        "fingerprint": "223a411a7ff1bd7a16c3941578974cf73fb56b45505d7b899aa0ad6863dae6d0",
+        "published_at": 1788913726,
+        "detected_at": 1788913964,
+        "text": "I for one am glad prompt injection is getting solved across the industry and that Astra is not only our most capable, but also our most aligned model to date. But also ...",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 238
+      },
+      {
+        "id": "x:2097482341916852719",
+        "x_status_id": "2097482341916852719",
+        "canonical_url": "https://x.com/thsottiaux/status/2097482341916852719",
+        "fingerprint": "c19520400734fdba393959d11290c19f7660a5548c36a19a34ce10f17eed5474",
+        "published_at": 1788913734,
+        "detected_at": 1788913964,
+        "text": "I am pleased to see that Ant’s new Claude Code has a version of background computer use on par with the version from Codex from last May this year. Nice work!\n\nShipping great features first turns out to be a great way to encourage other labs to ship too. We will continue to do this until other labs pay more attention to shipping. This is good for everyone and there is a lot of room left to go!\n\nWe solved computer use in practice for GPT models about four months ago. But computer use is a significantly awesome thing no matter what model you use, and it is important that the industry similarly spends more effort to train their models to be great at computer use, among other elements of model capabilities.\n\nAs models become more capable and central to businesses and economies, the value of computer use only increases. We should be taking it seriously, and doing the right thing for our customers and the world.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 230
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1788912278,
+        "last_success_at": 1788913964,
         "last_failure_at": null,
         "offline_since": null,
         "failure_episodes": 0,
@@ -1546,7 +1597,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1788912278"
+        "value": "1788913964"
       }
     ],
     "events": [
