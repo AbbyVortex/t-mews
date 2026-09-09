@@ -1616,13 +1616,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 903
+      },
+      {
+        "id": "x:2097752790177370535",
+        "x_status_id": "2097752790177370535",
+        "canonical_url": "https://x.com/thsottiaux/status/2097752790177370535",
+        "fingerprint": "bf0e60bccf359e566fedb3d69d871dc27bbe04764a4ea42111974149344648da",
+        "published_at": 1788978214,
+        "detected_at": 1788978792,
+        "text": "There was a bit of a kerfuffle this morning with some banked resets not fully applying when used in ChatGPT Work and Codex. Everyone who used one in the affected time window is getting another one and an email to apologize.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "possible usage signal without a confirmed change or strong hint",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 578
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1788977597,
+        "last_success_at": 1788978792,
         "last_failure_at": null,
         "offline_since": null,
         "failure_episodes": 0,
@@ -1648,7 +1665,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1788977597"
+        "value": "1788978792"
       }
     ],
     "events": [
