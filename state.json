@@ -1565,13 +1565,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 230
+      },
+      {
+        "id": "x:2097492424474165293",
+        "x_status_id": "2097492424474165293",
+        "canonical_url": "https://x.com/thsottiaux/status/2097492424474165293",
+        "fingerprint": "47660592b7ec8d1f9c374b2eed39fea2dc7d163c5c3727aa701ff188e7246bba",
+        "published_at": 1788916138,
+        "detected_at": 1788916782,
+        "text": "See you at the Astra party. Excited to meet some of you",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 644
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1788915781,
+        "last_success_at": 1788916782,
         "last_failure_at": null,
         "offline_since": null,
         "failure_episodes": 0,
@@ -1597,7 +1614,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1788915781"
+        "value": "1788916782"
       }
     ],
     "events": [
