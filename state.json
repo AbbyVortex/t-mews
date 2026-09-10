@@ -1667,13 +1667,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 95
+      },
+      {
+        "id": "x:2098105060186374280",
+        "x_status_id": "2098105060186374280",
+        "canonical_url": "https://x.com/thsottiaux/status/2098105060186374280",
+        "fingerprint": "5522b8c4d5ed441586c49d373f88c5ced34dc30eb85ed30c77588bdb254fa9b5",
+        "published_at": 1789062201,
+        "detected_at": 1789062203,
+        "text": "You can now build on top of the same voice system that we shipped to 1B users in ChatGPT.\n\nSo many fun applications of a full duplex system with solid toolcalling. Going back to text-only experiences after this feels harder than I had expected.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 2
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789061422,
+        "last_success_at": 1789062203,
         "last_failure_at": null,
         "offline_since": null,
         "failure_episodes": 0,
@@ -1699,7 +1716,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789061422"
+        "value": "1789062203"
       }
     ],
     "events": [
