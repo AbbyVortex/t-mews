@@ -1650,13 +1650,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 417
+      },
+      {
+        "id": "x:2097912273264095536",
+        "x_status_id": "2097912273264095536",
+        "canonical_url": "https://x.com/thsottiaux/status/2097912273264095536",
+        "fingerprint": "8b0ff716e7cbe9b4dd2d51049c1b00176925d0acd2b63a598a077b3b3f14e11f",
+        "published_at": 1789016237,
+        "detected_at": 1789016332,
+        "text": "One of the greatest joys is debating new model names with researchers. They come up with the most hilarious stuff",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 95
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789015668,
+        "last_success_at": 1789016332,
         "last_failure_at": null,
         "offline_since": null,
         "failure_episodes": 0,
@@ -1682,7 +1699,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789015668"
+        "value": "1789016332"
       }
     ],
     "events": [
