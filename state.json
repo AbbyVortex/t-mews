@@ -1701,13 +1701,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 651
+      },
+      {
+        "id": "x:2098165551554240764",
+        "x_status_id": "2098165551554240764",
+        "canonical_url": "https://x.com/thsottiaux/status/2098165551554240764",
+        "fingerprint": "a39fefc870677c79bea7582d8afbc587c27ca9302f998803baa7b34f85db83be",
+        "published_at": 1789076624,
+        "detected_at": 1789077225,
+        "text": "Do you pronounce it data or data? This is the way everyone makes dashboards and learns about the business at OpenAI. Can't live without it.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 601
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789076591,
+        "last_success_at": 1789077225,
         "last_failure_at": null,
         "offline_since": null,
         "failure_episodes": 0,
@@ -1733,7 +1750,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789076591"
+        "value": "1789077225"
       }
     ],
     "events": [
