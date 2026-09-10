@@ -1684,13 +1684,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 2
+      },
+      {
+        "id": "x:2098113585683808624",
+        "x_status_id": "2098113585683808624",
+        "canonical_url": "https://x.com/thsottiaux/status/2098113585683808624",
+        "fingerprint": "5208a4802d5240f7cb7e6924cbf977524ea54fe2ef2c72f8329e6e21ebda3226",
+        "published_at": 1789064234,
+        "detected_at": 1789064885,
+        "text": "To make sure our current users have an incredible experience and continued access to Astra, we are going to pause subscriptions to our $200 Pro plan. These put the most strain on our systems and we wanted to take the smallest step that allows us to continue giving the broadest access possible. All other plans and the api remain available.\n\nThere is no impact to existing accounts and we are working on adding more capacity as fast as we can. Thanks!",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 651
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789063795,
+        "last_success_at": 1789064885,
         "last_failure_at": null,
         "offline_since": null,
         "failure_episodes": 0,
@@ -1716,7 +1733,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789063795"
+        "value": "1789064885"
       }
     ],
     "events": [
