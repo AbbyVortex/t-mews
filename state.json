@@ -1718,13 +1718,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 601
+      },
+      {
+        "id": "x:2098238138334548260",
+        "x_status_id": "2098238138334548260",
+        "canonical_url": "https://x.com/thsottiaux/status/2098238138334548260",
+        "fingerprint": "38e4fd0b83be7fd6e370c1a0df44fc57c7d0948d50ff2d3ab31913acbd002e74",
+        "published_at": 1789093930,
+        "detected_at": 1789094686,
+        "text": "Scaled agents on demand.\n\nThis is pretty much the infrastructure that runs under the hood for ChatGPT Work, all wrapped up in an API which you can use to get started in < 1 min. Happy building.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 756
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789093765,
+        "last_success_at": 1789094686,
         "last_failure_at": null,
         "offline_since": null,
         "failure_episodes": 0,
@@ -1750,7 +1767,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789093765"
+        "value": "1789094686"
       }
     ],
     "events": [
