@@ -1735,13 +1735,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 756
+      },
+      {
+        "id": "x:2098300998968357218",
+        "x_status_id": "2098300998968357218",
+        "canonical_url": "https://x.com/thsottiaux/status/2098300998968357218",
+        "fingerprint": "d7e50dddf90301609893c1ffbf9c85eca3fe38e8b8f1ffad65c83a8ef3c9e5be",
+        "published_at": 1789108917,
+        "detected_at": 1789109181,
+        "text": "Next week we’ll be retiring GPT-5.3-Codex-Spark. Can you believe we shipped a model named as such!!\n\nIt's had a good run and was a lot of fun, but usage has been declining and we have significantly better models now. Time to make room for the future.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 264
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789108033,
+        "last_success_at": 1789109181,
         "last_failure_at": null,
         "offline_since": null,
         "failure_episodes": 0,
@@ -1767,7 +1784,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789108033"
+        "value": "1789109181"
       }
     ],
     "events": [
