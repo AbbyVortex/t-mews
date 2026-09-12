@@ -2500,13 +2500,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 473
+      },
+      {
+        "id": "x:2098905968096719251",
+        "x_status_id": "2098905968096719251",
+        "canonical_url": "https://x.com/thsottiaux/status/2098905968096719251",
+        "fingerprint": "c13c731e6e91b1965cc5f043dda94f65f542bb6ff738a6db0b7d095259a3554a",
+        "published_at": 1789253153,
+        "detected_at": 1789253694,
+        "text": "@signulll Benefits All",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 541
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789253086,
+        "last_success_at": 1789253694,
         "last_failure_at": null,
         "offline_since": null,
         "failure_episodes": 0,
@@ -2536,7 +2553,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789253086"
+        "value": "1789253694"
       }
     ],
     "events": [
