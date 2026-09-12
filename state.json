@@ -2449,13 +2449,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 210
+      },
+      {
+        "id": "x:2098685367058612394",
+        "x_status_id": "2098685367058612394",
+        "canonical_url": "https://x.com/thsottiaux/status/2098685367058612394",
+        "fingerprint": "c00190b2271a5ae37cf5fb84e5249a1188a33bc4212e1f9af896008fb0aa2e4b",
+        "published_at": 1789200557,
+        "detected_at": 1789201310,
+        "text": "Reset all propagated. Sweet dreams.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 753
+      },
+      {
+        "id": "x:2098685691899027900",
+        "x_status_id": "2098685691899027900",
+        "canonical_url": "https://x.com/thsottiaux/status/2098685691899027900",
+        "fingerprint": "a5f7c9785570c2a850a8c41f8466ac115217505e86008096d18290d76a8a0104",
+        "published_at": 1789200635,
+        "detected_at": 1789201310,
+        "text": "@rileybrown Tell me more",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 675
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789200333,
+        "last_success_at": 1789201310,
         "last_failure_at": null,
         "offline_since": null,
         "failure_episodes": 0,
@@ -2485,7 +2519,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789200333"
+        "value": "1789201310"
       }
     ],
     "events": [
@@ -2506,6 +2540,12 @@
         "event_type": "post_analysis",
         "created_at": 1789196926,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@CtrlAltDwayne When I say excellent service for existing users, that includes the occasional reset\"}}"
+      },
+      {
+        "id": "analysis:x:2098685367058612394",
+        "event_type": "post_analysis",
+        "created_at": 1789201310,
+        "details": "{\"related\":[{\"xStatusId\":\"2098612714704891959\",\"url\":\"https://x.com/thsottiaux/status/2098612714704891959\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Hi Astra users. A reset and a quick update on quality issues that have been posted around. Working with some of you, we have found and fixed the following issues: - Some skills written for previous models were triggering too often or preventing the model from checking its work. -…\",\"provenance\":\"feed\",\"publishedAt\":1789183236}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Reset all propagated.\"}}"
       },
       {
         "id": "notification:online",
@@ -2548,6 +2588,14 @@
         "created_at": 1789190477,
         "status": "sent",
         "sent_at": 1789190477
+      },
+      {
+        "id": "post:x:2098685367058612394",
+        "post_id": "x:2098685367058612394",
+        "kind": "alert",
+        "created_at": 1789201310,
+        "status": "sending",
+        "sent_at": null
       },
       {
         "id": "test",
