@@ -1800,8 +1800,8 @@
         "classification": "RESET_ANNOUNCED",
         "reason": "reset arrival or completion confirmed",
         "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
+        "notified": 1,
+        "notification_status": "sent",
         "detection_latency_seconds": 378
       },
       {
@@ -1863,6 +1863,12 @@
         "details": "{\"kind\":\"online\",\"postId\":null}"
       },
       {
+        "id": "notification:post:x:2098612714704891959",
+        "event_type": "notification_sent",
+        "created_at": 1789190477,
+        "details": "{\"kind\":\"alert\",\"postId\":\"x:2098612714704891959\"}"
+      },
+      {
         "id": "notification:test",
         "event_type": "notification_sent",
         "created_at": 1788855434,
@@ -1889,8 +1895,8 @@
         "post_id": "x:2098612714704891959",
         "kind": "alert",
         "created_at": 1789190477,
-        "status": "sending",
-        "sent_at": null
+        "status": "sent",
+        "sent_at": 1789190477
       },
       {
         "id": "test",
