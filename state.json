@@ -1803,13 +1803,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 378
+      },
+      {
+        "id": "x:2098639827084480864",
+        "x_status_id": "2098639827084480864",
+        "canonical_url": "https://x.com/thsottiaux/status/2098639827084480864",
+        "fingerprint": "a8e0a8e1668250fab39cb78c6b7549d5f43b60d122049b259c46c1e38b75d9fd",
+        "published_at": 1789189700,
+        "detected_at": 1789189910,
+        "text": "Astra powered ships this week\n\n- Images 2.5\n\n- GPT-Live-1\n\n- Agents API\n\n- Data Agent\n\n- ChatGPT for Financial Services\n\nand yet it’s not yet DevDay. Busy plans for next week too.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 210
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789189007,
+        "last_success_at": 1789189910,
         "last_failure_at": null,
         "offline_since": null,
         "failure_episodes": 0,
@@ -1835,7 +1852,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789189007"
+        "value": "1789189910"
       }
     ],
     "events": [
