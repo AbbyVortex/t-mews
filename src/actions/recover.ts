@@ -1,6 +1,7 @@
 import {classify} from '../classifier';
 import {readState} from '../monitor';
-import {alertMessage, jst, notify, titles} from '../pushover';
+import {alertMessage, alertTitle, jst, notify} from '../pushover';
+import {readAnalysis,resolveRelated,saveAnalysis} from '../post-analysis';
 import type {Env, Fetcher, Item} from '../types';
 
 /** Operator-selected recovery of one recent, never-attempted alert. No feed polling or backlog replay. */
@@ -23,19 +24,21 @@ export async function recoverAlert(env: Env, postId: string | undefined, now: nu
     || row.x_status_id !== postId.slice(2) || row.canonical_url !== `https://x.com/thsottiaux/status/${postId.slice(2)}`) {
     throw new Error('Post is not eligible for recent missed-alert recovery');
   }
-  const verdict = classify(row.text);
+  const analysis=await readAnalysis(env.DB,row.id);
+  const [post] = await resolveRelated([{id: row.id, xStatusId: row.x_status_id, url: row.canonical_url, fingerprint: row.fingerprint,
+    text: row.text, publishedAt: row.published_at, source: row.source, kind: row.kind,related:analysis.related} satisfies Item],env.DB);
+  const verdict = classify(row.text,post.related);
   if (!verdict.notify) throw new Error('Current classifier does not approve this alert');
-  const post: Item = {id: row.id, xStatusId: row.x_status_id, url: row.canonical_url, fingerprint: row.fingerprint,
-    text: row.text, publishedAt: row.published_at, source: row.source, kind: row.kind};
   await env.DB.batch([
     env.DB.prepare('UPDATE posts SET classification=?,reason=? WHERE id=?').bind(verdict.classification, verdict.reason, postId),
     env.DB.prepare('INSERT OR IGNORE INTO events VALUES(?,?,?,?)').bind(`recovery:${postId}`, 'alert_recovery_requested', now,
-      JSON.stringify({postId, previousClassification: row.classification, classification: verdict.classification}))
+      JSON.stringify({postId, previousClassification: row.classification, classification: verdict.classification})),
+    saveAnalysis(env.DB,post,verdict,now)
   ]);
   const note = `分類修正により遅れてお知らせしています。\n通知処理: ${jst(now)}（投稿から${Math.floor((now - row.published_at) / 60)}分後）\n`;
   // The caller's safeFetch persists this classification and notify's sending claim before delivery.
-  await notify(env, `post:${postId}`, 'alert', titles[verdict.classification]!,
-    alertMessage(post, verdict.classification, row.detection_latency_seconds, note), now, fetcher, post, verdict.classification);
+  await notify(env, `post:${postId}`, 'alert', alertTitle(verdict),
+    alertMessage(post, verdict.classification, row.detection_latency_seconds, note,verdict), now, fetcher, post, verdict.display==='announcement'?verdict.classification:undefined);
   const delivery = await env.DB.prepare('SELECT status FROM notifications WHERE id=?').bind(`post:${postId}`).first<{status: string}>();
   if (delivery?.status !== 'sent') throw new Error('Recovery delivery failed or uncertain; no automatic resend');
   return {mode: 'recover', postId, status: 'sent'};

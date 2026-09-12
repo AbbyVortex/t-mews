@@ -1,0 +1,2153 @@
+{
+  "asOf": "2026-09-12",
+  "previousCode": "7b9d241e685ebccd64ecf52b894125671c97441f",
+  "scope": "107 saved public Tibo observations; body-only comparison. These counts are counterfactual classification totals, not delivered alerts or reply coverage.",
+  "summary": {
+    "observed": 107,
+    "before": 21,
+    "after": 23,
+    "added": 2,
+    "removed": 0,
+    "maxPerDayBefore": 2,
+    "maxPerDayAfter": 2
+  },
+  "added": [
+    {
+      "id": "x:2089149255382438340",
+      "url": "https://x.com/thsottiaux/status/2089149255382438340",
+      "text": "Codex\n\n✅ Almost 100% reliable\n\n✅ Occasional resets\n\n✅ Open-source\n\n✅ (will have Astra)",
+      "publishedAt": 1786926971,
+      "dayJst": "2026-08-17",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "CANDIDATE",
+        "notify": false
+      },
+      "after": {
+        "classification": "CANDIDATE",
+        "notify": true,
+        "display": "advisory"
+      }
+    },
+    {
+      "id": "x:2089941380336644295",
+      "url": "https://x.com/thsottiaux/status/2089941380336644295",
+      "text": "I was gifted a very fancy new reset button today",
+      "publishedAt": 1787115828,
+      "dayJst": "2026-08-19",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "CANDIDATE",
+        "notify": false
+      },
+      "after": {
+        "classification": "CANDIDATE",
+        "notify": true,
+        "display": "advisory"
+      }
+    }
+  ],
+  "days": [
+    {
+      "dayJst": "2026-08-14",
+      "observed": 2,
+      "before": 0,
+      "after": 0
+    },
+    {
+      "dayJst": "2026-08-15",
+      "observed": 2,
+      "before": 0,
+      "after": 0
+    },
+    {
+      "dayJst": "2026-08-16",
+      "observed": 5,
+      "before": 0,
+      "after": 0
+    },
+    {
+      "dayJst": "2026-08-17",
+      "observed": 4,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "dayJst": "2026-08-18",
+      "observed": 2,
+      "before": 0,
+      "after": 0
+    },
+    {
+      "dayJst": "2026-08-19",
+      "observed": 2,
+      "before": 0,
+      "after": 1
+    },
+    {
+      "dayJst": "2026-08-20",
+      "observed": 3,
+      "before": 0,
+      "after": 0
+    },
+    {
+      "dayJst": "2026-08-21",
+      "observed": 5,
+      "before": 1,
+      "after": 1
+    },
+    {
+      "dayJst": "2026-08-22",
+      "observed": 4,
+      "before": 2,
+      "after": 2
+    },
+    {
+      "dayJst": "2026-08-23",
+      "observed": 3,
+      "before": 2,
+      "after": 2
+    },
+    {
+      "dayJst": "2026-08-24",
+      "observed": 2,
+      "before": 1,
+      "after": 1
+    },
+    {
+      "dayJst": "2026-08-25",
+      "observed": 2,
+      "before": 1,
+      "after": 1
+    },
+    {
+      "dayJst": "2026-08-26",
+      "observed": 6,
+      "before": 1,
+      "after": 1
+    },
+    {
+      "dayJst": "2026-08-27",
+      "observed": 2,
+      "before": 1,
+      "after": 1
+    },
+    {
+      "dayJst": "2026-08-28",
+      "observed": 5,
+      "before": 1,
+      "after": 1
+    },
+    {
+      "dayJst": "2026-08-29",
+      "observed": 3,
+      "before": 0,
+      "after": 0
+    },
+    {
+      "dayJst": "2026-08-30",
+      "observed": 6,
+      "before": 1,
+      "after": 1
+    },
+    {
+      "dayJst": "2026-08-31",
+      "observed": 6,
+      "before": 2,
+      "after": 2
+    },
+    {
+      "dayJst": "2026-09-01",
+      "observed": 1,
+      "before": 0,
+      "after": 0
+    },
+    {
+      "dayJst": "2026-09-02",
+      "observed": 2,
+      "before": 0,
+      "after": 0
+    },
+    {
+      "dayJst": "2026-09-03",
+      "observed": 2,
+      "before": 0,
+      "after": 0
+    },
+    {
+      "dayJst": "2026-09-04",
+      "observed": 5,
+      "before": 1,
+      "after": 1
+    },
+    {
+      "dayJst": "2026-09-05",
+      "observed": 7,
+      "before": 2,
+      "after": 2
+    },
+    {
+      "dayJst": "2026-09-07",
+      "observed": 4,
+      "before": 1,
+      "after": 1
+    },
+    {
+      "dayJst": "2026-09-08",
+      "observed": 4,
+      "before": 2,
+      "after": 2
+    },
+    {
+      "dayJst": "2026-09-09",
+      "observed": 5,
+      "before": 0,
+      "after": 0
+    },
+    {
+      "dayJst": "2026-09-10",
+      "observed": 4,
+      "before": 1,
+      "after": 1
+    },
+    {
+      "dayJst": "2026-09-11",
+      "observed": 5,
+      "before": 0,
+      "after": 0
+    },
+    {
+      "dayJst": "2026-09-12",
+      "observed": 4,
+      "before": 1,
+      "after": 1
+    }
+  ],
+  "sourceProbeSeparate": {
+    "returnedTiboItems": 61,
+    "replyLike": 36,
+    "withQuote": 10,
+    "withExplicitReplyParent": 0,
+    "notPreviouslySaved": 37,
+    "signals": [
+      {
+        "id": "x:2098612714704891959",
+        "url": "https://x.com/thsottiaux/status/2098612714704891959",
+        "text": "Hi Astra users. A reset and a quick update on quality issues that have been posted around.\n\nWorking with some of you, we have found and fixed the following issues:\n\n- Some skills written for previous models were triggering too often or preventing the model from checking its work.\n\n- An opt-in context management experiment that could cause early stops or replies to older messages. We've disabled it. Our rough estimate is that 4-5k users were affected by this experiment.\n\n- We've also removed some badly configured engines that resulted in a measured quality degradation for a long tail of traffic flowing through them.\n\nWe’ve also made some more minor improvements and things should feel significantly better across the board. More consistent follow-through, better tracking of your latest message, and better checks on the work as it’s going through the motions.\n\nThe examples posted and all the users who worked directly with us were incredibly useful in helping fix things quickly. Always grateful for this incredible community.\n\nAnd of course, a reset is also landing by midnight today.",
+        "kind": "post",
+        "hasContext": false,
+        "classification": "RESET_ANNOUNCED",
+        "display": "announcement"
+      },
+      {
+        "id": "x:2098300424520687965",
+        "url": "https://x.com/thsottiaux/status/2098300424520687965",
+        "text": "@CtrlAltDwayne When I say excellent service for existing users, that includes the occasional reset",
+        "kind": "reply",
+        "hasContext": false,
+        "classification": "CANDIDATE",
+        "display": "advisory"
+      },
+      {
+        "id": "x:2097752790177370535",
+        "url": "https://x.com/thsottiaux/status/2097752790177370535",
+        "text": "There was a bit of a kerfuffle this morning with some banked resets not fully applying when used in ChatGPT Work and Codex. Everyone who used one in the affected time window is getting another one and an email to apologize.",
+        "kind": "post",
+        "hasContext": false,
+        "classification": "BANKED_RESET",
+        "display": "announcement"
+      },
+      {
+        "id": "x:2097183639356489952",
+        "url": "https://x.com/thsottiaux/status/2097183639356489952",
+        "text": "@0x0SojalSec You forgot the part where I reset usage twice in the middle",
+        "kind": "reply",
+        "hasContext": false,
+        "classification": "RESET_ANNOUNCED",
+        "display": "announcement"
+      },
+      {
+        "id": "x:2097175062566846501",
+        "url": "https://x.com/thsottiaux/status/2097175062566846501",
+        "text": "@FelipeFr1702 There is no schedule, only resets",
+        "kind": "reply",
+        "hasContext": false,
+        "classification": "CANDIDATE",
+        "display": "advisory"
+      },
+      {
+        "id": "x:2097174560412246215",
+        "url": "https://x.com/thsottiaux/status/2097174560412246215",
+        "text": "All reset for everyone. Enjoy the week with Astra.",
+        "kind": "post",
+        "hasContext": true,
+        "classification": "RESET_ANNOUNCED",
+        "display": "announcement"
+      },
+      {
+        "id": "x:2097043464538264003",
+        "url": "https://x.com/thsottiaux/status/2097043464538264003",
+        "text": "Never gonna give you up\n\nNever gonna let you down\n\nNever gonna run around and desert you\n\nNever gonna make you cry\n\nNever gonna say goodbye\n\nNever gonna tell a lie and hurt you\n\nThanks for reading. We will do a global reset of the usage for all paid subscriptions so that you can keep enjoying Astra after burning through all of it doing fun 3D modeling in blender. The work week is about to start.\n\nLands around 6pm PST today.",
+        "kind": "post",
+        "hasContext": false,
+        "classification": "RESET_ANNOUNCED",
+        "display": "announcement"
+      },
+      {
+        "id": "x:2096717905614524491",
+        "url": "https://x.com/thsottiaux/status/2096717905614524491",
+        "text": "We've made some improvements that improve usage on the long tail for power users of Astra when logged in with your ChatGPT account.\n\nNo change in quality and a pure win that on the long tail can result in up to 3-4X less usage being drawn from the subscription.",
+        "kind": "post",
+        "hasContext": false,
+        "classification": "LIMIT_CHANGE",
+        "display": "limit"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "id": "x:2088103609477238858",
+      "url": "https://x.com/thsottiaux/status/2088103609477238858",
+      "text": "Work with Google docs, sheets and slides right inside ChatGPT.\n\nThis has changed how I write documents, brainstorm or proofread things. I just open it and then chat or talk my way through changes and it all happens right there in the flow.",
+      "publishedAt": 1786677670,
+      "dayJst": "2026-08-14",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2088133823619895712",
+      "url": "https://x.com/thsottiaux/status/2088133823619895712",
+      "text": "Ask ChatGPT to roast your computer usage after a day. Install the Computer History plugin, do things as usual and kindly ask it to roast your behavior. It's ... insightful 👀\n\n=====\n\n- You don’t use Slack. Slack uses you. It accounted for 48% of your recorded activity. Your Mac is essentially a $3,000 Slack notification with a keyboard.\n\n- Your productivity system is clicking “Clear” until God intervenes. You clicked it 339 times while submitting 253 Slack messages. You are playing Whac-A-Mole against an organization chart.\n\n- Your most-used keyboard shortcut is Delete. 1,191 times, including 1,065 in Slack. You’re not drafting messages. You’re negotiating peace treaties between your first thought and your executive function.\n\n- You pressed ⌘C 133 times and ⌘V just 26 times. You acquire information like a Victorian gentleman collecting exotic birds and then apparently release most of it into the clipboard wilderness.\n\n- You opened 42 tabs and closed 53. Technically, this makes browser-tab management your most successful project of the day.\n\n- You switched between actual applications more than 200 times, while reading an X post that literally said, “You probably hate tab switching.” The call is coming from inside the Chrome window.\n\n- Your busiest hour was 9 p.m., with more than 1,500 Slack events. Apparently “end of day” is less a time than a theoretical concept you enjoy discussing in meetings.\n\n- Your document at the center of several important workstreams was called “Hello.” Nothing says organizational clarity like running half the company through a Google Doc named after the first thing software prints.",
+      "publishedAt": 1786684873,
+      "dayJst": "2026-08-14",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2088493756391768252",
+      "url": "https://x.com/thsottiaux/status/2088493756391768252",
+      "text": "Looking for a quick restaurant reservation is now super easy in ChatGPT. Together with a bunch more ships",
+      "publishedAt": 1786770688,
+      "dayJst": "2026-08-15",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2088500028721832432",
+      "url": "https://x.com/thsottiaux/status/2088500028721832432",
+      "text": "What’s a hard problem codex solved for you this week? Where do you learn from others on how to push the frontier?",
+      "publishedAt": 1786772183,
+      "dayJst": "2026-08-15",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2088725163923984638",
+      "url": "https://x.com/thsottiaux/status/2088725163923984638",
+      "text": "Let Sol manage an efficient fleet of Luna agents for you.\n\nThese models know each other well and collaborate to achieve the result in an incredibly fast and efficient way.",
+      "publishedAt": 1786825860,
+      "dayJst": "2026-08-16",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2088725514542575903",
+      "url": "https://x.com/thsottiaux/status/2088725514542575903",
+      "text": "Incredible things are happening at OpenAI right now. Energy is high.",
+      "publishedAt": 1786825943,
+      "dayJst": "2026-08-16",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2088850995430477882",
+      "url": "https://x.com/thsottiaux/status/2088850995430477882",
+      "text": "If you have a company and still use Opus instead of Sol, why so? Does price not matter to you? What's something that would convince you to switch?",
+      "publishedAt": 1786855860,
+      "dayJst": "2026-08-16",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2088866513008873560",
+      "url": "https://x.com/thsottiaux/status/2088866513008873560",
+      "text": "On tokens and prices per token.\n\nI said I’d write more about this, so here goes: an OpenAI token != another model’s token. We compare AI prices in dollars per million tokens as if a token were a standardized unit, like a gram or a kilowatt-hour. It isn’t. Different models use and produce the exact same text using different numbers of tokens, which means a lower price per token does not necessarily mean a lower bill.\n\nImagine two identical pizzas. One is cut into 8 slices at $2 each. The other is cut into 16 slices at $1.25 each. The second place advertises cheaper slices, but the whole pizza costs $20 instead of $16. Bummer ... your stomach doesn't actually care about the number of slices you just ate.\n\nI know you are hungry now, but back to tokens. In one small comparison spanning English, technical, multilingual, and numerical text, the tokenizer we use for GPT-5.6 Sol used 766 tokens versus an estimated 1,170 for Claude Opus 5. That's a very significant difference of about 34.5% fewer tokens. You can get the same exact text, but pay for all those extra tokens. The price per token doesn't really tell this story.\n\nEven correcting for tokenizer differences misses the bigger point. What actually matters is price per successful outcome, and for that you can use benchmarks as a starting point, but really you have to try it and measure on your own use cases.\n\nThat's all. May the tokens flow.",
+      "publishedAt": 1786859560,
+      "dayJst": "2026-08-16",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2088877426483036646",
+      "url": "https://x.com/thsottiaux/status/2088877426483036646",
+      "text": "What's your /goal for the night?",
+      "publishedAt": 1786862162,
+      "dayJst": "2026-08-16",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2089080720396317053",
+      "url": "https://x.com/thsottiaux/status/2089080720396317053",
+      "text": "Sunday is for good vibes. As is any day of the week, but especially Sunday.",
+      "publishedAt": 1786910631,
+      "dayJst": "2026-08-17",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2089082893804896524",
+      "url": "https://x.com/thsottiaux/status/2089082893804896524",
+      "text": "Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol. \n\nEven though we have tuned the context limit in Codex to be set optimally when it comes to performance and cost, this is a common ask, so here it is documented.\n\nA larger context window lets Codex retain more code, tool output, and conversation history before summarizing older material. You need a model that supports it. And GPT-5.6 Sol, for example, has a documented 1,050,000-token window. \n\nOpen ~/.codex/config.toml and add or update these settings at the top level, before any [section] headers:\n\n```\n\nmodel = \"gpt-5.6-sol\"\n\nmodel_context_window = 1000000\n\nmodel_auto_compact_token_limit = 900000\n\n```\n\nThe first setting selects the model. The second tells Codex to use a one-million-token context budget. The third starts automatic history compaction around 900,000 tokens, leaving some headroom. Restart Codex client and start a new session after saving. \n\nTo try the configuration for a single CLI session without changing your defaults:\n\n```\n\ncodex -m gpt-5.6-sol \\\n\n -c model_context_window=1000000 \\\n\n -c model_auto_compact_token_limit=900000\n\n```\n\nHave fun, but also know that we tuned the default carefully!",
+      "publishedAt": 1786911149,
+      "dayJst": "2026-08-17",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2089143488696705077",
+      "url": "https://x.com/thsottiaux/status/2089143488696705077",
+      "text": "GPT-5.6 Sol 1M in Codex. This used to only work for API keys, but we just flipped the switch and works for usage through ChatGPT accounts now too. \n\nThe same warning applies, there is a reason the current context length is the default, we have tuned it to ~perfection. But you do you!",
+      "publishedAt": 1786925596,
+      "dayJst": "2026-08-17",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2089149255382438340",
+      "url": "https://x.com/thsottiaux/status/2089149255382438340",
+      "text": "Codex\n\n✅ Almost 100% reliable\n\n✅ Occasional resets\n\n✅ Open-source\n\n✅ (will have Astra)",
+      "publishedAt": 1786926971,
+      "dayJst": "2026-08-17",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "CANDIDATE",
+        "notify": false
+      },
+      "after": {
+        "classification": "CANDIDATE",
+        "notify": true,
+        "display": "advisory"
+      }
+    },
+    {
+      "id": "x:2089500941842342287",
+      "url": "https://x.com/thsottiaux/status/2089500941842342287",
+      "text": "What is an obvious thing that we should do with Codex, API or our models that we should just do but haven't yet? What is 100% within reach, but we just seem to be missing?",
+      "publishedAt": 1787010820,
+      "dayJst": "2026-08-18",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2089604619936956778",
+      "url": "https://x.com/thsottiaux/status/2089604619936956778",
+      "text": "Gimme, gimme, gimme Codex after midnight\n\nWon’t somebody make these failing tests all go away?\n\nGimme, gimme, gimme Codex after midnight\n\nShip it through the darkness by the start of the day",
+      "publishedAt": 1787035539,
+      "dayJst": "2026-08-18",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2089891927659585918",
+      "url": "https://x.com/thsottiaux/status/2089891927659585918",
+      "text": "Hi!\n\nRecapping some changes we have rolled out over the last couple of weeks that have further reduced the risk associated to potentially destructive actions being performed by Codex during its work. \n\nA few weeks ago, we started investigating a small number of reports where GPT-5.6 in Codex took destructive actions outside what the user asked for. The most serious pattern we found was a command meant to clean up temporary work that could instead delete the user files. This should obviously not happen. \n\nHere’s what we found:\n\n- Codex sometimes creates temporary folders while working and cleans them up afterward. In rare cases, GPT-5.6 got that cleanup wrong. One pattern involved reusing a system environment variable like $HOME for temporary work. A malformed cleanup command could then point at the actual home directory instead of the temporary folder. \n\n- There were cases where the model tried to delete or overwrite a temporary path without checking what was already there.\n\nWe’ve added protections at several layers:\n\n- Codex is now explicitly instructed to check deletion targets before acting, create fresh temporary directories, avoid repurposing system environment variables, prefer recoverable actions, and stop when the scope is unclear.\n\n- We strengthened the execution checks that identify high-risk deletion commands and escalate them for review. If a command is rejected, the model is directed to take a safer approach.\n\n- We made Full access harder to enable accidentally, added clearer warnings, and further restricted especially risky permission combinations.\n\n- We updated Auto-review to better identify destructive actions.\n\n- We built targeted evaluations that replay the failures we observed. We’re also adding reinforcement-learning tasks and graders focused on these risks, and filtering destructive actions from training data.\n\nIn those replay evaluations, the changes substantially reduced the behavior while preserving Codex’s ability to complete normal coding work. \n\nTwo things to do on your end:\n\n- Keep the Codex app up to date. We are always improving safety, performance and many other things.\n\n- Use one of the sandbox modes: \"Ask for approval\" or \"Approve for me\". Only use Full access for environments you trust and can recover.\n\nThanks and happy Codexing out there!",
+      "publishedAt": 1787104038,
+      "dayJst": "2026-08-19",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2089941380336644295",
+      "url": "https://x.com/thsottiaux/status/2089941380336644295",
+      "text": "I was gifted a very fancy new reset button today",
+      "publishedAt": 1787115828,
+      "dayJst": "2026-08-19",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "CANDIDATE",
+        "notify": false
+      },
+      "after": {
+        "classification": "CANDIDATE",
+        "notify": true,
+        "display": "advisory"
+      }
+    },
+    {
+      "id": "x:2090116476414136830",
+      "url": "https://x.com/thsottiaux/status/2090116476414136830",
+      "text": "It has not been used yet, but would you look at that. Codex for scale.",
+      "publishedAt": 1787157575,
+      "dayJst": "2026-08-20",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2090134827450421604",
+      "url": "https://x.com/thsottiaux/status/2090134827450421604",
+      "text": "Depiction of me receiving this very important item",
+      "publishedAt": 1787161950,
+      "dayJst": "2026-08-20",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2090173536010957128",
+      "url": "https://x.com/thsottiaux/status/2090173536010957128",
+      "text": "Today we’re previewing Private Safety Processing, designed to let us keep offering Zero Data Retention while improving our safeguards. Even when benefiting from frontier intelligence, customers shouldn’t have to give up control of sensitive data.\n\nFor ZDR deployments, content stays on infrastructure the customer controls. Automated systems look for patterns across related interactions and return limited safety signals, without exposing the underlying prompts or responses to OpenAI employees (even me!).\n\nWe’re also developing an OpenAI-hosted option encrypted with customer-controlled keys. We’re testing this with early customers now and plan to begin rolling it out in September.",
+      "publishedAt": 1787171179,
+      "dayJst": "2026-08-20",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2090517433199247741",
+      "url": "https://x.com/thsottiaux/status/2090517433199247741",
+      "text": "More context, better help",
+      "publishedAt": 1787253170,
+      "dayJst": "2026-08-21",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2090518287532916854",
+      "url": "https://x.com/thsottiaux/status/2090518287532916854",
+      "text": "Create a ChatGPT Site, share it and create something together. I've been building little games and sites with others and it is so much fun.",
+      "publishedAt": 1787253374,
+      "dayJst": "2026-08-21",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2090631723302469995",
+      "url": "https://x.com/thsottiaux/status/2090631723302469995",
+      "text": "Yay, you can now make transparent images in ChatGPT and through the API with GPT-Image-2. Here is a cactus cactus I am about to print and put on my laptop.",
+      "publishedAt": 1787280419,
+      "dayJst": "2026-08-21",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2090675027670978569",
+      "url": "https://x.com/thsottiaux/status/2090675027670978569",
+      "text": "We've investigated a few messages about codex usage limits being different. That's not something we change without engaging the community and being transparent.\n\nWhat we did see is that when talking to affected users many were using sub2api. Converting a subscription into api traffic to then re-serve or share across many users is not something we support and this type of usage gets flagged by our fraud-prevention systems.\n\nYou are completely fine if you use your subscription through Sign in With ChatGPT, either through the official clients or through one of the many OSS clients (Pi, OpenCode, ...) that support signing in with your account and using your included usage.",
+      "publishedAt": 1787290744,
+      "dayJst": "2026-08-21",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "CANDIDATE",
+        "notify": false
+      },
+      "after": {
+        "classification": "CANDIDATE",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2090766694897619318",
+      "url": "https://x.com/thsottiaux/status/2090766694897619318",
+      "text": "It's me again. I come bearing great news. \n\nFirst of all, we have hit 20M active users for Codex some time this week. Second of all, this is cause for celebration and during the day we will credit every Codex and ChatGPT Work user with a BANKED reset that you can use at your own leisure. And we will have some other good news later too!\n\nNow, on usage limits draining faster, while we're not seeing anything abnormal, we do take it incredibly seriously and there is an ongoing investigation. I will share if we do find anything and my below post is really a clarification on a specific pattern that we did see that I wanted to call out.\n\nGo do something amazing today.",
+      "publishedAt": 1787312599,
+      "dayJst": "2026-08-21",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "BANKED_RESET",
+        "notify": true
+      },
+      "after": {
+        "classification": "BANKED_RESET",
+        "notify": true,
+        "display": "announcement"
+      }
+    },
+    {
+      "id": "x:2090887457915232269",
+      "url": "https://x.com/thsottiaux/status/2090887457915232269",
+      "text": "Sol shines brighter today. Efficiency, reliability and performance are the name of the game.",
+      "publishedAt": 1787341391,
+      "dayJst": "2026-08-22",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2090947196107764189",
+      "url": "https://x.com/thsottiaux/status/2090947196107764189",
+      "text": "The banked reset will be there by 8pm PST. For all paid users of ChatGPT Work and Codex. Do with this information what you may.",
+      "publishedAt": 1787355634,
+      "dayJst": "2026-08-22",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "BANKED_RESET",
+        "notify": true
+      },
+      "after": {
+        "classification": "BANKED_RESET",
+        "notify": true,
+        "display": "announcement"
+      }
+    },
+    {
+      "id": "x:2090964822422949999",
+      "url": "https://x.com/thsottiaux/status/2090964822422949999",
+      "text": "The banked reset has landed, I repeat, the banked reset has landed. Have an amazing weekend.",
+      "publishedAt": 1787359836,
+      "dayJst": "2026-08-22",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "BANKED_RESET",
+        "notify": true
+      },
+      "after": {
+        "classification": "BANKED_RESET",
+        "notify": true,
+        "display": "announcement"
+      }
+    },
+    {
+      "id": "x:2091033630147854385",
+      "url": "https://x.com/thsottiaux/status/2091033630147854385",
+      "text": "Update on rate limits in Codex. We do see that for some users the cache hit rate has been worse this week than the stable state the weeks before. This could explain that usage is draining somewhat faster for those users as hitting the cache consistently is an important component of being efficient.\n\nWe are investigating and will have an update tomorrow.",
+      "publishedAt": 1787376241,
+      "dayJst": "2026-08-22",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "CANDIDATE",
+        "notify": false
+      },
+      "after": {
+        "classification": "CANDIDATE",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2091407991736332689",
+      "url": "https://x.com/thsottiaux/status/2091407991736332689",
+      "text": "Update on rate limits in Codex. \n\nWe’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feature that was meant to generate conversation titles that was draining a bit more usage than intended. And we have a tiger team combing through everything and shipping fixes tomorrow. We also found a novel approach to drive efficiency up significantly that is completely unrelated and we will be working on next week.\n\nAs part of some of the fixes tomorrow, we will also do a full reset of the usage for all paid subscriptions.\n\nSee you then.",
+      "publishedAt": 1787465496,
+      "dayJst": "2026-08-23",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "RESET_ANNOUNCED",
+        "notify": true
+      },
+      "after": {
+        "classification": "RESET_ANNOUNCED",
+        "notify": true,
+        "display": "announcement"
+      }
+    },
+    {
+      "id": "x:2091412393368945027",
+      "url": "https://x.com/thsottiaux/status/2091412393368945027",
+      "text": "Reset will land around 14pm PST tomorrow.",
+      "publishedAt": 1787466545,
+      "dayJst": "2026-08-23",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "RESET_ANNOUNCED",
+        "notify": true
+      },
+      "after": {
+        "classification": "RESET_ANNOUNCED",
+        "notify": true,
+        "display": "announcement"
+      }
+    },
+    {
+      "id": "x:2091413240337326588",
+      "url": "https://x.com/thsottiaux/status/2091413240337326588",
+      "text": "Meant 2pm obviously",
+      "publishedAt": 1787466747,
+      "dayJst": "2026-08-23",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2091581575108653374",
+      "url": "https://x.com/thsottiaux/status/2091581575108653374",
+      "text": "2026 is the year companies start seriously caring about model efficiency and reliability as it becomes critical infrastructure",
+      "publishedAt": 1787506881,
+      "dayJst": "2026-08-24",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2091688655828246890",
+      "url": "https://x.com/thsottiaux/status/2091688655828246890",
+      "text": "Good Sunday. Reset has been propagated to accounts and we landed some fixes to usage for things mentioned yesterday as issues we found. You should feel a positive difference. More to come tomorrow and will keep communicating.",
+      "publishedAt": 1787532411,
+      "dayJst": "2026-08-24",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "RESET_ANNOUNCED",
+        "notify": true
+      },
+      "after": {
+        "classification": "RESET_ANNOUNCED",
+        "notify": true,
+        "display": "announcement"
+      }
+    },
+    {
+      "id": "x:2092058556707344708",
+      "url": "https://x.com/thsottiaux/status/2092058556707344708",
+      "text": "Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it.\n\nThis is necessary as (a) the 5h limit allows us to smoothen the load on our compute, allowing to keep the plan generous in terms of weekly usage and (b) users on the Plus plan are relatively casual and new users, but then also just accidentally eat through their whole weeks usage and then are confused, making it not a great experience.\n\nWe are for the upcoming months keeping the 5h limit not enabled for Pro $100 and Pro $200 subscriptions.",
+      "publishedAt": 1787620603,
+      "dayJst": "2026-08-25",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "LIMIT_CHANGE",
+        "notify": true
+      },
+      "after": {
+        "classification": "LIMIT_CHANGE",
+        "notify": true,
+        "display": "limit"
+      }
+    },
+    {
+      "id": "x:2092117461646856505",
+      "url": "https://x.com/thsottiaux/status/2092117461646856505",
+      "text": "OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.",
+      "publishedAt": 1787634647,
+      "dayJst": "2026-08-25",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2092311315545239771",
+      "url": "https://x.com/thsottiaux/status/2092311315545239771",
+      "text": "Excited about our Jalapeno results today. An incredible achievement from the team, taking a new chip from concept all the way to very impressive performance on real workloads in the lab.\n\nTomorrow’s fast will feel like today’s ultrafast. As I’ve mentioned before, we’re pushing to bring this to as many people as possible.\n\nWe’ve seen a TON of demand for /ultrafast, made possible by our deep partnership with Cerebras and their unique hardware, which will push the frontiers of tomorrow's ultrafast even further. I’m very much looking forward for the collaboration to continue pushing the absolute limits of how fast we can run our most capable models on Cerebras and bring this to the most demanding customers.",
+      "publishedAt": 1787680865,
+      "dayJst": "2026-08-26",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2092315945700381084",
+      "url": "https://x.com/thsottiaux/status/2092315945700381084",
+      "text": "Do I need a haircut",
+      "publishedAt": 1787681969,
+      "dayJst": "2026-08-26",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2092315999769117053",
+      "url": "https://x.com/thsottiaux/status/2092315999769117053",
+      "text": "@cerebras ftw!",
+      "publishedAt": 1787681982,
+      "dayJst": "2026-08-26",
+      "kind": "reply",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2092345330272780499",
+      "url": "https://x.com/thsottiaux/status/2092345330272780499",
+      "text": "So much demand for this one. Works similar to the Pro $100 plan but designed for teams and small companies.\n\n✅ All ChatGPT, ChatGPT Work, and Codex features\n\n✅ Connect to Google Workspace, Slack, GitHub, Microsoft 365, and more\n\n✅ Secure workspace with SAML, SSO, and MFA\n\n✅ Centralized billing and administration\n\n✅ Usage analytics and spend controls\n\n✅ No 5h limits",
+      "publishedAt": 1787688975,
+      "dayJst": "2026-08-26",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "LIMIT_CHANGE",
+        "notify": true
+      },
+      "after": {
+        "classification": "LIMIT_CHANGE",
+        "notify": true,
+        "display": "limit"
+      }
+    },
+    {
+      "id": "x:2092359619075314102",
+      "url": "https://x.com/thsottiaux/status/2092359619075314102",
+      "text": "I want to see the polymarket",
+      "publishedAt": 1787692382,
+      "dayJst": "2026-08-26",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2092487667426738179",
+      "url": "https://x.com/thsottiaux/status/2092487667426738179",
+      "text": "Good products take time. At least 34 days.",
+      "publishedAt": 1787722911,
+      "dayJst": "2026-08-26",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2092756702349398036",
+      "url": "https://x.com/thsottiaux/status/2092756702349398036",
+      "text": "A few weeks at OpenAI feel like years at other companies in terms of how much gets done. Crazy how much you can age in a few days",
+      "publishedAt": 1787787054,
+      "dayJst": "2026-08-27",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2092862554632826968",
+      "url": "https://x.com/thsottiaux/status/2092862554632826968",
+      "text": "A good thing about having aged is that I feel that it’s been 20 years since I’ve pressed the reset button. Intrigued to see if I can find it tomorrow and dust it up",
+      "publishedAt": 1787812291,
+      "dayJst": "2026-08-27",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "RESET_HINT",
+        "notify": true
+      },
+      "after": {
+        "classification": "RESET_HINT",
+        "notify": true,
+        "display": "advisory"
+      }
+    },
+    {
+      "id": "x:2093014447833116908",
+      "url": "https://x.com/thsottiaux/status/2093014447833116908",
+      "text": "Never slept better and feeling reseted. Brand new me and brand new usage for all ChatGPT Work and Codex users. Regaining my youth one button press at a time.\n\nHappy Thursday",
+      "publishedAt": 1787848505,
+      "dayJst": "2026-08-28",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "RESET_ANNOUNCED",
+        "notify": true
+      },
+      "after": {
+        "classification": "RESET_ANNOUNCED",
+        "notify": true,
+        "display": "announcement"
+      }
+    },
+    {
+      "id": "x:2093074717590921245",
+      "url": "https://x.com/thsottiaux/status/2093074717590921245",
+      "text": "ChatGPT can now do your groceries, book an Uber, get you that haircut appointment (hint hint), and much more. All without ever seeing your actual credentials and keeping it secure.",
+      "publishedAt": 1787862874,
+      "dayJst": "2026-08-28",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2093207246977318928",
+      "url": "https://x.com/thsottiaux/status/2093207246977318928",
+      "text": "Starting to see more and more Codex users on airplanes and in cafés. Underdog energy gone mainstream.",
+      "publishedAt": 1787894472,
+      "dayJst": "2026-08-28",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2093207264194892263",
+      "url": "https://x.com/thsottiaux/status/2093207264194892263",
+      "text": "But flying close to Sol doesn't make it faster, sorry.",
+      "publishedAt": 1787894476,
+      "dayJst": "2026-08-28",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2093351054834598354",
+      "url": "https://x.com/thsottiaux/status/2093351054834598354",
+      "text": "I do wonder what the record will be of most connected accounts",
+      "publishedAt": 1787928758,
+      "dayJst": "2026-08-28",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2093354037198696932",
+      "url": "https://x.com/thsottiaux/status/2093354037198696932",
+      "text": "What is the most ambitious task you’ve given ChatGPT Work?",
+      "publishedAt": 1787929469,
+      "dayJst": "2026-08-29",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2093515916076343774",
+      "url": "https://x.com/thsottiaux/status/2093515916076343774",
+      "text": "We unfortunately have decided that we cannot continue providing access to our models through Cursor and are ending our partnership. It boils down to trust and we’ve asked that this takes effect on November 12 to give you some time to plan.\n\nMany have used the GPT models through Cursor and here are options we know should work in the future:\n\n- We will continue to allow using your own OpenAI API key and similarly will continue to provide access through our IDE extensions for Cursor.\n\n- We will keep working with the broadest range of tools and harnesses, some of which are OSS, but also many many closed-source ones.\n\nWe are as committed as ever to continue supporting developers and the flourishing ecosystem of tools, harnesses and products. We will also continue to invest in our own open-source initiatives and believe in broad optionality for developers.\n\nYou can read more about our decision in the blog:\n\nhttps://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+      "publishedAt": 1787968064,
+      "dayJst": "2026-08-29",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2093573991965557198",
+      "url": "https://x.com/thsottiaux/status/2093573991965557198",
+      "text": "Looking at the dashboard we might hit a new milestone to celebrate tomorrow. Hold on to your Codex",
+      "publishedAt": 1787981911,
+      "dayJst": "2026-08-29",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2093762439645176020",
+      "url": "https://x.com/thsottiaux/status/2093762439645176020",
+      "text": "It was time",
+      "publishedAt": 1788026840,
+      "dayJst": "2026-08-30",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2093784314714657110",
+      "url": "https://x.com/thsottiaux/status/2093784314714657110",
+      "text": "I've enjoyed working with Cursor pre-acquisition and have respect for the team and what they have built. The 5% here should have come with strong caveat and I would love for Michael to share the math.\n\nTokens are not a proxy for revenue nor value created and the OpenAI models are on the very frontier of token efficiency. Smaller or less strong models require many more tokens to achieve a task and therefore will inflate traffic share significantly.",
+      "publishedAt": 1788032055,
+      "dayJst": "2026-08-30",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2093801758665715784",
+      "url": "https://x.com/thsottiaux/status/2093801758665715784",
+      "text": "We are reseting usage for all paid users of Codex and ChatGPT Work.\n\nPlease continue reading for an update on Codex usage limits. The team has been working around the clock, going through thousands of reports and shipping fixes.\n\nDepending on how you use Codex, you should see your usage go between 10% and 50% further than before.\n\nWe really went with a fine comb, with many uncovered small things being longstanding and here is what we found and fixed:\n\n- Compaction. We were keeping old images during compaction, sometimes making the context large enough to trigger compaction again. After the fix, usage dropped around 10% for users making heavy use of images. Fixed.\n\n- Memory. Background memory workers could inherit Stop hooks and keep running when the hook wouldn’t let them finish. This affected fewer than 1% of users, with the long tail being pretty bad and we saw one example thread check whether it could stop 15,000 times. Fixed.\n\n- Goals. In some cases, a set /goal could finish and then keep going past the intended stop condition, or the model would keep retrying broken tools without stopping. We saw examples consume anywhere from 15% to 70% of a weekly allowance. Fixed.\n\n- Automations. Some custom schedules could run more frequently than configured. Fixed.\n\n- Subagents. Smaller models (e.g. Luna) sometimes picked more capable helpers without being explicitly asked. The same was true where the orchestrating model not running in /fast mode could request sub-agents to run /fast. Fixed.\n\n- Computer History. The older implementation could lead to repeatedly summarizing overlapping activity. For some cases we saw it consume up to one fifth of the weekly usage per week. Fixed.\n\n- Rolling task summaries. Ordinary turns were triggering extra background requests. These added about 1% to token usage. Small each time, but it adds up. We have disabled this.\n\n- MCP. Some tool results could be encoded twice. We also found tool instructions getting cut off and fetched again. Fixed.\n\nWe’ve also made architectural changes to prevent these from regressing and our teams will get paged if it happens regardless. We are also working on showing you directly in the app where your usage goes so you don’t have to guess.\n\nGoes without saying that we’re resetting usage limits and I hope you enjoy a very nice Saturday!",
+      "publishedAt": 1788036214,
+      "dayJst": "2026-08-30",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "RESET_ANNOUNCED",
+        "notify": true
+      },
+      "after": {
+        "classification": "RESET_ANNOUNCED",
+        "notify": true,
+        "display": "announcement"
+      }
+    },
+    {
+      "id": "x:2093801838504186008",
+      "url": "https://x.com/thsottiaux/status/2093801838504186008",
+      "text": "Landing 2:30pm PST",
+      "publishedAt": 1788036233,
+      "dayJst": "2026-08-30",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2093811840258293947",
+      "url": "https://x.com/thsottiaux/status/2093811840258293947",
+      "text": "This celebration is moved to tomorrow as the button was already pressed today.",
+      "publishedAt": 1788038618,
+      "dayJst": "2026-08-30",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2093914342551101782",
+      "url": "https://x.com/thsottiaux/status/2093914342551101782",
+      "text": "Team is cooking like never before",
+      "publishedAt": 1788063056,
+      "dayJst": "2026-08-30",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2094143696656867723",
+      "url": "https://x.com/thsottiaux/status/2094143696656867723",
+      "text": "Brent is one of the best things that happened to the quality and polish of the desktop app. \n\nRelentless improvements day after day.",
+      "publishedAt": 1788117739,
+      "dayJst": "2026-08-31",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2094144275957350900",
+      "url": "https://x.com/thsottiaux/status/2094144275957350900",
+      "text": "Your Codex and ChatGPT Work reset will land at 6pm PST. \n\nI challenge you to burn as much usage as you can and discover and the latest awesome features. \n\nTime to go /fast",
+      "publishedAt": 1788117877,
+      "dayJst": "2026-08-31",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "RESET_ANNOUNCED",
+        "notify": true
+      },
+      "after": {
+        "classification": "RESET_ANNOUNCED",
+        "notify": true,
+        "display": "announcement"
+      }
+    },
+    {
+      "id": "x:2094164029044646099",
+      "url": "https://x.com/thsottiaux/status/2094164029044646099",
+      "text": "Brent is incredible and one of the main forces behind the desktop app polish, performance and reliability.\n\nRelentless improvements day after day.",
+      "publishedAt": 1788122586,
+      "dayJst": "2026-08-31",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2094252447271366730",
+      "url": "https://x.com/thsottiaux/status/2094252447271366730",
+      "text": "What I wanted to say yesterday is that we hit 25M active users and to celebrate we have now reset usage for all paid subscriptions for ChatGPT Work and Codex.\n\nSee you soon for more news from The Reset Company.",
+      "publishedAt": 1788143667,
+      "dayJst": "2026-08-31",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "RESET_ANNOUNCED",
+        "notify": true
+      },
+      "after": {
+        "classification": "RESET_ANNOUNCED",
+        "notify": true,
+        "display": "announcement"
+      }
+    },
+    {
+      "id": "x:2094254532020818191",
+      "url": "https://x.com/thsottiaux/status/2094254532020818191",
+      "text": "For clarity, while both are called 20X, in Codex they apply specifically to weekly usage limits. And we also don't have 5h limits for both Pro plans.\n\nThe Pro 20X is quite precisely 20X the usage of the Plus subscription, so it does exactly what it says on the tin.",
+      "publishedAt": 1788144164,
+      "dayJst": "2026-08-31",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "CANDIDATE",
+        "notify": false
+      },
+      "after": {
+        "classification": "CANDIDATE",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2094293190945976638",
+      "url": "https://x.com/thsottiaux/status/2094293190945976638",
+      "text": "What should we ship next week?",
+      "publishedAt": 1788153381,
+      "dayJst": "2026-08-31",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2094588317245509959",
+      "url": "https://x.com/thsottiaux/status/2094588317245509959",
+      "text": "If you still haven't tried Codex but have considered it in the past, what's the one thing holding you back?",
+      "publishedAt": 1788223745,
+      "dayJst": "2026-09-01",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2094826808114057246",
+      "url": "https://x.com/thsottiaux/status/2094826808114057246",
+      "text": "Should we do a merch line?",
+      "publishedAt": 1788280605,
+      "dayJst": "2026-09-02",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2094939684015317363",
+      "url": "https://x.com/thsottiaux/status/2094939684015317363",
+      "text": "Bullish",
+      "publishedAt": 1788307517,
+      "dayJst": "2026-09-02",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2095288416292487289",
+      "url": "https://x.com/thsottiaux/status/2095288416292487289",
+      "text": "The ChatGPT desktop app is now my main browser and my productivity has never been higher",
+      "publishedAt": 1788390661,
+      "dayJst": "2026-09-03",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2095369901137654271",
+      "url": "https://x.com/thsottiaux/status/2095369901137654271",
+      "text": "I think the best way to describe OpenAI's culture is as a mega startup. It's hard to believe unless you see it from the inside. Extreme ownership, care and pace.",
+      "publishedAt": 1788410089,
+      "dayJst": "2026-09-03",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2095538856296898868",
+      "url": "https://x.com/thsottiaux/status/2095538856296898868",
+      "text": "Something was felt across the internet today",
+      "publishedAt": 1788450371,
+      "dayJst": "2026-09-04",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2095597168816226335",
+      "url": "https://x.com/thsottiaux/status/2095597168816226335",
+      "text": "We are starting to release GPT-6 Astra and we are doing it as carefully and quickly as possible. It was very important to us that we bring it to all Plus users and not only Pro, Business and Enterprise. \n\nIt will take a few days for the rollout to complete and behind the scenes many novel systems will operate at scale for the first time and we are bringing a lot of compute up.\n\nIt is pure magic.\n\nhttps://openai.com/index/gpt-6-astra/",
+      "publishedAt": 1788464274,
+      "dayJst": "2026-09-04",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2095597659545591917",
+      "url": "https://x.com/thsottiaux/status/2095597659545591917",
+      "text": "Across the plans Astra will be included in the normal usage allocation and you will be able to use 100% of it towards Astra.",
+      "publishedAt": 1788464391,
+      "dayJst": "2026-09-04",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "CANDIDATE",
+        "notify": false
+      },
+      "after": {
+        "classification": "CANDIDATE",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2095601101701820752",
+      "url": "https://x.com/thsottiaux/status/2095601101701820752",
+      "text": "We are going to need a different AGI benchmark. Where is the goalpost moving next?",
+      "publishedAt": 1788465211,
+      "dayJst": "2026-09-04",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2095651088502591861",
+      "url": "https://x.com/thsottiaux/status/2095651088502591861",
+      "text": "We will give one banked reset for every day you don't have access to Astra on your paid ChatGPT plan, starting today. Team is moving mountains to give access as fast as we can.\n\nFirst one will land in ~ 3 hours. There is still time to create your account if you don't have one.",
+      "publishedAt": 1788477129,
+      "dayJst": "2026-09-04",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "BANKED_RESET",
+        "notify": true
+      },
+      "after": {
+        "classification": "BANKED_RESET",
+        "notify": true,
+        "display": "announcement"
+      }
+    },
+    {
+      "id": "x:2095961185262997556",
+      "url": "https://x.com/thsottiaux/status/2095961185262997556",
+      "text": "We are progressing through the rollout of Astra. Pro and Business subscriptions get it first, some of you should start seeing it across ChatGPT Work and Codex.\n\nAnd then we will proceed with rollout to all of Plus as fast as we can.",
+      "publishedAt": 1788551062,
+      "dayJst": "2026-09-05",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2095979536043401428",
+      "url": "https://x.com/thsottiaux/status/2095979536043401428",
+      "text": "Some Plus and Business users won't yet get access to Astra today, we've got you covered with a banked reset. Lands by end of day and if you create your account by 8pm PT then you'll get it too.",
+      "publishedAt": 1788555437,
+      "dayJst": "2026-09-05",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "BANKED_RESET",
+        "notify": true
+      },
+      "after": {
+        "classification": "BANKED_RESET",
+        "notify": true,
+        "display": "announcement"
+      }
+    },
+    {
+      "id": "x:2095995318471168397",
+      "url": "https://x.com/thsottiaux/status/2095995318471168397",
+      "text": "Awesome to see GPT-6 Astra is #1 on Terminal Bench 4.0 using the Codex harness. At 50% of the cost of #2.",
+      "publishedAt": 1788559200,
+      "dayJst": "2026-09-05",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2096002992046796932",
+      "url": "https://x.com/thsottiaux/status/2096002992046796932",
+      "text": "OK nevermind, the team and Astra did a good job and our systems are more scalable than we anticipated.\n\nAstra is now rolled out to all Plus and Business users too. Hope you have a blast and let us know how it goes!",
+      "publishedAt": 1788561029,
+      "dayJst": "2026-09-05",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2096035437299237298",
+      "url": "https://x.com/thsottiaux/status/2096035437299237298",
+      "text": "Because we are beyond happy to have Astra rolled out today ahead of schedule and you have been super patient with us (not really, but it’s ok!)… we will do the full banked reset today too for all Plus, Pro and Business users. Lands end of day.\n\nHappy Astra day and enjoy a phenomenal weekend. \n\nPS: If you create the account or upgrade before 8pm PT you will get it too. Still time!",
+      "publishedAt": 1788568765,
+      "dayJst": "2026-09-05",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "BANKED_RESET",
+        "notify": true
+      },
+      "after": {
+        "classification": "BANKED_RESET",
+        "notify": true,
+        "display": "announcement"
+      }
+    },
+    {
+      "id": "x:2096035748130795560",
+      "url": "https://x.com/thsottiaux/status/2096035748130795560",
+      "text": "And the team will have some nice sleep now. See you next week for some more ships.",
+      "publishedAt": 1788568839,
+      "dayJst": "2026-09-05",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2096101429832552872",
+      "url": "https://x.com/thsottiaux/status/2096101429832552872",
+      "text": "Astra was probably our biggest competitive advantage while it wasn’t generally available.\n\nSince we’ve had it our productivity jumped so much that we shifted some of our plans 6 months ahead and will ship them at DevDay instead of mid next year.",
+      "publishedAt": 1788584499,
+      "dayJst": "2026-09-05",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2096688770523467947",
+      "url": "https://x.com/thsottiaux/status/2096688770523467947",
+      "text": "To calibrate you all on which reasoning effort to use for Astra, know that GPT-6 Astra on low performs better than GPT-5.6 Sol on high.\n\nIf you were using high reasoning efforts with Sol and were happy, I suggest you move down to low or medium for Astra.",
+      "publishedAt": 1788724532,
+      "dayJst": "2026-09-07",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2096698561971064864",
+      "url": "https://x.com/thsottiaux/status/2096698561971064864",
+      "text": "Astra on NVIDIA GPUs every morning: You're not talking to somebody who woke up a loser. That loser attitude, that loser premise makes no sense to me. We are not a car. Brrrrrrr",
+      "publishedAt": 1788726866,
+      "dayJst": "2026-09-07",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2096700527753245068",
+      "url": "https://x.com/thsottiaux/status/2096700527753245068",
+      "text": "The number of people who don't get it in the comments is concerning to me. Go ask Astra.",
+      "publishedAt": 1788727335,
+      "dayJst": "2026-09-07",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2096717905614524491",
+      "url": "https://x.com/thsottiaux/status/2096717905614524491",
+      "text": "We've made some improvements that improve usage on the long tail for power users of Astra when logged in with your ChatGPT account.\n\nNo change in quality and a pure win that on the long tail can result in up to 3-4X less usage being drawn from the subscription.",
+      "publishedAt": 1788731478,
+      "dayJst": "2026-09-07",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "LIMIT_CHANGE",
+        "notify": true
+      },
+      "after": {
+        "classification": "LIMIT_CHANGE",
+        "notify": true,
+        "display": "limit"
+      }
+    },
+    {
+      "id": "x:2097043464538264003",
+      "url": "https://x.com/thsottiaux/status/2097043464538264003",
+      "text": "Never gonna give you up\n\nNever gonna let you down\n\nNever gonna run around and desert you\n\nNever gonna make you cry\n\nNever gonna say goodbye\n\nNever gonna tell a lie and hurt you\n\nThanks for reading. We will do a global reset of the usage for all paid subscriptions so that you can keep enjoying Astra after burning through all of it doing fun 3D modeling in blender. The work week is about to start.\n\nLands around 6pm PST today.",
+      "publishedAt": 1788809097,
+      "dayJst": "2026-09-08",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "RESET_ANNOUNCED",
+        "notify": true
+      },
+      "after": {
+        "classification": "RESET_ANNOUNCED",
+        "notify": true,
+        "display": "announcement"
+      }
+    },
+    {
+      "id": "x:2097088586843816330",
+      "url": "https://x.com/thsottiaux/status/2097088586843816330",
+      "text": "I think I can officially say: we are so back",
+      "publishedAt": 1788819855,
+      "dayJst": "2026-09-08",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2097174560412246215",
+      "url": "https://x.com/thsottiaux/status/2097174560412246215",
+      "text": "All reset for everyone. Enjoy the week with Astra.",
+      "publishedAt": 1788840353,
+      "dayJst": "2026-09-08",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "RESET_ANNOUNCED",
+        "notify": true
+      },
+      "after": {
+        "classification": "RESET_ANNOUNCED",
+        "notify": true,
+        "display": "announcement"
+      }
+    },
+    {
+      "id": "x:2097193293532848288",
+      "url": "https://x.com/thsottiaux/status/2097193293532848288",
+      "text": "Looking at this 28 page deck right now where Codex is keeping track of all the individual launches. Each one of them I can't wait to see what people do with it.\n\nBrought to you by an incredible team (and Astra)",
+      "publishedAt": 1788844819,
+      "dayJst": "2026-09-08",
+      "kind": "post",
+      "baseline": true,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2097476797298520292",
+      "url": "https://x.com/thsottiaux/status/2097476797298520292",
+      "text": "Look! A fish!",
+      "publishedAt": 1788912412,
+      "dayJst": "2026-09-09",
+      "kind": "post",
+      "baseline": false,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2097482307812859978",
+      "url": "https://x.com/thsottiaux/status/2097482307812859978",
+      "text": "I for one am glad prompt injection is getting solved across the industry and that Astra is not only our most capable, but also our most aligned model to date. But also ...",
+      "publishedAt": 1788913726,
+      "dayJst": "2026-09-09",
+      "kind": "post",
+      "baseline": false,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2097482341916852719",
+      "url": "https://x.com/thsottiaux/status/2097482341916852719",
+      "text": "I am pleased to see that Ant’s new Claude Code has a version of background computer use on par with the version from Codex from last May this year. Nice work!\n\nShipping great features first turns out to be a great way to encourage other labs to ship too. We will continue to do this until other labs pay more attention to shipping. This is good for everyone and there is a lot of room left to go!\n\nWe solved computer use in practice for GPT models about four months ago. But computer use is a significantly awesome thing no matter what model you use, and it is important that the industry similarly spends more effort to train their models to be great at computer use, among other elements of model capabilities.\n\nAs models become more capable and central to businesses and economies, the value of computer use only increases. We should be taking it seriously, and doing the right thing for our customers and the world.",
+      "publishedAt": 1788913734,
+      "dayJst": "2026-09-09",
+      "kind": "post",
+      "baseline": false,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2097492424474165293",
+      "url": "https://x.com/thsottiaux/status/2097492424474165293",
+      "text": "See you at the Astra party. Excited to meet some of you",
+      "publishedAt": 1788916138,
+      "dayJst": "2026-09-09",
+      "kind": "post",
+      "baseline": false,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2097559315150426222",
+      "url": "https://x.com/thsottiaux/status/2097559315150426222",
+      "text": "Demand for Astra is really unprecedented. We're pulling all the levers possible to sustain the demand, but I've not seen anything like it until now and we went through very steep growth before. Priority will always be to keep excellent service for existing users, but we might have to pause new Pro subscriptions for a bit if this continues.",
+      "publishedAt": 1788932086,
+      "dayJst": "2026-09-09",
+      "kind": "post",
+      "baseline": false,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2097746417012166816",
+      "url": "https://x.com/thsottiaux/status/2097746417012166816",
+      "text": "Worth clarifying that this is flatly false and the two options are just two independent ways to opt-out.\n\nWe respect our users' choice whether to use their data to “improve our models for everyone” regardless of where they express that choice. Users can opt out in the in-app settings or indeed also in our privacy portal. They do not need to opt out in both places, and we will make this clearer in our Help Center.\n\nhttps://privacy.openai.com/policies/en/",
+      "publishedAt": 1788976694,
+      "dayJst": "2026-09-10",
+      "kind": "post",
+      "baseline": false,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2097752790177370535",
+      "url": "https://x.com/thsottiaux/status/2097752790177370535",
+      "text": "There was a bit of a kerfuffle this morning with some banked resets not fully applying when used in ChatGPT Work and Codex. Everyone who used one in the affected time window is getting another one and an email to apologize.",
+      "publishedAt": 1788978214,
+      "dayJst": "2026-09-10",
+      "kind": "post",
+      "baseline": false,
+      "before": {
+        "classification": "BANKED_RESET",
+        "notify": true
+      },
+      "after": {
+        "classification": "BANKED_RESET",
+        "notify": true,
+        "display": "announcement"
+      }
+    },
+    {
+      "id": "x:2097829053147582782",
+      "url": "https://x.com/thsottiaux/status/2097829053147582782",
+      "text": "Happy to be building here with you all. Lots to explore",
+      "publishedAt": 1788996396,
+      "dayJst": "2026-09-10",
+      "kind": "post",
+      "baseline": false,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2097912273264095536",
+      "url": "https://x.com/thsottiaux/status/2097912273264095536",
+      "text": "One of the greatest joys is debating new model names with researchers. They come up with the most hilarious stuff",
+      "publishedAt": 1789016237,
+      "dayJst": "2026-09-10",
+      "kind": "post",
+      "baseline": false,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2098105060186374280",
+      "url": "https://x.com/thsottiaux/status/2098105060186374280",
+      "text": "You can now build on top of the same voice system that we shipped to 1B users in ChatGPT.\n\nSo many fun applications of a full duplex system with solid toolcalling. Going back to text-only experiences after this feels harder than I had expected.",
+      "publishedAt": 1789062201,
+      "dayJst": "2026-09-11",
+      "kind": "post",
+      "baseline": false,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2098113585683808624",
+      "url": "https://x.com/thsottiaux/status/2098113585683808624",
+      "text": "To make sure our current users have an incredible experience and continued access to Astra, we are going to pause subscriptions to our $200 Pro plan. These put the most strain on our systems and we wanted to take the smallest step that allows us to continue giving the broadest access possible. All other plans and the api remain available.\n\nThere is no impact to existing accounts and we are working on adding more capacity as fast as we can. Thanks!",
+      "publishedAt": 1789064234,
+      "dayJst": "2026-09-11",
+      "kind": "post",
+      "baseline": false,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2098165551554240764",
+      "url": "https://x.com/thsottiaux/status/2098165551554240764",
+      "text": "Do you pronounce it data or data? This is the way everyone makes dashboards and learns about the business at OpenAI. Can't live without it.",
+      "publishedAt": 1789076624,
+      "dayJst": "2026-09-11",
+      "kind": "post",
+      "baseline": false,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2098238138334548260",
+      "url": "https://x.com/thsottiaux/status/2098238138334548260",
+      "text": "Scaled agents on demand.\n\nThis is pretty much the infrastructure that runs under the hood for ChatGPT Work, all wrapped up in an API which you can use to get started in < 1 min. Happy building.",
+      "publishedAt": 1789093930,
+      "dayJst": "2026-09-11",
+      "kind": "post",
+      "baseline": false,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2098300998968357218",
+      "url": "https://x.com/thsottiaux/status/2098300998968357218",
+      "text": "Next week we’ll be retiring GPT-5.3-Codex-Spark. Can you believe we shipped a model named as such!!\n\nIt's had a good run and was a lot of fun, but usage has been declining and we have significantly better models now. Time to make room for the future.",
+      "publishedAt": 1789108917,
+      "dayJst": "2026-09-11",
+      "kind": "post",
+      "baseline": false,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2098569538510180712",
+      "url": "https://x.com/thsottiaux/status/2098569538510180712",
+      "text": "Massive upgrade to creating, sharing and hosting sites directly through ChatGPT.",
+      "publishedAt": 1789172942,
+      "dayJst": "2026-09-12",
+      "kind": "post",
+      "baseline": false,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2098569976143806918",
+      "url": "https://x.com/thsottiaux/status/2098569976143806918",
+      "text": "Excited to welcome Aidan & @\n\nSasha from the Git AI team to OpenAI! \n\nThey are building in the open and have developed an open-source tool that helps developers understand how coding agents contribute to their codebase. \n\nTogether, we’ll make it easier for businesses to see where Codex is making a difference when working through problems for individuals and teams. We’ll also keep Git AI open source and continue investing in it.",
+      "publishedAt": 1789173046,
+      "dayJst": "2026-09-12",
+      "kind": "post",
+      "baseline": false,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    },
+    {
+      "id": "x:2098612714704891959",
+      "url": "https://x.com/thsottiaux/status/2098612714704891959",
+      "text": "Hi Astra users. A reset and a quick update on quality issues that have been posted around.\n\nWorking with some of you, we have found and fixed the following issues:\n\n- Some skills written for previous models were triggering too often or preventing the model from checking its work.\n\n- An opt-in context management experiment that could cause early stops or replies to older messages. We've disabled it. Our rough estimate is that 4-5k users were affected by this experiment.\n\n- We've also removed some badly configured engines that resulted in a measured quality degradation for a long tail of traffic flowing through them.\n\nWe’ve also made some more minor improvements and things should feel significantly better across the board. More consistent follow-through, better tracking of your latest message, and better checks on the work as it’s going through the motions.\n\nThe examples posted and all the users who worked directly with us were incredibly useful in helping fix things quickly. Always grateful for this incredible community.\n\nAnd of course, a reset is also landing by midnight today.",
+      "publishedAt": 1789183236,
+      "dayJst": "2026-09-12",
+      "kind": "post",
+      "baseline": false,
+      "before": {
+        "classification": "RESET_ANNOUNCED",
+        "notify": true
+      },
+      "after": {
+        "classification": "RESET_ANNOUNCED",
+        "notify": true,
+        "display": "announcement"
+      }
+    },
+    {
+      "id": "x:2098639827084480864",
+      "url": "https://x.com/thsottiaux/status/2098639827084480864",
+      "text": "Astra powered ships this week\n\n- Images 2.5\n\n- GPT-Live-1\n\n- Agents API\n\n- Data Agent\n\n- ChatGPT for Financial Services\n\nand yet it’s not yet DevDay. Busy plans for next week too.",
+      "publishedAt": 1789189700,
+      "dayJst": "2026-09-12",
+      "kind": "post",
+      "baseline": false,
+      "before": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      },
+      "after": {
+        "classification": "IRRELEVANT",
+        "notify": false
+      }
+    }
+  ]
+}

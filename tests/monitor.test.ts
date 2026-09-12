@@ -30,12 +30,12 @@ test('A–D: deterministic classifier and negative controls',()=>{
   ['All reset for everyone. Enjoy the week with Astra.','RESET_ANNOUNCED'],
   ['Codex weekly allowance has doubled.','LIMIT_CHANGE'],
   ['ChatGPT now draws 3-4X less usage from the subscription.','LIMIT_CHANGE'],
-  ['Codex can reset the git branch and reduce memory usage.','IRRELEVANT'],
+  ['Codex can reset the git branch and reduce memory usage.','CANDIDATE'],
   ['We will not reset usage limits tomorrow.','CANDIDATE'],
   ['Codex usage reset behavior is documented here.','CANDIDATE']
   ,['Codex weekly benchmarks show more throughput.','IRRELEVANT']
   ,['Usage limits will reset at 6pm tomorrow.','RESET_ANNOUNCED']
- ]) {const v=classify(text);assert.equal(v.classification,expected,text);assert.equal(v.notify,!['IRRELEVANT','CANDIDATE'].includes(expected));}
+ ]) {const v=classify(text);assert.equal(v.classification,expected,text);assert.equal(v.notify,expected!=='IRRELEVANT');}
 });
 test('RSS, Atom, entities, quote isolation, wrong author and malformed feeds',async()=>{
  const [p]=await parseFeed(feed('20',"Who says it won&apos;t reset in a while 👀<blockquote>irrelevant quote</blockquote>"),{name:'fx',url:'https://example.com'});
@@ -94,6 +94,6 @@ test('fallback text hash dedup and late historical arrival suppression',async()=
   await monitor(h.env,start+120,h.fetcher);h.setXml(original);await monitor(h.env,start+180,h.fetcher);
   assert.equal((await h.env.DB.prepare('SELECT COUNT(*) n FROM posts').first<any>()).n,2);
   h.setXml(feed('11','Resetting the limits tomorrow.',start-3600));await monitor(h.env,start+240,h.fetcher);
-  assert.equal(h.messages.length,1);
+  assert.equal(h.messages.length,2);
  }finally{await h.mf.dispose();}
 });

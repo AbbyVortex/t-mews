@@ -83,7 +83,7 @@ test('recovery refuses old/baseline/repost/irrelevant/invalid rows without chang
   {name:'undated post',edit:(_s,p)=>p.published_at=null},
   {name:'before baseline',edit:(_s,p)=>p.published_at=baselineAt-1},
   {name:'wrong author URL',edit:(_s,p)=>p.canonical_url=p.canonical_url.replace('thsottiaux','other')},
-  {name:'weak hint',edit:(_s,p)=>p.text='when I say excellent service for existing users, that includes the occasional reset'},
+  {name:'unrelated post',edit:(_s,p)=>p.text='Astra engineering benchmarks are running faster'},
   {name:'missing baseline',edit:s=>s.tables.state=s.tables.state.filter(r=>r.key!=='baselineAt')},
   {name:'unconfirmed test',edit:s=>s.tables.notifications.find(n=>n.id==='test')!.status='unknown'}
  ];

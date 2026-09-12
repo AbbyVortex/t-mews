@@ -2,6 +2,8 @@
 
 Cloudflareに接続せず、既存のRSSアダプター・分類器・監視処理・Pushover送信を共有するメインの実行環境です。Node.js組み込みSQLiteでD1インターフェイスを置き換え、実行間の状態を `monitor-state` ブランチの `state.json` に保存します。Cloudflare/D1版は切替用として保持します。
 
+現在のRSSは `https://fxtwitter.com/thsottiaux/feed.xml?with_replies=true&count=100`。初回切替時に新しく取得できた返信等は追加baselineとし、過去の通知を一斉に送りません。状態の `fxtwitter-with-replies-v1` に切替基準時刻を記録し、後から届く基準時刻以前の投稿も抑止します。通常の過去投稿・通知台帳はそのままです。[通知方針と日本時間表示](docs/notification-policy.md)、[返信・引用の取得限界](docs/rss-context.md)を参照してください。
+
 ## 起動順序
 
 1. publicリポジトリに公開。標準 `ubuntu-24.04` ランナーのみを使用。

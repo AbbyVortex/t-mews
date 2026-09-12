@@ -8,11 +8,11 @@ export interface Store {load(initialize?:boolean):Promise<Snapshot|undefined>;sa
 export type ActionMode = 'test'|'monitor'|'check'|'recover';
 export async function runAction(mode:ActionMode,store:Store,secrets:{user:string,token:string},fetcher:Fetcher=fetch,now=Math.floor(Date.now()/1000),postId?:string) {
  if(mode==='check') {
-  const items=await fetchSource({name:'fxtwitter',url:'https://fxtwitter.com/thsottiaux/feed.xml'},fetcher);
+  const items=await fetchSource({name:'fxtwitter',url:'https://fxtwitter.com/thsottiaux/feed.xml?with_replies=true&count=100'},fetcher);
   return {source:'fxtwitter',items:items.length};
  }
  const db=new LocalD1(await store.load(mode==='test'));
- const env:Env={DB:db.asD1(),MONITOR_ENABLED:'true',SOURCES_JSON:JSON.stringify([{name:'fxtwitter',url:'https://fxtwitter.com/thsottiaux/feed.xml'}]),PUSHOVER_USER_KEY:secrets.user,PUSHOVER_APP_TOKEN:secrets.token};
+ const env:Env={DB:db.asD1(),MONITOR_ENABLED:'true',SOURCE_BASELINE_KEY:'fxtwitter-with-replies-v1',SOURCES_JSON:JSON.stringify([{name:'fxtwitter',url:'https://fxtwitter.com/thsottiaux/feed.xml?with_replies=true&count=100'}]),PUSHOVER_USER_KEY:secrets.user,PUSHOVER_APP_TOKEN:secrets.token};
  // A durable pre-send claim must be acknowledged before making the irreversible request.
  const safeFetch=(async(input:any,init:any)=>{
   if(String(input)==='https://api.pushover.net/1/messages.json') {

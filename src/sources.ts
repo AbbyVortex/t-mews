@@ -1,12 +1,48 @@
 import { XMLParser, XMLValidator } from 'fast-xml-parser';
 import he from 'he';
-import type { Item, Source, Fetcher } from './types';
+import type { Item, RelatedPost, Source, Fetcher } from './types';
 const array = (x: any): any[] => x == null ? [] : Array.isArray(x) ? x : [x];
 const value = (x: any): string => typeof x === 'string' ? x : x?.['#text'] ?? '';
 export function plain(s: string): string {
  return he.decode(s.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'').replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,'').replace(/<br\s*\/?\s*>|<\/p>/gi,'\n').replace(/<[^>]*>/g,'')).replace(/\r/g,'').replace(/[ \t]+/g,' ').replace(/\n{3,}/g,'\n\n').trim();
 }
 async function hash(s: string) { return [...new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)))].map(x=>x.toString(16).padStart(2,'0')).join(''); }
+function statusReference(raw: string, source: Source): Pick<RelatedPost,'xStatusId'|'url'|'author'> | undefined {
+ try {
+  const u=new URL(he.decode(raw));
+  const hosts=new Set(['x.com','www.x.com','twitter.com','www.twitter.com','fxtwitter.com','fixupx.com',new URL(source.url).hostname]);
+  const match=u.pathname.match(/^\/([\w]+)\/status\/(\d+)\/?$/);
+  if(u.protocol!=='https:' || !hosts.has(u.hostname) || !match) return;
+  const author=match[1].toLowerCase()==='i' ? undefined : match[1];
+  return {xStatusId:match[2],url:`https://x.com/${author??'i'}/status/${match[2]}`,...(author?{author}:{})};
+ } catch { return; }
+}
+function relatedPosts(row: any, content: string, source: Source, namespaces: any): RelatedPost[] {
+ const related: RelatedPost[]=[];
+ // FxTwitter represents quoted posts as a blockquote containing the original status link.
+ // Ordinary body links and neighboring feed items are not evidence of a relationship.
+ for(const quote of content.matchAll(/<blockquote\b[^>]*>([\s\S]*?)<\/blockquote\s*>/gi)) {
+  const refs=[...quote[1].matchAll(/<a\b[^>]*\s+href\s*=\s*(["'])(.*?)\1[^>]*>/gi)]
+   .map(link=>statusReference(link[2],source)).filter((ref): ref is NonNullable<typeof ref>=>!!ref);
+  const ids=new Set(refs.map(ref=>ref.xStatusId));
+  if(ids.size!==1) continue;
+  const ref=refs[0], text=plain(quote[1]);
+  related.push({...ref,relation:'quote',...(text?{text}:{}),provenance:'feed'});
+ }
+ // Atom Threading (RFC 4685) supplies an explicit parent identifier; its namespace
+ // prefix is arbitrary. RSS without this metadata cannot establish a reply parent.
+ const scope={...namespaces,...row};
+ for(const key of Object.keys(row).filter(key=>key.endsWith(':in-reply-to'))) for(const parent of array(row[key])) {
+  const prefix=key.slice(0,-':in-reply-to'.length);
+  if((parent?.[`@_xmlns:${prefix}`]??scope[`@_xmlns:${prefix}`])!=='http://purl.org/syndication/thread/1.0') continue;
+  const href=statusReference(parent?.['@_href']??'',source);
+  const ref=statusReference(parent?.['@_ref']??'',source);
+  if(href&&ref&&href.xStatusId!==ref.xStatusId) continue;
+  const target=href??ref;
+  if(target) related.push({...target,relation:'reply',provenance:'feed'});
+ }
+ return related.filter((ref,index)=>related.findIndex(other=>other.relation===ref.relation&&other.xStatusId===ref.xStatusId)===index);
+}
 export async function parseFeed(xml: string, source: Source): Promise<Item[]> {
  if (xml.length > 1_000_000 || /<!DOCTYPE|<!ENTITY/i.test(xml)) throw new Error('unsafe_xml');
  if (XMLValidator.validate(xml.trim()) !== true) throw new Error('invalid_xml');
@@ -28,12 +64,13 @@ export async function parseFeed(xml: string, source: Source): Promise<Item[]> {
   const title=plain(value(row.title));
   const content=value(row['content:encoded']) || value(row.content) || value(row.description) || value(row.summary) || title;
   const text=plain(content.replace(/<blockquote\b[^>]*>[\s\S]*?<\/blockquote>/gi,''));
-  if (!text || /RSS reader not yet whitelist/i.test(text)) continue;
+  const related=relatedPosts(row,content,source,{...doc.rss,...feed});
+  if ((!text&&!related.length) || /RSS reader not yet whitelist/i.test(text)) continue;
   const date=Date.parse(value(row.pubDate) || value(row.published) || value(row.updated));
   const publishedAt=Number.isFinite(date) ? Math.floor(date/1000) : null;
   const fingerprint=await hash(text.toLowerCase().replace(/\s+/g,' ').trim()+'|'+(publishedAt??''));
-  const kind = /^(RT |R[Tt] by |Reposted)/.test(title) ? 'repost' : /^(R to |Replying to |@\w+)/.test(title) ? 'reply' : xStatusId ? 'post' : 'unknown';
-  items.push({id:xStatusId ? `x:${xStatusId}` : url ? `url:${await hash(url)}` : `hash:${fingerprint}`,xStatusId,url,fingerprint,text,publishedAt,source:source.name,kind});
+  const kind = /^(RT |R[Tt] by |Reposted)/.test(title) ? 'repost' : related.some(ref=>ref.relation==='reply') || /^(R to |Replying to |@\w+)/.test(title) ? 'reply' : xStatusId ? 'post' : 'unknown';
+  items.push({id:xStatusId ? `x:${xStatusId}` : url ? `url:${await hash(url)}` : `hash:${fingerprint}`,xStatusId,url,fingerprint,text,publishedAt,source:source.name,kind,...(related.length?{related}:{})});
  }
  if (!items.length) throw new Error('no_tibo_items');
  return items;

@@ -128,8 +128,9 @@
       "text": "Codex\n\n✅ Almost 100% reliable\n\n✅ Occasional resets\n\n✅ Open-source\n\n✅ (will have Astra)",
       "originalClassification": "CANDIDATE",
       "expected": "CANDIDATE",
-      "notify": false,
-      "rationale": "Codex occasional resets; no event, timing, or distribution announced."
+      "notify": true,
+      "rationale": "Literal author reset mention is notified as an advisory; it does not establish a reset announcement.",
+      "expectedDisplay": "advisory"
     },
     {
       "id": "x:2089500941842342287",
@@ -168,8 +169,9 @@
       "text": "I was gifted a very fancy new reset button today",
       "originalClassification": "IRRELEVANT",
       "expected": "CANDIDATE",
-      "notify": false,
-      "rationale": "Gifted reset button is plausible target-author context but no future use stated."
+      "notify": true,
+      "rationale": "Literal author reset mention is notified as an advisory; it does not establish a reset announcement.",
+      "expectedDisplay": "advisory"
     },
     {
       "id": "x:2090116476414136830",
@@ -249,7 +251,8 @@
       "originalClassification": "BANKED_RESET",
       "expected": "BANKED_RESET",
       "notify": true,
-      "rationale": "Credits every Codex and ChatGPT Work user with a banked reset today."
+      "rationale": "Credits every Codex and ChatGPT Work user with a banked reset today.",
+      "expectedDisplay": "announcement"
     },
     {
       "id": "x:2090887457915232269",
@@ -269,7 +272,8 @@
       "originalClassification": "BANKED_RESET",
       "expected": "BANKED_RESET",
       "notify": true,
-      "rationale": "Banked reset delivery time and paid-user eligibility."
+      "rationale": "Banked reset delivery time and paid-user eligibility.",
+      "expectedDisplay": "announcement"
     },
     {
       "id": "x:2090964822422949999",
@@ -279,7 +283,8 @@
       "originalClassification": "CANDIDATE",
       "expected": "BANKED_RESET",
       "notify": true,
-      "rationale": "Explicit confirmation banked reset has landed."
+      "rationale": "Explicit confirmation banked reset has landed.",
+      "expectedDisplay": "announcement"
     },
     {
       "id": "x:2091033630147854385",
@@ -299,7 +304,8 @@
       "originalClassification": "RESET_HINT",
       "expected": "RESET_ANNOUNCED",
       "notify": true,
-      "rationale": "Explicit full usage reset tomorrow for all paid subscriptions."
+      "rationale": "Explicit full usage reset tomorrow for all paid subscriptions.",
+      "expectedDisplay": "announcement"
     },
     {
       "id": "x:2091412393368945027",
@@ -309,7 +315,8 @@
       "originalClassification": "IRRELEVANT",
       "expected": "RESET_ANNOUNCED",
       "notify": true,
-      "rationale": "Unambiguous target-author reset arrival scheduled tomorrow; surrounding thread not needed."
+      "rationale": "Unambiguous target-author reset arrival scheduled tomorrow; surrounding thread not needed.",
+      "expectedDisplay": "announcement"
     },
     {
       "id": "x:2091413240337326588",
@@ -339,7 +346,8 @@
       "originalClassification": "RESET_HINT",
       "expected": "RESET_ANNOUNCED",
       "notify": true,
-      "rationale": "Reset propagated to accounts plus usage fixes; completed explicit reset."
+      "rationale": "Reset propagated to accounts plus usage fixes; completed explicit reset.",
+      "expectedDisplay": "announcement"
     },
     {
       "id": "x:2092058556707344708",
@@ -349,7 +357,8 @@
       "originalClassification": "CANDIDATE",
       "expected": "LIMIT_CHANGE",
       "notify": true,
-      "rationale": "5h limit reintroduced for Plus tomorrow; Pro remains exempt."
+      "rationale": "5h limit reintroduced for Plus tomorrow; Pro remains exempt.",
+      "expectedDisplay": "limit"
     },
     {
       "id": "x:2092117461646856505",
@@ -399,7 +408,8 @@
       "originalClassification": "IRRELEVANT",
       "expected": "LIMIT_CHANGE",
       "notify": true,
-      "rationale": "Team-oriented plan announcement explicitly includes no 5h limits; borderline new-plan rule."
+      "rationale": "Team-oriented plan announcement explicitly includes no 5h limits; borderline new-plan rule.",
+      "expectedDisplay": "limit"
     },
     {
       "id": "x:2092359619075314102",
@@ -439,7 +449,8 @@
       "originalClassification": "IRRELEVANT",
       "expected": "RESET_HINT",
       "notify": true,
-      "rationale": "Clear intent to find and use reset button tomorrow despite joking framing."
+      "rationale": "Clear intent to find and use reset button tomorrow despite joking framing.",
+      "expectedDisplay": "advisory"
     },
     {
       "id": "x:2093014447833116908",
@@ -449,7 +460,8 @@
       "originalClassification": "IRRELEVANT",
       "expected": "RESET_ANNOUNCED",
       "notify": true,
-      "rationale": "Brand new usage for all Codex/ChatGPT Work users and button press confirms reset; reseted typo."
+      "rationale": "Brand new usage for all Codex/ChatGPT Work users and button press confirms reset; reseted typo.",
+      "expectedDisplay": "announcement"
     },
     {
       "id": "x:2093074717590921245",
@@ -549,7 +561,8 @@
       "originalClassification": "CANDIDATE",
       "expected": "RESET_ANNOUNCED",
       "notify": true,
-      "rationale": "Explicit resetting usage for all paid users; unrelated uncertainty in long technical explanation must not veto."
+      "rationale": "Explicit resetting usage for all paid users; unrelated uncertainty in long technical explanation must not veto.",
+      "expectedDisplay": "announcement"
     },
     {
       "id": "x:2093801838504186008",
@@ -599,7 +612,8 @@
       "originalClassification": "CANDIDATE",
       "expected": "RESET_ANNOUNCED",
       "notify": true,
-      "rationale": "Codex and ChatGPT Work reset lands at a stated time."
+      "rationale": "Codex and ChatGPT Work reset lands at a stated time.",
+      "expectedDisplay": "announcement"
     },
     {
       "id": "x:2094164029044646099",
@@ -619,7 +633,8 @@
       "originalClassification": "RESET_ANNOUNCED",
       "expected": "RESET_ANNOUNCED",
       "notify": true,
-      "rationale": "Explicit completed usage reset for all paid subscriptions."
+      "rationale": "Explicit completed usage reset for all paid subscriptions.",
+      "expectedDisplay": "announcement"
     },
     {
       "id": "x:2094254532020818191",
@@ -739,7 +754,8 @@
       "originalClassification": "BANKED_RESET",
       "expected": "BANKED_RESET",
       "notify": true,
-      "rationale": "One banked reset for each day lacking Astra access; timing and eligibility."
+      "rationale": "One banked reset for each day lacking Astra access; timing and eligibility.",
+      "expectedDisplay": "announcement"
     },
     {
       "id": "x:2095961185262997556",
@@ -759,7 +775,8 @@
       "originalClassification": "BANKED_RESET",
       "expected": "BANKED_RESET",
       "notify": true,
-      "rationale": "Banked reset compensation with account-creation cutoff."
+      "rationale": "Banked reset compensation with account-creation cutoff.",
+      "expectedDisplay": "announcement"
     },
     {
       "id": "x:2095995318471168397",
@@ -789,7 +806,8 @@
       "originalClassification": "BANKED_RESET",
       "expected": "BANKED_RESET",
       "notify": true,
-      "rationale": "Full banked reset for Plus/Pro/Business with timing and eligibility."
+      "rationale": "Full banked reset for Plus/Pro/Business with timing and eligibility.",
+      "expectedDisplay": "announcement"
     },
     {
       "id": "x:2096035748130795560",
@@ -849,7 +867,8 @@
       "originalClassification": "LIMIT_CHANGE",
       "expected": "LIMIT_CHANGE",
       "notify": true,
-      "rationale": "Confirmed improvements reduce subscription usage drawn by up to 3-4X."
+      "rationale": "Confirmed improvements reduce subscription usage drawn by up to 3-4X.",
+      "expectedDisplay": "limit"
     },
     {
       "id": "x:2097043464538264003",
@@ -859,7 +878,8 @@
       "originalClassification": "RESET_ANNOUNCED",
       "expected": "RESET_ANNOUNCED",
       "notify": true,
-      "rationale": "Explicit global paid-subscription usage reset at 6pm; unrelated joke must not veto."
+      "rationale": "Explicit global paid-subscription usage reset at 6pm; unrelated joke must not veto.",
+      "expectedDisplay": "announcement"
     },
     {
       "id": "x:2097088586843816330",
@@ -879,7 +899,8 @@
       "originalClassification": "RESET_ANNOUNCED",
       "expected": "RESET_ANNOUNCED",
       "notify": true,
-      "rationale": "All reset for everyone confirms completed global reset."
+      "rationale": "All reset for everyone confirms completed global reset.",
+      "expectedDisplay": "announcement"
     },
     {
       "id": "x:2097193293532848288",

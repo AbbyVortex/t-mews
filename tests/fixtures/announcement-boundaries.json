@@ -3,128 +3,152 @@
     "text": "And of course, a reset is also landing by midnight today.",
     "expected": "RESET_ANNOUNCED",
     "expectedNotify": true,
-    "reason": "Explicit scheduled reset; harmless adverb must not hide delivery. Standalone reset delivery is already an intentional Tibo signal."
+    "reason": "Explicit scheduled reset; harmless adverb must not hide delivery. Standalone reset delivery is already an intentional Tibo signal.",
+    "expectedDisplay": "announcement"
   },
   {
     "text": "A reset will also land by midnight today.",
     "expected": "RESET_ANNOUNCED",
     "expectedNotify": true,
-    "reason": "Equivalent explicit future delivery with the adverb after will."
+    "reason": "Equivalent explicit future delivery with the adverb after will.",
+    "expectedDisplay": "announcement"
   },
   {
     "text": "The reset is now landing for all paid Codex users.",
     "expected": "RESET_ANNOUNCED",
     "expectedNotify": true,
-    "reason": "Present delivery explicitly applies to paid usage."
+    "reason": "Present delivery explicitly applies to paid usage.",
+    "expectedDisplay": "announcement"
   },
   {
     "text": "The reset has also landed for paid Codex users.",
     "expected": "RESET_ANNOUNCED",
     "expectedNotify": true,
-    "reason": "Confirmed completed reset with a harmless adverb."
+    "reason": "Confirmed completed reset with a harmless adverb.",
+    "expectedDisplay": "announcement"
   },
   {
     "text": "Every affected Codex user is getting another banked reset.",
     "expected": "BANKED_RESET",
     "expectedNotify": true,
-    "reason": "Direct confirmed distribution using get rather than give."
+    "reason": "Direct confirmed distribution using get rather than give.",
+    "expectedDisplay": "announcement"
   },
   {
     "text": "Some banked resets failed to apply in Codex. Everyone who used one in the affected time window is getting another one.",
     "expected": "BANKED_RESET",
     "expectedNotify": true,
-    "reason": "Adjacent sentence clearly reissues the failed banked reset to affected users."
+    "reason": "Adjacent sentence clearly reissues the failed banked reset to affected users.",
+    "expectedDisplay": "announcement"
   },
   {
     "text": "when I say excellent service for existing users, that includes the occasional reset",
-    "expectedNotify": false,
-    "reason": "Agreed weak context-dependent reply remains below the push threshold."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "Hi Astra users. Excellent service includes the occasional reset.",
-    "expectedNotify": false,
-    "reason": "Adding a model name does not turn a general statement into an announcement."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "A cache reset is also landing in Codex today.",
-    "expectedNotify": false,
-    "reason": "Technical cache maintenance is not a usage reset."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "A reset is not landing by midnight today.",
-    "expectedNotify": false,
-    "reason": "Explicit denial of reset delivery."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "We hope a reset is also landing by midnight today.",
-    "expectedNotify": false,
-    "reason": "Hope is not a confirmed standalone delivery announcement."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "Is a reset also landing by midnight today?",
-    "expectedNotify": false,
-    "reason": "Question about a reset is not an announcement."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "If the tests pass, a reset is also landing by midnight today.",
-    "expectedNotify": false,
-    "reason": "Conditional standalone reset assertion remains unconfirmed."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "Some banked resets failed to apply in Codex. We are investigating the affected time window.",
-    "expectedNotify": false,
-    "reason": "Failure investigation alone does not distribute or materially change a banked reset."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "Some banked resets failed to apply in Codex. Everyone who used one in the affected time window is not getting another one.",
-    "expectedNotify": false,
-    "reason": "A negated replacement promise must not use the preceding banked context to alert."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "Some banked resets failed to apply in Codex. Everyone who used one in the affected time window might be getting another one.",
-    "expectedNotify": false,
-    "reason": "Speculative replacement is below the confirmed banked distribution threshold."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "Some banked resets failed to apply in Codex. Is everyone who used one in the affected time window getting another one?",
-    "expectedNotify": false,
-    "reason": "A question about replacement is not a replacement grant."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "Some banked resets failed to apply in Codex. Everyone who used one in the affected time window is getting another email.",
-    "expectedNotify": false,
-    "reason": "The distributed object is an email rather than a banked reset."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "Some banked resets failed to apply in Codex. Everyone who used a broken laptop in the affected time window is getting another one.",
-    "expectedNotify": false,
-    "reason": "The pronoun refers to the explicitly named laptop; do not carry banked context across arbitrary objects."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "Banked resets are getting a clearer button in Codex.",
-    "expectedNotify": false,
-    "reason": "Getting a UI improvement does not grant any banked resets."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "Users with banked resets will get a new dashboard.",
-    "expectedNotify": false,
-    "reason": "Banked resets are user context; the distributed object is a dashboard."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "Some banked resets failed to apply in Codex. Affected users with a broken laptop are getting another one.",
-    "expectedNotify": false,
-    "reason": "An intervening laptop prevents resolving another one to the preceding banked reset."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "Some banked resets failed to apply in Codex. Affected users are getting another one.",
     "expected": "BANKED_RESET",
     "expectedNotify": true,
-    "reason": "An adjacent direct reissue to affected users has no competing object."
+    "reason": "An adjacent direct reissue to affected users has no competing object.",
+    "expectedDisplay": "announcement"
   },
   {
     "text": "Some banked resets failed to apply in Codex. Everyone who used one is getting another one next month if our budget allows it.",
-    "expectedNotify": false,
-    "reason": "A conditional future replacement is not a confirmed reissue."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "We are pausing new Pro subscriptions to keep excellent service for existing users. All existing accounts retain access to Astra.",

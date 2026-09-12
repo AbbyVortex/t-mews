@@ -1,18 +1,21 @@
 [
   {
     "text": "The password reset will land tomorrow in the Codex account settings UI.",
-    "expectedNotify": false,
-    "reason": "Scheduled password reset feature is technical/account security, not usage allowance."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "The database reset will land around 2pm tomorrow. Codex helped write the migration.",
-    "expectedNotify": false,
-    "reason": "Reset will land must not override the explicit database-reset subject."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "Codex will reset the usage counters in our test database tomorrow. Subscription limits are unchanged.",
-    "expectedNotify": false,
-    "reason": "Usage counters in a test database are implementation details; subscription change is denied."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "We raised the Codex context limit to one million tokens today. This improves long-codebase analysis.",
@@ -21,23 +24,27 @@
   },
   {
     "text": "Could you reset my Codex usage tomorrow? I have a demo to finish.",
-    "expectedNotify": false,
-    "reason": "A request for an individual reset is neither an announcement nor a strong issuer tease."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "Will the Codex usage reset land tomorrow? I am asking, not announcing anything.",
-    "expectedNotify": false,
-    "reason": "Question explicitly disclaims an announcement."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "We won't reset Codex usage limits tomorrow. The current weekly allowance is unchanged.",
-    "expectedNotify": false,
-    "reason": "Direct reset denial and unchanged allowance must not trigger."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "I can't promise a Codex usage reset tomorrow. We are still looking into options.",
-    "expectedNotify": false,
-    "reason": "Explicitly uncommitted possibility stays below the notification threshold."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "Who says your Codex usage won't reset in a while 👀",
@@ -61,13 +68,15 @@
   },
   {
     "text": "Banked reset eligibility is unchanged. We are not expanding the program today.",
-    "expectedNotify": false,
-    "reason": "Static eligibility and explicit denial of change are not a new distribution event."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "Can you distribute a banked reset to all paid Codex users tomorrow?",
-    "expectedNotify": false,
-    "reason": "A banked-reset request must not become a distribution announcement."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "The banked resets granted to paid Codex users yesterday expire tomorrow at 8pm PT. Use them before then.",
@@ -131,8 +140,9 @@
   },
   {
     "text": "We will reset the UI layout tomorrow. Codex weekly usage remains unchanged.",
-    "expectedNotify": false,
-    "reason": "Unrelated usage context must not turn a UI reset into an alert."
+    "expectedNotify": true,
+    "reason": "Literal reset mention must notify as an advisory without being promoted to an announcement.",
+    "expectedDisplay": "advisory"
   },
   {
     "text": "If we ever launch the feature, we will reset usage for all paid Codex users tomorrow.",

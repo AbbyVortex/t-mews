@@ -9,12 +9,13 @@ import {LocalD1, type Snapshot} from '../src/actions/sqlite';
 interface BaselinePost {
   id: string; url: string; publishedAt: number; text: string;
   originalClassification: Classification; expected: Classification; notify: boolean; rationale: string;
+  expectedDisplay?: 'announcement' | 'advisory' | 'limit';
 }
 const {posts}: {posts: BaselinePost[]} = JSON.parse(readFileSync(new URL('./fixtures/tibo-baseline-89.json', import.meta.url), 'utf8'));
-const boundaries: {text: string; expectedNotify: boolean; reason: string}[] =
+const boundaries: {text: string; expectedNotify: boolean; expectedDisplay?: string; reason: string}[] =
   JSON.parse(readFileSync(new URL('./fixtures/classifier-boundaries.json', import.meta.url), 'utf8'));
 const newPosts: {posts: Omit<BaselinePost, 'rationale'>[]} = JSON.parse(readFileSync(new URL('./fixtures/tibo-new-posts-2026-09-12.json', import.meta.url), 'utf8'));
-const announcementBoundaries: {text: string; expected?: Classification; expectedNotify: boolean; reason: string}[] =
+const announcementBoundaries: {text: string; expected?: Classification; expectedNotify: boolean; expectedDisplay?: string; reason: string}[] =
   JSON.parse(readFileSync(new URL('./fixtures/announcement-boundaries.json', import.meta.url), 'utf8'));
 
 for (const post of newPosts.posts) {
@@ -22,6 +23,7 @@ for (const post of newPosts.posts) {
     const actual = classify(post.text);
     assert.equal(actual.classification, post.expected);
     assert.equal(actual.notify, post.notify);
+    if (post.expectedDisplay) assert.equal(actual.display, post.expectedDisplay);
   });
 }
 for (const [index, example] of announcementBoundaries.entries()) {
@@ -29,13 +31,14 @@ for (const [index, example] of announcementBoundaries.entries()) {
     const actual = classify(example.text);
     assert.equal(actual.notify, example.expectedNotify, example.text);
     if (example.expected) assert.equal(actual.classification, example.expected);
+    if (example.expectedDisplay) assert.equal(actual.display, example.expectedDisplay);
   });
 }
 
 test('baseline corpus contains all 89 unique, manually labelled public posts', () => {
   assert.equal(posts.length, 89);
   assert.equal(new Set(posts.map(p => p.id)).size, 89);
-  assert.equal(posts.filter(p => p.notify).length, 19);
+  assert.equal(posts.filter(p => p.notify).length, 21);
 });
 
 for (const post of posts) {
@@ -43,12 +46,15 @@ for (const post of posts) {
     const actual = classify(post.text);
     assert.equal(actual.classification, post.expected, post.rationale);
     assert.equal(actual.notify, post.notify, post.rationale);
+    if (post.expectedDisplay) assert.equal(actual.display, post.expectedDisplay, post.rationale);
   });
 }
 
 for (const [index, example] of boundaries.entries()) {
   test(`classifier boundary ${index + 1}: ${example.reason}`, () => {
-    assert.equal(classify(example.text).notify, example.expectedNotify, example.text);
+    const actual = classify(example.text);
+    assert.equal(actual.notify, example.expectedNotify, example.text);
+    if (example.expectedDisplay) assert.equal(actual.display, example.expectedDisplay, example.text);
   });
 }
 
