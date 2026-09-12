@@ -1797,8 +1797,8 @@
         "text": "Hi Astra users. A reset and a quick update on quality issues that have been posted around.\n\nWorking with some of you, we have found and fixed the following issues:\n\n- Some skills written for previous models were triggering too often or preventing the model from checking its work.\n\n- An opt-in context management experiment that could cause early stops or replies to older messages. We've disabled it. Our rough estimate is that 4-5k users were affected by this experiment.\n\n- We've also removed some badly configured engines that resulted in a measured quality degradation for a long tail of traffic flowing through them.\n\nWe’ve also made some more minor improvements and things should feel significantly better across the board. More consistent follow-through, better tracking of your latest message, and better checks on the work as it’s going through the motions.\n\nThe examples posted and all the users who worked directly with us were incredibly useful in helping fix things quickly. Always grateful for this incredible community.\n\nAnd of course, a reset is also landing by midnight today.",
         "source": "fxtwitter",
         "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
+        "classification": "RESET_ANNOUNCED",
+        "reason": "reset arrival or completion confirmed",
         "baseline": 0,
         "notified": 0,
         "notification_status": "not_relevant",
@@ -1867,6 +1867,12 @@
         "event_type": "notification_sent",
         "created_at": 1788855434,
         "details": "{\"kind\":\"test\",\"postId\":null}"
+      },
+      {
+        "id": "recovery:x:2098612714704891959",
+        "event_type": "alert_recovery_requested",
+        "created_at": 1789190477,
+        "details": "{\"postId\":\"x:2098612714704891959\",\"previousClassification\":\"IRRELEVANT\",\"classification\":\"RESET_ANNOUNCED\"}"
       }
     ],
     "notifications": [
@@ -1877,6 +1883,14 @@
         "created_at": 1788855495,
         "status": "sent",
         "sent_at": 1788855495
+      },
+      {
+        "id": "post:x:2098612714704891959",
+        "post_id": "x:2098612714704891959",
+        "kind": "alert",
+        "created_at": 1789190477,
+        "status": "sending",
+        "sent_at": null
       },
       {
         "id": "test",
