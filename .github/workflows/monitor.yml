@@ -5,9 +5,13 @@ on:
       operation:
         description: Operation (send the one-time test before monitoring)
         type: choice
-        options: [check, test, monitor, keepalive]
+        options: [check, test, monitor, keepalive, recover]
         default: check
         required: true
+      recovery_post_id:
+        description: 'Only for recover: one reviewed recent post ID (x:123...)'
+        type: string
+        required: false
   schedule:
     - cron: '2-57/5 * * * *'
     - cron: '23 4 * * 1'
@@ -41,6 +45,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
           PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
+          T_MEWS_RECOVER_POST_ID: ${{ inputs.recovery_post_id }}
   keepalive:
     if: >-
       github.event.repository.private == false &&

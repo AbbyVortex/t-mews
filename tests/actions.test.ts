@@ -38,6 +38,37 @@ test('Actions: persistence failure prevents delivery; lost delivery response nev
  store.fail=false;await assert.rejects(runAction('test',store,secrets,fetcher,start));assert.equal(calls,1);
  await assert.rejects(runAction('test',store,secrets,fetcher,start));assert.equal(calls,1);
 });
+test('Actions: a slow durable checkpoint does not consume the delivery timeout',async t=>{
+ const controllers:AbortController[]=[];
+ t.mock.method(AbortSignal,'timeout',(milliseconds:number)=>{
+  assert.equal(milliseconds,8000);
+  const controller=new AbortController();controllers.push(controller);return controller.signal;
+ });
+ class SlowCheckpointStore extends MemoryStore {
+  override async save(snapshot:Snapshot) {
+   if(snapshot.tables.notifications.some(n=>n.id==='test'&&n.status==='sending')) {
+    // Simulate the original timeout expiring while GitHub persists the claim.
+    assert.equal(controllers.length,1);
+    controllers[0].abort(new DOMException('Checkpoint outlasted the original timer','TimeoutError'));
+   }
+   await super.save(snapshot);
+  }
+ }
+ const store=new SlowCheckpointStore();let calls=0;
+ const fetcher=(async(_input:any,init:any)=>{
+  calls++;
+  assert.equal(store.state?.tables.notifications.find(n=>n.id==='test')?.status,'sending');
+  assert.equal(controllers[0].signal.aborted,true);
+  assert.equal(controllers.length,2,'delivery gets a fresh timer after the checkpoint');
+  assert.equal(init.signal,controllers[1].signal);
+  assert.equal(init.signal.aborted,false);
+  return Response.json({status:1});
+ }) as typeof fetch;
+ await runAction('test',store,secrets,fetcher,start);
+ assert.equal(calls,1);
+ assert.equal(store.state?.tables.notifications.find(n=>n.id==='test')?.status,'sent');
+});
+
 test('Actions: no test means no monitoring; missing or invalid state fails closed',async()=>{
  await assert.rejects(runAction('monitor',new MemoryStore(),secrets));
  assert.throws(()=>new LocalD1({version:2,tables:{}} as any));

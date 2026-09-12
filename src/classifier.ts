@@ -12,8 +12,9 @@ const UNCERTAIN = /\b(?:if|might|maybe|could|perhaps|may|would|should|please|hop
 
 // Match the assertion itself. Qualifiers after it (e.g. grant eligibility) do not veto it.
 const EXPLICIT_RESET = /\b(?:reset(?:ting)? (?:the |your |my |all |everyone's )?(?:codex (?:and chatgpt work )?)?(?:usage(?: limits?)?|limits?|quotas?|allowances?)|(?:full|global) reset (?:of )?(?:the )?(?:usage|limits?|quota|allowance)|(?:limits?|usage|quota|allowance) (?:will (?:be )?|(?:has|have) (?:now )?been |(?:is|are) being |(?:is|are|was|were) (?:now )?)reset|all reset for everyone)\b/;
-const RESET_DELIVERY = /\breset (?:will (?:land|arrive)|(?:has|have) (?:now )?(?:landed|arrived)|(?:has|have) been propagated|is (?:landing|rolling out))\b/;
-const BANKED_ACTION = /\b(?:credit(?:ed|ing)?|giv(?:e|es|ing)|gave|grant(?:s|ed|ing)?|distribut(?:e|es|ed|ing)|receiv(?:e|es|ed|ing)|land(?:s|ed|ing)?|arriv(?:e|es|ed|ing)|roll(?:s|ed|ing)? out|no longer (?:available|eligible|valid)|available|expir(?:e|es|ed|ing)|extend(?:s|ed|ing)?|compensat\w*|promotional|eligible|eligibility (?:now )?(?:includes|excludes|changes|has changed)|will be there|covered with|do the (?:full )?banked reset)\b/;
+const RESET_DELIVERY = /\breset (?:will (?:also |now )?(?:land|arrive)|(?:has|have) (?:also |now |already )?(?:landed|arrived)|(?:has|have) (?:also )?been propagated|is (?:also |now |already )?(?:landing|rolling out))\b/;
+const BANKED_ACTION = /\b(?:credit(?:ed|ing)?|giv(?:e|es|ing)|gave|grant(?:s|ed|ing)?|distribut(?:e|es|ed|ing)|receiv(?:e|es|ed|ing)|(?:(?:is|are|will be) getting|will get) (?:(?:a|one|another|an additional|[1-9]\d*) )?banked resets?|land(?:s|ed|ing)?|arriv(?:e|es|ed|ing)|roll(?:s|ed|ing)? out|no longer (?:available|eligible|valid)|available|expir(?:e|es|ed|ing)|extend(?:s|ed|ing)?|compensat\w*|promotional|eligible|eligibility (?:now )?(?:includes|excludes|changes|has changed)|will be there|covered with|do the (?:full )?banked reset)\b/;
+const BANKED_REPLACEMENT = /\b(?:(?:everyone|anyone|users?|subscribers?|those) who (?:used|redeemed) (?:one|it|a banked reset)(?: (?:in|during) the affected (?:time window|period))?|affected (?:users?|subscribers?|accounts?)) (?:(?:is|are) (?:getting|receiving)|will (?:get|receive)) (?:another|a replacement|one more) (?:one|reset)\b/;
 const LIMIT_ACTION = /\b(?:increas\w*|decreas\w*|doubl\w*|tripl\w*|reduc\w*|rais\w*|lower\w*|chang(?:e|es|ed|ing)|boost\w*|bring(?:ing)? back|brought back|reintroduc\w*|remov\w*|lift(?:ed|ing)?|disabl\w*|enabl\w*|no longer (?:have|has|apply|applies|enforce|enforces|enabled|required)|(?:is|are) now \d+(?:\.\d+)?\s*(?:x|%)|(?:more|less|fewer) usage|usage.{0,35}(?:further|faster|slower))\b/;
 
 interface Clause { text: string; question: boolean; conditional: boolean }
@@ -39,6 +40,21 @@ function verdict(classification: Classification, reason: string): Verdict {
   return {classification, notify: !['CANDIDATE', 'IRRELEVANT'].includes(classification), reason};
 }
 
+function hasBankedReplacement(text: string): boolean {
+  const sentences = text.split(/(?<=[.!?;])\s+|\n+/).map(s => s.trim()).filter(Boolean);
+  for (let i = 1; i < sentences.length; i++) {
+    const previous = sentences[i - 1];
+    if (!/\bbanked resets?\b/.test(previous) || !/\b(?:failed|not fully applying|didn't (?:work|apply)|affected|broken|issues?|outage)\b/.test(previous)) continue;
+    if (/\b(?:if|unless|assuming|provided)\b/.test(sentences[i])) continue;
+    // Resolve only an adjacent, explicit reissue with the recipient joined to the grant.
+    // Do not carry a banked-reset topic through arbitrary text or unrelated objects.
+    for (const part of clauses(sentences[i])) {
+      if (assertion(part, BANKED_REPLACEMENT)) return true;
+    }
+  }
+  return false;
+}
+
 export function classify(text: string): Verdict {
   const t = text.normalize('NFKC').toLowerCase().replace(/[’‘]/g, "'")
     .replace(/\breseting\b/g, 'resetting').replace(/\breseted\b/g, 'reset');
@@ -47,6 +63,8 @@ export function classify(text: string): Verdict {
   const banked = /\bbanked resets?\b/.test(t);
   // Mask technical reset phrases, retaining any separate usage reset in the same clause.
   const usable = parts.map(p => ({...p, text: p.text.replace(new RegExp(TECHNICAL_RESET.source, 'g'), '[technical operation]')}));
+
+  if (hasBankedReplacement(t)) return verdict('BANKED_RESET', 'explicit reissue of failed banked resets to affected users');
 
   for (const part of usable) {
     const s = part.text;

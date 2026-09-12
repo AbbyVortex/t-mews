@@ -41,6 +41,16 @@ Pushoverへ送る直前に、送信IDを `sending` としてGitHubへ確定保�
 
 一時的なRSS障害は無通知。観測上15分以上連続して全ソースが失敗したらofflineを1件、取得復旧時にrecoveredを1件送信します。Actionsの遅延で観測間隔が空くため、障害の継続時間は完全には証明できません。
 
+## 分類ミスによる直近1件の見逃し復旧
+
+通常監視は既に保存した投稿を再分類・再送しません。分類ルールを修正し、その投稿の通知が今も有用だとレビューした場合に限り、Actions → T-MEWS monitor → Run workflow で operation `recover` と `recovery_post_id` に `x:投稿の数字ID` を指定できます。これは公開投稿IDで、秘密情報ではありません。通常運用でこの操作は不要です。
+
+復旧できるのは、初回baselineより後かつ24時間以内に公開された、@thsottiaux の未送信・非baseline投稿1件だけです。旧分類が `IRRELEVANT` / `CANDIDATE`、通知状態が `not_relevant` で、修正後の共通分類器が通知対象と判定する必要があります。repost、日時不明、将来日時、別アカウントのURLは拒否します。
+
+同じ投稿について送信台帳が一度でも作られていれば再送しません。`sent` は送信済みとして終了し、`sending` / `unknown` / `failed` は調査が必要な失敗として終了します。送信前のGitHub永続化、SHAによる競合防止、workflowの直列実行は通常監視と共通です。GitHub保存とPushover送信には別々のタイムアウトを使います。
+
+通知には遅れて送った理由と通知処理時刻を加え、元の投稿時刻と検知遅延を保持します。他の投稿・baseline・過去の通知台帳は変更しません。全件の再通知や自動バックフィルを行う機能ではありません。
+
 ## 無料条件と公開範囲
 
 - [GitHub公式料金](https://docs.github.com/en/billing/concepts/product-billing/github-actions): publicリポジトリの標準GitHub-hostedランナーは無料。privateリポジトリでは実行を拒否します。

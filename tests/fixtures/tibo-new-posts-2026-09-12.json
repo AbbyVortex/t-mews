@@ -1,0 +1,158 @@
+{
+  "description": "All 17 post-baseline observations through 2026-09-12, manually reviewed. Only the explicit reset and banked reissue should notify.",
+  "posts": [
+    {
+      "id": "x:2097476797298520292",
+      "url": "https://x.com/thsottiaux/status/2097476797298520292",
+      "publishedAt": 1788912412,
+      "text": "Look! A fish!",
+      "originalClassification": "IRRELEVANT",
+      "expected": "IRRELEVANT",
+      "notify": false
+    },
+    {
+      "id": "x:2097482307812859978",
+      "url": "https://x.com/thsottiaux/status/2097482307812859978",
+      "publishedAt": 1788913726,
+      "text": "I for one am glad prompt injection is getting solved across the industry and that Astra is not only our most capable, but also our most aligned model to date. But also ...",
+      "originalClassification": "IRRELEVANT",
+      "expected": "IRRELEVANT",
+      "notify": false
+    },
+    {
+      "id": "x:2097482341916852719",
+      "url": "https://x.com/thsottiaux/status/2097482341916852719",
+      "publishedAt": 1788913734,
+      "text": "I am pleased to see that Ant’s new Claude Code has a version of background computer use on par with the version from Codex from last May this year. Nice work!\n\nShipping great features first turns out to be a great way to encourage other labs to ship too. We will continue to do this until other labs pay more attention to shipping. This is good for everyone and there is a lot of room left to go!\n\nWe solved computer use in practice for GPT models about four months ago. But computer use is a significantly awesome thing no matter what model you use, and it is important that the industry similarly spends more effort to train their models to be great at computer use, among other elements of model capabilities.\n\nAs models become more capable and central to businesses and economies, the value of computer use only increases. We should be taking it seriously, and doing the right thing for our customers and the world.",
+      "originalClassification": "IRRELEVANT",
+      "expected": "IRRELEVANT",
+      "notify": false
+    },
+    {
+      "id": "x:2097492424474165293",
+      "url": "https://x.com/thsottiaux/status/2097492424474165293",
+      "publishedAt": 1788916138,
+      "text": "See you at the Astra party. Excited to meet some of you",
+      "originalClassification": "IRRELEVANT",
+      "expected": "IRRELEVANT",
+      "notify": false
+    },
+    {
+      "id": "x:2097559315150426222",
+      "url": "https://x.com/thsottiaux/status/2097559315150426222",
+      "publishedAt": 1788932086,
+      "text": "Demand for Astra is really unprecedented. We're pulling all the levers possible to sustain the demand, but I've not seen anything like it until now and we went through very steep growth before. Priority will always be to keep excellent service for existing users, but we might have to pause new Pro subscriptions for a bit if this continues.",
+      "originalClassification": "IRRELEVANT",
+      "expected": "IRRELEVANT",
+      "notify": false
+    },
+    {
+      "id": "x:2097746417012166816",
+      "url": "https://x.com/thsottiaux/status/2097746417012166816",
+      "publishedAt": 1788976694,
+      "text": "Worth clarifying that this is flatly false and the two options are just two independent ways to opt-out.\n\nWe respect our users' choice whether to use their data to “improve our models for everyone” regardless of where they express that choice. Users can opt out in the in-app settings or indeed also in our privacy portal. They do not need to opt out in both places, and we will make this clearer in our Help Center.\n\nhttps://privacy.openai.com/policies/en/",
+      "originalClassification": "IRRELEVANT",
+      "expected": "IRRELEVANT",
+      "notify": false
+    },
+    {
+      "id": "x:2097752790177370535",
+      "url": "https://x.com/thsottiaux/status/2097752790177370535",
+      "publishedAt": 1788978214,
+      "text": "There was a bit of a kerfuffle this morning with some banked resets not fully applying when used in ChatGPT Work and Codex. Everyone who used one in the affected time window is getting another one and an email to apologize.",
+      "originalClassification": "CANDIDATE",
+      "expected": "BANKED_RESET",
+      "notify": true
+    },
+    {
+      "id": "x:2097829053147582782",
+      "url": "https://x.com/thsottiaux/status/2097829053147582782",
+      "publishedAt": 1788996396,
+      "text": "Happy to be building here with you all. Lots to explore",
+      "originalClassification": "IRRELEVANT",
+      "expected": "IRRELEVANT",
+      "notify": false
+    },
+    {
+      "id": "x:2097912273264095536",
+      "url": "https://x.com/thsottiaux/status/2097912273264095536",
+      "publishedAt": 1789016237,
+      "text": "One of the greatest joys is debating new model names with researchers. They come up with the most hilarious stuff",
+      "originalClassification": "IRRELEVANT",
+      "expected": "IRRELEVANT",
+      "notify": false
+    },
+    {
+      "id": "x:2098105060186374280",
+      "url": "https://x.com/thsottiaux/status/2098105060186374280",
+      "publishedAt": 1789062201,
+      "text": "You can now build on top of the same voice system that we shipped to 1B users in ChatGPT.\n\nSo many fun applications of a full duplex system with solid toolcalling. Going back to text-only experiences after this feels harder than I had expected.",
+      "originalClassification": "IRRELEVANT",
+      "expected": "IRRELEVANT",
+      "notify": false
+    },
+    {
+      "id": "x:2098113585683808624",
+      "url": "https://x.com/thsottiaux/status/2098113585683808624",
+      "publishedAt": 1789064234,
+      "text": "To make sure our current users have an incredible experience and continued access to Astra, we are going to pause subscriptions to our $200 Pro plan. These put the most strain on our systems and we wanted to take the smallest step that allows us to continue giving the broadest access possible. All other plans and the api remain available.\n\nThere is no impact to existing accounts and we are working on adding more capacity as fast as we can. Thanks!",
+      "originalClassification": "IRRELEVANT",
+      "expected": "IRRELEVANT",
+      "notify": false
+    },
+    {
+      "id": "x:2098165551554240764",
+      "url": "https://x.com/thsottiaux/status/2098165551554240764",
+      "publishedAt": 1789076624,
+      "text": "Do you pronounce it data or data? This is the way everyone makes dashboards and learns about the business at OpenAI. Can't live without it.",
+      "originalClassification": "IRRELEVANT",
+      "expected": "IRRELEVANT",
+      "notify": false
+    },
+    {
+      "id": "x:2098238138334548260",
+      "url": "https://x.com/thsottiaux/status/2098238138334548260",
+      "publishedAt": 1789093930,
+      "text": "Scaled agents on demand.\n\nThis is pretty much the infrastructure that runs under the hood for ChatGPT Work, all wrapped up in an API which you can use to get started in < 1 min. Happy building.",
+      "originalClassification": "IRRELEVANT",
+      "expected": "IRRELEVANT",
+      "notify": false
+    },
+    {
+      "id": "x:2098300998968357218",
+      "url": "https://x.com/thsottiaux/status/2098300998968357218",
+      "publishedAt": 1789108917,
+      "text": "Next week we’ll be retiring GPT-5.3-Codex-Spark. Can you believe we shipped a model named as such!!\n\nIt's had a good run and was a lot of fun, but usage has been declining and we have significantly better models now. Time to make room for the future.",
+      "originalClassification": "IRRELEVANT",
+      "expected": "IRRELEVANT",
+      "notify": false
+    },
+    {
+      "id": "x:2098569538510180712",
+      "url": "https://x.com/thsottiaux/status/2098569538510180712",
+      "publishedAt": 1789172942,
+      "text": "Massive upgrade to creating, sharing and hosting sites directly through ChatGPT.",
+      "originalClassification": "IRRELEVANT",
+      "expected": "IRRELEVANT",
+      "notify": false
+    },
+    {
+      "id": "x:2098569976143806918",
+      "url": "https://x.com/thsottiaux/status/2098569976143806918",
+      "publishedAt": 1789173046,
+      "text": "Excited to welcome Aidan & @\n\nSasha from the Git AI team to OpenAI! \n\nThey are building in the open and have developed an open-source tool that helps developers understand how coding agents contribute to their codebase. \n\nTogether, we’ll make it easier for businesses to see where Codex is making a difference when working through problems for individuals and teams. We’ll also keep Git AI open source and continue investing in it.",
+      "originalClassification": "IRRELEVANT",
+      "expected": "IRRELEVANT",
+      "notify": false
+    },
+    {
+      "id": "x:2098612714704891959",
+      "url": "https://x.com/thsottiaux/status/2098612714704891959",
+      "publishedAt": 1789183236,
+      "text": "Hi Astra users. A reset and a quick update on quality issues that have been posted around.\n\nWorking with some of you, we have found and fixed the following issues:\n\n- Some skills written for previous models were triggering too often or preventing the model from checking its work.\n\n- An opt-in context management experiment that could cause early stops or replies to older messages. We've disabled it. Our rough estimate is that 4-5k users were affected by this experiment.\n\n- We've also removed some badly configured engines that resulted in a measured quality degradation for a long tail of traffic flowing through them.\n\nWe’ve also made some more minor improvements and things should feel significantly better across the board. More consistent follow-through, better tracking of your latest message, and better checks on the work as it’s going through the motions.\n\nThe examples posted and all the users who worked directly with us were incredibly useful in helping fix things quickly. Always grateful for this incredible community.\n\nAnd of course, a reset is also landing by midnight today.",
+      "originalClassification": "IRRELEVANT",
+      "expected": "RESET_ANNOUNCED",
+      "notify": true
+    }
+  ]
+}

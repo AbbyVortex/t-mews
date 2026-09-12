@@ -2,9 +2,11 @@ import {LocalD1,type Snapshot} from './sqlite';
 import {monitor} from '../monitor';
 import {notify} from '../pushover';
 import {fetchSource} from '../sources';
+import {recoverAlert} from './recover';
 import type {Env,Fetcher} from '../types';
 export interface Store {load(initialize?:boolean):Promise<Snapshot|undefined>;save(snapshot:Snapshot):Promise<void>}
-export async function runAction(mode:'test'|'monitor'|'check',store:Store,secrets:{user:string,token:string},fetcher:Fetcher=fetch,now=Math.floor(Date.now()/1000)) {
+export type ActionMode = 'test'|'monitor'|'check'|'recover';
+export async function runAction(mode:ActionMode,store:Store,secrets:{user:string,token:string},fetcher:Fetcher=fetch,now=Math.floor(Date.now()/1000),postId?:string) {
  if(mode==='check') {
   const items=await fetchSource({name:'fxtwitter',url:'https://fxtwitter.com/thsottiaux/feed.xml'},fetcher);
   return {source:'fxtwitter',items:items.length};
@@ -15,6 +17,8 @@ export async function runAction(mode:'test'|'monitor'|'check',store:Store,secret
  const safeFetch=(async(input:any,init:any)=>{
   if(String(input)==='https://api.pushover.net/1/messages.json') {
    await store.save(db.snapshot());
+   // Give delivery its full timeout after the durable checkpoint has completed.
+   return fetcher(input,{...init,signal:AbortSignal.timeout(8000)});
   }
   return fetcher(input,init);
  }) as Fetcher;
@@ -27,6 +31,7 @@ export async function runAction(mode:'test'|'monitor'|'check',store:Store,secret
   }else {
    const test=await db.prepare("SELECT status FROM notifications WHERE id='test'").first<any>();
    if(test?.status!=='sent')throw new Error('A successful one-time Pushover test is required before monitoring');
+   if(mode==='recover')return await recoverAlert(env,postId,now,safeFetch);
    // Primary Actions operation has no expiry. Preserve any legacy actionsEndAt as history.
    await monitor(env,now,safeFetch);
   }

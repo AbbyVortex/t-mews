@@ -17,6 +17,12 @@ export async function notify(env: Env, id: string, kind: string, title: string, 
  if(post) statements.push(env.DB.prepare('UPDATE posts SET notified=?,notification_status=? WHERE id=?').bind(status==='sent'?1:0,status,post.id));
  await env.DB.batch(statements);
 }
-export function alertMessage(post: Item, classification: Classification, latency: number | null) {
- return `${classification}\n投稿: ${jst(post.publishedAt)}\n検知遅延: ${latency===null?'不明':latency<60?`${latency}秒`:`${Math.floor(latency/60)}分${latency%60}秒`}\n\n${post.text}`;
+export function alertMessage(post: Item, classification: Classification, latency: number | null, note = '') {
+ const header = `${note}${classification}\n投稿: ${jst(post.publishedAt)}\n検知遅延: ${latency===null?'不明':latency<60?`${latency}秒`:`${Math.floor(latency/60)}分${latency%60}秒`}\n\n`;
+ const chars = [...post.text], budget = Math.max(0, 1024 - [...header].length);
+ if (chars.length <= budget) return header + post.text;
+ // Reset timing is often at the end of a long engineering update. Preserve both ends.
+ const marker = '\n…（中略）…\n', available = Math.max(0, budget - [...marker].length);
+ const head = Math.floor(available / 2), tail = available - head;
+ return header + chars.slice(0, head).join('') + marker + (tail ? chars.slice(-tail).join('') : '');
 }

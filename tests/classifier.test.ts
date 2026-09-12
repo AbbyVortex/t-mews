@@ -13,6 +13,24 @@ interface BaselinePost {
 const {posts}: {posts: BaselinePost[]} = JSON.parse(readFileSync(new URL('./fixtures/tibo-baseline-89.json', import.meta.url), 'utf8'));
 const boundaries: {text: string; expectedNotify: boolean; reason: string}[] =
   JSON.parse(readFileSync(new URL('./fixtures/classifier-boundaries.json', import.meta.url), 'utf8'));
+const newPosts: {posts: Omit<BaselinePost, 'rationale'>[]} = JSON.parse(readFileSync(new URL('./fixtures/tibo-new-posts-2026-09-12.json', import.meta.url), 'utf8'));
+const announcementBoundaries: {text: string; expected?: Classification; expectedNotify: boolean; reason: string}[] =
+  JSON.parse(readFileSync(new URL('./fixtures/announcement-boundaries.json', import.meta.url), 'utf8'));
+
+for (const post of newPosts.posts) {
+  test(`live regression ${post.id}: ${post.expected}`, () => {
+    const actual = classify(post.text);
+    assert.equal(actual.classification, post.expected);
+    assert.equal(actual.notify, post.notify);
+  });
+}
+for (const [index, example] of announcementBoundaries.entries()) {
+  test(`announcement boundary ${index + 1}: ${example.reason}`, () => {
+    const actual = classify(example.text);
+    assert.equal(actual.notify, example.expectedNotify, example.text);
+    if (example.expected) assert.equal(actual.classification, example.expected);
+  });
+}
 
 test('baseline corpus contains all 89 unique, manually labelled public posts', () => {
   assert.equal(posts.length, 89);
