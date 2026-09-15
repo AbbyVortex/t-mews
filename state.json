@@ -2704,13 +2704,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 47
+      },
+      {
+        "id": "x:2099886370319978506",
+        "x_status_id": "2099886370319978506",
+        "canonical_url": "https://x.com/thsottiaux/status/2099886370319978506",
+        "fingerprint": "d796d597f2b512dd2d2f535d61f2706b082d549c0f636f7c3d180c1d09e29243",
+        "published_at": 1789486899,
+        "detected_at": 1789487280,
+        "text": "@nicoletang0717 Can’t believe this was filmed this weekend, neck tattoos and all",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 381
+      },
+      {
+        "id": "x:2099886695525281923",
+        "x_status_id": "2099886695525281923",
+        "canonical_url": "https://x.com/thsottiaux/status/2099886695525281923",
+        "fingerprint": "df61ddad512cb761f92de9614f74280ac5206eb6526b858068c0702c83774dc2",
+        "published_at": 1789486976,
+        "detected_at": 1789487280,
+        "text": "@adonis_singh Just to make sure you’re aware, it consumes things faster, beware adi, beware. Not for the faint of heart",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 304
+      },
+      {
+        "id": "x:2099887016569876809",
+        "x_status_id": "2099887016569876809",
+        "canonical_url": "https://x.com/thsottiaux/status/2099887016569876809",
+        "fingerprint": "5c62fba16dc1a5bf6da1335e0ae40166fda0880bb1aaf3a72235629798fcbb19",
+        "published_at": 1789487053,
+        "detected_at": 1789487280,
+        "text": "@Jaytel Hi 👋",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 227
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789486447,
+        "last_success_at": 1789487280,
         "last_failure_at": 1789471762,
         "offline_since": null,
         "failure_episodes": 1,
@@ -2740,7 +2791,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789486447"
+        "value": "1789487280"
       }
     ],
     "events": [
