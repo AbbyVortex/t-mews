@@ -2602,13 +2602,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 746
+      },
+      {
+        "id": "x:2099741116925096020",
+        "x_status_id": "2099741116925096020",
+        "canonical_url": "https://x.com/thsottiaux/status/2099741116925096020",
+        "fingerprint": "367b0c1f8959d644c4bceac5637c164040aef3c23f7284a508bfbf5bb6287d8a",
+        "published_at": 1789452268,
+        "detected_at": 1789453578,
+        "text": "@hanghuang_ So they can play videogames",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 1310
+      },
+      {
+        "id": "x:2099744972195131850",
+        "x_status_id": "2099744972195131850",
+        "canonical_url": "https://x.com/thsottiaux/status/2099744972195131850",
+        "fingerprint": "a2d31d5d1f078e64461e58b7e6b9d454e27cf915efafecacd11571ae59130cad",
+        "published_at": 1789453187,
+        "detected_at": 1789453578,
+        "text": "This week will also be a level of ships that you could have expected for DevDay 2025. Crazy",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 391
+      },
+      {
+        "id": "x:2099745615118991548",
+        "x_status_id": "2099745615118991548",
+        "canonical_url": "https://x.com/thsottiaux/status/2099745615118991548",
+        "fingerprint": "5bef4528a42cfc46e8598be363fcd2bafb2d29d5bfd2735313aa34ff97de51c8",
+        "published_at": 1789453340,
+        "detected_at": 1789453578,
+        "text": "@thdxr I would even say it's over 9000",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 238
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789452012,
+        "last_success_at": 1789453578,
         "last_failure_at": null,
         "offline_since": null,
         "failure_episodes": 0,
@@ -2638,7 +2689,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789452012"
+        "value": "1789453578"
       }
     ],
     "events": [
