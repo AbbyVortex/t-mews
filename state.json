@@ -2755,13 +2755,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 227
+      },
+      {
+        "id": "x:2099922535521693877",
+        "x_status_id": "2099922535521693877",
+        "canonical_url": "https://x.com/thsottiaux/status/2099922535521693877",
+        "fingerprint": "f24607dce7a7294bcd34e06a0ee5c06d15c74426fb624ad9b4bf062697a0ef07",
+        "published_at": 1789495521,
+        "detected_at": 1789495581,
+        "text": "@OpenRouter The power of the stars",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 60
+      },
+      {
+        "id": "x:2099922755655479624",
+        "x_status_id": "2099922755655479624",
+        "canonical_url": "https://x.com/thsottiaux/status/2099922755655479624",
+        "fingerprint": "a07ca7bb8f5b452a28253b150bf3afcc637f4a8f3c01c069fd5a0739f6f3a0d4",
+        "published_at": 1789495574,
+        "detected_at": 1789495581,
+        "text": "2026 is the year of efficiency and Tuesday is for random swag drops on your door handle",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 7
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789494796,
+        "last_success_at": 1789495581,
         "last_failure_at": 1789471762,
         "offline_since": null,
         "failure_episodes": 1,
@@ -2791,7 +2825,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789494796"
+        "value": "1789495581"
       }
     ],
     "events": [
