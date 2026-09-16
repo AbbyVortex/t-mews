@@ -2857,13 +2857,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 9
+      },
+      {
+        "id": "x:2100297380968997327",
+        "x_status_id": "2100297380968997327",
+        "canonical_url": "https://x.com/thsottiaux/status/2100297380968997327",
+        "fingerprint": "09bd466cc140747fa41d6fa108cb037a2fdf2137588458eb78643b3a9d4b8fb2",
+        "published_at": 1789584891,
+        "detected_at": 1789585093,
+        "text": "Astra\n\n✅ Fast\n\n✅ Frontier\n\n✅ Efficient\n\n✅ For everyone",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 202
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789584439,
+        "last_success_at": 1789585093,
         "last_failure_at": 1789471762,
         "offline_since": null,
         "failure_episodes": 1,
@@ -2893,7 +2910,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789584439"
+        "value": "1789585093"
       }
     ],
     "events": [
@@ -2920,6 +2937,12 @@
         "event_type": "post_analysis",
         "created_at": 1789201310,
         "details": "{\"related\":[{\"xStatusId\":\"2098612714704891959\",\"url\":\"https://x.com/thsottiaux/status/2098612714704891959\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Hi Astra users. A reset and a quick update on quality issues that have been posted around. Working with some of you, we have found and fixed the following issues: - Some skills written for previous models were triggering too often or preventing the model from checking its work. -…\",\"provenance\":\"feed\",\"publishedAt\":1789183236}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Reset all propagated.\"}}"
+      },
+      {
+        "id": "analysis:x:2100297380968997327",
+        "event_type": "post_analysis",
+        "created_at": 1789585093,
+        "details": "{\"related\":[{\"xStatusId\":\"2100180792601420138\",\"url\":\"https://x.com/j_dekoninck/status/2100180792601420138\",\"author\":\"j_dekoninck\",\"relation\":\"quote\",\"text\":\"We are releasing the latest version of BrokenArXiv and ArXivMath! These benchmarks now focus on conjectures that were refuted in the last month on ArXiv, and models are executed within a harness instead of directly via API. Performance remains impressive, with GPT-6 Astra on top\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Astra\"}}"
       },
       {
         "id": "notification:online",
