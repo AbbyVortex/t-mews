@@ -2874,13 +2874,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 202
+      },
+      {
+        "id": "x:2100363668051603608",
+        "x_status_id": "2100363668051603608",
+        "canonical_url": "https://x.com/thsottiaux/status/2100363668051603608",
+        "fingerprint": "e8e2d3efb8edab0dbb0e325092d2304b9705847115e60c06ce28e3bc00b356f8",
+        "published_at": 1789600695,
+        "detected_at": 1789601506,
+        "text": "Sometimes physics can't be cheated",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 811
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789600687,
+        "last_success_at": 1789601506,
         "last_failure_at": 1789471762,
         "offline_since": null,
         "failure_episodes": 1,
@@ -2910,7 +2927,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789600687"
+        "value": "1789601506"
       }
     ],
     "events": [
@@ -2943,6 +2960,12 @@
         "event_type": "post_analysis",
         "created_at": 1789585093,
         "details": "{\"related\":[{\"xStatusId\":\"2100180792601420138\",\"url\":\"https://x.com/j_dekoninck/status/2100180792601420138\",\"author\":\"j_dekoninck\",\"relation\":\"quote\",\"text\":\"We are releasing the latest version of BrokenArXiv and ArXivMath! These benchmarks now focus on conjectures that were refuted in the last month on ArXiv, and models are executed within a harness instead of directly via API. Performance remains impressive, with GPT-6 Astra on top\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Astra\"}}"
+      },
+      {
+        "id": "analysis:x:2100363668051603608",
+        "event_type": "post_analysis",
+        "created_at": 1789601506,
+        "details": "{\"related\":[{\"xStatusId\":\"2100351958167220547\",\"url\":\"https://x.com/sama/status/2100351958167220547\",\"author\":\"sama\",\"relation\":\"quote\",\"text\":\"the main thing i was excited about launching this week will be next week instead, but imo worth the wait!\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Sometimes physics can't be cheated\"}}"
       },
       {
         "id": "notification:online",
