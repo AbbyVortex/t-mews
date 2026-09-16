@@ -2806,13 +2806,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 987
+      },
+      {
+        "id": "x:2100121084817502216",
+        "x_status_id": "2100121084817502216",
+        "canonical_url": "https://x.com/thsottiaux/status/2100121084817502216",
+        "fingerprint": "82c160863232b3a0b2fa90887e536bfe83ebb57ca6c622743e0544174d7a45c5",
+        "published_at": 1789542859,
+        "detected_at": 1789543274,
+        "text": "11pm on a Tuesday, big startup energy",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 415
+      },
+      {
+        "id": "x:2100122479947817059",
+        "x_status_id": "2100122479947817059",
+        "canonical_url": "https://x.com/thsottiaux/status/2100122479947817059",
+        "fingerprint": "e45cc384bbf88202431a6aa3985d76d009e51e940d3e9d3e3aa608311b26e1db",
+        "published_at": 1789543192,
+        "detected_at": 1789543274,
+        "text": "Astra, as seen by Imagegen",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 82
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789542119,
+        "last_success_at": 1789543274,
         "last_failure_at": 1789471762,
         "offline_since": null,
         "failure_episodes": 1,
@@ -2842,7 +2876,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789542119"
+        "value": "1789543274"
       }
     ],
     "events": [
