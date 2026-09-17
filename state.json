@@ -2891,13 +2891,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 811
+      },
+      {
+        "id": "x:2100461541145587999",
+        "x_status_id": "2100461541145587999",
+        "canonical_url": "https://x.com/thsottiaux/status/2100461541145587999",
+        "fingerprint": "8f8f48c20ff947756b6eb04de0e2c143c977f35cc29ffd1b5948a86acc166004",
+        "published_at": 1789624030,
+        "detected_at": 1789624638,
+        "text": "@theo @sama Fair",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 608
+      },
+      {
+        "id": "x:2100461944860020851",
+        "x_status_id": "2100461944860020851",
+        "canonical_url": "https://x.com/thsottiaux/status/2100461944860020851",
+        "fingerprint": "f0faef4a3ca047b5168d6e129202fbd6ae938a4fb82412d6c48e01dfb0e243f8",
+        "published_at": 1789624127,
+        "detected_at": 1789624638,
+        "text": "@tlxue Pretty cool!",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 511
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789623992,
+        "last_success_at": 1789624638,
         "last_failure_at": 1789471762,
         "offline_since": null,
         "failure_episodes": 1,
@@ -2927,7 +2961,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789623992"
+        "value": "1789624638"
       }
     ],
     "events": [
