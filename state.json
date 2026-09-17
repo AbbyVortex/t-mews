@@ -2959,13 +2959,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 19
+      },
+      {
+        "id": "x:2100474870044016922",
+        "x_status_id": "2100474870044016922",
+        "canonical_url": "https://x.com/thsottiaux/status/2100474870044016922",
+        "fingerprint": "542e4f736f26450661408bda15cb7cd48f2972f4a189c172345478ab8e3cc103",
+        "published_at": 1789627208,
+        "detected_at": 1789628175,
+        "text": "@Yuchenj_UW Welcome to the shipping era",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 967
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789627195,
+        "last_success_at": 1789628175,
         "last_failure_at": 1789471762,
         "offline_since": null,
         "failure_episodes": 1,
@@ -2995,7 +3012,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789627195"
+        "value": "1789628175"
       }
     ],
     "events": [
