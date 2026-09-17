@@ -3015,12 +3015,12 @@
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1789671473,
+        "state": "online",
+        "last_success_at": 1789673237,
         "last_failure_at": 1789672421,
-        "offline_since": 1789672421,
+        "offline_since": null,
         "failure_episodes": 2,
-        "error": "fetch_or_parse_failed"
+        "error": null
       }
     ],
     "state": [
@@ -3046,11 +3046,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789671473"
-      },
-      {
-        "key": "outage",
-        "value": "1789672421"
+        "value": "1789673237"
       }
     ],
     "events": [
