@@ -2976,13 +2976,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 967
+      },
+      {
+        "id": "x:2100645454245720513",
+        "x_status_id": "2100645454245720513",
+        "canonical_url": "https://x.com/thsottiaux/status/2100645454245720513",
+        "fingerprint": "69db03e130ab8cbb06942b7dc19afca3d99fdf8e0d3dac2347bedea8cdd5b1e0",
+        "published_at": 1789667879,
+        "detected_at": 1789668474,
+        "text": "Has anyone yet tried to get Astra and Fable to agree on the perfect styleguide? And then host it somewhere with a web mcp.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 595
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789667608,
+        "last_success_at": 1789668474,
         "last_failure_at": 1789471762,
         "offline_since": null,
         "failure_episodes": 1,
@@ -3012,7 +3029,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789667608"
+        "value": "1789668474"
       }
     ],
     "events": [
