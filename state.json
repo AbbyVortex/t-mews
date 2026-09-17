@@ -2993,13 +2993,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 595
+      },
+      {
+        "id": "x:2100649624860254629",
+        "x_status_id": "2100649624860254629",
+        "canonical_url": "https://x.com/thsottiaux/status/2100649624860254629",
+        "fingerprint": "c1fccc2d39d88a94de351f017a98d5a1b02f70cc8ff1acedc7fcfc18d01c2ed5",
+        "published_at": 1789668873,
+        "detected_at": 1789669640,
+        "text": "@vlinx_soft See you at DevDay",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 767
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789668474,
+        "last_success_at": 1789669640,
         "last_failure_at": 1789471762,
         "offline_since": null,
         "failure_episodes": 1,
@@ -3029,7 +3046,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789668474"
+        "value": "1789669640"
       }
     ],
     "events": [
