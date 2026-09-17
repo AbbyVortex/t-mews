@@ -2925,13 +2925,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 511
+      },
+      {
+        "id": "x:2100473666635280768",
+        "x_status_id": "2100473666635280768",
+        "canonical_url": "https://x.com/thsottiaux/status/2100473666635280768",
+        "fingerprint": "99b6a5bfd755b5ee427dcb2561cb2431cde199ec42cd9fdc5aa3e6e20ce25c7d",
+        "published_at": 1789626921,
+        "detected_at": 1789627195,
+        "text": "@zdogmode Revenue happened",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 274
+      },
+      {
+        "id": "x:2100474737420111956",
+        "x_status_id": "2100474737420111956",
+        "canonical_url": "https://x.com/thsottiaux/status/2100474737420111956",
+        "fingerprint": "0363b85e815db154bb3fb1cb3090d09f74a00db64997f34eea3db91505e35799",
+        "published_at": 1789627176,
+        "detected_at": 1789627195,
+        "text": "@ben_issen Welcome",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 19
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789625971,
+        "last_success_at": 1789627195,
         "last_failure_at": 1789471762,
         "offline_since": null,
         "failure_episodes": 1,
@@ -2961,7 +2995,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789625971"
+        "value": "1789627195"
       }
     ],
     "events": [
