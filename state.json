@@ -3044,13 +3044,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 214
+      },
+      {
+        "id": "x:2101026876647170092",
+        "x_status_id": "2101026876647170092",
+        "canonical_url": "https://x.com/thsottiaux/status/2101026876647170092",
+        "fingerprint": "cb6d024a17a58f14a699b72d71f500625e320a68e2b7fddc28488c8dfd9a0827",
+        "published_at": 1789758817,
+        "detected_at": 1789759108,
+        "text": "@trq212 Yay! This is the way. Come to the light",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 291
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789758150,
+        "last_success_at": 1789759108,
         "last_failure_at": 1789717808,
         "offline_since": null,
         "failure_episodes": 3,
@@ -3080,7 +3097,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789758150"
+        "value": "1789759108"
       }
     ],
     "events": [
