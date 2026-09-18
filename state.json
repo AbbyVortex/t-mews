@@ -3061,13 +3061,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 291
+      },
+      {
+        "id": "x:2101054196703522861",
+        "x_status_id": "2101054196703522861",
+        "canonical_url": "https://x.com/thsottiaux/status/2101054196703522861",
+        "fingerprint": "adaf6ed3bfcb6532d763148acc9c4978b180b193ef433bd9f0e684724d2b1e68",
+        "published_at": 1789765330,
+        "detected_at": 1789765665,
+        "text": "@6monthsAgoInAI I remember that",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 335
+      },
+      {
+        "id": "x:2101055411394904265",
+        "x_status_id": "2101055411394904265",
+        "canonical_url": "https://x.com/thsottiaux/status/2101055411394904265",
+        "fingerprint": "52fe83268d5b841a5224260e58c83923ca6a10fc204ebbfe0929af1f1479451e",
+        "published_at": 1789765620,
+        "detected_at": 1789765665,
+        "text": "@argofowl 👋",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 45
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789764846,
+        "last_success_at": 1789765665,
         "last_failure_at": 1789717808,
         "offline_since": null,
         "failure_episodes": 3,
@@ -3097,7 +3131,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789764846"
+        "value": "1789765665"
       }
     ],
     "events": [
