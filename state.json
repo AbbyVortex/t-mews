@@ -3034,10 +3034,10 @@
         "source": "fxtwitter",
         "state": "offline",
         "last_success_at": 1789716242,
-        "last_failure_at": 1789717085,
+        "last_failure_at": 1789717808,
         "offline_since": 1789717085,
         "failure_episodes": 3,
-        "error": "empty_or_oversized_feed"
+        "error": "fetch_or_parse_failed"
       }
     ],
     "state": [
