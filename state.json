@@ -3095,13 +3095,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 45
+      },
+      {
+        "id": "x:2101124031567262054",
+        "x_status_id": "2101124031567262054",
+        "canonical_url": "https://x.com/thsottiaux/status/2101124031567262054",
+        "fingerprint": "bfb8caf8e8356d67599c24bc4848505001d21d86fb5dc255a477911d5c922daa",
+        "published_at": 1789781980,
+        "detected_at": 1789782320,
+        "text": "@pvncher i'm so dev for hype day",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 340
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789781560,
+        "last_success_at": 1789782320,
         "last_failure_at": 1789717808,
         "offline_since": null,
         "failure_episodes": 3,
@@ -3131,7 +3148,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789781560"
+        "value": "1789782320"
       }
     ],
     "events": [
