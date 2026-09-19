@@ -3316,13 +3316,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 769
+      },
+      {
+        "id": "x:2101431497437950458",
+        "x_status_id": "2101431497437950458",
+        "canonical_url": "https://x.com/thsottiaux/status/2101431497437950458",
+        "fingerprint": "0f2895a3ab39ba3e84900a20de8c14c91ec6ba7c1b94927466dca7d189548c90",
+        "published_at": 1789855286,
+        "detected_at": 1789855839,
+        "text": "2026 is the year of linux desktop",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 553
+      },
+      {
+        "id": "x:2101432368682983749",
+        "x_status_id": "2101432368682983749",
+        "canonical_url": "https://x.com/thsottiaux/status/2101432368682983749",
+        "fingerprint": "8611a0b3137c4466ded9dbf6c07bc371df010b71195f6583d26739e598d0bde0",
+        "published_at": 1789855494,
+        "detected_at": 1789855839,
+        "text": "@Rubzem @TesanaAI People will do anything instead of cleaning their house",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 345
+      },
+      {
+        "id": "x:2101432860892901859",
+        "x_status_id": "2101432860892901859",
+        "canonical_url": "https://x.com/thsottiaux/status/2101432860892901859",
+        "fingerprint": "f01f26fa629a03f48122ad9ec6ea42a0ef0a6c3228c0d4e0e00951d39ad80710",
+        "published_at": 1789855611,
+        "detected_at": 1789855839,
+        "text": "@cherry_mx_reds Clearly not me",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 228
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789854966,
+        "last_success_at": 1789855839,
         "last_failure_at": 1789717808,
         "offline_since": null,
         "failure_episodes": 3,
@@ -3352,7 +3403,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789854966"
+        "value": "1789855839"
       }
     ],
     "events": [
