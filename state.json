@@ -3231,13 +3231,81 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 718
+      },
+      {
+        "id": "x:2101352396140278226",
+        "x_status_id": "2101352396140278226",
+        "canonical_url": "https://x.com/thsottiaux/status/2101352396140278226",
+        "fingerprint": "bacd29284b2ac11606a4437d61e7ca06a88a6a725d0d7183d1bc1fc0808d4447",
+        "published_at": 1789836427,
+        "detected_at": 1789836893,
+        "text": "@GergelyOrosz Let’s celebrate this change! Positive reinforcement!",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 466
+      },
+      {
+        "id": "x:2101352781219258527",
+        "x_status_id": "2101352781219258527",
+        "canonical_url": "https://x.com/thsottiaux/status/2101352781219258527",
+        "fingerprint": "eb68b5cb5aa352936dde503bf3fb293b4c43fa51a2ea679721e6eddeea46e474",
+        "published_at": 1789836518,
+        "detected_at": 1789836893,
+        "text": "@udiWertheimer OK fine. But it’s also still coming in Tuesday",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 375
+      },
+      {
+        "id": "x:2101353058110480808",
+        "x_status_id": "2101353058110480808",
+        "canonical_url": "https://x.com/thsottiaux/status/2101353058110480808",
+        "fingerprint": "eb84a5cfa49fae0994a7a7ae6c62e02969d142b071afd3fc80b16b0cd364ceff",
+        "published_at": 1789836584,
+        "detected_at": 1789836893,
+        "text": "@willcb I could see Astra and Jev being best friends in real life",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 309
+      },
+      {
+        "id": "x:2101353743275135306",
+        "x_status_id": "2101353743275135306",
+        "canonical_url": "https://x.com/thsottiaux/status/2101353743275135306",
+        "fingerprint": "d9d08998f0facf1f501ebba7486e6133d45f3ff597f21caae0994394d50a2b49",
+        "published_at": 1789836748,
+        "detected_at": 1789836893,
+        "text": "@hiarun02 Always improving",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 145
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789836268,
+        "last_success_at": 1789836893,
         "last_failure_at": 1789717808,
         "offline_since": null,
         "failure_episodes": 3,
@@ -3267,7 +3335,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789836268"
+        "value": "1789836893"
       }
     ],
     "events": [
