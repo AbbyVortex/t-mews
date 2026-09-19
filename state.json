@@ -3367,13 +3367,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 228
+      },
+      {
+        "id": "x:2101448279712207203",
+        "x_status_id": "2101448279712207203",
+        "canonical_url": "https://x.com/thsottiaux/status/2101448279712207203",
+        "fingerprint": "e1d6ebcd923835485ebb104f19314e20229c9589489a081972eca9b27493e7e3",
+        "published_at": 1789859287,
+        "detected_at": 1789859397,
+        "text": "@alexandr_wang You missed the long way to go part of the quote",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 110
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789858568,
+        "last_success_at": 1789859397,
         "last_failure_at": 1789717808,
         "offline_since": null,
         "failure_episodes": 3,
@@ -3403,7 +3420,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789858568"
+        "value": "1789859397"
       }
     ],
     "events": [
