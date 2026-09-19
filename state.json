@@ -3146,13 +3146,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 411
+      },
+      {
+        "id": "x:2101156632088735758",
+        "x_status_id": "2101156632088735758",
+        "canonical_url": "https://x.com/thsottiaux/status/2101156632088735758",
+        "fingerprint": "f4e44c4f8b4cd09ea05ed733e11322683a49411140c9ca7ddc97b842932bf730",
+        "published_at": 1789789753,
+        "detected_at": 1789790104,
+        "text": "@noahsolomon I thought you were the instinct noah and was confused",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 351
+      },
+      {
+        "id": "x:2101156788011962700",
+        "x_status_id": "2101156788011962700",
+        "canonical_url": "https://x.com/thsottiaux/status/2101156788011962700",
+        "fingerprint": "78ba4ee6b8a1f8cfb6b53dd26d3bc53ba5e539cf8db5d78c92332d5d59f240d6",
+        "published_at": 1789789790,
+        "detected_at": 1789790104,
+        "text": "@gadi_neelesh @ChrisGPT What else do you want",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 314
+      },
+      {
+        "id": "x:2101157729037586694",
+        "x_status_id": "2101157729037586694",
+        "canonical_url": "https://x.com/thsottiaux/status/2101157729037586694",
+        "fingerprint": "e820c7546e48300c0c5b100a33f65a5a85c1f36d1faaa7272fd9eba6f2bb42b7",
+        "published_at": 1789790014,
+        "detected_at": 1789790104,
+        "text": "We were working on the keynote today with @romainhuet and @sama and most of the fun was trying to figure out how to explain it all to you because there is so much good stuff in there that it's a bit ridiculous all in quick succession. \n\nWe'll have some things next week already to not keep you waiting so long, but very excited to show you all new things we've been working on and how it will all come together in the coming months.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 90
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789789512,
+        "last_success_at": 1789790104,
         "last_failure_at": 1789717808,
         "offline_since": null,
         "failure_episodes": 3,
@@ -3182,7 +3233,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789789512"
+        "value": "1789790104"
       }
     ],
     "events": [
