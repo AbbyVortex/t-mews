@@ -3112,13 +3112,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 340
+      },
+      {
+        "id": "x:2101125563448705092",
+        "x_status_id": "2101125563448705092",
+        "canonical_url": "https://x.com/thsottiaux/status/2101125563448705092",
+        "fingerprint": "ef8d7ef74cff4cc490d5d30e249bb41fd07d8c01282c99672995f0c2cec020ca",
+        "published_at": 1789782346,
+        "detected_at": 1789782966,
+        "text": "@MatthewBerman It's already named chat",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 620
+      },
+      {
+        "id": "x:2101126440469344384",
+        "x_status_id": "2101126440469344384",
+        "canonical_url": "https://x.com/thsottiaux/status/2101126440469344384",
+        "fingerprint": "d11a2eda0cbf5efa5b6b4210dd64d6da389ab5e8da578aff1d8dd9f1e177d8f2",
+        "published_at": 1789782555,
+        "detected_at": 1789782966,
+        "text": "@ChrisGPT We have content for maybe 3 dev days",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 411
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789782320,
+        "last_success_at": 1789782966,
         "last_failure_at": 1789717808,
         "offline_since": null,
         "failure_episodes": 3,
@@ -3148,7 +3182,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789782320"
+        "value": "1789782966"
       }
     ],
     "events": [
