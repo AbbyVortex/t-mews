@@ -3299,13 +3299,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 145
+      },
+      {
+        "id": "x:2101354419829010896",
+        "x_status_id": "2101354419829010896",
+        "canonical_url": "https://x.com/thsottiaux/status/2101354419829010896",
+        "fingerprint": "74e1135fd36f3c431dbfe523af562cddead09f172f8eac24d968a1539d8958c1",
+        "published_at": 1789836909,
+        "detected_at": 1789837678,
+        "text": "@anah_sahh did you bail or at least show him codex before?",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 769
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789836893,
+        "last_success_at": 1789837678,
         "last_failure_at": 1789717808,
         "offline_since": null,
         "failure_episodes": 3,
@@ -3335,7 +3352,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789836893"
+        "value": "1789837678"
       }
     ],
     "events": [
