@@ -3384,13 +3384,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 110
+      },
+      {
+        "id": "x:2101531597820596462",
+        "x_status_id": "2101531597820596462",
+        "canonical_url": "https://x.com/thsottiaux/status/2101531597820596462",
+        "fingerprint": "2aa68577e61ac20d13381ec8bec8ed9ff40ae52d670c84ed9297ca6629fcf948",
+        "published_at": 1789879152,
+        "detected_at": 1789879326,
+        "text": "@_dylanga Billions",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 174
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789878483,
+        "last_success_at": 1789879326,
         "last_failure_at": 1789717808,
         "offline_since": null,
         "failure_episodes": 3,
@@ -3420,7 +3437,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789878483"
+        "value": "1789879326"
       }
     ],
     "events": [
