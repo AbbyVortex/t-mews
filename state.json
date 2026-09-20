@@ -3418,13 +3418,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 32
+      },
+      {
+        "id": "x:2101738915564851585",
+        "x_status_id": "2101738915564851585",
+        "canonical_url": "https://x.com/thsottiaux/status/2101738915564851585",
+        "fingerprint": "12d59a4a5c6dd162940de1c5e43bd82d54789a8b9a2d7148c342167995ca192d",
+        "published_at": 1789928580,
+        "detected_at": 1789928651,
+        "text": "@alexandr_wang @Muse @joshginsberg Did you make the video or did the corposlops help out",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 71
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789927642,
+        "last_success_at": 1789928651,
         "last_failure_at": 1789897770,
         "offline_since": null,
         "failure_episodes": 5,
@@ -3454,7 +3471,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789927642"
+        "value": "1789928651"
       }
     ],
     "events": [
