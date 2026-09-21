@@ -3452,13 +3452,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 420
+      },
+      {
+        "id": "x:2101920329346195690",
+        "x_status_id": "2101920329346195690",
+        "canonical_url": "https://x.com/thsottiaux/status/2101920329346195690",
+        "fingerprint": "2e79d67c7a423fe46854f3fc19a4247074e42db0d1193345cb682d4c04854752",
+        "published_at": 1789971832,
+        "detected_at": 1789973005,
+        "text": "@h4nkdog That's cool!!!",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 1173
+      },
+      {
+        "id": "x:2101920928070562029",
+        "x_status_id": "2101920928070562029",
+        "canonical_url": "https://x.com/thsottiaux/status/2101920928070562029",
+        "fingerprint": "6b5a9f813d6f6439c7644ba32671bd427584bf64b143854a4485d9483ab2854b",
+        "published_at": 1789971975,
+        "detected_at": 1789973005,
+        "text": "@My_Ai_Bi 3am on a tuesday",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 1030
+      },
+      {
+        "id": "x:2101921202436702657",
+        "x_status_id": "2101921202436702657",
+        "canonical_url": "https://x.com/thsottiaux/status/2101921202436702657",
+        "fingerprint": "e0822510db9bb670350fc32b73f7db53b5c1f7c0ae912f2dddb508db2f207cd8",
+        "published_at": 1789972041,
+        "detected_at": 1789973005,
+        "text": "@melvindvivas 👁️codex👁️",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 964
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1789971742,
+        "last_success_at": 1789973005,
         "last_failure_at": 1789897770,
         "offline_since": null,
         "failure_episodes": 5,
@@ -3488,7 +3539,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1789971742"
+        "value": "1789973005"
       }
     ],
     "events": [
