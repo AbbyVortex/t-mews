@@ -3792,13 +3792,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 188
+      },
+      {
+        "id": "x:2102509507415048245",
+        "x_status_id": "2102509507415048245",
+        "canonical_url": "https://x.com/thsottiaux/status/2102509507415048245",
+        "fingerprint": "0d18983b7ab2f7372a022e57d9546c2ec51e24762c5fbde79a4d0aafa7b00641",
+        "published_at": 1790112303,
+        "detected_at": 1790112367,
+        "text": "Maybe our cutest launch so far. But still packing the biggest punch.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 64
+      },
+      {
+        "id": "x:2102509629536346422",
+        "x_status_id": "2102509629536346422",
+        "canonical_url": "https://x.com/thsottiaux/status/2102509629536346422",
+        "fingerprint": "9b657a1b5a18ff7ea0a0dbc5c6dcefb40f0df974ff4de41b0b149f51f615e29a",
+        "published_at": 1790112333,
+        "detected_at": 1790112367,
+        "text": "@PawelHuryn Interesting results!",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 34
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790111545,
+        "last_success_at": 1790112367,
         "last_failure_at": 1790104563,
         "offline_since": null,
         "failure_episodes": 8,
@@ -3828,7 +3862,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790111545"
+        "value": "1790112367"
       }
     ],
     "events": [
@@ -3879,6 +3913,12 @@
         "event_type": "post_analysis",
         "created_at": 1790102139,
         "details": "{\"related\":[{\"xStatusId\":\"2102440619616682120\",\"url\":\"https://x.com/thsottiaux/status/2102440619616682120\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"We have been focusing on efficiency and intelligence for all. Very proud of the team. Only possible when you have incredible models at the top end of the capability that you can then use to make a big difference in everything else.\",\"provenance\":\"feed\",\"publishedAt\":1790095879}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"We are loading a banked reset into all accounts of our Plus, Pro and Business users.\"}}"
+      },
+      {
+        "id": "analysis:x:2102509507415048245",
+        "event_type": "post_analysis",
+        "created_at": 1790112367,
+        "details": "{\"related\":[{\"xStatusId\":\"2102460975790137662\",\"url\":\"https://x.com/OpenAI/status/2102460975790137662\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"Please welcome GPT-6 Sol and GPT-6 Luna to the GPT-6 universe. GPT-6 Sol and Luna build on the advances behind GPT-6 Astra, bringing much of its strengths into faster and more affordable models to support work at scale. We’ve also made caching and inference more efficient, and we…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Maybe our cutest launch so far.\"}}"
       },
       {
         "id": "notification:online",
