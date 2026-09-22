@@ -3741,13 +3741,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 533
+      },
+      {
+        "id": "x:2102497184805720459",
+        "x_status_id": "2102497184805720459",
+        "canonical_url": "https://x.com/thsottiaux/status/2102497184805720459",
+        "fingerprint": "0dff32b672c5ae7a31ecf04f300fbcd403d5de67b460fb758b68e9802baeae05",
+        "published_at": 1790109366,
+        "detected_at": 1790110029,
+        "text": "@viticci It’s good to want it all",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 663
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790109283,
+        "last_success_at": 1790110029,
         "last_failure_at": 1790104563,
         "offline_since": null,
         "failure_episodes": 8,
@@ -3777,7 +3794,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790109283"
+        "value": "1790110029"
       }
     ],
     "events": [
