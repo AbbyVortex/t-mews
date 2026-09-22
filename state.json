@@ -3508,12 +3508,12 @@
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "online",
+        "state": "offline",
         "last_success_at": 1790036146,
-        "last_failure_at": 1789973949,
-        "offline_since": null,
-        "failure_episodes": 6,
-        "error": null
+        "last_failure_at": 1790037446,
+        "offline_since": 1790037446,
+        "failure_episodes": 7,
+        "error": "http_500"
       }
     ],
     "state": [
@@ -3540,6 +3540,10 @@
       {
         "key": "lastSuccess",
         "value": "1790036146"
+      },
+      {
+        "key": "outage",
+        "value": "1790037446"
       }
     ],
     "events": [
