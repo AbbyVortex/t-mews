@@ -3520,13 +3520,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 105
+      },
+      {
+        "id": "x:2102254445082116335",
+        "x_status_id": "2102254445082116335",
+        "canonical_url": "https://x.com/thsottiaux/status/2102254445082116335",
+        "fingerprint": "c76a0e37839b12060085903476981a32b8afec3ebdf18294c0e60f6b9f6d2f88",
+        "published_at": 1790051492,
+        "detected_at": 1790052271,
+        "text": "Ladies and gentlemen... start... your... ENGINES. We are almost Tuesday and I promised a reset for Tuesday. Among some other things. See you soon.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 779
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790051425,
+        "last_success_at": 1790052271,
         "last_failure_at": 1790037446,
         "offline_since": null,
         "failure_episodes": 7,
@@ -3556,7 +3573,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790051425"
+        "value": "1790052271"
       }
     ],
     "events": [
@@ -3595,6 +3612,12 @@
         "event_type": "post_analysis",
         "created_at": 1789601506,
         "details": "{\"related\":[{\"xStatusId\":\"2100351958167220547\",\"url\":\"https://x.com/sama/status/2100351958167220547\",\"author\":\"sama\",\"relation\":\"quote\",\"text\":\"the main thing i was excited about launching this week will be next week instead, but imo worth the wait!\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Sometimes physics can't be cheated\"}}"
+      },
+      {
+        "id": "analysis:x:2102254445082116335",
+        "event_type": "post_analysis",
+        "created_at": 1790052271,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"We are almost Tuesday and I promised a reset for Tuesday.\"}}"
       },
       {
         "id": "notification:online",
@@ -3651,6 +3674,14 @@
         "created_at": 1789201310,
         "status": "sent",
         "sent_at": 1789201310
+      },
+      {
+        "id": "post:x:2102254445082116335",
+        "post_id": "x:2102254445082116335",
+        "kind": "alert",
+        "created_at": 1790052271,
+        "status": "sending",
+        "sent_at": null
       },
       {
         "id": "test",
