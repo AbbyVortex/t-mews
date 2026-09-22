@@ -3724,13 +3724,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 98
+      },
+      {
+        "id": "x:2102484207163584745",
+        "x_status_id": "2102484207163584745",
+        "canonical_url": "https://x.com/thsottiaux/status/2102484207163584745",
+        "fingerprint": "9e6aadc96df9ebec7ea64f7fa2ae13c4ae061631d64f2c0ffa522f0760c707fe",
+        "published_at": 1790106271,
+        "detected_at": 1790106804,
+        "text": "@amorriscode u2!",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 533
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790106160,
+        "last_success_at": 1790106804,
         "last_failure_at": 1790104563,
         "offline_since": null,
         "failure_episodes": 8,
@@ -3760,7 +3777,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790106160"
+        "value": "1790106804"
       }
     ],
     "events": [
