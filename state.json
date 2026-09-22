@@ -3571,13 +3571,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 831
+      },
+      {
+        "id": "x:2102289383068180659",
+        "x_status_id": "2102289383068180659",
+        "canonical_url": "https://x.com/thsottiaux/status/2102289383068180659",
+        "fingerprint": "1679fddd63f8d10f571240cfbcede052c424dbcb5aa3bcaeee084e3f956a3826",
+        "published_at": 1790059822,
+        "detected_at": 1790060338,
+        "text": "@thdxr ah yes, that elusive and unlimited ambient inference that they don’t want to know you about",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 516
+      },
+      {
+        "id": "x:2102289624945352906",
+        "x_status_id": "2102289624945352906",
+        "canonical_url": "https://x.com/thsottiaux/status/2102289624945352906",
+        "fingerprint": "9baa5d090e33a435ffa0872e7f1c6f5b116ccbe8a2754849fa68ddb6f738b1a8",
+        "published_at": 1790059879,
+        "detected_at": 1790060338,
+        "text": "@matteing Sergio is indeed on fire",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 459
+      },
+      {
+        "id": "x:2102290126344974551",
+        "x_status_id": "2102290126344974551",
+        "canonical_url": "https://x.com/thsottiaux/status/2102290126344974551",
+        "fingerprint": "85e841de6448a4c5256ded571967d62b9e27b5f284ed62f0feb764bd608e133b",
+        "published_at": 1790059999,
+        "detected_at": 1790060338,
+        "text": "@FintechKristen @ajambrosino Negroni is on you",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 339
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790059509,
+        "last_success_at": 1790060338,
         "last_failure_at": 1790037446,
         "offline_since": null,
         "failure_episodes": 7,
@@ -3607,7 +3658,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790059509"
+        "value": "1790060338"
       }
     ],
     "events": [
