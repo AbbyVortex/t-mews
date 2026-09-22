@@ -3656,13 +3656,81 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 213
+      },
+      {
+        "id": "x:2102463847714247142",
+        "x_status_id": "2102463847714247142",
+        "canonical_url": "https://x.com/thsottiaux/status/2102463847714247142",
+        "fingerprint": "fb036e9ff4188e7d9bc3e3829be90973a6afee17834dbf8c181bd9c42f8edcb6",
+        "published_at": 1790101417,
+        "detected_at": 1790102139,
+        "text": "GPT-6 Sol and Luna are out. Not only are they a very significant improvement across the board, but also in writing and general \"you know when you try it\" quality. \n\nWe are also permanently reducing the API price by 50% making both of them viable for a ton of new usecases and making your usage go further too, even on the subscriptions.\n\nAnd one more thing. We are loading a banked reset into all accounts of our Plus, Pro and Business users. Let's go!\n\nhttps://openai.com/index/introducing-gpt-6-sol-and-luna/",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 722
+      },
+      {
+        "id": "x:2102464575790854290",
+        "x_status_id": "2102464575790854290",
+        "canonical_url": "https://x.com/thsottiaux/status/2102464575790854290",
+        "fingerprint": "a6d30a08d8dcc284f5a9521a1708788f32980389c87886b21d6a9fec7eac4362",
+        "published_at": 1790101591,
+        "detected_at": 1790102139,
+        "text": "@haydenderrico Luna, but better",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 548
+      },
+      {
+        "id": "x:2102466361398378912",
+        "x_status_id": "2102466361398378912",
+        "canonical_url": "https://x.com/thsottiaux/status/2102466361398378912",
+        "fingerprint": "8cb49dce751465fb72604b98b1760d8e37c092c23f1e306538182cd3fd599c38",
+        "published_at": 1790102017,
+        "detected_at": 1790102139,
+        "text": "@TokenGremlin @sama Models are out\n\nhttps://openai.com/index/introducing-gpt-6-sol-and-luna/",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 122
+      },
+      {
+        "id": "x:2102466463156285686",
+        "x_status_id": "2102466463156285686",
+        "canonical_url": "https://x.com/thsottiaux/status/2102466463156285686",
+        "fingerprint": "95e0ff96971f2af4a5ffa20c599446d0df898165f42652204b9bcba85e70b41a",
+        "published_at": 1790102041,
+        "detected_at": 1790102139,
+        "text": "@omarbnjl pizza plutot",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 98
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790100996,
+        "last_success_at": 1790102139,
         "last_failure_at": 1790037446,
         "offline_since": null,
         "failure_episodes": 7,
@@ -3692,7 +3760,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790100996"
+        "value": "1790102139"
       }
     ],
     "events": [
@@ -3737,6 +3805,12 @@
         "event_type": "post_analysis",
         "created_at": 1790052271,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"We are almost Tuesday and I promised a reset for Tuesday.\"}}"
+      },
+      {
+        "id": "analysis:x:2102463847714247142",
+        "event_type": "post_analysis",
+        "created_at": 1790102139,
+        "details": "{\"related\":[{\"xStatusId\":\"2102440619616682120\",\"url\":\"https://x.com/thsottiaux/status/2102440619616682120\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"We have been focusing on efficiency and intelligence for all. Very proud of the team. Only possible when you have incredible models at the top end of the capability that you can then use to make a big difference in everything else.\",\"provenance\":\"feed\",\"publishedAt\":1790095879}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"We are loading a banked reset into all accounts of our Plus, Pro and Business users.\"}}"
       },
       {
         "id": "notification:online",
@@ -3807,6 +3881,14 @@
         "created_at": 1790052271,
         "status": "sent",
         "sent_at": 1790052271
+      },
+      {
+        "id": "post:x:2102463847714247142",
+        "post_id": "x:2102463847714247142",
+        "kind": "alert",
+        "created_at": 1790102139,
+        "status": "sending",
+        "sent_at": null
       },
       {
         "id": "test",
