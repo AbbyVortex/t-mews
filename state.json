@@ -3622,13 +3622,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 339
+      },
+      {
+        "id": "x:2102292452329820272",
+        "x_status_id": "2102292452329820272",
+        "canonical_url": "https://x.com/thsottiaux/status/2102292452329820272",
+        "fingerprint": "8208941e7bdbd1c258c65ffe51750d3b32f52e5bf13f5b34a339262a8d218cfd",
+        "published_at": 1790060553,
+        "detected_at": 1790061464,
+        "text": "@steipete Huge!!",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 911
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790060338,
+        "last_success_at": 1790061464,
         "last_failure_at": 1790037446,
         "offline_since": null,
         "failure_episodes": 7,
@@ -3658,7 +3675,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790060338"
+        "value": "1790061464"
       }
     ],
     "events": [
