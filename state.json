@@ -3639,13 +3639,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 911
+      },
+      {
+        "id": "x:2102440619616682120",
+        "x_status_id": "2102440619616682120",
+        "canonical_url": "https://x.com/thsottiaux/status/2102440619616682120",
+        "fingerprint": "a5f78d8421095cc2435ecf5ded65283bffb8a94fa5c0cc15a45ce3f4f6507c1e",
+        "published_at": 1790095879,
+        "detected_at": 1790096092,
+        "text": "We have been focusing on efficiency and intelligence for all. \n\nVery proud of the team. Only possible when you have incredible models at the top end of the capability that you can then use to make a big difference in everything else.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 213
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790095385,
+        "last_success_at": 1790096092,
         "last_failure_at": 1790037446,
         "offline_since": null,
         "failure_episodes": 7,
@@ -3675,7 +3692,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790095385"
+        "value": "1790096092"
       }
     ],
     "events": [
