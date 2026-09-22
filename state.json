@@ -3537,13 +3537,47 @@
         "notified": 1,
         "notification_status": "sent",
         "detection_latency_seconds": 779
+      },
+      {
+        "id": "x:2102284352801427520",
+        "x_status_id": "2102284352801427520",
+        "canonical_url": "https://x.com/thsottiaux/status/2102284352801427520",
+        "fingerprint": "6c815917ba6a505400da23635ab5491a5d8834e8871e7fe3e8b14b3b284a0fb7",
+        "published_at": 1790058622,
+        "detected_at": 1790059509,
+        "text": "@neogoose_btw Good choice, good choice",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 887
+      },
+      {
+        "id": "x:2102284586713522193",
+        "x_status_id": "2102284586713522193",
+        "canonical_url": "https://x.com/thsottiaux/status/2102284586713522193",
+        "fingerprint": "e9e5cc04365ca68829eb4b3a07c1920467f526bf3c834dae7a6969a4bcb12a3f",
+        "published_at": 1790058678,
+        "detected_at": 1790059509,
+        "text": "@Cch_Chichieh Burn those tokens",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 831
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790058386,
+        "last_success_at": 1790059509,
         "last_failure_at": 1790037446,
         "offline_since": null,
         "failure_episodes": 7,
@@ -3573,7 +3607,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790058386"
+        "value": "1790059509"
       }
     ],
     "events": [
