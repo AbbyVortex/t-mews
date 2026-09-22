@@ -3729,12 +3729,12 @@
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1790103617,
+        "state": "online",
+        "last_success_at": 1790105336,
         "last_failure_at": 1790104563,
-        "offline_since": 1790104563,
+        "offline_since": null,
         "failure_episodes": 8,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -3760,11 +3760,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790103617"
-      },
-      {
-        "key": "outage",
-        "value": "1790104563"
+        "value": "1790105336"
       }
     ],
     "events": [
