@@ -2262,13 +2262,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 635
+      },
+      {
+        "id": "x:2102884039145521487",
+        "x_status_id": "2102884039145521487",
+        "canonical_url": "https://x.com/thsottiaux/status/2102884039145521487",
+        "fingerprint": "b0adf0cb28a84238dc4e7844d613f6ccf54bbb7e549f277455defd3957d69ea4",
+        "published_at": 1790201599,
+        "detected_at": 1790202250,
+        "text": "@scottstts A bit harder to do when you have 1B users, but we are working to reduce this to only a few hours or minutes in the future",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 651
+      },
+      {
+        "id": "x:2102884137749315973",
+        "x_status_id": "2102884137749315973",
+        "canonical_url": "https://x.com/thsottiaux/status/2102884137749315973",
+        "fingerprint": "1653aef962aec604cf2d7c1ee9b8212b8feef9590a52f93e3b8c439c93827180",
+        "published_at": 1790201622,
+        "detected_at": 1790202250,
+        "text": "@trq212 This is the way",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 628
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790201392,
+        "last_success_at": 1790202250,
         "last_failure_at": 1790179504,
         "offline_since": null,
         "failure_episodes": 10,
@@ -2298,7 +2332,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790201392"
+        "value": "1790202250"
       }
     ],
     "events": [
