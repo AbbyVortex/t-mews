@@ -2296,13 +2296,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 628
+      },
+      {
+        "id": "x:2102890573481050167",
+        "x_status_id": "2102890573481050167",
+        "canonical_url": "https://x.com/thsottiaux/status/2102890573481050167",
+        "fingerprint": "56aaf31b9b7e303878e504e83ef5dcf2469b850624394da1bed41305b5bc7d39",
+        "published_at": 1790203157,
+        "detected_at": 1790203700,
+        "text": "@_simonsmith Seeing the future",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 543
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790203031,
+        "last_success_at": 1790203700,
         "last_failure_at": 1790179504,
         "offline_since": null,
         "failure_episodes": 10,
@@ -2332,7 +2349,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790203031"
+        "value": "1790203700"
       }
     ],
     "events": [
