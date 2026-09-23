@@ -2245,13 +2245,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 34
+      },
+      {
+        "id": "x:2102814202117411196",
+        "x_status_id": "2102814202117411196",
+        "canonical_url": "https://x.com/thsottiaux/status/2102814202117411196",
+        "fingerprint": "bc66573928cc56a9a94388d27b0f3bbc0ac3d7b2c2abe6899dc62beb27e964a6",
+        "published_at": 1790184948,
+        "detected_at": 1790185583,
+        "text": "Voice! I've gotten so used to just call ChatGPT and talk about all the work, check on emails, do some coding, manage my calendar and it works across the full ecosystem of plugins, including 3P developed plugins.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 635
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790184892,
+        "last_success_at": 1790185583,
         "last_failure_at": 1790179504,
         "offline_since": null,
         "failure_episodes": 10,
@@ -2281,7 +2298,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790184892"
+        "value": "1790185583"
       }
     ],
     "events": [
@@ -2338,6 +2355,12 @@
         "event_type": "post_analysis",
         "created_at": 1790112367,
         "details": "{\"related\":[{\"xStatusId\":\"2102460975790137662\",\"url\":\"https://x.com/OpenAI/status/2102460975790137662\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"Please welcome GPT-6 Sol and GPT-6 Luna to the GPT-6 universe. GPT-6 Sol and Luna build on the advances behind GPT-6 Astra, bringing much of its strengths into faster and more affordable models to support work at scale. We’ve also made caching and inference more efficient, and we…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Maybe our cutest launch so far.\"}}"
+      },
+      {
+        "id": "analysis:x:2102814202117411196",
+        "event_type": "post_analysis",
+        "created_at": 1790185583,
+        "details": "{\"related\":[{\"xStatusId\":\"2102808325742322002\",\"url\":\"https://x.com/OpenAI/status/2102808325742322002\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"We heard you loud and clear. ChatGPT Voice can now: - Use plugins like your email, calendar, and Slack. - Be powered by GPT-6 Astra, Sol, and Luna. - Be used in ChatGPT Work on web and mobile, so you can create docs, decks, sites, and spreadsheets or tackle complex tasks in the b…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Voice!\"}}"
       },
       {
         "id": "notification:post:x:2098612714704891959",
