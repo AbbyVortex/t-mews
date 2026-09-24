@@ -2313,13 +2313,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 543
+      },
+      {
+        "id": "x:2102982591628648784",
+        "x_status_id": "2102982591628648784",
+        "canonical_url": "https://x.com/thsottiaux/status/2102982591628648784",
+        "fingerprint": "529b9453eae4ae9036e178bdecfaf1764284fa589f82274c1760a966859e679e",
+        "published_at": 1790225096,
+        "detected_at": 1790225781,
+        "text": "@alexandr_wang good one",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 685
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790225075,
+        "last_success_at": 1790225781,
         "last_failure_at": 1790179504,
         "offline_since": null,
         "failure_episodes": 10,
@@ -2349,7 +2366,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790225075"
+        "value": "1790225781"
       }
     ],
     "events": [
