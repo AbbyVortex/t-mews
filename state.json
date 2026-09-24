@@ -2245,13 +2245,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 685
+      },
+      {
+        "id": "x:2102996313780736363",
+        "x_status_id": "2102996313780736363",
+        "canonical_url": "https://x.com/thsottiaux/status/2102996313780736363",
+        "fingerprint": "13e156a6a01b8cf98506f0bad0342b8817be1835b20202686b5853b8e7dc6f6d",
+        "published_at": 1790228367,
+        "detected_at": 1790228480,
+        "text": "Can't wait for DevDay next Tuesday.\n\nSome really fun stuff, but also many many things that should change the way you work. It's been our most ambitious sprint and Astra has really made new things possible in such short amounts of time.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 113
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790227594,
+        "last_success_at": 1790228480,
         "last_failure_at": 1790179504,
         "offline_since": null,
         "failure_episodes": 10,
@@ -2281,7 +2298,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790227594"
+        "value": "1790228480"
       }
     ],
     "events": [
