@@ -394,23 +394,6 @@
         "detection_latency_seconds": 180952
       },
       {
-        "id": "x:2098105060186374280",
-        "x_status_id": "2098105060186374280",
-        "canonical_url": "https://x.com/thsottiaux/status/2098105060186374280",
-        "fingerprint": "5522b8c4d5ed441586c49d373f88c5ced34dc30eb85ed30c77588bdb254fa9b5",
-        "published_at": 1789062201,
-        "detected_at": 1789062203,
-        "text": "You can now build on top of the same voice system that we shipped to 1B users in ChatGPT.\n\nSo many fun applications of a full duplex system with solid toolcalling. Going back to text-only experiences after this feels harder than I had expected.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 2
-      },
-      {
         "id": "x:2098106443748778164",
         "x_status_id": "2098106443748778164",
         "canonical_url": "https://x.com/thsottiaux/status/2098106443748778164",
@@ -426,23 +409,6 @@
         "notified": 0,
         "notification_status": "baseline",
         "detection_latency_seconds": 134395
-      },
-      {
-        "id": "x:2098113585683808624",
-        "x_status_id": "2098113585683808624",
-        "canonical_url": "https://x.com/thsottiaux/status/2098113585683808624",
-        "fingerprint": "5208a4802d5240f7cb7e6924cbf977524ea54fe2ef2c72f8329e6e21ebda3226",
-        "published_at": 1789064234,
-        "detected_at": 1789064885,
-        "text": "To make sure our current users have an incredible experience and continued access to Astra, we are going to pause subscriptions to our $200 Pro plan. These put the most strain on our systems and we wanted to take the smallest step that allows us to continue giving the broadest access possible. All other plans and the api remain available.\n\nThere is no impact to existing accounts and we are working on adding more capacity as fast as we can. Thanks!",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 651
       },
       {
         "id": "x:2098115478644523392",
@@ -494,23 +460,6 @@
         "notified": 0,
         "notification_status": "baseline",
         "detection_latency_seconds": 128514
-      },
-      {
-        "id": "x:2098165551554240764",
-        "x_status_id": "2098165551554240764",
-        "canonical_url": "https://x.com/thsottiaux/status/2098165551554240764",
-        "fingerprint": "a39fefc870677c79bea7582d8afbc587c27ca9302f998803baa7b34f85db83be",
-        "published_at": 1789076624,
-        "detected_at": 1789077225,
-        "text": "Do you pronounce it data or data? This is the way everyone makes dashboards and learns about the business at OpenAI. Can't live without it.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 601
       },
       {
         "id": "x:2098169651956220384",
@@ -596,23 +545,6 @@
         "notified": 0,
         "notification_status": "baseline",
         "detection_latency_seconds": 103417
-      },
-      {
-        "id": "x:2098238138334548260",
-        "x_status_id": "2098238138334548260",
-        "canonical_url": "https://x.com/thsottiaux/status/2098238138334548260",
-        "fingerprint": "38e4fd0b83be7fd6e370c1a0df44fc57c7d0948d50ff2d3ab31913acbd002e74",
-        "published_at": 1789093930,
-        "detected_at": 1789094686,
-        "text": "Scaled agents on demand.\n\nThis is pretty much the infrastructure that runs under the hood for ChatGPT Work, all wrapped up in an API which you can use to get started in < 1 min. Happy building.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 756
       },
       {
         "id": "x:2098242895195275735",
@@ -2268,7 +2200,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790313419,
+        "last_success_at": 1790314292,
         "last_failure_at": 1790179504,
         "offline_since": null,
         "failure_episodes": 10,
@@ -2294,11 +2226,11 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1790227594"
+        "value": "1790314292"
       },
       {
         "key": "lastSuccess",
-        "value": "1790313419"
+        "value": "1790314292"
       }
     ],
     "events": [
