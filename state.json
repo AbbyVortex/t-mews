@@ -2211,13 +2211,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 505
+      },
+      {
+        "id": "x:2103620061156290622",
+        "x_status_id": "2103620061156290622",
+        "canonical_url": "https://x.com/thsottiaux/status/2103620061156290622",
+        "fingerprint": "467283b537b4ae7735bc99a58fe1ff480435a224af5fe7cff54d28ffc4037679",
+        "published_at": 1790377080,
+        "detected_at": 1790377713,
+        "text": "We are aware that codex is down and are working hard to bring back normal service.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 633
+      },
+      {
+        "id": "x:2103622639386574979",
+        "x_status_id": "2103622639386574979",
+        "canonical_url": "https://x.com/thsottiaux/status/2103622639386574979",
+        "fingerprint": "cebd7f39c4369d04d4940c26304f5d1e6170c34b9cc4a6dd298db069c832755c",
+        "published_at": 1790377695,
+        "detected_at": 1790377713,
+        "text": "o no :(",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 18
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790376897,
+        "last_success_at": 1790377713,
         "last_failure_at": 1790359053,
         "offline_since": null,
         "failure_episodes": 13,
@@ -2247,7 +2281,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790376897"
+        "value": "1790377713"
       }
     ],
     "events": [
