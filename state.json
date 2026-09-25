@@ -2194,13 +2194,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 113
+      },
+      {
+        "id": "x:2103375711797211460",
+        "x_status_id": "2103375711797211460",
+        "canonical_url": "https://x.com/thsottiaux/status/2103375711797211460",
+        "fingerprint": "2f6b1f1bb0e2169636f5ab0905571acac973112b9356e5e6c2d8e360ee65e145",
+        "published_at": 1790318823,
+        "detected_at": 1790319328,
+        "text": "Been a bit quiet here because internal Slack has been hilarious lately and because we are all locked in on DevDay. Tuesday will be fun.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 505
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790318355,
+        "last_success_at": 1790319328,
         "last_failure_at": 1790179504,
         "offline_since": null,
         "failure_episodes": 10,
@@ -2230,7 +2247,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790318355"
+        "value": "1790319328"
       }
     ],
     "events": [
