@@ -581,23 +581,6 @@
         "detection_latency_seconds": 88146
       },
       {
-        "id": "x:2098300998968357218",
-        "x_status_id": "2098300998968357218",
-        "canonical_url": "https://x.com/thsottiaux/status/2098300998968357218",
-        "fingerprint": "d7e50dddf90301609893c1ffbf9c85eca3fe38e8b8f1ffad65c83a8ef3c9e5be",
-        "published_at": 1789108917,
-        "detected_at": 1789109181,
-        "text": "Next week we’ll be retiring GPT-5.3-Codex-Spark. Can you believe we shipped a model named as such!!\n\nIt's had a good run and was a lot of fun, but usage has been declining and we have significantly better models now. Time to make room for the future.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 264
-      },
-      {
         "id": "x:2098305309265875210",
         "x_status_id": "2098305309265875210",
         "canonical_url": "https://x.com/thsottiaux/status/2098305309265875210",
@@ -613,40 +596,6 @@
         "notified": 0,
         "notification_status": "baseline",
         "detection_latency_seconds": 86981
-      },
-      {
-        "id": "x:2098569538510180712",
-        "x_status_id": "2098569538510180712",
-        "canonical_url": "https://x.com/thsottiaux/status/2098569538510180712",
-        "fingerprint": "dbfc7d964a8f00cd1d2c4ca512cf3112eb85d3c0c8262197eeedee352c6f78a8",
-        "published_at": 1789172942,
-        "detected_at": 1789173823,
-        "text": "Massive upgrade to creating, sharing and hosting sites directly through ChatGPT.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 881
-      },
-      {
-        "id": "x:2098569976143806918",
-        "x_status_id": "2098569976143806918",
-        "canonical_url": "https://x.com/thsottiaux/status/2098569976143806918",
-        "fingerprint": "55734bc1a0218dcf7d34b82ecbeccd4f6dac1a3f41b3f8beebcf508006e2c799",
-        "published_at": 1789173046,
-        "detected_at": 1789173823,
-        "text": "Excited to welcome Aidan & @\n\nSasha from the Git AI team to OpenAI! \n\nThey are building in the open and have developed an open-source tool that helps developers understand how coding agents contribute to their codebase. \n\nTogether, we’ll make it easier for businesses to see where Codex is making a difference when working through problems for individuals and teams. We’ll also keep Git AI open source and continue investing in it.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 777
       },
       {
         "id": "x:2098590070102245712",
@@ -666,23 +615,6 @@
         "detection_latency_seconds": 19089
       },
       {
-        "id": "x:2098612714704891959",
-        "x_status_id": "2098612714704891959",
-        "canonical_url": "https://x.com/thsottiaux/status/2098612714704891959",
-        "fingerprint": "d22f41e32bec00c81f8086514c80ab5871e0ed4e55fa6bffe92c6cb6e18bc089",
-        "published_at": 1789183236,
-        "detected_at": 1789183614,
-        "text": "Hi Astra users. A reset and a quick update on quality issues that have been posted around.\n\nWorking with some of you, we have found and fixed the following issues:\n\n- Some skills written for previous models were triggering too often or preventing the model from checking its work.\n\n- An opt-in context management experiment that could cause early stops or replies to older messages. We've disabled it. Our rough estimate is that 4-5k users were affected by this experiment.\n\n- We've also removed some badly configured engines that resulted in a measured quality degradation for a long tail of traffic flowing through them.\n\nWe’ve also made some more minor improvements and things should feel significantly better across the board. More consistent follow-through, better tracking of your latest message, and better checks on the work as it’s going through the motions.\n\nThe examples posted and all the users who worked directly with us were incredibly useful in helping fix things quickly. Always grateful for this incredible community.\n\nAnd of course, a reset is also landing by midnight today.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "RESET_ANNOUNCED",
-        "reason": "reset arrival or completion confirmed",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 378
-      },
-      {
         "id": "x:2098613228486152223",
         "x_status_id": "2098613228486152223",
         "canonical_url": "https://x.com/thsottiaux/status/2098613228486152223",
@@ -698,23 +630,6 @@
         "notified": 0,
         "notification_status": "baseline",
         "detection_latency_seconds": 13568
-      },
-      {
-        "id": "x:2098639827084480864",
-        "x_status_id": "2098639827084480864",
-        "canonical_url": "https://x.com/thsottiaux/status/2098639827084480864",
-        "fingerprint": "a8e0a8e1668250fab39cb78c6b7549d5f43b60d122049b259c46c1e38b75d9fd",
-        "published_at": 1789189700,
-        "detected_at": 1789189910,
-        "text": "Astra powered ships this week\n\n- Images 2.5\n\n- GPT-Live-1\n\n- Agents API\n\n- Data Agent\n\n- ChatGPT for Financial Services\n\nand yet it’s not yet DevDay. Busy plans for next week too.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 210
       },
       {
         "id": "x:2098685367058612394",
@@ -2268,7 +2183,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790400292,
+        "last_success_at": 1790401102,
         "last_failure_at": 1790399405,
         "offline_since": null,
         "failure_episodes": 15,
@@ -2294,11 +2209,11 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1790314292"
+        "value": "1790401102"
       },
       {
         "key": "lastSuccess",
-        "value": "1790400292"
+        "value": "1790401102"
       }
     ],
     "events": [
@@ -2369,12 +2284,6 @@
         "details": "{\"related\":[{\"xStatusId\":\"2103622639386574979\",\"url\":\"https://x.com/thsottiaux/status/2103622639386574979\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"o no :(\",\"provenance\":\"feed\",\"publishedAt\":1790377695}],\"verdict\":{\"classification\":\"RESET_ANNOUNCED\",\"notify\":true,\"reason\":\"explicit announced or completed usage reset\",\"display\":\"announcement\",\"evidence\":\"o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work\"}}"
       },
       {
-        "id": "notification:post:x:2098612714704891959",
-        "event_type": "notification_sent",
-        "created_at": 1789190477,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2098612714704891959\"}"
-      },
-      {
         "id": "notification:post:x:2098685367058612394",
         "event_type": "notification_sent",
         "created_at": 1789201310,
@@ -2397,12 +2306,6 @@
         "event_type": "notification_sent",
         "created_at": 1790381606,
         "details": "{\"kind\":\"alert\",\"postId\":\"x:2103637477760311522\"}"
-      },
-      {
-        "id": "recovery:x:2098612714704891959",
-        "event_type": "alert_recovery_requested",
-        "created_at": 1789190477,
-        "details": "{\"postId\":\"x:2098612714704891959\",\"previousClassification\":\"IRRELEVANT\",\"classification\":\"RESET_ANNOUNCED\"}"
       }
     ],
     "notifications": [
