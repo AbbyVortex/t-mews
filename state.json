@@ -2259,8 +2259,8 @@
         "classification": "RESET_ANNOUNCED",
         "reason": "explicit announced or completed usage reset",
         "baseline": 0,
-        "notified": 0,
-        "notification_status": "pending",
+        "notified": 1,
+        "notification_status": "sent",
         "detection_latency_seconds": 373
       }
     ],
@@ -2393,6 +2393,12 @@
         "details": "{\"kind\":\"alert\",\"postId\":\"x:2102463847714247142\"}"
       },
       {
+        "id": "notification:post:x:2103637477760311522",
+        "event_type": "notification_sent",
+        "created_at": 1790381606,
+        "details": "{\"kind\":\"alert\",\"postId\":\"x:2103637477760311522\"}"
+      },
+      {
         "id": "recovery:x:2098612714704891959",
         "event_type": "alert_recovery_requested",
         "created_at": 1789190477,
@@ -2445,8 +2451,8 @@
         "post_id": "x:2103637477760311522",
         "kind": "alert",
         "created_at": 1790381606,
-        "status": "sending",
-        "sent_at": null
+        "status": "sent",
+        "sent_at": 1790381606
       },
       {
         "id": "test",
