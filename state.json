@@ -2245,13 +2245,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 18
+      },
+      {
+        "id": "x:2103637477760311522",
+        "x_status_id": "2103637477760311522",
+        "canonical_url": "https://x.com/thsottiaux/status/2103637477760311522",
+        "fingerprint": "0292e6c4b805acb86836bad845957c8d26321bbd5d0faecb5539c2f415d43b40",
+        "published_at": 1790381233,
+        "detected_at": 1790381606,
+        "text": "o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work\n\nsorry about the brief disruption!\n\n(and yes we have a special spare codex when things are down to help us out)",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "RESET_ANNOUNCED",
+        "reason": "explicit announced or completed usage reset",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 373
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790380524,
+        "last_success_at": 1790381606,
         "last_failure_at": 1790359053,
         "offline_since": null,
         "failure_episodes": 13,
@@ -2281,7 +2298,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790380524"
+        "value": "1790381606"
       }
     ],
     "events": [
@@ -2344,6 +2361,12 @@
         "event_type": "post_analysis",
         "created_at": 1790185583,
         "details": "{\"related\":[{\"xStatusId\":\"2102808325742322002\",\"url\":\"https://x.com/OpenAI/status/2102808325742322002\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"We heard you loud and clear. ChatGPT Voice can now: - Use plugins like your email, calendar, and Slack. - Be powered by GPT-6 Astra, Sol, and Luna. - Be used in ChatGPT Work on web and mobile, so you can create docs, decks, sites, and spreadsheets or tackle complex tasks in the b…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Voice!\"}}"
+      },
+      {
+        "id": "analysis:x:2103637477760311522",
+        "event_type": "post_analysis",
+        "created_at": 1790381606,
+        "details": "{\"related\":[{\"xStatusId\":\"2103622639386574979\",\"url\":\"https://x.com/thsottiaux/status/2103622639386574979\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"o no :(\",\"provenance\":\"feed\",\"publishedAt\":1790377695}],\"verdict\":{\"classification\":\"RESET_ANNOUNCED\",\"notify\":true,\"reason\":\"explicit announced or completed usage reset\",\"display\":\"announcement\",\"evidence\":\"o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work\"}}"
       },
       {
         "id": "notification:post:x:2098612714704891959",
@@ -2416,6 +2439,14 @@
         "created_at": 1790102139,
         "status": "sent",
         "sent_at": 1790102139
+      },
+      {
+        "id": "post:x:2103637477760311522",
+        "post_id": "x:2103637477760311522",
+        "kind": "alert",
+        "created_at": 1790381606,
+        "status": "sending",
+        "sent_at": null
       },
       {
         "id": "test",
