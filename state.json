@@ -2183,7 +2183,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790404840,
+        "last_success_at": 1790405711,
         "last_failure_at": 1790403765,
         "offline_since": null,
         "failure_episodes": 16,
@@ -2213,7 +2213,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790404840"
+        "value": "1790405711"
       }
     ],
     "events": [
