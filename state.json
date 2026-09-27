@@ -1633,13 +1633,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 16632
+      },
+      {
+        "id": "x:2104313314901958706",
+        "x_status_id": "2104313314901958706",
+        "canonical_url": "https://x.com/thsottiaux/status/2104313314901958706",
+        "fingerprint": "c1670fbb1af17704346ad272ac1979a674394fdbac55bfcec30742f286c81c33",
+        "published_at": 1790542365,
+        "detected_at": 1790548580,
+        "text": "@scottstts 🙈",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 6215
+      },
+      {
+        "id": "x:2104313502697660428",
+        "x_status_id": "2104313502697660428",
+        "canonical_url": "https://x.com/thsottiaux/status/2104313502697660428",
+        "fingerprint": "bff7b21abc6ff13bb7ba59cdc934944ba7ea857a22e7590e3eb6a89634733881",
+        "published_at": 1790542409,
+        "detected_at": 1790548580,
+        "text": "@yacineMTB O really",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 6171
+      },
+      {
+        "id": "x:2104313777013526880",
+        "x_status_id": "2104313777013526880",
+        "canonical_url": "https://x.com/thsottiaux/status/2104313777013526880",
+        "fingerprint": "2656828d9a38aa7315419634ea8580a2ce5b70051602b44c8a0b3e302a67de34",
+        "published_at": 1790542475,
+        "detected_at": 1790548580,
+        "text": "@Vincent_AINotes Hitting the gym, brb on Tuesday",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 6105
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790538520,
+        "last_success_at": 1790548580,
         "last_failure_at": 1790488903,
         "offline_since": null,
         "failure_episodes": 18,
@@ -1669,7 +1720,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790538520"
+        "value": "1790548580"
       }
     ],
     "events": [
