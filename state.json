@@ -3,74 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2099393115241300166",
-        "x_status_id": "2099393115241300166",
-        "canonical_url": "https://x.com/thsottiaux/status/2099393115241300166",
-        "fingerprint": "e2be0857103cc713cc8283e65cf1043ec9b67535367ac8bcccc71a827e77d98c",
-        "published_at": 1789369298,
-        "detected_at": 1789370388,
-        "text": "What’s a feature we should remove from Codex that isn’t useful anymore?",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 1090
-      },
-      {
-        "id": "x:2099393997026582791",
-        "x_status_id": "2099393997026582791",
-        "canonical_url": "https://x.com/thsottiaux/status/2099393997026582791",
-        "fingerprint": "7fcf33cd2e2608279f8a3b446255c4adaea5ab43147591ff835fdb2687116216",
-        "published_at": 1789369508,
-        "detected_at": 1789370388,
-        "text": "@alexandr_wang lol",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 880
-      },
-      {
-        "id": "x:2099394367744356554",
-        "x_status_id": "2099394367744356554",
-        "canonical_url": "https://x.com/thsottiaux/status/2099394367744356554",
-        "fingerprint": "e740d8f206dca65b21ca28673d790eed1846c4273e7200c4f5fe9a0ddab3e0cc",
-        "published_at": 1789369596,
-        "detected_at": 1789370388,
-        "text": "@mark_k @ChatGPT @OpenAI We will fix this",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 792
-      },
-      {
-        "id": "x:2099394561076568290",
-        "x_status_id": "2099394561076568290",
-        "canonical_url": "https://x.com/thsottiaux/status/2099394561076568290",
-        "fingerprint": "0854c820f474c78659a06184a671f4e184646658b53228d976369ffc2ce2166f",
-        "published_at": 1789369642,
-        "detected_at": 1789370388,
-        "text": "@olegakbarov What’s your actual critique of the design?",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 746
-      },
-      {
         "id": "x:2099741116925096020",
         "x_status_id": "2099741116925096020",
         "canonical_url": "https://x.com/thsottiaux/status/2099741116925096020",
@@ -1786,13 +1718,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 361
+      },
+      {
+        "id": "x:2104465709384491519",
+        "x_status_id": "2104465709384491519",
+        "canonical_url": "https://x.com/thsottiaux/status/2104465709384491519",
+        "fingerprint": "a4650a687ebe4f2317063d49e332748ff65db1d24f0057f7a4058cc836581735",
+        "published_at": 1790578698,
+        "detected_at": 1790600727,
+        "text": "Sunday vibes. See you at Fort Mason soon 🎮👩‍💻",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 22029
+      },
+      {
+        "id": "x:2104467346945675347",
+        "x_status_id": "2104467346945675347",
+        "canonical_url": "https://x.com/thsottiaux/status/2104467346945675347",
+        "fingerprint": "066d749e3bdeebad45c3ecf5094240f15f6d7b960db0c6bb48978fc7723392b0",
+        "published_at": 1790579089,
+        "detected_at": 1790600727,
+        "text": "Taken by none other than the incredible @ah20im",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 21638
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790578395,
+        "last_success_at": 1790600727,
         "last_failure_at": 1790488903,
         "offline_since": null,
         "failure_episodes": 18,
@@ -1818,11 +1784,11 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1790510086"
+        "value": "1790600727"
       },
       {
         "key": "lastSuccess",
-        "value": "1790578395"
+        "value": "1790600727"
       }
     ],
     "events": [
@@ -1985,5 +1951,12 @@
         "sent_at": 1788855434
       }
     ]
+  },
+  "publicStatus": {
+    "version": 1,
+    "lastRssSuccessAt": 1790600727,
+    "lastRssAttemptAt": 1790600727,
+    "sourceState": "online",
+    "error": null
   }
 }
