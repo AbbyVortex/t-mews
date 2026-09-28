@@ -1,7 +1,8 @@
 import { DatabaseSync } from 'node:sqlite';
+import {publicRssStatus,type PublicRssStatus} from './public-status';
 import { readFileSync } from 'node:fs';
 const tables=['posts','source_health','state','events','notifications'] as const;
-export interface Snapshot { version:1; tables:Record<string,Record<string,any>[]> }
+export interface Snapshot { version:1; tables:Record<string,Record<string,any>[]>; publicStatus?:PublicRssStatus }
 export class LocalD1 {
  readonly sqlite=new DatabaseSync(':memory:');
  constructor(snapshot?:Snapshot) {
@@ -25,7 +26,7 @@ export class LocalD1 {
   try {const results=await Promise.all(statements.map(s=>s.all()));this.sqlite.exec('COMMIT');return results;}
   catch(e){this.sqlite.exec('ROLLBACK');throw e;}
  }
- snapshot():Snapshot {return {version:1,tables:Object.fromEntries(tables.map(t=>[t,this.sqlite.prepare(`SELECT * FROM ${t} ORDER BY 1`).all()]))};}
+ snapshot():Snapshot {const snapshot:Snapshot={version:1,tables:Object.fromEntries(tables.map(t=>[t,this.sqlite.prepare(`SELECT * FROM ${t} ORDER BY 1`).all()]))};return {...snapshot,publicStatus:publicRssStatus(snapshot)};}
  asD1():D1Database {return this as unknown as D1Database;}
  close(){this.sqlite.close();}
 }

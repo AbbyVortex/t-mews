@@ -16,8 +16,8 @@ export async function monitor(env: Env, now=Math.floor(Date.now()/1000), fetcher
   let error:string|null=null;
   try { items=await fetchSource(source,fetcher);active=source.name; } catch(e) { error=e instanceof Error && /^(http_\d+|unsafe_xml|invalid_xml|not_rss_or_atom|source_notice|empty_or_oversized_feed|no_tibo_items|empty_body|feed_too_large)$/.test(e.message)?e.message:'fetch_or_parse_failed'; }
   const next=error?'offline':'online';
-  const last=error?old?.last_failure_at:old?.last_success_at;
-  if(!old || old.state!==next || !last || now-last>=300) {
+  // Persist every acquisition, including consecutive attempts less than five minutes apart.
+  {
    await env.DB.prepare(`INSERT INTO source_health(source,state,last_success_at,last_failure_at,offline_since,failure_episodes,error) VALUES(?,?,?,?,?,?,?) ON CONFLICT(source) DO UPDATE SET state=excluded.state,last_success_at=COALESCE(excluded.last_success_at,source_health.last_success_at),last_failure_at=COALESCE(excluded.last_failure_at,source_health.last_failure_at),offline_since=excluded.offline_since,failure_episodes=excluded.failure_episodes,error=excluded.error`).bind(source.name,next,error?null:now,error?now:null,error?(old?.offline_since??now):null,(old?.failure_episodes??0)+(error&&old?.state!=='offline'?1:0),error).run();
   }
   if(items) break;
@@ -33,7 +33,7 @@ export async function monitor(env: Env, now=Math.floor(Date.now()/1000), fetcher
   if(warning && ['sent','unknown','sending'].includes(warning.status)) await notify(env,`recovered:${state.outage}`,'recovered','📡 T-MEWS sensor recovered',`RSS取得が復旧しました。ソース: ${active}`,now,fetcher);
   await env.DB.prepare("DELETE FROM state WHERE key='outage'").run();
  }
- if(!state.lastSuccess || now-state.lastSuccess>=300 || state.activeSource!==active || state.outage) await env.DB.batch([put(env.DB,'lastSuccess',now),put(env.DB,'activeSource',active)]);
+ await env.DB.batch([put(env.DB,'lastSuccess',now),put(env.DB,'activeSource',active)]);
  const bootstrap=!state.baselineAt;
  const sourceBootstrap=Boolean(env.SOURCE_BASELINE_KEY&&!state[env.SOURCE_BASELINE_KEY]);
  const unique=await resolveRelated([...new Map(items.map(i=>[i.id,i])).values()],env.DB);
