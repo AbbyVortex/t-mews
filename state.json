@@ -1752,13 +1752,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 21638
+      },
+      {
+        "id": "x:2104823812042940713",
+        "x_status_id": "2104823812042940713",
+        "canonical_url": "https://x.com/thsottiaux/status/2104823812042940713",
+        "fingerprint": "0ebf0d3c50b6d7aa6dfb063c71c146aa200a99bd0a99ca79805397d3d10ae2e2",
+        "published_at": 1790664077,
+        "detected_at": 1790687042,
+        "text": "Hi,\n\nTomorrow we are re-opening the Pro $200 subscriptions to new subscribers, but together with it we are also changing how we calculate the usage for it. In effect, if you do the math, it will net out at half the dollar in API spend compared to the old Pro $200 plan. \n\nNow that it's said, let me explain why this is happening and why you will still get more work done than if you were on the Pro $200 subscription one month ago.\n\n(a) We didn't want to compromise in other ways and are committing to not reintroducing the 5h limit, so that you can fully use the weekly usage when you want.\n\n(b) On the subscription, we guarantee that over time you always get more work done and with an increasing level of quality. This means that you will continue to get more value per dollar spent as a result of models getting more efficient and us passing down the improvements in the form of API price reductions.\n\n(c) We don't want to put an incentive on ourselves to artificially inflate the API list prices to make it look like you are getting a lot (and workaround it through discounts, etc). Instead we want to continue to both rapidly reduce prices and increase capabilities of models on the API. This week we introduced GPT-6 Sol and GPT-6 Luna at 50% of their previous price. Over time, we see prices go low enough that it makes sense for most to buy usage as needed without there being a significant gap between what you get in a subscription and what you get in the API for a dollar spent.\n\n(d) Tomorrow, we are adding more things to the subscription that won't draw on the usage, I won't reveal what that is yet.\n\nI wanted to be transparent before all the big announcements tomorrow. Lots of new exciting things are coming to the subscriptions that will make it super compelling, but I wanted to make sure to share this change ahead of time so you can all understand it before we shower you with good news.\n\nCodexingly,\n\nTibo",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "LIMIT_CHANGE",
+        "reason": "confirmed allowance, limit rule or subscription consumption change",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 22965
+      },
+      {
+        "id": "x:2104827790440935508",
+        "x_status_id": "2104827790440935508",
+        "canonical_url": "https://x.com/thsottiaux/status/2104827790440935508",
+        "fingerprint": "5ecaa1e065cd4c2148d890daea6083f439bcb16e8ea4293bc25e42bda380fa51",
+        "published_at": 1790665025,
+        "detected_at": 1790687042,
+        "text": "@mecp Agreed",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 22017
+      },
+      {
+        "id": "x:2104838506363408740",
+        "x_status_id": "2104838506363408740",
+        "canonical_url": "https://x.com/thsottiaux/status/2104838506363408740",
+        "fingerprint": "7622c9a023ee3de2378a5549fe13f3390bcb3ff3a0836f76cb7347d43b74646d",
+        "published_at": 1790667580,
+        "detected_at": 1790687042,
+        "text": "That was yesterday, today is DevDay. And it's all good news. I'm surprised we've kept it all under wraps.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 19462
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790662564,
+        "last_success_at": 1790687042,
         "last_failure_at": 1790488903,
         "offline_since": null,
         "failure_episodes": 18,
@@ -1788,7 +1839,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790662564"
+        "value": "1790687042"
       }
     ],
     "events": [
@@ -1845,6 +1896,18 @@
         "event_type": "post_analysis",
         "created_at": 1790462377,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"More resets coming next week\"}}"
+      },
+      {
+        "id": "analysis:x:2104823812042940713",
+        "event_type": "post_analysis",
+        "created_at": 1790687042,
+        "details": "{\"verdict\":{\"classification\":\"LIMIT_CHANGE\",\"notify\":true,\"reason\":\"confirmed allowance, limit rule or subscription consumption change\",\"display\":\"limit\",\"evidence\":\"Hi,\"}}"
+      },
+      {
+        "id": "analysis:x:2104838506363408740",
+        "event_type": "post_analysis",
+        "created_at": 1790687042,
+        "details": "{\"related\":[{\"xStatusId\":\"2104823812042940713\",\"url\":\"https://x.com/thsottiaux/status/2104823812042940713\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Hi, Tomorrow we are re-opening the Pro $200 subscriptions to new subscribers, but together with it we are also changing how we calculate the usage for it. In effect, if you do the math, it will net out at half the dollar in API spend compared to the old Pro $200 plan. Now that it…\",\"provenance\":\"feed\",\"publishedAt\":1790664077}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"That was yesterday, today is DevDay.\"}}"
       },
       {
         "id": "notification:post:x:2102254445082116335",
@@ -1943,6 +2006,14 @@
         "sent_at": 1790462377
       },
       {
+        "id": "post:x:2104823812042940713",
+        "post_id": "x:2104823812042940713",
+        "kind": "alert",
+        "created_at": 1790687042,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "test",
         "post_id": null,
         "kind": "test",
@@ -1954,8 +2025,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1790662564,
-    "lastRssAttemptAt": 1790662564,
+    "lastRssSuccessAt": 1790687042,
+    "lastRssAttemptAt": 1790687042,
     "sourceState": "online",
     "error": null
   }
