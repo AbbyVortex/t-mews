@@ -1766,8 +1766,8 @@
         "classification": "LIMIT_CHANGE",
         "reason": "confirmed allowance, limit rule or subscription consumption change",
         "baseline": 0,
-        "notified": 0,
-        "notification_status": "pending",
+        "notified": 1,
+        "notification_status": "sent",
         "detection_latency_seconds": 22965
       },
       {
@@ -1938,6 +1938,12 @@
         "event_type": "notification_sent",
         "created_at": 1790462377,
         "details": "{\"kind\":\"alert\",\"postId\":\"x:2103963215885701493\"}"
+      },
+      {
+        "id": "notification:post:x:2104823812042940713",
+        "event_type": "notification_sent",
+        "created_at": 1790687042,
+        "details": "{\"kind\":\"alert\",\"postId\":\"x:2104823812042940713\"}"
       }
     ],
     "notifications": [
@@ -2010,8 +2016,8 @@
         "post_id": "x:2104823812042940713",
         "kind": "alert",
         "created_at": 1790687042,
-        "status": "sending",
-        "sent_at": null
+        "status": "sent",
+        "sent_at": 1790687042
       },
       {
         "id": "test",
