@@ -2075,13 +2075,132 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 5342
+      },
+      {
+        "id": "x:2105097443847332188",
+        "x_status_id": "2105097443847332188",
+        "canonical_url": "https://x.com/thsottiaux/status/2105097443847332188",
+        "fingerprint": "fa7f69ac38c7ecfd006208a26d51fee09ad1f813fd3990082c5479453f01a0d2",
+        "published_at": 1790729316,
+        "detected_at": 1790731846,
+        "text": "@signulll Transparency is important to me",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 2530
+      },
+      {
+        "id": "x:2105102312167575701",
+        "x_status_id": "2105102312167575701",
+        "canonical_url": "https://x.com/thsottiaux/status/2105102312167575701",
+        "fingerprint": "77ed08cb2e458cb294ffe33c0ade3d06777170bc760aff40fe8b99661b8a43b0",
+        "published_at": 1790730476,
+        "detected_at": 1790731846,
+        "text": "I got community noted, but the note is wrong 😅\n\nYour primary dot is included in your plan and will be available 24/7. If you ask it to create a codex task for you, that one will be drawing usage as usual. But when your dot does work directly, that uses nothing and is all on top of your plans usage. In the future you will be able to increase the speed and allow your dot to have more bandwidth, this will be a paid feature, but the baseline functionality will always just be included in your plan.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 1370
+      },
+      {
+        "id": "x:2105102820706058498",
+        "x_status_id": "2105102820706058498",
+        "canonical_url": "https://x.com/thsottiaux/status/2105102820706058498",
+        "fingerprint": "41be69d3eb9aa7c035d92b7bd412369ebebb55868b0b34b50328e03a834ed501",
+        "published_at": 1790730598,
+        "detected_at": 1790731846,
+        "text": "It was so nice to connect with so many of you in person at DevDay. Immaculate vibes from the crowd and fun to see so many build things throughout the day.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 1248
+      },
+      {
+        "id": "x:2105103752185458869",
+        "x_status_id": "2105103752185458869",
+        "canonical_url": "https://x.com/thsottiaux/status/2105103752185458869",
+        "fingerprint": "6d3ff8c8349cfe04d3a20359ae7e6e203fa65d419be5328459d41b5b9ff1866d",
+        "published_at": 1790730820,
+        "detected_at": 1790731846,
+        "text": "@kunchenguid Good coverage!!! Thank you for tuning in and re-sharing this nicely",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 1026
+      },
+      {
+        "id": "x:2105105086506840421",
+        "x_status_id": "2105105086506840421",
+        "canonical_url": "https://x.com/thsottiaux/status/2105105086506840421",
+        "fingerprint": "8b86a623a63f8fe712f1ee4cbb4b7d36a602aed27dbba812e9cabd78abf43513",
+        "published_at": 1790731138,
+        "detected_at": 1790731846,
+        "text": "We will have a few million dots online within days, working on all sorts of things across such a diverse and large community. \n\nExcited to learn from all of you on what you love and what doesn’t yet feel magical. Personally I felt a jump after 2-3 days of use after teaching it more about my preferences and things on my mind. It learns very quickly to be most useful and it can take on surprisingly ambitious tasks on its own.\n\nWe’re learning from how you all use your primary dot before releasing the ability to create an entire team of them.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 708
+      },
+      {
+        "id": "x:2105106052874375281",
+        "x_status_id": "2105106052874375281",
+        "canonical_url": "https://x.com/thsottiaux/status/2105106052874375281",
+        "fingerprint": "51f93b75f1358e86ca1992073fdc0b98165b410ba36343e223d8a09787406666",
+        "published_at": 1790731368,
+        "detected_at": 1790731846,
+        "text": "@NickADobos Sleeper hit",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 478
+      },
+      {
+        "id": "x:2105106575866364103",
+        "x_status_id": "2105106575866364103",
+        "canonical_url": "https://x.com/thsottiaux/status/2105106575866364103",
+        "fingerprint": "7975daa178dc19196c057d0494710cd9bfda3af44c1f3e7cb90a6d6b79696e7a",
+        "published_at": 1790731493,
+        "detected_at": 1790731846,
+        "text": "@tenobrus Why are you shilling OpenAI. Must be paid or something",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 353
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790721272,
+        "last_success_at": 1790731846,
         "last_failure_at": 1790488903,
         "offline_since": null,
         "failure_episodes": 18,
@@ -2111,7 +2230,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790721272"
+        "value": "1790731846"
       }
     ],
     "events": [
@@ -2198,6 +2317,12 @@
         "event_type": "post_analysis",
         "created_at": 1790721272,
         "details": "{\"related\":[{\"xStatusId\":\"2105000178709360963\",\"url\":\"https://x.com/philipkiely/status/2105000178709360963\",\"author\":\"philipkiely\",\"relation\":\"quote\",\"text\":\"Enterprise teams can now use open models like GLM-5.3 Flash and Kimi K3 natively in Codex and count spend against their OpenAI commit.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Proud of this.\"}}"
+      },
+      {
+        "id": "analysis:x:2105102312167575701",
+        "event_type": "post_analysis",
+        "created_at": 1790731846,
+        "details": "{\"related\":[{\"xStatusId\":\"2104981170685616361\",\"url\":\"https://x.com/thsottiaux/status/2104981170685616361\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Announcing dots. Dots work 24/7 for you, learn from your feedback, have their own computer, browser and can be connected to over 4k apps in our ecosystem. They’re powered by Astra our best model yet. Included in your Pro plan, without drawing down on any of your usage. You can ev…\",\"provenance\":\"feed\",\"publishedAt\":1790701594}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"I got community noted, but the note is wrong 😅\"}}"
       },
       {
         "id": "notification:post:x:2102254445082116335",
@@ -2321,8 +2446,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1790721272,
-    "lastRssAttemptAt": 1790721272,
+    "lastRssSuccessAt": 1790731846,
+    "lastRssAttemptAt": 1790731846,
     "sourceState": "online",
     "error": null
   }
