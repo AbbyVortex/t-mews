@@ -2602,13 +2602,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 5062
+      },
+      {
+        "id": "x:2105394405238886517",
+        "x_status_id": "2105394405238886517",
+        "canonical_url": "https://x.com/thsottiaux/status/2105394405238886517",
+        "fingerprint": "e1981291b87c48119443b4453fb417d586a87b8d92a3d4fd3408d574bada78ab",
+        "published_at": 1790800117,
+        "detected_at": 1790807995,
+        "text": "@AbdoKerdawy @OpenAI @OpenAIDevs Agree, except with the cursing, be nice to your dot!",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 7878
+      },
+      {
+        "id": "x:2105395200248156556",
+        "x_status_id": "2105395200248156556",
+        "canonical_url": "https://x.com/thsottiaux/status/2105395200248156556",
+        "fingerprint": "237b34180f97968e6f65a0f8b567d194a0ae4e8092e26aaf44a688984d30e2d0",
+        "published_at": 1790800306,
+        "detected_at": 1790807995,
+        "text": "Asked my dot to paint me. After sending me something cartoonish, I asked it to try a bit harder and to find a recent picture of me on the internet. It did better.\n\nBelow video is me clicking through my dot's computer.\n\nMedia",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 7689
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790794121,
+        "last_success_at": 1790807995,
         "last_failure_at": 1790488903,
         "offline_since": null,
         "failure_episodes": 18,
@@ -2638,7 +2672,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790794121"
+        "value": "1790807995"
       }
     ],
     "events": [
@@ -2854,8 +2888,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1790794121,
-    "lastRssAttemptAt": 1790794121,
+    "lastRssSuccessAt": 1790807995,
+    "lastRssAttemptAt": 1790807995,
     "sourceState": "online",
     "error": null
   }
