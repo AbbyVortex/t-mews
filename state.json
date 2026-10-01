@@ -2738,17 +2738,136 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 10080
+      },
+      {
+        "id": "x:2105670256094326849",
+        "x_status_id": "2105670256094326849",
+        "canonical_url": "https://x.com/thsottiaux/status/2105670256094326849",
+        "fingerprint": "48c70bf69c822c9a7f487044ae13b0aeff3cf76a9f6c20845269c4af7640dc3f",
+        "published_at": 1790865885,
+        "detected_at": 1790884476,
+        "text": "@_simonsmith We built dots to help get real work done. Lots to come that will improve them further over the days and weeks.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 18591
+      },
+      {
+        "id": "x:2105672058269212820",
+        "x_status_id": "2105672058269212820",
+        "canonical_url": "https://x.com/thsottiaux/status/2105672058269212820",
+        "fingerprint": "40679ae8f77640389ff9681782d2622e1216adfbc85f83e4b3935b68f896d35d",
+        "published_at": 1790866314,
+        "detected_at": 1790884476,
+        "text": "Because usage on your primary dot is virtually unlimited at the moment, I can’t really give a reset. I need to come up with something new fast.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author reset update; timing or availability is not a confirmed new grant",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 18162
+      },
+      {
+        "id": "x:2105689002905153761",
+        "x_status_id": "2105689002905153761",
+        "canonical_url": "https://x.com/thsottiaux/status/2105689002905153761",
+        "fingerprint": "0da1f1e0e733634a319f105132f04f920ddc2318fb659e2f4fa5025faba41660",
+        "published_at": 1790870354,
+        "detected_at": 1790884476,
+        "text": "@rileybrown Love it thank you",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 14122
+      },
+      {
+        "id": "x:2105689875655897093",
+        "x_status_id": "2105689875655897093",
+        "canonical_url": "https://x.com/thsottiaux/status/2105689875655897093",
+        "fingerprint": "39d57f63d43edcb547e9d9e23406d873fd74f13d9ea9d121d1b5a9b3f9eaaccf",
+        "published_at": 1790870562,
+        "detected_at": 1790884476,
+        "text": "@The_Alex We’re going to fix this but it’s a bit funny as your dot literally has to decide whether to pick up or not and sometimes it might just be busy with something else 👀",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 13914
+      },
+      {
+        "id": "x:2105718728658993153",
+        "x_status_id": "2105718728658993153",
+        "canonical_url": "https://x.com/thsottiaux/status/2105718728658993153",
+        "fingerprint": "e6e22555fc8223b5b05c2f992b4202578aabfb8d81b456b741762b29931dbc29",
+        "published_at": 1790877441,
+        "detected_at": 1790884476,
+        "text": "Damn WiFi",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 7035
+      },
+      {
+        "id": "x:2105718931235508277",
+        "x_status_id": "2105718931235508277",
+        "canonical_url": "https://x.com/thsottiaux/status/2105718931235508277",
+        "fingerprint": "212f1a7cb638f4b8cbcf50089361f520e459cddcbafd52b27f66a8e335862b75",
+        "published_at": 1790877490,
+        "detected_at": 1790884476,
+        "text": "@midotalks He gets it",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 6986
+      },
+      {
+        "id": "x:2105727933579137159",
+        "x_status_id": "2105727933579137159",
+        "canonical_url": "https://x.com/thsottiaux/status/2105727933579137159",
+        "fingerprint": "86e8af328c988d679bc85e1a803d7070197c8ba2c7b4943a00014bf4bbe472b8",
+        "published_at": 1790879636,
+        "detected_at": 1790884476,
+        "text": "@vigyso Good thread on details of Sign in with ChatGPT and how the subscription can be used in my partner products",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 4840
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1790840745,
+        "state": "online",
+        "last_success_at": 1790884476,
         "last_failure_at": 1790866114,
-        "offline_since": 1790866114,
+        "offline_since": null,
         "failure_episodes": 19,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2774,11 +2893,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790840745"
-      },
-      {
-        "key": "outage",
-        "value": "1790866114"
+        "value": "1790884476"
       }
     ],
     "events": [
@@ -2877,6 +2992,18 @@
         "event_type": "post_analysis",
         "created_at": 1790840745,
         "details": "{\"related\":[{\"xStatusId\":\"2105428405571428785\",\"url\":\"https://x.com/mxstbr/status/2105428405571428785\",\"author\":\"mxstbr\",\"relation\":\"quote\",\"text\":\"Announcing one more launch: ChatGPT Sites can now host MCP servers, including plugin extensions! 🤯 > @⁠sites create a todo list that I can use in ChatGPT This will: · Create an MCP server with extensions · Deploy that MCP server to Sites · Turn the MCP server into a plugin · Ins…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"One more thing, you can now build and deploy MCP servers right through ChatGPT.\"}}"
+      },
+      {
+        "id": "analysis:x:2105672058269212820",
+        "event_type": "post_analysis",
+        "created_at": 1790884476,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"display\":\"advisory\",\"change\":\"denied\",\"evidence\":\"Because usage on your primary dot is virtually unlimited at the moment, I can’t really give a reset.\",\"reason\":\"author reset update; timing or availability is not a confirmed new grant\"}}"
+      },
+      {
+        "id": "analysis:x:2105718728658993153",
+        "event_type": "post_analysis",
+        "created_at": 1790884476,
+        "details": "{\"related\":[{\"xStatusId\":\"2105708732323909827\",\"url\":\"https://x.com/OpenAIDevs/status/2105708732323909827\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"dots demo. Now... with better WiFi.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Damn WiFi\"}}"
       },
       {
         "id": "notification:post:x:2102254445082116335",
@@ -2989,6 +3116,14 @@
         "sent_at": 1790687042
       },
       {
+        "id": "post:x:2105672058269212820",
+        "post_id": "x:2105672058269212820",
+        "kind": "alert",
+        "created_at": 1790884476,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "test",
         "post_id": null,
         "kind": "test",
@@ -3000,9 +3135,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1790840745,
-    "lastRssAttemptAt": 1790866114,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1790884476,
+    "lastRssAttemptAt": 1790884476,
+    "sourceState": "online",
+    "error": null
   }
 }
