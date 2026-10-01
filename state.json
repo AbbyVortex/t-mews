@@ -2636,13 +2636,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 7689
+      },
+      {
+        "id": "x:2105456105954648292",
+        "x_status_id": "2105456105954648292",
+        "canonical_url": "https://x.com/thsottiaux/status/2105456105954648292",
+        "fingerprint": "56ef2140f39dea893c5ea9664ceadc8b72a1b7302447568d897bcffab1ebad05",
+        "published_at": 1790814827,
+        "detected_at": 1790818515,
+        "text": "@OdraivK Hi, what can I do for you today",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 3688
+      },
+      {
+        "id": "x:2105464274747527543",
+        "x_status_id": "2105464274747527543",
+        "canonical_url": "https://x.com/thsottiaux/status/2105464274747527543",
+        "fingerprint": "5b8741796dc41fc849b154a8d12230b81f609cd42c9c4ebfa205896466678f61",
+        "published_at": 1790816775,
+        "detected_at": 1790818515,
+        "text": "GPT-6.1 Sol is our most demanded model pretty much ever both across both the API and subscriptions. \n\nWithin ChatGPT & Codex, we were under heavy load, but have brough more capacity online and the speed should get much better in the coming hours, reaching almost twice the speed compared to what we served yesterday.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 1740
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790807995,
+        "last_success_at": 1790818515,
         "last_failure_at": 1790488903,
         "offline_since": null,
         "failure_episodes": 18,
@@ -2672,7 +2706,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790807995"
+        "value": "1790818515"
       }
     ],
     "events": [
@@ -2888,8 +2922,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1790807995,
-    "lastRssAttemptAt": 1790807995,
+    "lastRssSuccessAt": 1790818515,
+    "lastRssAttemptAt": 1790818515,
     "sourceState": "online",
     "error": null
   }
