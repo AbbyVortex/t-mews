@@ -2670,13 +2670,81 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 1740
+      },
+      {
+        "id": "x:2105489877727064272",
+        "x_status_id": "2105489877727064272",
+        "canonical_url": "https://x.com/thsottiaux/status/2105489877727064272",
+        "fingerprint": "6befbf2a3dd2f463bfaca8c19a61b8e337b6061eeb295de2557d3704aa70eb32",
+        "published_at": 1790822879,
+        "detected_at": 1790840745,
+        "text": "@_bgian @OpenAI Thanks for playing",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 17866
+      },
+      {
+        "id": "x:2105519215092584786",
+        "x_status_id": "2105519215092584786",
+        "canonical_url": "https://x.com/thsottiaux/status/2105519215092584786",
+        "fingerprint": "7b196c30b96f554b8d8f7d125e4cb348a1424d34cfd638e3cefdd0ac0e33b1bd",
+        "published_at": 1790829874,
+        "detected_at": 1790840745,
+        "text": "One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it with the world.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 10871
+      },
+      {
+        "id": "x:2105519686280790252",
+        "x_status_id": "2105519686280790252",
+        "canonical_url": "https://x.com/thsottiaux/status/2105519686280790252",
+        "fingerprint": "626a64415a9745fab572b4a5dda09eccfe981d06c9bdb0bdef7d798615069cd2",
+        "published_at": 1790829986,
+        "detected_at": 1790840745,
+        "text": "@imjustnewatai For the Pro 200 shenanigans",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 10759
+      },
+      {
+        "id": "x:2105522533139452359",
+        "x_status_id": "2105522533139452359",
+        "canonical_url": "https://x.com/thsottiaux/status/2105522533139452359",
+        "fingerprint": "941aeb460b79b9bf9f35d24275dbfd00b9bd5b75674032903da1f5f5ca5045d9",
+        "published_at": 1790830665,
+        "detected_at": 1790840745,
+        "text": "@jxnlco I was going to say, last year. But no… it was this year.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 10080
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790818515,
+        "last_success_at": 1790840745,
         "last_failure_at": 1790488903,
         "offline_since": null,
         "failure_episodes": 18,
@@ -2706,7 +2774,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790818515"
+        "value": "1790840745"
       }
     ],
     "events": [
@@ -2799,6 +2867,12 @@
         "event_type": "post_analysis",
         "created_at": 1790731846,
         "details": "{\"related\":[{\"xStatusId\":\"2104981170685616361\",\"url\":\"https://x.com/thsottiaux/status/2104981170685616361\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Announcing dots. Dots work 24/7 for you, learn from your feedback, have their own computer, browser and can be connected to over 4k apps in our ecosystem. They’re powered by Astra our best model yet. Included in your Pro plan, without drawing down on any of your usage. You can ev…\",\"provenance\":\"feed\",\"publishedAt\":1790701594}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"I got community noted, but the note is wrong 😅\"}}"
+      },
+      {
+        "id": "analysis:x:2105519215092584786",
+        "event_type": "post_analysis",
+        "created_at": 1790840745,
+        "details": "{\"related\":[{\"xStatusId\":\"2105428405571428785\",\"url\":\"https://x.com/mxstbr/status/2105428405571428785\",\"author\":\"mxstbr\",\"relation\":\"quote\",\"text\":\"Announcing one more launch: ChatGPT Sites can now host MCP servers, including plugin extensions! 🤯 > @⁠sites create a todo list that I can use in ChatGPT This will: · Create an MCP server with extensions · Deploy that MCP server to Sites · Turn the MCP server into a plugin · Ins…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"One more thing, you can now build and deploy MCP servers right through ChatGPT.\"}}"
       },
       {
         "id": "notification:post:x:2102254445082116335",
@@ -2922,8 +2996,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1790818515,
-    "lastRssAttemptAt": 1790818515,
+    "lastRssSuccessAt": 1790840745,
+    "lastRssAttemptAt": 1790840745,
     "sourceState": "online",
     "error": null
   }
