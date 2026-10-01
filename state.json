@@ -3,159 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2100297380968997327",
-        "x_status_id": "2100297380968997327",
-        "canonical_url": "https://x.com/thsottiaux/status/2100297380968997327",
-        "fingerprint": "09bd466cc140747fa41d6fa108cb037a2fdf2137588458eb78643b3a9d4b8fb2",
-        "published_at": 1789584891,
-        "detected_at": 1789585093,
-        "text": "Astra\n\n✅ Fast\n\n✅ Frontier\n\n✅ Efficient\n\n✅ For everyone",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 202
-      },
-      {
-        "id": "x:2100363668051603608",
-        "x_status_id": "2100363668051603608",
-        "canonical_url": "https://x.com/thsottiaux/status/2100363668051603608",
-        "fingerprint": "e8e2d3efb8edab0dbb0e325092d2304b9705847115e60c06ce28e3bc00b356f8",
-        "published_at": 1789600695,
-        "detected_at": 1789601506,
-        "text": "Sometimes physics can't be cheated",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 811
-      },
-      {
-        "id": "x:2100461541145587999",
-        "x_status_id": "2100461541145587999",
-        "canonical_url": "https://x.com/thsottiaux/status/2100461541145587999",
-        "fingerprint": "8f8f48c20ff947756b6eb04de0e2c143c977f35cc29ffd1b5948a86acc166004",
-        "published_at": 1789624030,
-        "detected_at": 1789624638,
-        "text": "@theo @sama Fair",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 608
-      },
-      {
-        "id": "x:2100461944860020851",
-        "x_status_id": "2100461944860020851",
-        "canonical_url": "https://x.com/thsottiaux/status/2100461944860020851",
-        "fingerprint": "f0faef4a3ca047b5168d6e129202fbd6ae938a4fb82412d6c48e01dfb0e243f8",
-        "published_at": 1789624127,
-        "detected_at": 1789624638,
-        "text": "@tlxue Pretty cool!",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 511
-      },
-      {
-        "id": "x:2100473666635280768",
-        "x_status_id": "2100473666635280768",
-        "canonical_url": "https://x.com/thsottiaux/status/2100473666635280768",
-        "fingerprint": "99b6a5bfd755b5ee427dcb2561cb2431cde199ec42cd9fdc5aa3e6e20ce25c7d",
-        "published_at": 1789626921,
-        "detected_at": 1789627195,
-        "text": "@zdogmode Revenue happened",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 274
-      },
-      {
-        "id": "x:2100474737420111956",
-        "x_status_id": "2100474737420111956",
-        "canonical_url": "https://x.com/thsottiaux/status/2100474737420111956",
-        "fingerprint": "0363b85e815db154bb3fb1cb3090d09f74a00db64997f34eea3db91505e35799",
-        "published_at": 1789627176,
-        "detected_at": 1789627195,
-        "text": "@ben_issen Welcome",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 19
-      },
-      {
-        "id": "x:2100474870044016922",
-        "x_status_id": "2100474870044016922",
-        "canonical_url": "https://x.com/thsottiaux/status/2100474870044016922",
-        "fingerprint": "542e4f736f26450661408bda15cb7cd48f2972f4a189c172345478ab8e3cc103",
-        "published_at": 1789627208,
-        "detected_at": 1789628175,
-        "text": "@Yuchenj_UW Welcome to the shipping era",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 967
-      },
-      {
-        "id": "x:2100645454245720513",
-        "x_status_id": "2100645454245720513",
-        "canonical_url": "https://x.com/thsottiaux/status/2100645454245720513",
-        "fingerprint": "69db03e130ab8cbb06942b7dc19afca3d99fdf8e0d3dac2347bedea8cdd5b1e0",
-        "published_at": 1789667879,
-        "detected_at": 1789668474,
-        "text": "Has anyone yet tried to get Astra and Fable to agree on the perfect styleguide? And then host it somewhere with a web mcp.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 595
-      },
-      {
-        "id": "x:2100649624860254629",
-        "x_status_id": "2100649624860254629",
-        "canonical_url": "https://x.com/thsottiaux/status/2100649624860254629",
-        "fingerprint": "c1fccc2d39d88a94de351f017a98d5a1b02f70cc8ff1acedc7fcfc18d01c2ed5",
-        "published_at": 1789668873,
-        "detected_at": 1789669640,
-        "text": "@vlinx_soft See you at DevDay",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 767
-      },
-      {
         "id": "x:2100821375812530458",
         "x_status_id": "2100821375812530458",
         "canonical_url": "https://x.com/thsottiaux/status/2100821375812530458",
@@ -2769,8 +2616,8 @@
         "classification": "CANDIDATE",
         "reason": "author reset update; timing or availability is not a confirmed new grant",
         "baseline": 0,
-        "notified": 0,
-        "notification_status": "pending",
+        "notified": 1,
+        "notification_status": "sent",
         "detection_latency_seconds": 18162
       },
       {
@@ -2889,7 +2736,7 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1790794121"
+        "value": "1790884476"
       },
       {
         "key": "lastSuccess",
@@ -2897,18 +2744,6 @@
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2100297380968997327",
-        "event_type": "post_analysis",
-        "created_at": 1789585093,
-        "details": "{\"related\":[{\"xStatusId\":\"2100180792601420138\",\"url\":\"https://x.com/j_dekoninck/status/2100180792601420138\",\"author\":\"j_dekoninck\",\"relation\":\"quote\",\"text\":\"We are releasing the latest version of BrokenArXiv and ArXivMath! These benchmarks now focus on conjectures that were refuted in the last month on ArXiv, and models are executed within a harness instead of directly via API. Performance remains impressive, with GPT-6 Astra on top\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Astra\"}}"
-      },
-      {
-        "id": "analysis:x:2100363668051603608",
-        "event_type": "post_analysis",
-        "created_at": 1789601506,
-        "details": "{\"related\":[{\"xStatusId\":\"2100351958167220547\",\"url\":\"https://x.com/sama/status/2100351958167220547\",\"author\":\"sama\",\"relation\":\"quote\",\"text\":\"the main thing i was excited about launching this week will be next week instead, but imo worth the wait!\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Sometimes physics can't be cheated\"}}"
-      },
       {
         "id": "analysis:x:2102254445082116335",
         "event_type": "post_analysis",
@@ -3040,6 +2875,12 @@
         "event_type": "notification_sent",
         "created_at": 1790687042,
         "details": "{\"kind\":\"alert\",\"postId\":\"x:2104823812042940713\"}"
+      },
+      {
+        "id": "notification:post:x:2105672058269212820",
+        "event_type": "notification_sent",
+        "created_at": 1790884476,
+        "details": "{\"kind\":\"alert\",\"postId\":\"x:2105672058269212820\"}"
       }
     ],
     "notifications": [
@@ -3120,8 +2961,8 @@
         "post_id": "x:2105672058269212820",
         "kind": "alert",
         "created_at": 1790884476,
-        "status": "sending",
-        "sent_at": null
+        "status": "sent",
+        "sent_at": 1790884476
       },
       {
         "id": "test",
