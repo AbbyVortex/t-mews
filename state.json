@@ -2772,13 +2772,81 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 1005
+      },
+      {
+        "id": "x:2105862010521219406",
+        "x_status_id": "2105862010521219406",
+        "canonical_url": "https://x.com/thsottiaux/status/2105862010521219406",
+        "fingerprint": "b41a2bcfcd0e8e3d3d91bbc7aff9134aef4dd8656df546230421d1ffb90f7587",
+        "published_at": 1790911602,
+        "detected_at": 1790931516,
+        "text": "You can ask your dot to \"create a pet and set it as your avatar\". It can be based on an idea, an image or pretty much anything. Here is my dot\n\nMedia",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 19914
+      },
+      {
+        "id": "x:2105863294267560169",
+        "x_status_id": "2105863294267560169",
+        "canonical_url": "https://x.com/thsottiaux/status/2105863294267560169",
+        "fingerprint": "063253f2bb1c142820d537f1d292551005531096b334f827ddcd7331bd6e067b",
+        "published_at": 1790911909,
+        "detected_at": 1790931516,
+        "text": "@dextune Please bask",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 19607
+      },
+      {
+        "id": "x:2105863620433453166",
+        "x_status_id": "2105863620433453166",
+        "canonical_url": "https://x.com/thsottiaux/status/2105863620433453166",
+        "fingerprint": "b022cada188b220476041ed3d5a756cce35950d8c8e07dbf602a19e849ac1611",
+        "published_at": 1790911986,
+        "detected_at": 1790931516,
+        "text": "@hugospdx Wrong strategy?",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 19530
+      },
+      {
+        "id": "x:2105899634032025682",
+        "x_status_id": "2105899634032025682",
+        "canonical_url": "https://x.com/thsottiaux/status/2105899634032025682",
+        "fingerprint": "ee67b52249b09285a17de9723ce52a20ad91c31d33da0e06625c0709defe7e94",
+        "published_at": 1790920573,
+        "detected_at": 1790931516,
+        "text": "Down to 6110 unread from the over 9000 unread emails just earlier. Will get to inbox zero with clean filters within the next 48 hours. Dot has accepted the challenge.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 10943
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790908493,
+        "last_success_at": 1790931516,
         "last_failure_at": 1790866114,
         "offline_since": null,
         "failure_episodes": 19,
@@ -2808,7 +2876,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790908493"
+        "value": "1790931516"
       }
     ],
     "events": [
@@ -2913,6 +2981,12 @@
         "event_type": "post_analysis",
         "created_at": 1790908493,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Global reset landing tomorrow 10am PST for all paid ChatGPT accounts.\"}}"
+      },
+      {
+        "id": "analysis:x:2105899634032025682",
+        "event_type": "post_analysis",
+        "created_at": 1790931516,
+        "details": "{\"related\":[{\"xStatusId\":\"2105862010521219406\",\"url\":\"https://x.com/thsottiaux/status/2105862010521219406\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"You can ask your dot to \\\"create a pet and set it as your avatar\\\". It can be based on an idea, an image or pretty much anything. Here is my dot\",\"provenance\":\"feed\",\"publishedAt\":1790911602}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Down to 6110 unread from the over 9000 unread emails just earlier.\"}}"
       },
       {
         "id": "notification:post:x:2102254445082116335",
@@ -3064,8 +3138,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1790908493,
-    "lastRssAttemptAt": 1790908493,
+    "lastRssSuccessAt": 1790931516,
+    "lastRssAttemptAt": 1790931516,
     "sourceState": "online",
     "error": null
   }
