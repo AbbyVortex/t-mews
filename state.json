@@ -3,57 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2100821375812530458",
-        "x_status_id": "2100821375812530458",
-        "canonical_url": "https://x.com/thsottiaux/status/2100821375812530458",
-        "fingerprint": "2024bf98339c88340f563b0d8592fd91249a2122f5015d00e2f8869b305e22a9",
-        "published_at": 1789709822,
-        "detected_at": 1789709822,
-        "text": "@RoCastilloF Thanks for having me and nice hoodie Rodrigo 👀",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 0
-      },
-      {
-        "id": "x:2100985777962537277",
-        "x_status_id": "2100985777962537277",
-        "canonical_url": "https://x.com/thsottiaux/status/2100985777962537277",
-        "fingerprint": "6cefb40ba7fcd530c0d9eaab8104945ea96692e51d8da81d810b72af3562a633",
-        "published_at": 1789749018,
-        "detected_at": 1789749232,
-        "text": "@hegargarcia Good prompt",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 214
-      },
-      {
-        "id": "x:2101026876647170092",
-        "x_status_id": "2101026876647170092",
-        "canonical_url": "https://x.com/thsottiaux/status/2101026876647170092",
-        "fingerprint": "cb6d024a17a58f14a699b72d71f500625e320a68e2b7fddc28488c8dfd9a0827",
-        "published_at": 1789758817,
-        "detected_at": 1789759108,
-        "text": "@trq212 Yay! This is the way. Come to the light",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 291
-      },
-      {
         "id": "x:2101054196703522861",
         "x_status_id": "2101054196703522861",
         "canonical_url": "https://x.com/thsottiaux/status/2101054196703522861",
@@ -2840,13 +2789,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 10943
+      },
+      {
+        "id": "x:2106046594277954010",
+        "x_status_id": "2106046594277954010",
+        "canonical_url": "https://x.com/thsottiaux/status/2106046594277954010",
+        "fingerprint": "b88286cbbf31497023191decb3c7cc37c5a8e8024fafac29811825db54b0e2e4",
+        "published_at": 1790955611,
+        "detected_at": 1790971674,
+        "text": "@koltregaskes Team is working on most of these, stay tuned!",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 16063
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790955597,
+        "last_success_at": 1790971674,
         "last_failure_at": 1790866114,
         "offline_since": null,
         "failure_episodes": 19,
@@ -2872,11 +2838,11 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1790884476"
+        "value": "1790971674"
       },
       {
         "key": "lastSuccess",
-        "value": "1790955597"
+        "value": "1790971674"
       }
     ],
     "events": [
@@ -3138,8 +3104,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1790955597,
-    "lastRssAttemptAt": 1790955597,
+    "lastRssSuccessAt": 1790971674,
+    "lastRssAttemptAt": 1790971674,
     "sourceState": "online",
     "error": null
   }
