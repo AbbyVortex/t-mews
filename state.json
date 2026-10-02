@@ -2704,13 +2704,81 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 4840
+      },
+      {
+        "id": "x:2105828364879876207",
+        "x_status_id": "2105828364879876207",
+        "canonical_url": "https://x.com/thsottiaux/status/2105828364879876207",
+        "fingerprint": "efc90e2352c645063f32a9fb1eba409f9980082facd7d2bc379c8948cbb555b4",
+        "published_at": 1790903581,
+        "detected_at": 1790908493,
+        "text": "@QuinnyPig And it will get better every day",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 4912
+      },
+      {
+        "id": "x:2105843550936302055",
+        "x_status_id": "2105843550936302055",
+        "canonical_url": "https://x.com/thsottiaux/status/2105843550936302055",
+        "fingerprint": "3ce4a9d5340404ce36ed70c204cc7f42c0fd4c666e2181da6a9ad9358c6a2fda",
+        "published_at": 1790907201,
+        "detected_at": 1790908493,
+        "text": "@_simonsmith Codex Manhattan Project 👀",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 1292
+      },
+      {
+        "id": "x:2105843926221660585",
+        "x_status_id": "2105843926221660585",
+        "canonical_url": "https://x.com/thsottiaux/status/2105843926221660585",
+        "fingerprint": "0c7c4f9720dc162ff30f75d6f55a4c409500b219c5e7e1356b3cf70526199bb1",
+        "published_at": 1790907291,
+        "detected_at": 1790908493,
+        "text": "Global reset landing tomorrow 10am PST for all paid ChatGPT accounts. Apologies for the slow start with GPT-6.1 Sol, it's now back to running at expected speeds after the massive load spike in the first two days.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 1202
+      },
+      {
+        "id": "x:2105844753522938214",
+        "x_status_id": "2105844753522938214",
+        "canonical_url": "https://x.com/thsottiaux/status/2105844753522938214",
+        "fingerprint": "95cdbd2a9ab8d85ddf0858d8dc62b089e595aae4ac96e8537c7694972efd952b",
+        "published_at": 1790907488,
+        "detected_at": 1790908493,
+        "text": "@ziwenxu_ Sir Dot Claw",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 1005
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790897983,
+        "last_success_at": 1790908493,
         "last_failure_at": 1790866114,
         "offline_since": null,
         "failure_episodes": 19,
@@ -2740,7 +2808,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790897983"
+        "value": "1790908493"
       }
     ],
     "events": [
@@ -2839,6 +2907,12 @@
         "event_type": "post_analysis",
         "created_at": 1790884476,
         "details": "{\"related\":[{\"xStatusId\":\"2105708732323909827\",\"url\":\"https://x.com/OpenAIDevs/status/2105708732323909827\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"dots demo. Now... with better WiFi.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Damn WiFi\"}}"
+      },
+      {
+        "id": "analysis:x:2105843926221660585",
+        "event_type": "post_analysis",
+        "created_at": 1790908493,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Global reset landing tomorrow 10am PST for all paid ChatGPT accounts.\"}}"
       },
       {
         "id": "notification:post:x:2102254445082116335",
@@ -2965,6 +3039,14 @@
         "sent_at": 1790884476
       },
       {
+        "id": "post:x:2105843926221660585",
+        "post_id": "x:2105843926221660585",
+        "kind": "alert",
+        "created_at": 1790908493,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "test",
         "post_id": null,
         "kind": "test",
@@ -2976,8 +3058,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1790897983,
-    "lastRssAttemptAt": 1790897983,
+    "lastRssSuccessAt": 1790908493,
+    "lastRssAttemptAt": 1790908493,
     "sourceState": "online",
     "error": null
   }
