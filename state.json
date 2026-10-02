@@ -2806,17 +2806,34 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 16063
+      },
+      {
+        "id": "x:2106131810921136451",
+        "x_status_id": "2106131810921136451",
+        "canonical_url": "https://x.com/thsottiaux/status/2106131810921136451",
+        "fingerprint": "211ff905a6e367efe69461a9c599ad5304fd2a178fa83d611fdd85edfa7f6aec",
+        "published_at": 1790975928,
+        "detected_at": 1790977112,
+        "text": "Reset all propagated. Enjoy.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 1184
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1790971674,
+        "state": "online",
+        "last_success_at": 1790977112,
         "last_failure_at": 1790976949,
-        "offline_since": 1790976949,
+        "offline_since": null,
         "failure_episodes": 20,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2842,11 +2859,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790971674"
-      },
-      {
-        "key": "outage",
-        "value": "1790976949"
+        "value": "1790977112"
       }
     ],
     "events": [
@@ -2957,6 +2970,12 @@
         "event_type": "post_analysis",
         "created_at": 1790931516,
         "details": "{\"related\":[{\"xStatusId\":\"2105862010521219406\",\"url\":\"https://x.com/thsottiaux/status/2105862010521219406\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"You can ask your dot to \\\"create a pet and set it as your avatar\\\". It can be based on an idea, an image or pretty much anything. Here is my dot\",\"provenance\":\"feed\",\"publishedAt\":1790911602}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Down to 6110 unread from the over 9000 unread emails just earlier.\"}}"
+      },
+      {
+        "id": "analysis:x:2106131810921136451",
+        "event_type": "post_analysis",
+        "created_at": 1790977112,
+        "details": "{\"related\":[{\"xStatusId\":\"2105843926221660585\",\"url\":\"https://x.com/thsottiaux/status/2105843926221660585\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Global reset landing tomorrow 10am PST for all paid ChatGPT accounts. Apologies for the slow start with GPT-6.1 Sol, it's now back to running at expected speeds after the massive load spike in the first two days.\",\"provenance\":\"feed\",\"publishedAt\":1790907291}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Reset all propagated.\"}}"
       },
       {
         "id": "notification:post:x:2102254445082116335",
@@ -3097,6 +3116,14 @@
         "sent_at": 1790908493
       },
       {
+        "id": "post:x:2106131810921136451",
+        "post_id": "x:2106131810921136451",
+        "kind": "alert",
+        "created_at": 1790977112,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "test",
         "post_id": null,
         "kind": "test",
@@ -3108,9 +3135,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1790971674,
-    "lastRssAttemptAt": 1790976949,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1790977112,
+    "lastRssAttemptAt": 1790977112,
+    "sourceState": "online",
+    "error": null
   }
 }
