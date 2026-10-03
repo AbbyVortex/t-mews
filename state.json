@@ -2976,13 +2976,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 396
+      },
+      {
+        "id": "x:2106255580772061332",
+        "x_status_id": "2106255580772061332",
+        "canonical_url": "https://x.com/thsottiaux/status/2106255580772061332",
+        "fingerprint": "0f47cd0474ecd50714451770f6a0ff7dee061d8ddbdf65680c86dd6529f77020",
+        "published_at": 1791005437,
+        "detected_at": 1791005948,
+        "text": "@poteto The 3-day old dots are shaking and quaking",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 511
+      },
+      {
+        "id": "x:2106257453679808676",
+        "x_status_id": "2106257453679808676",
+        "canonical_url": "https://x.com/thsottiaux/status/2106257453679808676",
+        "fingerprint": "e08edeb956d6b1340fc46bcfbfadd4a597ac1095b80c6ab12f593f6af4a947b6",
+        "published_at": 1791005883,
+        "detected_at": 1791005948,
+        "text": "@poteto Hey now. You don’t know what we’re releasing next week",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 65
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791005345,
+        "last_success_at": 1791005948,
         "last_failure_at": 1790999347,
         "offline_since": null,
         "failure_episodes": 24,
@@ -3012,7 +3046,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791005345"
+        "value": "1791005948"
       }
     ],
     "events": [
@@ -3334,8 +3368,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791005345,
-    "lastRssAttemptAt": 1791005345,
+    "lastRssSuccessAt": 1791005948,
+    "lastRssAttemptAt": 1791005948,
     "sourceState": "online",
     "error": null
   }
