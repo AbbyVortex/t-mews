@@ -2874,13 +2874,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 1191
+      },
+      {
+        "id": "x:2106233145163141249",
+        "x_status_id": "2106233145163141249",
+        "canonical_url": "https://x.com/thsottiaux/status/2106233145163141249",
+        "fingerprint": "29c5df380e818823eca626a23c56441eb46d4e7367e3a9784beb1442b50e38aa",
+        "published_at": 1791000088,
+        "detected_at": 1791000548,
+        "text": "Seeing some reports that the Pro 500 didn’t get the reset as expected earlier. Investigating and will make up for it",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 460
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790999950,
+        "last_success_at": 1791000548,
         "last_failure_at": 1790999347,
         "offline_since": null,
         "failure_episodes": 24,
@@ -2910,7 +2927,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790999950"
+        "value": "1791000548"
       }
     ],
     "events": [
@@ -3027,6 +3044,12 @@
         "event_type": "post_analysis",
         "created_at": 1790977112,
         "details": "{\"related\":[{\"xStatusId\":\"2105843926221660585\",\"url\":\"https://x.com/thsottiaux/status/2105843926221660585\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Global reset landing tomorrow 10am PST for all paid ChatGPT accounts. Apologies for the slow start with GPT-6.1 Sol, it's now back to running at expected speeds after the massive load spike in the first two days.\",\"provenance\":\"feed\",\"publishedAt\":1790907291}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Reset all propagated.\"}}"
+      },
+      {
+        "id": "analysis:x:2106233145163141249",
+        "event_type": "post_analysis",
+        "created_at": 1791000548,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Seeing some reports that the Pro 500 didn’t get the reset as expected earlier.\"}}"
       },
       {
         "id": "notification:post:x:2102254445082116335",
@@ -3181,6 +3204,14 @@
         "sent_at": 1790977112
       },
       {
+        "id": "post:x:2106233145163141249",
+        "post_id": "x:2106233145163141249",
+        "kind": "alert",
+        "created_at": 1791000548,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "test",
         "post_id": null,
         "kind": "test",
@@ -3192,8 +3223,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1790999950,
-    "lastRssAttemptAt": 1790999950,
+    "lastRssSuccessAt": 1791000548,
+    "lastRssAttemptAt": 1791000548,
     "sourceState": "online",
     "error": null
   }
