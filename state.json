@@ -2942,13 +2942,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 9
+      },
+      {
+        "id": "x:2106252868307271752",
+        "x_status_id": "2106252868307271752",
+        "canonical_url": "https://x.com/thsottiaux/status/2106252868307271752",
+        "fingerprint": "a0fadf203c3f92afd7928533b4c7a3d0fdb56950bff2f6af72b17dc97f92f79c",
+        "published_at": 1791004790,
+        "detected_at": 1791005345,
+        "text": "Fortunately our future models will be much better at code deletion and simplification. Just in time",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 555
+      },
+      {
+        "id": "x:2106253534132089110",
+        "x_status_id": "2106253534132089110",
+        "canonical_url": "https://x.com/thsottiaux/status/2106253534132089110",
+        "fingerprint": "76b850014ed84eefeb6978ef9c6c838f9e3f5fdffe21ee4c5a04e284b5c5c060",
+        "published_at": 1791004949,
+        "detected_at": 1791005345,
+        "text": "@Shekswess Unlimited atm",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 396
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791004757,
+        "last_success_at": 1791005345,
         "last_failure_at": 1790999347,
         "offline_since": null,
         "failure_episodes": 24,
@@ -2978,7 +3012,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791004757"
+        "value": "1791005345"
       }
     ],
     "events": [
@@ -3300,8 +3334,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791004757,
-    "lastRssAttemptAt": 1791004757,
+    "lastRssSuccessAt": 1791005345,
+    "lastRssAttemptAt": 1791005345,
     "sourceState": "online",
     "error": null
   }
