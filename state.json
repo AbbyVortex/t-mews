@@ -2823,13 +2823,30 @@
         "notified": 1,
         "notification_status": "sent",
         "detection_latency_seconds": 1184
+      },
+      {
+        "id": "x:2106224612271112207",
+        "x_status_id": "2106224612271112207",
+        "canonical_url": "https://x.com/thsottiaux/status/2106224612271112207",
+        "fingerprint": "7dce08d29d4ee195d720c5561f0d7031e3155f4ebb2a29d9d9c352b528d8f7f9",
+        "published_at": 1790998053,
+        "detected_at": 1790998147,
+        "text": "@charliermarsh Good dot",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 94
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1790997552,
+        "last_success_at": 1790998147,
         "last_failure_at": 1790996952,
         "offline_since": null,
         "failure_episodes": 23,
@@ -2859,7 +2876,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790997552"
+        "value": "1790998147"
       }
     ],
     "events": [
@@ -3141,8 +3158,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1790997552,
-    "lastRssAttemptAt": 1790997552,
+    "lastRssSuccessAt": 1790998147,
+    "lastRssAttemptAt": 1790998147,
     "sourceState": "online",
     "error": null
   }
