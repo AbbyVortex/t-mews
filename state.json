@@ -2772,13 +2772,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 566
+      },
+      {
+        "id": "x:2106499926956060984",
+        "x_status_id": "2106499926956060984",
+        "canonical_url": "https://x.com/thsottiaux/status/2106499926956060984",
+        "fingerprint": "8065fbb9c2b19f08527da5a09d4e43ba6814827bcc1068e62eb64ff419102f37",
+        "published_at": 1791063694,
+        "detected_at": 1791064752,
+        "text": "@poteto i had french fries for lunch",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 1058
+      },
+      {
+        "id": "x:2106500823253754004",
+        "x_status_id": "2106500823253754004",
+        "canonical_url": "https://x.com/thsottiaux/status/2106500823253754004",
+        "fingerprint": "92ce96a116ce57821c0421a640594a3a700b4daae960c03ab0641ab0f826bf97",
+        "published_at": 1791063907,
+        "detected_at": 1791064752,
+        "text": "@maria_rcks wait",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 845
+      },
+      {
+        "id": "x:2106501204285239560",
+        "x_status_id": "2106501204285239560",
+        "canonical_url": "https://x.com/thsottiaux/status/2106501204285239560",
+        "fingerprint": "3405860d49d3acb9f5cc24c70aecfe4ee0e6d60d529b24c87ffa0e337fab63ed",
+        "published_at": 1791063998,
+        "detected_at": 1791064752,
+        "text": "If we were to add one more sidebar, what should be in it",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 754
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791063547,
+        "last_success_at": 1791064752,
         "last_failure_at": 1791050947,
         "offline_since": null,
         "failure_episodes": 37,
@@ -2808,7 +2859,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791063547"
+        "value": "1791064752"
       }
     ],
     "events": [
@@ -3130,8 +3181,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791063547,
-    "lastRssAttemptAt": 1791063547,
+    "lastRssSuccessAt": 1791064752,
+    "lastRssAttemptAt": 1791064752,
     "sourceState": "online",
     "error": null
   }
