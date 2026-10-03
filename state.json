@@ -2905,8 +2905,8 @@
         "classification": "CANDIDATE",
         "reason": "author reply or quote refers to related reset content; related text is not an author announcement",
         "baseline": 0,
-        "notified": 0,
-        "notification_status": "pending",
+        "notified": 1,
+        "notification_status": "sent",
         "detection_latency_seconds": 179
       },
       {
@@ -3150,6 +3150,12 @@
         "event_type": "notification_sent",
         "created_at": 1791000548,
         "details": "{\"kind\":\"alert\",\"postId\":\"x:2106233145163141249\"}"
+      },
+      {
+        "id": "notification:post:x:2106239435461579088",
+        "event_type": "notification_sent",
+        "created_at": 1791001767,
+        "details": "{\"kind\":\"alert\",\"postId\":\"x:2106239435461579088\"}"
       }
     ],
     "notifications": [
@@ -3262,8 +3268,8 @@
         "post_id": "x:2106239435461579088",
         "kind": "alert",
         "created_at": 1791001767,
-        "status": "sending",
-        "sent_at": null
+        "status": "sent",
+        "sent_at": 1791001767
       },
       {
         "id": "test",
