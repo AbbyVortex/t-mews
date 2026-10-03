@@ -2857,17 +2857,34 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 192
+      },
+      {
+        "id": "x:2106227571088392653",
+        "x_status_id": "2106227571088392653",
+        "canonical_url": "https://x.com/thsottiaux/status/2106227571088392653",
+        "fingerprint": "322834ee25dad844c942aa5122bc954ee45c7708ae6fa80998c895d6c9adec92",
+        "published_at": 1790998759,
+        "detected_at": 1790999950,
+        "text": "@atelicinvest Pretty bad for the GPUs. We’re going to need more compute",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 1191
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1790998749,
+        "state": "online",
+        "last_success_at": 1790999950,
         "last_failure_at": 1790999347,
-        "offline_since": 1790999347,
+        "offline_since": null,
         "failure_episodes": 24,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2893,11 +2910,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1790998749"
-      },
-      {
-        "key": "outage",
-        "value": "1790999347"
+        "value": "1790999950"
       }
     ],
     "events": [
@@ -3179,9 +3192,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1790998749,
-    "lastRssAttemptAt": 1790999347,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1790999950,
+    "lastRssAttemptAt": 1790999950,
+    "sourceState": "online",
+    "error": null
   }
 }
