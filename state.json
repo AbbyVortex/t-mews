@@ -2925,13 +2925,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 66
+      },
+      {
+        "id": "x:2106250124863389920",
+        "x_status_id": "2106250124863389920",
+        "canonical_url": "https://x.com/thsottiaux/status/2106250124863389920",
+        "fingerprint": "31ca2e0b3e54b54a32c6e384c92334d0844b87dedae4e6776c970a85d08c4792",
+        "published_at": 1791004136,
+        "detected_at": 1791004145,
+        "text": "@rileybrown You’re hired",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 9
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791003549,
+        "last_success_at": 1791004145,
         "last_failure_at": 1790999347,
         "offline_since": null,
         "failure_episodes": 24,
@@ -2961,7 +2978,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791003549"
+        "value": "1791004145"
       }
     ],
     "events": [
@@ -3283,8 +3300,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791003549,
-    "lastRssAttemptAt": 1791003549,
+    "lastRssSuccessAt": 1791004145,
+    "lastRssAttemptAt": 1791004145,
     "sourceState": "online",
     "error": null
   }
