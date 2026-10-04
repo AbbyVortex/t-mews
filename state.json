@@ -3010,13 +3010,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 588
+      },
+      {
+        "id": "x:2106769163620671823",
+        "x_status_id": "2106769163620671823",
+        "canonical_url": "https://x.com/thsottiaux/status/2106769163620671823",
+        "fingerprint": "099cdc52c8a2598df87d021ed653553f15a2c6e286709183f5648312a64063b4",
+        "published_at": 1791127885,
+        "detected_at": 1791128355,
+        "text": "@argofowl Heard",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 470
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791127750,
+        "last_success_at": 1791128355,
         "last_failure_at": 1791123551,
         "offline_since": null,
         "failure_episodes": 44,
@@ -3046,7 +3063,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791127750"
+        "value": "1791128355"
       }
     ],
     "events": [
@@ -3430,8 +3447,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791127750,
-    "lastRssAttemptAt": 1791127750,
+    "lastRssSuccessAt": 1791128355,
+    "lastRssAttemptAt": 1791128355,
     "sourceState": "online",
     "error": null
   }
