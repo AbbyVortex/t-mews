@@ -2993,13 +2993,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 159
+      },
+      {
+        "id": "x:2106610099720720811",
+        "x_status_id": "2106610099720720811",
+        "canonical_url": "https://x.com/thsottiaux/status/2106610099720720811",
+        "fingerprint": "8466ac73ff5dbc6f1aa47d56c3c683f4f3a751d7ff60833ff06a16fcc8ec5a77",
+        "published_at": 1791089961,
+        "detected_at": 1791090549,
+        "text": "All right, we’re locking in. Only things being worked on are simplifications, more efficiency for more usage, groundbreaking features or new models. \n\nSometimes you have to invest ahead of the curve, but feedback is clear that you all want things to get simpler. On it.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 588
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791089951,
+        "last_success_at": 1791090549,
         "last_failure_at": 1791050947,
         "offline_since": null,
         "failure_episodes": 37,
@@ -3029,7 +3046,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791089951"
+        "value": "1791090549"
       }
     ],
     "events": [
@@ -3357,8 +3374,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791089951,
-    "lastRssAttemptAt": 1791089951,
+    "lastRssSuccessAt": 1791090549,
+    "lastRssAttemptAt": 1791090549,
     "sourceState": "online",
     "error": null
   }
