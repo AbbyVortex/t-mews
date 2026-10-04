@@ -3017,7 +3017,7 @@
         "source": "fxtwitter",
         "state": "offline",
         "last_success_at": 1791109747,
-        "last_failure_at": 1791110947,
+        "last_failure_at": 1791111548,
         "offline_since": 1791110346,
         "failure_episodes": 42,
         "error": "http_404"
@@ -3275,6 +3275,14 @@
         "sent_at": 1791102551
       },
       {
+        "id": "offline:1791110346",
+        "post_id": null,
+        "kind": "offline",
+        "created_at": 1791111548,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "online",
         "post_id": null,
         "kind": "online",
@@ -3407,7 +3415,7 @@
   "publicStatus": {
     "version": 1,
     "lastRssSuccessAt": 1791109747,
-    "lastRssAttemptAt": 1791110947,
+    "lastRssAttemptAt": 1791111548,
     "sourceState": "offline",
     "error": "http_404"
   }
