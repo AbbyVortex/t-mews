@@ -2959,17 +2959,51 @@
         "notified": 1,
         "notification_status": "sent",
         "detection_latency_seconds": 211
+      },
+      {
+        "id": "x:2106858395370389784",
+        "x_status_id": "2106858395370389784",
+        "canonical_url": "https://x.com/thsottiaux/status/2106858395370389784",
+        "fingerprint": "19ebd032eb7d0f93a38b4144af57d32c4ac83ae05de3d5f25e6fc18d9eefbd66",
+        "published_at": 1791149159,
+        "detected_at": 1791149815,
+        "text": "@poteto that was a really quick fold",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 656
+      },
+      {
+        "id": "x:2106858787151995288",
+        "x_status_id": "2106858787151995288",
+        "canonical_url": "https://x.com/thsottiaux/status/2106858787151995288",
+        "fingerprint": "10b387870cffa6958f0ef74227c31f2b39b2085c6b1b3aabd25f565e2fea8dc8",
+        "published_at": 1791149253,
+        "detected_at": 1791149815,
+        "text": "@buildwithsid You're hired",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 562
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1791148749,
+        "state": "online",
+        "last_success_at": 1791149815,
         "last_failure_at": 1791149348,
-        "offline_since": 1791149348,
+        "offline_since": null,
         "failure_episodes": 51,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2995,11 +3029,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791148749"
-      },
-      {
-        "key": "outage",
-        "value": "1791149348"
+        "value": "1791149815"
       }
     ],
     "events": [
@@ -3451,9 +3481,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791148749,
-    "lastRssAttemptAt": 1791149348,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1791149815,
+    "lastRssAttemptAt": 1791149815,
+    "sourceState": "online",
+    "error": null
   }
 }
