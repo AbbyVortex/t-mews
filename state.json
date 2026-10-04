@@ -2908,13 +2908,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 470
+      },
+      {
+        "id": "x:2106842998214717876",
+        "x_status_id": "2106842998214717876",
+        "canonical_url": "https://x.com/thsottiaux/status/2106842998214717876",
+        "fingerprint": "ba5b6e21d71f81885f001e7600773e2998b0a3ec2ba5e214d7842704446187eb",
+        "published_at": 1791145488,
+        "detected_at": 1791145747,
+        "text": "@nabeelqu Locked in",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 259
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791145147,
+        "last_success_at": 1791145747,
         "last_failure_at": 1791144550,
         "offline_since": null,
         "failure_episodes": 49,
@@ -2944,7 +2961,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791145147"
+        "value": "1791145747"
       }
     ],
     "events": [
@@ -3356,8 +3373,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791145147,
-    "lastRssAttemptAt": 1791145147,
+    "lastRssSuccessAt": 1791145747,
+    "lastRssAttemptAt": 1791145747,
     "sourceState": "online",
     "error": null
   }
