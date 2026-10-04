@@ -3,125 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2101431497437950458",
-        "x_status_id": "2101431497437950458",
-        "canonical_url": "https://x.com/thsottiaux/status/2101431497437950458",
-        "fingerprint": "0f2895a3ab39ba3e84900a20de8c14c91ec6ba7c1b94927466dca7d189548c90",
-        "published_at": 1789855286,
-        "detected_at": 1789855839,
-        "text": "2026 is the year of linux desktop",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 553
-      },
-      {
-        "id": "x:2101432368682983749",
-        "x_status_id": "2101432368682983749",
-        "canonical_url": "https://x.com/thsottiaux/status/2101432368682983749",
-        "fingerprint": "8611a0b3137c4466ded9dbf6c07bc371df010b71195f6583d26739e598d0bde0",
-        "published_at": 1789855494,
-        "detected_at": 1789855839,
-        "text": "@Rubzem @TesanaAI People will do anything instead of cleaning their house",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 345
-      },
-      {
-        "id": "x:2101432860892901859",
-        "x_status_id": "2101432860892901859",
-        "canonical_url": "https://x.com/thsottiaux/status/2101432860892901859",
-        "fingerprint": "f01f26fa629a03f48122ad9ec6ea42a0ef0a6c3228c0d4e0e00951d39ad80710",
-        "published_at": 1789855611,
-        "detected_at": 1789855839,
-        "text": "@cherry_mx_reds Clearly not me",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 228
-      },
-      {
-        "id": "x:2101448279712207203",
-        "x_status_id": "2101448279712207203",
-        "canonical_url": "https://x.com/thsottiaux/status/2101448279712207203",
-        "fingerprint": "e1d6ebcd923835485ebb104f19314e20229c9589489a081972eca9b27493e7e3",
-        "published_at": 1789859287,
-        "detected_at": 1789859397,
-        "text": "@alexandr_wang You missed the long way to go part of the quote",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 110
-      },
-      {
-        "id": "x:2101531597820596462",
-        "x_status_id": "2101531597820596462",
-        "canonical_url": "https://x.com/thsottiaux/status/2101531597820596462",
-        "fingerprint": "2aa68577e61ac20d13381ec8bec8ed9ff40ae52d670c84ed9297ca6629fcf948",
-        "published_at": 1789879152,
-        "detected_at": 1789879326,
-        "text": "@_dylanga Billions",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 174
-      },
-      {
-        "id": "x:2101554478940070162",
-        "x_status_id": "2101554478940070162",
-        "canonical_url": "https://x.com/thsottiaux/status/2101554478940070162",
-        "fingerprint": "97e3d677a48dd84a4179d80394fbb2dcbbfd6fe301961ee2125d690fd41aff11",
-        "published_at": 1789884607,
-        "detected_at": 1789884639,
-        "text": "@argofowl Mind sharing your instructions?",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 32
-      },
-      {
-        "id": "x:2101738915564851585",
-        "x_status_id": "2101738915564851585",
-        "canonical_url": "https://x.com/thsottiaux/status/2101738915564851585",
-        "fingerprint": "12d59a4a5c6dd162940de1c5e43bd82d54789a8b9a2d7148c342167995ca192d",
-        "published_at": 1789928580,
-        "detected_at": 1789928651,
-        "text": "@alexandr_wang @Muse @joshginsberg Did you make the video or did the corposlops help out",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 71
-      },
-      {
         "id": "x:2101772015028130032",
         "x_status_id": "2101772015028130032",
         "canonical_url": "https://x.com/thsottiaux/status/2101772015028130032",
@@ -3032,12 +2913,12 @@
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1791143950,
+        "state": "online",
+        "last_success_at": 1791145147,
         "last_failure_at": 1791144550,
-        "offline_since": 1791144550,
+        "offline_since": null,
         "failure_episodes": 49,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -3059,15 +2940,11 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1791058156"
+        "value": "1791145147"
       },
       {
         "key": "lastSuccess",
-        "value": "1791143950"
-      },
-      {
-        "key": "outage",
-        "value": "1791144550"
+        "value": "1791145147"
       }
     ],
     "events": [
@@ -3479,9 +3356,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791143950,
-    "lastRssAttemptAt": 1791144550,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1791145147,
+    "lastRssAttemptAt": 1791145147,
+    "sourceState": "online",
+    "error": null
   }
 }
