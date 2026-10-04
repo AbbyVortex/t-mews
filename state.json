@@ -2908,13 +2908,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 465
+      },
+      {
+        "id": "x:2106602729875685780",
+        "x_status_id": "2106602729875685780",
+        "canonical_url": "https://x.com/thsottiaux/status/2106602729875685780",
+        "fingerprint": "54fce578da342984b28e6c01ef035c14e29c19137693f7f6215b67a2218fbbd7",
+        "published_at": 1791088204,
+        "detected_at": 1791088745,
+        "text": "I have never in my life achieved inbox zero until I just made it an active goal for my dot to help get it done. Let’s see how long it lasts, but it’s a great feeling.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 541
+      },
+      {
+        "id": "x:2106603980386394123",
+        "x_status_id": "2106603980386394123",
+        "canonical_url": "https://x.com/thsottiaux/status/2106603980386394123",
+        "fingerprint": "f5f17b5df1d475f1db79d8d8226c7874940e625108742d18f7b1875526d03457",
+        "published_at": 1791088502,
+        "detected_at": 1791088745,
+        "text": "What it did\n\n- delete all categories of email that were not needed for me to keep, validating them in batch\n\n- identify labels for types of work that I do and label all the emails appropriately\n\n- walked me through emails that needed a reply, searching for relevant context in the background to help get things right\n\nand in the process I was able to go through a lot of feedback and requests people send me directly through email. It was a good Saturday.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 243
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791088152,
+        "last_success_at": 1791088745,
         "last_failure_at": 1791050947,
         "offline_since": null,
         "failure_episodes": 37,
@@ -2944,7 +2978,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791088152"
+        "value": "1791088745"
       }
     ],
     "events": [
@@ -3073,6 +3107,12 @@
         "event_type": "post_analysis",
         "created_at": 1791001767,
         "details": "{\"related\":[{\"xStatusId\":\"2106233145163141249\",\"url\":\"https://x.com/thsottiaux/status/2106233145163141249\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Seeing some reports that the Pro 500 didn’t get the reset as expected earlier. Investigating and will make up for it\",\"provenance\":\"feed\",\"publishedAt\":1791000088}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"display\":\"advisory\",\"reason\":\"author reply or quote refers to related reset content; related text is not an author announcement\",\"evidence\":\"All fixed. Surprising number of Pro 500 users on here.\"}}"
+      },
+      {
+        "id": "analysis:x:2106602729875685780",
+        "event_type": "post_analysis",
+        "created_at": 1791088745,
+        "details": "{\"related\":[{\"xStatusId\":\"2105899634032025682\",\"url\":\"https://x.com/thsottiaux/status/2105899634032025682\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Down to 6110 unread from the over 9000 unread emails just earlier. Will get to inbox zero with clean filters within the next 48 hours. Dot has accepted the challenge.\",\"provenance\":\"feed\",\"publishedAt\":1790920573}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"I have never in my life achieved inbox zero until I just made it an active goal for my dot to help get it done.\"}}"
       },
       {
         "id": "notification:post:x:2102254445082116335",
@@ -3266,8 +3306,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791088152,
-    "lastRssAttemptAt": 1791088152,
+    "lastRssSuccessAt": 1791088745,
+    "lastRssAttemptAt": 1791088745,
     "sourceState": "online",
     "error": null
   }
