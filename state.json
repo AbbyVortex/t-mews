@@ -2993,13 +2993,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 562
+      },
+      {
+        "id": "x:2106893559962144962",
+        "x_status_id": "2106893559962144962",
+        "canonical_url": "https://x.com/thsottiaux/status/2106893559962144962",
+        "fingerprint": "d7516b9983cc3def5c036760f92cada89156e7220fe4311ac35d8a2c748cc064",
+        "published_at": 1791157543,
+        "detected_at": 1791157747,
+        "text": "@ZryMiller Interestingly, user and sub count is growing nicely. But feedback was clear.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 204
+      },
+      {
+        "id": "x:2106893863663321520",
+        "x_status_id": "2106893863663321520",
+        "canonical_url": "https://x.com/thsottiaux/status/2106893863663321520",
+        "fingerprint": "234acf401338723768f3696cc0f13572f75d92ecdb6619a8fcc6c318edd8e85b",
+        "published_at": 1791157615,
+        "detected_at": 1791157747,
+        "text": "@karrisaarinen Always loved linear!",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 132
+      },
+      {
+        "id": "x:2106894238541918707",
+        "x_status_id": "2106894238541918707",
+        "canonical_url": "https://x.com/thsottiaux/status/2106894238541918707",
+        "fingerprint": "ca680bc796c1af53938e010372c519dfd6ffb20dcacf0058e6fecc054ddad8b4",
+        "published_at": 1791157705,
+        "detected_at": 1791157747,
+        "text": "@mattlam_ > some easy wins: it takes 3 clicks on my phone to open dots from ChatGPT app, and there should be shortcut to dictation to it.\n\nTeam is on it",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 42
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791157147,
+        "last_success_at": 1791157747,
         "last_failure_at": 1791155948,
         "offline_since": null,
         "failure_episodes": 52,
@@ -3029,7 +3080,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791157147"
+        "value": "1791157747"
       }
     ],
     "events": [
@@ -3481,8 +3532,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791157147,
-    "lastRssAttemptAt": 1791157147,
+    "lastRssSuccessAt": 1791157747,
+    "lastRssAttemptAt": 1791157747,
     "sourceState": "online",
     "error": null
   }
