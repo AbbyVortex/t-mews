@@ -3187,6 +3187,12 @@
         "details": "{\"related\":[{\"xStatusId\":\"2105899634032025682\",\"url\":\"https://x.com/thsottiaux/status/2105899634032025682\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Down to 6110 unread from the over 9000 unread emails just earlier. Will get to inbox zero with clean filters within the next 48 hours. Dot has accepted the challenge.\",\"provenance\":\"feed\",\"publishedAt\":1790920573}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"I have never in my life achieved inbox zero until I just made it an active goal for my dot to help get it done.\"}}"
       },
       {
+        "id": "notification:offline:1791101351",
+        "event_type": "notification_sent",
+        "created_at": 1791102551,
+        "details": "{\"kind\":\"offline\",\"postId\":null}"
+      },
+      {
         "id": "notification:post:x:2102254445082116335",
         "event_type": "notification_sent",
         "created_at": 1790052271,
@@ -3259,8 +3265,8 @@
         "post_id": null,
         "kind": "offline",
         "created_at": 1791102551,
-        "status": "sending",
-        "sent_at": null
+        "status": "sent",
+        "sent_at": 1791102551
       },
       {
         "id": "online",
