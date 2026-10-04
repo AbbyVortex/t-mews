@@ -2925,13 +2925,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 259
+      },
+      {
+        "id": "x:2106845241357824205",
+        "x_status_id": "2106845241357824205",
+        "canonical_url": "https://x.com/thsottiaux/status/2106845241357824205",
+        "fingerprint": "da3bd895b418a66bcb07a6ea9875acf7d69ee9da1f96742a369ac49272424dba",
+        "published_at": 1791146023,
+        "detected_at": 1791146353,
+        "text": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 330
+      },
+      {
+        "id": "x:2106845738814849339",
+        "x_status_id": "2106845738814849339",
+        "canonical_url": "https://x.com/thsottiaux/status/2106845738814849339",
+        "fingerprint": "f26b28485ba7205d2bc50d4b53146fe23b31ee646feab70ae997ca517ea18854",
+        "published_at": 1791146142,
+        "detected_at": 1791146353,
+        "text": "@poteto I challenge you to do the same\n\nhttps://x.com/thsottiaux/status/2106845241357824205?s=20",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "CANDIDATE",
+        "reason": "author reply or quote refers to related reset content; related text is not an author announcement",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 211
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791145747,
+        "last_success_at": 1791146353,
         "last_failure_at": 1791144550,
         "offline_since": null,
         "failure_episodes": 49,
@@ -2961,7 +2995,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791145747"
+        "value": "1791146353"
       }
     ],
     "events": [
@@ -3096,6 +3130,18 @@
         "event_type": "post_analysis",
         "created_at": 1791088745,
         "details": "{\"related\":[{\"xStatusId\":\"2105899634032025682\",\"url\":\"https://x.com/thsottiaux/status/2105899634032025682\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Down to 6110 unread from the over 9000 unread emails just earlier. Will get to inbox zero with clean filters within the next 48 hours. Dot has accepted the challenge.\",\"provenance\":\"feed\",\"publishedAt\":1790920573}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"I have never in my life achieved inbox zero until I just made it an active goal for my dot to help get it done.\"}}"
+      },
+      {
+        "id": "analysis:x:2106845241357824205",
+        "event_type": "post_analysis",
+        "created_at": 1791146353,
+        "details": "{\"related\":[{\"xStatusId\":\"2106610099720720811\",\"url\":\"https://x.com/thsottiaux/status/2106610099720720811\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"All right, we’re locking in. Only things being worked on are simplifications, more efficiency for more usage, groundbreaking features or new models. Sometimes you have to invest ahead of the curve, but feedback is clear that you all want things to get simpler. On it.\",\"provenance\":\"feed\",\"publishedAt\":1791089961}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset.\"}}"
+      },
+      {
+        "id": "analysis:x:2106845738814849339",
+        "event_type": "post_analysis",
+        "created_at": 1791146353,
+        "details": "{\"related\":[{\"xStatusId\":\"2106845241357824205\",\"url\":\"https://x.com/thsottiaux/status/2106845241357824205\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin.\",\"provenance\":\"feed\",\"publishedAt\":1791146023}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"display\":\"advisory\",\"reason\":\"author reply or quote refers to related reset content; related text is not an author announcement\",\"evidence\":\"@poteto I challenge you to do the same\\n\\nhttps://x.com/thsottiaux/status/2106845241357824205?s=20\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -3338,6 +3384,14 @@
         "sent_at": 1791001767
       },
       {
+        "id": "post:x:2106845738814849339",
+        "post_id": "x:2106845738814849339",
+        "kind": "alert",
+        "created_at": 1791146353,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -3373,8 +3427,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791145747,
-    "lastRssAttemptAt": 1791145747,
+    "lastRssSuccessAt": 1791146353,
+    "lastRssAttemptAt": 1791146353,
     "sourceState": "online",
     "error": null
   }
