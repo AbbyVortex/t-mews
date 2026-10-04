@@ -2976,13 +2976,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 15
+      },
+      {
+        "id": "x:2106609390577156384",
+        "x_status_id": "2106609390577156384",
+        "canonical_url": "https://x.com/thsottiaux/status/2106609390577156384",
+        "fingerprint": "fe47013bf1737f316b04e7e8cf49416092c81b9b8dd104e44877d27102742b96",
+        "published_at": 1791089792,
+        "detected_at": 1791089951,
+        "text": "@hiarun02 There is a full usage dashboard in the app now! Let me know what’s missing if anything, will fix",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 159
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791089346,
+        "last_success_at": 1791089951,
         "last_failure_at": 1791050947,
         "offline_since": null,
         "failure_episodes": 37,
@@ -3012,7 +3029,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791089346"
+        "value": "1791089951"
       }
     ],
     "events": [
@@ -3340,8 +3357,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791089346,
-    "lastRssAttemptAt": 1791089346,
+    "lastRssSuccessAt": 1791089951,
+    "lastRssAttemptAt": 1791089951,
     "sourceState": "online",
     "error": null
   }
