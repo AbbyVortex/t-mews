@@ -2874,13 +2874,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 17
+      },
+      {
+        "id": "x:2106546689012281771",
+        "x_status_id": "2106546689012281771",
+        "canonical_url": "https://x.com/thsottiaux/status/2106546689012281771",
+        "fingerprint": "93265a7a4ae46ee1bfacb80ed3988c40b3ab9e546a8c14416ce88a34aa1d8802",
+        "published_at": 1791074843,
+        "detected_at": 1791074948,
+        "text": "@Baconbrix Interesting position you’re taking there mister Bacon. Now let’s see what someone can do with the ChatGPT subscription or the Grok subscription. 👀",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 105
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791074348,
+        "last_success_at": 1791074948,
         "last_failure_at": 1791050947,
         "offline_since": null,
         "failure_episodes": 37,
@@ -2910,7 +2927,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791074348"
+        "value": "1791074948"
       }
     ],
     "events": [
@@ -3232,8 +3249,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791074348,
-    "lastRssAttemptAt": 1791074348,
+    "lastRssSuccessAt": 1791074948,
+    "lastRssAttemptAt": 1791074948,
     "sourceState": "online",
     "error": null
   }
