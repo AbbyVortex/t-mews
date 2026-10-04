@@ -2840,13 +2840,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 122
+      },
+      {
+        "id": "x:2106543375088488596",
+        "x_status_id": "2106543375088488596",
+        "canonical_url": "https://x.com/thsottiaux/status/2106543375088488596",
+        "fingerprint": "d45669ab8e0e559f92af937f5da44bb8ef96c3802ce39a94b0ecb86fc7d0f953",
+        "published_at": 1791074052,
+        "detected_at": 1791074348,
+        "text": "@davis7 6.1 coming soon",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 296
+      },
+      {
+        "id": "x:2106544544892518815",
+        "x_status_id": "2106544544892518815",
+        "canonical_url": "https://x.com/thsottiaux/status/2106544544892518815",
+        "fingerprint": "ab287e71882a1952be5b4e902cb350e83b1bcc4c168edad2fb995f3e28b9413b",
+        "published_at": 1791074331,
+        "detected_at": 1791074348,
+        "text": "@atelicinvest Dots are persistent agents that carry context across the single conversation. You can call it in the middle of work and then catch it later via slack or text in the app, it’s the same dot talking to you.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 17
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791073749,
+        "last_success_at": 1791074348,
         "last_failure_at": 1791050947,
         "offline_since": null,
         "failure_episodes": 37,
@@ -2876,7 +2910,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791073749"
+        "value": "1791074348"
       }
     ],
     "events": [
@@ -3198,8 +3232,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791073749,
-    "lastRssAttemptAt": 1791073749,
+    "lastRssSuccessAt": 1791074348,
+    "lastRssAttemptAt": 1791074348,
     "sourceState": "online",
     "error": null
   }
