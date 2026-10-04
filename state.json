@@ -2942,13 +2942,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 243
+      },
+      {
+        "id": "x:2106605571168510149",
+        "x_status_id": "2106605571168510149",
+        "canonical_url": "https://x.com/thsottiaux/status/2106605571168510149",
+        "fingerprint": "b4ad22aa19bd6a5f48edec110ba826a7392793da75bd6b8f2d68923495bea66d",
+        "published_at": 1791088881,
+        "detected_at": 1791089346,
+        "text": "@davis7 6.1 sol ultrafast that is",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 465
+      },
+      {
+        "id": "x:2106607456130592861",
+        "x_status_id": "2106607456130592861",
+        "canonical_url": "https://x.com/thsottiaux/status/2106607456130592861",
+        "fingerprint": "d3fb8a16c885fbff7933761e34a2fa4926497ac1a78720f1c393ec001e523aff",
+        "published_at": 1791089331,
+        "detected_at": 1791089346,
+        "text": "@_ak_111 6.1 sol ultrafast",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 15
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791088745,
+        "last_success_at": 1791089346,
         "last_failure_at": 1791050947,
         "offline_since": null,
         "failure_episodes": 37,
@@ -2978,7 +3012,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791088745"
+        "value": "1791089346"
       }
     ],
     "events": [
@@ -3306,8 +3340,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791088745,
-    "lastRssAttemptAt": 1791088745,
+    "lastRssSuccessAt": 1791089346,
+    "lastRssAttemptAt": 1791089346,
     "sourceState": "online",
     "error": null
   }
