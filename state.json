@@ -3112,13 +3112,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 113
+      },
+      {
+        "id": "x:2106963521561083946",
+        "x_status_id": "2106963521561083946",
+        "canonical_url": "https://x.com/thsottiaux/status/2106963521561083946",
+        "fingerprint": "b4715d91e777dd2b42ec6938849eb32de4d420e9eca8e680c2338cbdf64ed9c8",
+        "published_at": 1791174223,
+        "detected_at": 1791174549,
+        "text": "@AlexBerish @OpenAI @sama Everything is indeed coordinated through Slack",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 326
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791173951,
+        "last_success_at": 1791174549,
         "last_failure_at": 1791162549,
         "offline_since": null,
         "failure_episodes": 54,
@@ -3148,7 +3165,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791173951"
+        "value": "1791174549"
       }
     ],
     "events": [
@@ -3600,8 +3617,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791173951,
-    "lastRssAttemptAt": 1791173951,
+    "lastRssSuccessAt": 1791174549,
+    "lastRssAttemptAt": 1791174549,
     "sourceState": "online",
     "error": null
   }
