@@ -3197,13 +3197,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 494
+      },
+      {
+        "id": "x:2107185534359761051",
+        "x_status_id": "2107185534359761051",
+        "canonical_url": "https://x.com/thsottiaux/status/2107185534359761051",
+        "fingerprint": "887494c7ad517248eb8cfc0efea9a1876828895b99050afd90046ff0de0a100d",
+        "published_at": 1791227155,
+        "detected_at": 1791227355,
+        "text": "@karrisaarinen @OpenAI @linear Nice avatar",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 200
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791226752,
+        "last_success_at": 1791227355,
         "last_failure_at": 1791216550,
         "offline_since": null,
         "failure_episodes": 64,
@@ -3233,7 +3250,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791226752"
+        "value": "1791227355"
       }
     ],
     "events": [
@@ -3705,8 +3722,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791226752,
-    "lastRssAttemptAt": 1791226752,
+    "lastRssSuccessAt": 1791227355,
+    "lastRssAttemptAt": 1791227355,
     "sourceState": "online",
     "error": null
   }
