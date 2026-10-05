@@ -3163,13 +3163,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 68
+      },
+      {
+        "id": "x:2107158998495748264",
+        "x_status_id": "2107158998495748264",
+        "canonical_url": "https://x.com/thsottiaux/status/2107158998495748264",
+        "fingerprint": "490c0776d86924e54a7955f7138de0b40a4da71dc8f5037d38e1c74c766374b0",
+        "published_at": 1791220829,
+        "detected_at": 1791221351,
+        "text": "Day 1/\n\nWe have optimized the default speed to be ~50% faster across GPT-6 Astra and GPT-6.1 Sol through the subscription across all our products and partners using Sign in With ChatGPT (including OpenCode, Pi, Amp, Devin, ...).\n\nNo changes needed on your end and this should be felt within the next two hours.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author reply or quote refers to related reset content; related text is not an author announcement",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 522
+      },
+      {
+        "id": "x:2107159119107146237",
+        "x_status_id": "2107159119107146237",
+        "canonical_url": "https://x.com/thsottiaux/status/2107159119107146237",
+        "fingerprint": "861629ba1b60bf8b83840d70c9f3cbb4a2fa7634e2821d39bce16b444d808933",
+        "published_at": 1791220857,
+        "detected_at": 1791221351,
+        "text": "Reaching 50 TPS instead of 30TPS, with also the most optimized tokenizer out there. And the models are quite the efficient ones in terms of number of tokens needed to get things done!",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 494
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791220750,
+        "last_success_at": 1791221351,
         "last_failure_at": 1791216550,
         "offline_since": null,
         "failure_episodes": 64,
@@ -3199,7 +3233,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791220750"
+        "value": "1791221351"
       }
     ],
     "events": [
@@ -3346,6 +3380,12 @@
         "event_type": "post_analysis",
         "created_at": 1791146353,
         "details": "{\"related\":[{\"xStatusId\":\"2106845241357824205\",\"url\":\"https://x.com/thsottiaux/status/2106845241357824205\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin.\",\"provenance\":\"feed\",\"publishedAt\":1791146023}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"display\":\"advisory\",\"reason\":\"author reply or quote refers to related reset content; related text is not an author announcement\",\"evidence\":\"@poteto I challenge you to do the same\\n\\nhttps://x.com/thsottiaux/status/2106845241357824205?s=20\"}}"
+      },
+      {
+        "id": "analysis:x:2107158998495748264",
+        "event_type": "post_analysis",
+        "created_at": 1791221351,
+        "details": "{\"related\":[{\"xStatusId\":\"2106845241357824205\",\"url\":\"https://x.com/thsottiaux/status/2106845241357824205\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin.\",\"provenance\":\"feed\",\"publishedAt\":1791146023}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"display\":\"advisory\",\"reason\":\"author reply or quote refers to related reset content; related text is not an author announcement\",\"evidence\":\"Day 1/\\n\\nWe have optimized the default speed to be ~50% faster across GPT-6 Astra and GPT-6.1 Sol through the subscription across all our products and partners using Sign in With ChatGPT (including OpenCode, Pi, Amp, Devin, ...).\\n\\nNo changes needed on your end and this should be felt within the next two hours.\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -3616,6 +3656,14 @@
         "sent_at": 1791146353
       },
       {
+        "id": "post:x:2107158998495748264",
+        "post_id": "x:2107158998495748264",
+        "kind": "alert",
+        "created_at": 1791221351,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -3651,8 +3699,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791220750,
-    "lastRssAttemptAt": 1791220750,
+    "lastRssSuccessAt": 1791221351,
+    "lastRssAttemptAt": 1791221351,
     "sourceState": "online",
     "error": null
   }
