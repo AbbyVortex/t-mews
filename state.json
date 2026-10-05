@@ -3061,13 +3061,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 536
+      },
+      {
+        "id": "x:2106957975147676025",
+        "x_status_id": "2106957975147676025",
+        "canonical_url": "https://x.com/thsottiaux/status/2106957975147676025",
+        "fingerprint": "e6365a241269586e975e565aa4150de0d7c2082a7ca25eeac14c41d082ae0a01",
+        "published_at": 1791172901,
+        "detected_at": 1791173354,
+        "text": "@fawnunwrap Don’t feel bad. It’s part of the fun and I’m here for it.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 453
+      },
+      {
+        "id": "x:2106958559695282202",
+        "x_status_id": "2106958559695282202",
+        "canonical_url": "https://x.com/thsottiaux/status/2106958559695282202",
+        "fingerprint": "03ce00a4027ab46a69d0546e813f49115657c399b18e00e03e1d49d04e8f9550",
+        "published_at": 1791173040,
+        "detected_at": 1791173354,
+        "text": "@makeamarkery Not fixes. Significant improvements. Let’s have some fun!",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 314
+      },
+      {
+        "id": "x:2106959403782184960",
+        "x_status_id": "2106959403782184960",
+        "canonical_url": "https://x.com/thsottiaux/status/2106959403782184960",
+        "fingerprint": "c3929625bdb0b1da89e701848ed9ebf1ed4fc7c4d0627cefa5744e4d3e668cec",
+        "published_at": 1791173241,
+        "detected_at": 1791173354,
+        "text": "@ai_for_success Claudex AI Space by Google",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 113
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791172748,
+        "last_success_at": 1791173354,
         "last_failure_at": 1791162549,
         "offline_since": null,
         "failure_episodes": 54,
@@ -3097,7 +3148,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791172748"
+        "value": "1791173354"
       }
     ],
     "events": [
@@ -3549,8 +3600,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791172748,
-    "lastRssAttemptAt": 1791172748,
+    "lastRssSuccessAt": 1791173354,
+    "lastRssAttemptAt": 1791173354,
     "sourceState": "online",
     "error": null
   }
