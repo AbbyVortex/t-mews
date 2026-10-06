@@ -3486,17 +3486,34 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 1087
+      },
+      {
+        "id": "x:2107504197012988007",
+        "x_status_id": "2107504197012988007",
+        "canonical_url": "https://x.com/thsottiaux/status/2107504197012988007",
+        "fingerprint": "7dce9b9eb69b51d3f1f94fe9ff653b524ff2a1987f0816dd2f02ba637b02e867",
+        "published_at": 1791303130,
+        "detected_at": 1791304148,
+        "text": "Auto-review is the “Approve for me” permission mode. To use it, open the permissions menu below the composer and select “Approve for me”.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 1018
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1791302351,
+        "state": "online",
+        "last_success_at": 1791304148,
         "last_failure_at": 1791303547,
-        "offline_since": 1791302953,
+        "offline_since": null,
         "failure_episodes": 83,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -3522,11 +3539,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791302351"
-      },
-      {
-        "key": "outage",
-        "value": "1791302953"
+        "value": "1791304148"
       }
     ],
     "events": [
@@ -4050,9 +4063,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791302351,
-    "lastRssAttemptAt": 1791303547,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1791304148,
+    "lastRssAttemptAt": 1791304148,
+    "sourceState": "online",
+    "error": null
   }
 }
