@@ -3316,13 +3316,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 106
+      },
+      {
+        "id": "x:2107314076993155297",
+        "x_status_id": "2107314076993155297",
+        "canonical_url": "https://x.com/thsottiaux/status/2107314076993155297",
+        "fingerprint": "742c70a147b6e65d44d78133c9850bef4bfe5d315bae69f423acb118d77a45bc",
+        "published_at": 1791257802,
+        "detected_at": 1791257979,
+        "text": "@gazzzzzzman 3 cups a day",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 177
+      },
+      {
+        "id": "x:2107314411975381479",
+        "x_status_id": "2107314411975381479",
+        "canonical_url": "https://x.com/thsottiaux/status/2107314411975381479",
+        "fingerprint": "39c9d9d2f178fa6494014d36bee9a1b476f37790a842aa264e58bdd6ffd0fec6",
+        "published_at": 1791257882,
+        "detected_at": 1791257979,
+        "text": "@DhruvJain08 @poteto Let’s call upon the @poteto",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 97
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791257348,
+        "last_success_at": 1791257979,
         "last_failure_at": 1791253149,
         "offline_since": null,
         "failure_episodes": 70,
@@ -3352,7 +3386,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791257348"
+        "value": "1791257979"
       }
     ],
     "events": [
@@ -3842,8 +3876,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791257348,
-    "lastRssAttemptAt": 1791257348,
+    "lastRssSuccessAt": 1791257979,
+    "lastRssAttemptAt": 1791257979,
     "sourceState": "online",
     "error": null
   }
