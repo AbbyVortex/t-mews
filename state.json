@@ -3537,13 +3537,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 370
+      },
+      {
+        "id": "x:2107597780352950624",
+        "x_status_id": "2107597780352950624",
+        "canonical_url": "https://x.com/thsottiaux/status/2107597780352950624",
+        "fingerprint": "6ebd9a556019cb57bb3c7d22e701be8a6b0c6204ff7237da01ccdc7c313e7aff",
+        "published_at": 1791325442,
+        "detected_at": 1791325753,
+        "text": "Completely unrelated to the rest of the ships today, but our models did solve some important math problems and the team documented it in the following blogpost. Remarkable new era of scientific progress.\n\nhttps://openai.com/index/sharing-ai-progress-in-mathematics/",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 311
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791325151,
+        "last_success_at": 1791325753,
         "last_failure_at": 1791322151,
         "offline_since": null,
         "failure_episodes": 88,
@@ -3573,7 +3590,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791325151"
+        "value": "1791325753"
       }
     ],
     "events": [
@@ -4131,8 +4148,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791325151,
-    "lastRssAttemptAt": 1791325151,
+    "lastRssSuccessAt": 1791325753,
+    "lastRssAttemptAt": 1791325753,
     "sourceState": "online",
     "error": null
   }
