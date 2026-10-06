@@ -3588,17 +3588,34 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 226
+      },
+      {
+        "id": "x:2107613966692409653",
+        "x_status_id": "2107613966692409653",
+        "canonical_url": "https://x.com/thsottiaux/status/2107613966692409653",
+        "fingerprint": "220e7069d5f5ea28f50c96f4054a464ffdb599e82dfd045935c6721aa9622512",
+        "published_at": 1791329301,
+        "detected_at": 1791329346,
+        "text": "@TheRohanVarma Ship ship ship",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 45
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1791328149,
+        "state": "online",
+        "last_success_at": 1791329346,
         "last_failure_at": 1791328749,
-        "offline_since": 1791328749,
+        "offline_since": null,
         "failure_episodes": 89,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -3624,11 +3641,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791328149"
-      },
-      {
-        "key": "outage",
-        "value": "1791328749"
+        "value": "1791329346"
       }
     ],
     "events": [
@@ -4186,9 +4199,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791328149,
-    "lastRssAttemptAt": 1791328749,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1791329346,
+    "lastRssAttemptAt": 1791329346,
+    "sourceState": "online",
+    "error": null
   }
 }
