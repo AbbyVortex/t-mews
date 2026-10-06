@@ -3452,13 +3452,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 18
+      },
+      {
+        "id": "x:2107370852564021582",
+        "x_status_id": "2107370852564021582",
+        "canonical_url": "https://x.com/thsottiaux/status/2107370852564021582",
+        "fingerprint": "c53e2d097b188b3d4ae5a85454b7f2f71b8e7032999c23d88d1ff85454d5eefb",
+        "published_at": 1791271338,
+        "detected_at": 1791271749,
+        "text": "Use auto-review instead of full-access. Not a trade-off anymore and you'll sleep more peacefully",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 411
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791271154,
+        "last_success_at": 1791271749,
         "last_failure_at": 1791260346,
         "offline_since": null,
         "failure_episodes": 72,
@@ -3488,7 +3505,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791271154"
+        "value": "1791271749"
       }
     ],
     "events": [
@@ -3984,8 +4001,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791271154,
-    "lastRssAttemptAt": 1791271154,
+    "lastRssSuccessAt": 1791271749,
+    "lastRssAttemptAt": 1791271749,
     "sourceState": "online",
     "error": null
   }
