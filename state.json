@@ -3520,17 +3520,34 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 946
+      },
+      {
+        "id": "x:2107548725359104441",
+        "x_status_id": "2107548725359104441",
+        "canonical_url": "https://x.com/thsottiaux/status/2107548725359104441",
+        "fingerprint": "9b1da57366944a1b891f906dfb0763e9cbbade111d8558ff6f48712cc2f7f3f6",
+        "published_at": 1791313747,
+        "detected_at": 1791313751,
+        "text": "Day 2.2/\n\nOK this one is smaller, but we removed some friction for when building on the API. Happy building.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 4
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1791312550,
+        "state": "online",
+        "last_success_at": 1791313751,
         "last_failure_at": 1791313151,
-        "offline_since": 1791313151,
+        "offline_since": null,
         "failure_episodes": 86,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -3556,11 +3573,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791312550"
-      },
-      {
-        "key": "outage",
-        "value": "1791313151"
+        "value": "1791313751"
       }
     ],
     "events": [
@@ -3737,6 +3750,12 @@
         "event_type": "post_analysis",
         "created_at": 1791271154,
         "details": "{\"related\":[{\"xStatusId\":\"2107158998495748264\",\"url\":\"https://x.com/thsottiaux/status/2107158998495748264\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Day 1/ We have optimized the default speed to be ~50% faster across GPT-6 Astra and GPT-6.1 Sol through the subscription across all our products and partners using Sign in With ChatGPT (including OpenCode, Pi, Amp, Devin, ...). No changes needed on your end and this should be fel…\",\"provenance\":\"feed\",\"publishedAt\":1791220829}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 2.1/\"}}"
+      },
+      {
+        "id": "analysis:x:2107548725359104441",
+        "event_type": "post_analysis",
+        "created_at": 1791313751,
+        "details": "{\"related\":[{\"xStatusId\":\"2107539647392096384\",\"url\":\"https://x.com/OpenAIDevs/status/2107539647392096384\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"We’re making it easier to qualify for higher OpenAI API rate limits. Five paid usage tiers become three: Build, Launch, and Grow. You can qualify for Grow, our new highest tier, with $500 in total API payments—down from $1,000 for the previous highest tier.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 2.2/\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4084,9 +4103,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791312550,
-    "lastRssAttemptAt": 1791313151,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1791313751,
+    "lastRssAttemptAt": 1791313751,
+    "sourceState": "online",
+    "error": null
   }
 }
