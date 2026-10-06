@@ -3503,13 +3503,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 301
+      },
+      {
+        "id": "x:2107592271952748814",
+        "x_status_id": "2107592271952748814",
+        "canonical_url": "https://x.com/thsottiaux/status/2107592271952748814",
+        "fingerprint": "1abf9ca1ff2ffe2ad1232f807fc436e22fb1dcd140c4aa6de7f5badab524c108",
+        "published_at": 1791324129,
+        "detected_at": 1791324547,
+        "text": "@adonis_singh Is this how the internet works 👀",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 418
+      },
+      {
+        "id": "x:2107592473048715573",
+        "x_status_id": "2107592473048715573",
+        "canonical_url": "https://x.com/thsottiaux/status/2107592473048715573",
+        "fingerprint": "5bc6f3481133da84070f37284a812dfa8494a55bc92248b1e938db6637e6d33d",
+        "published_at": 1791324177,
+        "detected_at": 1791324547,
+        "text": "@TokenGremlin I accept your vote",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 370
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791323949,
+        "last_success_at": 1791324547,
         "last_failure_at": 1791322151,
         "offline_since": null,
         "failure_episodes": 88,
@@ -3539,7 +3573,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791323949"
+        "value": "1791324547"
       }
     ],
     "events": [
@@ -4097,8 +4131,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791323949,
-    "lastRssAttemptAt": 1791323949,
+    "lastRssSuccessAt": 1791324547,
+    "lastRssAttemptAt": 1791324547,
     "sourceState": "online",
     "error": null
   }
