@@ -3554,13 +3554,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 150
+      },
+      {
+        "id": "x:2107558288934216153",
+        "x_status_id": "2107558288934216153",
+        "canonical_url": "https://x.com/thsottiaux/status/2107558288934216153",
+        "fingerprint": "684ee576b540e229c4912425954ab3ab26c45f42d5812e8f9de0c1414980fb28",
+        "published_at": 1791316027,
+        "detected_at": 1791316753,
+        "text": "@babayagatwt No dodge, just three updates today",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 726
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791315550,
+        "last_success_at": 1791316753,
         "last_failure_at": 1791313151,
         "offline_since": null,
         "failure_episodes": 86,
@@ -3590,7 +3607,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791315550"
+        "value": "1791316753"
       }
     ],
     "events": [
@@ -4120,8 +4137,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791315550,
-    "lastRssAttemptAt": 1791315550,
+    "lastRssSuccessAt": 1791316753,
+    "lastRssAttemptAt": 1791316753,
     "sourceState": "online",
     "error": null
   }
