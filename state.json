@@ -3639,13 +3639,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 65
+      },
+      {
+        "id": "x:2107577536779870210",
+        "x_status_id": "2107577536779870210",
+        "canonical_url": "https://x.com/thsottiaux/status/2107577536779870210",
+        "fingerprint": "f57ed65cb779f9cb4b3827b8eed4eb4a6b0ec21e8a1ca03f367581e52ea0941a",
+        "published_at": 1791320616,
+        "detected_at": 1791320952,
+        "text": "@The_Alex I do like giving resets",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 336
+      },
+      {
+        "id": "x:2107578625419866469",
+        "x_status_id": "2107578625419866469",
+        "canonical_url": "https://x.com/thsottiaux/status/2107578625419866469",
+        "fingerprint": "5bd3ca9553832aa3007e2f081a29e8f48d0ac598525dc822fa4eed1ad5e963e3",
+        "published_at": 1791320875,
+        "detected_at": 1791320952,
+        "text": "Four updates or a reset. Or both. How was day 2.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 77
+      },
+      {
+        "id": "x:2107578816638177408",
+        "x_status_id": "2107578816638177408",
+        "canonical_url": "https://x.com/thsottiaux/status/2107578816638177408",
+        "fingerprint": "492659e162496008014377fedc50ecf34433d66568abd5a48e2a231274f58ebd",
+        "published_at": 1791320921,
+        "detected_at": 1791320952,
+        "text": "@poteto Waiting for today’s ship",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 31
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791320349,
+        "last_success_at": 1791320952,
         "last_failure_at": 1791317349,
         "offline_since": null,
         "failure_episodes": 87,
@@ -3675,7 +3726,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791320349"
+        "value": "1791320952"
       }
     ],
     "events": [
@@ -3870,6 +3921,18 @@
         "event_type": "post_analysis",
         "created_at": 1791320349,
         "details": "{\"related\":[{\"xStatusId\":\"2107573382229188645\",\"url\":\"https://x.com/OpenAIDevs/status/2107573382229188645\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"Let your app choose the right model, tool, or action in near real-time with Decisions API, now available to all developers in public beta. The Decisions API makes decisions up to 10x faster than GPT-6 Luna through the Responses API.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 2.4/\"}}"
+      },
+      {
+        "id": "analysis:x:2107577536779870210",
+        "event_type": "post_analysis",
+        "created_at": 1791320952,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@The_Alex I do like giving resets\"}}"
+      },
+      {
+        "id": "analysis:x:2107578625419866469",
+        "event_type": "post_analysis",
+        "created_at": 1791320952,
+        "details": "{\"related\":[{\"xStatusId\":\"2107576143285219799\",\"url\":\"https://x.com/thsottiaux/status/2107576143285219799\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Vote\",\"provenance\":\"feed\",\"publishedAt\":1791320284}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Four updates or a reset.\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4174,6 +4237,14 @@
         "sent_at": 1791221351
       },
       {
+        "id": "post:x:2107578625419866469",
+        "post_id": "x:2107578625419866469",
+        "kind": "alert",
+        "created_at": 1791320952,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -4217,8 +4288,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791320349,
-    "lastRssAttemptAt": 1791320349,
+    "lastRssSuccessAt": 1791320952,
+    "lastRssAttemptAt": 1791320952,
     "sourceState": "online",
     "error": null
   }
