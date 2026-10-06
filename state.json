@@ -3265,13 +3265,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 294
+      },
+      {
+        "id": "x:2107301501215613206",
+        "x_status_id": "2107301501215613206",
+        "canonical_url": "https://x.com/thsottiaux/status/2107301501215613206",
+        "fingerprint": "266a3f41d12077172db5b7b6cd8ff2e81fe7f27b0912f578e31c9624c3a5e707",
+        "published_at": 1791254804,
+        "detected_at": 1791254950,
+        "text": "@kimmonismus You can be part of the judge panel for the 28 days",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 146
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791254353,
+        "last_success_at": 1791254950,
         "last_failure_at": 1791253149,
         "offline_since": null,
         "failure_episodes": 70,
@@ -3301,7 +3318,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791254353"
+        "value": "1791254950"
       }
     ],
     "events": [
@@ -3791,8 +3808,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791254353,
-    "lastRssAttemptAt": 1791254353,
+    "lastRssSuccessAt": 1791254950,
+    "lastRssAttemptAt": 1791254950,
     "sourceState": "online",
     "error": null
   }
