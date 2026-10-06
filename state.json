@@ -3401,13 +3401,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 31
+      },
+      {
+        "id": "x:2107579151322591412",
+        "x_status_id": "2107579151322591412",
+        "canonical_url": "https://x.com/thsottiaux/status/2107579151322591412",
+        "fingerprint": "2bd3c8058fcc76fd7767b5d00726a8d4a8513c0c3eef31807a7e3882f2d0e1c5",
+        "published_at": 1791321001,
+        "detected_at": 1791321549,
+        "text": "@MerkleGhost @SSHCodes OK fake tibo",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 548
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791320952,
+        "last_success_at": 1791321549,
         "last_failure_at": 1791317349,
         "offline_since": null,
         "failure_episodes": 87,
@@ -3437,7 +3454,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791320952"
+        "value": "1791321549"
       }
     ],
     "events": [
@@ -3995,8 +4012,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791320952,
-    "lastRssAttemptAt": 1791320952,
+    "lastRssSuccessAt": 1791321549,
+    "lastRssAttemptAt": 1791321549,
     "sourceState": "online",
     "error": null
   }
