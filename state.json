@@ -3537,13 +3537,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 4
+      },
+      {
+        "id": "x:2107555660548468830",
+        "x_status_id": "2107555660548468830",
+        "canonical_url": "https://x.com/thsottiaux/status/2107555660548468830",
+        "fingerprint": "fd28cb870a13e9c080573d8824d773a958631063b48e27f3ff5083796b0b2399",
+        "published_at": 1791315400,
+        "detected_at": 1791315550,
+        "text": "@poteto What if bot goes down",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 150
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791314953,
+        "last_success_at": 1791315550,
         "last_failure_at": 1791313151,
         "offline_since": null,
         "failure_episodes": 86,
@@ -3573,7 +3590,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791314953"
+        "value": "1791315550"
       }
     ],
     "events": [
@@ -4103,8 +4120,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791314953,
-    "lastRssAttemptAt": 1791314953,
+    "lastRssSuccessAt": 1791315550,
+    "lastRssAttemptAt": 1791315550,
     "sourceState": "online",
     "error": null
   }
