@@ -3163,17 +3163,119 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 3250
+      },
+      {
+        "id": "x:2107294063011733505",
+        "x_status_id": "2107294063011733505",
+        "canonical_url": "https://x.com/thsottiaux/status/2107294063011733505",
+        "fingerprint": "41da14c221c40a7bc8dee2dc0a43556be3da808bb98e4d3f0725fda86e601adc",
+        "published_at": 1791253030,
+        "detected_at": 1791253748,
+        "text": "@stalkermustang Sent you a DM for how you’re measuring\n\nhttps://x.com/GaelBreton/status/2107178262451646672?s=20",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 718
+      },
+      {
+        "id": "x:2107294414091759840",
+        "x_status_id": "2107294414091759840",
+        "canonical_url": "https://x.com/thsottiaux/status/2107294414091759840",
+        "fingerprint": "4a5987a29d5856ad836ea2044e0acd111328f7216790c9546711a1d8ba65666c",
+        "published_at": 1791253114,
+        "detected_at": 1791253748,
+        "text": "@poteto @bot I smell fear",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 634
+      },
+      {
+        "id": "x:2107295089416708515",
+        "x_status_id": "2107295089416708515",
+        "canonical_url": "https://x.com/thsottiaux/status/2107295089416708515",
+        "fingerprint": "267cc9b11e10b00e6f29d8278b1657734711b04bb0a3f502b5493c02b5649e82",
+        "published_at": 1791253275,
+        "detected_at": 1791253748,
+        "text": "@miu21590 We rolled out the Astra changes earlier. The 50 TPS is what you’re after",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 473
+      },
+      {
+        "id": "x:2107295306794905929",
+        "x_status_id": "2107295306794905929",
+        "canonical_url": "https://x.com/thsottiaux/status/2107295306794905929",
+        "fingerprint": "afe675d5adf4873bbb126a7727382a09ffad9dfdec73edc2747d59e299bceadd",
+        "published_at": 1791253327,
+        "detected_at": 1791253748,
+        "text": "@nicdunz Facts",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 421
+      },
+      {
+        "id": "x:2107295543563362784",
+        "x_status_id": "2107295543563362784",
+        "canonical_url": "https://x.com/thsottiaux/status/2107295543563362784",
+        "fingerprint": "361f044298f9d95436711eae44949d5afadc806f995dad675e4a7599421f80e9",
+        "published_at": 1791253383,
+        "detected_at": 1791253748,
+        "text": "@iansilber Coincidence?",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 365
+      },
+      {
+        "id": "x:2107295839655952486",
+        "x_status_id": "2107295839655952486",
+        "canonical_url": "https://x.com/thsottiaux/status/2107295839655952486",
+        "fingerprint": "a412f5441944bb18cb7f5074035f7ca01ea72fe30fccccaec82cd1a79f10a086",
+        "published_at": 1791253454,
+        "detected_at": 1791253748,
+        "text": "The real story is this one",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 294
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1791252547,
+        "state": "online",
+        "last_success_at": 1791253748,
         "last_failure_at": 1791253149,
-        "offline_since": 1791253149,
+        "offline_since": null,
         "failure_episodes": 70,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -3199,11 +3301,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791252547"
-      },
-      {
-        "key": "outage",
-        "value": "1791253149"
+        "value": "1791253748"
       }
     ],
     "events": [
@@ -3362,6 +3460,18 @@
         "event_type": "post_analysis",
         "created_at": 1791233981,
         "details": "{\"related\":[{\"xStatusId\":\"2107182570802979268\",\"url\":\"https://x.com/matteing/status/2107182570802979268\",\"author\":\"matteing\",\"relation\":\"quote\",\"text\":\"We weren't kidding. Let's talk about Space. ✨ Have you tried Space yet? What's good or bad about it? What could we improve? We're locked in and shipping fast. 👀\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Sergio is cooking up magic with collaborative space right in ChatGPT.\"}}"
+      },
+      {
+        "id": "analysis:x:2107294063011733505",
+        "event_type": "post_analysis",
+        "created_at": 1791253748,
+        "details": "{\"related\":[{\"xStatusId\":\"2107178262451646672\",\"url\":\"https://x.com/GaelBreton/status/2107178262451646672\",\"author\":\"GaelBreton\",\"relation\":\"quote\",\"text\":\"It’s actually a bit more than 50% for me. This is a big boost to a great but previously overly slow model.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@stalkermustang Sent you a DM for how you’re measuring\"}}"
+      },
+      {
+        "id": "analysis:x:2107295839655952486",
+        "event_type": "post_analysis",
+        "created_at": 1791253748,
+        "details": "{\"related\":[{\"xStatusId\":\"2107205710543294872\",\"url\":\"https://x.com/meetp_ai/status/2107205710543294872\",\"author\":\"meetp_ai\",\"relation\":\"quote\",\"text\":\"@petergostev Counting only equivalent API cost would show only half the picture IMO.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"The real story is this one\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -3681,9 +3791,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791252547,
-    "lastRssAttemptAt": 1791253149,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1791253748,
+    "lastRssAttemptAt": 1791253748,
+    "sourceState": "online",
+    "error": null
   }
 }
