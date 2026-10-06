@@ -3571,13 +3571,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 726
+      },
+      {
+        "id": "x:2107573405553938664",
+        "x_status_id": "2107573405553938664",
+        "canonical_url": "https://x.com/thsottiaux/status/2107573405553938664",
+        "fingerprint": "1a029bbc6aa150ec8be6b168cde41355cbd9e1d576b6bc9eb61f878c9249b994",
+        "published_at": 1791319631,
+        "detected_at": 1791319751,
+        "text": "Day 2.3/\n\nNever worry about remembering what you were saying with that colleague. Just talk your heart out and build up the context to load up into codex to get it all done.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 120
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791319148,
+        "last_success_at": 1791319751,
         "last_failure_at": 1791317349,
         "offline_since": null,
         "failure_episodes": 87,
@@ -3607,7 +3624,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791319148"
+        "value": "1791319751"
       }
     ],
     "events": [
@@ -3790,6 +3807,12 @@
         "event_type": "post_analysis",
         "created_at": 1791313751,
         "details": "{\"related\":[{\"xStatusId\":\"2107539647392096384\",\"url\":\"https://x.com/OpenAIDevs/status/2107539647392096384\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"We’re making it easier to qualify for higher OpenAI API rate limits. Five paid usage tiers become three: Build, Launch, and Grow. You can qualify for Grow, our new highest tier, with $500 in total API payments—down from $1,000 for the previous highest tier.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 2.2/\"}}"
+      },
+      {
+        "id": "analysis:x:2107573405553938664",
+        "event_type": "post_analysis",
+        "created_at": 1791319751,
+        "details": "{\"related\":[{\"xStatusId\":\"2107567930557026653\",\"url\":\"https://x.com/ChatGPT/status/2107567930557026653\",\"author\":\"ChatGPT\",\"relation\":\"quote\",\"text\":\"Your next meeting comes with a note-taker who can help with the follow-up. The Meetings plugin takes notes for you and saves a personalized summary and next steps in ChatGPT Space, based on what ChatGPT knows about you and the work you’ve done together. Keep notes private or shar…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 2.3/\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4137,8 +4160,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791319148,
-    "lastRssAttemptAt": 1791319148,
+    "lastRssSuccessAt": 1791319751,
+    "lastRssAttemptAt": 1791319751,
     "sourceState": "online",
     "error": null
   }
