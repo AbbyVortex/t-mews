@@ -3418,17 +3418,34 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 548
+      },
+      {
+        "id": "x:2107586339860631980",
+        "x_status_id": "2107586339860631980",
+        "canonical_url": "https://x.com/thsottiaux/status/2107586339860631980",
+        "fingerprint": "35ba9bff98e1b67b7d066ede868b1a95ad97d53b62139018e600cdf03e2b80cb",
+        "published_at": 1791322715,
+        "detected_at": 1791322750,
+        "text": "@vipinxtwt It’s the compute that is cooked",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 35
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1791321549,
+        "state": "online",
+        "last_success_at": 1791322750,
         "last_failure_at": 1791322151,
-        "offline_since": 1791322151,
+        "offline_since": null,
         "failure_episodes": 88,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -3454,11 +3471,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791321549"
-      },
-      {
-        "key": "outage",
-        "value": "1791322151"
+        "value": "1791322750"
       }
     ],
     "events": [
@@ -4016,9 +4029,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791321549,
-    "lastRssAttemptAt": 1791322151,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1791322750,
+    "lastRssAttemptAt": 1791322750,
+    "sourceState": "online",
+    "error": null
   }
 }
