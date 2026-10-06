@@ -3367,17 +3367,51 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 555
+      },
+      {
+        "id": "x:2107320000554123426",
+        "x_status_id": "2107320000554123426",
+        "canonical_url": "https://x.com/thsottiaux/status/2107320000554123426",
+        "fingerprint": "ce9f6e826ac7e25e059febe1eb049c8754cb2900f58dd07364863970fee9f317",
+        "published_at": 1791259214,
+        "detected_at": 1791259748,
+        "text": "@poteto @bot Will be even more blissful to manage both",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 534
+      },
+      {
+        "id": "x:2107320918200693212",
+        "x_status_id": "2107320918200693212",
+        "canonical_url": "https://x.com/thsottiaux/status/2107320918200693212",
+        "fingerprint": "3ae68e2f85615f599bba482fbfd92fe91ac2bb290b564561a82e8d76b8af74e4",
+        "published_at": 1791259433,
+        "detected_at": 1791259748,
+        "text": "@badlogicgames Blackboard",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 315
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1791258556,
+        "state": "online",
+        "last_success_at": 1791259748,
         "last_failure_at": 1791259149,
-        "offline_since": 1791259149,
+        "offline_since": null,
         "failure_episodes": 71,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -3403,11 +3437,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791258556"
-      },
-      {
-        "key": "outage",
-        "value": "1791259149"
+        "value": "1791259748"
       }
     ],
     "events": [
@@ -3897,9 +3927,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791258556,
-    "lastRssAttemptAt": 1791259149,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1791259748,
+    "lastRssAttemptAt": 1791259748,
+    "sourceState": "online",
+    "error": null
   }
 }
