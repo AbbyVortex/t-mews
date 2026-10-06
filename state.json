@@ -3435,13 +3435,81 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 35
+      },
+      {
+        "id": "x:2107586622766366739",
+        "x_status_id": "2107586622766366739",
+        "canonical_url": "https://x.com/thsottiaux/status/2107586622766366739",
+        "fingerprint": "f855290391cb0e786c31986003c38642f66655bcb02a2cb326408b0a5c908bec",
+        "published_at": 1791322782,
+        "detected_at": 1791323348,
+        "text": "@theo The math doesn’t math, but the rules are the rules",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 566
+      },
+      {
+        "id": "x:2107587158001496242",
+        "x_status_id": "2107587158001496242",
+        "canonical_url": "https://x.com/thsottiaux/status/2107587158001496242",
+        "fingerprint": "61024ae13b470d3bac56275c40f2a8643fbacb8981225c3b176ea81b6ef8c100",
+        "published_at": 1791322910,
+        "detected_at": 1791323348,
+        "text": "@itsmattfranco It must be done",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 438
+      },
+      {
+        "id": "x:2107587334661378382",
+        "x_status_id": "2107587334661378382",
+        "canonical_url": "https://x.com/thsottiaux/status/2107587334661378382",
+        "fingerprint": "f45191e3c86f62db2e6fa887b1be9acfdce44147cfa23a2c35b520b2a1a0ec42",
+        "published_at": 1791322952,
+        "detected_at": 1791323348,
+        "text": "@AionForge Feels right, but such is the game",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 396
+      },
+      {
+        "id": "x:2107587734810525809",
+        "x_status_id": "2107587734810525809",
+        "canonical_url": "https://x.com/thsottiaux/status/2107587734810525809",
+        "fingerprint": "77c4c245058bb0294abd8ef6e999e5d277c13321786abdd476cc72638c1d0cc5",
+        "published_at": 1791323047,
+        "detected_at": 1791323348,
+        "text": "@poteto Lines of code as a measure for productivity?",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 301
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791322750,
+        "last_success_at": 1791323348,
         "last_failure_at": 1791322151,
         "offline_since": null,
         "failure_episodes": 88,
@@ -3471,7 +3539,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791322750"
+        "value": "1791323348"
       }
     ],
     "events": [
@@ -4029,8 +4097,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791322750,
-    "lastRssAttemptAt": 1791322750,
+    "lastRssSuccessAt": 1791323348,
+    "lastRssAttemptAt": 1791323348,
     "sourceState": "online",
     "error": null
   }
