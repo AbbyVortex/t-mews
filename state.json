@@ -3571,13 +3571,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 375
+      },
+      {
+        "id": "x:2107603154699173997",
+        "x_status_id": "2107603154699173997",
+        "canonical_url": "https://x.com/thsottiaux/status/2107603154699173997",
+        "fingerprint": "dd74e3e1f93bacaedc4a855c3564afd1595024b3c620ed5e470c159128d6f80e",
+        "published_at": 1791326724,
+        "detected_at": 1791326950,
+        "text": "@ShaneMac @poteto mind looking into this one? Could use some PRs",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 226
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791326346,
+        "last_success_at": 1791326950,
         "last_failure_at": 1791322151,
         "offline_since": null,
         "failure_episodes": 88,
@@ -3607,7 +3624,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791326346"
+        "value": "1791326950"
       }
     ],
     "events": [
@@ -4165,8 +4182,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791326346,
-    "lastRssAttemptAt": 1791326346,
+    "lastRssSuccessAt": 1791326950,
+    "lastRssAttemptAt": 1791326950,
     "sourceState": "online",
     "error": null
   }
