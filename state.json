@@ -3401,13 +3401,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 315
+      },
+      {
+        "id": "x:2107368734981517634",
+        "x_status_id": "2107368734981517634",
+        "canonical_url": "https://x.com/thsottiaux/status/2107368734981517634",
+        "fingerprint": "a899effdf261dee4ca3b4060f098dc68d45117cb4d65459753d0f897cc1c3ea7",
+        "published_at": 1791270834,
+        "detected_at": 1791271154,
+        "text": "Day 2.1/\n\nWe have made Auto-review free for all users signed in through a ChatGPT account. You can enable it in settings > permissions > auto-review. Auto-review improves upon the default sandbox setting that requires you to approve everything, which is prone to decision fatigue unless you spend a lot of time configuring specific rules.\n\nIt allows you to run long tasks while having a second agent review all actions taken by the primary agent. Its only goal is to prevent high-risk actions from being taken and to protect against unwanted actions that are not aligned with the original user intent. This Auto-review feature is now free and does not draw usage from your plan.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 320
+      },
+      {
+        "id": "x:2107368786353398184",
+        "x_status_id": "2107368786353398184",
+        "canonical_url": "https://x.com/thsottiaux/status/2107368786353398184",
+        "fingerprint": "9593a0fb8589e7125060633ee6c2bd4a0a62c185c53af9b6f5b40345d929b142",
+        "published_at": 1791270846,
+        "detected_at": 1791271154,
+        "text": "You can read about the feature here: https://alignment.openai.com/auto-review/",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 308
+      },
+      {
+        "id": "x:2107370001837773172",
+        "x_status_id": "2107370001837773172",
+        "canonical_url": "https://x.com/thsottiaux/status/2107370001837773172",
+        "fingerprint": "256c3f18ba31e22ffa5a135afae5937cefbe67313a81451fd2a133eabc45d39d",
+        "published_at": 1791271136,
+        "detected_at": 1791271154,
+        "text": "@poteto won't comment about this one because it's about safety",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 18
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791270554,
+        "last_success_at": 1791271154,
         "last_failure_at": 1791260346,
         "offline_since": null,
         "failure_episodes": 72,
@@ -3437,7 +3488,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791270554"
+        "value": "1791271154"
       }
     ],
     "events": [
@@ -3608,6 +3659,12 @@
         "event_type": "post_analysis",
         "created_at": 1791253748,
         "details": "{\"related\":[{\"xStatusId\":\"2107205710543294872\",\"url\":\"https://x.com/meetp_ai/status/2107205710543294872\",\"author\":\"meetp_ai\",\"relation\":\"quote\",\"text\":\"@petergostev Counting only equivalent API cost would show only half the picture IMO.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"The real story is this one\"}}"
+      },
+      {
+        "id": "analysis:x:2107368734981517634",
+        "event_type": "post_analysis",
+        "created_at": 1791271154,
+        "details": "{\"related\":[{\"xStatusId\":\"2107158998495748264\",\"url\":\"https://x.com/thsottiaux/status/2107158998495748264\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Day 1/ We have optimized the default speed to be ~50% faster across GPT-6 Astra and GPT-6.1 Sol through the subscription across all our products and partners using Sign in With ChatGPT (including OpenCode, Pi, Amp, Devin, ...). No changes needed on your end and this should be fel…\",\"provenance\":\"feed\",\"publishedAt\":1791220829}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 2.1/\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -3927,8 +3984,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791270554,
-    "lastRssAttemptAt": 1791270554,
+    "lastRssSuccessAt": 1791271154,
+    "lastRssAttemptAt": 1791271154,
     "sourceState": "online",
     "error": null
   }
