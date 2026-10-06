@@ -3588,13 +3588,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 120
+      },
+      {
+        "id": "x:2107574912349303197",
+        "x_status_id": "2107574912349303197",
+        "canonical_url": "https://x.com/thsottiaux/status/2107574912349303197",
+        "fingerprint": "9ba668d74d61ea986bdb79349188fb0c47054dbac8783ec43c40cb8e5724e53f",
+        "published_at": 1791319990,
+        "detected_at": 1791320349,
+        "text": "Day 2.4/\n\nDecisions API is live. We will use this ourselves to improve the experience for everyone in many fun ways. Realtime general classifier does open some great possibilities.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 359
+      },
+      {
+        "id": "x:2107575657014468879",
+        "x_status_id": "2107575657014468879",
+        "canonical_url": "https://x.com/thsottiaux/status/2107575657014468879",
+        "fingerprint": "8ef0a13d52ccd32c3dd0347e4cbd7b5d612b9ae83578985e7d9d3d4503aeeea8",
+        "published_at": 1791320168,
+        "detected_at": 1791320349,
+        "text": "Roundup of Day 2/\n\n2.1/ Approve for me (auto-review) is now included and does not use usage. Can be between 2-10% of plan when used. Also better for you.\n\n2.2/ Simplified API for builders.\n\n2.3/ Meeting notes integrated.\n\n2.4/ Decisions API live for builders. Will use in the app to improve the experience.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 181
+      },
+      {
+        "id": "x:2107576143285219799",
+        "x_status_id": "2107576143285219799",
+        "canonical_url": "https://x.com/thsottiaux/status/2107576143285219799",
+        "fingerprint": "ae8b21a2c61dcfa0dbe04698b05bbfa22468899311d19b9401f6cf0a5095fc80",
+        "published_at": 1791320284,
+        "detected_at": 1791320349,
+        "text": "Vote",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 65
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791319751,
+        "last_success_at": 1791320349,
         "last_failure_at": 1791317349,
         "offline_since": null,
         "failure_episodes": 87,
@@ -3624,7 +3675,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791319751"
+        "value": "1791320349"
       }
     ],
     "events": [
@@ -3813,6 +3864,12 @@
         "event_type": "post_analysis",
         "created_at": 1791319751,
         "details": "{\"related\":[{\"xStatusId\":\"2107567930557026653\",\"url\":\"https://x.com/ChatGPT/status/2107567930557026653\",\"author\":\"ChatGPT\",\"relation\":\"quote\",\"text\":\"Your next meeting comes with a note-taker who can help with the follow-up. The Meetings plugin takes notes for you and saves a personalized summary and next steps in ChatGPT Space, based on what ChatGPT knows about you and the work you’ve done together. Keep notes private or shar…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 2.3/\"}}"
+      },
+      {
+        "id": "analysis:x:2107574912349303197",
+        "event_type": "post_analysis",
+        "created_at": 1791320349,
+        "details": "{\"related\":[{\"xStatusId\":\"2107573382229188645\",\"url\":\"https://x.com/OpenAIDevs/status/2107573382229188645\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"Let your app choose the right model, tool, or action in near real-time with Decisions API, now available to all developers in public beta. The Decisions API makes decisions up to 10x faster than GPT-6 Luna through the Responses API.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 2.4/\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4160,8 +4217,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791319751,
-    "lastRssAttemptAt": 1791319751,
+    "lastRssSuccessAt": 1791320349,
+    "lastRssAttemptAt": 1791320349,
     "sourceState": "online",
     "error": null
   }
