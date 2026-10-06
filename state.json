@@ -3350,13 +3350,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 97
+      },
+      {
+        "id": "x:2107314912963989821",
+        "x_status_id": "2107314912963989821",
+        "canonical_url": "https://x.com/thsottiaux/status/2107314912963989821",
+        "fingerprint": "07105a2df3a17e688d11e593b2d5cfbfa7a48c36629ce95df46d85db0aec36cc",
+        "published_at": 1791258001,
+        "detected_at": 1791258556,
+        "text": "@KolinHuang A few things",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 555
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791257979,
+        "last_success_at": 1791258556,
         "last_failure_at": 1791253149,
         "offline_since": null,
         "failure_episodes": 70,
@@ -3386,7 +3403,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791257979"
+        "value": "1791258556"
       }
     ],
     "events": [
@@ -3876,8 +3893,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791257979,
-    "lastRssAttemptAt": 1791257979,
+    "lastRssSuccessAt": 1791258556,
+    "lastRssAttemptAt": 1791258556,
     "sourceState": "online",
     "error": null
   }
