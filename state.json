@@ -3792,13 +3792,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 225
+      },
+      {
+        "id": "x:2107913674593644711",
+        "x_status_id": "2107913674593644711",
+        "canonical_url": "https://x.com/thsottiaux/status/2107913674593644711",
+        "fingerprint": "05bd340befa683943f0ed01400216f61aa6551d727284082e36d1f42a6813e7c",
+        "published_at": 1791400757,
+        "detected_at": 1791401347,
+        "text": "Day 3/\n\nThe big one is GPT-6 in Chat, but today is also a little celebration day with a new high of 40M active users across Codex and ChatGPT Work.\n\nLoading a banked reset in everyone's paid accounts. See you again tomorrow!",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 590
+      },
+      {
+        "id": "x:2107913738791596286",
+        "x_status_id": "2107913738791596286",
+        "canonical_url": "https://x.com/thsottiaux/status/2107913738791596286",
+        "fingerprint": "18fa84f457fbdb8ad08533531d46cebbfb3e14c3ac1a8afb9d274717fcfb0e6d",
+        "published_at": 1791400773,
+        "detected_at": 1791401347,
+        "text": "Will be there by EOD PST.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 574
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791400752,
+        "last_success_at": 1791401347,
         "last_failure_at": 1791396550,
         "offline_since": null,
         "failure_episodes": 112,
@@ -3828,7 +3862,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791400752"
+        "value": "1791401347"
       }
     ],
     "events": [
@@ -4035,6 +4069,12 @@
         "event_type": "post_analysis",
         "created_at": 1791400752,
         "details": "{\"related\":[{\"xStatusId\":\"2107894997538525580\",\"url\":\"https://x.com/OpenAI/status/2107894997538525580\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone. Intelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to grasp, and interactive tools for your task available on the spot.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"We're going beyond text and are releasing a new version of GPT-6 to all users in ChatGPT.\"}}"
+      },
+      {
+        "id": "analysis:x:2107913674593644711",
+        "event_type": "post_analysis",
+        "created_at": 1791401347,
+        "details": "{\"related\":[{\"xStatusId\":\"2107575657014468879\",\"url\":\"https://x.com/thsottiaux/status/2107575657014468879\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Roundup of Day 2/ 2.1/ Approve for me (auto-review) is now included and does not use usage. Can be between 2-10% of plan when used. Also better for you. 2.2/ Simplified API for builders. 2.3/ Meeting notes integrated. 2.4/ Decisions API live for builders. Will use in the app to i…\",\"provenance\":\"feed\",\"publishedAt\":1791320168}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Loading a banked reset in everyone's paid accounts.\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4389,6 +4429,14 @@
         "sent_at": 1791344347
       },
       {
+        "id": "post:x:2107913674593644711",
+        "post_id": "x:2107913674593644711",
+        "kind": "alert",
+        "created_at": 1791401347,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -4440,8 +4488,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791400752,
-    "lastRssAttemptAt": 1791400752,
+    "lastRssSuccessAt": 1791401347,
+    "lastRssAttemptAt": 1791401347,
     "sourceState": "online",
     "error": null
   }
