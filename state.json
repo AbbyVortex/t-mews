@@ -3656,13 +3656,81 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 944
+      },
+      {
+        "id": "x:2107676072871600470",
+        "x_status_id": "2107676072871600470",
+        "canonical_url": "https://x.com/thsottiaux/status/2107676072871600470",
+        "fingerprint": "350d9917aa341c723bde66303af2cb396ae344d804ad07331ef80b9b775d61d9",
+        "published_at": 1791344109,
+        "detected_at": 1791344347,
+        "text": "We shipped four things that were deemed good to great and some math proofs, but the vote is clear and the community demands a reset. I did calibrate it and it *seems* that the game is rigged in reset's favor, but such are the rules at the moment.\n\nTherefore ... the reset has been processed. Enjoy!",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 238
+      },
+      {
+        "id": "x:2107676261099426030",
+        "x_status_id": "2107676261099426030",
+        "canonical_url": "https://x.com/thsottiaux/status/2107676261099426030",
+        "fingerprint": "38da9f28622ae16a9eafbaad013105a8857dbd8191bee45446ad159109128edb",
+        "published_at": 1791344154,
+        "detected_at": 1791344347,
+        "text": "And we won't unship the improvements. You get to have your cake and eat it too. See you tomorrow for Day 3!",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 193
+      },
+      {
+        "id": "x:2107676653895967106",
+        "x_status_id": "2107676653895967106",
+        "canonical_url": "https://x.com/thsottiaux/status/2107676653895967106",
+        "fingerprint": "678c2643b13973875fdd5ac81dfd215fa18a0984e445324499d9cefcd4fadae9",
+        "published_at": 1791344247,
+        "detected_at": 1791344347,
+        "text": "Also! Good evening!!",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 100
+      },
+      {
+        "id": "x:2107676900894417277",
+        "x_status_id": "2107676900894417277",
+        "canonical_url": "https://x.com/thsottiaux/status/2107676900894417277",
+        "fingerprint": "3dedf5c6feeda3cdd0340a99ee84d73ba978c9a9ad816649f1cdeb65a6fe5a3c",
+        "published_at": 1791344306,
+        "detected_at": 1791344347,
+        "text": "@ForwardEditor It ended well",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 41
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791343748,
+        "last_success_at": 1791344347,
         "last_failure_at": 1791342548,
         "offline_since": null,
         "failure_episodes": 94,
@@ -3692,7 +3760,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791343748"
+        "value": "1791344347"
       }
     ],
     "events": [
@@ -3887,6 +3955,12 @@
         "event_type": "post_analysis",
         "created_at": 1791320952,
         "details": "{\"related\":[{\"xStatusId\":\"2107576143285219799\",\"url\":\"https://x.com/thsottiaux/status/2107576143285219799\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Vote\",\"provenance\":\"feed\",\"publishedAt\":1791320284}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Four updates or a reset.\"}}"
+      },
+      {
+        "id": "analysis:x:2107676072871600470",
+        "event_type": "post_analysis",
+        "created_at": 1791344347,
+        "details": "{\"related\":[{\"xStatusId\":\"2107575657014468879\",\"url\":\"https://x.com/thsottiaux/status/2107575657014468879\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Roundup of Day 2/ 2.1/ Approve for me (auto-review) is now included and does not use usage. Can be between 2-10% of plan when used. Also better for you. 2.2/ Simplified API for builders. 2.3/ Meeting notes integrated. 2.4/ Decisions API live for builders. Will use in the app to i…\",\"provenance\":\"feed\",\"publishedAt\":1791320168}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"We shipped four things that were deemed good to great and some math proofs, but the vote is clear and the community demands a reset.\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4207,6 +4281,14 @@
         "sent_at": 1791320952
       },
       {
+        "id": "post:x:2107676072871600470",
+        "post_id": "x:2107676072871600470",
+        "kind": "alert",
+        "created_at": 1791344347,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -4250,8 +4332,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791343748,
-    "lastRssAttemptAt": 1791343748,
+    "lastRssSuccessAt": 1791344347,
+    "lastRssAttemptAt": 1791344347,
     "sourceState": "online",
     "error": null
   }
