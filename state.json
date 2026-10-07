@@ -3775,13 +3775,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 501
+      },
+      {
+        "id": "x:2107912709715132482",
+        "x_status_id": "2107912709715132482",
+        "canonical_url": "https://x.com/thsottiaux/status/2107912709715132482",
+        "fingerprint": "936fe67068cae63e4e7c6d2c15c345394e9b167582f9097ff459df4d90d6ffe6",
+        "published_at": 1791400527,
+        "detected_at": 1791400752,
+        "text": "We're going beyond text and are releasing a new version of GPT-6 to all users in ChatGPT. Lots of model and infra improvements coming together here to scale it to 1.2B users!",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 225
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791400148,
+        "last_success_at": 1791400752,
         "last_failure_at": 1791396550,
         "offline_since": null,
         "failure_episodes": 112,
@@ -3811,7 +3828,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791400148"
+        "value": "1791400752"
       }
     ],
     "events": [
@@ -4012,6 +4029,12 @@
         "event_type": "post_analysis",
         "created_at": 1791344347,
         "details": "{\"related\":[{\"xStatusId\":\"2107575657014468879\",\"url\":\"https://x.com/thsottiaux/status/2107575657014468879\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Roundup of Day 2/ 2.1/ Approve for me (auto-review) is now included and does not use usage. Can be between 2-10% of plan when used. Also better for you. 2.2/ Simplified API for builders. 2.3/ Meeting notes integrated. 2.4/ Decisions API live for builders. Will use in the app to i…\",\"provenance\":\"feed\",\"publishedAt\":1791320168}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"We shipped four things that were deemed good to great and some math proofs, but the vote is clear and the community demands a reset.\"}}"
+      },
+      {
+        "id": "analysis:x:2107912709715132482",
+        "event_type": "post_analysis",
+        "created_at": 1791400752,
+        "details": "{\"related\":[{\"xStatusId\":\"2107894997538525580\",\"url\":\"https://x.com/OpenAI/status/2107894997538525580\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone. Intelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to grasp, and interactive tools for your task available on the spot.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"We're going beyond text and are releasing a new version of GPT-6 to all users in ChatGPT.\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4417,8 +4440,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791400148,
-    "lastRssAttemptAt": 1791400148,
+    "lastRssSuccessAt": 1791400752,
+    "lastRssAttemptAt": 1791400752,
     "sourceState": "online",
     "error": null
   }
