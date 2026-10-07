@@ -3605,17 +3605,34 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 45
+      },
+      {
+        "id": "x:2107628890550399465",
+        "x_status_id": "2107628890550399465",
+        "canonical_url": "https://x.com/thsottiaux/status/2107628890550399465",
+        "fingerprint": "47fc98133215e547e964aeceb2040087a67c75f52a03f4b9ff8422a8e2439671",
+        "published_at": 1791332860,
+        "detected_at": 1791332946,
+        "text": "@devberkayy It does",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 86
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1791331746,
+        "state": "online",
+        "last_success_at": 1791332946,
         "last_failure_at": 1791332347,
-        "offline_since": 1791332347,
+        "offline_since": null,
         "failure_episodes": 92,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -3641,11 +3658,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791331746"
-      },
-      {
-        "key": "outage",
-        "value": "1791332347"
+        "value": "1791332946"
       }
     ],
     "events": [
@@ -4203,9 +4216,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791331746,
-    "lastRssAttemptAt": 1791332347,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1791332946,
+    "lastRssAttemptAt": 1791332946,
+    "sourceState": "online",
+    "error": null
   }
 }
