@@ -3860,13 +3860,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 83
+      },
+      {
+        "id": "x:2108064454831427702",
+        "x_status_id": "2108064454831427702",
+        "canonical_url": "https://x.com/thsottiaux/status/2108064454831427702",
+        "fingerprint": "ed4bfe336e17c3e80e8f58d1d75f91592149c8db95366d5dff411c9f7ec274f8",
+        "published_at": 1791436706,
+        "detected_at": 1791436747,
+        "text": "@notesbyfloat Happier than most x users",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 41
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791436150,
+        "last_success_at": 1791436747,
         "last_failure_at": 1791434349,
         "offline_since": null,
         "failure_episodes": 119,
@@ -3896,7 +3913,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791436150"
+        "value": "1791436747"
       }
     ],
     "events": [
@@ -4564,8 +4581,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791436150,
-    "lastRssAttemptAt": 1791436150,
+    "lastRssSuccessAt": 1791436747,
+    "lastRssAttemptAt": 1791436747,
     "sourceState": "online",
     "error": null
   }
