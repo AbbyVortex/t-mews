@@ -3865,12 +3865,12 @@
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1791432549,
+        "state": "online",
+        "last_success_at": 1791434947,
         "last_failure_at": 1791434349,
-        "offline_since": 1791433146,
+        "offline_since": null,
         "failure_episodes": 119,
-        "error": "empty_or_oversized_feed"
+        "error": null
       }
     ],
     "state": [
@@ -4543,6 +4543,14 @@
         "sent_at": 1791391149
       },
       {
+        "id": "recovered:1791433146",
+        "post_id": null,
+        "kind": "recovered",
+        "created_at": 1791434947,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "test",
         "post_id": null,
         "kind": "test",
@@ -4554,9 +4562,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791432549,
-    "lastRssAttemptAt": 1791434349,
-    "sourceState": "offline",
-    "error": "empty_or_oversized_feed"
+    "lastRssSuccessAt": 1791434947,
+    "lastRssAttemptAt": 1791434947,
+    "sourceState": "online",
+    "error": null
   }
 }
