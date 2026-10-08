@@ -3945,13 +3945,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 35
+      },
+      {
+        "id": "x:2108086116683526498",
+        "x_status_id": "2108086116683526498",
+        "canonical_url": "https://x.com/thsottiaux/status/2108086116683526498",
+        "fingerprint": "fdd8e13225eb74807579cb14cd1598ffcc1cb0932e8fe9a604a710f6742f89c4",
+        "published_at": 1791441871,
+        "detected_at": 1791442147,
+        "text": "@Angaisb_ Ah.. spoiled my Day 17",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 276
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791441548,
+        "last_success_at": 1791442147,
         "last_failure_at": 1791437947,
         "offline_since": null,
         "failure_episodes": 120,
@@ -3981,7 +3998,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791441548"
+        "value": "1791442147"
       }
     ],
     "events": [
@@ -4655,8 +4672,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791441548,
-    "lastRssAttemptAt": 1791441548,
+    "lastRssSuccessAt": 1791442147,
+    "lastRssAttemptAt": 1791442147,
     "sourceState": "online",
     "error": null
   }
