@@ -3775,13 +3775,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 574
+      },
+      {
+        "id": "x:2108014292910113006",
+        "x_status_id": "2108014292910113006",
+        "canonical_url": "https://x.com/thsottiaux/status/2108014292910113006",
+        "fingerprint": "f8486c8835c079a53aae703bd6083435b6b303490f5d0e6a6bb3c1483f8c861a",
+        "published_at": 1791424747,
+        "detected_at": 1791424748,
+        "text": "@poteto You really had to sleep on that one",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 1
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791424147,
+        "last_success_at": 1791424748,
         "last_failure_at": 1791421148,
         "offline_since": null,
         "failure_episodes": 117,
@@ -3811,7 +3828,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791424147"
+        "value": "1791424748"
       }
     ],
     "events": [
@@ -4431,8 +4448,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791424147,
-    "lastRssAttemptAt": 1791424147,
+    "lastRssSuccessAt": 1791424748,
+    "lastRssAttemptAt": 1791424748,
     "sourceState": "online",
     "error": null
   }
