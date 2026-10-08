@@ -3962,13 +3962,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 276
+      },
+      {
+        "id": "x:2108199520836485472",
+        "x_status_id": "2108199520836485472",
+        "canonical_url": "https://x.com/thsottiaux/status/2108199520836485472",
+        "fingerprint": "4abfb797d324427a29c25ec070ba1890e718fc82ecab0708d2e746a7dfa81fbd",
+        "published_at": 1791468908,
+        "detected_at": 1791469154,
+        "text": "@GergelyOrosz Back to work then @poteto. May the b/dots thrive in this world.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 246
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791468550,
+        "last_success_at": 1791469154,
         "last_failure_at": 1791466746,
         "offline_since": null,
         "failure_episodes": 127,
@@ -3998,7 +4015,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791468550"
+        "value": "1791469154"
       }
     ],
     "events": [
@@ -4700,8 +4717,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791468550,
-    "lastRssAttemptAt": 1791468550,
+    "lastRssSuccessAt": 1791469154,
+    "lastRssAttemptAt": 1791469154,
     "sourceState": "online",
     "error": null
   }
