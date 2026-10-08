@@ -3877,13 +3877,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 41
+      },
+      {
+        "id": "x:2108064684549230815",
+        "x_status_id": "2108064684549230815",
+        "canonical_url": "https://x.com/thsottiaux/status/2108064684549230815",
+        "fingerprint": "fa684055d7d5487511da8b3dd6996a0d1c583974bf0aa2f215c88a7fabe300f6",
+        "published_at": 1791436761,
+        "detected_at": 1791437352,
+        "text": "@Leooweb3 Dot Dot Dot",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 591
+      },
+      {
+        "id": "x:2108067119980319111",
+        "x_status_id": "2108067119980319111",
+        "canonical_url": "https://x.com/thsottiaux/status/2108067119980319111",
+        "fingerprint": "4ee3a3b6f2450d20d52fa59a3493d4f70693774574f0a666d9c9eeac0ca5bfa0",
+        "published_at": 1791437342,
+        "detected_at": 1791437352,
+        "text": "@bot @poteto So smart. Figured out by itself who needs it",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 10
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791436747,
+        "last_success_at": 1791437352,
         "last_failure_at": 1791434349,
         "offline_since": null,
         "failure_episodes": 119,
@@ -3913,7 +3947,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791436747"
+        "value": "1791437352"
       }
     ],
     "events": [
@@ -4581,8 +4615,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791436747,
-    "lastRssAttemptAt": 1791436747,
+    "lastRssSuccessAt": 1791437352,
+    "lastRssAttemptAt": 1791437352,
     "sourceState": "online",
     "error": null
   }
