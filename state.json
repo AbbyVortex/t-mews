@@ -3826,13 +3826,47 @@
         "notified": 1,
         "notification_status": "sent",
         "detection_latency_seconds": 258
+      },
+      {
+        "id": "x:2108046065857679614",
+        "x_status_id": "2108046065857679614",
+        "canonical_url": "https://x.com/thsottiaux/status/2108046065857679614",
+        "fingerprint": "e02bd756fbde8e16289d0cf950afd0570a18858b6689eb492869766ee355fc91",
+        "published_at": 1791432322,
+        "detected_at": 1791432549,
+        "text": "@CristianRus4 Haha",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 227
+      },
+      {
+        "id": "x:2108046671309685096",
+        "x_status_id": "2108046671309685096",
+        "canonical_url": "https://x.com/thsottiaux/status/2108046671309685096",
+        "fingerprint": "74ea4adad5a0eb209af4fd8d622ab680dd2ae47f39724cfcc22fd0cc44a27d1c",
+        "published_at": 1791432466,
+        "detected_at": 1791432549,
+        "text": "@mitchellh Chungus, we should have thought of that name",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 83
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791431950,
+        "last_success_at": 1791432549,
         "last_failure_at": 1791428954,
         "offline_since": null,
         "failure_episodes": 118,
@@ -3862,7 +3896,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791431950"
+        "value": "1791432549"
       }
     ],
     "events": [
@@ -4502,8 +4536,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791431950,
-    "lastRssAttemptAt": 1791431950,
+    "lastRssSuccessAt": 1791432549,
+    "lastRssAttemptAt": 1791432549,
     "sourceState": "online",
     "error": null
   }
