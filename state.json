@@ -3979,13 +3979,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 246
+      },
+      {
+        "id": "x:2108275041276420573",
+        "x_status_id": "2108275041276420573",
+        "canonical_url": "https://x.com/thsottiaux/status/2108275041276420573",
+        "fingerprint": "1f7c3f76871ed647d25ce7acf7cfe7ada0ab28ba071f8e26a6f6d5c10a615d8e",
+        "published_at": 1791486914,
+        "detected_at": 1791487149,
+        "text": "Day 4/\n\nWe have improved steering to be instant, leading to the model now reacting much faster to adjustments you make, allowing you to course-correct direction in realtime and not have the model waste effort.\n\nAlso releasing GPT-6.1 Sol ultrafast. The two work very well together.\n\nMedia",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 235
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791486550,
+        "last_success_at": 1791487149,
         "last_failure_at": 1791485945,
         "offline_since": null,
         "failure_episodes": 131,
@@ -4015,7 +4032,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791486550"
+        "value": "1791487149"
       }
     ],
     "events": [
@@ -4228,6 +4245,12 @@
         "event_type": "post_analysis",
         "created_at": 1791441548,
         "details": "{\"related\":[{\"xStatusId\":\"2107836671605551217\",\"url\":\"https://x.com/Tailscale/status/2107836671605551217\",\"author\":\"Tailscale\",\"relation\":\"quote\",\"text\":\"Codex 🤝 Tailscale Codex Cloud can now securely connect to resources on your tailnet with Tailscale. Useful tools should be easy to build with, combine, and turn into something even more useful. See how it works → https://buff.ly/yFcldrC\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 3 (encore)/\"}}"
+      },
+      {
+        "id": "analysis:x:2108275041276420573",
+        "event_type": "post_analysis",
+        "created_at": 1791487149,
+        "details": "{\"related\":[{\"xStatusId\":\"2108262812489531498\",\"url\":\"https://x.com/OpenAIDevs/status/2108262812489531498\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"Ultrafast is rolling out today for GPT-6.1 Sol in the API, Codex, and ChatGPT Work. Near-Astra intelligence at up to 8x faster speeds than Sol Standard, so you can build as fast as the ideas come.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 4/\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4717,8 +4740,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791486550,
-    "lastRssAttemptAt": 1791486550,
+    "lastRssSuccessAt": 1791487149,
+    "lastRssAttemptAt": 1791487149,
     "sourceState": "online",
     "error": null
   }
