@@ -3928,13 +3928,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 530
+      },
+      {
+        "id": "x:2108084615349170480",
+        "x_status_id": "2108084615349170480",
+        "canonical_url": "https://x.com/thsottiaux/status/2108084615349170480",
+        "fingerprint": "16a787197c9f99311f647c9850d72aaa06606fb81309a0edec07b749e96b32a3",
+        "published_at": 1791441513,
+        "detected_at": 1791441548,
+        "text": "Day 3 (encore)/\n\nWe silently re-shipped codex cloud. It’s pretty good now",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 35
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791440951,
+        "last_success_at": 1791441548,
         "last_failure_at": 1791437947,
         "offline_since": null,
         "failure_episodes": 120,
@@ -3964,7 +3981,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791440951"
+        "value": "1791441548"
       }
     ],
     "events": [
@@ -4171,6 +4188,12 @@
         "event_type": "post_analysis",
         "created_at": 1791431353,
         "details": "{\"related\":[{\"xStatusId\":\"2107913674593644711\",\"url\":\"https://x.com/thsottiaux/status/2107913674593644711\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Day 3/ The big one is GPT-6 in Chat, but today is also a little celebration day with a new high of 40M active users across Codex and ChatGPT Work. Loading a banked reset in everyone's paid accounts. See you again tomorrow!\",\"provenance\":\"feed\",\"publishedAt\":1791400757}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"display\":\"advisory\",\"reason\":\"author reply or quote refers to related reset content; related text is not an author announcement\",\"evidence\":\"Confirmed landed across all accounts. How are we doing so far?\"}}"
+      },
+      {
+        "id": "analysis:x:2108084615349170480",
+        "event_type": "post_analysis",
+        "created_at": 1791441548,
+        "details": "{\"related\":[{\"xStatusId\":\"2107836671605551217\",\"url\":\"https://x.com/Tailscale/status/2107836671605551217\",\"author\":\"Tailscale\",\"relation\":\"quote\",\"text\":\"Codex 🤝 Tailscale Codex Cloud can now securely connect to resources on your tailnet with Tailscale. Useful tools should be easy to build with, combine, and turn into something even more useful. See how it works → https://buff.ly/yFcldrC\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 3 (encore)/\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4632,8 +4655,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791440951,
-    "lastRssAttemptAt": 1791440951,
+    "lastRssSuccessAt": 1791441548,
+    "lastRssAttemptAt": 1791441548,
     "sourceState": "online",
     "error": null
   }
