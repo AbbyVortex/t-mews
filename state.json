@@ -3809,13 +3809,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 456
+      },
+      {
+        "id": "x:2108040921044639779",
+        "x_status_id": "2108040921044639779",
+        "canonical_url": "https://x.com/thsottiaux/status/2108040921044639779",
+        "fingerprint": "945e8f982aef6a90ac13ca3e718a24c443709e55bf4e04967ad9042c8dfc3f8d",
+        "published_at": 1791431095,
+        "detected_at": 1791431353,
+        "text": "Confirmed landed across all accounts. How are we doing so far?",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author reply or quote refers to related reset content; related text is not an author announcement",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 258
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791430749,
+        "last_success_at": 1791431353,
         "last_failure_at": 1791428954,
         "offline_since": null,
         "failure_episodes": 118,
@@ -3845,7 +3862,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791430749"
+        "value": "1791431353"
       }
     ],
     "events": [
@@ -4046,6 +4063,12 @@
         "event_type": "post_analysis",
         "created_at": 1791401347,
         "details": "{\"related\":[{\"xStatusId\":\"2107575657014468879\",\"url\":\"https://x.com/thsottiaux/status/2107575657014468879\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Roundup of Day 2/ 2.1/ Approve for me (auto-review) is now included and does not use usage. Can be between 2-10% of plan when used. Also better for you. 2.2/ Simplified API for builders. 2.3/ Meeting notes integrated. 2.4/ Decisions API live for builders. Will use in the app to i…\",\"provenance\":\"feed\",\"publishedAt\":1791320168}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Loading a banked reset in everyone's paid accounts.\"}}"
+      },
+      {
+        "id": "analysis:x:2108040921044639779",
+        "event_type": "post_analysis",
+        "created_at": 1791431353,
+        "details": "{\"related\":[{\"xStatusId\":\"2107913674593644711\",\"url\":\"https://x.com/thsottiaux/status/2107913674593644711\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Day 3/ The big one is GPT-6 in Chat, but today is also a little celebration day with a new high of 40M active users across Codex and ChatGPT Work. Loading a banked reset in everyone's paid accounts. See you again tomorrow!\",\"provenance\":\"feed\",\"publishedAt\":1791400757}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"display\":\"advisory\",\"reason\":\"author reply or quote refers to related reset content; related text is not an author announcement\",\"evidence\":\"Confirmed landed across all accounts. How are we doing so far?\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4414,6 +4437,14 @@
         "sent_at": 1791401347
       },
       {
+        "id": "post:x:2108040921044639779",
+        "post_id": "x:2108040921044639779",
+        "kind": "alert",
+        "created_at": 1791431353,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -4465,8 +4496,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791430749,
-    "lastRssAttemptAt": 1791430749,
+    "lastRssSuccessAt": 1791431353,
+    "lastRssAttemptAt": 1791431353,
     "sourceState": "online",
     "error": null
   }
