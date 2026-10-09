@@ -3962,13 +3962,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 231
+      },
+      {
+        "id": "x:2108645667451318747",
+        "x_status_id": "2108645667451318747",
+        "canonical_url": "https://x.com/thsottiaux/status/2108645667451318747",
+        "fingerprint": "7867c799450b81f328514326ce534868a575d33cb56fb6ef142abf83c56f45b8",
+        "published_at": 1791575278,
+        "detected_at": 1791575351,
+        "text": "Day 5/\n\nComposer predictions in the desktop app. Often leads to a double take with how on point they are. Included in the Pro plans without consuming usage.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 73
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791574751,
+        "last_success_at": 1791575351,
         "last_failure_at": 1791574150,
         "offline_since": null,
         "failure_episodes": 156,
@@ -3998,7 +4015,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791574751"
+        "value": "1791575351"
       }
     ],
     "events": [
@@ -4217,6 +4234,12 @@
         "event_type": "post_analysis",
         "created_at": 1791487149,
         "details": "{\"related\":[{\"xStatusId\":\"2108262812489531498\",\"url\":\"https://x.com/OpenAIDevs/status/2108262812489531498\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"Ultrafast is rolling out today for GPT-6.1 Sol in the API, Codex, and ChatGPT Work. Near-Astra intelligence at up to 8x faster speeds than Sol Standard, so you can build as fast as the ideas come.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 4/\"}}"
+      },
+      {
+        "id": "analysis:x:2108645667451318747",
+        "event_type": "post_analysis",
+        "created_at": 1791575351,
+        "details": "{\"related\":[{\"xStatusId\":\"2108624138369929725\",\"url\":\"https://x.com/OpenAIDevs/status/2108624138369929725\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"Now in beta: composer predictions in Codex for Pro users. Codex can now suggest your next message based on your conversation and how you talk to it. One of the most loved new features we've ever tested internally.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 5/\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4790,8 +4813,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791574751,
-    "lastRssAttemptAt": 1791574751,
+    "lastRssSuccessAt": 1791575351,
+    "lastRssAttemptAt": 1791575351,
     "sourceState": "online",
     "error": null
   }
