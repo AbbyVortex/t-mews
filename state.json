@@ -3,23 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2103375711797211460",
-        "x_status_id": "2103375711797211460",
-        "canonical_url": "https://x.com/thsottiaux/status/2103375711797211460",
-        "fingerprint": "2f6b1f1bb0e2169636f5ab0905571acac973112b9356e5e6c2d8e360ee65e145",
-        "published_at": 1790318823,
-        "detected_at": 1790319328,
-        "text": "Been a bit quiet here because internal Slack has been hilarious lately and because we are all locked in on DevDay. Tuesday will be fun.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 505
-      },
-      {
         "id": "x:2103620061156290622",
         "x_status_id": "2103620061156290622",
         "canonical_url": "https://x.com/thsottiaux/status/2103620061156290622",
@@ -4019,7 +4002,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791581345,
+        "last_success_at": 1791581947,
         "last_failure_at": 1791580151,
         "offline_since": null,
         "failure_episodes": 159,
@@ -4045,11 +4028,11 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1791494951"
+        "value": "1791581947"
       },
       {
         "key": "lastSuccess",
-        "value": "1791581345"
+        "value": "1791581947"
       }
     ],
     "events": [
@@ -4853,8 +4836,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791581345,
-    "lastRssAttemptAt": 1791581345,
+    "lastRssSuccessAt": 1791581947,
+    "lastRssAttemptAt": 1791581947,
     "sourceState": "online",
     "error": null
   }
