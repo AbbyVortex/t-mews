@@ -3969,7 +3969,7 @@
         "source": "fxtwitter",
         "state": "offline",
         "last_success_at": 1791543548,
-        "last_failure_at": 1791544149,
+        "last_failure_at": 1791544747,
         "offline_since": 1791544149,
         "failure_episodes": 148,
         "error": "fetch_or_parse_failed"
@@ -4795,7 +4795,7 @@
   "publicStatus": {
     "version": 1,
     "lastRssSuccessAt": 1791543548,
-    "lastRssAttemptAt": 1791544149,
+    "lastRssAttemptAt": 1791544747,
     "sourceState": "offline",
     "error": "fetch_or_parse_failed"
   }
