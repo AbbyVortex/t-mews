@@ -4260,6 +4260,12 @@
         "details": "{\"kind\":\"offline\",\"postId\":null}"
       },
       {
+        "id": "notification:offline:1791520747",
+        "event_type": "notification_sent",
+        "created_at": 1791521982,
+        "details": "{\"kind\":\"offline\",\"postId\":null}"
+      },
+      {
         "id": "notification:post:x:2103637477760311522",
         "event_type": "notification_sent",
         "created_at": 1790381606,
@@ -4494,8 +4500,8 @@
         "post_id": null,
         "kind": "offline",
         "created_at": 1791521982,
-        "status": "sending",
-        "sent_at": null
+        "status": "sent",
+        "sent_at": 1791521982
       },
       {
         "id": "online",
