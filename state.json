@@ -3935,10 +3935,10 @@
         "source": "fxtwitter",
         "state": "offline",
         "last_success_at": 1791506948,
-        "last_failure_at": 1791508146,
+        "last_failure_at": 1791508749,
         "offline_since": 1791507551,
         "failure_episodes": 140,
-        "error": "http_404"
+        "error": "fetch_or_parse_failed"
       }
     ],
     "state": [
@@ -4433,6 +4433,14 @@
         "sent_at": 1791464951
       },
       {
+        "id": "offline:1791507551",
+        "post_id": null,
+        "kind": "offline",
+        "created_at": 1791508749,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "online",
         "post_id": null,
         "kind": "online",
@@ -4677,8 +4685,8 @@
   "publicStatus": {
     "version": 1,
     "lastRssSuccessAt": 1791506948,
-    "lastRssAttemptAt": 1791508146,
+    "lastRssAttemptAt": 1791508749,
     "sourceState": "offline",
-    "error": "http_404"
+    "error": "fetch_or_parse_failed"
   }
 }
