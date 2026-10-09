@@ -3964,11 +3964,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791509953"
-      },
-      {
-        "key": "outage",
-        "value": "1791510545"
+        "value": "1791512349"
       }
     ],
     "events": [
@@ -4391,6 +4387,12 @@
         "event_type": "notification_sent",
         "created_at": 1791509356,
         "details": "{\"kind\":\"recovered\",\"postId\":null}"
+      },
+      {
+        "id": "notification:recovered:1791510545",
+        "event_type": "notification_sent",
+        "created_at": 1791512349,
+        "details": "{\"kind\":\"recovered\",\"postId\":null}"
       }
     ],
     "notifications": [
@@ -4711,8 +4713,8 @@
         "post_id": null,
         "kind": "recovered",
         "created_at": 1791512349,
-        "status": "sending",
-        "sent_at": null
+        "status": "sent",
+        "sent_at": 1791512349
       },
       {
         "id": "test",
