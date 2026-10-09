@@ -3979,13 +3979,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 73
+      },
+      {
+        "id": "x:2108646052178092403",
+        "x_status_id": "2108646052178092403",
+        "canonical_url": "https://x.com/thsottiaux/status/2108646052178092403",
+        "fingerprint": "85e58092a9e487124b8abe854a20e836a72f357ffed1a3c3d2996b32b04bbece",
+        "published_at": 1791575370,
+        "detected_at": 1791575950,
+        "text": "Day 5 (dots edition)/\n\nYou can now create and text your dot entirely from the ChatGPT mobile app. Impressed so many created them via the desktop/web app previously. Time to scale!",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 580
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791575351,
+        "last_success_at": 1791575950,
         "last_failure_at": 1791574150,
         "offline_since": null,
         "failure_episodes": 156,
@@ -4015,7 +4032,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791575351"
+        "value": "1791575950"
       }
     ],
     "events": [
@@ -4240,6 +4257,12 @@
         "event_type": "post_analysis",
         "created_at": 1791575351,
         "details": "{\"related\":[{\"xStatusId\":\"2108624138369929725\",\"url\":\"https://x.com/OpenAIDevs/status/2108624138369929725\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"Now in beta: composer predictions in Codex for Pro users. Codex can now suggest your next message based on your conversation and how you talk to it. One of the most loved new features we've ever tested internally.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 5/\"}}"
+      },
+      {
+        "id": "analysis:x:2108646052178092403",
+        "event_type": "post_analysis",
+        "created_at": 1791575950,
+        "details": "{\"related\":[{\"xStatusId\":\"2108636745915052037\",\"url\":\"https://x.com/ChatGPT/status/2108636745915052037\",\"author\":\"ChatGPT\",\"relation\":\"quote\",\"text\":\"Fresh updates for dots. First up: you can now create your dot straight from your phone in the ChatGPT app on iOS and Android.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 5 (dots edition)/\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4813,8 +4836,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791575351,
-    "lastRssAttemptAt": 1791575351,
+    "lastRssSuccessAt": 1791575950,
+    "lastRssAttemptAt": 1791575950,
     "sourceState": "online",
     "error": null
   }
