@@ -3911,13 +3911,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 235
+      },
+      {
+        "id": "x:2108349826727588000",
+        "x_status_id": "2108349826727588000",
+        "canonical_url": "https://x.com/thsottiaux/status/2108349826727588000",
+        "fingerprint": "ffc06cbf56146a2d1b8423db20a7c3af54d94de1d349a89f4267d7d7ea6ba84c",
+        "published_at": 1791504744,
+        "detected_at": 1791505147,
+        "text": "Today, we are announcing ChatGPT.\n\nIt is here: https://chatgpt.com/",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 403
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791504550,
+        "last_success_at": 1791505147,
         "last_failure_at": 1791503349,
         "offline_since": null,
         "failure_episodes": 137,
@@ -3947,7 +3964,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791504550"
+        "value": "1791505147"
       }
     ],
     "events": [
@@ -4655,8 +4672,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791504550,
-    "lastRssAttemptAt": 1791504550,
+    "lastRssSuccessAt": 1791505147,
+    "lastRssAttemptAt": 1791505147,
     "sourceState": "online",
     "error": null
   }
