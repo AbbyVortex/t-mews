@@ -3996,17 +3996,34 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 580
+      },
+      {
+        "id": "x:2108650026671231468",
+        "x_status_id": "2108650026671231468",
+        "canonical_url": "https://x.com/thsottiaux/status/2108650026671231468",
+        "fingerprint": "0207f8c76d308d5d64b0bfd060a1735077eff6a181e1fab1a34a3ace8d6faa13",
+        "published_at": 1791576317,
+        "detected_at": 1791577146,
+        "text": "Send feedback to @keyanzhang and @sharifshameem !",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 829
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1791575950,
+        "state": "online",
+        "last_success_at": 1791577146,
         "last_failure_at": 1791576548,
-        "offline_since": 1791576548,
+        "offline_since": null,
         "failure_episodes": 157,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -4032,11 +4049,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791575950"
-      },
-      {
-        "key": "outage",
-        "value": "1791576548"
+        "value": "1791577146"
       }
     ],
     "events": [
@@ -4840,9 +4853,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791575950,
-    "lastRssAttemptAt": 1791576548,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1791577146,
+    "lastRssAttemptAt": 1791577146,
+    "sourceState": "online",
+    "error": null
   }
 }
