@@ -3,74 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2103620061156290622",
-        "x_status_id": "2103620061156290622",
-        "canonical_url": "https://x.com/thsottiaux/status/2103620061156290622",
-        "fingerprint": "467283b537b4ae7735bc99a58fe1ff480435a224af5fe7cff54d28ffc4037679",
-        "published_at": 1790377080,
-        "detected_at": 1790377713,
-        "text": "We are aware that codex is down and are working hard to bring back normal service.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 633
-      },
-      {
-        "id": "x:2103622639386574979",
-        "x_status_id": "2103622639386574979",
-        "canonical_url": "https://x.com/thsottiaux/status/2103622639386574979",
-        "fingerprint": "cebd7f39c4369d04d4940c26304f5d1e6170c34b9cc4a6dd298db069c832755c",
-        "published_at": 1790377695,
-        "detected_at": 1790377713,
-        "text": "o no :(",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 18
-      },
-      {
-        "id": "x:2103637477760311522",
-        "x_status_id": "2103637477760311522",
-        "canonical_url": "https://x.com/thsottiaux/status/2103637477760311522",
-        "fingerprint": "0292e6c4b805acb86836bad845957c8d26321bbd5d0faecb5539c2f415d43b40",
-        "published_at": 1790381233,
-        "detected_at": 1790381606,
-        "text": "o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work\n\nsorry about the brief disruption!\n\n(and yes we have a special spare codex when things are down to help us out)",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "RESET_ANNOUNCED",
-        "reason": "explicit announced or completed usage reset",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 373
-      },
-      {
-        "id": "x:2103911959544610829",
-        "x_status_id": "2103911959544610829",
-        "canonical_url": "https://x.com/thsottiaux/status/2103911959544610829",
-        "fingerprint": "ae2a167076af96b079b26cb2a6bc33d8f58b53d9018ee5e24689da79b5e54082",
-        "published_at": 1790446674,
-        "detected_at": 1790452803,
-        "text": "Resets all propagated. That will be all. Have a fantastic weekend.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 6129
-      },
-      {
         "id": "x:2103953907278045548",
         "x_status_id": "2103953907278045548",
         "canonical_url": "https://x.com/thsottiaux/status/2103953907278045548",
@@ -4115,13 +4047,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 18948
+      },
+      {
+        "id": "x:2109021594576470290",
+        "x_status_id": "2109021594576470290",
+        "canonical_url": "https://x.com/thsottiaux/status/2109021594576470290",
+        "fingerprint": "42aa91a50c7b806fba877b8907d409d267eb536aed31aff6188da2e7eb1bf874",
+        "published_at": 1791664906,
+        "detected_at": 1791670347,
+        "text": "@ryanvogel 👀",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 5441
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791658493,
+        "last_success_at": 1791670347,
         "last_failure_at": 1791580151,
         "offline_since": null,
         "failure_episodes": 159,
@@ -4147,26 +4096,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1791581947"
+        "value": "1791670347"
       },
       {
         "key": "lastSuccess",
-        "value": "1791658493"
+        "value": "1791670347"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2103637477760311522",
-        "event_type": "post_analysis",
-        "created_at": 1790381606,
-        "details": "{\"related\":[{\"xStatusId\":\"2103622639386574979\",\"url\":\"https://x.com/thsottiaux/status/2103622639386574979\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"o no :(\",\"provenance\":\"feed\",\"publishedAt\":1790377695}],\"verdict\":{\"classification\":\"RESET_ANNOUNCED\",\"notify\":true,\"reason\":\"explicit announced or completed usage reset\",\"display\":\"announcement\",\"evidence\":\"o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work\"}}"
-      },
-      {
-        "id": "analysis:x:2103911959544610829",
-        "event_type": "post_analysis",
-        "created_at": 1790452803,
-        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Resets all propagated.\"}}"
-      },
       {
         "id": "analysis:x:2103963215885701493",
         "event_type": "post_analysis",
@@ -4454,18 +4391,6 @@
         "event_type": "notification_sent",
         "created_at": 1791521982,
         "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:post:x:2103637477760311522",
-        "event_type": "notification_sent",
-        "created_at": 1790381606,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2103637477760311522\"}"
-      },
-      {
-        "id": "notification:post:x:2103911959544610829",
-        "event_type": "notification_sent",
-        "created_at": 1790452803,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2103911959544610829\"}"
       },
       {
         "id": "notification:post:x:2103963215885701493",
@@ -4967,8 +4892,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791658493,
-    "lastRssAttemptAt": 1791658493,
+    "lastRssSuccessAt": 1791670347,
+    "lastRssAttemptAt": 1791670347,
     "sourceState": "online",
     "error": null
   }
