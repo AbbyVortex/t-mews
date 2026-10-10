@@ -4098,13 +4098,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 0
+      },
+      {
+        "id": "x:2108852361536098422",
+        "x_status_id": "2108852361536098422",
+        "canonical_url": "https://x.com/thsottiaux/status/2108852361536098422",
+        "fingerprint": "cd23db2aa6866cd3683b89435496b93c3b7ee7fc77fe7fa3ab74aa2a869f70ed",
+        "published_at": 1791624558,
+        "detected_at": 1791643506,
+        "text": "@theo @LukeParkerDev Me too",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 18948
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791621627,
+        "last_success_at": 1791643506,
         "last_failure_at": 1791580151,
         "offline_since": null,
         "failure_episodes": 159,
@@ -4134,7 +4151,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791621627"
+        "value": "1791643506"
       }
     ],
     "events": [
@@ -4950,8 +4967,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791621627,
-    "lastRssAttemptAt": 1791621627,
+    "lastRssSuccessAt": 1791643506,
+    "lastRssAttemptAt": 1791643506,
     "sourceState": "online",
     "error": null
   }
