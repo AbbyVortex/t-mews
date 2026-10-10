@@ -3996,13 +3996,115 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 829
+      },
+      {
+        "id": "x:2108773703064657936",
+        "x_status_id": "2108773703064657936",
+        "canonical_url": "https://x.com/thsottiaux/status/2108773703064657936",
+        "fingerprint": "f5004efc68c4222b329f711292f810a7c9a8af55b96486c2bf50e073e7ecb80f",
+        "published_at": 1791605804,
+        "detected_at": 1791621627,
+        "text": "Dots got a pretty big upgrade",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 15823
+      },
+      {
+        "id": "x:2108773866281795814",
+        "x_status_id": "2108773866281795814",
+        "canonical_url": "https://x.com/thsottiaux/status/2108773866281795814",
+        "fingerprint": "80afa1be6e29f5dfd63bb3628f30c4db2e7b9cc8c80b2a9f717f530567e203bc",
+        "published_at": 1791605843,
+        "detected_at": 1791621627,
+        "text": "@kunchenguid Dot goes brrrrrrr",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 15784
+      },
+      {
+        "id": "x:2108777962053292398",
+        "x_status_id": "2108777962053292398",
+        "canonical_url": "https://x.com/thsottiaux/status/2108777962053292398",
+        "fingerprint": "eef6d78463711853ea7e0e9d13e3462528261a4a181307d2b4cb9381294d6ccc",
+        "published_at": 1791606820,
+        "detected_at": 1791621627,
+        "text": "Your ChatGPT subscription is now also a Devin subscription",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 14807
+      },
+      {
+        "id": "x:2108778939057664357",
+        "x_status_id": "2108778939057664357",
+        "canonical_url": "https://x.com/thsottiaux/status/2108778939057664357",
+        "fingerprint": "53b341895e4263d79e05d5b369d02027f449c16ce31b997446776df3aa0909dd",
+        "published_at": 1791607052,
+        "detected_at": 1791621627,
+        "text": "@rohit3a Folks. Why do you think we picked 300k for context length for Codex. \n\nWe ran the numbers and it’s better. We can run it at 1M too but it would just cost more of the usage. Good defaults are important.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 14575
+      },
+      {
+        "id": "x:2108780620583403652",
+        "x_status_id": "2108780620583403652",
+        "canonical_url": "https://x.com/thsottiaux/status/2108780620583403652",
+        "fingerprint": "abfdb396cec5afc476dac97f03c60efac547229296026617fb5a862b5cac3f5f",
+        "published_at": 1791607453,
+        "detected_at": 1791621627,
+        "text": "@ConnorTalksAI What the heck",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 14174
+      },
+      {
+        "id": "x:2108840070648397933",
+        "x_status_id": "2108840070648397933",
+        "canonical_url": "https://x.com/thsottiaux/status/2108840070648397933",
+        "fingerprint": "eb5f87bd3837d11e62e218524285459c27aceacc48a50ecf07c076dceefebac1",
+        "published_at": 1791621627,
+        "detected_at": 1791621627,
+        "text": "Blinked and it’s already Saturday",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 0
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791598805,
+        "last_success_at": 1791621627,
         "last_failure_at": 1791580151,
         "offline_since": null,
         "failure_episodes": 159,
@@ -4032,7 +4134,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791598805"
+        "value": "1791621627"
       }
     ],
     "events": [
@@ -4263,6 +4365,18 @@
         "event_type": "post_analysis",
         "created_at": 1791575950,
         "details": "{\"related\":[{\"xStatusId\":\"2108636745915052037\",\"url\":\"https://x.com/ChatGPT/status/2108636745915052037\",\"author\":\"ChatGPT\",\"relation\":\"quote\",\"text\":\"Fresh updates for dots. First up: you can now create your dot straight from your phone in the ChatGPT app on iOS and Android.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 5 (dots edition)/\"}}"
+      },
+      {
+        "id": "analysis:x:2108773703064657936",
+        "event_type": "post_analysis",
+        "created_at": 1791621627,
+        "details": "{\"related\":[{\"xStatusId\":\"2108636748217770180\",\"url\":\"https://x.com/ChatGPT/status/2108636748217770180\",\"author\":\"ChatGPT\",\"relation\":\"quote\",\"text\":\"Delegate work in Codex to your dot. Your dot can now start work in Codex and follow up on existing threads, drawing on your ChatGPT conversations, Codex threads, and automations. It’s also better at deciding when to keep a thread going or start fresh. Your dot can also review and…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Dots got a pretty big upgrade\"}}"
+      },
+      {
+        "id": "analysis:x:2108777962053292398",
+        "event_type": "post_analysis",
+        "created_at": 1791621627,
+        "details": "{\"related\":[{\"xStatusId\":\"2108692010056188048\",\"url\":\"https://x.com/cognition/status/2108692010056188048\",\"author\":\"cognition\",\"relation\":\"quote\",\"text\":\"You can use any personal ChatGPT plan with Devin Just connect your Go, Plus, or Pro plan to Devin and all GPT model usage will draw down from you plan's quota\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Your ChatGPT subscription is now also a Devin subscription\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4836,8 +4950,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791598805,
-    "lastRssAttemptAt": 1791598805,
+    "lastRssSuccessAt": 1791621627,
+    "lastRssAttemptAt": 1791621627,
     "sourceState": "online",
     "error": null
   }
