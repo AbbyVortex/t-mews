@@ -51,7 +51,12 @@ export async function parseFeed(xml: string, source: Source): Promise<Item[]> {
  if (!feed) throw new Error('not_rss_or_atom');
  if (/not yet whitelist|access denied|verify you are|captcha/i.test(value(feed.title))) throw new Error('source_notice');
  const rows = array(feed.item ?? feed.entry);
- if (!rows.length || rows.length > 200) throw new Error('empty_or_oversized_feed');
+ if (!rows.length) {
+  const profile=array(feed.link).some(link=>/^https:\/\/(?:x\.com|twitter\.com|fxtwitter\.com)\/thsottiaux\/?$/i.test(typeof link==='string'?link:link?.['@_href']??''));
+  if(/@thsottiaux\b/i.test(value(feed.title))&&profile) return [];
+  throw new Error('empty_or_oversized_feed');
+ }
+ if (rows.length > 200) throw new Error('empty_or_oversized_feed');
  const items: Item[] = [];
  for (const row of rows) {
   const link = array(row.link).find(x=>typeof x==='string' || x['@_rel'] === 'alternate' || !x['@_rel']);
@@ -83,8 +88,17 @@ export function sources(json: string): Source[] {
  return parsed;
 }
 export async function fetchSource(source: Source, fetcher: Fetcher = fetch): Promise<Item[]> {
+ try { return await fetchOnce(source,fetcher); }
+ catch(error) {
+  const transient=error instanceof Error && (/^http_(404|408|5\d\d)$/.test(error.message)||['TypeError','AbortError','TimeoutError'].includes(error.name));
+  if(!transient) throw error;
+  await new Promise(resolve=>setTimeout(resolve,2000));
+  return fetchOnce(source,fetcher);
+ }
+}
+async function fetchOnce(source: Source, fetcher: Fetcher): Promise<Item[]> {
  const r = await fetcher(source.url,{headers:{Accept:'application/rss+xml, application/atom+xml, application/xml, text/xml','User-Agent':'T-MEWS/0.1 public RSS experiment'},signal:AbortSignal.timeout(8000)});
- if (!r.ok) throw new Error(`http_${r.status}`);
+ if (!r.ok) {await r.body?.cancel();throw new Error(`http_${r.status}`);}
  if (!r.body) throw new Error('empty_body');
  const reader=r.body.getReader(); const decoder=new TextDecoder(); let xml='',bytes=0;
  try { for (;;) { const {done,value}=await reader.read(); if(done)break;bytes+=value.length;if(bytes>1_000_000)throw new Error('feed_too_large');xml+=decoder.decode(value,{stream:true}); } xml+=decoder.decode(); } finally { await reader.cancel(); }

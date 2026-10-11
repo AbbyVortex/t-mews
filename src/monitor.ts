@@ -24,16 +24,23 @@ export async function monitor(env: Env, now=Math.floor(Date.now()/1000), fetcher
  }
  if(!items) {
   const outage=state.outage??now;
-  if(!state.outage) await put(env.DB,'outage',outage).run();
+  await env.DB.batch([put(env.DB,'outage',outage),env.DB.prepare("DELETE FROM state WHERE key='recoverySince'")]);
   if(now-outage>=900) await notify(env,`offline:${outage}`,'offline','📡 T-MEWS sensor offline','すべての利用可能なRSSソースが15分以上連続で取得に失敗しています。',now,fetcher);
   return;
  }
  if(state.outage) {
   const warning=await env.DB.prepare('SELECT status FROM notifications WHERE id=?').bind(`offline:${state.outage}`).first<{status:string}>();
-  if(warning && ['sent','unknown','sending'].includes(warning.status)) await notify(env,`recovered:${state.outage}`,'recovered','📡 T-MEWS sensor recovered',`RSS取得が復旧しました。ソース: ${active}`,now,fetcher);
-  await env.DB.prepare("DELETE FROM state WHERE key='outage'").run();
+  const recoverySince=state.recoverySince??now;
+  if(warning && now-recoverySince<600) {
+   await put(env.DB,'recoverySince',recoverySince).run();
+  }else {
+   if(warning && ['sent','unknown','sending'].includes(warning.status)) await notify(env,`recovered:${state.outage}`,'recovered','📡 T-MEWS sensor recovered',`RSS取得の連続成功を10分以上確認しました。ソース: ${active}`,now,fetcher);
+   await env.DB.prepare("DELETE FROM state WHERE key IN ('outage','recoverySince')").run();
+  }
  }
  await env.DB.batch([put(env.DB,'lastSuccess',now),put(env.DB,'activeSource',active)]);
+ // An empty observation is healthy, but cannot establish the historical baseline.
+ if(!items.length&&!state.baselineAt) return;
  const bootstrap=!state.baselineAt;
  const sourceBootstrap=Boolean(env.SOURCE_BASELINE_KEY&&!state[env.SOURCE_BASELINE_KEY]);
  const unique=await resolveRelated([...new Map(items.map(i=>[i.id,i])).values()],env.DB);

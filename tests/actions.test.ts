@@ -85,7 +85,8 @@ test('Actions: temporary RSS failure and recovery across delayed runs',async()=>
  outage=true;await runAction('monitor',store,secrets,fetcher,start+300);await runAction('monitor',store,secrets,fetcher,start+900);
  assert.equal(titles.length,2);
  await runAction('monitor',store,secrets,fetcher,start+1200);assert.match(titles.at(-1)!,/offline/);
- outage=false;await runAction('monitor',store,secrets,fetcher,start+1500);assert.match(titles.at(-1)!,/recovered/);
+ outage=false;await runAction('monitor',store,secrets,fetcher,start+1500);assert.match(titles.at(-1)!,/offline/);
+ await runAction('monitor',store,secrets,fetcher,start+2100);assert.match(titles.at(-1)!,/recovered/);
 });
 
 test('Actions: primary operation survives the legacy five-day expiry and retains delivery dedup',async()=>{

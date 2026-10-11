@@ -58,7 +58,7 @@ test('E, G: baseline, cross-source dedup, no repeated writes on unchanged poll, 
   const page=await worker.fetch(new Request('https://local/'),h.env);assert.equal(page.status,200);assert.ok(!(await page.text()).includes('test-placeholder'));
  }finally{await h.mf.dispose();}
 });
-test('F: short errors silent, 15-minute offline once, recovered once',async()=>{
+test('F: short errors silent, 15-minute offline once, stable recovery once',async()=>{
  const h=await setup();try {
   await monitor(h.env,start,h.fetcher);h.setFail(true);
   for(const elapsed of [60,120,899,959]) await monitor(h.env,start+elapsed,h.fetcher);
@@ -66,6 +66,8 @@ test('F: short errors silent, 15-minute offline once, recovered once',async()=>{
   await monitor(h.env,start+960,h.fetcher);await monitor(h.env,start+1020,h.fetcher);
   assert.equal(h.messages.length,2);assert.match(h.messages[1].get('title')!,/offline/);
   h.setFail(false);await monitor(h.env,start+1080,h.fetcher);await monitor(h.env,start+1140,h.fetcher);
+  assert.equal(h.messages.length,2);
+  await monitor(h.env,start+1680,h.fetcher);
   assert.equal(h.messages.length,3);assert.match(h.messages[2].get('title')!,/recovered/);
  }finally{await h.mf.dispose();}
 });
