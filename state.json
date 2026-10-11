@@ -4217,13 +4217,30 @@
         "notified": 1,
         "notification_status": "sent",
         "detection_latency_seconds": 321
+      },
+      {
+        "id": "x:2109135750054957556",
+        "x_status_id": "2109135750054957556",
+        "canonical_url": "https://x.com/thsottiaux/status/2109135750054957556",
+        "fingerprint": "f9ee17b83078f4bbe1759504459dd95ddc6d8e7efd6cbc57b8d3d7d5102cb354",
+        "published_at": 1791692123,
+        "detected_at": 1791692194,
+        "text": "@theo Dare you to invite everyone to a party",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 71
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791691590,
+        "last_success_at": 1791692194,
         "last_failure_at": 1791580151,
         "offline_since": null,
         "failure_episodes": 159,
@@ -4253,7 +4270,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791691590"
+        "value": "1791692194"
       }
     ],
     "events": [
@@ -5125,8 +5142,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791691590,
-    "lastRssAttemptAt": 1791691590,
+    "lastRssSuccessAt": 1791692194,
+    "lastRssAttemptAt": 1791692194,
     "sourceState": "online",
     "error": null
   }
