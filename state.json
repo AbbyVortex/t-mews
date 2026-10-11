@@ -3,159 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2103953907278045548",
-        "x_status_id": "2103953907278045548",
-        "canonical_url": "https://x.com/thsottiaux/status/2103953907278045548",
-        "fingerprint": "92cea12b5c71a9d9a6982b0564c3856e6c542b09943657e0db781df310bd76bc",
-        "published_at": 1790456675,
-        "detected_at": 1790462377,
-        "text": "@NicolasZu DevDay",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 5702
-      },
-      {
-        "id": "x:2103954313068642787",
-        "x_status_id": "2103954313068642787",
-        "canonical_url": "https://x.com/thsottiaux/status/2103954313068642787",
-        "fingerprint": "2e5e1cbd2739d8b329d7e353be89fd294792e92aadc901683b693ce5d7956cc3",
-        "published_at": 1790456772,
-        "detected_at": 1790462377,
-        "text": "@kunchenguid 👋",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 5605
-      },
-      {
-        "id": "x:2103954577817260036",
-        "x_status_id": "2103954577817260036",
-        "canonical_url": "https://x.com/thsottiaux/status/2103954577817260036",
-        "fingerprint": "3ecc2f3a7a678358e4bf194a97dc31d205758d08fbf16f8274f6b1ecb82a6e31",
-        "published_at": 1790456835,
-        "detected_at": 1790462377,
-        "text": "@antigravity Plan mode was cool in 2025, might still be cool, but was particularly cool in 2025",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 5542
-      },
-      {
-        "id": "x:2103961852153913371",
-        "x_status_id": "2103961852153913371",
-        "canonical_url": "https://x.com/thsottiaux/status/2103961852153913371",
-        "fingerprint": "8ad7e8fa60ae219f853813eab05399272a0d2e0b119dcc28d05ec4e0d3a13bdc",
-        "published_at": 1790458569,
-        "detected_at": 1790462377,
-        "text": "@jorilallo Truth is, there isn’t an org chart",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 3808
-      },
-      {
-        "id": "x:2103962250885390436",
-        "x_status_id": "2103962250885390436",
-        "canonical_url": "https://x.com/thsottiaux/status/2103962250885390436",
-        "fingerprint": "19b2cecdb9bed3387ee0398e03fb5af414053446c23e9b0e62ca1a4ad6e13549",
-        "published_at": 1790458664,
-        "detected_at": 1790462377,
-        "text": "@angelbrodin Are those Udon or just plain Noodles",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 3713
-      },
-      {
-        "id": "x:2103963215885701493",
-        "x_status_id": "2103963215885701493",
-        "canonical_url": "https://x.com/thsottiaux/status/2103963215885701493",
-        "fingerprint": "38878207e8bca75a6b83a5ed885136cecf6e14ad325507291e06c6366000e7d8",
-        "published_at": 1790458895,
-        "detected_at": 1790462377,
-        "text": "@giadotai Sorry Gia. More resets coming next week",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 3482
-      },
-      {
-        "id": "x:2104100881100890402",
-        "x_status_id": "2104100881100890402",
-        "canonical_url": "https://x.com/thsottiaux/status/2104100881100890402",
-        "fingerprint": "e721533b4110179b40ed2f613c7bb1fa047c5f62ac193888c3a3a5685746e5a1",
-        "published_at": 1790491717,
-        "detected_at": 1790510086,
-        "text": "@anthdm Tell me more. Didn’t see your message, was probably too small and for ants.",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 18369
-      },
-      {
-        "id": "x:2104101496606618082",
-        "x_status_id": "2104101496606618082",
-        "canonical_url": "https://x.com/thsottiaux/status/2104101496606618082",
-        "fingerprint": "887923baf1c7621c4a5d76a1855b131b1bebafe0145bbc222e68959d7dee4ee3",
-        "published_at": 1790491863,
-        "detected_at": 1790510086,
-        "text": "@yacineMTB We’re perma locked in. No code red necessary.",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 18223
-      },
-      {
-        "id": "x:2104108167806550046",
-        "x_status_id": "2104108167806550046",
-        "canonical_url": "https://x.com/thsottiaux/status/2104108167806550046",
-        "fingerprint": "f548d527c25879515a0690ed6a73d22c0c5b67484e3d074b96a945e6b679e2b5",
-        "published_at": 1790493454,
-        "detected_at": 1790510086,
-        "text": "Code freeze isn’t really a thing anymore before releases and in the future the code might even be generated online per request according to some constraints.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 16632
-      },
-      {
         "id": "x:2104313314901958706",
         "x_status_id": "2104313314901958706",
         "canonical_url": "https://x.com/thsottiaux/status/2104313314901958706",
@@ -4273,12 +4120,12 @@
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1791756329,
+        "state": "online",
+        "last_success_at": 1791757528,
         "last_failure_at": 1791756928,
-        "offline_since": 1791756928,
+        "offline_since": null,
         "failure_episodes": 165,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -4300,24 +4147,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1791670347"
+        "value": "1791757528"
       },
       {
         "key": "lastSuccess",
-        "value": "1791756329"
-      },
-      {
-        "key": "outage",
-        "value": "1791756928"
+        "value": "1791757528"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2103963215885701493",
-        "event_type": "post_analysis",
-        "created_at": 1790462377,
-        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"More resets coming next week\"}}"
-      },
       {
         "id": "analysis:x:2104823812042940713",
         "event_type": "post_analysis",
@@ -4623,12 +4460,6 @@
         "event_type": "notification_sent",
         "created_at": 1791521982,
         "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:post:x:2103963215885701493",
-        "event_type": "notification_sent",
-        "created_at": 1790462377,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2103963215885701493\"}"
       },
       {
         "id": "notification:post:x:2104823812042940713",
@@ -5180,9 +5011,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791756329,
-    "lastRssAttemptAt": 1791756928,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1791757528,
+    "lastRssAttemptAt": 1791757528,
+    "sourceState": "online",
+    "error": null
   }
 }
