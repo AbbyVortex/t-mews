@@ -4132,13 +4132,81 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 505
+      },
+      {
+        "id": "x:2109089556675137886",
+        "x_status_id": "2109089556675137886",
+        "canonical_url": "https://x.com/thsottiaux/status/2109089556675137886",
+        "fingerprint": "46359e65d2c2a7778b67ab595e4208fbef26f5a72e6046b4c49c20da6787770a",
+        "published_at": 1791681109,
+        "detected_at": 1791686192,
+        "text": "@TrustAgentic @elonmusk @bot Buy something nice",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 5083
+      },
+      {
+        "id": "x:2109090080497508356",
+        "x_status_id": "2109090080497508356",
+        "canonical_url": "https://x.com/thsottiaux/status/2109090080497508356",
+        "fingerprint": "77207d0d2d3652dc45798c085d63310270d48d668d1d6f4aa1b1d2369570a269",
+        "published_at": 1791681234,
+        "detected_at": 1791686192,
+        "text": "The day we reach perfection it will be resets from there onwards",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 4958
+      },
+      {
+        "id": "x:2109091159784198475",
+        "x_status_id": "2109091159784198475",
+        "canonical_url": "https://x.com/thsottiaux/status/2109091159784198475",
+        "fingerprint": "688a0dfdf365ccd39c9e7a0f2dcf9abf70110ee4f2d9a50a573e28b17b056d69",
+        "published_at": 1791681492,
+        "detected_at": 1791686192,
+        "text": "@ziwenxu_ 1M dots running and doing things for their users",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 4700
+      },
+      {
+        "id": "x:2109092087501332816",
+        "x_status_id": "2109092087501332816",
+        "canonical_url": "https://x.com/thsottiaux/status/2109092087501332816",
+        "fingerprint": "2dcd78914712b14a3e6ee8b1bd52d066d35f6cf279117ecf7dd5e2e9cf28f2db",
+        "published_at": 1791681713,
+        "detected_at": 1791686192,
+        "text": "@ConnorTalksAI Actually had a nightmare about this",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 4479
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791680481,
+        "last_success_at": 1791686192,
         "last_failure_at": 1791580151,
         "offline_since": null,
         "failure_episodes": 159,
@@ -4168,7 +4236,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791680481"
+        "value": "1791686192"
       }
     ],
     "events": [
@@ -4411,6 +4479,12 @@
         "event_type": "post_analysis",
         "created_at": 1791680481,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Global reset by EOD.\"}}"
+      },
+      {
+        "id": "analysis:x:2109090080497508356",
+        "event_type": "post_analysis",
+        "created_at": 1791686192,
+        "details": "{\"related\":[{\"xStatusId\":\"2109045220411351517\",\"url\":\"https://x.com/thsottiaux/status/2109045220411351517\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Day 6/ Reset\",\"provenance\":\"feed\",\"publishedAt\":1791670539}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"The day we reach perfection it will be resets from there onwards\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4909,6 +4983,14 @@
         "sent_at": 1791680481
       },
       {
+        "id": "post:x:2109090080497508356",
+        "post_id": "x:2109090080497508356",
+        "kind": "alert",
+        "created_at": 1791686192,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -5000,8 +5082,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791680481,
-    "lastRssAttemptAt": 1791680481,
+    "lastRssSuccessAt": 1791686192,
+    "lastRssAttemptAt": 1791686192,
     "sourceState": "online",
     "error": null
   }
