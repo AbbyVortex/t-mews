@@ -4251,13 +4251,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 367
+      },
+      {
+        "id": "x:2109152716954222849",
+        "x_status_id": "2109152716954222849",
+        "canonical_url": "https://x.com/thsottiaux/status/2109152716954222849",
+        "fingerprint": "73048283f027c63bd7b5a45c9f0ba53851d4f592cf97bd357f02acbeb7863389",
+        "published_at": 1791696168,
+        "detected_at": 1791696391,
+        "text": "Pro users, would you rather have",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 223
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791695792,
+        "last_success_at": 1791696391,
         "last_failure_at": 1791580151,
         "offline_since": null,
         "failure_episodes": 159,
@@ -4287,7 +4304,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791695792"
+        "value": "1791696391"
       }
     ],
     "events": [
@@ -5159,8 +5176,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791695792,
-    "lastRssAttemptAt": 1791695792,
+    "lastRssSuccessAt": 1791696391,
+    "lastRssAttemptAt": 1791696391,
     "sourceState": "online",
     "error": null
   }
