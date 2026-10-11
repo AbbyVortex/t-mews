@@ -4200,13 +4200,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 4479
+      },
+      {
+        "id": "x:2109132167112782291",
+        "x_status_id": "2109132167112782291",
+        "canonical_url": "https://x.com/thsottiaux/status/2109132167112782291",
+        "fingerprint": "b2f5dd15b51dde67badff1fa1aef9cdfd99b14886c793fc4cb23c373950bb8cd",
+        "published_at": 1791691269,
+        "detected_at": 1791691590,
+        "text": "Put the reset in the bag. All propagated.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 321
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791690992,
+        "last_success_at": 1791691590,
         "last_failure_at": 1791580151,
         "offline_since": null,
         "failure_episodes": 159,
@@ -4236,7 +4253,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791690992"
+        "value": "1791691590"
       }
     ],
     "events": [
@@ -4485,6 +4502,12 @@
         "event_type": "post_analysis",
         "created_at": 1791686192,
         "details": "{\"related\":[{\"xStatusId\":\"2109045220411351517\",\"url\":\"https://x.com/thsottiaux/status/2109045220411351517\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Day 6/ Reset\",\"provenance\":\"feed\",\"publishedAt\":1791670539}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"The day we reach perfection it will be resets from there onwards\"}}"
+      },
+      {
+        "id": "analysis:x:2109132167112782291",
+        "event_type": "post_analysis",
+        "created_at": 1791691590,
+        "details": "{\"related\":[{\"xStatusId\":\"2109045392684032299\",\"url\":\"https://x.com/thsottiaux/status/2109045392684032299\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Global reset by EOD. May the tokens do good things for you.\",\"provenance\":\"feed\",\"publishedAt\":1791670580}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Put the reset in the bag.\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4997,6 +5020,14 @@
         "sent_at": 1791686192
       },
       {
+        "id": "post:x:2109132167112782291",
+        "post_id": "x:2109132167112782291",
+        "kind": "alert",
+        "created_at": 1791691590,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -5088,8 +5119,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791690992,
-    "lastRssAttemptAt": 1791690992,
+    "lastRssSuccessAt": 1791691590,
+    "lastRssAttemptAt": 1791691590,
     "sourceState": "online",
     "error": null
   }
