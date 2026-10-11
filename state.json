@@ -4115,13 +4115,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 223
+      },
+      {
+        "id": "x:2109430343346581527",
+        "x_status_id": "2109430343346581527",
+        "canonical_url": "https://x.com/thsottiaux/status/2109430343346581527",
+        "fingerprint": "4b3b35923713fe1e016b96a77d1142b34872344fdd14c2c372edc353628bfab6",
+        "published_at": 1791762359,
+        "detected_at": 1791762932,
+        "text": "Day 7/\n\nWe have increased default context length for GPT-6.1 Sol to 500k when used through Codex & Work, up from 272k or an ~ 80% increase.\n\nWe will go higher in the future, but it helps reduce occurrence of compactions and with tasks that require keeping a lot of context and nuance over periods of time. It was carefully tested and is the new sweet spot for most of our users. You can still override it if you want to be higher our lower, with maximum context length of GPT-6.1 Sol of 1M.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 573
+      },
+      {
+        "id": "x:2109430894604026039",
+        "x_status_id": "2109430894604026039",
+        "canonical_url": "https://x.com/thsottiaux/status/2109430894604026039",
+        "fingerprint": "c6abff34b9435b5201eca2cd61ffff78f38d1240891f67bb545683acf8e105df",
+        "published_at": 1791762491,
+        "detected_at": 1791762932,
+        "text": "With this change, we are not charging long context fees for GPT-6.1 Sol when drawing usage from the subscription.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 441
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791762330,
+        "last_success_at": 1791762932,
         "last_failure_at": 1791758730,
         "offline_since": null,
         "failure_episodes": 167,
@@ -4151,7 +4185,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791762330"
+        "value": "1791762932"
       }
     ],
     "events": [
@@ -5011,8 +5045,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791762330,
-    "lastRssAttemptAt": 1791762330,
+    "lastRssSuccessAt": 1791762932,
+    "lastRssAttemptAt": 1791762932,
     "sourceState": "online",
     "error": null
   }
