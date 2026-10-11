@@ -4234,13 +4234,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 71
+      },
+      {
+        "id": "x:2109142061014466866",
+        "x_status_id": "2109142061014466866",
+        "canonical_url": "https://x.com/thsottiaux/status/2109142061014466866",
+        "fingerprint": "18bb6420b1462448061f069c8b9e5d87c379a6abb5d87d43ab7439dfa6a82475",
+        "published_at": 1791693627,
+        "detected_at": 1791693994,
+        "text": "@SiftByte You are doing more math than I am",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 367
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791693394,
+        "last_success_at": 1791693994,
         "last_failure_at": 1791580151,
         "offline_since": null,
         "failure_episodes": 159,
@@ -4270,7 +4287,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791693394"
+        "value": "1791693994"
       }
     ],
     "events": [
@@ -5142,8 +5159,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791693394,
-    "lastRssAttemptAt": 1791693394,
+    "lastRssSuccessAt": 1791693994,
+    "lastRssAttemptAt": 1791693994,
     "sourceState": "online",
     "error": null
   }
