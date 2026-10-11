@@ -4064,13 +4064,81 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 5441
+      },
+      {
+        "id": "x:2109045220411351517",
+        "x_status_id": "2109045220411351517",
+        "canonical_url": "https://x.com/thsottiaux/status/2109045220411351517",
+        "fingerprint": "2c6a3c50a3794906152b58dba667068464fe68761a6f8f8739a9dbbf2104925a",
+        "published_at": 1791670539,
+        "detected_at": 1791680481,
+        "text": "Day 6/ Reset",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 9942
+      },
+      {
+        "id": "x:2109045392684032299",
+        "x_status_id": "2109045392684032299",
+        "canonical_url": "https://x.com/thsottiaux/status/2109045392684032299",
+        "fingerprint": "40e04abd44dcfa85dd9919bfaf164b84dec6b1dbdcd71e1564a186c298e6edb1",
+        "published_at": 1791670580,
+        "detected_at": 1791680481,
+        "text": "Global reset by EOD. May the tokens do good things for you.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 9901
+      },
+      {
+        "id": "x:2109072811113488768",
+        "x_status_id": "2109072811113488768",
+        "canonical_url": "https://x.com/thsottiaux/status/2109072811113488768",
+        "fingerprint": "78543dfa176fe608698017cfc3efc5a118405b6da6f11d26167d000058b2ebd5",
+        "published_at": 1791677117,
+        "detected_at": 1791680481,
+        "text": "@elonmusk @bot Might as well just post it here",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 3364
+      },
+      {
+        "id": "x:2109084804625158541",
+        "x_status_id": "2109084804625158541",
+        "canonical_url": "https://x.com/thsottiaux/status/2109084804625158541",
+        "fingerprint": "c186d86ce7416c0840c78c485e326017355fe46b0a37af7189e5cc66b75f8273",
+        "published_at": 1791679976,
+        "detected_at": 1791680481,
+        "text": "@maria_rcks That’s right, no more ships",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 505
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791670347,
+        "last_success_at": 1791680481,
         "last_failure_at": 1791580151,
         "offline_since": null,
         "failure_episodes": 159,
@@ -4100,7 +4168,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791670347"
+        "value": "1791680481"
       }
     ],
     "events": [
@@ -4331,6 +4399,18 @@
         "event_type": "post_analysis",
         "created_at": 1791621627,
         "details": "{\"related\":[{\"xStatusId\":\"2108692010056188048\",\"url\":\"https://x.com/cognition/status/2108692010056188048\",\"author\":\"cognition\",\"relation\":\"quote\",\"text\":\"You can use any personal ChatGPT plan with Devin Just connect your Go, Plus, or Pro plan to Devin and all GPT model usage will draw down from you plan's quota\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Your ChatGPT subscription is now also a Devin subscription\"}}"
+      },
+      {
+        "id": "analysis:x:2109045220411351517",
+        "event_type": "post_analysis",
+        "created_at": 1791680481,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Day 6/ Reset\"}}"
+      },
+      {
+        "id": "analysis:x:2109045392684032299",
+        "event_type": "post_analysis",
+        "created_at": 1791680481,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Global reset by EOD.\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4801,6 +4881,14 @@
         "sent_at": 1791431353
       },
       {
+        "id": "post:x:2109045220411351517",
+        "post_id": "x:2109045220411351517",
+        "kind": "alert",
+        "created_at": 1791680481,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -4892,8 +4980,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791670347,
-    "lastRssAttemptAt": 1791670347,
+    "lastRssSuccessAt": 1791680481,
+    "lastRssAttemptAt": 1791680481,
     "sourceState": "online",
     "error": null
   }
