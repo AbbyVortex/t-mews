@@ -4234,13 +4234,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 2182
+      },
+      {
+        "id": "x:2109730998867112161",
+        "x_status_id": "2109730998867112161",
+        "canonical_url": "https://x.com/thsottiaux/status/2109730998867112161",
+        "fingerprint": "e81a00545bc211238eb51c9023ace07c97b6c07048c23f1bcd8d9b3aa53a5b8c",
+        "published_at": 1791834041,
+        "detected_at": 1791834336,
+        "text": "@gen_tt @poteto Solid step towards world peace",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 295
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791833730,
+        "last_success_at": 1791834336,
         "last_failure_at": 1791827132,
         "offline_since": null,
         "failure_episodes": 176,
@@ -4270,7 +4287,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791833730"
+        "value": "1791834336"
       }
     ],
     "events": [
@@ -5164,8 +5181,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791833730,
-    "lastRssAttemptAt": 1791833730,
+    "lastRssSuccessAt": 1791834336,
+    "lastRssAttemptAt": 1791834336,
     "sourceState": "online",
     "error": null
   }
