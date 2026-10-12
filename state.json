@@ -4200,17 +4200,51 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 115
+      },
+      {
+        "id": "x:2109491121441402912",
+        "x_status_id": "2109491121441402912",
+        "canonical_url": "https://x.com/thsottiaux/status/2109491121441402912",
+        "fingerprint": "cda384adf17de07d3f71dfca7d7579fe7b22247a238d2e0e56bf5824a9c022ab",
+        "published_at": 1791776850,
+        "detected_at": 1791779128,
+        "text": "@AbdoKerdawy We made it cheaper and tuned it to the new recommended level. \n\nYou can always change settings, but defaults exist for a reason.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 2278
+      },
+      {
+        "id": "x:2109491524358795714",
+        "x_status_id": "2109491524358795714",
+        "canonical_url": "https://x.com/thsottiaux/status/2109491524358795714",
+        "fingerprint": "cb266402977487b7911a2dda2e8b3223167eda206e35cb4a2b1bc5241606e950",
+        "published_at": 1791776946,
+        "detected_at": 1791779128,
+        "text": "@bobjones We tune these carefully",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 2182
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1791776730,
+        "state": "online",
+        "last_success_at": 1791779128,
         "last_failure_at": 1791778528,
-        "offline_since": 1791777331,
+        "offline_since": null,
         "failure_episodes": 169,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -4236,11 +4270,15 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791776730"
+        "value": "1791779128"
       },
       {
         "key": "outage",
         "value": "1791777331"
+      },
+      {
+        "key": "recoverySince",
+        "value": "1791779128"
       }
     ],
     "events": [
@@ -5120,9 +5158,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791776730,
-    "lastRssAttemptAt": 1791778528,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1791779128,
+    "lastRssAttemptAt": 1791779128,
+    "sourceState": "online",
+    "error": null
   }
 }
