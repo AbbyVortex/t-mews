@@ -4064,13 +4064,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 295
+      },
+      {
+        "id": "x:2109778880341151901",
+        "x_status_id": "2109778880341151901",
+        "canonical_url": "https://x.com/thsottiaux/status/2109778880341151901",
+        "fingerprint": "a8cf210af9512e73b2ecfde36404ad36904cfd6bf7d30abbef2a51dc6c0400e0",
+        "published_at": 1791845457,
+        "detected_at": 1791845729,
+        "text": "@steipete 250 tokens per *second* (TPS)!",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 272
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791845136,
+        "last_success_at": 1791845729,
         "last_failure_at": 1791839732,
         "offline_since": null,
         "failure_episodes": 177,
@@ -4100,7 +4117,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791845136"
+        "value": "1791845729"
       }
     ],
     "events": [
@@ -4994,8 +5011,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791845136,
-    "lastRssAttemptAt": 1791845136,
+    "lastRssSuccessAt": 1791845729,
+    "lastRssAttemptAt": 1791845729,
     "sourceState": "online",
     "error": null
   }
