@@ -4149,17 +4149,68 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 441
+      },
+      {
+        "id": "x:2109438305188327838",
+        "x_status_id": "2109438305188327838",
+        "canonical_url": "https://x.com/thsottiaux/status/2109438305188327838",
+        "fingerprint": "f8a71987a4db3d63d88319fbb9dfbaff8ea2a46b69524142890220585d2a2ebb",
+        "published_at": 1791764258,
+        "detected_at": 1791764732,
+        "text": "@birdabo @poteto We're all proud of you @birdabo. Thank you for solving this one, hadn't thought about it",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 474
+      },
+      {
+        "id": "x:2109439315570999598",
+        "x_status_id": "2109439315570999598",
+        "canonical_url": "https://x.com/thsottiaux/status/2109439315570999598",
+        "fingerprint": "3f72a1621f73c14c616304bed9a472ece999c690bf6a9f608d78f241994374fb",
+        "published_at": 1791764498,
+        "detected_at": 1791764732,
+        "text": "The results of this poll has gotten me confused. I definitely thought it would sway much more favorably in the 2X direction across Pro 100/200/500 at the cost of bringing back 5h limits in order to smoothen the demand curve.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "possible usage signal without a confirmed change or strong hint",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 234
+      },
+      {
+        "id": "x:2109439813900493102",
+        "x_status_id": "2109439813900493102",
+        "canonical_url": "https://x.com/thsottiaux/status/2109439813900493102",
+        "fingerprint": "dcd2c549db111ee32b7b304a856931a551e7476a0c8bb6e3d204b6f1bd5d217f",
+        "published_at": 1791764617,
+        "detected_at": 1791764732,
+        "text": "@AnkanXplorer Neither. It's all about coding by hand these days",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 115
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1791763529,
+        "state": "online",
+        "last_success_at": 1791764732,
         "last_failure_at": 1791764130,
-        "offline_since": 1791764130,
+        "offline_since": null,
         "failure_episodes": 168,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -4185,11 +4236,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791763529"
-      },
-      {
-        "key": "outage",
-        "value": "1791764130"
+        "value": "1791764732"
       }
     ],
     "events": [
@@ -4438,6 +4485,12 @@
         "event_type": "post_analysis",
         "created_at": 1791691590,
         "details": "{\"related\":[{\"xStatusId\":\"2109045392684032299\",\"url\":\"https://x.com/thsottiaux/status/2109045392684032299\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Global reset by EOD. May the tokens do good things for you.\",\"provenance\":\"feed\",\"publishedAt\":1791670580}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Put the reset in the bag.\"}}"
+      },
+      {
+        "id": "analysis:x:2109439315570999598",
+        "event_type": "post_analysis",
+        "created_at": 1791764732,
+        "details": "{\"related\":[{\"xStatusId\":\"2109152716954222849\",\"url\":\"https://x.com/thsottiaux/status/2109152716954222849\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Pro users, would you rather have\",\"provenance\":\"feed\",\"publishedAt\":1791696168}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":false,\"reason\":\"possible usage signal without a confirmed change or strong hint\",\"evidence\":\"The results of this poll has gotten me confused.\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -5049,9 +5102,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791763529,
-    "lastRssAttemptAt": 1791764130,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1791764732,
+    "lastRssAttemptAt": 1791764732,
+    "sourceState": "online",
+    "error": null
   }
 }
