@@ -4240,7 +4240,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791792933,
+        "last_success_at": 1791793534,
         "last_failure_at": 1791790526,
         "offline_since": null,
         "failure_episodes": 170,
@@ -4270,7 +4270,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791792933"
+        "value": "1791793534"
       }
     ],
     "events": [
@@ -5164,8 +5164,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791792933,
-    "lastRssAttemptAt": 1791792933,
+    "lastRssSuccessAt": 1791793534,
+    "lastRssAttemptAt": 1791793534,
     "sourceState": "online",
     "error": null
   }
