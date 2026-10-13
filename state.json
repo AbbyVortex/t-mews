@@ -4200,13 +4200,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 79
+      },
+      {
+        "id": "x:2109864370465628584",
+        "x_status_id": "2109864370465628584",
+        "canonical_url": "https://x.com/thsottiaux/status/2109864370465628584",
+        "fingerprint": "02a9eeb1ba3f23e1449b64331c44f83d189d77250b66c4a37211bec0b6809f09",
+        "published_at": 1791865839,
+        "detected_at": 1791866136,
+        "text": "@theo How much did they pay you",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 297
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791865531,
+        "last_success_at": 1791866136,
         "last_failure_at": 1791863129,
         "offline_since": null,
         "failure_episodes": 180,
@@ -4236,7 +4253,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791865531"
+        "value": "1791866136"
       }
     ],
     "events": [
@@ -5170,8 +5187,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791865531,
-    "lastRssAttemptAt": 1791865531,
+    "lastRssSuccessAt": 1791866136,
+    "lastRssAttemptAt": 1791866136,
     "sourceState": "online",
     "error": null
   }
