@@ -4115,13 +4115,47 @@
         "notified": 1,
         "notification_status": "sent",
         "detection_latency_seconds": 92
+      },
+      {
+        "id": "x:2109819027912798611",
+        "x_status_id": "2109819027912798611",
+        "canonical_url": "https://x.com/thsottiaux/status/2109819027912798611",
+        "fingerprint": "d211915b6caaa9a1ed4acd22df867a8cf9faa5678df56e70883aaf6696d8c52b",
+        "published_at": 1791855029,
+        "detected_at": 1791855332,
+        "text": "@alexgetmancom Alex, kindly. The world is big and fun out there. We’re in SF, just saying.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 303
+      },
+      {
+        "id": "x:2109819517325205735",
+        "x_status_id": "2109819517325205735",
+        "canonical_url": "https://x.com/thsottiaux/status/2109819517325205735",
+        "fingerprint": "a20565abb18010c8996a6103a65219e646adccce5ea466da122d9314e1e9921e",
+        "published_at": 1791855146,
+        "detected_at": 1791855332,
+        "text": "@songkeys No worries. Cooking up a solution",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 186
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791854731,
+        "last_success_at": 1791855332,
         "last_failure_at": 1791852332,
         "offline_since": null,
         "failure_episodes": 178,
@@ -4151,7 +4185,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791854731"
+        "value": "1791855332"
       }
     ],
     "events": [
@@ -5085,8 +5119,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791854731,
-    "lastRssAttemptAt": 1791854731,
+    "lastRssSuccessAt": 1791855332,
+    "lastRssAttemptAt": 1791855332,
     "sourceState": "online",
     "error": null
   }
