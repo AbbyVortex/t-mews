@@ -4234,13 +4234,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 590
+      },
+      {
+        "id": "x:2109873287853707513",
+        "x_status_id": "2109873287853707513",
+        "canonical_url": "https://x.com/thsottiaux/status/2109873287853707513",
+        "fingerprint": "f29b0105977a2c4daa154502fc8d2bdeca736686c311bd79b6fa5637c279126e",
+        "published_at": 1791867966,
+        "detected_at": 1791868528,
+        "text": "What would you like with your side of reset? It's done.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 562
+      },
+      {
+        "id": "x:2109873307722121591",
+        "x_status_id": "2109873307722121591",
+        "canonical_url": "https://x.com/thsottiaux/status/2109873307722121591",
+        "fingerprint": "9b4867172f654d5dc175fb01680b21a1c7c3ae820f1fa9add66ec45ca763b9c1",
+        "published_at": 1791867970,
+        "detected_at": 1791868528,
+        "text": "Mashed @poteto on the house.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 558
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791867932,
+        "last_success_at": 1791868528,
         "last_failure_at": 1791863129,
         "offline_since": null,
         "failure_episodes": 180,
@@ -4270,7 +4304,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791867932"
+        "value": "1791868528"
       }
     ],
     "events": [
@@ -4537,6 +4571,12 @@
         "event_type": "post_analysis",
         "created_at": 1791853531,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Global reset landing by EOD PST time.\"}}"
+      },
+      {
+        "id": "analysis:x:2109873287853707513",
+        "event_type": "post_analysis",
+        "created_at": 1791868528,
+        "details": "{\"related\":[{\"xStatusId\":\"2109812360596865224\",\"url\":\"https://x.com/thsottiaux/status/2109812360596865224\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Global reset landing by EOD PST time. Enjoy\",\"provenance\":\"feed\",\"publishedAt\":1791853439}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"What would you like with your side of reset?\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -5105,6 +5145,14 @@
         "sent_at": 1791853531
       },
       {
+        "id": "post:x:2109873287853707513",
+        "post_id": "x:2109873287853707513",
+        "kind": "alert",
+        "created_at": 1791868528,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -5204,8 +5252,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791867932,
-    "lastRssAttemptAt": 1791867932,
+    "lastRssSuccessAt": 1791868528,
+    "lastRssAttemptAt": 1791868528,
     "sourceState": "online",
     "error": null
   }
