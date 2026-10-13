@@ -4149,13 +4149,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 186
+      },
+      {
+        "id": "x:2109831908620390553",
+        "x_status_id": "2109831908620390553",
+        "canonical_url": "https://x.com/thsottiaux/status/2109831908620390553",
+        "fingerprint": "5f557556d81bb48fba1934a56da70ba0fe5723a2623c4de9fc17ad8cb74448bf",
+        "published_at": 1791858100,
+        "detected_at": 1791858330,
+        "text": "Perhaps I shall try to explain. There are significant differences between the 6.1 generation and prior models and therefore the optimal defaults are different between GPT-6 Astra and GPT-6.1 Sol. \n\nAnd even for 6.1 Sol we wanted to be careful with the change and make sure we felt good about the results. We do now and therefore we changed it.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 230
+      },
+      {
+        "id": "x:2109832216029352391",
+        "x_status_id": "2109832216029352391",
+        "canonical_url": "https://x.com/thsottiaux/status/2109832216029352391",
+        "fingerprint": "8e9f48d2b691ddbdac9d79636a732259e85f24fea91bd10491cea0f2132278d4",
+        "published_at": 1791858173,
+        "detected_at": 1791858330,
+        "text": "@TimJayas I think we could ship absolutely nothing and be fine. But we will ship pretty insane things instead.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 157
+      },
+      {
+        "id": "x:2109832541956194798",
+        "x_status_id": "2109832541956194798",
+        "canonical_url": "https://x.com/thsottiaux/status/2109832541956194798",
+        "fingerprint": "dd30d34987ed392dce284249be1e98764e30feb2a7c61da4ea4a042b8c331c1e",
+        "published_at": 1791858251,
+        "detected_at": 1791858330,
+        "text": "@aliansarinik @hark_labs @OpenAI Nice",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 79
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791857732,
+        "last_success_at": 1791858330,
         "last_failure_at": 1791857131,
         "offline_since": null,
         "failure_episodes": 179,
@@ -4185,7 +4236,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791857732"
+        "value": "1791858330"
       }
     ],
     "events": [
@@ -5119,8 +5170,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791857732,
-    "lastRssAttemptAt": 1791857732,
+    "lastRssSuccessAt": 1791858330,
+    "lastRssAttemptAt": 1791858330,
     "sourceState": "online",
     "error": null
   }
