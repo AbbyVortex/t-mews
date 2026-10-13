@@ -3962,13 +3962,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 243
+      },
+      {
+        "id": "x:2110151780478927344",
+        "x_status_id": "2110151780478927344",
+        "canonical_url": "https://x.com/thsottiaux/status/2110151780478927344",
+        "fingerprint": "0c8afc365b7ae5a142e841f1aef3ea3c0e1f072ea74d213dae75e0b7e120ab35",
+        "published_at": 1791934363,
+        "detected_at": 1791934528,
+        "text": "Day 9/\n\nWe've rolled out optimizations to how we store state on disk for the chatgpt & codex desktop app that should reduce the amount stored on disk by 60%. Small ship but we've heard enough feedback about power users running out of disk space.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 165
+      },
+      {
+        "id": "x:2110152344029778279",
+        "x_status_id": "2110152344029778279",
+        "canonical_url": "https://x.com/thsottiaux/status/2110152344029778279",
+        "fingerprint": "2e500aee45171a126fa453b9695e0efd95a7e09f5d6a38cbbe2fd0c2dc4f2baf",
+        "published_at": 1791934498,
+        "detected_at": 1791934528,
+        "text": "@StefanoGPT Legit how I look like. Must have trained on my face data",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 30
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791933927,
+        "last_success_at": 1791934528,
         "last_failure_at": 1791926130,
         "offline_since": null,
         "failure_episodes": 189,
@@ -3998,7 +4032,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791933927"
+        "value": "1791934528"
       }
     ],
     "events": [
@@ -4928,8 +4962,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791933927,
-    "lastRssAttemptAt": 1791933927,
+    "lastRssSuccessAt": 1791934528,
+    "lastRssAttemptAt": 1791934528,
     "sourceState": "online",
     "error": null
   }
