@@ -4268,13 +4268,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 558
+      },
+      {
+        "id": "x:2109892247580000595",
+        "x_status_id": "2109892247580000595",
+        "canonical_url": "https://x.com/thsottiaux/status/2109892247580000595",
+        "fingerprint": "d3b56b316bed77fceaee12e9a49fe92d0db3ca02d6525ef45dee70f9701a9741",
+        "published_at": 1791872486,
+        "detected_at": 1791872729,
+        "text": "Good plans are simple. I have one that should result in significantly more usage for everyone. Hope to get it done soon.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 243
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791872130,
+        "last_success_at": 1791872729,
         "last_failure_at": 1791870328,
         "offline_since": null,
         "failure_episodes": 181,
@@ -4304,7 +4321,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791872130"
+        "value": "1791872729"
       }
     ],
     "events": [
@@ -5258,8 +5275,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791872130,
-    "lastRssAttemptAt": 1791872130,
+    "lastRssSuccessAt": 1791872729,
+    "lastRssAttemptAt": 1791872729,
     "sourceState": "online",
     "error": null
   }
