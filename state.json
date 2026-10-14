@@ -3996,13 +3996,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 30
+      },
+      {
+        "id": "x:2110167061632819447",
+        "x_status_id": "2110167061632819447",
+        "canonical_url": "https://x.com/thsottiaux/status/2110167061632819447",
+        "fingerprint": "3bdcc5e77b26aadaeb0a0c5f87ebf36fe128554e417af6c222c097f6dd9e6515",
+        "published_at": 1791938007,
+        "detected_at": 1791938133,
+        "text": "@argofowl 👁️tibo👁️",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 126
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791937531,
+        "last_success_at": 1791938133,
         "last_failure_at": 1791926130,
         "offline_since": null,
         "failure_episodes": 189,
@@ -4032,7 +4049,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791937531"
+        "value": "1791938133"
       }
     ],
     "events": [
@@ -4962,8 +4979,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791937531,
-    "lastRssAttemptAt": 1791937531,
+    "lastRssSuccessAt": 1791938133,
+    "lastRssAttemptAt": 1791938133,
     "sourceState": "online",
     "error": null
   }
