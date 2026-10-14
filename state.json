@@ -4013,13 +4013,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 126
+      },
+      {
+        "id": "x:2110188326422819047",
+        "x_status_id": "2110188326422819047",
+        "canonical_url": "https://x.com/thsottiaux/status/2110188326422819047",
+        "fingerprint": "d4014cf50b8c77b2797ee248dd6b14a904f180004a4872b361629bdc3b113f1e",
+        "published_at": 1791943077,
+        "detected_at": 1791943530,
+        "text": "@charliermarsh 😅",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 453
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1791942931,
+        "last_success_at": 1791943530,
         "last_failure_at": 1791926130,
         "offline_since": null,
         "failure_episodes": 189,
@@ -4049,7 +4066,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1791942931"
+        "value": "1791943530"
       }
     ],
     "events": [
@@ -4979,8 +4996,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1791942931,
-    "lastRssAttemptAt": 1791942931,
+    "lastRssSuccessAt": 1791943530,
+    "lastRssAttemptAt": 1791943530,
     "sourceState": "online",
     "error": null
   }
