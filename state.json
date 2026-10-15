@@ -3163,13 +3163,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 250
+      },
+      {
+        "id": "x:2110864606088593672",
+        "x_status_id": "2110864606088593672",
+        "canonical_url": "https://x.com/thsottiaux/status/2110864606088593672",
+        "fingerprint": "121d40364185a20fcc83d00f57154e8634aa6b77baa4cd000a310a668565d08a",
+        "published_at": 1792104314,
+        "detected_at": 1792104329,
+        "text": "Bonjour",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 15
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792103732,
+        "last_success_at": 1792104329,
         "last_failure_at": 1792092930,
         "offline_since": null,
         "failure_episodes": 196,
@@ -3199,7 +3216,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792103732"
+        "value": "1792104329"
       }
     ],
     "events": [
@@ -3430,6 +3447,12 @@
         "event_type": "post_analysis",
         "created_at": 1792046129,
         "details": "{\"related\":[{\"xStatusId\":\"2110595554036400151\",\"url\":\"https://x.com/thsottiaux/status/2110595554036400151\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Landing within the next 2 hours\",\"provenance\":\"feed\",\"publishedAt\":1792040167}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Done and dusted\"}}"
+      },
+      {
+        "id": "analysis:x:2110864606088593672",
+        "event_type": "post_analysis",
+        "created_at": 1792104329,
+        "details": "{\"related\":[{\"xStatusId\":\"2110797830361436604\",\"url\":\"https://x.com/OpenAI/status/2110797830361436604\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"New voices. Better accents. And less \\\"checking...\\\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Japanese. Rolling out today to all users. Coming soon to the API.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Bonjour\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4113,8 +4136,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792103732,
-    "lastRssAttemptAt": 1792103732,
+    "lastRssSuccessAt": 1792104329,
+    "lastRssAttemptAt": 1792104329,
     "sourceState": "online",
     "error": null
   }
