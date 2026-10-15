@@ -3384,13 +3384,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 436
+      },
+      {
+        "id": "x:2110624335463584028",
+        "x_status_id": "2110624335463584028",
+        "canonical_url": "https://x.com/thsottiaux/status/2110624335463584028",
+        "fingerprint": "f49730cd5566e8d0d1842826c6fa095c46682c50dd8a986f39746221936c782b",
+        "published_at": 1792047029,
+        "detected_at": 1792047333,
+        "text": "@theo Nice. Will fix",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 304
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792046858,
+        "last_success_at": 1792047333,
         "last_failure_at": 1792001742,
         "offline_since": null,
         "failure_episodes": 194,
@@ -3420,7 +3437,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792046858"
+        "value": "1792047333"
       }
     ],
     "events": [
@@ -4358,8 +4375,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792046858,
-    "lastRssAttemptAt": 1792046858,
+    "lastRssSuccessAt": 1792047333,
+    "lastRssAttemptAt": 1792047333,
     "sourceState": "online",
     "error": null
   }
