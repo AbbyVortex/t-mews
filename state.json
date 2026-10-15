@@ -3282,13 +3282,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 353
+      },
+      {
+        "id": "x:2110595484180214059",
+        "x_status_id": "2110595484180214059",
+        "canonical_url": "https://x.com/thsottiaux/status/2110595484180214059",
+        "fingerprint": "3887743af18b459bce9cfcbfc189e0690f1f55ea9097e589e704ea6bf12b9988",
+        "published_at": 1792040151,
+        "detected_at": 1792040732,
+        "text": "The reports of my reset button being lost are greatly exaggerated\n\nDay 10/ Reset",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 581
+      },
+      {
+        "id": "x:2110595554036400151",
+        "x_status_id": "2110595554036400151",
+        "canonical_url": "https://x.com/thsottiaux/status/2110595554036400151",
+        "fingerprint": "a49e03f63cf2a4e97b4d43d946527b46a02a039e2f595e36ea090ac9e940020b",
+        "published_at": 1792040167,
+        "detected_at": 1792040732,
+        "text": "Landing within the next 2 hours",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 565
+      },
+      {
+        "id": "x:2110595987542868381",
+        "x_status_id": "2110595987542868381",
+        "canonical_url": "https://x.com/thsottiaux/status/2110595987542868381",
+        "fingerprint": "773e6f5a466d1e00c0e9e7b08ed181da15908dca71bb0e298a9b1f398bf19e37",
+        "published_at": 1792040271,
+        "detected_at": 1792040732,
+        "text": "@amorriscode @poteto @theo If you’re not a bit afraid of your army, it’s not a good army",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 461
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792040129,
+        "last_success_at": 1792040732,
         "last_failure_at": 1792001742,
         "offline_since": null,
         "failure_episodes": 194,
@@ -3318,7 +3369,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792040129"
+        "value": "1792040732"
       }
     ],
     "events": [
@@ -3555,6 +3606,12 @@
         "event_type": "post_analysis",
         "created_at": 1791868528,
         "details": "{\"related\":[{\"xStatusId\":\"2109812360596865224\",\"url\":\"https://x.com/thsottiaux/status/2109812360596865224\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Global reset landing by EOD PST time. Enjoy\",\"provenance\":\"feed\",\"publishedAt\":1791853439}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"What would you like with your side of reset?\"}}"
+      },
+      {
+        "id": "analysis:x:2110595484180214059",
+        "event_type": "post_analysis",
+        "created_at": 1792040732,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"The reports of my reset button being lost are greatly exaggerated\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4131,6 +4188,14 @@
         "sent_at": 1791868528
       },
       {
+        "id": "post:x:2110595484180214059",
+        "post_id": "x:2110595484180214059",
+        "kind": "alert",
+        "created_at": 1792040732,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -4230,8 +4295,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792040129,
-    "lastRssAttemptAt": 1792040129,
+    "lastRssSuccessAt": 1792040732,
+    "lastRssAttemptAt": 1792040732,
     "sourceState": "online",
     "error": null
   }
