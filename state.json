@@ -3401,13 +3401,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 304
+      },
+      {
+        "id": "x:2110750421367287996",
+        "x_status_id": "2110750421367287996",
+        "canonical_url": "https://x.com/thsottiaux/status/2110750421367287996",
+        "fingerprint": "de2dcfef43aebbb2abe9ea78e58cb3ff8ca339bd02ea757824a26993f581c257",
+        "published_at": 1792077090,
+        "detected_at": 1792077340,
+        "text": "Day 11/\n\nWe've landed a series of changes and more compute to very significantly decrease the occurrence of the disruptive \"Selected model is at capacity. Please try a different model\". When it does happen, it should also eventually just continue by itself and not just block on it.\n\nLet us know if you still see it out there in the wild and we'll take a look.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 250
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792076730,
+        "last_success_at": 1792077340,
         "last_failure_at": 1792001742,
         "offline_since": null,
         "failure_episodes": 194,
@@ -3437,7 +3454,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792076730"
+        "value": "1792077340"
       }
     ],
     "events": [
@@ -4375,8 +4392,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792076730,
-    "lastRssAttemptAt": 1792076730,
+    "lastRssSuccessAt": 1792077340,
+    "lastRssAttemptAt": 1792077340,
     "sourceState": "online",
     "error": null
   }
