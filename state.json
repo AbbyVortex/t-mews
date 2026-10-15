@@ -3350,13 +3350,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 182
+      },
+      {
+        "id": "x:2110618507276886392",
+        "x_status_id": "2110618507276886392",
+        "canonical_url": "https://x.com/thsottiaux/status/2110618507276886392",
+        "fingerprint": "c0a126e9845abe1fc763b1ecff535d13679309bce32be3420145df0d9561429b",
+        "published_at": 1792045640,
+        "detected_at": 1792046129,
+        "text": "@theo I believe it is shown at the bottom of your screenshot 🤡 But seriously, when do you need this?",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 489
+      },
+      {
+        "id": "x:2110618732666257557",
+        "x_status_id": "2110618732666257557",
+        "canonical_url": "https://x.com/thsottiaux/status/2110618732666257557",
+        "fingerprint": "2c9e45146745b99fa2fe1f686278869286fa7e39d0796cb8b6ce1a5bdfc3b4d3",
+        "published_at": 1792045693,
+        "detected_at": 1792046129,
+        "text": "Done and dusted",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 436
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792045528,
+        "last_success_at": 1792046129,
         "last_failure_at": 1792001742,
         "offline_since": null,
         "failure_episodes": 194,
@@ -3386,7 +3420,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792045528"
+        "value": "1792046129"
       }
     ],
     "events": [
@@ -3629,6 +3663,12 @@
         "event_type": "post_analysis",
         "created_at": 1792040732,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"The reports of my reset button being lost are greatly exaggerated\"}}"
+      },
+      {
+        "id": "analysis:x:2110618732666257557",
+        "event_type": "post_analysis",
+        "created_at": 1792046129,
+        "details": "{\"related\":[{\"xStatusId\":\"2110595554036400151\",\"url\":\"https://x.com/thsottiaux/status/2110595554036400151\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Landing within the next 2 hours\",\"provenance\":\"feed\",\"publishedAt\":1792040167}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Done and dusted\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4318,8 +4358,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792045528,
-    "lastRssAttemptAt": 1792045528,
+    "lastRssSuccessAt": 1792046129,
+    "lastRssAttemptAt": 1792046129,
     "sourceState": "online",
     "error": null
   }
