@@ -3265,13 +3265,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 216
+      },
+      {
+        "id": "x:2110591392691159317",
+        "x_status_id": "2110591392691159317",
+        "canonical_url": "https://x.com/thsottiaux/status/2110591392691159317",
+        "fingerprint": "e724d698c1110d39139188ea0e58fbaaef0c14afabcef787f461fdea76275d19",
+        "published_at": 1792039175,
+        "detected_at": 1792039528,
+        "text": "@poteto @theo I made it alive",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 353
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792038933,
+        "last_success_at": 1792039528,
         "last_failure_at": 1792001742,
         "offline_since": null,
         "failure_episodes": 194,
@@ -3301,7 +3318,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792038933"
+        "value": "1792039528"
       }
     ],
     "events": [
@@ -4213,8 +4230,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792038933,
-    "lastRssAttemptAt": 1792038933,
+    "lastRssSuccessAt": 1792039528,
+    "lastRssAttemptAt": 1792039528,
     "sourceState": "online",
     "error": null
   }
