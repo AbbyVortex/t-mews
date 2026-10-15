@@ -3333,13 +3333,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 461
+      },
+      {
+        "id": "x:2110612268962779352",
+        "x_status_id": "2110612268962779352",
+        "canonical_url": "https://x.com/thsottiaux/status/2110612268962779352",
+        "fingerprint": "6f8bd55d42a2b25eb94a874935b02ee062fb86ae61a2a3b566235e4bdceb7386",
+        "published_at": 1792044152,
+        "detected_at": 1792044334,
+        "text": "@ZryMiller @bot @theo Oh Zach, let’s improve this. You look rad today",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 182
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792043732,
+        "last_success_at": 1792044334,
         "last_failure_at": 1792001742,
         "offline_since": null,
         "failure_episodes": 194,
@@ -3369,7 +3386,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792043732"
+        "value": "1792044334"
       }
     ],
     "events": [
@@ -4301,8 +4318,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792043732,
-    "lastRssAttemptAt": 1792043732,
+    "lastRssSuccessAt": 1792044334,
+    "lastRssAttemptAt": 1792044334,
     "sourceState": "online",
     "error": null
   }
