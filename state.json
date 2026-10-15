@@ -3248,13 +3248,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 453
+      },
+      {
+        "id": "x:2110589470911418414",
+        "x_status_id": "2110589470911418414",
+        "canonical_url": "https://x.com/thsottiaux/status/2110589470911418414",
+        "fingerprint": "00b976eacaf5bfb3dbebba6e9d445ef39c4fcebc86c7a2845e4be28c3e8b5f66",
+        "published_at": 1792038717,
+        "detected_at": 1792038933,
+        "text": "@theo Sometimes I do need to work",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 216
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792038329,
+        "last_success_at": 1792038933,
         "last_failure_at": 1792001742,
         "offline_since": null,
         "failure_episodes": 194,
@@ -3284,7 +3301,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792038329"
+        "value": "1792038933"
       }
     ],
     "events": [
@@ -4196,8 +4213,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792038329,
-    "lastRssAttemptAt": 1792038329,
+    "lastRssSuccessAt": 1792038933,
+    "lastRssAttemptAt": 1792038933,
     "sourceState": "online",
     "error": null
   }
