@@ -3248,13 +3248,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 276
+      },
+      {
+        "id": "x:2110971985417441512",
+        "x_status_id": "2110971985417441512",
+        "canonical_url": "https://x.com/thsottiaux/status/2110971985417441512",
+        "fingerprint": "36082baf8e2a55024333bd79d10ce49b35083aa6af3847196c964b76b750d095",
+        "published_at": 1792129915,
+        "detected_at": 1792130133,
+        "text": "Either we are out of ideas or we are cooking. Time will tell",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 218
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792129529,
+        "last_success_at": 1792130133,
         "last_failure_at": 1792127731,
         "offline_since": null,
         "failure_episodes": 199,
@@ -3284,7 +3301,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792129529"
+        "value": "1792130133"
       }
     ],
     "events": [
@@ -4204,8 +4221,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792129529,
-    "lastRssAttemptAt": 1792129529,
+    "lastRssSuccessAt": 1792130133,
+    "lastRssAttemptAt": 1792130133,
     "sourceState": "online",
     "error": null
   }
