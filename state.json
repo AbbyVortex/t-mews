@@ -3095,13 +3095,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 218
+      },
+      {
+        "id": "x:2111244596131111253",
+        "x_status_id": "2111244596131111253",
+        "canonical_url": "https://x.com/thsottiaux/status/2111244596131111253",
+        "fingerprint": "e1968677c9ff41ad6eee4642847bf8e65af48a494054e7a9da151afaa759c5df",
+        "published_at": 1792194911,
+        "detected_at": 1792194932,
+        "text": "Day 12/\n\nWe’ve made improvements to Codex & Work that increase the effective usage you get. We achieved this by reusing context across subagents, keeping context cached longer, and improved request routing that allows us to increase cache hits.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 21
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792194329,
+        "last_success_at": 1792194932,
         "last_failure_at": 1792189532,
         "offline_since": null,
         "failure_episodes": 205,
@@ -3131,7 +3148,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792194329"
+        "value": "1792194932"
       }
     ],
     "events": [
@@ -4021,8 +4038,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792194329,
-    "lastRssAttemptAt": 1792194329,
+    "lastRssSuccessAt": 1792194932,
+    "lastRssAttemptAt": 1792194932,
     "sourceState": "online",
     "error": null
   }
