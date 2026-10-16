@@ -3214,13 +3214,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 371
+      },
+      {
+        "id": "x:2110951220508819773",
+        "x_status_id": "2110951220508819773",
+        "canonical_url": "https://x.com/thsottiaux/status/2110951220508819773",
+        "fingerprint": "060e85772fd60dbb7ae90bdee39d7f064eeb72bd12286c758dee5ba94eaee224",
+        "published_at": 1792124965,
+        "detected_at": 1792125328,
+        "text": "@charlierguo ?",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 363
+      },
+      {
+        "id": "x:2110951585983631505",
+        "x_status_id": "2110951585983631505",
+        "canonical_url": "https://x.com/thsottiaux/status/2110951585983631505",
+        "fingerprint": "a1773a4abf6a11ebe79990877c6255c2ac473cce5d450208a9e765a414821268",
+        "published_at": 1792125052,
+        "detected_at": 1792125328,
+        "text": "@maria_rcks Can’t argue with that, Let’s break the cycle.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 276
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792124731,
+        "last_success_at": 1792125328,
         "last_failure_at": 1792124131,
         "offline_since": null,
         "failure_episodes": 198,
@@ -3250,7 +3284,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792124731"
+        "value": "1792125328"
       }
     ],
     "events": [
@@ -4170,8 +4204,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792124731,
-    "lastRssAttemptAt": 1792124731,
+    "lastRssSuccessAt": 1792125328,
+    "lastRssAttemptAt": 1792125328,
     "sourceState": "online",
     "error": null
   }
