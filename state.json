@@ -3,176 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2105828364879876207",
-        "x_status_id": "2105828364879876207",
-        "canonical_url": "https://x.com/thsottiaux/status/2105828364879876207",
-        "fingerprint": "efc90e2352c645063f32a9fb1eba409f9980082facd7d2bc379c8948cbb555b4",
-        "published_at": 1790903581,
-        "detected_at": 1790908493,
-        "text": "@QuinnyPig And it will get better every day",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 4912
-      },
-      {
-        "id": "x:2105843550936302055",
-        "x_status_id": "2105843550936302055",
-        "canonical_url": "https://x.com/thsottiaux/status/2105843550936302055",
-        "fingerprint": "3ce4a9d5340404ce36ed70c204cc7f42c0fd4c666e2181da6a9ad9358c6a2fda",
-        "published_at": 1790907201,
-        "detected_at": 1790908493,
-        "text": "@_simonsmith Codex Manhattan Project 👀",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 1292
-      },
-      {
-        "id": "x:2105843926221660585",
-        "x_status_id": "2105843926221660585",
-        "canonical_url": "https://x.com/thsottiaux/status/2105843926221660585",
-        "fingerprint": "0c7c4f9720dc162ff30f75d6f55a4c409500b219c5e7e1356b3cf70526199bb1",
-        "published_at": 1790907291,
-        "detected_at": 1790908493,
-        "text": "Global reset landing tomorrow 10am PST for all paid ChatGPT accounts. Apologies for the slow start with GPT-6.1 Sol, it's now back to running at expected speeds after the massive load spike in the first two days.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 1202
-      },
-      {
-        "id": "x:2105844753522938214",
-        "x_status_id": "2105844753522938214",
-        "canonical_url": "https://x.com/thsottiaux/status/2105844753522938214",
-        "fingerprint": "95cdbd2a9ab8d85ddf0858d8dc62b089e595aae4ac96e8537c7694972efd952b",
-        "published_at": 1790907488,
-        "detected_at": 1790908493,
-        "text": "@ziwenxu_ Sir Dot Claw",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 1005
-      },
-      {
-        "id": "x:2105862010521219406",
-        "x_status_id": "2105862010521219406",
-        "canonical_url": "https://x.com/thsottiaux/status/2105862010521219406",
-        "fingerprint": "b41a2bcfcd0e8e3d3d91bbc7aff9134aef4dd8656df546230421d1ffb90f7587",
-        "published_at": 1790911602,
-        "detected_at": 1790931516,
-        "text": "You can ask your dot to \"create a pet and set it as your avatar\". It can be based on an idea, an image or pretty much anything. Here is my dot\n\nMedia",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 19914
-      },
-      {
-        "id": "x:2105863294267560169",
-        "x_status_id": "2105863294267560169",
-        "canonical_url": "https://x.com/thsottiaux/status/2105863294267560169",
-        "fingerprint": "063253f2bb1c142820d537f1d292551005531096b334f827ddcd7331bd6e067b",
-        "published_at": 1790911909,
-        "detected_at": 1790931516,
-        "text": "@dextune Please bask",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 19607
-      },
-      {
-        "id": "x:2105863620433453166",
-        "x_status_id": "2105863620433453166",
-        "canonical_url": "https://x.com/thsottiaux/status/2105863620433453166",
-        "fingerprint": "b022cada188b220476041ed3d5a756cce35950d8c8e07dbf602a19e849ac1611",
-        "published_at": 1790911986,
-        "detected_at": 1790931516,
-        "text": "@hugospdx Wrong strategy?",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 19530
-      },
-      {
-        "id": "x:2105899634032025682",
-        "x_status_id": "2105899634032025682",
-        "canonical_url": "https://x.com/thsottiaux/status/2105899634032025682",
-        "fingerprint": "ee67b52249b09285a17de9723ce52a20ad91c31d33da0e06625c0709defe7e94",
-        "published_at": 1790920573,
-        "detected_at": 1790931516,
-        "text": "Down to 6110 unread from the over 9000 unread emails just earlier. Will get to inbox zero with clean filters within the next 48 hours. Dot has accepted the challenge.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 10943
-      },
-      {
-        "id": "x:2106046594277954010",
-        "x_status_id": "2106046594277954010",
-        "canonical_url": "https://x.com/thsottiaux/status/2106046594277954010",
-        "fingerprint": "b88286cbbf31497023191decb3c7cc37c5a8e8024fafac29811825db54b0e2e4",
-        "published_at": 1790955611,
-        "detected_at": 1790971674,
-        "text": "@koltregaskes Team is working on most of these, stay tuned!",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 16063
-      },
-      {
-        "id": "x:2106131810921136451",
-        "x_status_id": "2106131810921136451",
-        "canonical_url": "https://x.com/thsottiaux/status/2106131810921136451",
-        "fingerprint": "211ff905a6e367efe69461a9c599ad5304fd2a178fa83d611fdd85edfa7f6aec",
-        "published_at": 1790975928,
-        "detected_at": 1790977112,
-        "text": "Reset all propagated. Enjoy.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 1184
-      },
-      {
         "id": "x:2106224612271112207",
         "x_status_id": "2106224612271112207",
         "canonical_url": "https://x.com/thsottiaux/status/2106224612271112207",
@@ -3271,7 +3101,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792190129,
+        "last_success_at": 1792190727,
         "last_failure_at": 1792189532,
         "offline_since": null,
         "failure_episodes": 205,
@@ -3297,32 +3127,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1792103732"
+        "value": "1792190727"
       },
       {
         "key": "lastSuccess",
-        "value": "1792190129"
+        "value": "1792190727"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2105843926221660585",
-        "event_type": "post_analysis",
-        "created_at": 1790908493,
-        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Global reset landing tomorrow 10am PST for all paid ChatGPT accounts.\"}}"
-      },
-      {
-        "id": "analysis:x:2105899634032025682",
-        "event_type": "post_analysis",
-        "created_at": 1790931516,
-        "details": "{\"related\":[{\"xStatusId\":\"2105862010521219406\",\"url\":\"https://x.com/thsottiaux/status/2105862010521219406\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"You can ask your dot to \\\"create a pet and set it as your avatar\\\". It can be based on an idea, an image or pretty much anything. Here is my dot\",\"provenance\":\"feed\",\"publishedAt\":1790911602}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Down to 6110 unread from the over 9000 unread emails just earlier.\"}}"
-      },
-      {
-        "id": "analysis:x:2106131810921136451",
-        "event_type": "post_analysis",
-        "created_at": 1790977112,
-        "details": "{\"related\":[{\"xStatusId\":\"2105843926221660585\",\"url\":\"https://x.com/thsottiaux/status/2105843926221660585\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Global reset landing tomorrow 10am PST for all paid ChatGPT accounts. Apologies for the slow start with GPT-6.1 Sol, it's now back to running at expected speeds after the massive load spike in the first two days.\",\"provenance\":\"feed\",\"publishedAt\":1790907291}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Reset all propagated.\"}}"
-      },
       {
         "id": "analysis:x:2106233145163141249",
         "event_type": "post_analysis",
@@ -3604,18 +3416,6 @@
         "event_type": "notification_sent",
         "created_at": 1791778528,
         "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:post:x:2105843926221660585",
-        "event_type": "notification_sent",
-        "created_at": 1790908493,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2105843926221660585\"}"
-      },
-      {
-        "id": "notification:post:x:2106131810921136451",
-        "event_type": "notification_sent",
-        "created_at": 1790977112,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2106131810921136451\"}"
       },
       {
         "id": "notification:post:x:2106233145163141249",
@@ -4221,8 +4021,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792190129,
-    "lastRssAttemptAt": 1792190129,
+    "lastRssSuccessAt": 1792190727,
+    "lastRssAttemptAt": 1792190727,
     "sourceState": "online",
     "error": null
   }
