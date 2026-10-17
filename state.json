@@ -3316,13 +3316,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 88
+      },
+      {
+        "id": "x:2111341888322314672",
+        "x_status_id": "2111341888322314672",
+        "canonical_url": "https://x.com/thsottiaux/status/2111341888322314672",
+        "fingerprint": "e09033c49dc6fa3c819758f9f707abb4e24b4a7fcecfcde99711d4a85a990a46",
+        "published_at": 1792218107,
+        "detected_at": 1792218329,
+        "text": "@steipete 💀",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 222
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792217729,
+        "last_success_at": 1792218329,
         "last_failure_at": 1792189532,
         "offline_since": null,
         "failure_episodes": 205,
@@ -3352,7 +3369,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792217729"
+        "value": "1792218329"
       }
     ],
     "events": [
@@ -4274,8 +4291,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792217729,
-    "lastRssAttemptAt": 1792217729,
+    "lastRssSuccessAt": 1792218329,
+    "lastRssAttemptAt": 1792218329,
     "sourceState": "online",
     "error": null
   }
