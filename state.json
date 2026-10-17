@@ -3452,13 +3452,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 180
+      },
+      {
+        "id": "x:2111519953564368960",
+        "x_status_id": "2111519953564368960",
+        "canonical_url": "https://x.com/thsottiaux/status/2111519953564368960",
+        "fingerprint": "bde88ab3d272f725eabc8d1368febdebe71acb197d30e3158bd298b0ed8f8ea0",
+        "published_at": 1792260561,
+        "detected_at": 1792260932,
+        "text": "@charliermarsh @ajambrosino Checks out, he was half his usual size today",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 371
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792260329,
+        "last_success_at": 1792260932,
         "last_failure_at": 1792259739,
         "offline_since": null,
         "failure_episodes": 207,
@@ -3488,7 +3505,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792260329"
+        "value": "1792260932"
       }
     ],
     "events": [
@@ -4430,8 +4447,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792260329,
-    "lastRssAttemptAt": 1792260329,
+    "lastRssSuccessAt": 1792260932,
+    "lastRssAttemptAt": 1792260932,
     "sourceState": "online",
     "error": null
   }
