@@ -3214,13 +3214,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 41
+      },
+      {
+        "id": "x:2111249810502353152",
+        "x_status_id": "2111249810502353152",
+        "canonical_url": "https://x.com/thsottiaux/status/2111249810502353152",
+        "fingerprint": "35958692b91346463447f698e84c3157e1d655c4fa0e873ae7cb7d7d7c9a0753",
+        "published_at": 1792196154,
+        "detected_at": 1792196727,
+        "text": "Also we just added slides support yesterday, try it out. Currently available in Pro, Business and Enterprise while we learn from your feedback.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 573
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792196129,
+        "last_success_at": 1792196727,
         "last_failure_at": 1792189532,
         "offline_since": null,
         "failure_episodes": 205,
@@ -3250,7 +3267,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792196129"
+        "value": "1792196727"
       }
     ],
     "events": [
@@ -4172,8 +4189,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792196129,
-    "lastRssAttemptAt": 1792196129,
+    "lastRssSuccessAt": 1792196727,
+    "lastRssAttemptAt": 1792196727,
     "sourceState": "online",
     "error": null
   }
