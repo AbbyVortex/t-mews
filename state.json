@@ -3248,13 +3248,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 376
+      },
+      {
+        "id": "x:2111336070248026489",
+        "x_status_id": "2111336070248026489",
+        "canonical_url": "https://x.com/thsottiaux/status/2111336070248026489",
+        "fingerprint": "29a0a7ce07d949769229fbb5f50f578e410a69f0c0807fd29f9072697855258e",
+        "published_at": 1792216720,
+        "detected_at": 1792217130,
+        "text": "@_simonsmith Getting there",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 410
+      },
+      {
+        "id": "x:2111337472349343856",
+        "x_status_id": "2111337472349343856",
+        "canonical_url": "https://x.com/thsottiaux/status/2111337472349343856",
+        "fingerprint": "870c492967d0b27853b44de5a21fc6bf6b42a2077e014b679cd958f415606c22",
+        "published_at": 1792217054,
+        "detected_at": 1792217130,
+        "text": "@poteto @bot Small @poteto speaks big facts",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 76
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792216530,
+        "last_success_at": 1792217130,
         "last_failure_at": 1792189532,
         "offline_since": null,
         "failure_episodes": 205,
@@ -3284,7 +3318,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792216530"
+        "value": "1792217130"
       }
     ],
     "events": [
@@ -4206,8 +4240,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792216530,
-    "lastRssAttemptAt": 1792216530,
+    "lastRssSuccessAt": 1792217130,
+    "lastRssAttemptAt": 1792217130,
     "sourceState": "online",
     "error": null
   }
