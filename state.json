@@ -3197,13 +3197,30 @@
         "notified": 1,
         "notification_status": "sent",
         "detection_latency_seconds": 258
+      },
+      {
+        "id": "x:2111249534072529256",
+        "x_status_id": "2111249534072529256",
+        "canonical_url": "https://x.com/thsottiaux/status/2111249534072529256",
+        "fingerprint": "45dbb1c87863487a9773d1c5121c23287da2df258b8c87c28eac040ff9ab3c04",
+        "published_at": 1792196088,
+        "detected_at": 1792196129,
+        "text": "What is ChatGPT Space, that is the question. Endearingly awkward at times because it's the actual team working on it. What would you like to see next?\n\nMedia",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 41
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792195527,
+        "last_success_at": 1792196129,
         "last_failure_at": 1792189532,
         "offline_since": null,
         "failure_episodes": 205,
@@ -3233,7 +3250,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792195527"
+        "value": "1792196129"
       }
     ],
     "events": [
@@ -4155,8 +4172,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792195527,
-    "lastRssAttemptAt": 1792195527,
+    "lastRssSuccessAt": 1792196129,
+    "lastRssAttemptAt": 1792196129,
     "sourceState": "online",
     "error": null
   }
