@@ -3333,13 +3333,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 222
+      },
+      {
+        "id": "x:2111491105120547265",
+        "x_status_id": "2111491105120547265",
+        "canonical_url": "https://x.com/thsottiaux/status/2111491105120547265",
+        "fingerprint": "30f8d9a265f884b78f0992a68f1cc7299ce59fb523dd47e48e30ab982f642fac",
+        "published_at": 1792253683,
+        "detected_at": 1792253728,
+        "text": "@poteto Close, but it's missing the gpt",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 45
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792253132,
+        "last_success_at": 1792253728,
         "last_failure_at": 1792246528,
         "offline_since": null,
         "failure_episodes": 206,
@@ -3369,7 +3386,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792253132"
+        "value": "1792253728"
       }
     ],
     "events": [
@@ -4291,8 +4308,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792253132,
-    "lastRssAttemptAt": 1792253132,
+    "lastRssSuccessAt": 1792253728,
+    "lastRssAttemptAt": 1792253728,
     "sourceState": "online",
     "error": null
   }
