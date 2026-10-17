@@ -3350,13 +3350,81 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 45
+      },
+      {
+        "id": "x:2111492028177723532",
+        "x_status_id": "2111492028177723532",
+        "canonical_url": "https://x.com/thsottiaux/status/2111492028177723532",
+        "fingerprint": "cd1dccaae85de1180b9df4e9e4d9599bbaf0b020e623ace52823422207696e0c",
+        "published_at": 1792253903,
+        "detected_at": 1792254332,
+        "text": "Is it just me or was @ajambrosino nerfed today",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 429
+      },
+      {
+        "id": "x:2111492673890824348",
+        "x_status_id": "2111492673890824348",
+        "canonical_url": "https://x.com/thsottiaux/status/2111492673890824348",
+        "fingerprint": "f1e66d6cb294f14a2560e07d6e32e11dadc479d9d9715ecc4a4edadcef56e56b",
+        "published_at": 1792254057,
+        "detected_at": 1792254332,
+        "text": "Day 13/ Le limit reset",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 275
+      },
+      {
+        "id": "x:2111492738025959922",
+        "x_status_id": "2111492738025959922",
+        "canonical_url": "https://x.com/thsottiaux/status/2111492738025959922",
+        "fingerprint": "5a200d5b4cec21b7965391ffc4f22f46e4e8e1df02f0d079516e0ffe144b5983",
+        "published_at": 1792254073,
+        "detected_at": 1792254332,
+        "text": "Landing sometime today by EOD PST",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 259
+      },
+      {
+        "id": "x:2111493076850229733",
+        "x_status_id": "2111493076850229733",
+        "canonical_url": "https://x.com/thsottiaux/status/2111493076850229733",
+        "fingerprint": "95b1cf63033f97bf2159078de85a4f878822092eb075026fd5cd1fa5b3acc413",
+        "published_at": 1792254153,
+        "detected_at": 1792254332,
+        "text": "@ajambrosino 2+2?",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 179
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792253728,
+        "last_success_at": 1792254332,
         "last_failure_at": 1792246528,
         "offline_since": null,
         "failure_episodes": 206,
@@ -3386,7 +3454,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792253728"
+        "value": "1792254332"
       }
     ],
     "events": [
@@ -3623,6 +3691,12 @@
         "event_type": "post_analysis",
         "created_at": 1792195527,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@codex_resets Mehga ghud\"}}"
+      },
+      {
+        "id": "analysis:x:2111492673890824348",
+        "event_type": "post_analysis",
+        "created_at": 1792254332,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Day 13/ Le limit reset\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4209,6 +4283,14 @@
         "sent_at": 1792195527
       },
       {
+        "id": "post:x:2111492673890824348",
+        "post_id": "x:2111492673890824348",
+        "kind": "alert",
+        "created_at": 1792254332,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -4308,8 +4390,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792253728,
-    "lastRssAttemptAt": 1792253728,
+    "lastRssSuccessAt": 1792254332,
+    "lastRssAttemptAt": 1792254332,
     "sourceState": "online",
     "error": null
   }
