@@ -3418,13 +3418,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 179
+      },
+      {
+        "id": "x:2111495392559067199",
+        "x_status_id": "2111495392559067199",
+        "canonical_url": "https://x.com/thsottiaux/status/2111495392559067199",
+        "fingerprint": "16ef79d224c9bc5c3b6c39c6465324a0c1d1adb7c37ce3ab8786e3682977b3c7",
+        "published_at": 1792254705,
+        "detected_at": 1792254928,
+        "text": "My work dot \"Burger\" coordinated with my personal dot \"Dorito\" over email at my personal dots request to get documents, which then coordinated with with my CPA in order to file some tax stuff. Took 20 minutes. We're still so early.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 223
+      },
+      {
+        "id": "x:2111495569806065883",
+        "x_status_id": "2111495569806065883",
+        "canonical_url": "https://x.com/thsottiaux/status/2111495569806065883",
+        "fingerprint": "c6e8f6ac8a66e7cdaee156fa0d2534cd69b32600b85e31e533ef99dff9058f43",
+        "published_at": 1792254748,
+        "detected_at": 1792254928,
+        "text": "@ajambrosino @ah20im start a ghost in the machine tactical squad, we've got a degradation",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 180
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792254332,
+        "last_success_at": 1792254928,
         "last_failure_at": 1792246528,
         "offline_since": null,
         "failure_episodes": 206,
@@ -3454,7 +3488,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792254332"
+        "value": "1792254928"
       }
     ],
     "events": [
@@ -4396,8 +4430,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792254332,
-    "lastRssAttemptAt": 1792254332,
+    "lastRssSuccessAt": 1792254928,
+    "lastRssAttemptAt": 1792254928,
     "sourceState": "online",
     "error": null
   }
