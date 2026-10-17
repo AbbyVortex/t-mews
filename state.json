@@ -3112,13 +3112,98 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 21
+      },
+      {
+        "id": "x:2111244957851984181",
+        "x_status_id": "2111244957851984181",
+        "canonical_url": "https://x.com/thsottiaux/status/2111244957851984181",
+        "fingerprint": "601eea8f0fe89726d596ce04fa8c032ead94e4895633d0cf6fba12c3dd97e633",
+        "published_at": 1792194997,
+        "detected_at": 1792195527,
+        "text": "We also significantly improved GPT-6 Pro for all pro users\n\nhttps://x.com/OpenAI/status/2111192259073094035",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 530
+      },
+      {
+        "id": "x:2111245052513259606",
+        "x_status_id": "2111245052513259606",
+        "canonical_url": "https://x.com/thsottiaux/status/2111245052513259606",
+        "fingerprint": "9d38ba886a18deb7eec31230d9708084246365ff2a173518986a979e4ba5bc6b",
+        "published_at": 1792195020,
+        "detected_at": 1792195527,
+        "text": "And update your app to enjoy this gem\n\nhttps://x.com/Gavmn/status/2111136119945396436",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 507
+      },
+      {
+        "id": "x:2111245443917385980",
+        "x_status_id": "2111245443917385980",
+        "canonical_url": "https://x.com/thsottiaux/status/2111245443917385980",
+        "fingerprint": "bcce60febc487320580c41726b07eb0e2e16e9417baa69b6fb2823e1fe4768b1",
+        "published_at": 1792195113,
+        "detected_at": 1792195527,
+        "text": "@koltregaskes Thanks Kol!",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 414
+      },
+      {
+        "id": "x:2111245772645896573",
+        "x_status_id": "2111245772645896573",
+        "canonical_url": "https://x.com/thsottiaux/status/2111245772645896573",
+        "fingerprint": "0c5bf09636c9d3d4bd0527e3c6815174f7d1e74a3350adec31b7e793094d9af3",
+        "published_at": 1792195191,
+        "detected_at": 1792195527,
+        "text": "@theo How many packs do you smoke per day?",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 336
+      },
+      {
+        "id": "x:2111246098207813946",
+        "x_status_id": "2111246098207813946",
+        "canonical_url": "https://x.com/thsottiaux/status/2111246098207813946",
+        "fingerprint": "7a89ba026bea2b75301b555c6174b703379179a1bb30a72ee756f01ea049d3a4",
+        "published_at": 1792195269,
+        "detected_at": 1792195527,
+        "text": "@codex_resets Mehga ghud",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 258
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792195054,
+        "last_success_at": 1792195527,
         "last_failure_at": 1792189532,
         "offline_since": null,
         "failure_episodes": 205,
@@ -3148,7 +3233,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792195054"
+        "value": "1792195527"
       }
     ],
     "events": [
@@ -3367,6 +3452,24 @@
         "event_type": "post_analysis",
         "created_at": 1792104329,
         "details": "{\"related\":[{\"xStatusId\":\"2110797830361436604\",\"url\":\"https://x.com/OpenAI/status/2110797830361436604\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"New voices. Better accents. And less \\\"checking...\\\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Japanese. Rolling out today to all users. Coming soon to the API.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Bonjour\"}}"
+      },
+      {
+        "id": "analysis:x:2111244957851984181",
+        "event_type": "post_analysis",
+        "created_at": 1792195527,
+        "details": "{\"related\":[{\"xStatusId\":\"2111192259073094035\",\"url\":\"https://x.com/OpenAI/status/2111192259073094035\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. And now, multiple agents can tackle different parts of a task in parallel. You can follow each agent’s progress and open completed tasks to review their work. Now available to P…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"We also significantly improved GPT-6 Pro for all pro users\"}}"
+      },
+      {
+        "id": "analysis:x:2111245052513259606",
+        "event_type": "post_analysis",
+        "created_at": 1792195527,
+        "details": "{\"related\":[{\"xStatusId\":\"2111136119945396436\",\"url\":\"https://x.com/Gavmn/status/2111136119945396436\",\"author\":\"Gavmn\",\"relation\":\"quote\",\"text\":\"Dots, now on your Home Screen\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"And update your app to enjoy this gem\"}}"
+      },
+      {
+        "id": "analysis:x:2111246098207813946",
+        "event_type": "post_analysis",
+        "created_at": 1792195527,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@codex_resets Mehga ghud\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -3939,6 +4042,14 @@
         "sent_at": 1792040732
       },
       {
+        "id": "post:x:2111246098207813946",
+        "post_id": "x:2111246098207813946",
+        "kind": "alert",
+        "created_at": 1792195527,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -4038,8 +4149,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792195054,
-    "lastRssAttemptAt": 1792195054,
+    "lastRssSuccessAt": 1792195527,
+    "lastRssAttemptAt": 1792195527,
     "sourceState": "online",
     "error": null
   }
