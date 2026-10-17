@@ -3231,13 +3231,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 573
+      },
+      {
+        "id": "x:2111323620471632217",
+        "x_status_id": "2111323620471632217",
+        "canonical_url": "https://x.com/thsottiaux/status/2111323620471632217",
+        "fingerprint": "e1561734f46aa9a17bb17e59f1ad19ed64f178bb9bfb4e672e10e56e2e67fad4",
+        "published_at": 1792213752,
+        "detected_at": 1792214128,
+        "text": "@StefanoGPT @OpenAI",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 376
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792213527,
+        "last_success_at": 1792214128,
         "last_failure_at": 1792189532,
         "offline_since": null,
         "failure_episodes": 205,
@@ -3267,7 +3284,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792213527"
+        "value": "1792214128"
       }
     ],
     "events": [
@@ -4189,8 +4206,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792213527,
-    "lastRssAttemptAt": 1792213527,
+    "lastRssSuccessAt": 1792214128,
+    "lastRssAttemptAt": 1792214128,
     "sourceState": "online",
     "error": null
   }
