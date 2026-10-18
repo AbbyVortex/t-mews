@@ -3350,13 +3350,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 312
+      },
+      {
+        "id": "x:2111918635849801739",
+        "x_status_id": "2111918635849801739",
+        "canonical_url": "https://x.com/thsottiaux/status/2111918635849801739",
+        "fingerprint": "406d902443081268aa2821a176425673ad7096dffa678e8d6d12587a553a5e5a",
+        "published_at": 1792355614,
+        "detected_at": 1792355731,
+        "text": "@littlelion_love We’ll see",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 117
+      },
+      {
+        "id": "x:2111918768733753664",
+        "x_status_id": "2111918768733753664",
+        "canonical_url": "https://x.com/thsottiaux/status/2111918768733753664",
+        "fingerprint": "aa4552f846c3cecabefde2cd998e4b63d0589a7334ad4aecda1a3223db9fa0b8",
+        "published_at": 1792355646,
+        "detected_at": 1792355731,
+        "text": "People have escaped the TL and are asking me for resets on the street now. I’ll make little cards to hand out",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 85
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792355129,
+        "last_success_at": 1792355731,
         "last_failure_at": 1792351529,
         "offline_since": null,
         "failure_episodes": 212,
@@ -3386,7 +3420,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792355129"
+        "value": "1792355731"
       }
     ],
     "events": [
@@ -3617,6 +3651,12 @@
         "event_type": "post_analysis",
         "created_at": 1792254332,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Day 13/ Le limit reset\"}}"
+      },
+      {
+        "id": "analysis:x:2111918768733753664",
+        "event_type": "post_analysis",
+        "created_at": 1792355731,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"People have escaped the TL and are asking me for resets on the street now.\"}}"
       },
       {
         "id": "notification:offline:1791101351",
@@ -4205,6 +4245,14 @@
         "sent_at": 1792254332
       },
       {
+        "id": "post:x:2111918768733753664",
+        "post_id": "x:2111918768733753664",
+        "kind": "alert",
+        "created_at": 1792355731,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -4304,8 +4352,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792355129,
-    "lastRssAttemptAt": 1792355129,
+    "lastRssSuccessAt": 1792355731,
+    "lastRssAttemptAt": 1792355731,
     "sourceState": "online",
     "error": null
   }
