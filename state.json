@@ -3333,13 +3333,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 141
+      },
+      {
+        "id": "x:2111849858374177222",
+        "x_status_id": "2111849858374177222",
+        "canonical_url": "https://x.com/thsottiaux/status/2111849858374177222",
+        "fingerprint": "cb01d85744ebe8ed4a4911347b6ee354ad6de552e233c96cfc533ab9ed0d9a27",
+        "published_at": 1792339217,
+        "detected_at": 1792339529,
+        "text": "What’s cooking today",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 312
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792338931,
+        "last_success_at": 1792339529,
         "last_failure_at": 1792335932,
         "offline_since": null,
         "failure_episodes": 211,
@@ -3369,7 +3386,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792338931"
+        "value": "1792339529"
       }
     ],
     "events": [
@@ -4287,8 +4304,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792338931,
-    "lastRssAttemptAt": 1792338931,
+    "lastRssSuccessAt": 1792339529,
+    "lastRssAttemptAt": 1792339529,
     "sourceState": "online",
     "error": null
   }
