@@ -3384,13 +3384,30 @@
         "notified": 1,
         "notification_status": "sent",
         "detection_latency_seconds": 85
+      },
+      {
+        "id": "x:2111941223187710114",
+        "x_status_id": "2111941223187710114",
+        "canonical_url": "https://x.com/thsottiaux/status/2111941223187710114",
+        "fingerprint": "30aa16e16a8f1b5ad94a99c737dd00fc069195eba1e362de80309df50c243781",
+        "published_at": 1792361000,
+        "detected_at": 1792361128,
+        "text": "@LexnLin We do care about local regulation",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 128
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792360532,
+        "last_success_at": 1792361128,
         "last_failure_at": 1792351529,
         "offline_since": null,
         "failure_episodes": 212,
@@ -3420,7 +3437,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792360532"
+        "value": "1792361128"
       }
     ],
     "events": [
@@ -4358,8 +4375,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792360532,
-    "lastRssAttemptAt": 1792360532,
+    "lastRssSuccessAt": 1792361128,
+    "lastRssAttemptAt": 1792361128,
     "sourceState": "online",
     "error": null
   }
