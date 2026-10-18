@@ -3299,13 +3299,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 114
+      },
+      {
+        "id": "x:2111687989328011357",
+        "x_status_id": "2111687989328011357",
+        "canonical_url": "https://x.com/thsottiaux/status/2111687989328011357",
+        "fingerprint": "7e22b5389508fc700abe4191196f8091daec643531d91f0200a6ba8a25bcc585",
+        "published_at": 1792300624,
+        "detected_at": 1792301128,
+        "text": "@rl_env Quick to jump to conclusion. This is my OpenAI work dot coordinating with my personal dot. Two entirely separate accounts.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 504
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792300529,
+        "last_success_at": 1792301128,
         "last_failure_at": 1792281326,
         "offline_since": null,
         "failure_episodes": 208,
@@ -3335,7 +3352,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792300529"
+        "value": "1792301128"
       }
     ],
     "events": [
@@ -4253,8 +4270,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792300529,
-    "lastRssAttemptAt": 1792300529,
+    "lastRssSuccessAt": 1792301128,
+    "lastRssAttemptAt": 1792301128,
     "sourceState": "online",
     "error": null
   }
