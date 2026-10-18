@@ -3,295 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2106541589007114420",
-        "x_status_id": "2106541589007114420",
-        "canonical_url": "https://x.com/thsottiaux/status/2106541589007114420",
-        "fingerprint": "818ceb4db3cb8195277d9802786d80bdeb4300c7810b13506bfc30bb6ecd122a",
-        "published_at": 1791073627,
-        "detected_at": 1791073749,
-        "text": "@Voxyz_ai Glad you like it! Anything we can improve?",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 122
-      },
-      {
-        "id": "x:2106543375088488596",
-        "x_status_id": "2106543375088488596",
-        "canonical_url": "https://x.com/thsottiaux/status/2106543375088488596",
-        "fingerprint": "d45669ab8e0e559f92af937f5da44bb8ef96c3802ce39a94b0ecb86fc7d0f953",
-        "published_at": 1791074052,
-        "detected_at": 1791074348,
-        "text": "@davis7 6.1 coming soon",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 296
-      },
-      {
-        "id": "x:2106544544892518815",
-        "x_status_id": "2106544544892518815",
-        "canonical_url": "https://x.com/thsottiaux/status/2106544544892518815",
-        "fingerprint": "ab287e71882a1952be5b4e902cb350e83b1bcc4c168edad2fb995f3e28b9413b",
-        "published_at": 1791074331,
-        "detected_at": 1791074348,
-        "text": "@atelicinvest Dots are persistent agents that carry context across the single conversation. You can call it in the middle of work and then catch it later via slack or text in the app, it’s the same dot talking to you.",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 17
-      },
-      {
-        "id": "x:2106546689012281771",
-        "x_status_id": "2106546689012281771",
-        "canonical_url": "https://x.com/thsottiaux/status/2106546689012281771",
-        "fingerprint": "93265a7a4ae46ee1bfacb80ed3988c40b3ab9e546a8c14416ce88a34aa1d8802",
-        "published_at": 1791074843,
-        "detected_at": 1791074948,
-        "text": "@Baconbrix Interesting position you’re taking there mister Bacon. Now let’s see what someone can do with the ChatGPT subscription or the Grok subscription. 👀",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 105
-      },
-      {
-        "id": "x:2106593009806815429",
-        "x_status_id": "2106593009806815429",
-        "canonical_url": "https://x.com/thsottiaux/status/2106593009806815429",
-        "fingerprint": "6a3d6ebedfb329c5a4dac536038d327deeab62fdbca2a6a76aaf79a51fc757f5",
-        "published_at": 1791085886,
-        "detected_at": 1791086351,
-        "text": "@macintogdev Ah, perfection",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 465
-      },
-      {
-        "id": "x:2106602729875685780",
-        "x_status_id": "2106602729875685780",
-        "canonical_url": "https://x.com/thsottiaux/status/2106602729875685780",
-        "fingerprint": "54fce578da342984b28e6c01ef035c14e29c19137693f7f6215b67a2218fbbd7",
-        "published_at": 1791088204,
-        "detected_at": 1791088745,
-        "text": "I have never in my life achieved inbox zero until I just made it an active goal for my dot to help get it done. Let’s see how long it lasts, but it’s a great feeling.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 541
-      },
-      {
-        "id": "x:2106603980386394123",
-        "x_status_id": "2106603980386394123",
-        "canonical_url": "https://x.com/thsottiaux/status/2106603980386394123",
-        "fingerprint": "f5f17b5df1d475f1db79d8d8226c7874940e625108742d18f7b1875526d03457",
-        "published_at": 1791088502,
-        "detected_at": 1791088745,
-        "text": "What it did\n\n- delete all categories of email that were not needed for me to keep, validating them in batch\n\n- identify labels for types of work that I do and label all the emails appropriately\n\n- walked me through emails that needed a reply, searching for relevant context in the background to help get things right\n\nand in the process I was able to go through a lot of feedback and requests people send me directly through email. It was a good Saturday.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 243
-      },
-      {
-        "id": "x:2106605571168510149",
-        "x_status_id": "2106605571168510149",
-        "canonical_url": "https://x.com/thsottiaux/status/2106605571168510149",
-        "fingerprint": "b4ad22aa19bd6a5f48edec110ba826a7392793da75bd6b8f2d68923495bea66d",
-        "published_at": 1791088881,
-        "detected_at": 1791089346,
-        "text": "@davis7 6.1 sol ultrafast that is",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 465
-      },
-      {
-        "id": "x:2106607456130592861",
-        "x_status_id": "2106607456130592861",
-        "canonical_url": "https://x.com/thsottiaux/status/2106607456130592861",
-        "fingerprint": "d3fb8a16c885fbff7933761e34a2fa4926497ac1a78720f1c393ec001e523aff",
-        "published_at": 1791089331,
-        "detected_at": 1791089346,
-        "text": "@_ak_111 6.1 sol ultrafast",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 15
-      },
-      {
-        "id": "x:2106609390577156384",
-        "x_status_id": "2106609390577156384",
-        "canonical_url": "https://x.com/thsottiaux/status/2106609390577156384",
-        "fingerprint": "fe47013bf1737f316b04e7e8cf49416092c81b9b8dd104e44877d27102742b96",
-        "published_at": 1791089792,
-        "detected_at": 1791089951,
-        "text": "@hiarun02 There is a full usage dashboard in the app now! Let me know what’s missing if anything, will fix",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 159
-      },
-      {
-        "id": "x:2106610099720720811",
-        "x_status_id": "2106610099720720811",
-        "canonical_url": "https://x.com/thsottiaux/status/2106610099720720811",
-        "fingerprint": "8466ac73ff5dbc6f1aa47d56c3c683f4f3a751d7ff60833ff06a16fcc8ec5a77",
-        "published_at": 1791089961,
-        "detected_at": 1791090549,
-        "text": "All right, we’re locking in. Only things being worked on are simplifications, more efficiency for more usage, groundbreaking features or new models. \n\nSometimes you have to invest ahead of the curve, but feedback is clear that you all want things to get simpler. On it.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 588
-      },
-      {
-        "id": "x:2106769163620671823",
-        "x_status_id": "2106769163620671823",
-        "canonical_url": "https://x.com/thsottiaux/status/2106769163620671823",
-        "fingerprint": "099cdc52c8a2598df87d021ed653553f15a2c6e286709183f5648312a64063b4",
-        "published_at": 1791127885,
-        "detected_at": 1791128355,
-        "text": "@argofowl Heard",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 470
-      },
-      {
-        "id": "x:2106842998214717876",
-        "x_status_id": "2106842998214717876",
-        "canonical_url": "https://x.com/thsottiaux/status/2106842998214717876",
-        "fingerprint": "ba5b6e21d71f81885f001e7600773e2998b0a3ec2ba5e214d7842704446187eb",
-        "published_at": 1791145488,
-        "detected_at": 1791145747,
-        "text": "@nabeelqu Locked in",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 259
-      },
-      {
-        "id": "x:2106845241357824205",
-        "x_status_id": "2106845241357824205",
-        "canonical_url": "https://x.com/thsottiaux/status/2106845241357824205",
-        "fingerprint": "da3bd895b418a66bcb07a6ea9875acf7d69ee9da1f96742a369ac49272424dba",
-        "published_at": 1791146023,
-        "detected_at": 1791146353,
-        "text": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 330
-      },
-      {
-        "id": "x:2106845738814849339",
-        "x_status_id": "2106845738814849339",
-        "canonical_url": "https://x.com/thsottiaux/status/2106845738814849339",
-        "fingerprint": "f26b28485ba7205d2bc50d4b53146fe23b31ee646feab70ae997ca517ea18854",
-        "published_at": 1791146142,
-        "detected_at": 1791146353,
-        "text": "@poteto I challenge you to do the same\n\nhttps://x.com/thsottiaux/status/2106845241357824205?s=20",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "CANDIDATE",
-        "reason": "author reply or quote refers to related reset content; related text is not an author announcement",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 211
-      },
-      {
-        "id": "x:2106858395370389784",
-        "x_status_id": "2106858395370389784",
-        "canonical_url": "https://x.com/thsottiaux/status/2106858395370389784",
-        "fingerprint": "19ebd032eb7d0f93a38b4144af57d32c4ac83ae05de3d5f25e6fc18d9eefbd66",
-        "published_at": 1791149159,
-        "detected_at": 1791149815,
-        "text": "@poteto that was a really quick fold",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 656
-      },
-      {
-        "id": "x:2106858787151995288",
-        "x_status_id": "2106858787151995288",
-        "canonical_url": "https://x.com/thsottiaux/status/2106858787151995288",
-        "fingerprint": "10b387870cffa6958f0ef74227c31f2b39b2085c6b1b3aabd25f565e2fea8dc8",
-        "published_at": 1791149253,
-        "detected_at": 1791149815,
-        "text": "@buildwithsid You're hired",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 562
-      },
-      {
         "id": "x:2106893559962144962",
         "x_status_id": "2106893559962144962",
         "canonical_url": "https://x.com/thsottiaux/status/2106893559962144962",
@@ -3424,7 +3135,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792363526,
+        "last_success_at": 1792364127,
         "last_failure_at": 1792351529,
         "offline_since": null,
         "failure_episodes": 212,
@@ -3450,32 +3161,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1792277131"
+        "value": "1792364127"
       },
       {
         "key": "lastSuccess",
-        "value": "1792363526"
+        "value": "1792364127"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2106602729875685780",
-        "event_type": "post_analysis",
-        "created_at": 1791088745,
-        "details": "{\"related\":[{\"xStatusId\":\"2105899634032025682\",\"url\":\"https://x.com/thsottiaux/status/2105899634032025682\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Down to 6110 unread from the over 9000 unread emails just earlier. Will get to inbox zero with clean filters within the next 48 hours. Dot has accepted the challenge.\",\"provenance\":\"feed\",\"publishedAt\":1790920573}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"I have never in my life achieved inbox zero until I just made it an active goal for my dot to help get it done.\"}}"
-      },
-      {
-        "id": "analysis:x:2106845241357824205",
-        "event_type": "post_analysis",
-        "created_at": 1791146353,
-        "details": "{\"related\":[{\"xStatusId\":\"2106610099720720811\",\"url\":\"https://x.com/thsottiaux/status/2106610099720720811\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"All right, we’re locking in. Only things being worked on are simplifications, more efficiency for more usage, groundbreaking features or new models. Sometimes you have to invest ahead of the curve, but feedback is clear that you all want things to get simpler. On it.\",\"provenance\":\"feed\",\"publishedAt\":1791089961}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset.\"}}"
-      },
-      {
-        "id": "analysis:x:2106845738814849339",
-        "event_type": "post_analysis",
-        "created_at": 1791146353,
-        "details": "{\"related\":[{\"xStatusId\":\"2106845241357824205\",\"url\":\"https://x.com/thsottiaux/status/2106845241357824205\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin.\",\"provenance\":\"feed\",\"publishedAt\":1791146023}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"display\":\"advisory\",\"reason\":\"author reply or quote refers to related reset content; related text is not an author announcement\",\"evidence\":\"@poteto I challenge you to do the same\\n\\nhttps://x.com/thsottiaux/status/2106845241357824205?s=20\"}}"
-      },
       {
         "id": "analysis:x:2107158998495748264",
         "event_type": "post_analysis",
@@ -3693,24 +3386,6 @@
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"People have escaped the TL and are asking me for resets on the street now.\"}}"
       },
       {
-        "id": "notification:offline:1791101351",
-        "event_type": "notification_sent",
-        "created_at": 1791102551,
-        "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:offline:1791110346",
-        "event_type": "notification_sent",
-        "created_at": 1791111548,
-        "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:offline:1791130745",
-        "event_type": "notification_sent",
-        "created_at": 1791131947,
-        "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
         "id": "notification:offline:1791295148",
         "event_type": "notification_sent",
         "created_at": 1791296357,
@@ -3757,18 +3432,6 @@
         "event_type": "notification_sent",
         "created_at": 1791778528,
         "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:post:x:2106845241357824205",
-        "event_type": "notification_sent",
-        "created_at": 1791146353,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2106845241357824205\"}"
-      },
-      {
-        "id": "notification:post:x:2106845738814849339",
-        "event_type": "notification_sent",
-        "created_at": 1791146353,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2106845738814849339\"}"
       },
       {
         "id": "notification:post:x:2107158998495748264",
@@ -3871,24 +3534,6 @@
         "event_type": "notification_sent",
         "created_at": 1792355731,
         "details": "{\"kind\":\"alert\",\"postId\":\"x:2111918768733753664\"}"
-      },
-      {
-        "id": "notification:recovered:1791101351",
-        "event_type": "notification_sent",
-        "created_at": 1791103150,
-        "details": "{\"kind\":\"recovered\",\"postId\":null}"
-      },
-      {
-        "id": "notification:recovered:1791110346",
-        "event_type": "notification_sent",
-        "created_at": 1791112746,
-        "details": "{\"kind\":\"recovered\",\"postId\":null}"
-      },
-      {
-        "id": "notification:recovered:1791130745",
-        "event_type": "notification_sent",
-        "created_at": 1791132546,
-        "details": "{\"kind\":\"recovered\",\"postId\":null}"
       },
       {
         "id": "notification:recovered:1791295148",
@@ -4392,8 +4037,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792363526,
-    "lastRssAttemptAt": 1792363526,
+    "lastRssSuccessAt": 1792364127,
+    "lastRssAttemptAt": 1792364127,
     "sourceState": "online",
     "error": null
   }
