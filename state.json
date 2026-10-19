@@ -3248,17 +3248,34 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 37
+      },
+      {
+        "id": "x:2112049026636103954",
+        "x_status_id": "2112049026636103954",
+        "canonical_url": "https://x.com/thsottiaux/status/2112049026636103954",
+        "fingerprint": "b5552df4301b760ea8277054f13514facaf6b21b20f4f57fcfeb5f01bc521a77",
+        "published_at": 1792386702,
+        "detected_at": 1792387530,
+        "text": "@jxnlco Didn’t know Batman worked at OpenAI",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 828
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1792386330,
+        "state": "online",
+        "last_success_at": 1792387530,
         "last_failure_at": 1792386931,
-        "offline_since": 1792386931,
+        "offline_since": null,
         "failure_episodes": 213,
-        "error": "fetch_or_parse_failed"
+        "error": null
       }
     ],
     "state": [
@@ -3284,11 +3301,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792386330"
-      },
-      {
-        "key": "outage",
-        "value": "1792386931"
+        "value": "1792387530"
       }
     ],
     "events": [
@@ -4160,9 +4173,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792386330,
-    "lastRssAttemptAt": 1792386931,
-    "sourceState": "offline",
-    "error": "fetch_or_parse_failed"
+    "lastRssSuccessAt": 1792387530,
+    "lastRssAttemptAt": 1792387530,
+    "sourceState": "online",
+    "error": null
   }
 }
