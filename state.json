@@ -3265,13 +3265,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 828
+      },
+      {
+        "id": "x:2112268918681485431",
+        "x_status_id": "2112268918681485431",
+        "canonical_url": "https://x.com/thsottiaux/status/2112268918681485431",
+        "fingerprint": "b317de74b61e8af0ac7a67453b95a019e48f55cfe53da53943a67575ddcef1da",
+        "published_at": 1792439128,
+        "detected_at": 1792439130,
+        "text": "Day 15/ We're cooked",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 2
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792438528,
+        "last_success_at": 1792439130,
         "last_failure_at": 1792434936,
         "offline_since": null,
         "failure_episodes": 218,
@@ -3301,7 +3318,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792438528"
+        "value": "1792439130"
       }
     ],
     "events": [
@@ -3520,6 +3537,12 @@
         "event_type": "post_analysis",
         "created_at": 1792355731,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"People have escaped the TL and are asking me for resets on the street now.\"}}"
+      },
+      {
+        "id": "analysis:x:2112268918681485431",
+        "event_type": "post_analysis",
+        "created_at": 1792439130,
+        "details": "{\"related\":[{\"xStatusId\":\"2112242739198959913\",\"url\":\"https://x.com/OpenAIDevs/status/2112242739198959913\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"Here’s what we’re cooking with Codex: https://x.com/i/broadcasts/1RKZzBELBbXKB\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 15/ We're cooked\"}}"
       },
       {
         "id": "notification:offline:1791295148",
@@ -4173,8 +4196,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792438528,
-    "lastRssAttemptAt": 1792438528,
+    "lastRssSuccessAt": 1792439130,
+    "lastRssAttemptAt": 1792439130,
     "sourceState": "online",
     "error": null
   }
