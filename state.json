@@ -3129,13 +3129,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 348
+      },
+      {
+        "id": "x:2111990254408434095",
+        "x_status_id": "2111990254408434095",
+        "canonical_url": "https://x.com/thsottiaux/status/2111990254408434095",
+        "fingerprint": "87bd20682630f4302b26d3e75c69055c70e66a06a9a27cd96fb92204ed10b2eb",
+        "published_at": 1792372690,
+        "detected_at": 1792373128,
+        "text": "Day 14/\n\nSmall quality of life improvement. You can now edit previous messages within a thread in the desktop app. Long time requested, and took way too long to get that one out.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 438
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792372529,
+        "last_success_at": 1792373128,
         "last_failure_at": 1792351529,
         "offline_since": null,
         "failure_episodes": 212,
@@ -3165,7 +3182,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792372529"
+        "value": "1792373128"
       }
     ],
     "events": [
@@ -4037,8 +4054,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792372529,
-    "lastRssAttemptAt": 1792372529,
+    "lastRssSuccessAt": 1792373128,
+    "lastRssAttemptAt": 1792373128,
     "sourceState": "online",
     "error": null
   }
