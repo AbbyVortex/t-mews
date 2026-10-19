@@ -3,244 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2106893559962144962",
-        "x_status_id": "2106893559962144962",
-        "canonical_url": "https://x.com/thsottiaux/status/2106893559962144962",
-        "fingerprint": "d7516b9983cc3def5c036760f92cada89156e7220fe4311ac35d8a2c748cc064",
-        "published_at": 1791157543,
-        "detected_at": 1791157747,
-        "text": "@ZryMiller Interestingly, user and sub count is growing nicely. But feedback was clear.",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 204
-      },
-      {
-        "id": "x:2106893863663321520",
-        "x_status_id": "2106893863663321520",
-        "canonical_url": "https://x.com/thsottiaux/status/2106893863663321520",
-        "fingerprint": "234acf401338723768f3696cc0f13572f75d92ecdb6619a8fcc6c318edd8e85b",
-        "published_at": 1791157615,
-        "detected_at": 1791157747,
-        "text": "@karrisaarinen Always loved linear!",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 132
-      },
-      {
-        "id": "x:2106894238541918707",
-        "x_status_id": "2106894238541918707",
-        "canonical_url": "https://x.com/thsottiaux/status/2106894238541918707",
-        "fingerprint": "ca680bc796c1af53938e010372c519dfd6ffb20dcacf0058e6fecc054ddad8b4",
-        "published_at": 1791157705,
-        "detected_at": 1791157747,
-        "text": "@mattlam_ > some easy wins: it takes 3 clicks on my phone to open dots from ChatGPT app, and there should be shortcut to dictation to it.\n\nTeam is on it",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 42
-      },
-      {
-        "id": "x:2106894683523928229",
-        "x_status_id": "2106894683523928229",
-        "canonical_url": "https://x.com/thsottiaux/status/2106894683523928229",
-        "fingerprint": "bba623fd9101c6fa9d015f0eb447c39cce4973eb4cf653dec296dfc63a8e0fb8",
-        "published_at": 1791157811,
-        "detected_at": 1791158347,
-        "text": "@Yuchenj_UW We're still early indeed!",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 536
-      },
-      {
-        "id": "x:2106957975147676025",
-        "x_status_id": "2106957975147676025",
-        "canonical_url": "https://x.com/thsottiaux/status/2106957975147676025",
-        "fingerprint": "e6365a241269586e975e565aa4150de0d7c2082a7ca25eeac14c41d082ae0a01",
-        "published_at": 1791172901,
-        "detected_at": 1791173354,
-        "text": "@fawnunwrap Don’t feel bad. It’s part of the fun and I’m here for it.",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 453
-      },
-      {
-        "id": "x:2106958559695282202",
-        "x_status_id": "2106958559695282202",
-        "canonical_url": "https://x.com/thsottiaux/status/2106958559695282202",
-        "fingerprint": "03ce00a4027ab46a69d0546e813f49115657c399b18e00e03e1d49d04e8f9550",
-        "published_at": 1791173040,
-        "detected_at": 1791173354,
-        "text": "@makeamarkery Not fixes. Significant improvements. Let’s have some fun!",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 314
-      },
-      {
-        "id": "x:2106959403782184960",
-        "x_status_id": "2106959403782184960",
-        "canonical_url": "https://x.com/thsottiaux/status/2106959403782184960",
-        "fingerprint": "c3929625bdb0b1da89e701848ed9ebf1ed4fc7c4d0627cefa5744e4d3e668cec",
-        "published_at": 1791173241,
-        "detected_at": 1791173354,
-        "text": "@ai_for_success Claudex AI Space by Google",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 113
-      },
-      {
-        "id": "x:2106963521561083946",
-        "x_status_id": "2106963521561083946",
-        "canonical_url": "https://x.com/thsottiaux/status/2106963521561083946",
-        "fingerprint": "b4715d91e777dd2b42ec6938849eb32de4d420e9eca8e680c2338cbdf64ed9c8",
-        "published_at": 1791174223,
-        "detected_at": 1791174549,
-        "text": "@AlexBerish @OpenAI @sama Everything is indeed coordinated through Slack",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 326
-      },
-      {
-        "id": "x:2106966244314567159",
-        "x_status_id": "2106966244314567159",
-        "canonical_url": "https://x.com/thsottiaux/status/2106966244314567159",
-        "fingerprint": "a124cf642ba1b1614038c5c43635759a1ff403c0afa454c4a5fc0c3e463cee69",
-        "published_at": 1791174872,
-        "detected_at": 1791175151,
-        "text": "@alexkehr Congrats!!",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 279
-      },
-      {
-        "id": "x:2106967126250791091",
-        "x_status_id": "2106967126250791091",
-        "canonical_url": "https://x.com/thsottiaux/status/2106967126250791091",
-        "fingerprint": "5e5ed1bf98c6395efaa53645c67c93f9de1ca0afa0b3d51c8fe73dd2868b6e04",
-        "published_at": 1791175083,
-        "detected_at": 1791175151,
-        "text": "@hiarun02 Facts",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 68
-      },
-      {
-        "id": "x:2107158998495748264",
-        "x_status_id": "2107158998495748264",
-        "canonical_url": "https://x.com/thsottiaux/status/2107158998495748264",
-        "fingerprint": "490c0776d86924e54a7955f7138de0b40a4da71dc8f5037d38e1c74c766374b0",
-        "published_at": 1791220829,
-        "detected_at": 1791221351,
-        "text": "Day 1/\n\nWe have optimized the default speed to be ~50% faster across GPT-6 Astra and GPT-6.1 Sol through the subscription across all our products and partners using Sign in With ChatGPT (including OpenCode, Pi, Amp, Devin, ...).\n\nNo changes needed on your end and this should be felt within the next two hours.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author reply or quote refers to related reset content; related text is not an author announcement",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 522
-      },
-      {
-        "id": "x:2107159119107146237",
-        "x_status_id": "2107159119107146237",
-        "canonical_url": "https://x.com/thsottiaux/status/2107159119107146237",
-        "fingerprint": "861629ba1b60bf8b83840d70c9f3cbb4a2fa7634e2821d39bce16b444d808933",
-        "published_at": 1791220857,
-        "detected_at": 1791221351,
-        "text": "Reaching 50 TPS instead of 30TPS, with also the most optimized tokenizer out there. And the models are quite the efficient ones in terms of number of tokens needed to get things done!",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 494
-      },
-      {
-        "id": "x:2107185534359761051",
-        "x_status_id": "2107185534359761051",
-        "canonical_url": "https://x.com/thsottiaux/status/2107185534359761051",
-        "fingerprint": "887494c7ad517248eb8cfc0efea9a1876828895b99050afd90046ff0de0a100d",
-        "published_at": 1791227155,
-        "detected_at": 1791227355,
-        "text": "@karrisaarinen @OpenAI @linear Nice avatar",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 200
-      },
-      {
-        "id": "x:2107200530477101461",
-        "x_status_id": "2107200530477101461",
-        "canonical_url": "https://x.com/thsottiaux/status/2107200530477101461",
-        "fingerprint": "18584d9ea8d4585835d13ae8ebde51a59d55a39ef08f5e41746cd7a31b75ac4b",
-        "published_at": 1791230731,
-        "detected_at": 1791233981,
-        "text": "Sergio is cooking up magic with collaborative space right in ChatGPT. Improving leaps and bounds every day.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 3250
-      },
-      {
         "id": "x:2107294063011733505",
         "x_status_id": "2107294063011733505",
         "canonical_url": "https://x.com/thsottiaux/status/2107294063011733505",
@@ -3287,12 +3049,12 @@
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1792449929,
+        "state": "online",
+        "last_success_at": 1792450859,
         "last_failure_at": 1792450529,
-        "offline_since": 1792450529,
+        "offline_since": null,
         "failure_episodes": 221,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -3314,30 +3076,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1792364127"
+        "value": "1792450859"
       },
       {
         "key": "lastSuccess",
-        "value": "1792449929"
-      },
-      {
-        "key": "outage",
-        "value": "1792450529"
+        "value": "1792450859"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2107158998495748264",
-        "event_type": "post_analysis",
-        "created_at": 1791221351,
-        "details": "{\"related\":[{\"xStatusId\":\"2106845241357824205\",\"url\":\"https://x.com/thsottiaux/status/2106845241357824205\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin.\",\"provenance\":\"feed\",\"publishedAt\":1791146023}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"display\":\"advisory\",\"reason\":\"author reply or quote refers to related reset content; related text is not an author announcement\",\"evidence\":\"Day 1/\\n\\nWe have optimized the default speed to be ~50% faster across GPT-6 Astra and GPT-6.1 Sol through the subscription across all our products and partners using Sign in With ChatGPT (including OpenCode, Pi, Amp, Devin, ...).\\n\\nNo changes needed on your end and this should be felt within the next two hours.\"}}"
-      },
-      {
-        "id": "analysis:x:2107200530477101461",
-        "event_type": "post_analysis",
-        "created_at": 1791233981,
-        "details": "{\"related\":[{\"xStatusId\":\"2107182570802979268\",\"url\":\"https://x.com/matteing/status/2107182570802979268\",\"author\":\"matteing\",\"relation\":\"quote\",\"text\":\"We weren't kidding. Let's talk about Space. ✨ Have you tried Space yet? What's good or bad about it? What could we improve? We're locked in and shipping fast. 👀\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Sergio is cooking up magic with collaborative space right in ChatGPT.\"}}"
-      },
       {
         "id": "analysis:x:2107294063011733505",
         "event_type": "post_analysis",
@@ -3595,12 +3341,6 @@
         "event_type": "notification_sent",
         "created_at": 1791778528,
         "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:post:x:2107158998495748264",
-        "event_type": "notification_sent",
-        "created_at": 1791221351,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2107158998495748264\"}"
       },
       {
         "id": "notification:post:x:2107577536779870210",
@@ -4200,9 +3940,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792449929,
-    "lastRssAttemptAt": 1792450529,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1792450859,
+    "lastRssAttemptAt": 1792450859,
+    "sourceState": "online",
+    "error": null
   }
 }
