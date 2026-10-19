@@ -3163,13 +3163,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 77
+      },
+      {
+        "id": "x:2112034063934742720",
+        "x_status_id": "2112034063934742720",
+        "canonical_url": "https://x.com/thsottiaux/status/2112034063934742720",
+        "fingerprint": "b4c8d0f1daa5612869029b35fea6b7baea12dd015bc72e1181a256e45f45c6bd",
+        "published_at": 1792383135,
+        "detected_at": 1792383330,
+        "text": "Our team worked with OpenCode to have their users who are also OpenAI API customers back in business and any credits refunded which would have been drawn in the attack.\n\nAlso, you can request Daybreak Blue access to use our cyber permissive setup for defense. Do not wait until you have to deal with an incident. We’re here to help.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 195
+      },
+      {
+        "id": "x:2112034328549216593",
+        "x_status_id": "2112034328549216593",
+        "canonical_url": "https://x.com/thsottiaux/status/2112034328549216593",
+        "fingerprint": "97356a7632b27a1116a6ddeced3e27b34c98352a9335138f7defbbc0b3e24f5e",
+        "published_at": 1792383198,
+        "detected_at": 1792383330,
+        "text": "https://chatgpt.com/cyber",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 132
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792382730,
+        "last_success_at": 1792383330,
         "last_failure_at": 1792351529,
         "offline_since": null,
         "failure_episodes": 212,
@@ -3199,7 +3233,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792382730"
+        "value": "1792383330"
       }
     ],
     "events": [
@@ -4071,8 +4105,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792382730,
-    "lastRssAttemptAt": 1792382730,
+    "lastRssSuccessAt": 1792383330,
+    "lastRssAttemptAt": 1792383330,
     "sourceState": "online",
     "error": null
   }
