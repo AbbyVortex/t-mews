@@ -3044,13 +3044,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 2
+      },
+      {
+        "id": "x:2112426606870585551",
+        "x_status_id": "2112426606870585551",
+        "canonical_url": "https://x.com/thsottiaux/status/2112426606870585551",
+        "fingerprint": "dfd091ed4fdb41701e78da6f8e68f876f4320afcb346832dfd4f32509679fdef",
+        "published_at": 1792476724,
+        "detected_at": 1792476930,
+        "text": "@theo Instead\n\n1) Buy a Pro 100 sub\n\n2) ???\n\n3) Enjoy T3Code",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 206
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792476334,
+        "last_success_at": 1792476930,
         "last_failure_at": 1792454731,
         "offline_since": null,
         "failure_episodes": 222,
@@ -3080,7 +3097,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792476334"
+        "value": "1792476930"
       }
     ],
     "events": [
@@ -3940,8 +3957,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792476334,
-    "lastRssAttemptAt": 1792476334,
+    "lastRssSuccessAt": 1792476930,
+    "lastRssAttemptAt": 1792476930,
     "sourceState": "online",
     "error": null
   }
