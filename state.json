@@ -3078,13 +3078,30 @@
         "notified": 1,
         "notification_status": "sent",
         "detection_latency_seconds": 104
+      },
+      {
+        "id": "x:2112592264686149749",
+        "x_status_id": "2112592264686149749",
+        "canonical_url": "https://x.com/thsottiaux/status/2112592264686149749",
+        "fingerprint": "9fd53c6fb98cacbd1fe2132ab7ba3cbc6f39421fe7e0b6fb68fafe1e495904f6",
+        "published_at": 1792516220,
+        "detected_at": 1792516531,
+        "text": "There were reports of usage draining faster than anticipated for some users over the weekend. We've identified approximately 40,000 accounts that had an inconsistency on which usage limits where the actual usage that was applied did not correspond to their actual selected plan. We are reaching out individually to all these users and have corrected the issue. If this affected you, we'll add credits to your account. Sorry we got this wrong.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "possible usage signal without a confirmed change or strong hint",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 311
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792516216,
+        "last_success_at": 1792516531,
         "last_failure_at": 1792509350,
         "offline_since": null,
         "failure_episodes": 223,
@@ -3114,7 +3131,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792516216"
+        "value": "1792516531"
       }
     ],
     "events": [
@@ -3994,8 +4011,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792516216,
-    "lastRssAttemptAt": 1792516216,
+    "lastRssSuccessAt": 1792516531,
+    "lastRssAttemptAt": 1792516531,
     "sourceState": "online",
     "error": null
   }
