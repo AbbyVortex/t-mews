@@ -3061,13 +3061,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 206
+      },
+      {
+        "id": "x:2112432076767289678",
+        "x_status_id": "2112432076767289678",
+        "canonical_url": "https://x.com/thsottiaux/status/2112432076767289678",
+        "fingerprint": "187b27d62980205c02c555a6239b486a1460d59b4d9645ec28098641bf934cd1",
+        "published_at": 1792478028,
+        "detected_at": 1792478132,
+        "text": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 104
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792477532,
+        "last_success_at": 1792478132,
         "last_failure_at": 1792454731,
         "offline_since": null,
         "failure_episodes": 222,
@@ -3097,7 +3114,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792477532"
+        "value": "1792478132"
       }
     ],
     "events": [
@@ -3310,6 +3327,12 @@
         "event_type": "post_analysis",
         "created_at": 1792439130,
         "details": "{\"related\":[{\"xStatusId\":\"2112242739198959913\",\"url\":\"https://x.com/OpenAIDevs/status/2112242739198959913\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"Here’s what we’re cooking with Codex: https://x.com/i/broadcasts/1RKZzBELBbXKB\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 15/ We're cooked\"}}"
+      },
+      {
+        "id": "analysis:x:2112432076767289678",
+        "event_type": "post_analysis",
+        "created_at": 1792478132,
+        "details": "{\"related\":[{\"xStatusId\":\"2112268918681485431\",\"url\":\"https://x.com/thsottiaux/status/2112268918681485431\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Day 15/ We're cooked\",\"provenance\":\"feed\",\"publishedAt\":1792439128}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"and reset.\"}}"
       },
       {
         "id": "notification:offline:1791295148",
@@ -3858,6 +3881,14 @@
         "sent_at": 1792355731
       },
       {
+        "id": "post:x:2112432076767289678",
+        "post_id": "x:2112432076767289678",
+        "kind": "alert",
+        "created_at": 1792478132,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -3957,8 +3988,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792477532,
-    "lastRssAttemptAt": 1792477532,
+    "lastRssSuccessAt": 1792478132,
+    "lastRssAttemptAt": 1792478132,
     "sourceState": "online",
     "error": null
   }
