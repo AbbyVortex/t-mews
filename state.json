@@ -2398,13 +2398,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 330
+      },
+      {
+        "id": "x:2112798407928713717",
+        "x_status_id": "2112798407928713717",
+        "canonical_url": "https://x.com/thsottiaux/status/2112798407928713717",
+        "fingerprint": "cfe94c1504dfc14c3c4bb78c84aa6bb06b71e0f5232856faf8d2fd337fe0a0b8",
+        "published_at": 1792565369,
+        "detected_at": 1792565731,
+        "text": "@theo I demand a reset",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 362
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792565131,
+        "last_success_at": 1792565731,
         "last_failure_at": 1792544733,
         "offline_since": null,
         "failure_episodes": 225,
@@ -2434,7 +2451,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792565131"
+        "value": "1792565731"
       }
     ],
     "events": [
@@ -2611,6 +2628,12 @@
         "event_type": "post_analysis",
         "created_at": 1792545332,
         "details": "{\"related\":[{\"xStatusId\":\"2112603916076781778\",\"url\":\"https://x.com/OpenAIDevs/status/2112603916076781778\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"You can now choose 12-hour prompt caching in the API. Persistent agents, like dots, reuse context throughout the day. You can keep shared instructions, tools, and context cached longer and pay the lower cached-input rate, even when requests are hours apart.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 16/\"}}"
+      },
+      {
+        "id": "analysis:x:2112798407928713717",
+        "event_type": "post_analysis",
+        "created_at": 1792565731,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@theo I demand a reset\"}}"
       },
       {
         "id": "notification:offline:1791389348",
@@ -3149,6 +3172,14 @@
         "sent_at": 1792478132
       },
       {
+        "id": "post:x:2112798407928713717",
+        "post_id": "x:2112798407928713717",
+        "kind": "alert",
+        "created_at": 1792565731,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -3248,8 +3279,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792565131,
-    "lastRssAttemptAt": 1792565131,
+    "lastRssSuccessAt": 1792565731,
+    "lastRssAttemptAt": 1792565731,
     "sourceState": "online",
     "error": null
   }
