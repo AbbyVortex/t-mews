@@ -2381,17 +2381,34 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 311
+      },
+      {
+        "id": "x:2112712984644784534",
+        "x_status_id": "2112712984644784534",
+        "canonical_url": "https://x.com/thsottiaux/status/2112712984644784534",
+        "fingerprint": "7f82ba7e553bf83187da0c3fbecbf6170000a6c7cfbda2c056507955ddda7fa5",
+        "published_at": 1792545002,
+        "detected_at": 1792545332,
+        "text": "Day 16/\n\nYou can now cache for 12h in the API and for logged in users across Codex & Work we keep cache forever and you don’t have any penalty for coming back to an old conversation or resuming after a few hours and are now guaranteed to hit the cache.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 330
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1792544129,
+        "state": "online",
+        "last_success_at": 1792545332,
         "last_failure_at": 1792544733,
-        "offline_since": 1792544733,
+        "offline_since": null,
         "failure_episodes": 225,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2417,11 +2434,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792544129"
-      },
-      {
-        "key": "outage",
-        "value": "1792544733"
+        "value": "1792545332"
       }
     ],
     "events": [
@@ -2592,6 +2605,12 @@
         "event_type": "post_analysis",
         "created_at": 1792478132,
         "details": "{\"related\":[{\"xStatusId\":\"2112268918681485431\",\"url\":\"https://x.com/thsottiaux/status/2112268918681485431\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Day 15/ We're cooked\",\"provenance\":\"feed\",\"publishedAt\":1792439128}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"and reset.\"}}"
+      },
+      {
+        "id": "analysis:x:2112712984644784534",
+        "event_type": "post_analysis",
+        "created_at": 1792545332,
+        "details": "{\"related\":[{\"xStatusId\":\"2112603916076781778\",\"url\":\"https://x.com/OpenAIDevs/status/2112603916076781778\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"You can now choose 12-hour prompt caching in the API. Persistent agents, like dots, reuse context throughout the day. You can keep shared instructions, tools, and context cached longer and pay the lower cached-input rate, even when requests are hours apart.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 16/\"}}"
       },
       {
         "id": "notification:offline:1791389348",
@@ -3229,9 +3248,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792544129,
-    "lastRssAttemptAt": 1792544733,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1792545332,
+    "lastRssAttemptAt": 1792545332,
+    "sourceState": "online",
+    "error": null
   }
 }
