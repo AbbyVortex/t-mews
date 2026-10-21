@@ -3,244 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2107613966692409653",
-        "x_status_id": "2107613966692409653",
-        "canonical_url": "https://x.com/thsottiaux/status/2107613966692409653",
-        "fingerprint": "220e7069d5f5ea28f50c96f4054a464ffdb599e82dfd045935c6721aa9622512",
-        "published_at": 1791329301,
-        "detected_at": 1791329346,
-        "text": "@TheRohanVarma Ship ship ship",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 45
-      },
-      {
-        "id": "x:2107628890550399465",
-        "x_status_id": "2107628890550399465",
-        "canonical_url": "https://x.com/thsottiaux/status/2107628890550399465",
-        "fingerprint": "47fc98133215e547e964aeceb2040087a67c75f52a03f4b9ff8422a8e2439671",
-        "published_at": 1791332860,
-        "detected_at": 1791332946,
-        "text": "@devberkayy It does",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 86
-      },
-      {
-        "id": "x:2107647667925135663",
-        "x_status_id": "2107647667925135663",
-        "canonical_url": "https://x.com/thsottiaux/status/2107647667925135663",
-        "fingerprint": "bed61aebca19210029502e99514546705d65625949af9db2552d7bc423153452",
-        "published_at": 1791337336,
-        "detected_at": 1791338347,
-        "text": "@stevenheidel @OpenAI This is how quickly *Steven* moves",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 1011
-      },
-      {
-        "id": "x:2107647946032664948",
-        "x_status_id": "2107647946032664948",
-        "canonical_url": "https://x.com/thsottiaux/status/2107647946032664948",
-        "fingerprint": "e83178dd236a71cd6ca872df3e42d322acc19fb31c7915cdaa0b3f30630c844c",
-        "published_at": 1791337403,
-        "detected_at": 1791338347,
-        "text": "@ForwardEditor Or it will end very well?",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 944
-      },
-      {
-        "id": "x:2107676072871600470",
-        "x_status_id": "2107676072871600470",
-        "canonical_url": "https://x.com/thsottiaux/status/2107676072871600470",
-        "fingerprint": "350d9917aa341c723bde66303af2cb396ae344d804ad07331ef80b9b775d61d9",
-        "published_at": 1791344109,
-        "detected_at": 1791344347,
-        "text": "We shipped four things that were deemed good to great and some math proofs, but the vote is clear and the community demands a reset. I did calibrate it and it *seems* that the game is rigged in reset's favor, but such are the rules at the moment.\n\nTherefore ... the reset has been processed. Enjoy!",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 238
-      },
-      {
-        "id": "x:2107676261099426030",
-        "x_status_id": "2107676261099426030",
-        "canonical_url": "https://x.com/thsottiaux/status/2107676261099426030",
-        "fingerprint": "38da9f28622ae16a9eafbaad013105a8857dbd8191bee45446ad159109128edb",
-        "published_at": 1791344154,
-        "detected_at": 1791344347,
-        "text": "And we won't unship the improvements. You get to have your cake and eat it too. See you tomorrow for Day 3!",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 193
-      },
-      {
-        "id": "x:2107676653895967106",
-        "x_status_id": "2107676653895967106",
-        "canonical_url": "https://x.com/thsottiaux/status/2107676653895967106",
-        "fingerprint": "678c2643b13973875fdd5ac81dfd215fa18a0984e445324499d9cefcd4fadae9",
-        "published_at": 1791344247,
-        "detected_at": 1791344347,
-        "text": "Also! Good evening!!",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 100
-      },
-      {
-        "id": "x:2107676900894417277",
-        "x_status_id": "2107676900894417277",
-        "canonical_url": "https://x.com/thsottiaux/status/2107676900894417277",
-        "fingerprint": "3dedf5c6feeda3cdd0340a99ee84d73ba978c9a9ad816649f1cdeb65a6fe5a3c",
-        "published_at": 1791344306,
-        "detected_at": 1791344347,
-        "text": "@ForwardEditor It ended well",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 41
-      },
-      {
-        "id": "x:2107699068499841309",
-        "x_status_id": "2107699068499841309",
-        "canonical_url": "https://x.com/thsottiaux/status/2107699068499841309",
-        "fingerprint": "db0d85ee6f72f1a09387173506ff7842c0554df321553e16d2df6b19b25be7a4",
-        "published_at": 1791349591,
-        "detected_at": 1791349749,
-        "text": "@thdxr oulalala",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 158
-      },
-      {
-        "id": "x:2107699167808356482",
-        "x_status_id": "2107699167808356482",
-        "canonical_url": "https://x.com/thsottiaux/status/2107699167808356482",
-        "fingerprint": "7b85b981c6b9e12a8caab7b9991cd3c8709d7c8d7a07ba0aa43a9d0a465d2c2b",
-        "published_at": 1791349615,
-        "detected_at": 1791349749,
-        "text": "@athyuttamre 👀",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 134
-      },
-      {
-        "id": "x:2107700139066593612",
-        "x_status_id": "2107700139066593612",
-        "canonical_url": "https://x.com/thsottiaux/status/2107700139066593612",
-        "fingerprint": "05cc04c39392249d6c47906c6b9c55fb1f87f5b4b4182b6e8d485263ba504eae",
-        "published_at": 1791349846,
-        "detected_at": 1791350347,
-        "text": "@clyons Hmmm, muse is that you",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 501
-      },
-      {
-        "id": "x:2107912709715132482",
-        "x_status_id": "2107912709715132482",
-        "canonical_url": "https://x.com/thsottiaux/status/2107912709715132482",
-        "fingerprint": "936fe67068cae63e4e7c6d2c15c345394e9b167582f9097ff459df4d90d6ffe6",
-        "published_at": 1791400527,
-        "detected_at": 1791400752,
-        "text": "We're going beyond text and are releasing a new version of GPT-6 to all users in ChatGPT. Lots of model and infra improvements coming together here to scale it to 1.2B users!",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 225
-      },
-      {
-        "id": "x:2107913674593644711",
-        "x_status_id": "2107913674593644711",
-        "canonical_url": "https://x.com/thsottiaux/status/2107913674593644711",
-        "fingerprint": "05bd340befa683943f0ed01400216f61aa6551d727284082e36d1f42a6813e7c",
-        "published_at": 1791400757,
-        "detected_at": 1791401347,
-        "text": "Day 3/\n\nThe big one is GPT-6 in Chat, but today is also a little celebration day with a new high of 40M active users across Codex and ChatGPT Work.\n\nLoading a banked reset in everyone's paid accounts. See you again tomorrow!",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 590
-      },
-      {
-        "id": "x:2107913738791596286",
-        "x_status_id": "2107913738791596286",
-        "canonical_url": "https://x.com/thsottiaux/status/2107913738791596286",
-        "fingerprint": "18fa84f457fbdb8ad08533531d46cebbfb3e14c3ac1a8afb9d274717fcfb0e6d",
-        "published_at": 1791400773,
-        "detected_at": 1791401347,
-        "text": "Will be there by EOD PST.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 574
-      },
-      {
         "id": "x:2108014292910113006",
         "x_status_id": "2108014292910113006",
         "canonical_url": "https://x.com/thsottiaux/status/2108014292910113006",
@@ -2506,7 +2268,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792623929,
+        "last_success_at": 1792624533,
         "last_failure_at": 1792622728,
         "offline_since": null,
         "failure_episodes": 234,
@@ -2532,32 +2294,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1792537530"
+        "value": "1792624533"
       },
       {
         "key": "lastSuccess",
-        "value": "1792623929"
+        "value": "1792624533"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2107676072871600470",
-        "event_type": "post_analysis",
-        "created_at": 1791344347,
-        "details": "{\"related\":[{\"xStatusId\":\"2107575657014468879\",\"url\":\"https://x.com/thsottiaux/status/2107575657014468879\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Roundup of Day 2/ 2.1/ Approve for me (auto-review) is now included and does not use usage. Can be between 2-10% of plan when used. Also better for you. 2.2/ Simplified API for builders. 2.3/ Meeting notes integrated. 2.4/ Decisions API live for builders. Will use in the app to i…\",\"provenance\":\"feed\",\"publishedAt\":1791320168}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"We shipped four things that were deemed good to great and some math proofs, but the vote is clear and the community demands a reset.\"}}"
-      },
-      {
-        "id": "analysis:x:2107912709715132482",
-        "event_type": "post_analysis",
-        "created_at": 1791400752,
-        "details": "{\"related\":[{\"xStatusId\":\"2107894997538525580\",\"url\":\"https://x.com/OpenAI/status/2107894997538525580\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone. Intelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to grasp, and interactive tools for your task available on the spot.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"We're going beyond text and are releasing a new version of GPT-6 to all users in ChatGPT.\"}}"
-      },
-      {
-        "id": "analysis:x:2107913674593644711",
-        "event_type": "post_analysis",
-        "created_at": 1791401347,
-        "details": "{\"related\":[{\"xStatusId\":\"2107575657014468879\",\"url\":\"https://x.com/thsottiaux/status/2107575657014468879\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Roundup of Day 2/ 2.1/ Approve for me (auto-review) is now included and does not use usage. Can be between 2-10% of plan when used. Also better for you. 2.2/ Simplified API for builders. 2.3/ Meeting notes integrated. 2.4/ Decisions API live for builders. Will use in the app to i…\",\"provenance\":\"feed\",\"publishedAt\":1791320168}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Loading a banked reset in everyone's paid accounts.\"}}"
-      },
       {
         "id": "analysis:x:2108040921044639779",
         "event_type": "post_analysis",
@@ -2721,12 +2465,6 @@
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@theo I demand a reset\"}}"
       },
       {
-        "id": "notification:offline:1791389348",
-        "event_type": "notification_sent",
-        "created_at": 1791390546,
-        "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
         "id": "notification:offline:1791433146",
         "event_type": "notification_sent",
         "created_at": 1791434349,
@@ -2761,18 +2499,6 @@
         "event_type": "notification_sent",
         "created_at": 1791778528,
         "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:post:x:2107676072871600470",
-        "event_type": "notification_sent",
-        "created_at": 1791344347,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2107676072871600470\"}"
-      },
-      {
-        "id": "notification:post:x:2107913674593644711",
-        "event_type": "notification_sent",
-        "created_at": 1791401347,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2107913674593644711\"}"
       },
       {
         "id": "notification:post:x:2108040921044639779",
@@ -2857,12 +2583,6 @@
         "event_type": "notification_sent",
         "created_at": 1792565731,
         "details": "{\"kind\":\"alert\",\"postId\":\"x:2112798407928713717\"}"
-      },
-      {
-        "id": "notification:recovered:1791389348",
-        "event_type": "notification_sent",
-        "created_at": 1791391149,
-        "details": "{\"kind\":\"recovered\",\"postId\":null}"
       },
       {
         "id": "notification:recovered:1791433146",
@@ -3370,8 +3090,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792623929,
-    "lastRssAttemptAt": 1792623929,
+    "lastRssSuccessAt": 1792624533,
+    "lastRssAttemptAt": 1792624533,
     "sourceState": "online",
     "error": null
   }
