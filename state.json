@@ -2449,17 +2449,34 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 394
+      },
+      {
+        "id": "x:2113009945134379213",
+        "x_status_id": "2113009945134379213",
+        "canonical_url": "https://x.com/thsottiaux/status/2113009945134379213",
+        "fingerprint": "4f1fae0e0a129cc96bbf10facf64da906ce8bf1ca86c2ed24b1f1bec9ae80034",
+        "published_at": 1792615803,
+        "detected_at": 1792616131,
+        "text": "@theo Congrats",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 328
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1792615527,
+        "state": "online",
+        "last_success_at": 1792616131,
         "last_failure_at": 1792615866,
-        "offline_since": 1792615866,
+        "offline_since": null,
         "failure_episodes": 232,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2485,11 +2502,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792615527"
-      },
-      {
-        "key": "outage",
-        "value": "1792615866"
+        "value": "1792616131"
       }
     ],
     "events": [
@@ -3323,9 +3336,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792615527,
-    "lastRssAttemptAt": 1792615866,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1792616131,
+    "lastRssAttemptAt": 1792616131,
+    "sourceState": "online",
+    "error": null
   }
 }
