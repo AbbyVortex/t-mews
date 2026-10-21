@@ -2415,13 +2415,30 @@
         "notified": 1,
         "notification_status": "sent",
         "detection_latency_seconds": 362
+      },
+      {
+        "id": "x:2112906496736641416",
+        "x_status_id": "2112906496736641416",
+        "canonical_url": "https://x.com/thsottiaux/status/2112906496736641416",
+        "fingerprint": "cc71e1e7936286dfebf4a5b20dcc4ca5aafc3b4c6b54785c621e99bb6a6de37e",
+        "published_at": 1792591139,
+        "detected_at": 1792591532,
+        "text": "@JustLingonberry @sama is this true",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 393
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792590950,
+        "last_success_at": 1792591532,
         "last_failure_at": 1792583728,
         "offline_since": null,
         "failure_episodes": 227,
@@ -2451,7 +2468,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792590950"
+        "value": "1792591532"
       }
     ],
     "events": [
@@ -3285,8 +3302,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792590950,
-    "lastRssAttemptAt": 1792590950,
+    "lastRssSuccessAt": 1792591532,
+    "lastRssAttemptAt": 1792591532,
     "sourceState": "online",
     "error": null
   }
