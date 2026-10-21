@@ -2432,13 +2432,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 393
+      },
+      {
+        "id": "x:2112992042465009736",
+        "x_status_id": "2112992042465009736",
+        "canonical_url": "https://x.com/thsottiaux/status/2112992042465009736",
+        "fingerprint": "4f8b86efbc1feeac4ebc4bce26a4299c0868cf3c54e97e53a924bb3cf871bf18",
+        "published_at": 1792611535,
+        "detected_at": 1792611929,
+        "text": "@claudeai Dot, meet Duet. Duet, meet Dot. Be nice to each other.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 394
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792611332,
+        "last_success_at": 1792611929,
         "last_failure_at": 1792610733,
         "offline_since": null,
         "failure_episodes": 231,
@@ -2468,7 +2485,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792611332"
+        "value": "1792611929"
       }
     ],
     "events": [
@@ -3302,8 +3319,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792611332,
-    "lastRssAttemptAt": 1792611332,
+    "lastRssSuccessAt": 1792611929,
+    "lastRssAttemptAt": 1792611929,
     "sourceState": "online",
     "error": null
   }
