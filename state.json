@@ -2466,13 +2466,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 328
+      },
+      {
+        "id": "x:2113029655095836957",
+        "x_status_id": "2113029655095836957",
+        "canonical_url": "https://x.com/thsottiaux/status/2113029655095836957",
+        "fingerprint": "46498ffee924d3d3d3390b7338d494627f439178ec2c909860805e710c41fcc2",
+        "published_at": 1792620502,
+        "detected_at": 1792620932,
+        "text": "Dot, Dotter, Dottest",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 430
+      },
+      {
+        "id": "x:2113029854417600834",
+        "x_status_id": "2113029854417600834",
+        "canonical_url": "https://x.com/thsottiaux/status/2113029854417600834",
+        "fingerprint": "7ad6eae2bcd401f68d60f3fdde2a3385143380886caaab28c2cfb553f0353fa7",
+        "published_at": 1792620550,
+        "detected_at": 1792620932,
+        "text": "Fully included in the Pro plan, doesn't draw on your weekly usage.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "possible usage signal without a confirmed change or strong hint",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 382
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792620330,
+        "last_success_at": 1792620932,
         "last_failure_at": 1792619731,
         "offline_since": null,
         "failure_episodes": 233,
@@ -2502,7 +2536,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792620330"
+        "value": "1792620932"
       }
     ],
     "events": [
@@ -3336,8 +3370,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792620330,
-    "lastRssAttemptAt": 1792620330,
+    "lastRssSuccessAt": 1792620932,
+    "lastRssAttemptAt": 1792620932,
     "sourceState": "online",
     "error": null
   }
