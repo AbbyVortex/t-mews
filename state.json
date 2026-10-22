@@ -2262,13 +2262,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 382
+      },
+      {
+        "id": "x:2113162277688070445",
+        "x_status_id": "2113162277688070445",
+        "canonical_url": "https://x.com/thsottiaux/status/2113162277688070445",
+        "fingerprint": "76e49d9198d8c4bfde2e3d0113c5c5ce4db31385f5cd7e46fe13ddc9e55e94ce",
+        "published_at": 1792652122,
+        "detected_at": 1792652157,
+        "text": "Day 17/ Bet you thought we forgot, but no, it’s reset day today.\n\nAlso good time to remind you to get Daybreak Blue access, it only takes 15 mins and you don’t want to have to do it in the middle of an incident.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 35
+      },
+      {
+        "id": "x:2113162413008884099",
+        "x_status_id": "2113162413008884099",
+        "canonical_url": "https://x.com/thsottiaux/status/2113162413008884099",
+        "fingerprint": "29c1643f0e09c93812c2156de2f66da3b5c7c229df72d1c497ade9f8528587ef",
+        "published_at": 1792652154,
+        "detected_at": 1792652157,
+        "text": "Lands tomorrow before 10am PST.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 3
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792651541,
+        "last_success_at": 1792652157,
         "last_failure_at": 1792648529,
         "offline_since": null,
         "failure_episodes": 236,
@@ -2298,7 +2332,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792651541"
+        "value": "1792652157"
       }
     ],
     "events": [
@@ -2463,6 +2497,12 @@
         "event_type": "post_analysis",
         "created_at": 1792565731,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@theo I demand a reset\"}}"
+      },
+      {
+        "id": "analysis:x:2113162277688070445",
+        "event_type": "post_analysis",
+        "created_at": 1792652157,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Day 17/ Bet you thought we forgot, but no, it’s reset day today.\"}}"
       },
       {
         "id": "notification:offline:1791433146",
@@ -2991,6 +3031,14 @@
         "sent_at": 1792565731
       },
       {
+        "id": "post:x:2113162277688070445",
+        "post_id": "x:2113162277688070445",
+        "kind": "alert",
+        "created_at": 1792652157,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -3090,8 +3138,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792651541,
-    "lastRssAttemptAt": 1792651541,
+    "lastRssSuccessAt": 1792652157,
+    "lastRssAttemptAt": 1792652157,
     "sourceState": "online",
     "error": null
   }
