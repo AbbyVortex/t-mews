@@ -3,227 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2108014292910113006",
-        "x_status_id": "2108014292910113006",
-        "canonical_url": "https://x.com/thsottiaux/status/2108014292910113006",
-        "fingerprint": "f8486c8835c079a53aae703bd6083435b6b303490f5d0e6a6bb3c1483f8c861a",
-        "published_at": 1791424747,
-        "detected_at": 1791424748,
-        "text": "@poteto You really had to sleep on that one",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 1
-      },
-      {
-        "id": "x:2108017418136330678",
-        "x_status_id": "2108017418136330678",
-        "canonical_url": "https://x.com/thsottiaux/status/2108017418136330678",
-        "fingerprint": "636cf3db75ae783de428bd8141832f1c3ef6bf6d6ee108916aa4aa533707f6c9",
-        "published_at": 1791425492,
-        "detected_at": 1791425948,
-        "text": "@poteto Goodbye Grok models",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 456
-      },
-      {
-        "id": "x:2108040921044639779",
-        "x_status_id": "2108040921044639779",
-        "canonical_url": "https://x.com/thsottiaux/status/2108040921044639779",
-        "fingerprint": "945e8f982aef6a90ac13ca3e718a24c443709e55bf4e04967ad9042c8dfc3f8d",
-        "published_at": 1791431095,
-        "detected_at": 1791431353,
-        "text": "Confirmed landed across all accounts. How are we doing so far?",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author reply or quote refers to related reset content; related text is not an author announcement",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 258
-      },
-      {
-        "id": "x:2108046065857679614",
-        "x_status_id": "2108046065857679614",
-        "canonical_url": "https://x.com/thsottiaux/status/2108046065857679614",
-        "fingerprint": "e02bd756fbde8e16289d0cf950afd0570a18858b6689eb492869766ee355fc91",
-        "published_at": 1791432322,
-        "detected_at": 1791432549,
-        "text": "@CristianRus4 Haha",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 227
-      },
-      {
-        "id": "x:2108046671309685096",
-        "x_status_id": "2108046671309685096",
-        "canonical_url": "https://x.com/thsottiaux/status/2108046671309685096",
-        "fingerprint": "74ea4adad5a0eb209af4fd8d622ab680dd2ae47f39724cfcc22fd0cc44a27d1c",
-        "published_at": 1791432466,
-        "detected_at": 1791432549,
-        "text": "@mitchellh Chungus, we should have thought of that name",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 83
-      },
-      {
-        "id": "x:2108064454831427702",
-        "x_status_id": "2108064454831427702",
-        "canonical_url": "https://x.com/thsottiaux/status/2108064454831427702",
-        "fingerprint": "ed4bfe336e17c3e80e8f58d1d75f91592149c8db95366d5dff411c9f7ec274f8",
-        "published_at": 1791436706,
-        "detected_at": 1791436747,
-        "text": "@notesbyfloat Happier than most x users",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 41
-      },
-      {
-        "id": "x:2108064684549230815",
-        "x_status_id": "2108064684549230815",
-        "canonical_url": "https://x.com/thsottiaux/status/2108064684549230815",
-        "fingerprint": "fa684055d7d5487511da8b3dd6996a0d1c583974bf0aa2f215c88a7fabe300f6",
-        "published_at": 1791436761,
-        "detected_at": 1791437352,
-        "text": "@Leooweb3 Dot Dot Dot",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 591
-      },
-      {
-        "id": "x:2108067119980319111",
-        "x_status_id": "2108067119980319111",
-        "canonical_url": "https://x.com/thsottiaux/status/2108067119980319111",
-        "fingerprint": "4ee3a3b6f2450d20d52fa59a3493d4f70693774574f0a666d9c9eeac0ca5bfa0",
-        "published_at": 1791437342,
-        "detected_at": 1791437352,
-        "text": "@bot @poteto So smart. Figured out by itself who needs it",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 10
-      },
-      {
-        "id": "x:2108080036725354918",
-        "x_status_id": "2108080036725354918",
-        "canonical_url": "https://x.com/thsottiaux/status/2108080036725354918",
-        "fingerprint": "aa8553b3a8e4e61f89ccc8d272e49f615e78389c34615122316d16faaa35fe8a",
-        "published_at": 1791440421,
-        "detected_at": 1791440951,
-        "text": "@poteto @bot lmao 💀 get it to work on your models",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 530
-      },
-      {
-        "id": "x:2108084615349170480",
-        "x_status_id": "2108084615349170480",
-        "canonical_url": "https://x.com/thsottiaux/status/2108084615349170480",
-        "fingerprint": "16a787197c9f99311f647c9850d72aaa06606fb81309a0edec07b749e96b32a3",
-        "published_at": 1791441513,
-        "detected_at": 1791441548,
-        "text": "Day 3 (encore)/\n\nWe silently re-shipped codex cloud. It’s pretty good now",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 35
-      },
-      {
-        "id": "x:2108086116683526498",
-        "x_status_id": "2108086116683526498",
-        "canonical_url": "https://x.com/thsottiaux/status/2108086116683526498",
-        "fingerprint": "fdd8e13225eb74807579cb14cd1598ffcc1cb0932e8fe9a604a710f6742f89c4",
-        "published_at": 1791441871,
-        "detected_at": 1791442147,
-        "text": "@Angaisb_ Ah.. spoiled my Day 17",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 276
-      },
-      {
-        "id": "x:2108199520836485472",
-        "x_status_id": "2108199520836485472",
-        "canonical_url": "https://x.com/thsottiaux/status/2108199520836485472",
-        "fingerprint": "4abfb797d324427a29c25ec070ba1890e718fc82ecab0708d2e746a7dfa81fbd",
-        "published_at": 1791468908,
-        "detected_at": 1791469154,
-        "text": "@GergelyOrosz Back to work then @poteto. May the b/dots thrive in this world.",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 246
-      },
-      {
-        "id": "x:2108275041276420573",
-        "x_status_id": "2108275041276420573",
-        "canonical_url": "https://x.com/thsottiaux/status/2108275041276420573",
-        "fingerprint": "1f7c3f76871ed647d25ce7acf7cfe7ada0ab28ba071f8e26a6f6d5c10a615d8e",
-        "published_at": 1791486914,
-        "detected_at": 1791487149,
-        "text": "Day 4/\n\nWe have improved steering to be instant, leading to the model now reacting much faster to adjustments you make, allowing you to course-correct direction in realtime and not have the model waste effort.\n\nAlso releasing GPT-6.1 Sol ultrafast. The two work very well together.\n\nMedia",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 235
-      },
-      {
         "id": "x:2108349826727588000",
         "x_status_id": "2108349826727588000",
         "canonical_url": "https://x.com/thsottiaux/status/2108349826727588000",
@@ -2336,7 +2115,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792710931,
+        "last_success_at": 1792711529,
         "last_failure_at": 1792707331,
         "offline_since": null,
         "failure_episodes": 244,
@@ -2362,32 +2141,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1792624533"
+        "value": "1792711529"
       },
       {
         "key": "lastSuccess",
-        "value": "1792710931"
+        "value": "1792711529"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2108040921044639779",
-        "event_type": "post_analysis",
-        "created_at": 1791431353,
-        "details": "{\"related\":[{\"xStatusId\":\"2107913674593644711\",\"url\":\"https://x.com/thsottiaux/status/2107913674593644711\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Day 3/ The big one is GPT-6 in Chat, but today is also a little celebration day with a new high of 40M active users across Codex and ChatGPT Work. Loading a banked reset in everyone's paid accounts. See you again tomorrow!\",\"provenance\":\"feed\",\"publishedAt\":1791400757}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"display\":\"advisory\",\"reason\":\"author reply or quote refers to related reset content; related text is not an author announcement\",\"evidence\":\"Confirmed landed across all accounts. How are we doing so far?\"}}"
-      },
-      {
-        "id": "analysis:x:2108084615349170480",
-        "event_type": "post_analysis",
-        "created_at": 1791441548,
-        "details": "{\"related\":[{\"xStatusId\":\"2107836671605551217\",\"url\":\"https://x.com/Tailscale/status/2107836671605551217\",\"author\":\"Tailscale\",\"relation\":\"quote\",\"text\":\"Codex 🤝 Tailscale Codex Cloud can now securely connect to resources on your tailnet with Tailscale. Useful tools should be easy to build with, combine, and turn into something even more useful. See how it works → https://buff.ly/yFcldrC\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 3 (encore)/\"}}"
-      },
-      {
-        "id": "analysis:x:2108275041276420573",
-        "event_type": "post_analysis",
-        "created_at": 1791487149,
-        "details": "{\"related\":[{\"xStatusId\":\"2108262812489531498\",\"url\":\"https://x.com/OpenAIDevs/status/2108262812489531498\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"Ultrafast is rolling out today for GPT-6.1 Sol in the API, Codex, and ChatGPT Work. Near-Astra intelligence at up to 8x faster speeds than Sol Standard, so you can build as fast as the ideas come.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 4/\"}}"
-      },
       {
         "id": "analysis:x:2108645667451318747",
         "event_type": "post_analysis",
@@ -2539,18 +2300,6 @@
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Day 17/ Bet you thought we forgot, but no, it’s reset day today.\"}}"
       },
       {
-        "id": "notification:offline:1791433146",
-        "event_type": "notification_sent",
-        "created_at": 1791434349,
-        "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:offline:1791463744",
-        "event_type": "notification_sent",
-        "created_at": 1791464951,
-        "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
         "id": "notification:offline:1791507551",
         "event_type": "notification_sent",
         "created_at": 1791508749,
@@ -2573,12 +2322,6 @@
         "event_type": "notification_sent",
         "created_at": 1791778528,
         "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:post:x:2108040921044639779",
-        "event_type": "notification_sent",
-        "created_at": 1791431353,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2108040921044639779\"}"
       },
       {
         "id": "notification:post:x:2109045220411351517",
@@ -2663,18 +2406,6 @@
         "event_type": "notification_sent",
         "created_at": 1792652157,
         "details": "{\"kind\":\"alert\",\"postId\":\"x:2113162277688070445\"}"
-      },
-      {
-        "id": "notification:recovered:1791433146",
-        "event_type": "notification_sent",
-        "created_at": 1791434947,
-        "details": "{\"kind\":\"recovered\",\"postId\":null}"
-      },
-      {
-        "id": "notification:recovered:1791463744",
-        "event_type": "notification_sent",
-        "created_at": 1791465556,
-        "details": "{\"kind\":\"recovered\",\"postId\":null}"
       },
       {
         "id": "notification:recovered:1791507551",
@@ -3178,8 +2909,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792710931,
-    "lastRssAttemptAt": 1792710931,
+    "lastRssSuccessAt": 1792711529,
+    "lastRssAttemptAt": 1792711529,
     "sourceState": "online",
     "error": null
   }
