@@ -2313,13 +2313,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 931
+      },
+      {
+        "id": "x:2113404560853397516",
+        "x_status_id": "2113404560853397516",
+        "canonical_url": "https://x.com/thsottiaux/status/2113404560853397516",
+        "fingerprint": "ae3e588c124b3a64cc62a15b0a08a81392675b28dbbfcb3de7c5fab786feae44",
+        "published_at": 1792709887,
+        "detected_at": 1792710328,
+        "text": "@romainhuet Very baguette of you",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 441
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792709729,
+        "last_success_at": 1792710328,
         "last_failure_at": 1792707331,
         "offline_since": null,
         "failure_episodes": 244,
@@ -2349,7 +2366,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792709729"
+        "value": "1792710328"
       }
     ],
     "events": [
@@ -3161,8 +3178,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792709729,
-    "lastRssAttemptAt": 1792709729,
+    "lastRssSuccessAt": 1792710328,
+    "lastRssAttemptAt": 1792710328,
     "sourceState": "online",
     "error": null
   }
