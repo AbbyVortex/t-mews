@@ -2296,13 +2296,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 3
+      },
+      {
+        "id": "x:2113163458867032238",
+        "x_status_id": "2113163458867032238",
+        "canonical_url": "https://x.com/thsottiaux/status/2113163458867032238",
+        "fingerprint": "b6c4a360bb6501f4589dd826b4335456b53dfdbf6bd00d872e5ee6dbca41fe89",
+        "published_at": 1792652403,
+        "detected_at": 1792653334,
+        "text": "@ebloch Hefty",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 931
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792652157,
+        "last_success_at": 1792653334,
         "last_failure_at": 1792648529,
         "offline_since": null,
         "failure_episodes": 236,
@@ -2332,7 +2349,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792652157"
+        "value": "1792653334"
       }
     ],
     "events": [
@@ -3144,8 +3161,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792652157,
-    "lastRssAttemptAt": 1792652157,
+    "lastRssSuccessAt": 1792653334,
+    "lastRssAttemptAt": 1792653334,
     "sourceState": "online",
     "error": null
   }
