@@ -2143,13 +2143,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 476
+      },
+      {
+        "id": "x:2113770573994299544",
+        "x_status_id": "2113770573994299544",
+        "canonical_url": "https://x.com/thsottiaux/status/2113770573994299544",
+        "fingerprint": "69ac871b86d36241c74243d7c4f3765811f16c5b07e41d5eb5e329b37e597e05",
+        "published_at": 1792797151,
+        "detected_at": 1792797334,
+        "text": "Day 19/ Small updates. Calls connect much faster for dots, changing reasoning in codex & work mid conversation does not invalidate cache anymore and a we've also updated the codex cli.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 183
+      },
+      {
+        "id": "x:2113770862860222611",
+        "x_status_id": "2113770862860222611",
+        "canonical_url": "https://x.com/thsottiaux/status/2113770862860222611",
+        "fingerprint": "90fdf8986a0190846b3a2e371beb1e1afe9d70ebf892900571dec4a0c1a928e7",
+        "published_at": 1792797220,
+        "detected_at": 1792797334,
+        "text": "On codex cli updates. We've added reusable prompt presets, inline model and permission settings, and enterprise MCP sign-in. We've also fixed failures when resuming long sessions and added Windows corporate-proxy authentication.\n\nSurprisingly the CLI has grown 2X in usage since devday.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 114
+      },
+      {
+        "id": "x:2113771215433392478",
+        "x_status_id": "2113771215433392478",
+        "canonical_url": "https://x.com/thsottiaux/status/2113771215433392478",
+        "fingerprint": "2b0c2270111a016b76db02d121f1cfc47f40ef43fe0e0d8c5bcffb60a22769bb",
+        "published_at": 1792797304,
+        "detected_at": 1792797334,
+        "text": "@playdropai @bcherny @alexandr_wang @poteto Fun game",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 30
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792796733,
+        "last_success_at": 1792797334,
         "last_failure_at": 1792791935,
         "offline_since": null,
         "failure_episodes": 255,
@@ -2179,7 +2230,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792796733"
+        "value": "1792797334"
       }
     ],
     "events": [
@@ -2963,8 +3014,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792796733,
-    "lastRssAttemptAt": 1792796733,
+    "lastRssSuccessAt": 1792797334,
+    "lastRssAttemptAt": 1792797334,
     "sourceState": "online",
     "error": null
   }
