@@ -3,108 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2108349826727588000",
-        "x_status_id": "2108349826727588000",
-        "canonical_url": "https://x.com/thsottiaux/status/2108349826727588000",
-        "fingerprint": "ffc06cbf56146a2d1b8423db20a7c3af54d94de1d349a89f4267d7d7ea6ba84c",
-        "published_at": 1791504744,
-        "detected_at": 1791505147,
-        "text": "Today, we are announcing ChatGPT.\n\nIt is here: https://chatgpt.com/",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 403
-      },
-      {
-        "id": "x:2108391597834727636",
-        "x_status_id": "2108391597834727636",
-        "canonical_url": "https://x.com/thsottiaux/status/2108391597834727636",
-        "fingerprint": "819c17fdf74bec6077c799965bf082b473ce3bbee6705f406b1f04a4e6460154",
-        "published_at": 1791514703,
-        "detected_at": 1791514750,
-        "text": "@Deepusleepy i am retired",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 47
-      },
-      {
-        "id": "x:2108428560822424062",
-        "x_status_id": "2108428560822424062",
-        "canonical_url": "https://x.com/thsottiaux/status/2108428560822424062",
-        "fingerprint": "04057fb8c0709f280832bccbd292fa7e07ea57b84c8dbe6097a030ae5a117286",
-        "published_at": 1791523516,
-        "detected_at": 1791523747,
-        "text": "@SimonasLTU1 This was all client-side + network for playground only. Shipped optimized rendering logic that can keep up with ultrafast, try again",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 231
-      },
-      {
-        "id": "x:2108645667451318747",
-        "x_status_id": "2108645667451318747",
-        "canonical_url": "https://x.com/thsottiaux/status/2108645667451318747",
-        "fingerprint": "7867c799450b81f328514326ce534868a575d33cb56fb6ef142abf83c56f45b8",
-        "published_at": 1791575278,
-        "detected_at": 1791575351,
-        "text": "Day 5/\n\nComposer predictions in the desktop app. Often leads to a double take with how on point they are. Included in the Pro plans without consuming usage.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 73
-      },
-      {
-        "id": "x:2108646052178092403",
-        "x_status_id": "2108646052178092403",
-        "canonical_url": "https://x.com/thsottiaux/status/2108646052178092403",
-        "fingerprint": "85e58092a9e487124b8abe854a20e836a72f357ffed1a3c3d2996b32b04bbece",
-        "published_at": 1791575370,
-        "detected_at": 1791575950,
-        "text": "Day 5 (dots edition)/\n\nYou can now create and text your dot entirely from the ChatGPT mobile app. Impressed so many created them via the desktop/web app previously. Time to scale!",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 580
-      },
-      {
-        "id": "x:2108650026671231468",
-        "x_status_id": "2108650026671231468",
-        "canonical_url": "https://x.com/thsottiaux/status/2108650026671231468",
-        "fingerprint": "0207f8c76d308d5d64b0bfd060a1735077eff6a181e1fab1a34a3ace8d6faa13",
-        "published_at": 1791576317,
-        "detected_at": 1791577146,
-        "text": "Send feedback to @keyanzhang and @sharifshameem !",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 829
-      },
-      {
         "id": "x:2108773703064657936",
         "x_status_id": "2108773703064657936",
         "canonical_url": "https://x.com/thsottiaux/status/2108773703064657936",
@@ -2199,12 +2097,12 @@
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1792797334,
+        "state": "online",
+        "last_success_at": 1792798529,
         "last_failure_at": 1792797935,
-        "offline_since": 1792797935,
+        "offline_since": null,
         "failure_episodes": 256,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2226,30 +2124,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1792711529"
+        "value": "1792798529"
       },
       {
         "key": "lastSuccess",
-        "value": "1792797334"
-      },
-      {
-        "key": "outage",
-        "value": "1792797935"
+        "value": "1792798529"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2108645667451318747",
-        "event_type": "post_analysis",
-        "created_at": 1791575351,
-        "details": "{\"related\":[{\"xStatusId\":\"2108624138369929725\",\"url\":\"https://x.com/OpenAIDevs/status/2108624138369929725\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"Now in beta: composer predictions in Codex for Pro users. Codex can now suggest your next message based on your conversation and how you talk to it. One of the most loved new features we've ever tested internally.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 5/\"}}"
-      },
-      {
-        "id": "analysis:x:2108646052178092403",
-        "event_type": "post_analysis",
-        "created_at": 1791575950,
-        "details": "{\"related\":[{\"xStatusId\":\"2108636745915052037\",\"url\":\"https://x.com/ChatGPT/status/2108636745915052037\",\"author\":\"ChatGPT\",\"relation\":\"quote\",\"text\":\"Fresh updates for dots. First up: you can now create your dot straight from your phone in the ChatGPT app on iOS and Android.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 5 (dots edition)/\"}}"
-      },
       {
         "id": "analysis:x:2108773703064657936",
         "event_type": "post_analysis",
@@ -2395,24 +2277,6 @@
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"But yes… that’s a reset!\"}}"
       },
       {
-        "id": "notification:offline:1791507551",
-        "event_type": "notification_sent",
-        "created_at": 1791508749,
-        "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:offline:1791510545",
-        "event_type": "notification_sent",
-        "created_at": 1791511747,
-        "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:offline:1791520747",
-        "event_type": "notification_sent",
-        "created_at": 1791521982,
-        "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
         "id": "notification:offline:1791777331",
         "event_type": "notification_sent",
         "created_at": 1791778528,
@@ -2507,24 +2371,6 @@
         "event_type": "notification_sent",
         "created_at": 1792731330,
         "details": "{\"kind\":\"alert\",\"postId\":\"x:2113492187770175603\"}"
-      },
-      {
-        "id": "notification:recovered:1791507551",
-        "event_type": "notification_sent",
-        "created_at": 1791509356,
-        "details": "{\"kind\":\"recovered\",\"postId\":null}"
-      },
-      {
-        "id": "notification:recovered:1791510545",
-        "event_type": "notification_sent",
-        "created_at": 1791512349,
-        "details": "{\"kind\":\"recovered\",\"postId\":null}"
-      },
-      {
-        "id": "notification:recovered:1791520747",
-        "event_type": "notification_sent",
-        "created_at": 1791522550,
-        "details": "{\"kind\":\"recovered\",\"postId\":null}"
       },
       {
         "id": "notification:recovered:1791777331",
@@ -3018,9 +2864,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792797334,
-    "lastRssAttemptAt": 1792797935,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1792798529,
+    "lastRssAttemptAt": 1792798529,
+    "sourceState": "online",
+    "error": null
   }
 }
