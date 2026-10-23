@@ -2109,13 +2109,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 441
+      },
+      {
+        "id": "x:2113492187770175603",
+        "x_status_id": "2113492187770175603",
+        "canonical_url": "https://x.com/thsottiaux/status/2113492187770175603",
+        "fingerprint": "ec534fd2103ccfc9f4a383ef63c2fee01c73dde6767d52686b64ee5eae011d85",
+        "published_at": 1792730779,
+        "detected_at": 1792731330,
+        "text": "Day 18/ Decisions API is GA, OpenResponses joined the Linux Foundation, we shipped some performance improvements and Uber is going all-in on codex & work. But yes… that’s a reset!",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 551
+      },
+      {
+        "id": "x:2113492502355562875",
+        "x_status_id": "2113492502355562875",
+        "canonical_url": "https://x.com/thsottiaux/status/2113492502355562875",
+        "fingerprint": "bc665abeea3457eb221c14b5ac6f1bc6345763bca141b40d9b07014e78d674c5",
+        "published_at": 1792730854,
+        "detected_at": 1792731330,
+        "text": "Landing tomorrow before 10am PST together with a small ship.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 476
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792730729,
+        "last_success_at": 1792731330,
         "last_failure_at": 1792721727,
         "offline_since": null,
         "failure_episodes": 247,
@@ -2145,7 +2179,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792730729"
+        "value": "1792731330"
       }
     ],
     "events": [
@@ -2298,6 +2332,12 @@
         "event_type": "post_analysis",
         "created_at": 1792652157,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Day 17/ Bet you thought we forgot, but no, it’s reset day today.\"}}"
+      },
+      {
+        "id": "analysis:x:2113492187770175603",
+        "event_type": "post_analysis",
+        "created_at": 1792731330,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"But yes… that’s a reset!\"}}"
       },
       {
         "id": "notification:offline:1791507551",
@@ -2810,6 +2850,14 @@
         "sent_at": 1792652157
       },
       {
+        "id": "post:x:2113492187770175603",
+        "post_id": "x:2113492187770175603",
+        "kind": "alert",
+        "created_at": 1792731330,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -2909,8 +2957,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792730729,
-    "lastRssAttemptAt": 1792730729,
+    "lastRssSuccessAt": 1792731330,
+    "lastRssAttemptAt": 1792731330,
     "sourceState": "online",
     "error": null
   }
