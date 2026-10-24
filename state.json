@@ -2143,13 +2143,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 133
+      },
+      {
+        "id": "x:2114073762895405067",
+        "x_status_id": "2114073762895405067",
+        "canonical_url": "https://x.com/thsottiaux/status/2114073762895405067",
+        "fingerprint": "62267c6bcedd92fa5792e720c60198730bed755b291fdc954ca2a5c799a72fc7",
+        "published_at": 1792869437,
+        "detected_at": 1792869928,
+        "text": "@TokenGremlin Hi 👋",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 491
+      },
+      {
+        "id": "x:2114074317759938918",
+        "x_status_id": "2114074317759938918",
+        "canonical_url": "https://x.com/thsottiaux/status/2114074317759938918",
+        "fingerprint": "a8ec8bd32d9a652e8e474d20a0749a1ff1cfa993ed051b285f5f95d7551a0f6d",
+        "published_at": 1792869569,
+        "detected_at": 1792869928,
+        "text": "@can @OpenAIDevs No need for a bribe. What’s bothering you",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 359
+      },
+      {
+        "id": "x:2114074885622501706",
+        "x_status_id": "2114074885622501706",
+        "canonical_url": "https://x.com/thsottiaux/status/2114074885622501706",
+        "fingerprint": "e176e3ec3fe753791865181c74883a4937ccf06f110beea49426b67f97a41da7",
+        "published_at": 1792869705,
+        "detected_at": 1792869928,
+        "text": "DM if you want to help scale dots to 1B users and have done similar things in the past",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 223
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792869330,
+        "last_success_at": 1792869928,
         "last_failure_at": 1792868432,
         "offline_since": null,
         "failure_episodes": 265,
@@ -2179,7 +2230,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792869330"
+        "value": "1792869928"
       }
     ],
     "events": [
@@ -2915,8 +2966,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792869330,
-    "lastRssAttemptAt": 1792869330,
+    "lastRssSuccessAt": 1792869928,
+    "lastRssAttemptAt": 1792869928,
     "sourceState": "online",
     "error": null
   }
