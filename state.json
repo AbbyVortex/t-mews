@@ -2211,13 +2211,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 535
+      },
+      {
+        "id": "x:2114125293124542632",
+        "x_status_id": "2114125293124542632",
+        "canonical_url": "https://x.com/thsottiaux/status/2114125293124542632",
+        "fingerprint": "daaeba335c5f1aa08508f93c8565cd410dec9956297cac6826caa5b29b1761e5",
+        "published_at": 1792881723,
+        "detected_at": 1792881929,
+        "text": "@alexandr_wang Step 1: Quit posting butts and go buy containers\n\nStep 2: ???\n\nStep 3: Celebrate your 12 users",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 206
+      },
+      {
+        "id": "x:2114125878804545940",
+        "x_status_id": "2114125878804545940",
+        "canonical_url": "https://x.com/thsottiaux/status/2114125878804545940",
+        "fingerprint": "18616da6f87ab666b0d2c0b5ba7b2e156fe32540952124fd6bfecff89093b432",
+        "published_at": 1792881862,
+        "detected_at": 1792881929,
+        "text": "@mitsuhiko I doubt they are on twitter",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 67
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792881330,
+        "last_success_at": 1792881929,
         "last_failure_at": 1792868432,
         "offline_since": null,
         "failure_episodes": 265,
@@ -2247,7 +2281,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792881330"
+        "value": "1792881929"
       }
     ],
     "events": [
@@ -2983,8 +3017,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792881330,
-    "lastRssAttemptAt": 1792881330,
+    "lastRssSuccessAt": 1792881929,
+    "lastRssAttemptAt": 1792881929,
     "sourceState": "online",
     "error": null
   }
