@@ -2092,13 +2092,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 30
+      },
+      {
+        "id": "x:2113838156193894447",
+        "x_status_id": "2113838156193894447",
+        "canonical_url": "https://x.com/thsottiaux/status/2113838156193894447",
+        "fingerprint": "e721db3e18b7350ca6e9772caedeff47a1bd3f07586b41a1a2d881fb9fc56663",
+        "published_at": 1792813264,
+        "detected_at": 1792813526,
+        "text": "The difference between having a tool and being a tool is subtle these days and it’s easy to accidentally build yourself into being a tool. Don’t be a tool.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 262
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792812934,
+        "last_success_at": 1792813526,
         "last_failure_at": 1792810532,
         "offline_since": null,
         "failure_episodes": 258,
@@ -2128,7 +2145,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792812934"
+        "value": "1792813526"
       }
     ],
     "events": [
@@ -2864,8 +2881,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792812934,
-    "lastRssAttemptAt": 1792812934,
+    "lastRssSuccessAt": 1792813526,
+    "lastRssAttemptAt": 1792813526,
     "sourceState": "online",
     "error": null
   }
