@@ -2126,13 +2126,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 556
+      },
+      {
+        "id": "x:2114037527598576003",
+        "x_status_id": "2114037527598576003",
+        "canonical_url": "https://x.com/thsottiaux/status/2114037527598576003",
+        "fingerprint": "3a6033b9aaf06c2092bc6eb333e0a9bffc72a56ac77be40f6da7b56b3599d4dd",
+        "published_at": 1792860798,
+        "detected_at": 1792860931,
+        "text": "@vishalsingh2972 One day",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 133
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792860330,
+        "last_success_at": 1792860931,
         "last_failure_at": 1792851932,
         "offline_since": null,
         "failure_episodes": 263,
@@ -2162,7 +2179,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792860330"
+        "value": "1792860931"
       }
     ],
     "events": [
@@ -2898,8 +2915,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792860330,
-    "lastRssAttemptAt": 1792860330,
+    "lastRssSuccessAt": 1792860931,
+    "lastRssAttemptAt": 1792860931,
     "sourceState": "online",
     "error": null
   }
