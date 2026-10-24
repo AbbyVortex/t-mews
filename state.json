@@ -2116,7 +2116,7 @@
         "source": "fxtwitter",
         "state": "offline",
         "last_success_at": 1792843531,
-        "last_failure_at": 1792844128,
+        "last_failure_at": 1792844731,
         "offline_since": 1792844128,
         "failure_episodes": 262,
         "error": "http_404"
@@ -2886,7 +2886,7 @@
   "publicStatus": {
     "version": 1,
     "lastRssSuccessAt": 1792843531,
-    "lastRssAttemptAt": 1792844128,
+    "lastRssAttemptAt": 1792844731,
     "sourceState": "offline",
     "error": "http_404"
   }
