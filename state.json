@@ -2109,13 +2109,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 262
+      },
+      {
+        "id": "x:2114030784625647855",
+        "x_status_id": "2114030784625647855",
+        "canonical_url": "https://x.com/thsottiaux/status/2114030784625647855",
+        "fingerprint": "1f68ecbfcd54b00b4df8ec64ad1ad9725db5623ded6581b3c1eb0cc44091bad9",
+        "published_at": 1792859190,
+        "detected_at": 1792859746,
+        "text": "Saturday is for fixing bugs while sipping coffee. What are some great places to hangout in SF?",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 556
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792859130,
+        "last_success_at": 1792859746,
         "last_failure_at": 1792851932,
         "offline_since": null,
         "failure_episodes": 263,
@@ -2145,7 +2162,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792859130"
+        "value": "1792859746"
       }
     ],
     "events": [
@@ -2881,8 +2898,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792859130,
-    "lastRssAttemptAt": 1792859130,
+    "lastRssSuccessAt": 1792859746,
+    "lastRssAttemptAt": 1792859746,
     "sourceState": "online",
     "error": null
   }
