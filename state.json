@@ -2109,13 +2109,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 67
+      },
+      {
+        "id": "x:2114199013176303641",
+        "x_status_id": "2114199013176303641",
+        "canonical_url": "https://x.com/thsottiaux/status/2114199013176303641",
+        "fingerprint": "480aba24a3d3022d62f244d9df81d649ab12b8d1f62dc1224767ae781a5cbe7f",
+        "published_at": 1792899299,
+        "detected_at": 1792899329,
+        "text": "@alexandr_wang Congrats, that’s not a butt",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 30
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792898730,
+        "last_success_at": 1792899329,
         "last_failure_at": 1792892728,
         "offline_since": null,
         "failure_episodes": 268,
@@ -2145,7 +2162,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792898730"
+        "value": "1792899329"
       }
     ],
     "events": [
@@ -2869,8 +2886,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792898730,
-    "lastRssAttemptAt": 1792898730,
+    "lastRssSuccessAt": 1792899329,
+    "lastRssAttemptAt": 1792899329,
     "sourceState": "online",
     "error": null
   }
