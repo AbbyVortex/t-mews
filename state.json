@@ -2194,17 +2194,51 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 214
+      },
+      {
+        "id": "x:2114237083652882932",
+        "x_status_id": "2114237083652882932",
+        "canonical_url": "https://x.com/thsottiaux/status/2114237083652882932",
+        "fingerprint": "55a78b98cbde60e074d9c3648e04cf059a1dda1c2efd5a02d7aab688448ce41f",
+        "published_at": 1792908376,
+        "detected_at": 1792909528,
+        "text": "It is all propagated. Enjoy some mad codexing tomorrow. Fun week ahead too.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 1152
+      },
+      {
+        "id": "x:2114237441250828563",
+        "x_status_id": "2114237441250828563",
+        "canonical_url": "https://x.com/thsottiaux/status/2114237441250828563",
+        "fingerprint": "e8fab1461404c8d2c273aeb3997a1afcac69a99f36d8c5dfa94395acf651995a",
+        "published_at": 1792908461,
+        "detected_at": 1792909528,
+        "text": "@ScriptedAlchemy .com",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 1067
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1792908333,
+        "state": "online",
+        "last_success_at": 1792909528,
         "last_failure_at": 1792908927,
-        "offline_since": 1792908927,
+        "offline_since": null,
         "failure_episodes": 270,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2230,11 +2264,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792908333"
-      },
-      {
-        "key": "outage",
-        "value": "1792908927"
+        "value": "1792909528"
       }
     ],
     "events": [
@@ -2381,6 +2411,12 @@
         "event_type": "post_analysis",
         "created_at": 1792906530,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@theo Not a real improvement, put the reset in the bag\"}}"
+      },
+      {
+        "id": "analysis:x:2114237083652882932",
+        "event_type": "post_analysis",
+        "created_at": 1792909528,
+        "details": "{\"related\":[{\"xStatusId\":\"2114200291319124163\",\"url\":\"https://x.com/thsottiaux/status/2114200291319124163\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"By midnight PST\",\"provenance\":\"feed\",\"publishedAt\":1792899604}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"It is all propagated.\"}}"
       },
       {
         "id": "notification:offline:1791777331",
@@ -2998,9 +3034,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792908333,
-    "lastRssAttemptAt": 1792908927,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1792909528,
+    "lastRssAttemptAt": 1792909528,
+    "sourceState": "online",
+    "error": null
   }
 }
