@@ -2160,13 +2160,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 329
+      },
+      {
+        "id": "x:2114228044072403055",
+        "x_status_id": "2114228044072403055",
+        "canonical_url": "https://x.com/thsottiaux/status/2114228044072403055",
+        "fingerprint": "cac7d0f2927bd8b00df13debb54ecdbb659398e07bf2d59111ff731885d43d7d",
+        "published_at": 1792906220,
+        "detected_at": 1792906530,
+        "text": "@theo Not a real improvement, put the reset in the bag",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 310
+      },
+      {
+        "id": "x:2114228445043691592",
+        "x_status_id": "2114228445043691592",
+        "canonical_url": "https://x.com/thsottiaux/status/2114228445043691592",
+        "fingerprint": "cebf5db34de31014a0e3143c9ff1a5de8fc0bab8e820b35eb02f08321654f0e3",
+        "published_at": 1792906316,
+        "detected_at": 1792906530,
+        "text": "@_jayyy18_13k",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 214
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792905927,
+        "last_success_at": 1792906530,
         "last_failure_at": 1792904133,
         "offline_since": null,
         "failure_episodes": 269,
@@ -2196,7 +2230,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792905927"
+        "value": "1792906530"
       }
     ],
     "events": [
@@ -2337,6 +2371,12 @@
         "event_type": "post_analysis",
         "created_at": 1792899933,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Day 20/ Rest and reset\"}}"
+      },
+      {
+        "id": "analysis:x:2114228044072403055",
+        "event_type": "post_analysis",
+        "created_at": 1792906530,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@theo Not a real improvement, put the reset in the bag\"}}"
       },
       {
         "id": "notification:offline:1791777331",
@@ -2841,6 +2881,14 @@
         "sent_at": 1792899933
       },
       {
+        "id": "post:x:2114228044072403055",
+        "post_id": "x:2114228044072403055",
+        "kind": "alert",
+        "created_at": 1792906530,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -2940,8 +2988,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792905927,
-    "lastRssAttemptAt": 1792905927,
+    "lastRssSuccessAt": 1792906530,
+    "lastRssAttemptAt": 1792906530,
     "sourceState": "online",
     "error": null
   }
