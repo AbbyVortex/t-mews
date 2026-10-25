@@ -2228,13 +2228,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 1067
+      },
+      {
+        "id": "x:2114365873049993364",
+        "x_status_id": "2114365873049993364",
+        "canonical_url": "https://x.com/thsottiaux/status/2114365873049993364",
+        "fingerprint": "95f5174953b77cbb7b57b89afc1432875b09a3a6a54cf2407bbf5df3963797dc",
+        "published_at": 1792939081,
+        "detected_at": 1792939530,
+        "text": "@theo Love to see it!!",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 449
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792938930,
+        "last_success_at": 1792939530,
         "last_failure_at": 1792932929,
         "offline_since": null,
         "failure_episodes": 280,
@@ -2264,7 +2281,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792938930"
+        "value": "1792939530"
       }
     ],
     "events": [
@@ -3034,8 +3051,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792938930,
-    "lastRssAttemptAt": 1792938930,
+    "lastRssSuccessAt": 1792939530,
+    "lastRssAttemptAt": 1792939530,
     "sourceState": "online",
     "error": null
   }
