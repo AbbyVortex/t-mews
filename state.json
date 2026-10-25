@@ -2126,13 +2126,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 30
+      },
+      {
+        "id": "x:2114200152701575656",
+        "x_status_id": "2114200152701575656",
+        "canonical_url": "https://x.com/thsottiaux/status/2114200152701575656",
+        "fingerprint": "e5e789203dcd3e58a93b157b8e1fb3981ad1a751b825a8af9789ee3493f9e0a6",
+        "published_at": 1792899571,
+        "detected_at": 1792899933,
+        "text": "Day 20/ Rest and reset",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 362
+      },
+      {
+        "id": "x:2114200291319124163",
+        "x_status_id": "2114200291319124163",
+        "canonical_url": "https://x.com/thsottiaux/status/2114200291319124163",
+        "fingerprint": "d671999fb513afdcfffc077c714b51fb3cb474217811cef515606d361b1a0016",
+        "published_at": 1792899604,
+        "detected_at": 1792899933,
+        "text": "By midnight PST",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 329
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792899329,
+        "last_success_at": 1792899933,
         "last_failure_at": 1792892728,
         "offline_since": null,
         "failure_episodes": 268,
@@ -2162,7 +2196,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792899329"
+        "value": "1792899933"
       }
     ],
     "events": [
@@ -2297,6 +2331,12 @@
         "event_type": "post_analysis",
         "created_at": 1792731330,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"But yes… that’s a reset!\"}}"
+      },
+      {
+        "id": "analysis:x:2114200152701575656",
+        "event_type": "post_analysis",
+        "created_at": 1792899933,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Day 20/ Rest and reset\"}}"
       },
       {
         "id": "notification:offline:1791777331",
@@ -2787,6 +2827,14 @@
         "sent_at": 1792731330
       },
       {
+        "id": "post:x:2114200152701575656",
+        "post_id": "x:2114200152701575656",
+        "kind": "alert",
+        "created_at": 1792899933,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -2886,8 +2934,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792899329,
-    "lastRssAttemptAt": 1792899329,
+    "lastRssSuccessAt": 1792899933,
+    "lastRssAttemptAt": 1792899933,
     "sourceState": "online",
     "error": null
   }
