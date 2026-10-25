@@ -3,210 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2109045220411351517",
-        "x_status_id": "2109045220411351517",
-        "canonical_url": "https://x.com/thsottiaux/status/2109045220411351517",
-        "fingerprint": "2c6a3c50a3794906152b58dba667068464fe68761a6f8f8739a9dbbf2104925a",
-        "published_at": 1791670539,
-        "detected_at": 1791680481,
-        "text": "Day 6/ Reset",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 9942
-      },
-      {
-        "id": "x:2109045392684032299",
-        "x_status_id": "2109045392684032299",
-        "canonical_url": "https://x.com/thsottiaux/status/2109045392684032299",
-        "fingerprint": "40e04abd44dcfa85dd9919bfaf164b84dec6b1dbdcd71e1564a186c298e6edb1",
-        "published_at": 1791670580,
-        "detected_at": 1791680481,
-        "text": "Global reset by EOD. May the tokens do good things for you.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 9901
-      },
-      {
-        "id": "x:2109072811113488768",
-        "x_status_id": "2109072811113488768",
-        "canonical_url": "https://x.com/thsottiaux/status/2109072811113488768",
-        "fingerprint": "78543dfa176fe608698017cfc3efc5a118405b6da6f11d26167d000058b2ebd5",
-        "published_at": 1791677117,
-        "detected_at": 1791680481,
-        "text": "@elonmusk @bot Might as well just post it here",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 3364
-      },
-      {
-        "id": "x:2109084804625158541",
-        "x_status_id": "2109084804625158541",
-        "canonical_url": "https://x.com/thsottiaux/status/2109084804625158541",
-        "fingerprint": "c186d86ce7416c0840c78c485e326017355fe46b0a37af7189e5cc66b75f8273",
-        "published_at": 1791679976,
-        "detected_at": 1791680481,
-        "text": "@maria_rcks That’s right, no more ships",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 505
-      },
-      {
-        "id": "x:2109089556675137886",
-        "x_status_id": "2109089556675137886",
-        "canonical_url": "https://x.com/thsottiaux/status/2109089556675137886",
-        "fingerprint": "46359e65d2c2a7778b67ab595e4208fbef26f5a72e6046b4c49c20da6787770a",
-        "published_at": 1791681109,
-        "detected_at": 1791686192,
-        "text": "@TrustAgentic @elonmusk @bot Buy something nice",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 5083
-      },
-      {
-        "id": "x:2109090080497508356",
-        "x_status_id": "2109090080497508356",
-        "canonical_url": "https://x.com/thsottiaux/status/2109090080497508356",
-        "fingerprint": "77207d0d2d3652dc45798c085d63310270d48d668d1d6f4aa1b1d2369570a269",
-        "published_at": 1791681234,
-        "detected_at": 1791686192,
-        "text": "The day we reach perfection it will be resets from there onwards",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 4958
-      },
-      {
-        "id": "x:2109091159784198475",
-        "x_status_id": "2109091159784198475",
-        "canonical_url": "https://x.com/thsottiaux/status/2109091159784198475",
-        "fingerprint": "688a0dfdf365ccd39c9e7a0f2dcf9abf70110ee4f2d9a50a573e28b17b056d69",
-        "published_at": 1791681492,
-        "detected_at": 1791686192,
-        "text": "@ziwenxu_ 1M dots running and doing things for their users",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 4700
-      },
-      {
-        "id": "x:2109092087501332816",
-        "x_status_id": "2109092087501332816",
-        "canonical_url": "https://x.com/thsottiaux/status/2109092087501332816",
-        "fingerprint": "2dcd78914712b14a3e6ee8b1bd52d066d35f6cf279117ecf7dd5e2e9cf28f2db",
-        "published_at": 1791681713,
-        "detected_at": 1791686192,
-        "text": "@ConnorTalksAI Actually had a nightmare about this",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 4479
-      },
-      {
-        "id": "x:2109132167112782291",
-        "x_status_id": "2109132167112782291",
-        "canonical_url": "https://x.com/thsottiaux/status/2109132167112782291",
-        "fingerprint": "b2f5dd15b51dde67badff1fa1aef9cdfd99b14886c793fc4cb23c373950bb8cd",
-        "published_at": 1791691269,
-        "detected_at": 1791691590,
-        "text": "Put the reset in the bag. All propagated.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 321
-      },
-      {
-        "id": "x:2109135750054957556",
-        "x_status_id": "2109135750054957556",
-        "canonical_url": "https://x.com/thsottiaux/status/2109135750054957556",
-        "fingerprint": "f9ee17b83078f4bbe1759504459dd95ddc6d8e7efd6cbc57b8d3d7d5102cb354",
-        "published_at": 1791692123,
-        "detected_at": 1791692194,
-        "text": "@theo Dare you to invite everyone to a party",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 71
-      },
-      {
-        "id": "x:2109142061014466866",
-        "x_status_id": "2109142061014466866",
-        "canonical_url": "https://x.com/thsottiaux/status/2109142061014466866",
-        "fingerprint": "18bb6420b1462448061f069c8b9e5d87c379a6abb5d87d43ab7439dfa6a82475",
-        "published_at": 1791693627,
-        "detected_at": 1791693994,
-        "text": "@SiftByte You are doing more math than I am",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 367
-      },
-      {
-        "id": "x:2109152716954222849",
-        "x_status_id": "2109152716954222849",
-        "canonical_url": "https://x.com/thsottiaux/status/2109152716954222849",
-        "fingerprint": "73048283f027c63bd7b5a45c9f0ba53851d4f592cf97bd357f02acbeb7863389",
-        "published_at": 1791696168,
-        "detected_at": 1791696391,
-        "text": "Pro users, would you rather have",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 223
-      },
-      {
         "id": "x:2109430343346581527",
         "x_status_id": "2109430343346581527",
         "canonical_url": "https://x.com/thsottiaux/status/2109430343346581527",
@@ -2285,7 +2081,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1792971258,
+        "last_success_at": 1792971330,
         "last_failure_at": 1792961128,
         "offline_since": null,
         "failure_episodes": 285,
@@ -2311,38 +2107,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1792884929"
+        "value": "1792971330"
       },
       {
         "key": "lastSuccess",
-        "value": "1792971258"
+        "value": "1792971330"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2109045220411351517",
-        "event_type": "post_analysis",
-        "created_at": 1791680481,
-        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Day 6/ Reset\"}}"
-      },
-      {
-        "id": "analysis:x:2109045392684032299",
-        "event_type": "post_analysis",
-        "created_at": 1791680481,
-        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Global reset by EOD.\"}}"
-      },
-      {
-        "id": "analysis:x:2109090080497508356",
-        "event_type": "post_analysis",
-        "created_at": 1791686192,
-        "details": "{\"related\":[{\"xStatusId\":\"2109045220411351517\",\"url\":\"https://x.com/thsottiaux/status/2109045220411351517\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Day 6/ Reset\",\"provenance\":\"feed\",\"publishedAt\":1791670539}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"The day we reach perfection it will be resets from there onwards\"}}"
-      },
-      {
-        "id": "analysis:x:2109132167112782291",
-        "event_type": "post_analysis",
-        "created_at": 1791691590,
-        "details": "{\"related\":[{\"xStatusId\":\"2109045392684032299\",\"url\":\"https://x.com/thsottiaux/status/2109045392684032299\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Global reset by EOD. May the tokens do good things for you.\",\"provenance\":\"feed\",\"publishedAt\":1791670580}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Put the reset in the bag.\"}}"
-      },
       {
         "id": "analysis:x:2109439315570999598",
         "event_type": "post_analysis",
@@ -2474,30 +2246,6 @@
         "event_type": "notification_sent",
         "created_at": 1791778528,
         "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:post:x:2109045220411351517",
-        "event_type": "notification_sent",
-        "created_at": 1791680481,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2109045220411351517\"}"
-      },
-      {
-        "id": "notification:post:x:2109045392684032299",
-        "event_type": "notification_sent",
-        "created_at": 1791680481,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2109045392684032299\"}"
-      },
-      {
-        "id": "notification:post:x:2109090080497508356",
-        "event_type": "notification_sent",
-        "created_at": 1791686192,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2109090080497508356\"}"
-      },
-      {
-        "id": "notification:post:x:2109132167112782291",
-        "event_type": "notification_sent",
-        "created_at": 1791691590,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2109132167112782291\"}"
       },
       {
         "id": "notification:post:x:2109812216212099456",
@@ -3085,8 +2833,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792971258,
-    "lastRssAttemptAt": 1792971258,
+    "lastRssSuccessAt": 1792971330,
+    "lastRssAttemptAt": 1792971330,
     "sourceState": "online",
     "error": null
   }
