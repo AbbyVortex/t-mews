@@ -3,159 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2109430343346581527",
-        "x_status_id": "2109430343346581527",
-        "canonical_url": "https://x.com/thsottiaux/status/2109430343346581527",
-        "fingerprint": "4b3b35923713fe1e016b96a77d1142b34872344fdd14c2c372edc353628bfab6",
-        "published_at": 1791762359,
-        "detected_at": 1791762932,
-        "text": "Day 7/\n\nWe have increased default context length for GPT-6.1 Sol to 500k when used through Codex & Work, up from 272k or an ~ 80% increase.\n\nWe will go higher in the future, but it helps reduce occurrence of compactions and with tasks that require keeping a lot of context and nuance over periods of time. It was carefully tested and is the new sweet spot for most of our users. You can still override it if you want to be higher our lower, with maximum context length of GPT-6.1 Sol of 1M.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 573
-      },
-      {
-        "id": "x:2109430894604026039",
-        "x_status_id": "2109430894604026039",
-        "canonical_url": "https://x.com/thsottiaux/status/2109430894604026039",
-        "fingerprint": "c6abff34b9435b5201eca2cd61ffff78f38d1240891f67bb545683acf8e105df",
-        "published_at": 1791762491,
-        "detected_at": 1791762932,
-        "text": "With this change, we are not charging long context fees for GPT-6.1 Sol when drawing usage from the subscription.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 441
-      },
-      {
-        "id": "x:2109438305188327838",
-        "x_status_id": "2109438305188327838",
-        "canonical_url": "https://x.com/thsottiaux/status/2109438305188327838",
-        "fingerprint": "f8a71987a4db3d63d88319fbb9dfbaff8ea2a46b69524142890220585d2a2ebb",
-        "published_at": 1791764258,
-        "detected_at": 1791764732,
-        "text": "@birdabo @poteto We're all proud of you @birdabo. Thank you for solving this one, hadn't thought about it",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 474
-      },
-      {
-        "id": "x:2109439315570999598",
-        "x_status_id": "2109439315570999598",
-        "canonical_url": "https://x.com/thsottiaux/status/2109439315570999598",
-        "fingerprint": "3f72a1621f73c14c616304bed9a472ece999c690bf6a9f608d78f241994374fb",
-        "published_at": 1791764498,
-        "detected_at": 1791764732,
-        "text": "The results of this poll has gotten me confused. I definitely thought it would sway much more favorably in the 2X direction across Pro 100/200/500 at the cost of bringing back 5h limits in order to smoothen the demand curve.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "possible usage signal without a confirmed change or strong hint",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 234
-      },
-      {
-        "id": "x:2109439813900493102",
-        "x_status_id": "2109439813900493102",
-        "canonical_url": "https://x.com/thsottiaux/status/2109439813900493102",
-        "fingerprint": "dcd2c549db111ee32b7b304a856931a551e7476a0c8bb6e3d204b6f1bd5d217f",
-        "published_at": 1791764617,
-        "detected_at": 1791764732,
-        "text": "@AnkanXplorer Neither. It's all about coding by hand these days",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 115
-      },
-      {
-        "id": "x:2109491121441402912",
-        "x_status_id": "2109491121441402912",
-        "canonical_url": "https://x.com/thsottiaux/status/2109491121441402912",
-        "fingerprint": "cda384adf17de07d3f71dfca7d7579fe7b22247a238d2e0e56bf5824a9c022ab",
-        "published_at": 1791776850,
-        "detected_at": 1791779128,
-        "text": "@AbdoKerdawy We made it cheaper and tuned it to the new recommended level. \n\nYou can always change settings, but defaults exist for a reason.",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 2278
-      },
-      {
-        "id": "x:2109491524358795714",
-        "x_status_id": "2109491524358795714",
-        "canonical_url": "https://x.com/thsottiaux/status/2109491524358795714",
-        "fingerprint": "cb266402977487b7911a2dda2e8b3223167eda206e35cb4a2b1bc5241606e950",
-        "published_at": 1791776946,
-        "detected_at": 1791779128,
-        "text": "@bobjones We tune these carefully",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 2182
-      },
-      {
-        "id": "x:2109730998867112161",
-        "x_status_id": "2109730998867112161",
-        "canonical_url": "https://x.com/thsottiaux/status/2109730998867112161",
-        "fingerprint": "e81a00545bc211238eb51c9023ace07c97b6c07048c23f1bcd8d9b3aa53a5b8c",
-        "published_at": 1791834041,
-        "detected_at": 1791834336,
-        "text": "@gen_tt @poteto Solid step towards world peace",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 295
-      },
-      {
-        "id": "x:2109778880341151901",
-        "x_status_id": "2109778880341151901",
-        "canonical_url": "https://x.com/thsottiaux/status/2109778880341151901",
-        "fingerprint": "a8cf210af9512e73b2ecfde36404ad36904cfd6bf7d30abbef2a51dc6c0400e0",
-        "published_at": 1791845457,
-        "detected_at": 1791845729,
-        "text": "@steipete 250 tokens per *second* (TPS)!",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 272
-      },
-      {
         "id": "x:2109812216212099456",
         "x_status_id": "2109812216212099456",
         "canonical_url": "https://x.com/thsottiaux/status/2109812216212099456",
@@ -2216,12 +2063,12 @@
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1793057288,
+        "state": "online",
+        "last_success_at": 1793058332,
         "last_failure_at": 1793057795,
-        "offline_since": 1793057795,
+        "offline_since": null,
         "failure_episodes": 298,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2243,24 +2090,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1792971330"
+        "value": "1793058332"
       },
       {
         "key": "lastSuccess",
-        "value": "1793057288"
-      },
-      {
-        "key": "outage",
-        "value": "1793057795"
+        "value": "1793058332"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2109439315570999598",
-        "event_type": "post_analysis",
-        "created_at": 1791764732,
-        "details": "{\"related\":[{\"xStatusId\":\"2109152716954222849\",\"url\":\"https://x.com/thsottiaux/status/2109152716954222849\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Pro users, would you rather have\",\"provenance\":\"feed\",\"publishedAt\":1791696168}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":false,\"reason\":\"possible usage signal without a confirmed change or strong hint\",\"evidence\":\"The results of this poll has gotten me confused.\"}}"
-      },
       {
         "id": "analysis:x:2109812216212099456",
         "event_type": "post_analysis",
@@ -2400,12 +2237,6 @@
         "details": "{\"related\":[{\"xStatusId\":\"2114780711664398349\",\"url\":\"https://x.com/OpenAI/status/2114780711664398349\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"GPT-6.1 Terra: delivering fast and capable computer use at a lower price. GPT-6.1 Terra understands what’s on screen, takes action across apps, writes naturally, and is a more capable model for your whole workday with the efficiency to take on more of it.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"LIMIT_CHANGE\",\"notify\":true,\"reason\":\"confirmed allowance, limit rule or subscription consumption change\",\"display\":\"limit\",\"evidence\":\"Day 22/ Terra is back!\"}}"
       },
       {
-        "id": "notification:offline:1791777331",
-        "event_type": "notification_sent",
-        "created_at": 1791778528,
-        "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
         "id": "notification:post:x:2109812216212099456",
         "event_type": "notification_sent",
         "created_at": 1791853531,
@@ -2500,12 +2331,6 @@
         "event_type": "notification_sent",
         "created_at": 1793042733,
         "details": "{\"kind\":\"alert\",\"postId\":\"x:2114800277677092936\"}"
-      },
-      {
-        "id": "notification:recovered:1791777331",
-        "event_type": "notification_sent",
-        "created_at": 1791779730,
-        "details": "{\"kind\":\"recovered\",\"postId\":null}"
       }
     ],
     "notifications": [
@@ -3033,9 +2858,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793057288,
-    "lastRssAttemptAt": 1793057795,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1793058332,
+    "lastRssAttemptAt": 1793058332,
+    "sourceState": "online",
+    "error": null
   }
 }
