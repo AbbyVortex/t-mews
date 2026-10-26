@@ -2126,17 +2126,68 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 422
+      },
+      {
+        "id": "x:2114598609245126731",
+        "x_status_id": "2114598609245126731",
+        "canonical_url": "https://x.com/thsottiaux/status/2114598609245126731",
+        "fingerprint": "d0fc2269eab37f8b42bd75874c5b043a1e6a5fb1744244b018e7f79e8b7b950f",
+        "published_at": 1792994570,
+        "detected_at": 1792995329,
+        "text": "@bijanbowen 10/10 soothed",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 759
+      },
+      {
+        "id": "x:2114598675930296518",
+        "x_status_id": "2114598675930296518",
+        "canonical_url": "https://x.com/thsottiaux/status/2114598675930296518",
+        "fingerprint": "494efd0f529dac305b39f67539668912d52162c0e405b51ca864c936e5075541",
+        "published_at": 1792994586,
+        "detected_at": 1792995329,
+        "text": "@Sisymiro Absolutely",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 743
+      },
+      {
+        "id": "x:2114599388454481930",
+        "x_status_id": "2114599388454481930",
+        "canonical_url": "https://x.com/thsottiaux/status/2114599388454481930",
+        "fingerprint": "0ccd244c08aa197ab594a4db5cf2cb4ab2d84405b16f7e2ba326a3009807bd5e",
+        "published_at": 1792994756,
+        "detected_at": 1792995329,
+        "text": "@larsencc @bot Not enough resets",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 573
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1792994132,
+        "state": "online",
+        "last_success_at": 1792995329,
         "last_failure_at": 1792994733,
-        "offline_since": 1792994733,
+        "offline_since": null,
         "failure_episodes": 288,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2162,11 +2213,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1792994132"
-      },
-      {
-        "key": "outage",
-        "value": "1792994733"
+        "value": "1792995329"
       }
     ],
     "events": [
@@ -2301,6 +2348,12 @@
         "event_type": "post_analysis",
         "created_at": 1792992334,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"But today is a reset.\"}}"
+      },
+      {
+        "id": "analysis:x:2114599388454481930",
+        "event_type": "post_analysis",
+        "created_at": 1792995329,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@larsencc @bot Not enough resets\"}}"
       },
       {
         "id": "notification:offline:1791777331",
@@ -2809,6 +2862,14 @@
         "sent_at": 1792992334
       },
       {
+        "id": "post:x:2114599388454481930",
+        "post_id": "x:2114599388454481930",
+        "kind": "alert",
+        "created_at": 1792995329,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -2908,9 +2969,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1792994132,
-    "lastRssAttemptAt": 1792994733,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1792995329,
+    "lastRssAttemptAt": 1792995329,
+    "sourceState": "online",
+    "error": null
   }
 }
