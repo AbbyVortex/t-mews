@@ -2194,17 +2194,34 @@
         "notified": 1,
         "notification_status": "sent",
         "detection_latency_seconds": 82
+      },
+      {
+        "id": "x:2114839845604667840",
+        "x_status_id": "2114839845604667840",
+        "canonical_url": "https://x.com/thsottiaux/status/2114839845604667840",
+        "fingerprint": "3d94cd43c81098131ca20ac9e28749f631de667da75e12a00b190d541f9de5f6",
+        "published_at": 1793052085,
+        "detected_at": 1793052329,
+        "text": "@ZryMiller @rohit3a Lore accurate tibo",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 244
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1793051130,
+        "state": "online",
+        "last_success_at": 1793052329,
         "last_failure_at": 1793051730,
-        "offline_since": 1793051730,
+        "offline_since": null,
         "failure_episodes": 296,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2230,11 +2247,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793051130"
-      },
-      {
-        "key": "outage",
-        "value": "1793051730"
+        "value": "1793052329"
       }
     ],
     "events": [
@@ -3016,9 +3029,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793051130,
-    "lastRssAttemptAt": 1793051730,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1793052329,
+    "lastRssAttemptAt": 1793052329,
+    "sourceState": "online",
+    "error": null
   }
 }
