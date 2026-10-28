@@ -3,40 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2110167061632819447",
-        "x_status_id": "2110167061632819447",
-        "canonical_url": "https://x.com/thsottiaux/status/2110167061632819447",
-        "fingerprint": "3bdcc5e77b26aadaeb0a0c5f87ebf36fe128554e417af6c222c097f6dd9e6515",
-        "published_at": 1791938007,
-        "detected_at": 1791938133,
-        "text": "@argofowl 👁️tibo👁️",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 126
-      },
-      {
-        "id": "x:2110188326422819047",
-        "x_status_id": "2110188326422819047",
-        "canonical_url": "https://x.com/thsottiaux/status/2110188326422819047",
-        "fingerprint": "d4014cf50b8c77b2797ee248dd6b14a904f180004a4872b361629bdc3b113f1e",
-        "published_at": 1791943077,
-        "detected_at": 1791943530,
-        "text": "@charliermarsh 😅",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 453
-      },
-      {
         "id": "x:2110589470911418414",
         "x_status_id": "2110589470911418414",
         "canonical_url": "https://x.com/thsottiaux/status/2110589470911418414",
@@ -2081,7 +2047,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793231132,
+        "last_success_at": 1793231730,
         "last_failure_at": 1793228128,
         "offline_since": null,
         "failure_episodes": 334,
@@ -2107,11 +2073,11 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1793145327"
+        "value": "1793231730"
       },
       {
         "key": "lastSuccess",
-        "value": "1793231132"
+        "value": "1793231730"
       }
     ],
     "events": [
@@ -2877,8 +2843,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793231132,
-    "lastRssAttemptAt": 1793231132,
+    "lastRssSuccessAt": 1793231730,
+    "lastRssAttemptAt": 1793231730,
     "sourceState": "online",
     "error": null
   }
