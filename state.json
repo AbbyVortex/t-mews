@@ -1973,13 +1973,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 440
+      },
+      {
+        "id": "x:2115299029294920189",
+        "x_status_id": "2115299029294920189",
+        "canonical_url": "https://x.com/thsottiaux/status/2115299029294920189",
+        "fingerprint": "26bdd35db262a12bbb9e103a27a07752b1517ee980cef616a644de10866fc960",
+        "published_at": 1793161563,
+        "detected_at": 1793162133,
+        "text": "@mark_k @OpenAI Taking notes",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 570
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793161542,
+        "last_success_at": 1793162133,
         "last_failure_at": 1793157929,
         "offline_since": null,
         "failure_episodes": 320,
@@ -2009,7 +2026,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793161542"
+        "value": "1793162133"
       }
     ],
     "events": [
@@ -2757,8 +2774,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793161542,
-    "lastRssAttemptAt": 1793161542,
+    "lastRssSuccessAt": 1793162133,
+    "lastRssAttemptAt": 1793162133,
     "sourceState": "online",
     "error": null
   }
