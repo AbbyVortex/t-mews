@@ -1905,13 +1905,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 114
+      },
+      {
+        "id": "x:2115289940233961584",
+        "x_status_id": "2115289940233961584",
+        "canonical_url": "https://x.com/thsottiaux/status/2115289940233961584",
+        "fingerprint": "a389cee794025802d71d4e7bf9a44b9e2ab54fb6c7d71e2a5a0b9225e146f6d4",
+        "published_at": 1793159396,
+        "detected_at": 1793159729,
+        "text": "@TokenGremlin @poteto lend me some of your strength, there is still time",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 333
+      },
+      {
+        "id": "x:2115290111147712544",
+        "x_status_id": "2115290111147712544",
+        "canonical_url": "https://x.com/thsottiaux/status/2115290111147712544",
+        "fingerprint": "6623f34497444ea0e31a39475a72e3b9f2ff96d5bf4b4341d8e969da65d0860c",
+        "published_at": 1793159437,
+        "detected_at": 1793159729,
+        "text": "@matteing Hi Sergio",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 292
+      },
+      {
+        "id": "x:2115290318652444729",
+        "x_status_id": "2115290318652444729",
+        "canonical_url": "https://x.com/thsottiaux/status/2115290318652444729",
+        "fingerprint": "5989e74930ada83759fabaaaaeb83ceb2ed4b71133ae0e1acd7450887387d1f8",
+        "published_at": 1793159486,
+        "detected_at": 1793159729,
+        "text": "@AdamHoltererer Maybe it’s because I have bad long term memory.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 243
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793159129,
+        "last_success_at": 1793159729,
         "last_failure_at": 1793157929,
         "offline_since": null,
         "failure_episodes": 320,
@@ -1941,7 +1992,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793159129"
+        "value": "1793159729"
       }
     ],
     "events": [
@@ -2689,8 +2740,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793159129,
-    "lastRssAttemptAt": 1793159129,
+    "lastRssSuccessAt": 1793159729,
+    "lastRssAttemptAt": 1793159729,
     "sourceState": "online",
     "error": null
   }
