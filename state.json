@@ -1990,13 +1990,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 570
+      },
+      {
+        "id": "x:2115329600897319076",
+        "x_status_id": "2115329600897319076",
+        "canonical_url": "https://x.com/thsottiaux/status/2115329600897319076",
+        "fingerprint": "384ebf2052c577fb4358e34f041e9f86eb77f1dec354e97d7caf8048d9f2b313",
+        "published_at": 1793168852,
+        "detected_at": 1793169341,
+        "text": "@BenjaminDEKR Pretty crazy but we have this thing called GPT and it just does stuff when you ask",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 489
+      },
+      {
+        "id": "x:2115330127886463244",
+        "x_status_id": "2115330127886463244",
+        "canonical_url": "https://x.com/thsottiaux/status/2115330127886463244",
+        "fingerprint": "0bdfdc6afd1808cacdb951e8c39a360a20603585d033f82ce2dd1e882b3d970b",
+        "published_at": 1793168978,
+        "detected_at": 1793169341,
+        "text": "And it's done. See you tomorrow for some good news.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 363
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793168734,
+        "last_success_at": 1793169341,
         "last_failure_at": 1793157929,
         "offline_since": null,
         "failure_episodes": 320,
@@ -2026,7 +2060,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793168734"
+        "value": "1793169341"
       }
     ],
     "events": [
@@ -2155,6 +2189,12 @@
         "event_type": "post_analysis",
         "created_at": 1793155532,
         "details": "{\"related\":[{\"xStatusId\":\"2115139248458191070\",\"url\":\"https://x.com/ChatGPT/status/2115139248458191070\",\"author\":\"ChatGPT\",\"relation\":\"quote\",\"text\":\"Much requested, and now yours to connect: iCloud Mail and Calendar plugins are available in ChatGPT. Ask ChatGPT to find that email, catch up on your inbox, check what’s next, or update a calendar event. Phew. Available on all ChatGPT plans on web, desktop, and iOS.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Just kidding, today is a reset.\"}}"
+      },
+      {
+        "id": "analysis:x:2115330127886463244",
+        "event_type": "post_analysis",
+        "created_at": 1793169341,
+        "details": "{\"related\":[{\"xStatusId\":\"2115273253711409208\",\"url\":\"https://x.com/thsottiaux/status/2115273253711409208\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Lands by midnight PST.\",\"provenance\":\"feed\",\"publishedAt\":1793155418}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"And it's done.\"}}"
       },
       {
         "id": "notification:post:x:2110595484180214059",
@@ -2774,8 +2814,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793168734,
-    "lastRssAttemptAt": 1793168734,
+    "lastRssSuccessAt": 1793169341,
+    "lastRssAttemptAt": 1793169341,
     "sourceState": "online",
     "error": null
   }
