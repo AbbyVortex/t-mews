@@ -2024,13 +2024,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 363
+      },
+      {
+        "id": "x:2115473170279080149",
+        "x_status_id": "2115473170279080149",
+        "canonical_url": "https://x.com/thsottiaux/status/2115473170279080149",
+        "fingerprint": "eab1171493834b22a780e0b033a4b9c38edf3262f548dc3674c552b3b2917ba7",
+        "published_at": 1793203082,
+        "detected_at": 1793203533,
+        "text": "Pretty wild that this site got 3M views.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 451
+      },
+      {
+        "id": "x:2115473280677363810",
+        "x_status_id": "2115473280677363810",
+        "canonical_url": "https://x.com/thsottiaux/status/2115473280677363810",
+        "fingerprint": "4e762cf74c2cfcb298a63b140d84159901d7a8b54579ca2f52eab6dff9fcbaaf",
+        "published_at": 1793203108,
+        "detected_at": 1793203533,
+        "text": "@Ananth7e If only",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 425
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793202953,
+        "last_success_at": 1793203533,
         "last_failure_at": 1793201730,
         "offline_since": null,
         "failure_episodes": 329,
@@ -2060,7 +2094,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793202953"
+        "value": "1793203533"
       }
     ],
     "events": [
@@ -2195,6 +2229,12 @@
         "event_type": "post_analysis",
         "created_at": 1793169341,
         "details": "{\"related\":[{\"xStatusId\":\"2115273253711409208\",\"url\":\"https://x.com/thsottiaux/status/2115273253711409208\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Lands by midnight PST.\",\"provenance\":\"feed\",\"publishedAt\":1793155418}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"And it's done.\"}}"
+      },
+      {
+        "id": "analysis:x:2115473170279080149",
+        "event_type": "post_analysis",
+        "created_at": 1793203533,
+        "details": "{\"related\":[{\"xStatusId\":\"2115297093879472332\",\"url\":\"https://x.com/thsottiaux/status/2115297093879472332\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"https://www.poteto.com has landed\",\"provenance\":\"feed\",\"publishedAt\":1793161102}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Pretty wild that this site got 3M views.\"}}"
       },
       {
         "id": "notification:post:x:2110595484180214059",
@@ -2814,8 +2854,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793202953,
-    "lastRssAttemptAt": 1793202953,
+    "lastRssSuccessAt": 1793203533,
+    "lastRssAttemptAt": 1793203533,
     "sourceState": "online",
     "error": null
   }
