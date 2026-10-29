@@ -2143,13 +2143,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 33
+      },
+      {
+        "id": "x:2115850175868727621",
+        "x_status_id": "2115850175868727621",
+        "canonical_url": "https://x.com/thsottiaux/status/2115850175868727621",
+        "fingerprint": "f3938e86670f6cf466c12caf0a71d7fb86c8e1797726f58f597ea2ac707988d1",
+        "published_at": 1793292967,
+        "detected_at": 1793293530,
+        "text": "Day 25/\n\nWe are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today.\n\nWe heard your kind feedback and won’t be reducing usage limits for Pro 200, so your Work and Codex usage will stay the same. We’re also going to continue offering extended limits for dots for now, and usage of your dot will still continue to be separate from your default usage.\n\nAnd we'll of course also keep shipping better models and other efficiency improvements that increase your effective usage over time.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "LIMIT_CHANGE",
+        "reason": "confirmed allowance, limit rule or subscription consumption change",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 563
+      },
+      {
+        "id": "x:2115851621137784832",
+        "x_status_id": "2115851621137784832",
+        "canonical_url": "https://x.com/thsottiaux/status/2115851621137784832",
+        "fingerprint": "ff31021ce24c2f0023fc8779eb030381e1a79d49a54c6e246ae0539728b05271",
+        "published_at": 1793293311,
+        "detected_at": 1793293530,
+        "text": "Graduating from The Reset Company to The Token Company.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 219
+      },
+      {
+        "id": "x:2115851811576053881",
+        "x_status_id": "2115851811576053881",
+        "canonical_url": "https://x.com/thsottiaux/status/2115851811576053881",
+        "fingerprint": "149a43a740bb00330fc22b577c2bb230e623aa787c8d2ebb5f4ec2fea12de491",
+        "published_at": 1793293357,
+        "detected_at": 1793293530,
+        "text": "@StefanoGPT Yes",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 173
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793292935,
+        "last_success_at": 1793293530,
         "last_failure_at": 1793279147,
         "offline_since": null,
         "failure_episodes": 338,
@@ -2179,7 +2230,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793292935"
+        "value": "1793293530"
       }
     ],
     "events": [
@@ -2332,6 +2383,18 @@
         "event_type": "post_analysis",
         "created_at": 1793238929,
         "details": "{\"related\":[{\"xStatusId\":\"2115496387613786374\",\"url\":\"https://x.com/ChatGPT/status/2115496387613786374\",\"author\":\"ChatGPT\",\"relation\":\"quote\",\"text\":\"By popular request, you can now text your dot. Give it a task to take off your plate or something to keep an eye on, using text, photos, or even voice notes. It will text you proactively with relevant updates. Safe, secure texting via iMessage or RCS. You’re the only one who can…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 24/ Text your dot just like anyone else.\"}}"
+      },
+      {
+        "id": "analysis:x:2115850175868727621",
+        "event_type": "post_analysis",
+        "created_at": 1793293530,
+        "details": "{\"verdict\":{\"classification\":\"LIMIT_CHANGE\",\"notify\":true,\"reason\":\"confirmed allowance, limit rule or subscription consumption change\",\"display\":\"limit\",\"evidence\":\"Day 25/\"}}"
+      },
+      {
+        "id": "analysis:x:2115851621137784832",
+        "event_type": "post_analysis",
+        "created_at": 1793293530,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Graduating from The Reset Company to The Token Company.\"}}"
       },
       {
         "id": "notification:post:x:2110595484180214059",
@@ -2852,6 +2915,14 @@
         "sent_at": 1793155532
       },
       {
+        "id": "post:x:2115850175868727621",
+        "post_id": "x:2115850175868727621",
+        "kind": "alert",
+        "created_at": 1793293530,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -2951,8 +3022,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793292935,
-    "lastRssAttemptAt": 1793292935,
+    "lastRssSuccessAt": 1793293530,
+    "lastRssAttemptAt": 1793293530,
     "sourceState": "online",
     "error": null
   }
