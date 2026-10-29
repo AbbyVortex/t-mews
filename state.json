@@ -2041,13 +2041,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 580
+      },
+      {
+        "id": "x:2115622002581188681",
+        "x_status_id": "2115622002581188681",
+        "canonical_url": "https://x.com/thsottiaux/status/2115622002581188681",
+        "fingerprint": "77b653f0970be145806d83ef1e178a716e3ef3be023f8e31100c9a5ec5f525f3",
+        "published_at": 1793238566,
+        "detected_at": 1793238929,
+        "text": "Day 24/ Text your dot just like anyone else. Makes it super easy to share/forward things, leave it voice notes or you can even go creative with \"Hey Siri, text Iggy to <INSERT WILD REQUEST>\" and sit back and relax.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 363
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793238331,
+        "last_success_at": 1793238929,
         "last_failure_at": 1793237728,
         "offline_since": null,
         "failure_episodes": 335,
@@ -2077,7 +2094,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793238331"
+        "value": "1793238929"
       }
     ],
     "events": [
@@ -2224,6 +2241,12 @@
         "event_type": "post_analysis",
         "created_at": 1793231132,
         "details": "{\"related\":[{\"xStatusId\":\"2115565560603824452\",\"url\":\"https://x.com/Angaisb_/status/2115565560603824452\",\"author\":\"Angaisb_\",\"relation\":\"quote\",\"text\":\"ChatGPT is unifying Chat and Work I wonder how that changes usage limits\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Team is working on this but it's not rolling out just yet, sorry for any confusion.\"}}"
+      },
+      {
+        "id": "analysis:x:2115622002581188681",
+        "event_type": "post_analysis",
+        "created_at": 1793238929,
+        "details": "{\"related\":[{\"xStatusId\":\"2115496387613786374\",\"url\":\"https://x.com/ChatGPT/status/2115496387613786374\",\"author\":\"ChatGPT\",\"relation\":\"quote\",\"text\":\"By popular request, you can now text your dot. Give it a task to take off your plate or something to keep an eye on, using text, photos, or even voice notes. It will text you proactively with relevant updates. Safe, secure texting via iMessage or RCS. You’re the only one who can…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 24/ Text your dot just like anyone else.\"}}"
       },
       {
         "id": "notification:post:x:2110595484180214059",
@@ -2843,8 +2866,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793238331,
-    "lastRssAttemptAt": 1793238331,
+    "lastRssSuccessAt": 1793238929,
+    "lastRssAttemptAt": 1793238929,
     "sourceState": "online",
     "error": null
   }
