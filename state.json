@@ -2194,13 +2194,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 173
+      },
+      {
+        "id": "x:2115890336107233347",
+        "x_status_id": "2115890336107233347",
+        "canonical_url": "https://x.com/thsottiaux/status/2115890336107233347",
+        "fingerprint": "0c547a46cbfcf618c292d4bd77d85594fa2360dded20b1fd531015670e56d6bf",
+        "published_at": 1793302542,
+        "detected_at": 1793303131,
+        "text": "Send your kind feedback to this person",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 589
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793302529,
+        "last_success_at": 1793303131,
         "last_failure_at": 1793300733,
         "offline_since": null,
         "failure_episodes": 344,
@@ -2230,7 +2247,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793302529"
+        "value": "1793303131"
       }
     ],
     "events": [
@@ -2395,6 +2412,12 @@
         "event_type": "post_analysis",
         "created_at": 1793293530,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Graduating from The Reset Company to The Token Company.\"}}"
+      },
+      {
+        "id": "analysis:x:2115890336107233347",
+        "event_type": "post_analysis",
+        "created_at": 1793303131,
+        "details": "{\"related\":[{\"xStatusId\":\"2115855769665147254\",\"url\":\"https://x.com/ajambrosino/status/2115855769665147254\",\"author\":\"ajambrosino\",\"relation\":\"quote\",\"text\":\"hi all, two things: 1. usage limits are back to being double – your feedback worked 2. we today kicked off an intense sprint to dramatically improve the app simplicity and performance. i will oversee this. more to come. now, send me your complaints\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Send your kind feedback to this person\"}}"
       },
       {
         "id": "notification:post:x:2110595484180214059",
@@ -3042,8 +3065,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793302529,
-    "lastRssAttemptAt": 1793302529,
+    "lastRssSuccessAt": 1793303131,
+    "lastRssAttemptAt": 1793303131,
     "sourceState": "online",
     "error": null
   }
