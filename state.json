@@ -2109,13 +2109,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 520
+      },
+      {
+        "id": "x:2115847315173069025",
+        "x_status_id": "2115847315173069025",
+        "canonical_url": "https://x.com/thsottiaux/status/2115847315173069025",
+        "fingerprint": "3c840e6103769c54826cb2502f9ef600b96b18473ed9108059f822c7f85c90e9",
+        "published_at": 1793292285,
+        "detected_at": 1793292329,
+        "text": "@theo Theo, is that you?",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 44
+      },
+      {
+        "id": "x:2115847364670030218",
+        "x_status_id": "2115847364670030218",
+        "canonical_url": "https://x.com/thsottiaux/status/2115847364670030218",
+        "fingerprint": "cb61a488e2f5cd92df94447327bd581cbd5a6e40eabd141948029c41136ca92c",
+        "published_at": 1793292296,
+        "detected_at": 1793292329,
+        "text": "@poteto Bring it on",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 33
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793291727,
+        "last_success_at": 1793292329,
         "last_failure_at": 1793279147,
         "offline_since": null,
         "failure_episodes": 338,
@@ -2145,7 +2179,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793291727"
+        "value": "1793292329"
       }
     ],
     "events": [
@@ -2917,8 +2951,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793291727,
-    "lastRssAttemptAt": 1793291727,
+    "lastRssSuccessAt": 1793292329,
+    "lastRssAttemptAt": 1793292329,
     "sourceState": "online",
     "error": null
   }
