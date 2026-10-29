@@ -2058,17 +2058,68 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 363
+      },
+      {
+        "id": "x:2115648685069742441",
+        "x_status_id": "2115648685069742441",
+        "canonical_url": "https://x.com/thsottiaux/status/2115648685069742441",
+        "fingerprint": "49d16e76ac9af95e7ccff8ef716e5d8880109009ff4da837fb26ecf534fac86e",
+        "published_at": 1793244928,
+        "detected_at": 1793245540,
+        "text": "@alexandr_wang Muse couldn't build a website so the man just did a redirect",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 612
+      },
+      {
+        "id": "x:2115648938149818370",
+        "x_status_id": "2115648938149818370",
+        "canonical_url": "https://x.com/thsottiaux/status/2115648938149818370",
+        "fingerprint": "b4717b48f1662ad598b56f255225e442344b5b58cd6a14a2826a8bf363939c95",
+        "published_at": 1793244988,
+        "detected_at": 1793245540,
+        "text": "@alexandr_wang @alexandr_wang DM me for a free trial of Pro",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 552
+      },
+      {
+        "id": "x:2115649073302904875",
+        "x_status_id": "2115649073302904875",
+        "canonical_url": "https://x.com/thsottiaux/status/2115649073302904875",
+        "fingerprint": "426175eef663be350f6506dcbe3283a30476ee4fb8a66076087cafc8096afd5c",
+        "published_at": 1793245020,
+        "detected_at": 1793245540,
+        "text": "@rezoundous Low, but not zero",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 520
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1793244331,
+        "state": "online",
+        "last_success_at": 1793245540,
         "last_failure_at": 1793244931,
-        "offline_since": 1793244931,
+        "offline_since": null,
         "failure_episodes": 336,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2094,11 +2145,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793244331"
-      },
-      {
-        "key": "outage",
-        "value": "1793244931"
+        "value": "1793245540"
       }
     ],
     "events": [
@@ -2870,9 +2917,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793244331,
-    "lastRssAttemptAt": 1793244931,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1793245540,
+    "lastRssAttemptAt": 1793245540,
+    "sourceState": "online",
+    "error": null
   }
 }
