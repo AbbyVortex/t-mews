@@ -3,227 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2110589470911418414",
-        "x_status_id": "2110589470911418414",
-        "canonical_url": "https://x.com/thsottiaux/status/2110589470911418414",
-        "fingerprint": "00b976eacaf5bfb3dbebba6e9d445ef39c4fcebc86c7a2845e4be28c3e8b5f66",
-        "published_at": 1792038717,
-        "detected_at": 1792038933,
-        "text": "@theo Sometimes I do need to work",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 216
-      },
-      {
-        "id": "x:2110591392691159317",
-        "x_status_id": "2110591392691159317",
-        "canonical_url": "https://x.com/thsottiaux/status/2110591392691159317",
-        "fingerprint": "e724d698c1110d39139188ea0e58fbaaef0c14afabcef787f461fdea76275d19",
-        "published_at": 1792039175,
-        "detected_at": 1792039528,
-        "text": "@poteto @theo I made it alive",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 353
-      },
-      {
-        "id": "x:2110595484180214059",
-        "x_status_id": "2110595484180214059",
-        "canonical_url": "https://x.com/thsottiaux/status/2110595484180214059",
-        "fingerprint": "3887743af18b459bce9cfcbfc189e0690f1f55ea9097e589e704ea6bf12b9988",
-        "published_at": 1792040151,
-        "detected_at": 1792040732,
-        "text": "The reports of my reset button being lost are greatly exaggerated\n\nDay 10/ Reset",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 581
-      },
-      {
-        "id": "x:2110595554036400151",
-        "x_status_id": "2110595554036400151",
-        "canonical_url": "https://x.com/thsottiaux/status/2110595554036400151",
-        "fingerprint": "a49e03f63cf2a4e97b4d43d946527b46a02a039e2f595e36ea090ac9e940020b",
-        "published_at": 1792040167,
-        "detected_at": 1792040732,
-        "text": "Landing within the next 2 hours",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 565
-      },
-      {
-        "id": "x:2110595987542868381",
-        "x_status_id": "2110595987542868381",
-        "canonical_url": "https://x.com/thsottiaux/status/2110595987542868381",
-        "fingerprint": "773e6f5a466d1e00c0e9e7b08ed181da15908dca71bb0e298a9b1f398bf19e37",
-        "published_at": 1792040271,
-        "detected_at": 1792040732,
-        "text": "@amorriscode @poteto @theo If you’re not a bit afraid of your army, it’s not a good army",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 461
-      },
-      {
-        "id": "x:2110612268962779352",
-        "x_status_id": "2110612268962779352",
-        "canonical_url": "https://x.com/thsottiaux/status/2110612268962779352",
-        "fingerprint": "6f8bd55d42a2b25eb94a874935b02ee062fb86ae61a2a3b566235e4bdceb7386",
-        "published_at": 1792044152,
-        "detected_at": 1792044334,
-        "text": "@ZryMiller @bot @theo Oh Zach, let’s improve this. You look rad today",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 182
-      },
-      {
-        "id": "x:2110618507276886392",
-        "x_status_id": "2110618507276886392",
-        "canonical_url": "https://x.com/thsottiaux/status/2110618507276886392",
-        "fingerprint": "c0a126e9845abe1fc763b1ecff535d13679309bce32be3420145df0d9561429b",
-        "published_at": 1792045640,
-        "detected_at": 1792046129,
-        "text": "@theo I believe it is shown at the bottom of your screenshot 🤡 But seriously, when do you need this?",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 489
-      },
-      {
-        "id": "x:2110618732666257557",
-        "x_status_id": "2110618732666257557",
-        "canonical_url": "https://x.com/thsottiaux/status/2110618732666257557",
-        "fingerprint": "2c9e45146745b99fa2fe1f686278869286fa7e39d0796cb8b6ce1a5bdfc3b4d3",
-        "published_at": 1792045693,
-        "detected_at": 1792046129,
-        "text": "Done and dusted",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 436
-      },
-      {
-        "id": "x:2110624335463584028",
-        "x_status_id": "2110624335463584028",
-        "canonical_url": "https://x.com/thsottiaux/status/2110624335463584028",
-        "fingerprint": "f49730cd5566e8d0d1842826c6fa095c46682c50dd8a986f39746221936c782b",
-        "published_at": 1792047029,
-        "detected_at": 1792047333,
-        "text": "@theo Nice. Will fix",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 304
-      },
-      {
-        "id": "x:2110750421367287996",
-        "x_status_id": "2110750421367287996",
-        "canonical_url": "https://x.com/thsottiaux/status/2110750421367287996",
-        "fingerprint": "de2dcfef43aebbb2abe9ea78e58cb3ff8ca339bd02ea757824a26993f581c257",
-        "published_at": 1792077090,
-        "detected_at": 1792077340,
-        "text": "Day 11/\n\nWe've landed a series of changes and more compute to very significantly decrease the occurrence of the disruptive \"Selected model is at capacity. Please try a different model\". When it does happen, it should also eventually just continue by itself and not just block on it.\n\nLet us know if you still see it out there in the wild and we'll take a look.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 250
-      },
-      {
-        "id": "x:2110864606088593672",
-        "x_status_id": "2110864606088593672",
-        "canonical_url": "https://x.com/thsottiaux/status/2110864606088593672",
-        "fingerprint": "121d40364185a20fcc83d00f57154e8634aa6b77baa4cd000a310a668565d08a",
-        "published_at": 1792104314,
-        "detected_at": 1792104329,
-        "text": "Bonjour",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 15
-      },
-      {
-        "id": "x:2110864861119045840",
-        "x_status_id": "2110864861119045840",
-        "canonical_url": "https://x.com/thsottiaux/status/2110864861119045840",
-        "fingerprint": "c06f9a4bd8a8144478e8617bdcdcfc3fcf26948d942424082ea879b4a2efbaf1",
-        "published_at": 1792104375,
-        "detected_at": 1792104929,
-        "text": "Je programme en français",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 554
-      },
-      {
-        "id": "x:2110868151688912976",
-        "x_status_id": "2110868151688912976",
-        "canonical_url": "https://x.com/thsottiaux/status/2110868151688912976",
-        "fingerprint": "e31f32652332bea9c745ffd9d8184b235f3188af907963c5a55d98eeb2bee554",
-        "published_at": 1792105160,
-        "detected_at": 1792105531,
-        "text": "@_simonsmith Spot on",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 371
-      },
-      {
         "id": "x:2110951220508819773",
         "x_status_id": "2110951220508819773",
         "canonical_url": "https://x.com/thsottiaux/status/2110951220508819773",
@@ -2216,12 +1995,12 @@
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1793317531,
+        "state": "online",
+        "last_success_at": 1793318729,
         "last_failure_at": 1793318129,
-        "offline_since": 1793318129,
+        "offline_since": null,
         "failure_episodes": 347,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2243,36 +2022,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1793231730"
+        "value": "1793318729"
       },
       {
         "key": "lastSuccess",
-        "value": "1793317531"
-      },
-      {
-        "key": "outage",
-        "value": "1793318129"
+        "value": "1793318729"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2110595484180214059",
-        "event_type": "post_analysis",
-        "created_at": 1792040732,
-        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"The reports of my reset button being lost are greatly exaggerated\"}}"
-      },
-      {
-        "id": "analysis:x:2110618732666257557",
-        "event_type": "post_analysis",
-        "created_at": 1792046129,
-        "details": "{\"related\":[{\"xStatusId\":\"2110595554036400151\",\"url\":\"https://x.com/thsottiaux/status/2110595554036400151\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Landing within the next 2 hours\",\"provenance\":\"feed\",\"publishedAt\":1792040167}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Done and dusted\"}}"
-      },
-      {
-        "id": "analysis:x:2110864606088593672",
-        "event_type": "post_analysis",
-        "created_at": 1792104329,
-        "details": "{\"related\":[{\"xStatusId\":\"2110797830361436604\",\"url\":\"https://x.com/OpenAI/status/2110797830361436604\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"New voices. Better accents. And less \\\"checking...\\\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Japanese. Rolling out today to all users. Coming soon to the API.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Bonjour\"}}"
-      },
       {
         "id": "analysis:x:2111244957851984181",
         "event_type": "post_analysis",
@@ -2422,12 +2179,6 @@
         "event_type": "post_analysis",
         "created_at": 1793303131,
         "details": "{\"related\":[{\"xStatusId\":\"2115855769665147254\",\"url\":\"https://x.com/ajambrosino/status/2115855769665147254\",\"author\":\"ajambrosino\",\"relation\":\"quote\",\"text\":\"hi all, two things: 1. usage limits are back to being double – your feedback worked 2. we today kicked off an intense sprint to dramatically improve the app simplicity and performance. i will oversee this. more to come. now, send me your complaints\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Send your kind feedback to this person\"}}"
-      },
-      {
-        "id": "notification:post:x:2110595484180214059",
-        "event_type": "notification_sent",
-        "created_at": 1792040732,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2110595484180214059\"}"
       },
       {
         "id": "notification:post:x:2111246098207813946",
@@ -3069,9 +2820,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793317531,
-    "lastRssAttemptAt": 1793318129,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1793318729,
+    "lastRssAttemptAt": 1793318729,
+    "sourceState": "online",
+    "error": null
   }
 }
