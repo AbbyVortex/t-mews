@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "id": "x:2116256600436641887",
+      "url": "https://x.com/thsottiaux/status/2116256600436641887",
+      "attemptedAt": 1793390129,
+      "model": "gpt-6-luna",
+      "inputHash": "cb2c24052f9272b9db585fe76838497d384752f87112ddea027de864f9b33e32",
+      "rule": {
+        "classification": "CANDIDATE",
+        "notify": true,
+        "display": "advisory"
+      },
+      "status": "claimed"
+    }
+  ]
+}
