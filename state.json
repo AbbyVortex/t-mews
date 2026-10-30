@@ -2041,13 +2041,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 141
+      },
+      {
+        "id": "x:2116046569963421719",
+        "x_status_id": "2116046569963421719",
+        "canonical_url": "https://x.com/thsottiaux/status/2116046569963421719",
+        "fingerprint": "100d5c4368a024c4ee47eadb2776ce21e9a1b7ae265cfd13f6ccd0972634c8df",
+        "published_at": 1793339791,
+        "detected_at": 1793340329,
+        "text": "@Ananth7e Yep",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 538
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793339731,
+        "last_success_at": 1793340329,
         "last_failure_at": 1793334930,
         "offline_since": null,
         "failure_episodes": 351,
@@ -2077,7 +2094,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793339731"
+        "value": "1793340329"
       }
     ],
     "events": [
@@ -2871,8 +2888,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793339731,
-    "lastRssAttemptAt": 1793339731,
+    "lastRssSuccessAt": 1793340329,
+    "lastRssAttemptAt": 1793340329,
     "sourceState": "online",
     "error": null
   }
