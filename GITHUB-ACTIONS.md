@@ -56,7 +56,7 @@ Pushoverへ送る直前に、送信IDを `sending` としてGitHubへ確定保�
 ## 無料条件と公開範囲
 
 - [GitHub公式料金](https://docs.github.com/en/billing/concepts/product-billing/github-actions): publicリポジトリの標準GitHub-hostedランナーは無料。privateリポジトリでは実行を拒否します。
-- 課金対象の大型ランナー、Artifacts、Actions Cache、外部有料APIは使用しません。
+- 通常監視では課金対象の大型ランナー、Artifacts、Actions Cache、外部有料APIは使用しません。初期OFFの[AI shadow比較](docs/ai-shadow.md)を後から有効にした場合だけOpenAI APIの利用料金が発生します。通知判定は変わりません。
 - [scheduleの仕様](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule): 最小5分、遅延や混雑時の実行欠落があり得ます。00分を避けても5分以内を保証しません。
 - 公開するのはコードとTiboの公開投稿、分類、検知時刻、通知状態。PushoverやGitHubのトークン、メールアドレス、CloudflareアカウントIDは保存しません。
 - 実行ログには件数と成否だけを出力。Secretsは送信ステップだけに渡し、pull requestのテストには渡しません。

@@ -9,7 +9,8 @@ Tibo Mushroom Early Warning System。@thsottiaux の公開RSSを確認し、利�
 Cron → RSS/Atomアダプター → D1重複照合 → 決定的な分類 → Pushover。
 
 - TypeScript。RSSはfast-xml-parser、HTMLエンティティはheで処理。
-- X API、OpenAI/LLM API、codexradar.com API、ブラウザ常駐、Xアカウントは不使用。
+- X API、codexradar.com API、ブラウザ常駐、Xアカウントは不使用。通知判定はルール式のままです。
+- Actionsには初期OFFの[AI shadow比較](docs/ai-shadow.md)を用意しています。通常通知と保存の完了後、任意でResponses APIの3分類を別台帳に記録します。AI結果は通知に反映しません。本番workflowは明示的なfalseで配備し、実APIは未実行です。
 - Workers FreeとD1のみ。Cronは稼働時 `* * * * *`。
 - `wrangler.jsonc` は初期状態でCron無効・監視停止。検証後に有効化します。
 - `/` は状態ページ、`/status.json` は状態、`/export.json` は検知日基準の過去7日分。
