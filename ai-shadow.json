@@ -12,7 +12,13 @@
         "notify": true,
         "display": "advisory"
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "attention",
+        "rationale": "「reset」に言及しているが、リセットの実施を知らせる発表ではなく、発表を促す文面。",
+        "confidence": 0.97,
+        "uncertainty": ""
+      }
     }
   ]
 }
