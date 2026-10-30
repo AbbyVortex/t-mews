@@ -2075,17 +2075,34 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 448
+      },
+      {
+        "id": "x:2116256600436641887",
+        "x_status_id": "2116256600436641887",
+        "canonical_url": "https://x.com/thsottiaux/status/2116256600436641887",
+        "fingerprint": "6367bcdfe22ed30fa3423173ffbd953d1990d12c9d1acdea65764c22b4ba2a85",
+        "published_at": 1793389866,
+        "detected_at": 1793390129,
+        "text": "@claudeai Better announce 28 days of reset",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 263
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1793389274,
+        "state": "online",
+        "last_success_at": 1793390129,
         "last_failure_at": 1793389532,
-        "offline_since": 1793389532,
+        "offline_since": null,
         "failure_episodes": 360,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2111,11 +2128,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793389274"
-      },
-      {
-        "key": "outage",
-        "value": "1793389532"
+        "value": "1793390129"
       }
     ],
     "events": [
@@ -2268,6 +2281,12 @@
         "event_type": "post_analysis",
         "created_at": 1793303131,
         "details": "{\"related\":[{\"xStatusId\":\"2115855769665147254\",\"url\":\"https://x.com/ajambrosino/status/2115855769665147254\",\"author\":\"ajambrosino\",\"relation\":\"quote\",\"text\":\"hi all, two things: 1. usage limits are back to being double – your feedback worked 2. we today kicked off an intense sprint to dramatically improve the app simplicity and performance. i will oversee this. more to come. now, send me your complaints\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Send your kind feedback to this person\"}}"
+      },
+      {
+        "id": "analysis:x:2116256600436641887",
+        "event_type": "post_analysis",
+        "created_at": 1793390129,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@claudeai Better announce 28 days of reset\"}}"
       },
       {
         "id": "notification:post:x:2111246098207813946",
@@ -2810,6 +2829,14 @@
         "sent_at": 1793293530
       },
       {
+        "id": "post:x:2116256600436641887",
+        "post_id": "x:2116256600436641887",
+        "kind": "alert",
+        "created_at": 1793390129,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -2909,9 +2936,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793389274,
-    "lastRssAttemptAt": 1793389532,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1793390129,
+    "lastRssAttemptAt": 1793390129,
+    "sourceState": "online",
+    "error": null
   }
 }
