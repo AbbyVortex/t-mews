@@ -2058,13 +2058,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 538
+      },
+      {
+        "id": "x:2116072117540417651",
+        "x_status_id": "2116072117540417651",
+        "canonical_url": "https://x.com/thsottiaux/status/2116072117540417651",
+        "fingerprint": "dd3362790c702bb00fb026de3e1789efe89017ed56db9f56be2be859c645473e",
+        "published_at": 1793345882,
+        "detected_at": 1793346330,
+        "text": "@ajambrosino No hype, just shipping",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 448
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793345731,
+        "last_success_at": 1793346330,
         "last_failure_at": 1793334930,
         "offline_since": null,
         "failure_episodes": 351,
@@ -2094,7 +2111,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793345731"
+        "value": "1793346330"
       }
     ],
     "events": [
@@ -2888,8 +2905,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793345731,
-    "lastRssAttemptAt": 1793345731,
+    "lastRssSuccessAt": 1793346330,
+    "lastRssAttemptAt": 1793346330,
     "sourceState": "online",
     "error": null
   }
