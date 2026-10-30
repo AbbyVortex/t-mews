@@ -1990,13 +1990,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 589
+      },
+      {
+        "id": "x:2115974268936712436",
+        "x_status_id": "2115974268936712436",
+        "canonical_url": "https://x.com/thsottiaux/status/2115974268936712436",
+        "fingerprint": "2c895e071067d414f59f4c39fb71bd624d400e4c5248e5ad6a5ed334dbeb9780",
+        "published_at": 1793322553,
+        "detected_at": 1793322931,
+        "text": "@ajambrosino You merge, I split",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 378
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793322331,
+        "last_success_at": 1793322931,
         "last_failure_at": 1793318129,
         "offline_since": null,
         "failure_episodes": 347,
@@ -2026,7 +2043,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793322331"
+        "value": "1793322931"
       }
     ],
     "events": [
@@ -2820,8 +2837,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793322331,
-    "lastRssAttemptAt": 1793322331,
+    "lastRssSuccessAt": 1793322931,
+    "lastRssAttemptAt": 1793322931,
     "sourceState": "online",
     "error": null
   }
