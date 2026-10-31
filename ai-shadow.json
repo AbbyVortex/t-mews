@@ -31,7 +31,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "リセットや付与に関する文脈のない、単独の否定的な返答です。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      }
     }
   ]
 }
