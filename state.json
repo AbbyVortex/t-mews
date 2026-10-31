@@ -1956,13 +1956,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 541
+      },
+      {
+        "id": "x:2116405414921384099",
+        "x_status_id": "2116405414921384099",
+        "canonical_url": "https://x.com/thsottiaux/status/2116405414921384099",
+        "fingerprint": "e7d47e897127e9ef633791550cb6c13ab4d1f63f19911ff3c6e167e447d7556b",
+        "published_at": 1793425346,
+        "detected_at": 1793425531,
+        "text": "Day 26/ You can now easily switch between multiple accounts on mobile, and coming soon to desktop too. Next two days will be resets… banked… do with this what you may 👀.\n\nhttps://help.openai.com/en/articles/20001068-using-multiple-chatgpt-accounts-on-web-and-mobile",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 185
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793424927,
+        "last_success_at": 1793425531,
         "last_failure_at": 1793418331,
         "offline_since": null,
         "failure_episodes": 365,
@@ -1992,7 +2009,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793424927"
+        "value": "1793425531"
       }
     ],
     "events": [
@@ -2133,6 +2150,12 @@
         "event_type": "post_analysis",
         "created_at": 1793390129,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@claudeai Better announce 28 days of reset\"}}"
+      },
+      {
+        "id": "analysis:x:2116405414921384099",
+        "event_type": "post_analysis",
+        "created_at": 1793425531,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Next two days will be resets… banked… do with this what you may 👀.\"}}"
       },
       {
         "id": "notification:post:x:2111492673890824348",
@@ -2683,6 +2706,14 @@
         "sent_at": 1793390129
       },
       {
+        "id": "post:x:2116405414921384099",
+        "post_id": "x:2116405414921384099",
+        "kind": "alert",
+        "created_at": 1793425531,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -2782,8 +2813,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793424927,
-    "lastRssAttemptAt": 1793424927,
+    "lastRssSuccessAt": 1793425531,
+    "lastRssAttemptAt": 1793425531,
     "sourceState": "online",
     "error": null
   }
