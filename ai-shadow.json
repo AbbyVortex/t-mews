@@ -69,7 +69,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "Codexへの言及のみで、使用リセットやバンクドリセットとの関連は見られません。",
+        "confidence": 0.98,
+        "uncertainty": ""
+      }
     }
   ]
 }
