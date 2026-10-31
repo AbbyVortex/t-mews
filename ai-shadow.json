@@ -50,7 +50,13 @@
         "notify": true,
         "display": "advisory"
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "announcement",
+        "rationale": "「次の2日間はresets… banked…」と、ResetおよびBanked Resetの実施を明確に予告しています。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      }
     }
   ]
 }
