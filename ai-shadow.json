@@ -126,7 +126,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "犬がバグを直したという投稿で、Resetや利用枠、mushroom grantとの関連はありません。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      }
     }
   ]
 }
