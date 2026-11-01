@@ -183,7 +183,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "「Banked 2/2」とありますが、リセットや付与を示す文脈がなく、関連を判断できません。",
+        "confidence": 0.72,
+        "uncertainty": ""
+      }
     }
   ]
 }
