@@ -95,6 +95,19 @@
         "confidence": 0.96,
         "uncertainty": ""
       }
+    },
+    {
+      "id": "x:2116692730877522349",
+      "url": "https://x.com/thsottiaux/status/2116692730877522349",
+      "attemptedAt": 1793493929,
+      "model": "gpt-6-luna",
+      "inputHash": "b6cfac432bd95aa6cbde32528813085ac0c4200412c47d8478d3a517666fb84f",
+      "rule": {
+        "classification": "IRRELEVANT",
+        "notify": false,
+        "display": null
+      },
+      "status": "claimed"
     }
   ]
 }
