@@ -88,7 +88,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "関連するリセットや付与の文脈がなく、「?!」だけでは接続を判断できません。",
+        "confidence": 0.96,
+        "uncertainty": ""
+      }
     }
   ]
 }
