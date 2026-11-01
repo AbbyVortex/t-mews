@@ -164,7 +164,13 @@
         "notify": true,
         "display": "advisory"
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "attention",
+        "rationale": "「banked reset」を求める発言で、リセットに関連していますが、付与を告知してはいません。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      }
     }
   ]
 }
