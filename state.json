@@ -1786,13 +1786,47 @@
         "notified": 1,
         "notification_status": "sent",
         "detection_latency_seconds": 5
+      },
+      {
+        "id": "x:2117035666332954818",
+        "x_status_id": "2117035666332954818",
+        "canonical_url": "https://x.com/thsottiaux/status/2117035666332954818",
+        "fingerprint": "26ec8f19d595d2e18cfb4a1de52ac6828933f91f251001ebd7ac20b35228b183",
+        "published_at": 1793575610,
+        "detected_at": 1793576132,
+        "text": "@poteto @MyCrazyIdeal it's fine to admit we plan these together months in advance",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 522
+      },
+      {
+        "id": "x:2117035794678546764",
+        "x_status_id": "2117035794678546764",
+        "canonical_url": "https://x.com/thsottiaux/status/2117035794678546764",
+        "fingerprint": "73a2f97f7b2e31e974bcb8f0b53e3c68ca3ff66b4caf104533b225323d9d86c9",
+        "published_at": 1793575640,
+        "detected_at": 1793576132,
+        "text": "Day 28/ Banked 2/2",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 492
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793575531,
+        "last_success_at": 1793576132,
         "last_failure_at": 1793568329,
         "offline_since": null,
         "failure_episodes": 390,
@@ -1822,7 +1856,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793575531"
+        "value": "1793576132"
       }
     ],
     "events": [
@@ -2640,8 +2674,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793575531,
-    "lastRssAttemptAt": 1793575531,
+    "lastRssSuccessAt": 1793576132,
+    "lastRssAttemptAt": 1793576132,
     "sourceState": "online",
     "error": null
   }
