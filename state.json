@@ -1633,13 +1633,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 1334
+      },
+      {
+        "id": "x:2116692529970311254",
+        "x_status_id": "2116692529970311254",
+        "canonical_url": "https://x.com/thsottiaux/status/2116692529970311254",
+        "fingerprint": "15be549176ab3a8fbb5635d5a2bac2edb4cf2f64bb5f320bc99c1e2edd62596f",
+        "published_at": 1793493800,
+        "detected_at": 1793493929,
+        "text": "Banked 1/2",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 129
+      },
+      {
+        "id": "x:2116692730877522349",
+        "x_status_id": "2116692730877522349",
+        "canonical_url": "https://x.com/thsottiaux/status/2116692730877522349",
+        "fingerprint": "76322af7d4c8182bd10b25ec6ec55511cad685210e083b51cacfab8d738469b7",
+        "published_at": 1793493847,
+        "detected_at": 1793493929,
+        "text": "@poteto Can’t wait",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 82
+      },
+      {
+        "id": "x:2116692827459747906",
+        "x_status_id": "2116692827459747906",
+        "canonical_url": "https://x.com/thsottiaux/status/2116692827459747906",
+        "fingerprint": "160aa361bddc188268f314602ffe251a77a1bde43b8f69ce65294a7745b9aa7a",
+        "published_at": 1793493870,
+        "detected_at": 1793493929,
+        "text": "@yacineMTB ?!",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 59
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793493331,
+        "last_success_at": 1793493929,
         "last_failure_at": 1793491530,
         "offline_since": null,
         "failure_episodes": 380,
@@ -1669,7 +1720,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793493331"
+        "value": "1793493929"
       }
     ],
     "events": [
@@ -2467,8 +2518,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793493331,
-    "lastRssAttemptAt": 1793493331,
+    "lastRssSuccessAt": 1793493929,
+    "lastRssAttemptAt": 1793493929,
     "sourceState": "online",
     "error": null
   }
