@@ -1769,13 +1769,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 235
+      },
+      {
+        "id": "x:2116942192497533418",
+        "x_status_id": "2116942192497533418",
+        "canonical_url": "https://x.com/thsottiaux/status/2116942192497533418",
+        "fingerprint": "e90ae8740c9a3c60fc35a44e2c7528e85c21f137d2b427bdd9d72f542c0bf37a",
+        "published_at": 1793553324,
+        "detected_at": 1793553329,
+        "text": "@TokenGremlin I demand a banked reset",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 5
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793552730,
+        "last_success_at": 1793553329,
         "last_failure_at": 1793541928,
         "offline_since": null,
         "failure_episodes": 387,
@@ -1805,7 +1822,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793552730"
+        "value": "1793553329"
       }
     ],
     "events": [
@@ -1946,6 +1963,12 @@
         "event_type": "post_analysis",
         "created_at": 1793425531,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Next two days will be resets… banked… do with this what you may 👀.\"}}"
+      },
+      {
+        "id": "analysis:x:2116942192497533418",
+        "event_type": "post_analysis",
+        "created_at": 1793553329,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@TokenGremlin I demand a banked reset\"}}"
       },
       {
         "id": "notification:post:x:2111918768733753664",
@@ -2504,6 +2527,14 @@
         "sent_at": 1793425531
       },
       {
+        "id": "post:x:2116942192497533418",
+        "post_id": "x:2116942192497533418",
+        "kind": "alert",
+        "created_at": 1793553329,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -2603,8 +2634,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793552730,
-    "lastRssAttemptAt": 1793552730,
+    "lastRssSuccessAt": 1793553329,
+    "lastRssAttemptAt": 1793553329,
     "sourceState": "online",
     "error": null
   }
