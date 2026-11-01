@@ -145,7 +145,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "昨日の会議メモについての投稿で、リセットや付与との関連はありません。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      }
     }
   ]
 }
