@@ -278,7 +278,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "モデル拡充に関する告知で、使用リセットやBanked Reset、付与についての言及はありません。",
+        "confidence": 0.97,
+        "uncertainty": ""
+      }
     }
   ]
 }
