@@ -221,7 +221,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "「終わらせた」と述べているだけで、利用リセットやBanked Reset／付与との関連は見当たりません。",
+        "confidence": 0.98,
+        "uncertainty": ""
+      }
     }
   ]
 }
