@@ -240,7 +240,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "computeを使い切ったという冗談で、Codex/ChatGPTの使用リセットやリセット付与への言及はありません。",
+        "confidence": 0.95,
+        "uncertainty": ""
+      }
     }
   ]
 }
