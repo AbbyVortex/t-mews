@@ -1701,13 +1701,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 492
+      },
+      {
+        "id": "x:2117151734506397716",
+        "x_status_id": "2117151734506397716",
+        "canonical_url": "https://x.com/thsottiaux/status/2117151734506397716",
+        "fingerprint": "b4dfc424168ff03286d4f29b41474f505fc1553ed83f625a9b816044814b9ba4",
+        "published_at": 1793603282,
+        "detected_at": 1793603730,
+        "text": "@poteto Game so good because poteto used all the compute and forced Elon to pull the plug\n\nhttps://x.com/elonmusk/status/2116992258520064397?a=VVmI1URYiApKYQUo05k&s=20",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 448
+      },
+      {
+        "id": "x:2117151862705230048",
+        "x_status_id": "2117151862705230048",
+        "canonical_url": "https://x.com/thsottiaux/status/2117151862705230048",
+        "fingerprint": "38fc93b5b0971ad84acac88ab8d87eaeacbecade22a80ed50582003c48451402",
+        "published_at": 1793603313,
+        "detected_at": 1793603730,
+        "text": "@poteto I finished it though",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 417
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793603128,
+        "last_success_at": 1793603730,
         "last_failure_at": 1793600729,
         "offline_since": null,
         "failure_episodes": 394,
@@ -1737,7 +1771,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793603128"
+        "value": "1793603730"
       }
     ],
     "events": [
@@ -1878,6 +1912,12 @@
         "event_type": "post_analysis",
         "created_at": 1793553329,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@TokenGremlin I demand a banked reset\"}}"
+      },
+      {
+        "id": "analysis:x:2117151734506397716",
+        "event_type": "post_analysis",
+        "created_at": 1793603730,
+        "details": "{\"related\":[{\"xStatusId\":\"2116992258520064397\",\"url\":\"https://x.com/elonmusk/status/2116992258520064397\",\"author\":\"elonmusk\",\"relation\":\"quote\",\"text\":\"@DogecoinNorway The cost of serving Grok Bot was unsustainably high relative to revenue\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@poteto Game so good because poteto used all the compute and forced Elon to pull the plug\"}}"
       },
       {
         "id": "notification:post:x:2112432076767289678",
@@ -2543,8 +2583,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793603128,
-    "lastRssAttemptAt": 1793603128,
+    "lastRssSuccessAt": 1793603730,
+    "lastRssAttemptAt": 1793603730,
     "sourceState": "online",
     "error": null
   }
