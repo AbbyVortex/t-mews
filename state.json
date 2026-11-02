@@ -1735,13 +1735,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 417
+      },
+      {
+        "id": "x:2117283124833055196",
+        "x_status_id": "2117283124833055196",
+        "canonical_url": "https://x.com/thsottiaux/status/2117283124833055196",
+        "fingerprint": "acbd6abf00553a96450fce95895386734a30a23a2d5660b7332e2f8ab3702296",
+        "published_at": 1793634608,
+        "detected_at": 1793634930,
+        "text": "Fellow resetters, heads up that we're working on expanding the family of frontier models that power dots, including GPT-6 Astra and GPT-6.1 Terra and some others in the future. Terra brings speed and a nice personality upgrade, and will help us bring dots to more people.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 322
+      },
+      {
+        "id": "x:2117283355427495983",
+        "x_status_id": "2117283355427495983",
+        "canonical_url": "https://x.com/thsottiaux/status/2117283355427495983",
+        "fingerprint": "4aa6bc63133e22eb2bb4f8e48529e9e7d5fe786fb83d424eb39f381b21e3c0f6",
+        "published_at": 1793634663,
+        "detected_at": 1793634930,
+        "text": "Your dot will choose the best model for the task, drawing on different models for different parts of the work.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 267
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793634332,
+        "last_success_at": 1793634930,
         "last_failure_at": 1793632532,
         "offline_since": null,
         "failure_episodes": 401,
@@ -1771,7 +1805,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793634332"
+        "value": "1793634930"
       }
     ],
     "events": [
@@ -2583,8 +2617,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793634332,
-    "lastRssAttemptAt": 1793634332,
+    "lastRssSuccessAt": 1793634930,
+    "lastRssAttemptAt": 1793634930,
     "sourceState": "online",
     "error": null
   }
