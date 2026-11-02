@@ -297,7 +297,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "リセットや付与に関する内容は見当たりません。",
+        "confidence": 0.98,
+        "uncertainty": ""
+      }
     }
   ]
 }
