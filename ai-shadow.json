@@ -259,7 +259,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "利用量リセットや追加枠の付与について触れていません。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      }
     }
   ]
 }
