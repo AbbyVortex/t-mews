@@ -1769,17 +1769,34 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 267
+      },
+      {
+        "id": "x:2117364233210151160",
+        "x_status_id": "2117364233210151160",
+        "canonical_url": "https://x.com/thsottiaux/status/2117364233210151160",
+        "fingerprint": "0adc1c19c02b3d2a8a96250a719258ab5eff9612486c0ecf211e2ad7f8d0d9bc",
+        "published_at": 1793653946,
+        "detected_at": 1793654130,
+        "text": "@jxnlco Always been a fan",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 184
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1793652932,
+        "state": "online",
+        "last_success_at": 1793654130,
         "last_failure_at": 1793653530,
-        "offline_since": 1793653530,
+        "offline_since": null,
         "failure_episodes": 407,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -1805,11 +1822,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793652932"
-      },
-      {
-        "key": "outage",
-        "value": "1793653530"
+        "value": "1793654130"
       }
     ],
     "events": [
@@ -2621,9 +2634,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793652932,
-    "lastRssAttemptAt": 1793653530,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1793654130,
+    "lastRssAttemptAt": 1793654130,
+    "sourceState": "online",
+    "error": null
   }
 }
