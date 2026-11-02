@@ -3,125 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2111687989328011357",
-        "x_status_id": "2111687989328011357",
-        "canonical_url": "https://x.com/thsottiaux/status/2111687989328011357",
-        "fingerprint": "7e22b5389508fc700abe4191196f8091daec643531d91f0200a6ba8a25bcc585",
-        "published_at": 1792300624,
-        "detected_at": 1792301128,
-        "text": "@rl_env Quick to jump to conclusion. This is my OpenAI work dot coordinating with my personal dot. Two entirely separate accounts.",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 504
-      },
-      {
-        "id": "x:2111832959842161136",
-        "x_status_id": "2111832959842161136",
-        "canonical_url": "https://x.com/thsottiaux/status/2111832959842161136",
-        "fingerprint": "1a91e718d834a0d49d8fafdc60a110b1f4782528a5b5b3fd6554038bd7cd4b14",
-        "published_at": 1792335188,
-        "detected_at": 1792335329,
-        "text": "@argofowl EU sorry. We’re making it so that\n\n(a) if you had created a dot elsewhere and find yourself in the EU it will keep working\n\n(b) dots are coming to the EU in the future",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 141
-      },
-      {
-        "id": "x:2111849858374177222",
-        "x_status_id": "2111849858374177222",
-        "canonical_url": "https://x.com/thsottiaux/status/2111849858374177222",
-        "fingerprint": "cb01d85744ebe8ed4a4911347b6ee354ad6de552e233c96cfc533ab9ed0d9a27",
-        "published_at": 1792339217,
-        "detected_at": 1792339529,
-        "text": "What’s cooking today",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 312
-      },
-      {
-        "id": "x:2111918635849801739",
-        "x_status_id": "2111918635849801739",
-        "canonical_url": "https://x.com/thsottiaux/status/2111918635849801739",
-        "fingerprint": "406d902443081268aa2821a176425673ad7096dffa678e8d6d12587a553a5e5a",
-        "published_at": 1792355614,
-        "detected_at": 1792355731,
-        "text": "@littlelion_love We’ll see",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 117
-      },
-      {
-        "id": "x:2111918768733753664",
-        "x_status_id": "2111918768733753664",
-        "canonical_url": "https://x.com/thsottiaux/status/2111918768733753664",
-        "fingerprint": "aa4552f846c3cecabefde2cd998e4b63d0589a7334ad4aecda1a3223db9fa0b8",
-        "published_at": 1792355646,
-        "detected_at": 1792355731,
-        "text": "People have escaped the TL and are asking me for resets on the street now. I’ll make little cards to hand out",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 85
-      },
-      {
-        "id": "x:2111941223187710114",
-        "x_status_id": "2111941223187710114",
-        "canonical_url": "https://x.com/thsottiaux/status/2111941223187710114",
-        "fingerprint": "30aa16e16a8f1b5ad94a99c737dd00fc069195eba1e362de80309df50c243781",
-        "published_at": 1792361000,
-        "detected_at": 1792361128,
-        "text": "@LexnLin We do care about local regulation",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 128
-      },
-      {
-        "id": "x:2111945355596353823",
-        "x_status_id": "2111945355596353823",
-        "canonical_url": "https://x.com/thsottiaux/status/2111945355596353823",
-        "fingerprint": "ae2d7c3787511f3bd9ab04d134cd91879940d7888670bc5ef669c5f00d05cb09",
-        "published_at": 1792361985,
-        "detected_at": 1792362333,
-        "text": "@theo Journalism with additional Theo steps",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 348
-      },
-      {
         "id": "x:2111990254408434095",
         "x_status_id": "2111990254408434095",
         "canonical_url": "https://x.com/thsottiaux/status/2111990254408434095",
@@ -1826,7 +1707,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793578531,
+        "last_success_at": 1793579130,
         "last_failure_at": 1793577931,
         "offline_since": null,
         "failure_episodes": 391,
@@ -1852,20 +1733,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1793492133"
+        "value": "1793579130"
       },
       {
         "key": "lastSuccess",
-        "value": "1793578531"
+        "value": "1793579130"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2111918768733753664",
-        "event_type": "post_analysis",
-        "created_at": 1792355731,
-        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"People have escaped the TL and are asking me for resets on the street now.\"}}"
-      },
       {
         "id": "analysis:x:2112268918681485431",
         "event_type": "post_analysis",
@@ -2003,12 +1878,6 @@
         "event_type": "post_analysis",
         "created_at": 1793553329,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@TokenGremlin I demand a banked reset\"}}"
-      },
-      {
-        "id": "notification:post:x:2111918768733753664",
-        "event_type": "notification_sent",
-        "created_at": 1792355731,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2111918768733753664\"}"
       },
       {
         "id": "notification:post:x:2112432076767289678",
@@ -2674,8 +2543,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793578531,
-    "lastRssAttemptAt": 1793578531,
+    "lastRssSuccessAt": 1793579130,
+    "lastRssAttemptAt": 1793579130,
     "sourceState": "online",
     "error": null
   }
