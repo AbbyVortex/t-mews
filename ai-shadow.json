@@ -373,7 +373,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "関連文脈のない単独の絵文字リアクションで、Resetや付与とのつながりは確認できません。",
+        "confidence": 0.98,
+        "uncertainty": ""
+      }
     }
   ]
 }
