@@ -1684,13 +1684,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 423
+      },
+      {
+        "id": "x:2117515752588853710",
+        "x_status_id": "2117515752588853710",
+        "canonical_url": "https://x.com/thsottiaux/status/2117515752588853710",
+        "fingerprint": "e159a7d8160f92edf356ccf3e5272106b0d82a93717b8ff0fab0076bfb217e80",
+        "published_at": 1793690071,
+        "detected_at": 1793690128,
+        "text": "@Raitox_tech 🫨",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 57
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793689527,
+        "last_success_at": 1793690128,
         "last_failure_at": 1793684133,
         "offline_since": null,
         "failure_episodes": 410,
@@ -1720,7 +1737,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793689527"
+        "value": "1793690128"
       }
     ],
     "events": [
@@ -2532,8 +2549,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793689527,
-    "lastRssAttemptAt": 1793689527,
+    "lastRssSuccessAt": 1793690128,
+    "lastRssAttemptAt": 1793690128,
     "sourceState": "online",
     "error": null
   }
