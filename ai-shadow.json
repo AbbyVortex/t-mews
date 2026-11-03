@@ -354,7 +354,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "Resetや付与に関する言及はなく、内容から関連性を判断できません。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      }
     }
   ]
 }
