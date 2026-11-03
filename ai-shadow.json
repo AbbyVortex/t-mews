@@ -392,7 +392,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "エージェント体験への一般的な所感で、Resetや付与への言及・示唆はありません。",
+        "confidence": 0.98,
+        "uncertainty": ""
+      }
     }
   ]
 }
