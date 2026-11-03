@@ -1633,13 +1633,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 184
+      },
+      {
+        "id": "x:2117412956950638872",
+        "x_status_id": "2117412956950638872",
+        "canonical_url": "https://x.com/thsottiaux/status/2117412956950638872",
+        "fingerprint": "2e3522a3269a68751780277b233a3a32b70ef911dbc71233737c5a1b7b12afaa",
+        "published_at": 1793665563,
+        "detected_at": 1793666130,
+        "text": "We know some Git-fu. Excited the team is finally able to talk about it a bit. Massive props to @tnm and team",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 567
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793665540,
+        "last_success_at": 1793666130,
         "last_failure_at": 1793653530,
         "offline_since": null,
         "failure_episodes": 407,
@@ -1669,7 +1686,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793665540"
+        "value": "1793666130"
       }
     ],
     "events": [
@@ -1810,6 +1827,12 @@
         "event_type": "post_analysis",
         "created_at": 1793603730,
         "details": "{\"related\":[{\"xStatusId\":\"2116992258520064397\",\"url\":\"https://x.com/elonmusk/status/2116992258520064397\",\"author\":\"elonmusk\",\"relation\":\"quote\",\"text\":\"@DogecoinNorway The cost of serving Grok Bot was unsustainably high relative to revenue\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@poteto Game so good because poteto used all the compute and forced Elon to pull the plug\"}}"
+      },
+      {
+        "id": "analysis:x:2117412956950638872",
+        "event_type": "post_analysis",
+        "created_at": 1793666130,
+        "details": "{\"related\":[{\"xStatusId\":\"2117408792346509663\",\"url\":\"https://x.com/OpenAIDevs/status/2117408792346509663\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"We built Pando, a new Git backend for our monorepo, to handle more pushes and fetches without changing how our engineers and agents use Git. Pando cut push latency by ~80% and now serves nearly a petabyte of Git data a day. We can grow Git capacity alongside agent usage.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"We know some Git-fu.\"}}"
       },
       {
         "id": "notification:post:x:2112432076767289678",
@@ -2475,8 +2498,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793665540,
-    "lastRssAttemptAt": 1793665540,
+    "lastRssSuccessAt": 1793666130,
+    "lastRssAttemptAt": 1793666130,
     "sourceState": "online",
     "error": null
   }
