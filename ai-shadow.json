@@ -335,7 +335,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "GPT Fatについての投稿で、ResetやBanked Resetへの関連は見当たりません。",
+        "confidence": 0.98,
+        "uncertainty": ""
+      }
     }
   ]
 }
