@@ -316,7 +316,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "Gitバックエンド「Pando」の紹介に対する反応で、Resetや利用枠付与との関連は見当たりません。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      }
     }
   ]
 }
