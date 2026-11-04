@@ -1786,17 +1786,68 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 277
+      },
+      {
+        "id": "x:2118024169762029594",
+        "x_status_id": "2118024169762029594",
+        "canonical_url": "https://x.com/thsottiaux/status/2118024169762029594",
+        "fingerprint": "fb123f407dc83f6def6e69a679eeb03566382292f69875bf187a899d3115a04d",
+        "published_at": 1793811287,
+        "detected_at": 1793811931,
+        "text": "Computers have RAM, right? \n\nWelcome Pierre. Let’s reinvent everything",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 644
+      },
+      {
+        "id": "x:2118024484594803084",
+        "x_status_id": "2118024484594803084",
+        "canonical_url": "https://x.com/thsottiaux/status/2118024484594803084",
+        "fingerprint": "f3dc82289b027027a77f07c775cdad34f807e6fd74fcbcb367cff7baf6d49b8b",
+        "published_at": 1793811362,
+        "detected_at": 1793811931,
+        "text": "@theo Which team were you on?",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 569
+      },
+      {
+        "id": "x:2118024737070957009",
+        "x_status_id": "2118024737070957009",
+        "canonical_url": "https://x.com/thsottiaux/status/2118024737070957009",
+        "fingerprint": "f228e9eb3d672e572e1124e3b8cff15951b5d3c52e0671954ec6f4ff79bdbc3a",
+        "published_at": 1793811422,
+        "detected_at": 1793811931,
+        "text": "@AnikaCodes I was moved to the basement yesterday",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 509
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1793810732,
+        "state": "online",
+        "last_success_at": 1793811931,
         "last_failure_at": 1793811328,
-        "offline_since": 1793811328,
+        "offline_since": null,
         "failure_episodes": 439,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -1822,11 +1873,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793810732"
-      },
-      {
-        "key": "outage",
-        "value": "1793811328"
+        "value": "1793811931"
       }
     ],
     "events": [
@@ -1973,6 +2020,12 @@
         "event_type": "post_analysis",
         "created_at": 1793778929,
         "details": "{\"related\":[{\"xStatusId\":\"2117489367417803042\",\"url\":\"https://x.com/thsottiaux/status/2117489367417803042\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Le GPT Fat\",\"provenance\":\"feed\",\"publishedAt\":1793683780}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"ChatBLT\"}}"
+      },
+      {
+        "id": "analysis:x:2118024169762029594",
+        "event_type": "post_analysis",
+        "created_at": 1793811931,
+        "details": "{\"related\":[{\"xStatusId\":\"2117999036175188183\",\"url\":\"https://x.com/pierrecomputer/status/2117999036175188183\",\"author\":\"pierrecomputer\",\"relation\":\"quote\",\"text\":\"an announcement from the pierre computer company\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Computers have RAM, right?\"}}"
       },
       {
         "id": "notification:post:x:2112798407928713717",
@@ -2632,9 +2685,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793810732,
-    "lastRssAttemptAt": 1793811328,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1793811931,
+    "lastRssAttemptAt": 1793811931,
+    "sourceState": "online",
+    "error": null
   }
 }
