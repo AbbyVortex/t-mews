@@ -563,7 +563,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "チームについて尋ねる内容で、Resetや付与に関する文脈はありません。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      }
     }
   ]
 }
