@@ -468,7 +468,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "関連する投稿やリセット文脈がなく、単独の絵文字だけではリセットとの関係を判断できません。",
+        "confidence": 0.97,
+        "uncertainty": ""
+      }
     }
   ]
 }
