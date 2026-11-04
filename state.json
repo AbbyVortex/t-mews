@@ -3,57 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2112426606870585551",
-        "x_status_id": "2112426606870585551",
-        "canonical_url": "https://x.com/thsottiaux/status/2112426606870585551",
-        "fingerprint": "dfd091ed4fdb41701e78da6f8e68f876f4320afcb346832dfd4f32509679fdef",
-        "published_at": 1792476724,
-        "detected_at": 1792476930,
-        "text": "@theo Instead\n\n1) Buy a Pro 100 sub\n\n2) ???\n\n3) Enjoy T3Code",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 206
-      },
-      {
-        "id": "x:2112432076767289678",
-        "x_status_id": "2112432076767289678",
-        "canonical_url": "https://x.com/thsottiaux/status/2112432076767289678",
-        "fingerprint": "187b27d62980205c02c555a6239b486a1460d59b4d9645ec28098641bf934cd1",
-        "published_at": 1792478028,
-        "detected_at": 1792478132,
-        "text": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 104
-      },
-      {
-        "id": "x:2112592264686149749",
-        "x_status_id": "2112592264686149749",
-        "canonical_url": "https://x.com/thsottiaux/status/2112592264686149749",
-        "fingerprint": "9fd53c6fb98cacbd1fe2132ab7ba3cbc6f39421fe7e0b6fb68fafe1e495904f6",
-        "published_at": 1792516220,
-        "detected_at": 1792516531,
-        "text": "There were reports of usage draining faster than anticipated for some users over the weekend. We've identified approximately 40,000 accounts that had an inconsistency on which usage limits where the actual usage that was applied did not correspond to their actual selected plan. We are reaching out individually to all these users and have corrected the issue. If this affected you, we'll add credits to your account. Sorry we got this wrong.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "possible usage signal without a confirmed change or strong hint",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 311
-      },
-      {
         "id": "x:2112712984644784534",
         "x_status_id": "2112712984644784534",
         "canonical_url": "https://x.com/thsottiaux/status/2112712984644784534",
@@ -1723,12 +1672,12 @@
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1793751931,
+        "state": "online",
+        "last_success_at": 1793753129,
         "last_failure_at": 1793752531,
-        "offline_since": 1793752531,
+        "offline_since": null,
         "failure_episodes": 430,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -1750,24 +1699,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1793665540"
+        "value": "1793753129"
       },
       {
         "key": "lastSuccess",
-        "value": "1793751931"
-      },
-      {
-        "key": "outage",
-        "value": "1793752531"
+        "value": "1793753129"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2112432076767289678",
-        "event_type": "post_analysis",
-        "created_at": 1792478132,
-        "details": "{\"related\":[{\"xStatusId\":\"2112268918681485431\",\"url\":\"https://x.com/thsottiaux/status/2112268918681485431\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Day 15/ We're cooked\",\"provenance\":\"feed\",\"publishedAt\":1792439128}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"and reset.\"}}"
-      },
       {
         "id": "analysis:x:2112712984644784534",
         "event_type": "post_analysis",
@@ -1905,12 +1844,6 @@
         "event_type": "post_analysis",
         "created_at": 1793666130,
         "details": "{\"related\":[{\"xStatusId\":\"2117408792346509663\",\"url\":\"https://x.com/OpenAIDevs/status/2117408792346509663\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"We built Pando, a new Git backend for our monorepo, to handle more pushes and fetches without changing how our engineers and agents use Git. Pando cut push latency by ~80% and now serves nearly a petabyte of Git data a day. We can grow Git capacity alongside agent usage.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"We know some Git-fu.\"}}"
-      },
-      {
-        "id": "notification:post:x:2112432076767289678",
-        "event_type": "notification_sent",
-        "created_at": 1792478132,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2112432076767289678\"}"
       },
       {
         "id": "notification:post:x:2112798407928713717",
@@ -2570,9 +2503,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793751931,
-    "lastRssAttemptAt": 1793752531,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1793753129,
+    "lastRssAttemptAt": 1793753129,
+    "sourceState": "online",
+    "error": null
   }
 }
