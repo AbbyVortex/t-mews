@@ -506,7 +506,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "ResetやBanked Resetに関する言及はありません。",
+        "confidence": 0.98,
+        "uncertainty": ""
+      }
     }
   ]
 }
