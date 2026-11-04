@@ -430,7 +430,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "利用リセットや付与に関する文脈がなく、「50X」の意味も不明です。",
+        "confidence": 0.98,
+        "uncertainty": ""
+      }
     }
   ]
 }
