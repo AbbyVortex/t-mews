@@ -487,7 +487,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "「ChatBLT」と「Le GPT Fat」のみで、Resetや利用枠・付与に関する文脈はありません。",
+        "confidence": 0.98,
+        "uncertainty": ""
+      }
     }
   ]
 }
