@@ -411,7 +411,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "モデル改善を求める内容で、ResetやBanked Reset／付与との関連は見られません。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      }
     }
   ]
 }
