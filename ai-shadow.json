@@ -544,7 +544,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "利用リセットやバンクドリセット、付与に関する内容は見当たりません。",
+        "confidence": 0.96,
+        "uncertainty": ""
+      }
     }
   ]
 }
