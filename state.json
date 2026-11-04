@@ -1667,13 +1667,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 253
+      },
+      {
+        "id": "x:2117865198040355067",
+        "x_status_id": "2117865198040355067",
+        "canonical_url": "https://x.com/thsottiaux/status/2117865198040355067",
+        "fingerprint": "3591c26c9e45ea41836e895c76a9be9f4bc67462ea0a1c3387fcab12b93a69d6",
+        "published_at": 1793773385,
+        "detected_at": 1793773530,
+        "text": "@ajambrosino Please make the model better, it doesn’t yet do everything",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 145
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793772932,
+        "last_success_at": 1793773530,
         "last_failure_at": 1793772336,
         "offline_since": null,
         "failure_episodes": 432,
@@ -1703,7 +1720,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793772932"
+        "value": "1793773530"
       }
     ],
     "events": [
@@ -2503,8 +2520,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793772932,
-    "lastRssAttemptAt": 1793772932,
+    "lastRssSuccessAt": 1793773530,
+    "lastRssAttemptAt": 1793773530,
     "sourceState": "online",
     "error": null
   }
