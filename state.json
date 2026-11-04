@@ -1701,13 +1701,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 482
+      },
+      {
+        "id": "x:2117884085385429502",
+        "x_status_id": "2117884085385429502",
+        "canonical_url": "https://x.com/thsottiaux/status/2117884085385429502",
+        "fingerprint": "74ba741e2210923af8e5937f23db5efc760adc4ada8d1dd87663b74e44cc59af",
+        "published_at": 1793777888,
+        "detected_at": 1793778327,
+        "text": "@addyosmani 👀",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 439
+      },
+      {
+        "id": "x:2117884611640668212",
+        "x_status_id": "2117884611640668212",
+        "canonical_url": "https://x.com/thsottiaux/status/2117884611640668212",
+        "fingerprint": "e87ffaf73a7faad5ccba03a13471b132dcffe83f8b865d45c9485473bf3d0d90",
+        "published_at": 1793778014,
+        "detected_at": 1793778327,
+        "text": "@evadne Which event was this?",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 313
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793777733,
+        "last_success_at": 1793778327,
         "last_failure_at": 1793775934,
         "offline_since": null,
         "failure_episodes": 434,
@@ -1737,7 +1771,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793777733"
+        "value": "1793778327"
       }
     ],
     "events": [
@@ -2537,8 +2571,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793777733,
-    "lastRssAttemptAt": 1793777733,
+    "lastRssSuccessAt": 1793778327,
+    "lastRssAttemptAt": 1793778327,
     "sourceState": "online",
     "error": null
   }
