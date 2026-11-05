@@ -290,25 +290,25 @@
         "uncertainty": "親投稿が提示されていないため、何を指す発言か不明です。"
       },
       "elapsedMs": 5138
-    }
-  ],
-  "pending": [
+    },
     {
       "id": "eval:sol-context-v2:question-bare",
       "url": null,
-      "text": "?!",
-      "related": [],
-      "recentContext": [],
-      "parentStatus": "deliberately_omitted",
-      "contextMode": "bare",
-      "evaluation": true,
-      "discoveredAt": 1793901895,
+      "attemptedAt": 1793901895,
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "promptVersion": "tibo-context-20261106-v2",
+      "inputHash": "",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
-      }
-    },
+      },
+      "status": "claimed",
+      "evaluation": true
+    }
+  ],
+  "pending": [
     {
       "id": "eval:sol-context-v2:wait-bare",
       "url": null,
