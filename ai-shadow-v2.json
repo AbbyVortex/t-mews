@@ -255,14 +255,24 @@
       "model": "gpt-6.1-sol",
       "reasoning": "medium",
       "promptVersion": "tibo-context-20261106-v2",
-      "inputHash": "",
+      "inputHash": "652359ca3d4d9cfc4a4fece70ff0cc4d0dfd81c2de02c97e3280697717af48ec",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
       },
       "status": "claimed",
-      "evaluation": true
+      "evaluation": true,
+      "input": {
+        "author": "thsottiaux",
+        "id": "eval:sol-context-v2:ambiguous-bare",
+        "url": null,
+        "publishedAt": null,
+        "text": "Tomorrow 👀",
+        "related": [],
+        "recentContext": [],
+        "parentStatus": "deliberately_omitted"
+      }
     }
   ],
   "pending": [
