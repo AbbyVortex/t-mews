@@ -620,7 +620,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "退職報道への否定で、Resetや付与に関する内容はありません。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      }
     }
   ]
 }
