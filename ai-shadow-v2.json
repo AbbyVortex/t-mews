@@ -304,7 +304,7 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed",
+      "status": "classified",
       "evaluation": true,
       "input": {
         "author": "thsottiaux",
@@ -315,7 +315,24 @@
         "related": [],
         "recentContext": [],
         "parentStatus": "deliberately_omitted"
-      }
+      },
+      "actualModel": "gpt-6.1-sol",
+      "responseStatus": "completed",
+      "usage": {
+        "input_tokens": 444,
+        "output_tokens": 76,
+        "total_tokens": 520,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "referenceCostUsd": 0.001648,
+      "result": {
+        "category": "unrelated",
+        "rationale": "「?!」だけでは、利用枠リセットやBanked Resetの付与との関連を確認できません。",
+        "confidence": 0.98,
+        "uncertainty": "返信先が省略されているため、文脈上の関連は不明です。"
+      },
+      "elapsedMs": 4228
     }
   ],
   "pending": [
