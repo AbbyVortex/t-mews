@@ -177,6 +177,12 @@ function ownEvidence(text: string, classification: Classification): string {
 // separate decisions. A literal reset mention is enough for an advisory from this author.
 export function classify(text: string, related: RelatedPost[] = []): Verdict {
   const t = normalize(text);
+  // Tibo's standalone delivery counter omits "reset"; do not match it inside other prose or quotations.
+  const bankedReport = /^(?:day\s+[1-9]\d*\s*\/\s*)?banked\s+([1-9]\d*)\s*\/\s*([1-9]\d*)[.!]?$/.exec(t.trim());
+  if (bankedReport && Number.isSafeInteger(Number(bankedReport[2])) && Number(bankedReport[1]) <= Number(bankedReport[2])) {
+    return {classification: 'BANKED_RESET', notify: true, display: 'announcement',
+      reason: 'author reports a numbered banked reset delivery', evidence: text.trim()};
+  }
   const ownReset = RESET.test(t);
   const relatedReset = related.some(post => typeof post.text === 'string' && RESET.test(normalize(post.text)));
   const body = classifyBody(text);

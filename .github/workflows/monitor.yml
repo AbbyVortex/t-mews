@@ -48,6 +48,7 @@ jobs:
           T_MEWS_RECOVER_POST_ID: ${{ inputs.recovery_post_id }}
           T_MEWS_AI_SHADOW: ${{ vars.T_MEWS_AI_SHADOW || 'false' }}
           T_MEWS_AI_MODEL: ${{ vars.T_MEWS_AI_MODEL }}
+          T_MEWS_AI_REASONING: ${{ vars.T_MEWS_AI_REASONING }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
   keepalive:
     if: >-

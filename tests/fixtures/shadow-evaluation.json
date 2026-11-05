@@ -1,0 +1,93 @@
+{
+  "capturedFrom": "AbbyVortex/t-mews monitor-state/state.json; verified 2026-11-06",
+  "posts": [
+    {
+      "id": "x:2116405414921384099",
+      "canonical_url": "https://x.com/thsottiaux/status/2116405414921384099",
+      "text": "Day 26/ You can now easily switch between multiple accounts on mobile, and coming soon to desktop too. Next two days will be resets… banked… do with this what you may 👀.\n\nhttps://help.openai.com/en/articles/20001068-using-multiple-chatgpt-accounts-on-web-and-mobile",
+      "published_at": 1793425346,
+      "detected_at": 1793425531,
+      "baseline": 0,
+      "kind": "post",
+      "classification": "CANDIDATE"
+    },
+    {
+      "id": "x:2116692529970311254",
+      "canonical_url": "https://x.com/thsottiaux/status/2116692529970311254",
+      "text": "Banked 1/2",
+      "published_at": 1793493800,
+      "detected_at": 1793493929,
+      "baseline": 0,
+      "kind": "post",
+      "classification": "IRRELEVANT"
+    },
+    {
+      "id": "x:2117035794678546764",
+      "canonical_url": "https://x.com/thsottiaux/status/2117035794678546764",
+      "text": "Day 28/ Banked 2/2",
+      "published_at": 1793575640,
+      "detected_at": 1793576132,
+      "baseline": 0,
+      "kind": "post",
+      "classification": "IRRELEVANT"
+    }
+  ],
+  "cases": [
+    {
+      "key": "forecast-context",
+      "postId": "x:2116405414921384099",
+      "context": true,
+      "expected": "announcement",
+      "group": "positive"
+    },
+    {
+      "key": "banked1-context",
+      "postId": "x:2116692529970311254",
+      "context": true,
+      "expected": "announcement",
+      "group": "positive"
+    },
+    {
+      "key": "banked2-context",
+      "postId": "x:2117035794678546764",
+      "context": true,
+      "expected": "announcement",
+      "group": "positive"
+    },
+    {
+      "key": "banked2-bare",
+      "postId": "x:2117035794678546764",
+      "context": false,
+      "expected": "announcement",
+      "group": "positive"
+    },
+    {
+      "key": "banked1-bare",
+      "postId": "x:2116692529970311254",
+      "context": false,
+      "expected": "announcement",
+      "group": "control"
+    },
+    {
+      "key": "question-bare",
+      "text": "?!",
+      "context": false,
+      "expected": "unrelated",
+      "group": "control"
+    },
+    {
+      "key": "wait-bare",
+      "text": "Can't wait",
+      "context": false,
+      "expected": "unrelated",
+      "group": "control"
+    },
+    {
+      "key": "ambiguous-bare",
+      "text": "Tomorrow 👀",
+      "context": false,
+      "expected": "unrelated",
+      "group": "control"
+    }
+  ]
+}

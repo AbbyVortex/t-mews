@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {runAction, type Store, type ActionMode} from '../src/actions/run';
 import {runActionWithShadow} from '../src/actions/ai-shadow';
 import type {Snapshot} from '../src/actions/sqlite';
-import type {ShadowState, ShadowStore} from '../src/ai-shadow';
+import type {ShadowState, ShadowStore, LegacyShadowState} from '../src/ai-shadow';
 
 const START=Date.parse('2026-10-30T03:00:00Z')/1000;
 const secrets={user:'u'.repeat(30),token:'t'.repeat(30)};
@@ -26,8 +26,9 @@ class MemoryStore implements Store {
  }
 }
 class MemoryShadowStore implements ShadowStore {
- state?:ShadowState; loads=0; saves=0; failLoad=false; failSaveAt=0;
+ state?:ShadowState; legacy?:LegacyShadowState; loads=0; legacyLoads=0; saves=0; failLoad=false; failLegacyLoad=false; failSaveAt=0;
  constructor(initial?:ShadowState,readonly trace:string[]=[]){this.state=structuredClone(initial);}
+ async loadLegacy(_signal:AbortSignal){this.legacyLoads++;if(this.failLegacyLoad)throw Error('fixture legacy read failed');return structuredClone(this.legacy);}
  async load(_signal:AbortSignal){this.trace.push('shadow-load');this.loads++;if(this.failLoad)throw Error('fixture shadow read failed');return structuredClone(this.state);}
  async save(state:ShadowState,_signal:AbortSignal){
   this.trace.push('shadow-save');this.saves++;
@@ -49,7 +50,7 @@ function normalFixture(initial?:Snapshot,xml=feed(item('2','Resetting the usage 
  return {store,pushes,fetcher,trace};
 }
 function shadowOptions(store:ShadowStore,fetcher:typeof fetch=async()=>response()){
- return {enabled:true,model:'fixture-model',apiKey:API_KEY,store,fetcher};
+ return {enabled:true,model:'gpt-6.1-sol',reasoning:'medium',apiKey:API_KEY,store,fetcher};
 }
 async function initialized(){
  const f=normalFixture(undefined,feed(item('1','An older baseline fixture.',START-100)));
@@ -76,7 +77,7 @@ test('shadow OFF, ON and API failures preserve the exact conventional snapshot a
   assert.deepEqual(f.store.state,normal.store.state,scenario);
   assert.deepEqual(f.pushes,normal.pushes,scenario);
   assert.equal(calls,['off','no-key'].includes(scenario)?0:1,scenario);
-  if(['off','no-key'].includes(scenario)){assert.equal(shadow.loads,0);assert.equal(shadow.saves,0);}
+  if(['off','no-key'].includes(scenario)){assert.equal(shadow.loads,0);assert.equal(shadow.legacyLoads,0);assert.equal(shadow.saves,0);}
   assert.equal(JSON.stringify(f.store.state).includes(API_KEY),false);
   assert.equal(JSON.stringify(shadow.state??{}).includes(API_KEY),false);
  }
@@ -113,7 +114,7 @@ test('test, check and recover modes never contact shadow storage or the AI servi
   const expected=await runAction(mode,normal.store,secrets,normal.fetcher,START+600,postId);
   assert.deepEqual(await runActionWithShadow(mode,f.store,secrets,f.fetcher,START+600,postId,config),expected);
   assert.deepEqual(f.store.state,normal.store.state);assert.deepEqual(f.pushes,normal.pushes);
-  assert.equal(shadow.loads,0);assert.equal(shadow.saves,0);assert.equal(aiCalls,0);
+  assert.equal(shadow.loads,0);assert.equal(shadow.legacyLoads,0);assert.equal(shadow.saves,0);assert.equal(aiCalls,0);
  }
 });
 
@@ -151,17 +152,23 @@ test('fresh runners retain claims and do not replay classified or failed new pos
  }
 });
 
-test('shadow read, claim-save and result-save failures cannot alter conventional success',async()=>{
+test('shadow old/new reads and pending/claim/evidence/result save failures cannot alter conventional success',async()=>{
  const initial=await initialized(),normal=normalFixture(initial);
  const expected=await runAction('monitor',normal.store,secrets,normal.fetcher,START+300);
- for(const failure of ['load','claim','result']){
+ for(const failure of ['legacy-load','load','pending','claim','evidence','result']){
   const f=normalFixture(initial),shadow=new MemoryShadowStore();let calls=0;
-  shadow.failLoad=failure==='load';shadow.failSaveAt=failure==='claim'?1:failure==='result'?2:0;
+  shadow.failLegacyLoad=failure==='legacy-load';shadow.failLoad=failure==='load';
+  shadow.failSaveAt={pending:1,claim:2,evidence:3,result:4}[failure as 'pending'|'claim'|'evidence'|'result']??0;
   const ai=(async()=>{calls++;return response();}) as typeof fetch;
   assert.deepEqual(await runActionWithShadow('monitor',f.store,secrets,f.fetcher,START+300,undefined,shadowOptions(shadow,ai)),expected,failure);
   assert.deepEqual(f.store.state,normal.store.state,failure);assert.deepEqual(f.pushes,normal.pushes,failure);
   assert.equal(calls,failure==='result'?1:0,failure);
-  if(failure==='result')assert.equal(shadow.state?.records[0]?.status,'claimed');
+  if(failure==='result'){
+   assert.equal(shadow.state?.records[0]?.status,'claimed');assert.ok(shadow.state?.records[0]?.input);
+   const restart=normalFixture(f.store.state),restored=new MemoryShadowStore(shadow.state);
+   await runActionWithShadow('monitor',restart.store,secrets,restart.fetcher,START+600,undefined,shadowOptions(restored,ai));
+   assert.equal(calls,1,'unknown result is not replayed');assert.deepEqual(restart.pushes,[]);
+  }
  }
 });
 
@@ -173,13 +180,32 @@ test('a failed conventional final checkpoint never starts shadow work',async()=>
  assert.equal(f.pushes.length,1);assert.equal(shadow.loads,0);assert.equal(shadow.saves,0);assert.equal(calls,0);
 });
 
-test('a run compares at most two new posts without delaying or limiting conventional alerts',async()=>{
+test('a run compares at most two posts and drains a durable pending third on a fresh runner without new posts',async()=>{
  const initial=await initialized(),xml=feed(...['2','3','4'].map(id=>item(id,`Resetting the usage limits tomorrow. Fixture ${id}.`)));
  const normal=normalFixture(initial,xml),f=normalFixture(initial,xml),shadow=new MemoryShadowStore();let calls=0;
  const expected=await runAction('monitor',normal.store,secrets,normal.fetcher,START+300);
  const result=await runActionWithShadow('monitor',f.store,secrets,f.fetcher,START+300,undefined,
   shadowOptions(shadow,(async()=>{calls++;return response();}) as typeof fetch));
  assert.equal(calls,2);assert.equal(shadow.state?.records.length,2);
+ assert.equal(shadow.state?.pending.length,1);
  assert.equal(f.pushes.length,3);assert.deepEqual(f.pushes,normal.pushes);
  assert.deepEqual(result,expected);assert.deepEqual(f.store.state,normal.store.state);
+ const next=normalFixture(f.store.state,xml),nextNormal=normalFixture(normal.store.state,xml),nextShadow=new MemoryShadowStore(shadow.state);
+ const expectedNext=await runAction('monitor',nextNormal.store,secrets,nextNormal.fetcher,START+600);
+ assert.deepEqual(await runActionWithShadow('monitor',next.store,secrets,next.fetcher,START+600,undefined,
+  shadowOptions(nextShadow,(async()=>{calls++;return response();}) as typeof fetch)),expectedNext);
+ assert.equal(calls,3);assert.equal(nextShadow.state?.records.length,3);assert.equal(nextShadow.state?.pending.length,0);
+ assert.deepEqual(next.pushes,[]);assert.deepEqual(next.store.state,nextNormal.store.state);
+});
+
+test('legacy 40 classified posts remain unchanged while conventional notifications and only a new AI record proceed',async()=>{
+ const initial=await initialized(),xml=feed(item('2','Banked 1/2'),item('3','Day 28/ Banked 2/2'));
+ const f=normalFixture(initial,xml),normal=normalFixture(initial,xml),shadow=new MemoryShadowStore();let calls=0;
+ shadow.legacy={version:1,records:Array.from({length:40},(_,i)=>({id:i===0?'x:2':`legacy:${i}`,attemptedAt:START-86400,status:'classified',model:'gpt-6-luna',result:{category:'unrelated'}}))};
+ const legacyBefore=structuredClone(shadow.legacy);
+ const expected=await runAction('monitor',normal.store,secrets,normal.fetcher,START+300);
+ const actual=await runActionWithShadow('monitor',f.store,secrets,f.fetcher,START+300,undefined,shadowOptions(shadow,(async()=>{calls++;return response();}) as typeof fetch));
+ assert.deepEqual(actual,expected);assert.deepEqual(f.store.state,normal.store.state);assert.deepEqual(f.pushes,normal.pushes);
+ assert.equal(calls,1);assert.deepEqual(shadow.state?.records.map(r=>r.id),['x:3']);assert.deepEqual(shadow.legacy,legacyBefore);
+ assert.equal(f.pushes.length,2,'legacy AI classification cannot veto conventional Banked notifications');
 });

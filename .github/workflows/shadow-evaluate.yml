@@ -1,0 +1,39 @@
+name: Bounded Sol shadow evaluation
+on:
+  push:
+    branches: [main]
+    paths: ['tests/fixtures/shadow-evaluation.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  evaluate:
+    if: github.event.repository.private == false && github.ref == 'refs/heads/main'
+    strategy:
+      max-parallel: 1
+      fail-fast: false
+      matrix:
+        group: [positive, control]
+    concurrency:
+      group: t-mews-runtime
+      cancel-in-progress: false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - run: npm install --global pnpm@11.19.0 --ignore-scripts
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+      - name: Evaluate fixed cases without notification credentials
+        run: pnpm exec tsx scripts/shadow-evaluate.ts "$EVALUATION_GROUP"
+        env:
+          EVALUATION_GROUP: ${{ matrix.group }}
+          GITHUB_TOKEN: ${{ github.token }}
+          T_MEWS_AI_SHADOW: ${{ vars.T_MEWS_AI_SHADOW || 'false' }}
+          T_MEWS_AI_MODEL: ${{ vars.T_MEWS_AI_MODEL }}
+          T_MEWS_AI_REASONING: ${{ vars.T_MEWS_AI_REASONING }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

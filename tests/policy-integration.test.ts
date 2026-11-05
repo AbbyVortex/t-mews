@@ -28,6 +28,32 @@ async function setup() {
   feed:(...items:string[])=>xml=feed(...items),run:(time=start+300)=>runAction('monitor',store,credentials,fetcher,time)};
 }
 
+test('Banked shorthand upgrade preserves missed history and existing ledger while new deliveries alert once',async()=>{
+ const h=await setup();
+ const missed=[{id:'2116692529970311254',text:'Banked 1/2'},{id:'2117035794678546764',text:'Day 28/ Banked 2/2'}];
+ h.edit(s=>{for(const [index,p] of missed.entries())s.tables.posts.push({...s.tables.posts[0],
+  id:`x:${p.id}`,x_status_id:p.id,canonical_url:`https://x.com/thsottiaux/status/${p.id}`,fingerprint:`old-${index}`,
+  text:p.text,published_at:start+10+index,detected_at:start+20,classification:'IRRELEVANT',
+  reason:'previous classifier missed shorthand',baseline:0,notified:0,notification_status:'not_relevant'});});
+ const before=h.read();
+ h.feed(...missed.map(p=>entry(p.id,p.text,start+10)),entry('31','Banked 1/2'),entry('32','Day 28/ Banked 2/2'),
+  entry('33',"Can't wait<blockquote><a href=\"https://x.com/other/status/999\">Banked 1/2</a></blockquote>"),
+  entry('34','Banked 1/2').replace('<title>Post</title>','<title>Reposted by Tibo</title>'));
+ await h.run();await h.run(start+600);
+ const after=h.read();
+ assert.equal(h.messages.length,2);
+ assert.ok(h.messages.every(m=>m.get('title')==='💣リセット予告'));
+ for(const p of missed)assert.deepEqual(after.tables.posts.find(r=>r.id===`x:${p.id}`),before.tables.posts.find(r=>r.id===`x:${p.id}`));
+ for(const n of before.tables.notifications)assert.deepEqual(after.tables.notifications.find(r=>r.id===n.id),n);
+ assert.deepEqual(after.tables.state.find(r=>r.key==='baselineAt'),before.tables.state.find(r=>r.key==='baselineAt'));
+ for(const id of ['31','32']){
+  assert.equal(after.tables.posts.find(r=>r.id===`x:${id}`)?.classification,'BANKED_RESET');
+  assert.equal(after.tables.notifications.filter(r=>r.id===`post:x:${id}`&&r.status==='sent').length,1);
+ }
+ assert.equal(after.tables.posts.find(r=>r.id==='x:33')?.notification_status,'not_relevant');
+ assert.equal(after.tables.posts.find(r=>r.id==='x:34')?.notification_status,'suppressed_repost');
+});
+
 test('reply-feed cutover baselines newly visible history once and preserves old rows and delivery ledger',async()=>{
  const h=await setup();h.edit(s=>s.tables.state=s.tables.state.filter(r=>r.key!=='fxtwitter-with-replies-v1'));
  const before=h.read();

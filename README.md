@@ -10,7 +10,7 @@ Cron → RSS/Atomアダプター → D1重複照合 → 決定的な分類 → P
 
 - TypeScript。RSSはfast-xml-parser、HTMLエンティティはheで処理。
 - X API、codexradar.com API、ブラウザ常駐、Xアカウントは不使用。通知判定はルール式のままです。
-- Actionsには初期OFFの[AI shadow比較](docs/ai-shadow.md)を用意しています。通常通知と保存の完了後、任意でResponses APIの3分類を別台帳に記録します。AI結果は通知に反映しません。本番workflowは明示的なfalseで配備し、実APIは未実行です。
+- Actionsには任意の[AI shadow比較](docs/ai-shadow.md)を用意しています。通常通知と保存の完了後、直近の本人文脈を添えてResponses APIの3分類を別台帳に記録します。AI結果は通知に反映しません。Sol/mediumの短期比較は旧履歴を保持し、評価を含む20試行・7日までです。
 - Workers FreeとD1のみ。Cronは稼働時 `* * * * *`。
 - `wrangler.jsonc` は初期状態でCron無効・監視停止。検証後に有効化します。
 - `/` は状態ページ、`/status.json` は状態、`/export.json` は検知日基準の過去7日分。

@@ -1,6 +1,30 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {classify} from '../src/classifier';
+
+test('standalone author Banked delivery counts are announcements without the word reset', () => {
+  for (const text of ['Banked 1/2', 'Day 28/ Banked 2/2', '  BANKED 1 / 2!  ', 'Day 28 /\nBanked 2/2.']) {
+    const actual = classify(text);
+    assert.equal(actual.classification, 'BANKED_RESET', text);
+    assert.equal(actual.notify, true, text);
+    assert.equal(actual.display, 'announcement', text);
+    assert.equal(actual.evidence, text.trim(), text);
+  }
+});
+
+test('Banked delivery shorthand does not match discussion, quotation, jokes, questions or invalid counts', () => {
+  for (const text of ['I banked 1/2 of my savings.', 'Banked 1/2? Can anyone explain?',
+    'Maybe Banked 1/2', 'Not Banked 1/2', 'Banked 1/2, just kidding', 'Day 28/ Banked 2/2 lol',
+    '"Banked 1/2"', '“Day 28/ Banked 2/2”', '> Banked 1/2', 'Banked 0/2', 'Banked 3/2', 'Banked 1/0']) {
+    const actual = classify(text);
+    assert.equal(actual.notify, false, text);
+    assert.notEqual(actual.display, 'announcement', text);
+  }
+  const quoted = classify("Can't wait", [{relation:'quote', text:'Banked 1/2', author:'other',
+    url:'https://x.com/other/status/200', xStatusId:'200', provenance:'feed'}]);
+  assert.equal(quoted.notify, false);
+  assert.notEqual(quoted.display, 'announcement');
+});
 import type {RelatedPost} from '../src/types';
 
 const related: RelatedPost[] = [{relation: 'reply', xStatusId: '123456789',
