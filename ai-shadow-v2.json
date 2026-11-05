@@ -347,7 +347,7 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed",
+      "status": "classified",
       "evaluation": true,
       "input": {
         "author": "thsottiaux",
@@ -358,7 +358,24 @@
         "related": [],
         "recentContext": [],
         "parentStatus": "deliberately_omitted"
-      }
+      },
+      "actualModel": "gpt-6.1-sol",
+      "responseStatus": "completed",
+      "usage": {
+        "input_tokens": 445,
+        "output_tokens": 75,
+        "total_tokens": 520,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "referenceCostUsd": 0.00164,
+      "result": {
+        "category": "unrelated",
+        "rationale": "「Can't wait」だけでは、使用量リセットやBanked Resetの付与との関連を確認できない。",
+        "confidence": 0.97,
+        "uncertainty": "返信先が省略されており、何を待っているのか不明。"
+      },
+      "elapsedMs": 4604
     }
   ],
   "pending": [],
