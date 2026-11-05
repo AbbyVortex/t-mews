@@ -582,7 +582,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "Dotsの改善についての投稿で、ResetやBanked Reset、付与への関連は見られません。",
+        "confidence": 0.98,
+        "uncertainty": ""
+      }
     }
   ]
 }
