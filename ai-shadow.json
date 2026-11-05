@@ -715,7 +715,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "リセットや付与を示す内容はありません。",
+        "confidence": 0.96,
+        "uncertainty": ""
+      }
     }
   ]
 }
