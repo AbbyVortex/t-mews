@@ -2024,13 +2024,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 190
+      },
+      {
+        "id": "x:2118376946652557613",
+        "x_status_id": "2118376946652557613",
+        "canonical_url": "https://x.com/thsottiaux/status/2118376946652557613",
+        "fingerprint": "b2656722c64c0f9dc133bf61afbb436d74a1d8b03bb1f9c686f912c2cd50fd75",
+        "published_at": 1793895396,
+        "detected_at": 1793895936,
+        "text": "@ohayou792 Who comes up with these haha. Dane Starbuck. Haha",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 540
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793894132,
+        "last_success_at": 1793895936,
         "last_failure_at": 1793893529,
         "offline_since": null,
         "failure_episodes": 454,
@@ -2060,7 +2077,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793894132"
+        "value": "1793895936"
       }
     ],
     "events": [
@@ -2912,8 +2929,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793894132,
-    "lastRssAttemptAt": 1793894132,
+    "lastRssSuccessAt": 1793895936,
+    "lastRssAttemptAt": 1793895936,
     "sourceState": "online",
     "error": null
   }
