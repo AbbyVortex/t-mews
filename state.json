@@ -2075,17 +2075,51 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 1136
+      },
+      {
+        "id": "x:2118443570298568886",
+        "x_status_id": "2118443570298568886",
+        "canonical_url": "https://x.com/thsottiaux/status/2118443570298568886",
+        "fingerprint": "a3dfc0c1e72d637db1d2b356805d515f09442d81ca51929c268f13d077d3fe67",
+        "published_at": 1793911280,
+        "detected_at": 1793911535,
+        "text": "@kimmonismus Don't know, I live in the basement now",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 255
+      },
+      {
+        "id": "x:2118444105969926407",
+        "x_status_id": "2118444105969926407",
+        "canonical_url": "https://x.com/thsottiaux/status/2118444105969926407",
+        "fingerprint": "040cf5cd1874a58a764121cfb48e97a4cf4ffe19ce989e5a20981adb8bba1f1a",
+        "published_at": 1793911408,
+        "detected_at": 1793911535,
+        "text": "Come push the frontier of fluffiness",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 127
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1793910340,
+        "state": "online",
+        "last_success_at": 1793911535,
         "last_failure_at": 1793910930,
-        "offline_since": 1793910930,
+        "offline_since": null,
         "failure_episodes": 459,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2111,11 +2145,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793910340"
-      },
-      {
-        "key": "outage",
-        "value": "1793910930"
+        "value": "1793911535"
       }
     ],
     "events": [
@@ -2292,6 +2322,12 @@
         "event_type": "post_analysis",
         "created_at": 1793902530,
         "details": "{\"related\":[{\"xStatusId\":\"2118390190246879554\",\"url\":\"https://x.com/OpenAI/status/2118390190246879554\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"Introducing GPT‑6 Cyber: a major advance in security research that pairs stronger capabilities with better model alignment. The model powered the Linux kernel research we announced yesterday, and security teams at companies like Mozilla, Palo Alto Networks, Calif, and Cisco—alon…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Our latest cyber-specialized model is out.\"}}"
+      },
+      {
+        "id": "analysis:x:2118444105969926407",
+        "event_type": "post_analysis",
+        "created_at": 1793911535,
+        "details": "{\"related\":[{\"xStatusId\":\"2118077964936163717\",\"url\":\"https://x.com/_samirism/status/2118077964936163717\",\"author\":\"_samirism\",\"relation\":\"quote\",\"text\":\"we've assembled a team of some of the most talented people in the persistent agent space - to make dots incredible dm me if you are interested in joining 👀\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Come push the frontier of fluffiness\"}}"
       },
       {
         "id": "notification:offline:1793887531",
@@ -2973,9 +3009,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793910340,
-    "lastRssAttemptAt": 1793910930,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1793911535,
+    "lastRssAttemptAt": 1793911535,
+    "sourceState": "online",
+    "error": null
   }
 }
