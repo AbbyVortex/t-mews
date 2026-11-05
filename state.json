@@ -2109,13 +2109,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 127
+      },
+      {
+        "id": "x:2118469621011677521",
+        "x_status_id": "2118469621011677521",
+        "canonical_url": "https://x.com/thsottiaux/status/2118469621011677521",
+        "fingerprint": "38fc0d02c3a4fa783011f55de88d50553b447d6afed44facc142970c4eb9cea0",
+        "published_at": 1793917491,
+        "detected_at": 1793917537,
+        "text": "Wild stat. We are now generate more than 4B images per week across ChatGPT and the API, up from the more than 3B per week only 8 weeks ago.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 46
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793916938,
+        "last_success_at": 1793917537,
         "last_failure_at": 1793915731,
         "offline_since": null,
         "failure_episodes": 461,
@@ -2145,7 +2162,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793916938"
+        "value": "1793917537"
       }
     ],
     "events": [
@@ -2328,6 +2345,12 @@
         "event_type": "post_analysis",
         "created_at": 1793911535,
         "details": "{\"related\":[{\"xStatusId\":\"2118077964936163717\",\"url\":\"https://x.com/_samirism/status/2118077964936163717\",\"author\":\"_samirism\",\"relation\":\"quote\",\"text\":\"we've assembled a team of some of the most talented people in the persistent agent space - to make dots incredible dm me if you are interested in joining 👀\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Come push the frontier of fluffiness\"}}"
+      },
+      {
+        "id": "analysis:x:2118469621011677521",
+        "event_type": "post_analysis",
+        "created_at": 1793917537,
+        "details": "{\"related\":[{\"xStatusId\":\"2118124944928432327\",\"url\":\"https://x.com/OpenAI/status/2118124944928432327\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"Images, upgraded—introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Wild stat.\"}}"
       },
       {
         "id": "notification:offline:1793887531",
@@ -3009,8 +3032,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793916938,
-    "lastRssAttemptAt": 1793916938,
+    "lastRssSuccessAt": 1793917537,
+    "lastRssAttemptAt": 1793917537,
     "sourceState": "online",
     "error": null
   }
