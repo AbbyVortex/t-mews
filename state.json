@@ -1769,13 +1769,98 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 250
+      },
+      {
+        "id": "x:2118146794362405231",
+        "x_status_id": "2118146794362405231",
+        "canonical_url": "https://x.com/thsottiaux/status/2118146794362405231",
+        "fingerprint": "d34095b4e3c77e0083a0bd158d3959f11d0033719961d6fa50b65c69e21a83c7",
+        "published_at": 1793840523,
+        "detected_at": 1793840730,
+        "text": "We’ve assembled a world class cyber team and I’m excited for us to share more about our work over the weeks and months.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 207
+      },
+      {
+        "id": "x:2118146834325733453",
+        "x_status_id": "2118146834325733453",
+        "canonical_url": "https://x.com/thsottiaux/status/2118146834325733453",
+        "fingerprint": "e7e90556a349c123bd221950d6df6ca85e64e270d543ca6c91b61e956008a193",
+        "published_at": 1793840533,
+        "detected_at": 1793840730,
+        "text": "Reach out to @clintgibler if you want to work on securing the world.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 197
+      },
+      {
+        "id": "x:2118147019030335666",
+        "x_status_id": "2118147019030335666",
+        "canonical_url": "https://x.com/thsottiaux/status/2118147019030335666",
+        "fingerprint": "7978b9b939234a0fb28cc4632a59ec510d590fd6e3a52effae31836327ed94ab",
+        "published_at": 1793840577,
+        "detected_at": 1793840730,
+        "text": "@thdxr Was surprised that you acquired @theo",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 153
+      },
+      {
+        "id": "x:2118147091155529874",
+        "x_status_id": "2118147091155529874",
+        "canonical_url": "https://x.com/thsottiaux/status/2118147091155529874",
+        "fingerprint": "29129a1df863f376b79b5505d4a3fe6a7ea48398e53806744a533122e87e2005",
+        "published_at": 1793840594,
+        "detected_at": 1793840730,
+        "text": "@edbayes People needs dots",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 136
+      },
+      {
+        "id": "x:2118147545931374976",
+        "x_status_id": "2118147545931374976",
+        "canonical_url": "https://x.com/thsottiaux/status/2118147545931374976",
+        "fingerprint": "6216f3ef037cc2d12b0d9f5eb763588ad815cf1f3f74bdf28532eb8e61330028",
+        "published_at": 1793840702,
+        "detected_at": 1793840730,
+        "text": "@fly3nn @grok Reports of my retirement have been greatly exaggerated",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 28
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793840131,
+        "last_success_at": 1793840730,
         "last_failure_at": 1793835928,
         "offline_since": null,
         "failure_episodes": 445,
@@ -1805,7 +1890,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793840131"
+        "value": "1793840730"
       }
     ],
     "events": [
@@ -1952,6 +2037,12 @@
         "event_type": "post_analysis",
         "created_at": 1793838931,
         "details": "{\"related\":[{\"xStatusId\":\"2118137612577968402\",\"url\":\"https://x.com/_catwu/status/2118137612577968402\",\"author\":\"_catwu\",\"relation\":\"quote\",\"text\":\"Some news: I’m joining OpenAI to lead product management for Core Products! I have a lot of respect for OpenAI for showing the world that scaling works, for bringing AI to over a billion people, and for believing great products are core to the mission. I’m excited to work with @…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Welcome Cat.\"}}"
+      },
+      {
+        "id": "analysis:x:2118146794362405231",
+        "event_type": "post_analysis",
+        "created_at": 1793840730,
+        "details": "{\"related\":[{\"xStatusId\":\"2118119451401048497\",\"url\":\"https://x.com/OpenAI/status/2118119451401048497\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"Our security researchers built an autonomous cyber vulnerability discovery, exploitation, and patching pipeline. In a single run with an upcoming cyber model, it validated and generated patches for 948 local privilege escalation vulnerabilities in the Linux kernel at a total API…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"We’ve assembled a world class cyber team and I’m excited for us to share more about our work over the weeks and months.\"}}"
       },
       {
         "id": "notification:post:x:2113162277688070445",
@@ -2605,8 +2696,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793840131,
-    "lastRssAttemptAt": 1793840131,
+    "lastRssSuccessAt": 1793840730,
+    "lastRssAttemptAt": 1793840730,
     "sourceState": "online",
     "error": null
   }
