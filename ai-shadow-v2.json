@@ -113,7 +113,7 @@
         "notify": true,
         "display": "announcement"
       },
-      "status": "claimed",
+      "status": "classified",
       "evaluation": true,
       "input": {
         "author": "thsottiaux",
@@ -124,7 +124,24 @@
         "related": [],
         "recentContext": [],
         "parentStatus": "deliberately_omitted"
-      }
+      },
+      "actualModel": "gpt-6.1-sol",
+      "responseStatus": "completed",
+      "usage": {
+        "input_tokens": 471,
+        "output_tokens": 104,
+        "total_tokens": 575,
+        "cached_tokens": 0,
+        "reasoning_tokens": 36
+      },
+      "referenceCostUsd": 0.001982,
+      "result": {
+        "category": "announcement",
+        "rationale": "「Day 28/ Banked 2/2」は、2回目のBanked Reset付与を報告するリリースカウンター形式の投稿。",
+        "confidence": 0.98,
+        "uncertainty": ""
+      },
+      "elapsedMs": 4209
     }
   ],
   "pending": [
