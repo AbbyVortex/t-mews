@@ -10,14 +10,24 @@
       "model": "gpt-6.1-sol",
       "reasoning": "medium",
       "promptVersion": "tibo-context-20261106-v2",
-      "inputHash": "",
+      "inputHash": "53e9fd473bb9a58b5c60eeb7d33d12da33d2befed8ebdf52b7192ce13137f375",
       "rule": {
         "classification": "CANDIDATE",
         "notify": true,
         "display": "advisory"
       },
       "status": "claimed",
-      "evaluation": true
+      "evaluation": true,
+      "input": {
+        "author": "thsottiaux",
+        "id": "x:2116405414921384099",
+        "url": "https://x.com/thsottiaux/status/2116405414921384099",
+        "publishedAt": 1793425346,
+        "text": "Day 26/ You can now easily switch between multiple accounts on mobile, and coming soon to desktop too. Next two days will be resets… banked… do with this what you may 👀.\n\nhttps://help.openai.com/en/articles/20001068-using-multiple-chatgpt-accounts-on-web-and-mobile",
+        "related": [],
+        "recentContext": [],
+        "parentStatus": "captured_history"
+      }
     }
   ],
   "pending": [
