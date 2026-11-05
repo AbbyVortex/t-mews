@@ -1837,13 +1837,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 509
+      },
+      {
+        "id": "x:2118138648214585591",
+        "x_status_id": "2118138648214585591",
+        "canonical_url": "https://x.com/thsottiaux/status/2118138648214585591",
+        "fingerprint": "c37e7af9c1a0cd4ac3443b64b6603e8ab7cca92fe1cfe5ad7bb7db532bead693",
+        "published_at": 1793838581,
+        "detected_at": 1793838931,
+        "text": "Welcome Cat. Stoked to be building together soon.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 350
+      },
+      {
+        "id": "x:2118138764161913278",
+        "x_status_id": "2118138764161913278",
+        "canonical_url": "https://x.com/thsottiaux/status/2118138764161913278",
+        "fingerprint": "24bc53894c101100ea68daec327b1ffe0a66e80d7dede541b2319b664078f732",
+        "published_at": 1793838609,
+        "detected_at": 1793838931,
+        "text": "CatGPT",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 322
+      },
+      {
+        "id": "x:2118139067636568305",
+        "x_status_id": "2118139067636568305",
+        "canonical_url": "https://x.com/thsottiaux/status/2118139067636568305",
+        "fingerprint": "43f6b607b3ee6cc1e2bc1b3eccbe26e9afa296fa83e187d16839e6dbc903c81c",
+        "published_at": 1793838681,
+        "detected_at": 1793838931,
+        "text": "@_samirism Dots just got a massive set of improvements",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 250
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793838334,
+        "last_success_at": 1793838931,
         "last_failure_at": 1793835928,
         "offline_since": null,
         "failure_episodes": 445,
@@ -1873,7 +1924,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793838334"
+        "value": "1793838931"
       }
     ],
     "events": [
@@ -2026,6 +2077,12 @@
         "event_type": "post_analysis",
         "created_at": 1793811931,
         "details": "{\"related\":[{\"xStatusId\":\"2117999036175188183\",\"url\":\"https://x.com/pierrecomputer/status/2117999036175188183\",\"author\":\"pierrecomputer\",\"relation\":\"quote\",\"text\":\"an announcement from the pierre computer company\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Computers have RAM, right?\"}}"
+      },
+      {
+        "id": "analysis:x:2118138648214585591",
+        "event_type": "post_analysis",
+        "created_at": 1793838931,
+        "details": "{\"related\":[{\"xStatusId\":\"2118137612577968402\",\"url\":\"https://x.com/_catwu/status/2118137612577968402\",\"author\":\"_catwu\",\"relation\":\"quote\",\"text\":\"Some news: I’m joining OpenAI to lead product management for Core Products! I have a lot of respect for OpenAI for showing the world that scaling works, for bringing AI to over a billion people, and for believing great products are core to the mission. I’m excited to work with @…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Welcome Cat.\"}}"
       },
       {
         "id": "notification:post:x:2112798407928713717",
@@ -2685,8 +2742,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793838334,
-    "lastRssAttemptAt": 1793838334,
+    "lastRssSuccessAt": 1793838931,
+    "lastRssAttemptAt": 1793838931,
     "sourceState": "online",
     "error": null
   }
