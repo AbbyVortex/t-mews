@@ -60,7 +60,7 @@
         "notify": true,
         "display": "announcement"
       },
-      "status": "claimed",
+      "status": "classified",
       "evaluation": true,
       "input": {
         "author": "thsottiaux",
@@ -80,7 +80,24 @@
           }
         ],
         "parentStatus": "captured_history"
-      }
+      },
+      "actualModel": "gpt-6.1-sol",
+      "responseStatus": "completed",
+      "usage": {
+        "input_tokens": 587,
+        "output_tokens": 71,
+        "total_tokens": 658,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "referenceCostUsd": 0.001884,
+      "result": {
+        "category": "announcement",
+        "rationale": "先行投稿で今後2日間のBanked Resetを予告しており、「Banked 1/2」はその1回目の付与報告に当たる。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      },
+      "elapsedMs": 3482
     }
   ],
   "pending": [
