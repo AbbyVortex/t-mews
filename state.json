@@ -1871,17 +1871,119 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 547
+      },
+      {
+        "id": "x:2118248900381536740",
+        "x_status_id": "2118248900381536740",
+        "canonical_url": "https://x.com/thsottiaux/status/2118248900381536740",
+        "fingerprint": "5eb96e81b651d9869fe5b4a62ea6dbbf29b0b6cfc5effeb947a63d54d3bc659f",
+        "published_at": 1793864867,
+        "detected_at": 1793865929,
+        "text": "Privilege to work alongside so many amazing people who won’t rest until we materialize a better future.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 1062
+      },
+      {
+        "id": "x:2118249806875533399",
+        "x_status_id": "2118249806875533399",
+        "canonical_url": "https://x.com/thsottiaux/status/2118249806875533399",
+        "fingerprint": "2e37e236a4b6c884a40672789f62906f992b53e8875346ac7e154624ae1420a5",
+        "published_at": 1793865083,
+        "detected_at": 1793865929,
+        "text": "@dani_avila7 Codex",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 846
+      },
+      {
+        "id": "x:2118250462092914736",
+        "x_status_id": "2118250462092914736",
+        "canonical_url": "https://x.com/thsottiaux/status/2118250462092914736",
+        "fingerprint": "de647814a7646cdcf49a485635fa91530398b8389acfc64fb643301d68bb1485",
+        "published_at": 1793865240,
+        "detected_at": 1793865929,
+        "text": "@rileybrown Yes and\n\nhttps://x.com/_samirism/status/2118103057980690771?a=XspyEUvUq_a8gqebCIw&s=20",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 689
+      },
+      {
+        "id": "x:2118250631165300747",
+        "x_status_id": "2118250631165300747",
+        "canonical_url": "https://x.com/thsottiaux/status/2118250631165300747",
+        "fingerprint": "838f7d8627c74b21fddc12c8f1d4d1f0b37fd3da39850820bcd92508fa7c3bfa",
+        "published_at": 1793865280,
+        "detected_at": 1793865929,
+        "text": "Follow Samir for dot updates",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 649
+      },
+      {
+        "id": "x:2118251848297783385",
+        "x_status_id": "2118251848297783385",
+        "canonical_url": "https://x.com/thsottiaux/status/2118251848297783385",
+        "fingerprint": "632ed43da0c5c41e527f3183f45df6da4e8cf3c8b4919d37b08e628507ccc9a1",
+        "published_at": 1793865570,
+        "detected_at": 1793865929,
+        "text": "@amix3k In 6 months this will look quite funny in retrospect",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 359
+      },
+      {
+        "id": "x:2118252192536973501",
+        "x_status_id": "2118252192536973501",
+        "canonical_url": "https://x.com/thsottiaux/status/2118252192536973501",
+        "fingerprint": "de42dd94cb22ed576f3e9f8cfdee0b033dbbdbbc9790a2bd8d07ef4bdd31593c",
+        "published_at": 1793865652,
+        "detected_at": 1793865929,
+        "text": "@helloitsaustin @OpenAI Welcome sir",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 277
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1793864732,
+        "state": "online",
+        "last_success_at": 1793865929,
         "last_failure_at": 1793865334,
-        "offline_since": 1793865334,
+        "offline_since": null,
         "failure_episodes": 451,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -1907,11 +2009,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793864732"
-      },
-      {
-        "key": "outage",
-        "value": "1793865334"
+        "value": "1793865929"
       }
     ],
     "events": [
@@ -2064,6 +2162,24 @@
         "event_type": "post_analysis",
         "created_at": 1793840730,
         "details": "{\"related\":[{\"xStatusId\":\"2118119451401048497\",\"url\":\"https://x.com/OpenAI/status/2118119451401048497\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"Our security researchers built an autonomous cyber vulnerability discovery, exploitation, and patching pipeline. In a single run with an upcoming cyber model, it validated and generated patches for 948 local privilege escalation vulnerabilities in the Linux kernel at a total API…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"We’ve assembled a world class cyber team and I’m excited for us to share more about our work over the weeks and months.\"}}"
+      },
+      {
+        "id": "analysis:x:2118248900381536740",
+        "event_type": "post_analysis",
+        "created_at": 1793865929,
+        "details": "{\"related\":[{\"xStatusId\":\"2118151308758941998\",\"url\":\"https://x.com/clairevo/status/2118151308758941998\",\"author\":\"clairevo\",\"relation\":\"quote\",\"text\":\"BREAKING: @OpenAI product team is absolutely stacked\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Privilege to work alongside so many amazing people who won’t rest until we materialize a better future.\"}}"
+      },
+      {
+        "id": "analysis:x:2118250462092914736",
+        "event_type": "post_analysis",
+        "created_at": 1793865929,
+        "details": "{\"related\":[{\"xStatusId\":\"2118103057980690771\",\"url\":\"https://x.com/_samirism/status/2118103057980690771\",\"author\":\"_samirism\",\"relation\":\"quote\",\"text\":\"the team has been laser-focused on making dots significantly faster and more reliable. some updates in the latest app release… - you can now reply to your dot inline from a notification on iOS - share anything directly to your dot in iOS - open your dot from the iPhone Action bu…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@rileybrown Yes and\"}}"
+      },
+      {
+        "id": "analysis:x:2118250631165300747",
+        "event_type": "post_analysis",
+        "created_at": 1793865929,
+        "details": "{\"related\":[{\"xStatusId\":\"2118103057980690771\",\"url\":\"https://x.com/_samirism/status/2118103057980690771\",\"author\":\"_samirism\",\"relation\":\"quote\",\"text\":\"the team has been laser-focused on making dots significantly faster and more reliable. some updates in the latest app release… - you can now reply to your dot inline from a notification on iOS - share anything directly to your dot in iOS - open your dot from the iPhone Action bu…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Follow Samir for dot updates\"}}"
       },
       {
         "id": "notification:post:x:2113162277688070445",
@@ -2717,9 +2833,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793864732,
-    "lastRssAttemptAt": 1793865334,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1793865929,
+    "lastRssAttemptAt": 1793865929,
+    "sourceState": "online",
+    "error": null
   }
 }
