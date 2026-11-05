@@ -696,7 +696,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "利用枠のリセットや付与への言及は見当たりません。",
+        "confidence": 0.98,
+        "uncertainty": ""
+      }
     }
   ]
 }
