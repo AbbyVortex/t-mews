@@ -455,6 +455,21 @@
       }
     },
     {
+      "id": "x:2118470016127598724",
+      "url": "https://x.com/thsottiaux/status/2118470016127598724",
+      "text": "If I count well, that's more than 500M images per day.",
+      "related": [],
+      "publishedAt": 1793917585,
+      "kind": "post",
+      "discoveredAt": 1793918131,
+      "recentContext": [],
+      "rule": {
+        "classification": "IRRELEVANT",
+        "notify": false,
+        "display": null
+      }
+    },
+    {
       "id": "x:2118443570298568886",
       "url": "https://x.com/thsottiaux/status/2118443570298568886",
       "text": "@kimmonismus Don't know, I live in the basement now",
@@ -462,6 +477,21 @@
       "publishedAt": 1793911280,
       "kind": "reply",
       "discoveredAt": 1793911535,
+      "recentContext": [],
+      "rule": {
+        "classification": "IRRELEVANT",
+        "notify": false,
+        "display": null
+      }
+    },
+    {
+      "id": "x:2118469869423526046",
+      "url": "https://x.com/thsottiaux/status/2118469869423526046",
+      "text": "@JustinBleuel @ChatGPT 👀",
+      "related": [],
+      "publishedAt": 1793917550,
+      "kind": "reply",
+      "discoveredAt": 1793918131,
       "recentContext": [],
       "rule": {
         "classification": "IRRELEVANT",
