@@ -2058,17 +2058,34 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 36
+      },
+      {
+        "id": "x:2118402103907655903",
+        "x_status_id": "2118402103907655903",
+        "canonical_url": "https://x.com/thsottiaux/status/2118402103907655903",
+        "fingerprint": "b46ffb1338158afe5d96aba2173407e622736cc4a226fc9549956925bfaf77bb",
+        "published_at": 1793901394,
+        "detected_at": 1793902530,
+        "text": "Our latest cyber-specialized model is out. It's in its own league on many cyber-specific use cases. Available through Daybreak Red access.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 1136
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1793901331,
+        "state": "online",
+        "last_success_at": 1793902530,
         "last_failure_at": 1793902128,
-        "offline_since": 1793901943,
+        "offline_since": null,
         "failure_episodes": 456,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2094,11 +2111,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793901331"
-      },
-      {
-        "key": "outage",
-        "value": "1793901943"
+        "value": "1793902530"
       }
     ],
     "events": [
@@ -2269,6 +2282,12 @@
         "event_type": "post_analysis",
         "created_at": 1793865929,
         "details": "{\"related\":[{\"xStatusId\":\"2118103057980690771\",\"url\":\"https://x.com/_samirism/status/2118103057980690771\",\"author\":\"_samirism\",\"relation\":\"quote\",\"text\":\"the team has been laser-focused on making dots significantly faster and more reliable. some updates in the latest app release… - you can now reply to your dot inline from a notification on iOS - share anything directly to your dot in iOS - open your dot from the iPhone Action bu…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Follow Samir for dot updates\"}}"
+      },
+      {
+        "id": "analysis:x:2118402103907655903",
+        "event_type": "post_analysis",
+        "created_at": 1793902530,
+        "details": "{\"related\":[{\"xStatusId\":\"2118390190246879554\",\"url\":\"https://x.com/OpenAI/status/2118390190246879554\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"Introducing GPT‑6 Cyber: a major advance in security research that pairs stronger capabilities with better model alignment. The model powered the Linux kernel research we announced yesterday, and security teams at companies like Mozilla, Palo Alto Networks, Calif, and Cisco—alon…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Our latest cyber-specialized model is out.\"}}"
       },
       {
         "id": "notification:offline:1793887531",
@@ -2950,9 +2969,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793901331,
-    "lastRssAttemptAt": 1793902128,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1793902530,
+    "lastRssAttemptAt": 1793902530,
+    "sourceState": "online",
+    "error": null
   }
 }
