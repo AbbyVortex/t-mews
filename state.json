@@ -3,125 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2112712984644784534",
-        "x_status_id": "2112712984644784534",
-        "canonical_url": "https://x.com/thsottiaux/status/2112712984644784534",
-        "fingerprint": "7f82ba7e553bf83187da0c3fbecbf6170000a6c7cfbda2c056507955ddda7fa5",
-        "published_at": 1792545002,
-        "detected_at": 1792545332,
-        "text": "Day 16/\n\nYou can now cache for 12h in the API and for logged in users across Codex & Work we keep cache forever and you don’t have any penalty for coming back to an old conversation or resuming after a few hours and are now guaranteed to hit the cache.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 330
-      },
-      {
-        "id": "x:2112798407928713717",
-        "x_status_id": "2112798407928713717",
-        "canonical_url": "https://x.com/thsottiaux/status/2112798407928713717",
-        "fingerprint": "cfe94c1504dfc14c3c4bb78c84aa6bb06b71e0f5232856faf8d2fd337fe0a0b8",
-        "published_at": 1792565369,
-        "detected_at": 1792565731,
-        "text": "@theo I demand a reset",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 362
-      },
-      {
-        "id": "x:2112906496736641416",
-        "x_status_id": "2112906496736641416",
-        "canonical_url": "https://x.com/thsottiaux/status/2112906496736641416",
-        "fingerprint": "cc71e1e7936286dfebf4a5b20dcc4ca5aafc3b4c6b54785c621e99bb6a6de37e",
-        "published_at": 1792591139,
-        "detected_at": 1792591532,
-        "text": "@JustLingonberry @sama is this true",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 393
-      },
-      {
-        "id": "x:2112992042465009736",
-        "x_status_id": "2112992042465009736",
-        "canonical_url": "https://x.com/thsottiaux/status/2112992042465009736",
-        "fingerprint": "4f8b86efbc1feeac4ebc4bce26a4299c0868cf3c54e97e53a924bb3cf871bf18",
-        "published_at": 1792611535,
-        "detected_at": 1792611929,
-        "text": "@claudeai Dot, meet Duet. Duet, meet Dot. Be nice to each other.",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 394
-      },
-      {
-        "id": "x:2113009945134379213",
-        "x_status_id": "2113009945134379213",
-        "canonical_url": "https://x.com/thsottiaux/status/2113009945134379213",
-        "fingerprint": "4f1fae0e0a129cc96bbf10facf64da906ce8bf1ca86c2ed24b1f1bec9ae80034",
-        "published_at": 1792615803,
-        "detected_at": 1792616131,
-        "text": "@theo Congrats",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 328
-      },
-      {
-        "id": "x:2113029655095836957",
-        "x_status_id": "2113029655095836957",
-        "canonical_url": "https://x.com/thsottiaux/status/2113029655095836957",
-        "fingerprint": "46498ffee924d3d3d3390b7338d494627f439178ec2c909860805e710c41fcc2",
-        "published_at": 1792620502,
-        "detected_at": 1792620932,
-        "text": "Dot, Dotter, Dottest",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 430
-      },
-      {
-        "id": "x:2113029854417600834",
-        "x_status_id": "2113029854417600834",
-        "canonical_url": "https://x.com/thsottiaux/status/2113029854417600834",
-        "fingerprint": "7ad6eae2bcd401f68d60f3fdde2a3385143380886caaab28c2cfb553f0353fa7",
-        "published_at": 1792620550,
-        "detected_at": 1792620932,
-        "text": "Fully included in the Pro plan, doesn't draw on your weekly usage.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "possible usage signal without a confirmed change or strong hint",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 382
-      },
-      {
         "id": "x:2113162277688070445",
         "x_status_id": "2113162277688070445",
         "canonical_url": "https://x.com/thsottiaux/status/2113162277688070445",
@@ -1894,7 +1775,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793838931,
+        "last_success_at": 1793839529,
         "last_failure_at": 1793835928,
         "offline_since": null,
         "failure_episodes": 445,
@@ -1920,26 +1801,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1793753129"
+        "value": "1793839529"
       },
       {
         "key": "lastSuccess",
-        "value": "1793838931"
+        "value": "1793839529"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2112712984644784534",
-        "event_type": "post_analysis",
-        "created_at": 1792545332,
-        "details": "{\"related\":[{\"xStatusId\":\"2112603916076781778\",\"url\":\"https://x.com/OpenAIDevs/status/2112603916076781778\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"You can now choose 12-hour prompt caching in the API. Persistent agents, like dots, reuse context throughout the day. You can keep shared instructions, tools, and context cached longer and pay the lower cached-input rate, even when requests are hours apart.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 16/\"}}"
-      },
-      {
-        "id": "analysis:x:2112798407928713717",
-        "event_type": "post_analysis",
-        "created_at": 1792565731,
-        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@theo I demand a reset\"}}"
-      },
       {
         "id": "analysis:x:2113162277688070445",
         "event_type": "post_analysis",
@@ -2083,12 +1952,6 @@
         "event_type": "post_analysis",
         "created_at": 1793838931,
         "details": "{\"related\":[{\"xStatusId\":\"2118137612577968402\",\"url\":\"https://x.com/_catwu/status/2118137612577968402\",\"author\":\"_catwu\",\"relation\":\"quote\",\"text\":\"Some news: I’m joining OpenAI to lead product management for Core Products! I have a lot of respect for OpenAI for showing the world that scaling works, for bringing AI to over a billion people, and for believing great products are core to the mission. I’m excited to work with @…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Welcome Cat.\"}}"
-      },
-      {
-        "id": "notification:post:x:2112798407928713717",
-        "event_type": "notification_sent",
-        "created_at": 1792565731,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2112798407928713717\"}"
       },
       {
         "id": "notification:post:x:2113162277688070445",
@@ -2742,8 +2605,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793838931,
-    "lastRssAttemptAt": 1793838931,
+    "lastRssSuccessAt": 1793839529,
+    "lastRssAttemptAt": 1793839529,
     "sourceState": "online",
     "error": null
   }
