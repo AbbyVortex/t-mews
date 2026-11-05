@@ -2126,13 +2126,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 46
+      },
+      {
+        "id": "x:2118469869423526046",
+        "x_status_id": "2118469869423526046",
+        "canonical_url": "https://x.com/thsottiaux/status/2118469869423526046",
+        "fingerprint": "cb7e2393c590da74baac635725aa6a40485047031ffd66d48fd362ec868ab979",
+        "published_at": 1793917550,
+        "detected_at": 1793918131,
+        "text": "@JustinBleuel @ChatGPT 👀",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 581
+      },
+      {
+        "id": "x:2118470016127598724",
+        "x_status_id": "2118470016127598724",
+        "canonical_url": "https://x.com/thsottiaux/status/2118470016127598724",
+        "fingerprint": "f905e4e23ee741ac551a0615788cccf70cd347cce1ea274b722a1e96295b4295",
+        "published_at": 1793917585,
+        "detected_at": 1793918131,
+        "text": "If I count well, that's more than 500M images per day.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 546
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793917537,
+        "last_success_at": 1793918131,
         "last_failure_at": 1793915731,
         "offline_since": null,
         "failure_episodes": 461,
@@ -2162,7 +2196,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793917537"
+        "value": "1793918131"
       }
     ],
     "events": [
@@ -3032,8 +3066,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793917537,
-    "lastRssAttemptAt": 1793917537,
+    "lastRssSuccessAt": 1793918131,
+    "lastRssAttemptAt": 1793918131,
     "sourceState": "online",
     "error": null
   }
