@@ -218,7 +218,7 @@
         "notify": true,
         "display": "announcement"
       },
-      "status": "claimed",
+      "status": "classified",
       "evaluation": true,
       "input": {
         "author": "thsottiaux",
@@ -229,7 +229,24 @@
         "related": [],
         "recentContext": [],
         "parentStatus": "deliberately_omitted"
-      }
+      },
+      "actualModel": "gpt-6.1-sol",
+      "responseStatus": "completed",
+      "usage": {
+        "input_tokens": 467,
+        "output_tokens": 69,
+        "total_tokens": 536,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "referenceCostUsd": 0.001624,
+      "result": {
+        "category": "announcement",
+        "rationale": "「Banked 1/2」は、バンク済みリセットの連続付与における1回目を報告する単独のカウンター投稿。",
+        "confidence": 0.98,
+        "uncertainty": ""
+      },
+      "elapsedMs": 5130
     }
   ],
   "pending": [
