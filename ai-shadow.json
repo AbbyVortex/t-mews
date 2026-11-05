@@ -601,7 +601,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "「CatGPT」のみで、Resetや付与との関連は見当たりません。",
+        "confidence": 0.98,
+        "uncertainty": ""
+      }
     }
   ]
 }
