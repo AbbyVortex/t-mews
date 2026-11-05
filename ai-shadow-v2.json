@@ -16,7 +16,7 @@
         "notify": true,
         "display": "advisory"
       },
-      "status": "claimed",
+      "status": "classified",
       "evaluation": true,
       "input": {
         "author": "thsottiaux",
@@ -27,7 +27,24 @@
         "related": [],
         "recentContext": [],
         "parentStatus": "captured_history"
-      }
+      },
+      "actualModel": "gpt-6.1-sol",
+      "responseStatus": "completed",
+      "usage": {
+        "input_tokens": 526,
+        "output_tokens": 75,
+        "total_tokens": 601,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "referenceCostUsd": 0.001802,
+      "result": {
+        "category": "announcement",
+        "rationale": "「今後2日間はリセット…バンク式」と明言しており、遊び心のある表現でも、2日間のBanked Reset実施予告に当たる。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      },
+      "elapsedMs": 4886
     }
   ],
   "pending": [
