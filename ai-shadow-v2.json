@@ -430,6 +430,31 @@
       }
     },
     {
+      "id": "x:2118469621011677521",
+      "url": "https://x.com/thsottiaux/status/2118469621011677521",
+      "text": "Wild stat. We are now generate more than 4B images per week across ChatGPT and the API, up from the more than 3B per week only 8 weeks ago.",
+      "related": [
+        {
+          "relation": "quote",
+          "text": "Images, upgraded—introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation.",
+          "author": "OpenAI",
+          "id": "x:2118124944928432327",
+          "url": "https://x.com/OpenAI/status/2118124944928432327",
+          "publishedAt": null,
+          "source": "feed"
+        }
+      ],
+      "publishedAt": 1793917491,
+      "kind": "post",
+      "discoveredAt": 1793917537,
+      "recentContext": [],
+      "rule": {
+        "classification": "IRRELEVANT",
+        "notify": false,
+        "display": null
+      }
+    },
+    {
       "id": "x:2118443570298568886",
       "url": "https://x.com/thsottiaux/status/2118443570298568886",
       "text": "@kimmonismus Don't know, I live in the basement now",
