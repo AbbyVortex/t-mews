@@ -639,7 +639,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "リセットやバンク済みリセット、付与を示す内容ではありません。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      }
     }
   ]
 }
