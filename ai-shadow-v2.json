@@ -470,6 +470,21 @@
       }
     },
     {
+      "id": "x:2118473288368406582",
+      "url": "https://x.com/thsottiaux/status/2118473288368406582",
+      "text": "Generating*",
+      "related": [],
+      "publishedAt": 1793918365,
+      "kind": "post",
+      "discoveredAt": 1793918729,
+      "recentContext": [],
+      "rule": {
+        "classification": "IRRELEVANT",
+        "notify": false,
+        "display": null
+      }
+    },
+    {
       "id": "x:2118443570298568886",
       "url": "https://x.com/thsottiaux/status/2118443570298568886",
       "text": "@kimmonismus Don't know, I live in the basement now",
