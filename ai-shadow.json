@@ -734,7 +734,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "関連情報がなく、「Might be」だけではリセットや付与とのつながりを判断できません。",
+        "confidence": 0.98,
+        "uncertainty": ""
+      }
     }
   ]
 }
