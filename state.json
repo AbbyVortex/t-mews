@@ -2041,13 +2041,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 540
+      },
+      {
+        "id": "x:2118401691032973416",
+        "x_status_id": "2118401691032973416",
+        "canonical_url": "https://x.com/thsottiaux/status/2118401691032973416",
+        "fingerprint": "3edf27b95aa66e2babcaf31852f74ebee1c3d6f586255aaba1289f9826151633",
+        "published_at": 1793901295,
+        "detected_at": 1793901331,
+        "text": "@ajambrosino Bunch of interesting buttons here: https://tibo.dog",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 36
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793900730,
+        "last_success_at": 1793901331,
         "last_failure_at": 1793900136,
         "offline_since": null,
         "failure_episodes": 455,
@@ -2077,7 +2094,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793900730"
+        "value": "1793901331"
       }
     ],
     "events": [
@@ -2929,8 +2946,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793900730,
-    "lastRssAttemptAt": 1793900730,
+    "lastRssSuccessAt": 1793901331,
+    "lastRssAttemptAt": 1793901331,
     "sourceState": "online",
     "error": null
   }
