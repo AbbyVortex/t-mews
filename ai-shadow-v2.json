@@ -403,6 +403,46 @@
         "notify": false,
         "display": null
       }
+    },
+    {
+      "id": "x:2118444105969926407",
+      "url": "https://x.com/thsottiaux/status/2118444105969926407",
+      "text": "Come push the frontier of fluffiness",
+      "related": [
+        {
+          "relation": "quote",
+          "text": "we've assembled a team of some of the most talented people in the persistent agent space - to make dots incredible dm me if you are interested in joining 👀",
+          "author": "_samirism",
+          "id": "x:2118077964936163717",
+          "url": "https://x.com/_samirism/status/2118077964936163717",
+          "publishedAt": null,
+          "source": "feed"
+        }
+      ],
+      "publishedAt": 1793911408,
+      "kind": "post",
+      "discoveredAt": 1793911535,
+      "recentContext": [],
+      "rule": {
+        "classification": "IRRELEVANT",
+        "notify": false,
+        "display": null
+      }
+    },
+    {
+      "id": "x:2118443570298568886",
+      "url": "https://x.com/thsottiaux/status/2118443570298568886",
+      "text": "@kimmonismus Don't know, I live in the basement now",
+      "related": [],
+      "publishedAt": 1793911280,
+      "kind": "reply",
+      "discoveredAt": 1793911535,
+      "recentContext": [],
+      "rule": {
+        "classification": "IRRELEVANT",
+        "notify": false,
+        "display": null
+      }
     }
   ],
   "skipped": []
