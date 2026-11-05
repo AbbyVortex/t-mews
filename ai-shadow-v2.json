@@ -298,14 +298,24 @@
       "model": "gpt-6.1-sol",
       "reasoning": "medium",
       "promptVersion": "tibo-context-20261106-v2",
-      "inputHash": "",
+      "inputHash": "f16b847a2fafc66d3845ee60dd45ce7ca9a645273543231391ab82aea43f0579",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
       },
       "status": "claimed",
-      "evaluation": true
+      "evaluation": true,
+      "input": {
+        "author": "thsottiaux",
+        "id": "eval:sol-context-v2:question-bare",
+        "url": null,
+        "publishedAt": null,
+        "text": "?!",
+        "related": [],
+        "recentContext": [],
+        "parentStatus": "deliberately_omitted"
+      }
     }
   ],
   "pending": [
