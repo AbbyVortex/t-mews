@@ -2237,6 +2237,12 @@
         "details": "{\"related\":[{\"xStatusId\":\"2118103057980690771\",\"url\":\"https://x.com/_samirism/status/2118103057980690771\",\"author\":\"_samirism\",\"relation\":\"quote\",\"text\":\"the team has been laser-focused on making dots significantly faster and more reliable. some updates in the latest app release… - you can now reply to your dot inline from a notification on iOS - share anything directly to your dot in iOS - open your dot from the iPhone Action bu…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Follow Samir for dot updates\"}}"
       },
       {
+        "id": "notification:offline:1793887531",
+        "event_type": "notification_sent",
+        "created_at": 1793888735,
+        "details": "{\"kind\":\"offline\",\"postId\":null}"
+      },
+      {
         "id": "notification:post:x:2113162277688070445",
         "event_type": "notification_sent",
         "created_at": 1792652157,
@@ -2409,8 +2415,8 @@
         "post_id": null,
         "kind": "offline",
         "created_at": 1793888735,
-        "status": "sending",
-        "sent_at": null
+        "status": "sent",
+        "sent_at": 1793888735
       },
       {
         "id": "online",
