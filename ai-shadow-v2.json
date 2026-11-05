@@ -203,28 +203,26 @@
         "uncertainty": ""
       },
       "elapsedMs": 3956
-    }
-  ],
-  "pending": [
+    },
     {
       "id": "eval:sol-context-v2:banked1-bare",
       "url": "https://x.com/thsottiaux/status/2116692529970311254",
-      "text": "Banked 1/2",
-      "related": [],
-      "publishedAt": 1793493800,
-      "kind": "post",
-      "discoveredAt": 1793901895,
-      "recentContext": [],
+      "postId": "x:2116692529970311254",
+      "attemptedAt": 1793901895,
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "promptVersion": "tibo-context-20261106-v2",
+      "inputHash": "",
       "rule": {
         "classification": "BANKED_RESET",
         "notify": true,
         "display": "announcement"
       },
-      "postId": "x:2116692529970311254",
-      "parentStatus": "deliberately_omitted",
-      "contextMode": "bare",
+      "status": "claimed",
       "evaluation": true
-    },
+    }
+  ],
+  "pending": [
     {
       "id": "eval:sol-context-v2:ambiguous-bare",
       "url": null,
