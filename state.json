@@ -1854,13 +1854,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 28
+      },
+      {
+        "id": "x:2118165504955494695",
+        "x_status_id": "2118165504955494695",
+        "canonical_url": "https://x.com/thsottiaux/status/2118165504955494695",
+        "fingerprint": "b613f0bf82647a0db07f7fe599ced08d0a7ad5276abe5f482f698d6339b68d53",
+        "published_at": 1793844984,
+        "detected_at": 1793845531,
+        "text": "@jonoalford We needed the eyeballs",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 547
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793844930,
+        "last_success_at": 1793845531,
         "last_failure_at": 1793844330,
         "offline_since": null,
         "failure_episodes": 446,
@@ -1890,7 +1907,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793844930"
+        "value": "1793845531"
       }
     ],
     "events": [
@@ -2696,8 +2713,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793844930,
-    "lastRssAttemptAt": 1793844930,
+    "lastRssSuccessAt": 1793845531,
+    "lastRssAttemptAt": 1793845531,
     "sourceState": "online",
     "error": null
   }
