@@ -247,25 +247,25 @@
         "uncertainty": ""
       },
       "elapsedMs": 5130
-    }
-  ],
-  "pending": [
+    },
     {
       "id": "eval:sol-context-v2:ambiguous-bare",
       "url": null,
-      "text": "Tomorrow 👀",
-      "related": [],
-      "recentContext": [],
-      "parentStatus": "deliberately_omitted",
-      "contextMode": "bare",
-      "evaluation": true,
-      "discoveredAt": 1793901895,
+      "attemptedAt": 1793901895,
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "promptVersion": "tibo-context-20261106-v2",
+      "inputHash": "",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
-      }
-    },
+      },
+      "status": "claimed",
+      "evaluation": true
+    }
+  ],
+  "pending": [
     {
       "id": "eval:sol-context-v2:question-bare",
       "url": null,
