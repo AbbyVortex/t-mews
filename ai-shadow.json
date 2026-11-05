@@ -658,7 +658,13 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed"
+      "status": "classified",
+      "result": {
+        "category": "unrelated",
+        "rationale": "「注目が必要だった」という内容で、Resetや付与への関連は示されていません。",
+        "confidence": 0.98,
+        "uncertainty": ""
+      }
     }
   ]
 }
