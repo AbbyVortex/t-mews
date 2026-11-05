@@ -205,6 +205,74 @@
       "elapsedMs": 3956
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "id": "eval:sol-context-v2:banked1-bare",
+      "url": "https://x.com/thsottiaux/status/2116692529970311254",
+      "text": "Banked 1/2",
+      "related": [],
+      "publishedAt": 1793493800,
+      "kind": "post",
+      "discoveredAt": 1793901895,
+      "recentContext": [],
+      "rule": {
+        "classification": "BANKED_RESET",
+        "notify": true,
+        "display": "announcement"
+      },
+      "postId": "x:2116692529970311254",
+      "parentStatus": "deliberately_omitted",
+      "contextMode": "bare",
+      "evaluation": true
+    },
+    {
+      "id": "eval:sol-context-v2:ambiguous-bare",
+      "url": null,
+      "text": "Tomorrow 👀",
+      "related": [],
+      "recentContext": [],
+      "parentStatus": "deliberately_omitted",
+      "contextMode": "bare",
+      "evaluation": true,
+      "discoveredAt": 1793901895,
+      "rule": {
+        "classification": "IRRELEVANT",
+        "notify": false,
+        "display": null
+      }
+    },
+    {
+      "id": "eval:sol-context-v2:question-bare",
+      "url": null,
+      "text": "?!",
+      "related": [],
+      "recentContext": [],
+      "parentStatus": "deliberately_omitted",
+      "contextMode": "bare",
+      "evaluation": true,
+      "discoveredAt": 1793901895,
+      "rule": {
+        "classification": "IRRELEVANT",
+        "notify": false,
+        "display": null
+      }
+    },
+    {
+      "id": "eval:sol-context-v2:wait-bare",
+      "url": null,
+      "text": "Can't wait",
+      "related": [],
+      "recentContext": [],
+      "parentStatus": "deliberately_omitted",
+      "contextMode": "bare",
+      "evaluation": true,
+      "discoveredAt": 1793901895,
+      "rule": {
+        "classification": "IRRELEVANT",
+        "notify": false,
+        "display": null
+      }
+    }
+  ],
   "skipped": []
 }
