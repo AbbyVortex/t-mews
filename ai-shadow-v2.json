@@ -261,7 +261,7 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed",
+      "status": "classified",
       "evaluation": true,
       "input": {
         "author": "thsottiaux",
@@ -272,7 +272,24 @@
         "related": [],
         "recentContext": [],
         "parentStatus": "deliberately_omitted"
-      }
+      },
+      "actualModel": "gpt-6.1-sol",
+      "responseStatus": "completed",
+      "usage": {
+        "input_tokens": 447,
+        "output_tokens": 79,
+        "total_tokens": 526,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "referenceCostUsd": 0.001684,
+      "result": {
+        "category": "unrelated",
+        "rationale": "「Tomorrow 👀」だけでは、リセットやBanked Resetの予告と判断できる具体的な関連がありません。",
+        "confidence": 0.93,
+        "uncertainty": "親投稿が提示されていないため、何を指す発言か不明です。"
+      },
+      "elapsedMs": 5138
     }
   ],
   "pending": [
