@@ -1,0 +1,110 @@
+{
+  "version": 2,
+  "startedAt": 1793901853,
+  "records": [],
+  "pending": [
+    {
+      "id": "eval:sol-context-v2:forecast-context",
+      "url": "https://x.com/thsottiaux/status/2116405414921384099",
+      "text": "Day 26/ You can now easily switch between multiple accounts on mobile, and coming soon to desktop too. Next two days will be resets… banked… do with this what you may 👀.\n\nhttps://help.openai.com/en/articles/20001068-using-multiple-chatgpt-accounts-on-web-and-mobile",
+      "related": [],
+      "publishedAt": 1793425346,
+      "kind": "post",
+      "discoveredAt": 1793901853,
+      "recentContext": [],
+      "rule": {
+        "classification": "CANDIDATE",
+        "notify": true,
+        "display": "advisory"
+      },
+      "postId": "x:2116405414921384099",
+      "parentStatus": "captured_history",
+      "contextMode": "context",
+      "evaluation": true
+    },
+    {
+      "id": "eval:sol-context-v2:banked1-context",
+      "url": "https://x.com/thsottiaux/status/2116692529970311254",
+      "text": "Banked 1/2",
+      "related": [],
+      "publishedAt": 1793493800,
+      "kind": "post",
+      "discoveredAt": 1793901853,
+      "recentContext": [
+        {
+          "id": "x:2116405414921384099",
+          "url": "https://x.com/thsottiaux/status/2116405414921384099",
+          "text": "Day 26/ You can now easily switch between multiple accounts on mobile, and coming soon to desktop too. Next two days will be resets… banked… do with this what you may 👀.\n\nhttps://help.openai.com/en/articles/20001068-using-multiple-chatgpt-accounts-on-web-and-mobile",
+          "publishedAt": 1793425346,
+          "author": "thsottiaux",
+          "source": "saved-history"
+        }
+      ],
+      "rule": {
+        "classification": "BANKED_RESET",
+        "notify": true,
+        "display": "announcement"
+      },
+      "postId": "x:2116692529970311254",
+      "parentStatus": "captured_history",
+      "contextMode": "context",
+      "evaluation": true
+    },
+    {
+      "id": "eval:sol-context-v2:banked2-bare",
+      "url": "https://x.com/thsottiaux/status/2117035794678546764",
+      "text": "Day 28/ Banked 2/2",
+      "related": [],
+      "publishedAt": 1793575640,
+      "kind": "post",
+      "discoveredAt": 1793901853,
+      "recentContext": [],
+      "rule": {
+        "classification": "BANKED_RESET",
+        "notify": true,
+        "display": "announcement"
+      },
+      "postId": "x:2117035794678546764",
+      "parentStatus": "deliberately_omitted",
+      "contextMode": "bare",
+      "evaluation": true
+    },
+    {
+      "id": "eval:sol-context-v2:banked2-context",
+      "url": "https://x.com/thsottiaux/status/2117035794678546764",
+      "text": "Day 28/ Banked 2/2",
+      "related": [],
+      "publishedAt": 1793575640,
+      "kind": "post",
+      "discoveredAt": 1793901853,
+      "recentContext": [
+        {
+          "id": "x:2116405414921384099",
+          "url": "https://x.com/thsottiaux/status/2116405414921384099",
+          "text": "Day 26/ You can now easily switch between multiple accounts on mobile, and coming soon to desktop too. Next two days will be resets… banked… do with this what you may 👀.\n\nhttps://help.openai.com/en/articles/20001068-using-multiple-chatgpt-accounts-on-web-and-mobile",
+          "publishedAt": 1793425346,
+          "author": "thsottiaux",
+          "source": "saved-history"
+        },
+        {
+          "id": "x:2116692529970311254",
+          "url": "https://x.com/thsottiaux/status/2116692529970311254",
+          "text": "Banked 1/2",
+          "publishedAt": 1793493800,
+          "author": "thsottiaux",
+          "source": "saved-history"
+        }
+      ],
+      "rule": {
+        "classification": "BANKED_RESET",
+        "notify": true,
+        "display": "announcement"
+      },
+      "postId": "x:2117035794678546764",
+      "parentStatus": "captured_history",
+      "contextMode": "context",
+      "evaluation": true
+    }
+  ],
+  "skipped": []
+}
