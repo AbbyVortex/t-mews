@@ -151,14 +151,41 @@
       "model": "gpt-6.1-sol",
       "reasoning": "medium",
       "promptVersion": "tibo-context-20261106-v2",
-      "inputHash": "",
+      "inputHash": "6a6f7060d0f71de979d10b6cfe2a5a9f68c100e6143f23d4c102ca5009aa93a7",
       "rule": {
         "classification": "BANKED_RESET",
         "notify": true,
         "display": "announcement"
       },
       "status": "claimed",
-      "evaluation": true
+      "evaluation": true,
+      "input": {
+        "author": "thsottiaux",
+        "id": "x:2117035794678546764",
+        "url": "https://x.com/thsottiaux/status/2117035794678546764",
+        "publishedAt": 1793575640,
+        "text": "Day 28/ Banked 2/2",
+        "related": [],
+        "recentContext": [
+          {
+            "id": "x:2116405414921384099",
+            "url": "https://x.com/thsottiaux/status/2116405414921384099",
+            "text": "Day 26/ You can now easily switch between multiple accounts on mobile, and coming soon to desktop too. Next two days will be resets… banked… do with this what you may 👀.\n\nhttps://help.openai.com/en/articles/20001068-using-multiple-chatgpt-accounts-on-web-and-mobile",
+            "publishedAt": 1793425346,
+            "author": "thsottiaux",
+            "source": "saved-history"
+          },
+          {
+            "id": "x:2116692529970311254",
+            "url": "https://x.com/thsottiaux/status/2116692529970311254",
+            "text": "Banked 1/2",
+            "publishedAt": 1793493800,
+            "author": "thsottiaux",
+            "source": "saved-history"
+          }
+        ],
+        "parentStatus": "captured_history"
+      }
     }
   ],
   "pending": [],
