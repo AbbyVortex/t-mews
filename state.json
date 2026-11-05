@@ -2160,13 +2160,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 546
+      },
+      {
+        "id": "x:2118473288368406582",
+        "x_status_id": "2118473288368406582",
+        "canonical_url": "https://x.com/thsottiaux/status/2118473288368406582",
+        "fingerprint": "2d5665a42d080b5f458b2ff5510c04a3ac97dfa2b6cc2b447b19d327054c8b5e",
+        "published_at": 1793918365,
+        "detected_at": 1793918729,
+        "text": "Generating*",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 364
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793918131,
+        "last_success_at": 1793918729,
         "last_failure_at": 1793915731,
         "offline_since": null,
         "failure_episodes": 461,
@@ -2196,7 +2213,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793918131"
+        "value": "1793918729"
       }
     ],
     "events": [
@@ -3066,8 +3083,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793918131,
-    "lastRssAttemptAt": 1793918131,
+    "lastRssSuccessAt": 1793918729,
+    "lastRssAttemptAt": 1793918729,
     "sourceState": "online",
     "error": null
   }
