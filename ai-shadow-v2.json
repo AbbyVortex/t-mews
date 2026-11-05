@@ -341,14 +341,24 @@
       "model": "gpt-6.1-sol",
       "reasoning": "medium",
       "promptVersion": "tibo-context-20261106-v2",
-      "inputHash": "",
+      "inputHash": "8d5a9cadd21a3d9e07a30d9ebd04f570a89cd79e52579f5914aff25cff292a61",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
       },
       "status": "claimed",
-      "evaluation": true
+      "evaluation": true,
+      "input": {
+        "author": "thsottiaux",
+        "id": "eval:sol-context-v2:wait-bare",
+        "url": null,
+        "publishedAt": null,
+        "text": "Can't wait",
+        "related": [],
+        "recentContext": [],
+        "parentStatus": "deliberately_omitted"
+      }
     }
   ],
   "pending": [],
