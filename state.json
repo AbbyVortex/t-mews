@@ -2143,13 +2143,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 15
+      },
+      {
+        "id": "x:2118569235953893573",
+        "x_status_id": "2118569235953893573",
+        "canonical_url": "https://x.com/thsottiaux/status/2118569235953893573",
+        "fingerprint": "33d06709b1991aa6314a9aec22ea0d67a99f881d7ef63b71dc8d047e6515261d",
+        "published_at": 1793941241,
+        "detected_at": 1793941531,
+        "text": "I can confidently say that humans were not very good at writing secure infrastructure. The endstate will be hypersecure infrastructure and software for all, but we're going to go through some turbulence before we reach that.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 290
+      },
+      {
+        "id": "x:2118569441860723112",
+        "x_status_id": "2118569441860723112",
+        "canonical_url": "https://x.com/thsottiaux/status/2118569441860723112",
+        "fingerprint": "b88be1f9d4929b19d24f7a27d2f4b75356479f58a147baeba169bc10a18fca31",
+        "published_at": 1793941290,
+        "detected_at": 1793941531,
+        "text": "Formal proofs of tens of millions of lines of code are not a ridiculous thing anymore and within the realm of what should be considered when designing new systems.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 241
+      },
+      {
+        "id": "x:2118569868278796680",
+        "x_status_id": "2118569868278796680",
+        "canonical_url": "https://x.com/thsottiaux/status/2118569868278796680",
+        "fingerprint": "f67a561439565e73cf7d982f2dcce258d8ab0e8e7613236fa2050b30529c331f",
+        "published_at": 1793941392,
+        "detected_at": 1793941531,
+        "text": "@Sergey_Rura There is no going back. Software is changed forever.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 139
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793940936,
+        "last_success_at": 1793941531,
         "last_failure_at": 1793939731,
         "offline_since": null,
         "failure_episodes": 466,
@@ -2179,7 +2230,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793940936"
+        "value": "1793941531"
       }
     ],
     "events": [
@@ -3037,8 +3088,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793940936,
-    "lastRssAttemptAt": 1793940936,
+    "lastRssSuccessAt": 1793941531,
+    "lastRssAttemptAt": 1793941531,
     "sourceState": "online",
     "error": null
   }
