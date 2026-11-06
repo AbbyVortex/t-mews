@@ -490,14 +490,34 @@
       "model": "gpt-6.1-sol",
       "reasoning": "medium",
       "promptVersion": "tibo-context-20261106-v2",
-      "inputHash": "",
+      "inputHash": "cfda502f51edb40d892ada3b7dab98e1b057c76a20f46713fb8098b88f8de34b",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
       },
       "status": "claimed",
-      "evaluation": false
+      "evaluation": false,
+      "input": {
+        "author": "thsottiaux",
+        "id": "x:2118469621011677521",
+        "url": "https://x.com/thsottiaux/status/2118469621011677521",
+        "publishedAt": 1793917491,
+        "text": "Wild stat. We are now generate more than 4B images per week across ChatGPT and the API, up from the more than 3B per week only 8 weeks ago.",
+        "related": [
+          {
+            "relation": "quote",
+            "text": "Images, upgraded—introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation.",
+            "author": "OpenAI",
+            "id": "x:2118124944928432327",
+            "url": "https://x.com/OpenAI/status/2118124944928432327",
+            "publishedAt": null,
+            "source": "feed"
+          }
+        ],
+        "recentContext": [],
+        "parentStatus": "not_applicable"
+      }
     }
   ],
   "pending": [
