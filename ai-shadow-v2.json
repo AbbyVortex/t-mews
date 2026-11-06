@@ -835,6 +835,52 @@
       "elapsedMs": 4220
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "id": "x:2118569235953893573",
+      "url": "https://x.com/thsottiaux/status/2118569235953893573",
+      "text": "I can confidently say that humans were not very good at writing secure infrastructure. The endstate will be hypersecure infrastructure and software for all, but we're going to go through some turbulence before we reach that.",
+      "related": [],
+      "publishedAt": 1793941241,
+      "kind": "post",
+      "discoveredAt": 1793941531,
+      "recentContext": [],
+      "rule": {
+        "classification": "IRRELEVANT",
+        "notify": false,
+        "display": null
+      }
+    },
+    {
+      "id": "x:2118569441860723112",
+      "url": "https://x.com/thsottiaux/status/2118569441860723112",
+      "text": "Formal proofs of tens of millions of lines of code are not a ridiculous thing anymore and within the realm of what should be considered when designing new systems.",
+      "related": [],
+      "publishedAt": 1793941290,
+      "kind": "post",
+      "discoveredAt": 1793941531,
+      "recentContext": [],
+      "rule": {
+        "classification": "IRRELEVANT",
+        "notify": false,
+        "display": null
+      }
+    },
+    {
+      "id": "x:2118569868278796680",
+      "url": "https://x.com/thsottiaux/status/2118569868278796680",
+      "text": "@Sergey_Rura There is no going back. Software is changed forever.",
+      "related": [],
+      "publishedAt": 1793941392,
+      "kind": "reply",
+      "discoveredAt": 1793941531,
+      "recentContext": [],
+      "rule": {
+        "classification": "IRRELEVANT",
+        "notify": false,
+        "display": null
+      }
+    }
+  ],
   "skipped": []
 }
