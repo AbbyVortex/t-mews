@@ -496,7 +496,7 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed",
+      "status": "classified",
       "evaluation": false,
       "input": {
         "author": "thsottiaux",
@@ -517,7 +517,24 @@
         ],
         "recentContext": [],
         "parentStatus": "not_applicable"
-      }
+      },
+      "actualModel": "gpt-6.1-sol",
+      "responseStatus": "completed",
+      "usage": {
+        "input_tokens": 586,
+        "output_tokens": 66,
+        "total_tokens": 652,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "referenceCostUsd": 0.001832,
+      "result": {
+        "category": "unrelated",
+        "rationale": "画像生成数の増加とChatGPT Imagesの更新についての投稿であり、利用枠リセットやBanked Resetの付与との関連はない。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      },
+      "elapsedMs": 3576
     }
   ],
   "pending": [
