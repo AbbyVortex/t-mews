@@ -841,14 +841,24 @@
       "model": "gpt-6.1-sol",
       "reasoning": "medium",
       "promptVersion": "tibo-context-20261106-v2",
-      "inputHash": "",
+      "inputHash": "0f8d7a44ef8fdafef186c2083c3c29b54c5f105e21e1674e1886d927df472ff5",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
       },
       "status": "claimed",
-      "evaluation": false
+      "evaluation": false,
+      "input": {
+        "author": "thsottiaux",
+        "id": "x:2118569235953893573",
+        "url": "https://x.com/thsottiaux/status/2118569235953893573",
+        "publishedAt": 1793941241,
+        "text": "I can confidently say that humans were not very good at writing secure infrastructure. The endstate will be hypersecure infrastructure and software for all, but we're going to go through some turbulence before we reach that.",
+        "related": [],
+        "recentContext": [],
+        "parentStatus": "not_applicable"
+      }
     }
   ],
   "pending": [
