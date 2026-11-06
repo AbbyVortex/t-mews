@@ -635,7 +635,7 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed",
+      "status": "classified",
       "evaluation": false,
       "input": {
         "author": "thsottiaux",
@@ -656,7 +656,24 @@
         ],
         "recentContext": [],
         "parentStatus": "fetched"
-      }
+      },
+      "actualModel": "gpt-6.1-sol",
+      "responseStatus": "completed",
+      "usage": {
+        "input_tokens": 553,
+        "output_tokens": 75,
+        "total_tokens": 628,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "referenceCostUsd": 0.001856,
+      "result": {
+        "category": "unrelated",
+        "rationale": "親投稿はGPT-6.2の登場時期を尋ねており、返信もそれへの冗談。使用量リセットやBanked Resetの付与との関連はない。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      },
+      "elapsedMs": 4555
     }
   ],
   "pending": [
