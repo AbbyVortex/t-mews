@@ -780,24 +780,24 @@
         "uncertainty": "親投稿の「this」が指す画像などの内容は提供されていません。"
       },
       "elapsedMs": 5025
-    }
-  ],
-  "pending": [
+    },
     {
       "id": "x:2118567894309306654",
       "url": "https://x.com/thsottiaux/status/2118567894309306654",
-      "text": "@maxleiter Hi Max 👀",
-      "related": [],
-      "publishedAt": 1793940921,
-      "kind": "reply",
-      "discoveredAt": 1793940936,
-      "recentContext": [],
+      "attemptedAt": 1793940936,
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "promptVersion": "tibo-context-20261106-v2",
+      "inputHash": "",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
-      }
+      },
+      "status": "claimed",
+      "evaluation": false
     }
   ],
+  "pending": [],
   "skipped": []
 }
