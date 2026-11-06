@@ -629,14 +629,34 @@
       "model": "gpt-6.1-sol",
       "reasoning": "medium",
       "promptVersion": "tibo-context-20261106-v2",
-      "inputHash": "",
+      "inputHash": "4f653005dee93691e21658f2c26f20115dd6e75d367a51a8f4f98a1fe683eee6",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
       },
       "status": "claimed",
-      "evaluation": false
+      "evaluation": false,
+      "input": {
+        "author": "thsottiaux",
+        "id": "x:2118443570298568886",
+        "url": "https://x.com/thsottiaux/status/2118443570298568886",
+        "publishedAt": 1793911280,
+        "text": "@kimmonismus Don't know, I live in the basement now",
+        "related": [
+          {
+            "relation": "reply",
+            "id": "x:2118404788597698767",
+            "url": "https://x.com/kimmonismus/status/2118404788597698767",
+            "text": "@thsottiaux Cool! Btw. When GPT-6.2? Asking for a friend.",
+            "author": "kimmonismus",
+            "publishedAt": 1793902034,
+            "source": "fxtwitter-api-v2"
+          }
+        ],
+        "recentContext": [],
+        "parentStatus": "fetched"
+      }
     }
   ],
   "pending": [
