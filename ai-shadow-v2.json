@@ -847,7 +847,7 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed",
+      "status": "classified",
       "evaluation": false,
       "input": {
         "author": "thsottiaux",
@@ -858,7 +858,24 @@
         "related": [],
         "recentContext": [],
         "parentStatus": "not_applicable"
-      }
+      },
+      "actualModel": "gpt-6.1-sol",
+      "responseStatus": "completed",
+      "usage": {
+        "input_tokens": 498,
+        "output_tokens": 79,
+        "total_tokens": 577,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "referenceCostUsd": 0.001786,
+      "result": {
+        "category": "unrelated",
+        "rationale": "人間によるインフラの安全性と将来のソフトウェアについての見解であり、Codex／ChatGPTの利用枠リセットやBanked Resetの付与との関連はありません。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      },
+      "elapsedMs": 3886
     }
   ],
   "pending": [
