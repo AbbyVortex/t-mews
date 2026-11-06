@@ -2211,13 +2211,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 185
+      },
+      {
+        "id": "x:2118574897542922697",
+        "x_status_id": "2118574897542922697",
+        "canonical_url": "https://x.com/thsottiaux/status/2118574897542922697",
+        "fingerprint": "5e9ffc9062fb54249b14d3c7e7210b183e225b5063b4e1c259cd5aac2abd0e08",
+        "published_at": 1793942591,
+        "detected_at": 1793942735,
+        "text": "@ThePrimeagen My loop caught this. It's the future",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 144
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793942129,
+        "last_success_at": 1793942735,
         "last_failure_at": 1793939731,
         "offline_since": null,
         "failure_episodes": 466,
@@ -2247,7 +2264,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793942129"
+        "value": "1793942735"
       }
     ],
     "events": [
@@ -3105,8 +3122,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793942129,
-    "lastRssAttemptAt": 1793942129,
+    "lastRssSuccessAt": 1793942735,
+    "lastRssAttemptAt": 1793942735,
     "sourceState": "online",
     "error": null
   }
