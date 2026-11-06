@@ -429,34 +429,25 @@
         "uncertainty": ""
       },
       "elapsedMs": 4622
-    }
-  ],
-  "pending": [
+    },
     {
       "id": "x:2118444105969926407",
       "url": "https://x.com/thsottiaux/status/2118444105969926407",
-      "text": "Come push the frontier of fluffiness",
-      "related": [
-        {
-          "relation": "quote",
-          "text": "we've assembled a team of some of the most talented people in the persistent agent space - to make dots incredible dm me if you are interested in joining 👀",
-          "author": "_samirism",
-          "id": "x:2118077964936163717",
-          "url": "https://x.com/_samirism/status/2118077964936163717",
-          "publishedAt": null,
-          "source": "feed"
-        }
-      ],
-      "publishedAt": 1793911408,
-      "kind": "post",
-      "discoveredAt": 1793911535,
-      "recentContext": [],
+      "attemptedAt": 1793923530,
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "promptVersion": "tibo-context-20261106-v2",
+      "inputHash": "",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
-      }
-    },
+      },
+      "status": "claimed",
+      "evaluation": false
+    }
+  ],
+  "pending": [
     {
       "id": "x:2118469621011677521",
       "url": "https://x.com/thsottiaux/status/2118469621011677521",
