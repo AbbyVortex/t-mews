@@ -586,14 +586,24 @@
       "model": "gpt-6.1-sol",
       "reasoning": "medium",
       "promptVersion": "tibo-context-20261106-v2",
-      "inputHash": "",
+      "inputHash": "803e8bbe6b60c0706581b7ff0e7479ef06b661e69fff143bb26aaf3ce38c177e",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
       },
       "status": "claimed",
-      "evaluation": false
+      "evaluation": false,
+      "input": {
+        "author": "thsottiaux",
+        "id": "x:2118473288368406582",
+        "url": "https://x.com/thsottiaux/status/2118473288368406582",
+        "publishedAt": 1793918365,
+        "text": "Generating*",
+        "related": [],
+        "recentContext": [],
+        "parentStatus": "not_applicable"
+      }
     }
   ],
   "pending": [
