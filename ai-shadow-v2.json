@@ -788,14 +788,34 @@
       "model": "gpt-6.1-sol",
       "reasoning": "medium",
       "promptVersion": "tibo-context-20261106-v2",
-      "inputHash": "",
+      "inputHash": "b4d7363cea21bf5d31dff53a4d0e9442c6eae80ce1f06ed4db1a96e1a82f19c5",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
       },
       "status": "claimed",
-      "evaluation": false
+      "evaluation": false,
+      "input": {
+        "author": "thsottiaux",
+        "id": "x:2118567894309306654",
+        "url": "https://x.com/thsottiaux/status/2118567894309306654",
+        "publishedAt": 1793940921,
+        "text": "@maxleiter Hi Max 👀",
+        "related": [
+          {
+            "relation": "reply",
+            "id": "x:2118515402552823936",
+            "url": "https://x.com/maxleiter/status/2118515402552823936",
+            "text": "The team is cooking\n\nIt might be a good time to share I'm now (officially) working on Claude Code Desktop. Please send me all your feedback!",
+            "author": "maxleiter",
+            "publishedAt": 1793928406,
+            "source": "fxtwitter-api-v2"
+          }
+        ],
+        "recentContext": [],
+        "parentStatus": "fetched"
+      }
     }
   ],
   "pending": [],
