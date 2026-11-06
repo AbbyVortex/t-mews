@@ -735,14 +735,34 @@
       "model": "gpt-6.1-sol",
       "reasoning": "medium",
       "promptVersion": "tibo-context-20261106-v2",
-      "inputHash": "",
+      "inputHash": "6c054d8df01f8567c03845f33df019e8459548e7a1bd4f9d9751d5624bbb3a31",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
       },
       "status": "claimed",
-      "evaluation": false
+      "evaluation": false,
+      "input": {
+        "author": "thsottiaux",
+        "id": "x:2118567451596300778",
+        "url": "https://x.com/thsottiaux/status/2118567451596300778",
+        "publishedAt": 1793940816,
+        "text": "@Layton_Gott Basement is full of wonders",
+        "related": [
+          {
+            "relation": "reply",
+            "id": "x:2118566452878004595",
+            "url": "https://x.com/Layton_Gott/status/2118566452878004595",
+            "text": "went down to visit Tibo in the basement and found this lol",
+            "author": "Layton_Gott",
+            "publishedAt": 1793940578,
+            "source": "fxtwitter-api-v2"
+          }
+        ],
+        "recentContext": [],
+        "parentStatus": "fetched"
+      }
     }
   ],
   "pending": [
