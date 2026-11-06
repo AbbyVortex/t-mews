@@ -578,24 +578,25 @@
         "uncertainty": ""
       },
       "elapsedMs": 4173
-    }
-  ],
-  "pending": [
+    },
     {
       "id": "x:2118473288368406582",
       "url": "https://x.com/thsottiaux/status/2118473288368406582",
-      "text": "Generating*",
-      "related": [],
-      "publishedAt": 1793918365,
-      "kind": "post",
-      "discoveredAt": 1793918729,
-      "recentContext": [],
+      "attemptedAt": 1793924731,
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "promptVersion": "tibo-context-20261106-v2",
+      "inputHash": "",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
-      }
-    },
+      },
+      "status": "claimed",
+      "evaluation": false
+    }
+  ],
+  "pending": [
     {
       "id": "x:2118443570298568886",
       "url": "https://x.com/thsottiaux/status/2118443570298568886",
