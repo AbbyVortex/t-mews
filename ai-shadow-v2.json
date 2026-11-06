@@ -674,24 +674,24 @@
         "uncertainty": ""
       },
       "elapsedMs": 4555
-    }
-  ],
-  "pending": [
+    },
     {
       "id": "x:2118469869423526046",
       "url": "https://x.com/thsottiaux/status/2118469869423526046",
-      "text": "@JustinBleuel @ChatGPT 👀",
-      "related": [],
-      "publishedAt": 1793917550,
-      "kind": "reply",
-      "discoveredAt": 1793918131,
-      "recentContext": [],
+      "attemptedAt": 1793925329,
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "promptVersion": "tibo-context-20261106-v2",
+      "inputHash": "",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
-      }
+      },
+      "status": "claimed",
+      "evaluation": false
     }
   ],
+  "pending": [],
   "skipped": []
 }
