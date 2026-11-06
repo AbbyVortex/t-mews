@@ -741,7 +741,7 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed",
+      "status": "classified",
       "evaluation": false,
       "input": {
         "author": "thsottiaux",
@@ -762,7 +762,24 @@
         ],
         "recentContext": [],
         "parentStatus": "fetched"
-      }
+      },
+      "actualModel": "gpt-6.1-sol",
+      "responseStatus": "completed",
+      "usage": {
+        "input_tokens": 545,
+        "output_tokens": 87,
+        "total_tokens": 632,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "referenceCostUsd": 0.00196,
+      "result": {
+        "category": "unrelated",
+        "rationale": "取得済みの親投稿も地下室についての冗談で、本文ともに使用量リセットやBanked Resetの付与への明確な関連がありません。",
+        "confidence": 0.95,
+        "uncertainty": "親投稿の「this」が指す画像などの内容は提供されていません。"
+      },
+      "elapsedMs": 5025
     }
   ],
   "pending": [
