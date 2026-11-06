@@ -2228,13 +2228,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 144
+      },
+      {
+        "id": "x:2118802796749508830",
+        "x_status_id": "2118802796749508830",
+        "canonical_url": "https://x.com/thsottiaux/status/2118802796749508830",
+        "fingerprint": "4a903a50ddb4124c14a9755690074664ea79ffec3a243a006e4d83b6e30ad70f",
+        "published_at": 1793996926,
+        "detected_at": 1793997335,
+        "text": "@andrewcshin7 No",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 409
+      },
+      {
+        "id": "x:2118802895604994463",
+        "x_status_id": "2118802895604994463",
+        "canonical_url": "https://x.com/thsottiaux/status/2118802895604994463",
+        "fingerprint": "18686c2bc44290636bf901a1ceb6f7437500e879b16f0c73a2c13ba0b9260e52",
+        "published_at": 1793996950,
+        "detected_at": 1793997335,
+        "text": "More things to come, join our Cyber at the Frontier livestream on November 12, 10am PT: https://openai.com/cyber-at-the-frontier",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 385
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793996732,
+        "last_success_at": 1793997335,
         "last_failure_at": 1793994931,
         "offline_since": null,
         "failure_episodes": 471,
@@ -2264,7 +2298,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793996732"
+        "value": "1793997335"
       }
     ],
     "events": [
@@ -3122,8 +3156,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793996732,
-    "lastRssAttemptAt": 1793996732,
+    "lastRssSuccessAt": 1793997335,
+    "lastRssAttemptAt": 1793997335,
     "sourceState": "online",
     "error": null
   }
