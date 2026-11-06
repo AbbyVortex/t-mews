@@ -2194,13 +2194,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 139
+      },
+      {
+        "id": "x:2118572184679710964",
+        "x_status_id": "2118572184679710964",
+        "canonical_url": "https://x.com/thsottiaux/status/2118572184679710964",
+        "fingerprint": "71460180af76ffca9eb287f77a70dce2b3356c79ebed2928b67d2a58c8266b57",
+        "published_at": 1793941944,
+        "detected_at": 1793942129,
+        "text": "@ajambrosino @pablostanley Feedback is a gift",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 185
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793941531,
+        "last_success_at": 1793942129,
         "last_failure_at": 1793939731,
         "offline_since": null,
         "failure_episodes": 466,
@@ -2230,7 +2247,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793941531"
+        "value": "1793942129"
       }
     ],
     "events": [
@@ -3088,8 +3105,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793941531,
-    "lastRssAttemptAt": 1793941531,
+    "lastRssSuccessAt": 1793942129,
+    "lastRssAttemptAt": 1793942129,
     "sourceState": "online",
     "error": null
   }
