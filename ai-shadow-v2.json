@@ -390,7 +390,7 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed",
+      "status": "classified",
       "evaluation": false,
       "input": {
         "author": "thsottiaux",
@@ -411,7 +411,24 @@
         ],
         "recentContext": [],
         "parentStatus": "not_applicable"
-      }
+      },
+      "actualModel": "gpt-6.1-sol",
+      "responseStatus": "completed",
+      "usage": {
+        "input_tokens": 588,
+        "output_tokens": 65,
+        "total_tokens": 653,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "referenceCostUsd": 0.001826,
+      "result": {
+        "category": "unrelated",
+        "rationale": "サイバー特化モデルの公開とアクセス方法に関する投稿で、利用枠リセットやBanked Resetの付与との関連はありません。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      },
+      "elapsedMs": 4622
     }
   ],
   "pending": [
