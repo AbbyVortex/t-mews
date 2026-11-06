@@ -908,6 +908,21 @@
         "notify": false,
         "display": null
       }
+    },
+    {
+      "id": "x:2118572184679710964",
+      "url": "https://x.com/thsottiaux/status/2118572184679710964",
+      "text": "@ajambrosino @pablostanley Feedback is a gift",
+      "related": [],
+      "publishedAt": 1793941944,
+      "kind": "reply",
+      "discoveredAt": 1793942129,
+      "recentContext": [],
+      "rule": {
+        "classification": "IRRELEVANT",
+        "notify": false,
+        "display": null
+      }
     }
   ],
   "skipped": []
