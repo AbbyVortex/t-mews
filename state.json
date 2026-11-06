@@ -3,74 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2113162277688070445",
-        "x_status_id": "2113162277688070445",
-        "canonical_url": "https://x.com/thsottiaux/status/2113162277688070445",
-        "fingerprint": "76e49d9198d8c4bfde2e3d0113c5c5ce4db31385f5cd7e46fe13ddc9e55e94ce",
-        "published_at": 1792652122,
-        "detected_at": 1792652157,
-        "text": "Day 17/ Bet you thought we forgot, but no, it’s reset day today.\n\nAlso good time to remind you to get Daybreak Blue access, it only takes 15 mins and you don’t want to have to do it in the middle of an incident.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 35
-      },
-      {
-        "id": "x:2113162413008884099",
-        "x_status_id": "2113162413008884099",
-        "canonical_url": "https://x.com/thsottiaux/status/2113162413008884099",
-        "fingerprint": "29c1643f0e09c93812c2156de2f66da3b5c7c229df72d1c497ade9f8528587ef",
-        "published_at": 1792652154,
-        "detected_at": 1792652157,
-        "text": "Lands tomorrow before 10am PST.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 3
-      },
-      {
-        "id": "x:2113163458867032238",
-        "x_status_id": "2113163458867032238",
-        "canonical_url": "https://x.com/thsottiaux/status/2113163458867032238",
-        "fingerprint": "b6c4a360bb6501f4589dd826b4335456b53dfdbf6bd00d872e5ee6dbca41fe89",
-        "published_at": 1792652403,
-        "detected_at": 1792653334,
-        "text": "@ebloch Hefty",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 931
-      },
-      {
-        "id": "x:2113404560853397516",
-        "x_status_id": "2113404560853397516",
-        "canonical_url": "https://x.com/thsottiaux/status/2113404560853397516",
-        "fingerprint": "ae3e588c124b3a64cc62a15b0a08a81392675b28dbbfcb3de7c5fab786feae44",
-        "published_at": 1792709887,
-        "detected_at": 1792710328,
-        "text": "@romainhuet Very baguette of you",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 441
-      },
-      {
         "id": "x:2113492187770175603",
         "x_status_id": "2113492187770175603",
         "canonical_url": "https://x.com/thsottiaux/status/2113492187770175603",
@@ -2183,7 +2115,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793925329,
+        "last_success_at": 1793925934,
         "last_failure_at": 1793915731,
         "offline_since": null,
         "failure_episodes": 461,
@@ -2209,20 +2141,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1793839529"
+        "value": "1793925934"
       },
       {
         "key": "lastSuccess",
-        "value": "1793925329"
+        "value": "1793925934"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2113162277688070445",
-        "event_type": "post_analysis",
-        "created_at": 1792652157,
-        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Day 17/ Bet you thought we forgot, but no, it’s reset day today.\"}}"
-      },
       {
         "id": "analysis:x:2113492187770175603",
         "event_type": "post_analysis",
@@ -2408,12 +2334,6 @@
         "event_type": "notification_sent",
         "created_at": 1793888735,
         "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:post:x:2113162277688070445",
-        "event_type": "notification_sent",
-        "created_at": 1792652157,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2113162277688070445\"}"
       },
       {
         "id": "notification:post:x:2113492187770175603",
@@ -3083,8 +3003,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793925329,
-    "lastRssAttemptAt": 1793925329,
+    "lastRssSuccessAt": 1793925934,
+    "lastRssAttemptAt": 1793925934,
     "sourceState": "online",
     "error": null
   }
