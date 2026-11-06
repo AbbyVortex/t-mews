@@ -443,7 +443,7 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed",
+      "status": "classified",
       "evaluation": false,
       "input": {
         "author": "thsottiaux",
@@ -464,7 +464,24 @@
         ],
         "recentContext": [],
         "parentStatus": "not_applicable"
-      }
+      },
+      "actualModel": "gpt-6.1-sol",
+      "responseStatus": "completed",
+      "usage": {
+        "input_tokens": 553,
+        "output_tokens": 77,
+        "total_tokens": 630,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "referenceCostUsd": 0.001876,
+      "result": {
+        "category": "unrelated",
+        "rationale": "引用先はエージェント開発チームへの採用案内で、本人の投稿もそれへの呼びかけ。使用量リセットやBanked Resetの付与との接点はない。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      },
+      "elapsedMs": 3815
     }
   ],
   "pending": [
