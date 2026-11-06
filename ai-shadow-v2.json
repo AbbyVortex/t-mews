@@ -727,24 +727,25 @@
         "uncertainty": ""
       },
       "elapsedMs": 5452
-    }
-  ],
-  "pending": [
+    },
     {
       "id": "x:2118567451596300778",
       "url": "https://x.com/thsottiaux/status/2118567451596300778",
-      "text": "@Layton_Gott Basement is full of wonders",
-      "related": [],
-      "publishedAt": 1793940816,
-      "kind": "reply",
-      "discoveredAt": 1793940936,
-      "recentContext": [],
+      "attemptedAt": 1793940936,
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "promptVersion": "tibo-context-20261106-v2",
+      "inputHash": "",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
-      }
-    },
+      },
+      "status": "claimed",
+      "evaluation": false
+    }
+  ],
+  "pending": [
     {
       "id": "x:2118567894309306654",
       "url": "https://x.com/thsottiaux/status/2118567894309306654",
