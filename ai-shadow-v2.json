@@ -794,7 +794,7 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed",
+      "status": "classified",
       "evaluation": false,
       "input": {
         "author": "thsottiaux",
@@ -815,7 +815,24 @@
         ],
         "recentContext": [],
         "parentStatus": "fetched"
-      }
+      },
+      "actualModel": "gpt-6.1-sol",
+      "responseStatus": "completed",
+      "usage": {
+        "input_tokens": 557,
+        "output_tokens": 68,
+        "total_tokens": 625,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "referenceCostUsd": 0.001794,
+      "result": {
+        "category": "unrelated",
+        "rationale": "Claude Code Desktopへの正式参加を報告したMaxへの挨拶で、使用量リセットやBanked Resetの付与との関連は見られない。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      },
+      "elapsedMs": 4220
     }
   ],
   "pending": [],
