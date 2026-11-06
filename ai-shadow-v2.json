@@ -682,14 +682,34 @@
       "model": "gpt-6.1-sol",
       "reasoning": "medium",
       "promptVersion": "tibo-context-20261106-v2",
-      "inputHash": "",
+      "inputHash": "761448f08d9cfeb7e99dbf15fb5316ca731c559384d0070b8c5ff5f9a3d6fb47",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
       },
       "status": "claimed",
-      "evaluation": false
+      "evaluation": false,
+      "input": {
+        "author": "thsottiaux",
+        "id": "x:2118469869423526046",
+        "url": "https://x.com/thsottiaux/status/2118469869423526046",
+        "publishedAt": 1793917550,
+        "text": "@JustinBleuel @ChatGPT 👀",
+        "related": [
+          {
+            "relation": "reply",
+            "id": "x:2118441746552254641",
+            "url": "https://x.com/JustinBleuel/status/2118441746552254641",
+            "text": "Taking a fresh look at @ChatGPT mobile\n\nWhat works well? What takes too many clicks? What would you like to see?",
+            "author": "JustinBleuel",
+            "publishedAt": 1793910845,
+            "source": "fxtwitter-api-v2"
+          }
+        ],
+        "recentContext": [],
+        "parentStatus": "fetched"
+      }
     }
   ],
   "pending": [],
