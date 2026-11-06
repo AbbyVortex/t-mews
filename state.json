@@ -2109,13 +2109,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 364
+      },
+      {
+        "id": "x:2118567451596300778",
+        "x_status_id": "2118567451596300778",
+        "canonical_url": "https://x.com/thsottiaux/status/2118567451596300778",
+        "fingerprint": "f1c05fb808dd3831b1695b25bedcb20e723eae0adacb22d10544d72b572efff1",
+        "published_at": 1793940816,
+        "detected_at": 1793940936,
+        "text": "@Layton_Gott Basement is full of wonders",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 120
+      },
+      {
+        "id": "x:2118567894309306654",
+        "x_status_id": "2118567894309306654",
+        "canonical_url": "https://x.com/thsottiaux/status/2118567894309306654",
+        "fingerprint": "987ce5e7cadee3d628e80369a1329404c4061cb742c78f6f98c76736a890db80",
+        "published_at": 1793940921,
+        "detected_at": 1793940936,
+        "text": "@maxleiter Hi Max 👀",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 15
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1793940330,
+        "last_success_at": 1793940936,
         "last_failure_at": 1793939731,
         "offline_since": null,
         "failure_episodes": 466,
@@ -2145,7 +2179,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1793940330"
+        "value": "1793940936"
       }
     ],
     "events": [
@@ -3003,8 +3037,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1793940330,
-    "lastRssAttemptAt": 1793940330,
+    "lastRssSuccessAt": 1793940936,
+    "lastRssAttemptAt": 1793940936,
     "sourceState": "online",
     "error": null
   }
