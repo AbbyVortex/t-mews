@@ -543,14 +543,24 @@
       "model": "gpt-6.1-sol",
       "reasoning": "medium",
       "promptVersion": "tibo-context-20261106-v2",
-      "inputHash": "",
+      "inputHash": "88d1c90c5c47731d3b4c5e45d09320c66dfddc71493f5188ffbe66eeb0f082fa",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
       },
       "status": "claimed",
-      "evaluation": false
+      "evaluation": false,
+      "input": {
+        "author": "thsottiaux",
+        "id": "x:2118470016127598724",
+        "url": "https://x.com/thsottiaux/status/2118470016127598724",
+        "publishedAt": 1793917585,
+        "text": "If I count well, that's more than 500M images per day.",
+        "related": [],
+        "recentContext": [],
+        "parentStatus": "not_applicable"
+      }
     }
   ],
   "pending": [
