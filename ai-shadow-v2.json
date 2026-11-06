@@ -535,24 +535,25 @@
         "uncertainty": ""
       },
       "elapsedMs": 3576
-    }
-  ],
-  "pending": [
+    },
     {
       "id": "x:2118470016127598724",
       "url": "https://x.com/thsottiaux/status/2118470016127598724",
-      "text": "If I count well, that's more than 500M images per day.",
-      "related": [],
-      "publishedAt": 1793917585,
-      "kind": "post",
-      "discoveredAt": 1793918131,
-      "recentContext": [],
+      "attemptedAt": 1793924127,
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "promptVersion": "tibo-context-20261106-v2",
+      "inputHash": "",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
-      }
-    },
+      },
+      "status": "claimed",
+      "evaluation": false
+    }
+  ],
+  "pending": [
     {
       "id": "x:2118473288368406582",
       "url": "https://x.com/thsottiaux/status/2118473288368406582",
