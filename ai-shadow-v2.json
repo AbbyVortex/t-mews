@@ -923,6 +923,21 @@
         "notify": false,
         "display": null
       }
+    },
+    {
+      "id": "x:2118574897542922697",
+      "url": "https://x.com/thsottiaux/status/2118574897542922697",
+      "text": "@ThePrimeagen My loop caught this. It's the future",
+      "related": [],
+      "publishedAt": 1793942591,
+      "kind": "reply",
+      "discoveredAt": 1793942735,
+      "recentContext": [],
+      "rule": {
+        "classification": "IRRELEVANT",
+        "notify": false,
+        "display": null
+      }
     }
   ],
   "skipped": []
