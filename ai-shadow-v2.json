@@ -437,14 +437,34 @@
       "model": "gpt-6.1-sol",
       "reasoning": "medium",
       "promptVersion": "tibo-context-20261106-v2",
-      "inputHash": "",
+      "inputHash": "5ff3cf7b20a6e2d48352ebeb81f7d0590684707bac563326bf0964db3c1dce96",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
       },
       "status": "claimed",
-      "evaluation": false
+      "evaluation": false,
+      "input": {
+        "author": "thsottiaux",
+        "id": "x:2118444105969926407",
+        "url": "https://x.com/thsottiaux/status/2118444105969926407",
+        "publishedAt": 1793911408,
+        "text": "Come push the frontier of fluffiness",
+        "related": [
+          {
+            "relation": "quote",
+            "text": "we've assembled a team of some of the most talented people in the persistent agent space - to make dots incredible dm me if you are interested in joining 👀",
+            "author": "_samirism",
+            "id": "x:2118077964936163717",
+            "url": "https://x.com/_samirism/status/2118077964936163717",
+            "publishedAt": null,
+            "source": "feed"
+          }
+        ],
+        "recentContext": [],
+        "parentStatus": "not_applicable"
+      }
     }
   ],
   "pending": [
