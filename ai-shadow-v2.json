@@ -621,24 +621,25 @@
         "uncertainty": "短文の意図は不明だが、関連する文脈は提示されていない。"
       },
       "elapsedMs": 5495
-    }
-  ],
-  "pending": [
+    },
     {
       "id": "x:2118443570298568886",
       "url": "https://x.com/thsottiaux/status/2118443570298568886",
-      "text": "@kimmonismus Don't know, I live in the basement now",
-      "related": [],
-      "publishedAt": 1793911280,
-      "kind": "reply",
-      "discoveredAt": 1793911535,
-      "recentContext": [],
+      "attemptedAt": 1793924731,
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "promptVersion": "tibo-context-20261106-v2",
+      "inputHash": "",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
-      }
-    },
+      },
+      "status": "claimed",
+      "evaluation": false
+    }
+  ],
+  "pending": [
     {
       "id": "x:2118469869423526046",
       "url": "https://x.com/thsottiaux/status/2118469869423526046",
