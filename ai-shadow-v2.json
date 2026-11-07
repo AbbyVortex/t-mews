@@ -933,7 +933,7 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed",
+      "status": "classified",
       "evaluation": false,
       "input": {
         "author": "thsottiaux",
@@ -944,7 +944,24 @@
         "related": [],
         "recentContext": [],
         "parentStatus": "not_applicable"
-      }
+      },
+      "actualModel": "gpt-6.1-sol",
+      "responseStatus": "completed",
+      "usage": {
+        "input_tokens": 492,
+        "output_tokens": 67,
+        "total_tokens": 559,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "referenceCostUsd": 0.001654,
+      "result": {
+        "category": "unrelated",
+        "rationale": "サイバー関連のライブ配信の告知であり、Codex/ChatGPTの使用量リセットやBanked Resetの付与との関連はありません。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      },
+      "elapsedMs": 3437
     }
   ],
   "pending": [
