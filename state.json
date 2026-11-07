@@ -2483,13 +2483,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 148
+      },
+      {
+        "id": "x:2119211022410228094",
+        "x_status_id": "2119211022410228094",
+        "canonical_url": "https://x.com/thsottiaux/status/2119211022410228094",
+        "fingerprint": "1382f249577e46b8f6eb61f27e4afa7ce50302ee571edef22f8ba2440b63cd68",
+        "published_at": 1794094255,
+        "detected_at": 1794094528,
+        "text": "@jxnlco I think that will take a few years, but one can dream",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 273
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794093931,
+        "last_success_at": 1794094528,
         "last_failure_at": 1794090928,
         "offline_since": null,
         "failure_episodes": 494,
@@ -2519,7 +2536,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794093931"
+        "value": "1794094528"
       }
     ],
     "events": [
@@ -3377,8 +3394,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794093931,
-    "lastRssAttemptAt": 1794093931,
+    "lastRssSuccessAt": 1794094528,
+    "lastRssAttemptAt": 1794094528,
     "sourceState": "online",
     "error": null
   }
