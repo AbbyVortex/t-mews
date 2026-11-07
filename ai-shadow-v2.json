@@ -884,14 +884,24 @@
       "model": "gpt-6.1-sol",
       "reasoning": "medium",
       "promptVersion": "tibo-context-20261106-v2",
-      "inputHash": "",
+      "inputHash": "e655359dc11a37c759e832b326f73890bf753a375628acef62360f1cb25635aa",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
       },
       "status": "claimed",
-      "evaluation": false
+      "evaluation": false,
+      "input": {
+        "author": "thsottiaux",
+        "id": "x:2118569441860723112",
+        "url": "https://x.com/thsottiaux/status/2118569441860723112",
+        "publishedAt": 1793941290,
+        "text": "Formal proofs of tens of millions of lines of code are not a ridiculous thing anymore and within the realm of what should be considered when designing new systems.",
+        "related": [],
+        "recentContext": [],
+        "parentStatus": "not_applicable"
+      }
     }
   ],
   "pending": [
