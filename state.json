@@ -2415,13 +2415,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 440
+      },
+      {
+        "id": "x:2119113859747426370",
+        "x_status_id": "2119113859747426370",
+        "canonical_url": "https://x.com/thsottiaux/status/2119113859747426370",
+        "fingerprint": "6dd283d527c376c1d3e5dc8bcfd967204419dae32842f7e1da763b7422176114",
+        "published_at": 1794071090,
+        "detected_at": 1794071127,
+        "text": "@UFO2002616 Missed that you can dash",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 37
+      },
+      {
+        "id": "x:2119113983118672370",
+        "x_status_id": "2119113983118672370",
+        "canonical_url": "https://x.com/thsottiaux/status/2119113983118672370",
+        "fingerprint": "420cff198597973b9c8abb220371d478b96bf13fd1b78840c6764db02bfa443f",
+        "published_at": 1794071119,
+        "detected_at": 1794071127,
+        "text": "@rezoundous Nothing much",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 8
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794070528,
+        "last_success_at": 1794071127,
         "last_failure_at": 1794068727,
         "offline_since": null,
         "failure_episodes": 489,
@@ -2451,7 +2485,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794070528"
+        "value": "1794071127"
       }
     ],
     "events": [
@@ -3309,8 +3343,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794070528,
-    "lastRssAttemptAt": 1794070528,
+    "lastRssSuccessAt": 1794071127,
+    "lastRssAttemptAt": 1794071127,
     "sourceState": "online",
     "error": null
   }
