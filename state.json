@@ -2245,13 +2245,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 214
+      },
+      {
+        "id": "x:2118938498157957326",
+        "x_status_id": "2118938498157957326",
+        "canonical_url": "https://x.com/thsottiaux/status/2118938498157957326",
+        "fingerprint": "fa14731da1bd5805680323e5a6b04de4f0bf8501f92b2901aec32ee68968089b",
+        "published_at": 1794029280,
+        "detected_at": 1794029728,
+        "text": "@apples_jimmy Nobody touch roon",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 448
+      },
+      {
+        "id": "x:2118938956301779171",
+        "x_status_id": "2118938956301779171",
+        "canonical_url": "https://x.com/thsottiaux/status/2118938956301779171",
+        "fingerprint": "4b5c0ca05f10aca965424e996fe4f1d9dd38723077724498855fe2e832ec62b9",
+        "published_at": 1794029389,
+        "detected_at": 1794029728,
+        "text": "Get me out of the basement\n\nhttps://poteto.com/",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 339
+      },
+      {
+        "id": "x:2118939076791546000",
+        "x_status_id": "2118939076791546000",
+        "canonical_url": "https://x.com/thsottiaux/status/2118939076791546000",
+        "fingerprint": "d553d84d834cbf687d059c64ed08837ede00b1240ce1708079ebc956c556ef58",
+        "published_at": 1794029418,
+        "detected_at": 1794029728,
+        "text": "Quite cool what you can do with a single prompt these days 👀",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 310
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794029131,
+        "last_success_at": 1794029728,
         "last_failure_at": 1794021931,
         "offline_since": null,
         "failure_episodes": 481,
@@ -2281,7 +2332,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794029131"
+        "value": "1794029728"
       }
     ],
     "events": [
@@ -2458,6 +2509,12 @@
         "event_type": "post_analysis",
         "created_at": 1793917537,
         "details": "{\"related\":[{\"xStatusId\":\"2118124944928432327\",\"url\":\"https://x.com/OpenAI/status/2118124944928432327\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"Images, upgraded—introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Wild stat.\"}}"
+      },
+      {
+        "id": "analysis:x:2118938956301779171",
+        "event_type": "post_analysis",
+        "created_at": 1794029728,
+        "details": "{\"related\":[{\"xStatusId\":\"2118871902366441879\",\"url\":\"https://x.com/thsottiaux/status/2118871902366441879\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"It's Friday\",\"provenance\":\"feed\",\"publishedAt\":1794013402}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Get me out of the basement\"}}"
       },
       {
         "id": "notification:offline:1793887531",
@@ -3127,8 +3184,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794029131,
-    "lastRssAttemptAt": 1794029131,
+    "lastRssSuccessAt": 1794029728,
+    "lastRssAttemptAt": 1794029728,
     "sourceState": "online",
     "error": null
   }
