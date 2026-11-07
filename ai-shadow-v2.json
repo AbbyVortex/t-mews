@@ -890,7 +890,7 @@
         "notify": false,
         "display": null
       },
-      "status": "claimed",
+      "status": "classified",
       "evaluation": false,
       "input": {
         "author": "thsottiaux",
@@ -901,7 +901,24 @@
         "related": [],
         "recentContext": [],
         "parentStatus": "not_applicable"
-      }
+      },
+      "actualModel": "gpt-6.1-sol",
+      "responseStatus": "completed",
+      "usage": {
+        "input_tokens": 487,
+        "output_tokens": 69,
+        "total_tokens": 556,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "referenceCostUsd": 0.001664,
+      "result": {
+        "category": "unrelated",
+        "rationale": "大規模コードの形式的証明とシステム設計に関する投稿で、利用枠リセットやBanked Resetの付与との関連はありません。",
+        "confidence": 0.99,
+        "uncertainty": ""
+      },
+      "elapsedMs": 4331
     }
   ],
   "pending": [
