@@ -2296,17 +2296,51 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 310
+      },
+      {
+        "id": "x:2118943165092970764",
+        "x_status_id": "2118943165092970764",
+        "canonical_url": "https://x.com/thsottiaux/status/2118943165092970764",
+        "fingerprint": "a358870b15e72b6534e3afe6469c1ddb03f8e4fabeeb97ab8a427ceec8d28ea8",
+        "published_at": 1794030393,
+        "detected_at": 1794031527,
+        "text": "@TsoiNotes Well done",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 1134
+      },
+      {
+        "id": "x:2118944211169063121",
+        "x_status_id": "2118944211169063121",
+        "canonical_url": "https://x.com/thsottiaux/status/2118944211169063121",
+        "fingerprint": "0aa3553d5591c9e626026a75be52dba0e06a33b3fa9a46b404328041159e6b50",
+        "published_at": 1794030642,
+        "detected_at": 1794031527,
+        "text": "@thorstenball Odd, the y axis is flipped ?",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 885
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1794030330,
+        "state": "online",
+        "last_success_at": 1794031527,
         "last_failure_at": 1794030945,
-        "offline_since": 1794030945,
+        "offline_since": null,
         "failure_episodes": 482,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2332,11 +2366,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794030330"
-      },
-      {
-        "key": "outage",
-        "value": "1794030945"
+        "value": "1794031527"
       }
     ],
     "events": [
@@ -3188,9 +3218,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794030330,
-    "lastRssAttemptAt": 1794030945,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1794031527,
+    "lastRssAttemptAt": 1794031527,
+    "sourceState": "online",
+    "error": null
   }
 }
