@@ -2330,13 +2330,98 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 885
+      },
+      {
+        "id": "x:2118952992644960524",
+        "x_status_id": "2118952992644960524",
+        "canonical_url": "https://x.com/thsottiaux/status/2118952992644960524",
+        "fingerprint": "8dab180cf2c5951c7c401ffaed438111b9f814542982862344648c47f3f6173a",
+        "published_at": 1794032736,
+        "detected_at": 1794033335,
+        "text": "@maria_rcks What if it was Opus 5.5",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 599
+      },
+      {
+        "id": "x:2118953187344560319",
+        "x_status_id": "2118953187344560319",
+        "canonical_url": "https://x.com/thsottiaux/status/2118953187344560319",
+        "fingerprint": "d014c3dc0438c4b02819a5a8c204405c2cebdb6efeb74710d6432822628e9ac4",
+        "published_at": 1794032782,
+        "detected_at": 1794033335,
+        "text": "@thdxr ?",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 553
+      },
+      {
+        "id": "x:2118953362725159104",
+        "x_status_id": "2118953362725159104",
+        "canonical_url": "https://x.com/thsottiaux/status/2118953362725159104",
+        "fingerprint": "b80d1b5d2caf8b80cef05e224fe97bfa863bcbfcab3c26700d9366ae39e5225a",
+        "published_at": 1794032824,
+        "detected_at": 1794033335,
+        "text": "Cyber",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 511
+      },
+      {
+        "id": "x:2118953500432650621",
+        "x_status_id": "2118953500432650621",
+        "canonical_url": "https://x.com/thsottiaux/status/2118953500432650621",
+        "fingerprint": "a2af46aa4c98bd6322575c195d96e919bd4f763a2dfa2addbd426a6f6cf057ff",
+        "published_at": 1794032857,
+        "detected_at": 1794033335,
+        "text": "@theo Show us your skills",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 478
+      },
+      {
+        "id": "x:2118953661820977315",
+        "x_status_id": "2118953661820977315",
+        "canonical_url": "https://x.com/thsottiaux/status/2118953661820977315",
+        "fingerprint": "794ad5bf7699c70755cd2ee8282e60366b691f9082bb01a751de1568c6edd090",
+        "published_at": 1794032895,
+        "detected_at": 1794033335,
+        "text": "@theo Also, you really died 25 times? 😭",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 440
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794032731,
+        "last_success_at": 1794033335,
         "last_failure_at": 1794030945,
         "offline_since": null,
         "failure_episodes": 482,
@@ -2366,7 +2451,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794032731"
+        "value": "1794033335"
       }
     ],
     "events": [
@@ -2549,6 +2634,12 @@
         "event_type": "post_analysis",
         "created_at": 1794029728,
         "details": "{\"related\":[{\"xStatusId\":\"2118871902366441879\",\"url\":\"https://x.com/thsottiaux/status/2118871902366441879\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"It's Friday\",\"provenance\":\"feed\",\"publishedAt\":1794013402}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Get me out of the basement\"}}"
+      },
+      {
+        "id": "analysis:x:2118953362725159104",
+        "event_type": "post_analysis",
+        "created_at": 1794033335,
+        "details": "{\"related\":[{\"xStatusId\":\"2118409855119880354\",\"url\":\"https://x.com/i0n1c/status/2118409855119880354\",\"author\":\"i0n1c\",\"relation\":\"quote\",\"text\":\"I guess now that @openai has name dropped @calif_io as an early adopter I can tell you GPT-6 Cyber is out of this world. It is lightyears ahead of everything I used.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Cyber\"}}"
       },
       {
         "id": "notification:offline:1793887531",
@@ -3218,8 +3309,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794032731,
-    "lastRssAttemptAt": 1794032731,
+    "lastRssSuccessAt": 1794033335,
+    "lastRssAttemptAt": 1794033335,
     "sourceState": "online",
     "error": null
   }
