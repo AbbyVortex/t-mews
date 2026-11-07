@@ -3,91 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2113492187770175603",
-        "x_status_id": "2113492187770175603",
-        "canonical_url": "https://x.com/thsottiaux/status/2113492187770175603",
-        "fingerprint": "ec534fd2103ccfc9f4a383ef63c2fee01c73dde6767d52686b64ee5eae011d85",
-        "published_at": 1792730779,
-        "detected_at": 1792731330,
-        "text": "Day 18/ Decisions API is GA, OpenResponses joined the Linux Foundation, we shipped some performance improvements and Uber is going all-in on codex & work. But yes… that’s a reset!",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 551
-      },
-      {
-        "id": "x:2113492502355562875",
-        "x_status_id": "2113492502355562875",
-        "canonical_url": "https://x.com/thsottiaux/status/2113492502355562875",
-        "fingerprint": "bc665abeea3457eb221c14b5ac6f1bc6345763bca141b40d9b07014e78d674c5",
-        "published_at": 1792730854,
-        "detected_at": 1792731330,
-        "text": "Landing tomorrow before 10am PST together with a small ship.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 476
-      },
-      {
-        "id": "x:2113770573994299544",
-        "x_status_id": "2113770573994299544",
-        "canonical_url": "https://x.com/thsottiaux/status/2113770573994299544",
-        "fingerprint": "69ac871b86d36241c74243d7c4f3765811f16c5b07e41d5eb5e329b37e597e05",
-        "published_at": 1792797151,
-        "detected_at": 1792797334,
-        "text": "Day 19/ Small updates. Calls connect much faster for dots, changing reasoning in codex & work mid conversation does not invalidate cache anymore and a we've also updated the codex cli.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 183
-      },
-      {
-        "id": "x:2113770862860222611",
-        "x_status_id": "2113770862860222611",
-        "canonical_url": "https://x.com/thsottiaux/status/2113770862860222611",
-        "fingerprint": "90fdf8986a0190846b3a2e371beb1e1afe9d70ebf892900571dec4a0c1a928e7",
-        "published_at": 1792797220,
-        "detected_at": 1792797334,
-        "text": "On codex cli updates. We've added reusable prompt presets, inline model and permission settings, and enterprise MCP sign-in. We've also fixed failures when resuming long sessions and added Windows corporate-proxy authentication.\n\nSurprisingly the CLI has grown 2X in usage since devday.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 114
-      },
-      {
-        "id": "x:2113771215433392478",
-        "x_status_id": "2113771215433392478",
-        "canonical_url": "https://x.com/thsottiaux/status/2113771215433392478",
-        "fingerprint": "2b0c2270111a016b76db02d121f1cfc47f40ef43fe0e0d8c5bcffb60a22769bb",
-        "published_at": 1792797304,
-        "detected_at": 1792797334,
-        "text": "@playdropai @bcherny @alexandr_wang @poteto Fun game",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 30
-      },
-      {
         "id": "x:2113838156193894447",
         "x_status_id": "2113838156193894447",
         "canonical_url": "https://x.com/thsottiaux/status/2113838156193894447",
@@ -2268,7 +2183,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794012331,
+        "last_success_at": 1794012926,
         "last_failure_at": 1794011731,
         "offline_since": null,
         "failure_episodes": 478,
@@ -2294,20 +2209,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1793925934"
+        "value": "1794012926"
       },
       {
         "key": "lastSuccess",
-        "value": "1794012331"
+        "value": "1794012926"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2113492187770175603",
-        "event_type": "post_analysis",
-        "created_at": 1792731330,
-        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"But yes… that’s a reset!\"}}"
-      },
       {
         "id": "analysis:x:2114200152701575656",
         "event_type": "post_analysis",
@@ -2487,12 +2396,6 @@
         "event_type": "notification_sent",
         "created_at": 1793888735,
         "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:post:x:2113492187770175603",
-        "event_type": "notification_sent",
-        "created_at": 1792731330,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2113492187770175603\"}"
       },
       {
         "id": "notification:post:x:2114200152701575656",
@@ -3156,8 +3059,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794012331,
-    "lastRssAttemptAt": 1794012331,
+    "lastRssSuccessAt": 1794012926,
+    "lastRssAttemptAt": 1794012926,
     "sourceState": "online",
     "error": null
   }
