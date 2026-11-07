@@ -876,24 +876,25 @@
         "uncertainty": ""
       },
       "elapsedMs": 3886
-    }
-  ],
-  "pending": [
+    },
     {
       "id": "x:2118569441860723112",
       "url": "https://x.com/thsottiaux/status/2118569441860723112",
-      "text": "Formal proofs of tens of millions of lines of code are not a ridiculous thing anymore and within the realm of what should be considered when designing new systems.",
-      "related": [],
-      "publishedAt": 1793941290,
-      "kind": "post",
-      "discoveredAt": 1793941531,
-      "recentContext": [],
+      "attemptedAt": 1794009929,
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "promptVersion": "tibo-context-20261106-v2",
+      "inputHash": "",
       "rule": {
         "classification": "IRRELEVANT",
         "notify": false,
         "display": null
-      }
-    },
+      },
+      "status": "claimed",
+      "evaluation": false
+    }
+  ],
+  "pending": [
     {
       "id": "x:2118802895604994463",
       "url": "https://x.com/thsottiaux/status/2118802895604994463",
