@@ -2449,17 +2449,51 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 8
+      },
+      {
+        "id": "x:2119160727164604874",
+        "x_status_id": "2119160727164604874",
+        "canonical_url": "https://x.com/thsottiaux/status/2119160727164604874",
+        "fingerprint": "b5bfcd09e7ad29c1b797185a3db23442221590cf3af22f225bab8c077e21e802",
+        "published_at": 1794082264,
+        "detected_at": 1794082536,
+        "text": "@argofowl I'm also confused about this",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 272
+      },
+      {
+        "id": "x:2119161246872429013",
+        "x_status_id": "2119161246872429013",
+        "canonical_url": "https://x.com/thsottiaux/status/2119161246872429013",
+        "fingerprint": "26e1e3bf5c300f107d45c1393dd8b36d2415116d2237c9fc5fa9e53bf0850996",
+        "published_at": 1794082388,
+        "detected_at": 1794082536,
+        "text": "@AdamHoltererer What's the before, after?",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 148
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1794081329,
+        "state": "online",
+        "last_success_at": 1794082536,
         "last_failure_at": 1794081928,
-        "offline_since": 1794081928,
+        "offline_since": null,
         "failure_episodes": 492,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2485,11 +2519,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794081329"
-      },
-      {
-        "key": "outage",
-        "value": "1794081928"
+        "value": "1794082536"
       }
     ],
     "events": [
@@ -3347,9 +3377,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794081329,
-    "lastRssAttemptAt": 1794081928,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1794082536,
+    "lastRssAttemptAt": 1794082536,
+    "sourceState": "online",
+    "error": null
   }
 }
