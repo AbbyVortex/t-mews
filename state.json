@@ -2177,17 +2177,51 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 385
+      },
+      {
+        "id": "x:2118871902366441879",
+        "x_status_id": "2118871902366441879",
+        "canonical_url": "https://x.com/thsottiaux/status/2118871902366441879",
+        "fingerprint": "89849fd9dd464e97fd3e06894395a14fd25f3eb7e2d6e9718232a44415e29656",
+        "published_at": 1794013402,
+        "detected_at": 1794014130,
+        "text": "It's Friday",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 728
+      },
+      {
+        "id": "x:2118874107341389982",
+        "x_status_id": "2118874107341389982",
+        "canonical_url": "https://x.com/thsottiaux/status/2118874107341389982",
+        "fingerprint": "b0872693c53ac39bae6a834877b9ba0a9b47ddd8cd0b4328c4bc443be87adcff",
+        "published_at": 1794013928,
+        "detected_at": 1794014130,
+        "text": "@ritu_twts Love that you immediately picked up and answered all my questions on how you use dots",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 202
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1794012926,
+        "state": "online",
+        "last_success_at": 1794014130,
         "last_failure_at": 1794013530,
-        "offline_since": 1794013530,
+        "offline_since": null,
         "failure_episodes": 479,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2213,11 +2247,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794012926"
-      },
-      {
-        "key": "outage",
-        "value": "1794013530"
+        "value": "1794014130"
       }
     ],
     "events": [
@@ -3063,9 +3093,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794012926,
-    "lastRssAttemptAt": 1794013530,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1794014130,
+    "lastRssAttemptAt": 1794014130,
+    "sourceState": "online",
+    "error": null
   }
 }
