@@ -2398,13 +2398,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 281
+      },
+      {
+        "id": "x:2119296267545419987",
+        "x_status_id": "2119296267545419987",
+        "canonical_url": "https://x.com/thsottiaux/status/2119296267545419987",
+        "fingerprint": "4232e11622a97f4bff7fcf01ae9af6c9ac3b70006defca8b17577fd21a9082a5",
+        "published_at": 1794114579,
+        "detected_at": 1794114928,
+        "text": "Saw some confusions, but all Pro plans have no 5-hour limits, and give the following usage compared to Plus.\n\n✅ Pro 100 = 10X\n\n✅ Pro 200 = 20X\n\n✅ Pro 500 = 50X, access to ultrafast",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "possible usage signal without a confirmed change or strong hint",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 349
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794114330,
+        "last_success_at": 1794114928,
         "last_failure_at": 1794102330,
         "offline_since": null,
         "failure_episodes": 496,
@@ -2434,7 +2451,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794114330"
+        "value": "1794114928"
       }
     ],
     "events": [
@@ -3292,8 +3309,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794114330,
-    "lastRssAttemptAt": 1794114330,
+    "lastRssSuccessAt": 1794114928,
+    "lastRssAttemptAt": 1794114928,
     "sourceState": "online",
     "error": null
   }
