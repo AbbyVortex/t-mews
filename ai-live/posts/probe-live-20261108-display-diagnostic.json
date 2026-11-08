@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "probe:live-20261108-display-diagnostic",
+  "status": "decided",
+  "createdAt": 1794123844,
+  "synthetic": true,
+  "apiRequests": 0,
+  "machine": {
+    "classification": "CANDIDATE",
+    "notify": true,
+    "display": "advisory",
+    "reason": "synthetic display probe"
+  },
+  "result": {
+    "category": "chatter",
+    "rationale": "表示形式と配送の制御試験です。実際のTibo投稿の判定ではありません。",
+    "confidence": 1,
+    "uncertainty": ""
+  },
+  "delivery": {
+    "kind": "diagnostic",
+    "mismatch": true,
+    "priority": -1,
+    "title": "[表示試験] 🔎 判定不一致",
+    "message": "これは承認済みの表示・配送試験です。新しい配布速報ではありません。\n🛠機械: 🍄 CANDIDATE\n🤖AI: 雑談・通知価値なし (chatter)\n理由: 表示形式と配送の制御試験です。実際のTibo投稿の判定ではありません。\n\n投稿時刻: 不明\n検知遅延: 不明\n\n本人: AI本番通知の表示確認。新しい配布・利用枠変更の速報ではありません。",
+    "notificationId": "ai-live-probe:20261108:diagnostic"
+  }
+}
