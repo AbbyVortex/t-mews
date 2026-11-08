@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "id": "probe:live-20261108-training-chatter",
+  "status": "claimed",
+  "createdAt": 1794123807,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "postId": "x:2119308687676432672",
+  "evaluationRole": "owner-labeled training regression; excluded from general accuracy",
+  "notificationAllowed": false
+}
