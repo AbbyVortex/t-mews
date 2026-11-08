@@ -53,5 +53,52 @@
       "display": null
     }
   },
-  "queuedAt": 1794170129
+  "queuedAt": 1794170129,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2119528988033073501",
+    "url": "https://x.com/thsottiaux/status/2119528988033073501",
+    "publishedAt": 1794170064,
+    "text": "@MillionInt Jerry, I challenge you to make a game",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2119502745036288421",
+        "url": "https://x.com/MillionInt/status/2119502745036288421",
+        "text": "One day we’ll get a good game out of the great agent beef of 2026",
+        "author": "MillionInt",
+        "publishedAt": 1794163807,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2119232059537514598",
+        "url": "https://x.com/thsottiaux/status/2119232059537514598",
+        "text": "@Tech_girl We doubled the usage on Pro plans and Business 100",
+        "publishedAt": 1794099271,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      },
+      {
+        "id": "x:2119296267545419987",
+        "url": "https://x.com/thsottiaux/status/2119296267545419987",
+        "text": "Saw some confusions, but all Pro plans have no 5-hour limits, and give the following usage compared to Plus.\n\n✅ Pro 100 = 10X\n\n✅ Pro 200 = 20X\n\n✅ Pro 500 = 50X, access to ultrafast",
+        "publishedAt": 1794114579,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      },
+      {
+        "id": "x:2119308687676432672",
+        "url": "https://x.com/thsottiaux/status/2119308687676432672",
+        "text": "@ForwardEditor We hesitated to embed https://x.com into the codex app to make sense of the resets, but decided against it.",
+        "publishedAt": 1794117540,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "86d59d8b1fed223fec89ae3da38703a373bb2d4392d808e6da613280b1dc4be4",
+  "requestPreparedAt": 1794170138004
 }
