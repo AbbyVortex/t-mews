@@ -2500,13 +2500,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 579
+      },
+      {
+        "id": "x:2119308687676432672",
+        "x_status_id": "2119308687676432672",
+        "canonical_url": "https://x.com/thsottiaux/status/2119308687676432672",
+        "fingerprint": "69588df01119106465af94de7de83bba7fdac1db2025bdef7e7712e845976e95",
+        "published_at": 1794117540,
+        "detected_at": 1794117927,
+        "text": "@ForwardEditor We hesitated to embed https://x.com into the codex app to make sense of the resets, but decided against it.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 387
+      },
+      {
+        "id": "x:2119309070658318698",
+        "x_status_id": "2119309070658318698",
+        "canonical_url": "https://x.com/thsottiaux/status/2119309070658318698",
+        "fingerprint": "476a5b544567bcaf1a544c94d762b7157f2082b3daef830e0c81d2e428be603a",
+        "published_at": 1794117631,
+        "detected_at": 1794117927,
+        "text": "@alexmichael @claudeai @bot @Meta @OpenAI Alfred plays to win",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 296
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794117330,
+        "last_success_at": 1794117927,
         "last_failure_at": 1794102330,
         "offline_since": null,
         "failure_episodes": 496,
@@ -2536,7 +2570,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794117330"
+        "value": "1794117927"
       }
     ],
     "events": [
@@ -2731,6 +2765,12 @@
         "event_type": "post_analysis",
         "created_at": 1794116731,
         "details": "{\"related\":[{\"xStatusId\":\"2119296267545419987\",\"url\":\"https://x.com/thsottiaux/status/2119296267545419987\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Saw some confusions, but all Pro plans have no 5-hour limits, and give the following usage compared to Plus. ✅ Pro 100 = 10X ✅ Pro 200 = 20X ✅ Pro 500 = 50X, access to ultrafast\",\"provenance\":\"feed\",\"publishedAt\":1794114579}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Would a Pro 50 make sense?\"}}"
+      },
+      {
+        "id": "analysis:x:2119308687676432672",
+        "event_type": "post_analysis",
+        "created_at": 1794117927,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@ForwardEditor We hesitated to embed https://x.com into the codex app to make sense of the resets, but decided against it.\"}}"
       },
       {
         "id": "notification:offline:1793887531",
@@ -3293,6 +3333,14 @@
         "sent_at": 1793553329
       },
       {
+        "id": "post:x:2119308687676432672",
+        "post_id": "x:2119308687676432672",
+        "kind": "alert",
+        "created_at": 1794117927,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "recovered:1791101351",
         "post_id": null,
         "kind": "recovered",
@@ -3400,8 +3448,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794117330,
-    "lastRssAttemptAt": 1794117330,
+    "lastRssSuccessAt": 1794117927,
+    "lastRssAttemptAt": 1794117927,
     "sourceState": "online",
     "error": null
   }
