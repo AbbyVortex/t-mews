@@ -2415,13 +2415,81 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 349
+      },
+      {
+        "id": "x:2119303444683255991",
+        "x_status_id": "2119303444683255991",
+        "canonical_url": "https://x.com/thsottiaux/status/2119303444683255991",
+        "fingerprint": "036a3db354f5fa98fb901df74f927d6c72fd191014a9dbdcdfd51a3e413b44f6",
+        "published_at": 1794116290,
+        "detected_at": 1794116731,
+        "text": "@techleadhd",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 441
+      },
+      {
+        "id": "x:2119304055126425939",
+        "x_status_id": "2119304055126425939",
+        "canonical_url": "https://x.com/thsottiaux/status/2119304055126425939",
+        "fingerprint": "77290641a1526656c02e424edbdabac0c7531d8caa86fc98b140cf567c2ef8a4",
+        "published_at": 1794116436,
+        "detected_at": 1794116731,
+        "text": "@JamesMalsawm Pretty wild to me that GPT 6.1 Terra gets compared to Opus 5.5. No doubt that it's a great model, but it's not meant to compete in the big leagues. We've got other models for that.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 295
+      },
+      {
+        "id": "x:2119304841873023158",
+        "x_status_id": "2119304841873023158",
+        "canonical_url": "https://x.com/thsottiaux/status/2119304841873023158",
+        "fingerprint": "dbd2884cdc3a4c53ba5a9da499b219e8d54d7951a1b8416c1902e7f8c4e40858",
+        "published_at": 1794116623,
+        "detected_at": 1794116731,
+        "text": "@TJwithAI Basement is fun",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 108
+      },
+      {
+        "id": "x:2119305294291612140",
+        "x_status_id": "2119305294291612140",
+        "canonical_url": "https://x.com/thsottiaux/status/2119305294291612140",
+        "fingerprint": "2aa879e9c2cdec55bc4c4d2e13caeb6b1262384b643881ef9685d8ba6fd05c2e",
+        "published_at": 1794116731,
+        "detected_at": 1794116731,
+        "text": "Would a Pro 50 make sense? Wdyt?",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 0
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794116129,
+        "last_success_at": 1794116731,
         "last_failure_at": 1794102330,
         "offline_since": null,
         "failure_episodes": 496,
@@ -2451,7 +2519,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794116129"
+        "value": "1794116731"
       }
     ],
     "events": [
@@ -2640,6 +2708,12 @@
         "event_type": "post_analysis",
         "created_at": 1794033335,
         "details": "{\"related\":[{\"xStatusId\":\"2118409855119880354\",\"url\":\"https://x.com/i0n1c/status/2118409855119880354\",\"author\":\"i0n1c\",\"relation\":\"quote\",\"text\":\"I guess now that @openai has name dropped @calif_io as an early adopter I can tell you GPT-6 Cyber is out of this world. It is lightyears ahead of everything I used.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Cyber\"}}"
+      },
+      {
+        "id": "analysis:x:2119305294291612140",
+        "event_type": "post_analysis",
+        "created_at": 1794116731,
+        "details": "{\"related\":[{\"xStatusId\":\"2119296267545419987\",\"url\":\"https://x.com/thsottiaux/status/2119296267545419987\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Saw some confusions, but all Pro plans have no 5-hour limits, and give the following usage compared to Plus. ✅ Pro 100 = 10X ✅ Pro 200 = 20X ✅ Pro 500 = 50X, access to ultrafast\",\"provenance\":\"feed\",\"publishedAt\":1794114579}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Would a Pro 50 make sense?\"}}"
       },
       {
         "id": "notification:offline:1793887531",
@@ -3309,8 +3383,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794116129,
-    "lastRssAttemptAt": 1794116129,
+    "lastRssSuccessAt": 1794116731,
+    "lastRssAttemptAt": 1794116731,
     "sourceState": "online",
     "error": null
   }
