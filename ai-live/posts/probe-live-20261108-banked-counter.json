@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "id": "probe:live-20261108-banked-counter",
+  "status": "claimed",
+  "createdAt": 1794123838,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "postId": "x:2117035794678546764",
+  "evaluationRole": "known positive regression; dry run only",
+  "notificationAllowed": false
+}
