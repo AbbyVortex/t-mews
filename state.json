@@ -2773,6 +2773,12 @@
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@ForwardEditor We hesitated to embed https://x.com into the codex app to make sense of the resets, but decided against it.\"}}"
       },
       {
+        "id": "notification:ai-live-probe:20261108:diagnostic",
+        "event_type": "notification_sent",
+        "created_at": 1794123847,
+        "details": "{\"kind\":\"ai-live-probe\",\"postId\":\"probe:live-20261108-display-diagnostic\"}"
+      },
+      {
         "id": "notification:offline:1793887531",
         "event_type": "notification_sent",
         "created_at": 1793888735,
@@ -2863,8 +2869,8 @@
         "post_id": "probe:live-20261108-display-diagnostic",
         "kind": "ai-live-probe",
         "created_at": 1794123845,
-        "status": "sending",
-        "sent_at": null
+        "status": "sent",
+        "sent_at": 1794123847
       },
       {
         "id": "offline:1791101351",
