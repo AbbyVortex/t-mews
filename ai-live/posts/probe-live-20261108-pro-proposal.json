@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "id": "probe:live-20261108-pro-proposal",
+  "status": "claimed",
+  "createdAt": 1794123826,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "postId": "x:2119305294291612140",
+  "evaluationRole": "unlabeled saved post; dry run only",
+  "notificationAllowed": false
+}
