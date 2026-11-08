@@ -1,7 +1,7 @@
 {
   "version": 1,
   "id": "probe:live-20261108-pro-proposal",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794123826,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
@@ -51,5 +51,22 @@
     "classification": "IRRELEVANT",
     "notify": false,
     "display": null
-  }
+  },
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1077,
+    "output_tokens": 105,
+    "total_tokens": 1182,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.003204,
+  "result": {
+    "category": "attention",
+    "rationale": "既存Proプランの利用枠説明を引用し、「Pro 50」の新設案について意見を求めている。正式な変更ではないが、有料プランの重要な選択肢として注視に値する。",
+    "confidence": 0.99,
+    "uncertainty": "Pro 50の導入可否、利用枠、具体的な条件は未確定。"
+  },
+  "elapsedMs": 4185
 }
