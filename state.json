@@ -2364,13 +2364,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 658
+      },
+      {
+        "id": "x:2119293235353006321",
+        "x_status_id": "2119293235353006321",
+        "canonical_url": "https://x.com/thsottiaux/status/2119293235353006321",
+        "fingerprint": "4cf401f53717ab0d2653a14077b150b0861e00ed2cbe3be788932eaaaf7551fd",
+        "published_at": 1794113856,
+        "detected_at": 1794114330,
+        "text": "@hakmgpt That is not correct.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 474
+      },
+      {
+        "id": "x:2119294044480401585",
+        "x_status_id": "2119294044480401585",
+        "canonical_url": "https://x.com/thsottiaux/status/2119294044480401585",
+        "fingerprint": "e00fab8131c14be3dbab703122e73b02936c052a2c5d764e66b51cf74e32dbde",
+        "published_at": 1794114049,
+        "detected_at": 1794114330,
+        "text": "@JamesMalsawm Yes, but I am also very fond of this little x bubble",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 281
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794113727,
+        "last_success_at": 1794114330,
         "last_failure_at": 1794102330,
         "offline_since": null,
         "failure_episodes": 496,
@@ -2400,7 +2434,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794113727"
+        "value": "1794114330"
       }
     ],
     "events": [
@@ -3258,8 +3292,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794113727,
-    "lastRssAttemptAt": 1794113727,
+    "lastRssSuccessAt": 1794114330,
+    "lastRssAttemptAt": 1794114330,
     "sourceState": "online",
     "error": null
   }
