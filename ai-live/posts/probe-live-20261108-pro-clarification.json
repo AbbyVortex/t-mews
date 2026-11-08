@@ -1,7 +1,7 @@
 {
   "version": 1,
   "id": "probe:live-20261108-pro-clarification",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794123820,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
@@ -33,5 +33,22 @@
     "classification": "CANDIDATE",
     "notify": false,
     "display": null
-  }
+  },
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 885,
+    "output_tokens": 92,
+    "total_tokens": 977,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.00269,
+  "result": {
+    "category": "limit_change",
+    "rationale": "全Proプランに5時間制限がないことと、Plus比の利用枠（Pro 100は10倍、200は20倍、500は50倍）を明示。Pro 500のultrafastアクセスも含む、利用条件の重要な通知。",
+    "confidence": 0.98,
+    "uncertainty": ""
+  },
+  "elapsedMs": 2816
 }
