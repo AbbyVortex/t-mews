@@ -8,5 +8,31 @@
   "promptVersion": "tibo-live-20261108-v1",
   "postId": "x:2119232059537514598",
   "evaluationRole": "unlabeled saved post; dry run only",
-  "notificationAllowed": false
+  "notificationAllowed": false,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2119232059537514598",
+    "url": "https://x.com/thsottiaux/status/2119232059537514598",
+    "publishedAt": 1794099271,
+    "text": "@Tech_girl We doubled the usage on Pro plans and Business 100",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2119150004426428901",
+        "url": "https://x.com/Tech_girl/status/2119150004426428901",
+        "text": "Has anyone else noticed that ever since Tibo stopped giving out resets, Codex usage limits seem to last longer?\n\nOr is it just me?",
+        "author": "Tech_girl",
+        "publishedAt": 1794079707,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "3a339d29902ed8755d61f8d0c879ae044aed3001e2b404888024943cedd7b45d",
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "display": null
+  }
 }
