@@ -2859,6 +2859,14 @@
     ],
     "notifications": [
       {
+        "id": "ai-live-probe:20261108:diagnostic",
+        "post_id": "probe:live-20261108-display-diagnostic",
+        "kind": "ai-live-probe",
+        "created_at": 1794123845,
+        "status": "sending",
+        "sent_at": null
+      },
+      {
         "id": "offline:1791101351",
         "post_id": null,
         "kind": "offline",
