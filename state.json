@@ -3,159 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2113838156193894447",
-        "x_status_id": "2113838156193894447",
-        "canonical_url": "https://x.com/thsottiaux/status/2113838156193894447",
-        "fingerprint": "e721db3e18b7350ca6e9772caedeff47a1bd3f07586b41a1a2d881fb9fc56663",
-        "published_at": 1792813264,
-        "detected_at": 1792813526,
-        "text": "The difference between having a tool and being a tool is subtle these days and it’s easy to accidentally build yourself into being a tool. Don’t be a tool.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 262
-      },
-      {
-        "id": "x:2114030784625647855",
-        "x_status_id": "2114030784625647855",
-        "canonical_url": "https://x.com/thsottiaux/status/2114030784625647855",
-        "fingerprint": "1f68ecbfcd54b00b4df8ec64ad1ad9725db5623ded6581b3c1eb0cc44091bad9",
-        "published_at": 1792859190,
-        "detected_at": 1792859746,
-        "text": "Saturday is for fixing bugs while sipping coffee. What are some great places to hangout in SF?",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 556
-      },
-      {
-        "id": "x:2114037527598576003",
-        "x_status_id": "2114037527598576003",
-        "canonical_url": "https://x.com/thsottiaux/status/2114037527598576003",
-        "fingerprint": "3a6033b9aaf06c2092bc6eb333e0a9bffc72a56ac77be40f6da7b56b3599d4dd",
-        "published_at": 1792860798,
-        "detected_at": 1792860931,
-        "text": "@vishalsingh2972 One day",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 133
-      },
-      {
-        "id": "x:2114073762895405067",
-        "x_status_id": "2114073762895405067",
-        "canonical_url": "https://x.com/thsottiaux/status/2114073762895405067",
-        "fingerprint": "62267c6bcedd92fa5792e720c60198730bed755b291fdc954ca2a5c799a72fc7",
-        "published_at": 1792869437,
-        "detected_at": 1792869928,
-        "text": "@TokenGremlin Hi 👋",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 491
-      },
-      {
-        "id": "x:2114074317759938918",
-        "x_status_id": "2114074317759938918",
-        "canonical_url": "https://x.com/thsottiaux/status/2114074317759938918",
-        "fingerprint": "a8ec8bd32d9a652e8e474d20a0749a1ff1cfa993ed051b285f5f95d7551a0f6d",
-        "published_at": 1792869569,
-        "detected_at": 1792869928,
-        "text": "@can @OpenAIDevs No need for a bribe. What’s bothering you",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 359
-      },
-      {
-        "id": "x:2114074885622501706",
-        "x_status_id": "2114074885622501706",
-        "canonical_url": "https://x.com/thsottiaux/status/2114074885622501706",
-        "fingerprint": "e176e3ec3fe753791865181c74883a4937ccf06f110beea49426b67f97a41da7",
-        "published_at": 1792869705,
-        "detected_at": 1792869928,
-        "text": "DM if you want to help scale dots to 1B users and have done similar things in the past",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 223
-      },
-      {
-        "id": "x:2114086171907428846",
-        "x_status_id": "2114086171907428846",
-        "canonical_url": "https://x.com/thsottiaux/status/2114086171907428846",
-        "fingerprint": "99293b98eb11712a3941329998e0df6ec50a02bf823fffa3eea6522e6b1adbcb",
-        "published_at": 1792872395,
-        "detected_at": 1792872930,
-        "text": "@specialkdelslay Fortunately, this is fake",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 535
-      },
-      {
-        "id": "x:2114125293124542632",
-        "x_status_id": "2114125293124542632",
-        "canonical_url": "https://x.com/thsottiaux/status/2114125293124542632",
-        "fingerprint": "daaeba335c5f1aa08508f93c8565cd410dec9956297cac6826caa5b29b1761e5",
-        "published_at": 1792881723,
-        "detected_at": 1792881929,
-        "text": "@alexandr_wang Step 1: Quit posting butts and go buy containers\n\nStep 2: ???\n\nStep 3: Celebrate your 12 users",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 206
-      },
-      {
-        "id": "x:2114125878804545940",
-        "x_status_id": "2114125878804545940",
-        "canonical_url": "https://x.com/thsottiaux/status/2114125878804545940",
-        "fingerprint": "18616da6f87ab666b0d2c0b5ba7b2e156fe32540952124fd6bfecff89093b432",
-        "published_at": 1792881862,
-        "detected_at": 1792881929,
-        "text": "@mitsuhiko I doubt they are on twitter",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 67
-      },
-      {
         "id": "x:2114199013176303641",
         "x_status_id": "2114199013176303641",
         "canonical_url": "https://x.com/thsottiaux/status/2114199013176303641",
@@ -2500,17 +2347,34 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 273
+      },
+      {
+        "id": "x:2119232059537514598",
+        "x_status_id": "2119232059537514598",
+        "canonical_url": "https://x.com/thsottiaux/status/2119232059537514598",
+        "fingerprint": "d393163be684500bd57b4003a0845280af405e5461d7fc44fc18d41707ca17e2",
+        "published_at": 1794099271,
+        "detected_at": 1794099929,
+        "text": "@Tech_girl We doubled the usage on Pro plans and Business 100",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 658
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1794098731,
+        "state": "online",
+        "last_success_at": 1794099929,
         "last_failure_at": 1794099329,
-        "offline_since": 1794099329,
+        "offline_since": null,
         "failure_episodes": 495,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2532,15 +2396,11 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1794012926"
+        "value": "1794099929"
       },
       {
         "key": "lastSuccess",
-        "value": "1794098731"
-      },
-      {
-        "key": "outage",
-        "value": "1794099329"
+        "value": "1794099929"
       }
     ],
     "events": [
@@ -3398,9 +3258,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794098731,
-    "lastRssAttemptAt": 1794099329,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1794099929,
+    "lastRssAttemptAt": 1794099929,
+    "sourceState": "online",
+    "error": null
   }
 }
