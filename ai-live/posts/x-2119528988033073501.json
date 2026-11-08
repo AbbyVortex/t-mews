@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2119528988033073501",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794170129,
-  "updatedAt": 1794170129,
+  "updatedAt": 1794170142,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -100,5 +100,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "86d59d8b1fed223fec89ae3da38703a373bb2d4392d808e6da613280b1dc4be4",
-  "requestPreparedAt": 1794170138004
+  "requestPreparedAt": 1794170138004,
+  "apiStartedAt": 1794170138812,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1111,
+    "output_tokens": 67,
+    "total_tokens": 1178,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002892,
+  "result": {
+    "category": "unrelated",
+    "rationale": "ゲーム制作を促す返信であり、取得済みの親投稿にも利用枠、リセット付与、有料プラン変更に関する情報はない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794170142301,
+  "elapsedMs": 4690,
+  "decidedAt": 1794170142301,
+  "detectedToDecisionMs": 13301
 }
