@@ -1,7 +1,7 @@
 {
   "version": 1,
   "id": "probe:live-20261108-pro-proposal",
-  "status": "decided",
+  "status": "complete",
   "createdAt": 1794123826,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
@@ -68,5 +68,6 @@
     "confidence": 0.99,
     "uncertainty": "Pro 50の導入可否、利用枠、具体的な条件は未確定。"
   },
-  "elapsedMs": 4185
+  "elapsedMs": 4185,
+  "updatedAt": 1794123832
 }
