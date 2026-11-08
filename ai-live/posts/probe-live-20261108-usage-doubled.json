@@ -1,7 +1,7 @@
 {
   "version": 1,
   "id": "probe:live-20261108-usage-doubled",
-  "status": "decided",
+  "status": "complete",
   "createdAt": 1794123814,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
@@ -51,5 +51,6 @@
     "confidence": 0.99,
     "uncertainty": ""
   },
-  "elapsedMs": 3359
+  "elapsedMs": 3359,
+  "updatedAt": 1794123819
 }
