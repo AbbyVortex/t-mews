@@ -1,7 +1,7 @@
 {
   "version": 1,
   "id": "probe:live-20261108-banked-counter",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794123838,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
@@ -57,5 +57,22 @@
     "classification": "IRRELEVANT",
     "notify": true,
     "display": "announcement"
-  }
+  },
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1076,
+    "output_tokens": 68,
+    "total_tokens": 1144,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002832,
+  "result": {
+    "category": "announcement",
+    "rationale": "先行する「今後2日間はBanked Reset」と「Banked 1/2」に続き、2回目の付与を報告する告知。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "elapsedMs": 3040
 }
