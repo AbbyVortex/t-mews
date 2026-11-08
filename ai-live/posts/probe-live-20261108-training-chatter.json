@@ -1,7 +1,7 @@
 {
   "version": 1,
   "id": "probe:live-20261108-training-chatter",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794123807,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
@@ -51,5 +51,22 @@
     "classification": "CANDIDATE",
     "notify": true,
     "display": "advisory"
-  }
+  },
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1058,
+    "output_tokens": 86,
+    "total_tokens": 1144,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002976,
+  "result": {
+    "category": "chatter",
+    "rationale": "リセットの状況を伝えるためCodexアプリにXを組み込む案を見送ったという製品設計上の雑談。新たなリセットの告知や中止、利用枠の変更ではない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "elapsedMs": 4460
 }
