@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2119532403593191733",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794171327,
-  "updatedAt": 1794171327,
+  "updatedAt": 1794171337,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -100,5 +100,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "70bbaaa01454b7b85499914bb931dd79e0dd0ee0374644b78587266d97e24ab5",
-  "requestPreparedAt": 1794171332794
+  "requestPreparedAt": 1794171332794,
+  "apiStartedAt": 1794171333657,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1119,
+    "output_tokens": 80,
+    "total_tokens": 1199,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.003038,
+  "result": {
+    "category": "unrelated",
+    "rationale": "取得済みの親投稿はモデルやハーネスの評価についてで、返信は実施と公開への謝意のみ。利用枠、リセット付与、有料プラン変更に関する情報はない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794171337134,
+  "elapsedMs": 4659,
+  "decidedAt": 1794171337134,
+  "detectedToDecisionMs": 10134
 }
