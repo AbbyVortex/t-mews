@@ -1,7 +1,7 @@
 {
   "version": 1,
   "id": "probe:live-20261108-training-chatter",
-  "status": "decided",
+  "status": "complete",
   "createdAt": 1794123807,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
@@ -68,5 +68,6 @@
     "confidence": 0.99,
     "uncertainty": ""
   },
-  "elapsedMs": 4460
+  "elapsedMs": 4460,
+  "updatedAt": 1794123813
 }
