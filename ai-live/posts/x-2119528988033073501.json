@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2119528988033073501",
-  "status": "decided",
+  "status": "complete",
   "createdAt": 1794170129,
-  "updatedAt": 1794170142,
+  "updatedAt": 1794170143,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -122,5 +122,10 @@
   "apiCompletedAt": 1794170142301,
   "elapsedMs": 4690,
   "decidedAt": 1794170142301,
-  "detectedToDecisionMs": 13301
+  "detectedToDecisionMs": 13301,
+  "delivery": {
+    "kind": "none",
+    "mismatch": false,
+    "receipts": []
+  }
 }
