@@ -2514,8 +2514,8 @@
         "classification": "CANDIDATE",
         "reason": "author mentions reset; advisory does not confirm a reset or its timing",
         "baseline": 0,
-        "notified": 0,
-        "notification_status": "pending",
+        "notified": 1,
+        "notification_status": "sent",
         "detection_latency_seconds": 387
       },
       {
@@ -2843,6 +2843,12 @@
         "event_type": "notification_sent",
         "created_at": 1793553329,
         "details": "{\"kind\":\"alert\",\"postId\":\"x:2116942192497533418\"}"
+      },
+      {
+        "id": "notification:post:x:2119308687676432672",
+        "event_type": "notification_sent",
+        "created_at": 1794117927,
+        "details": "{\"kind\":\"alert\",\"postId\":\"x:2119308687676432672\"}"
       },
       {
         "id": "notification:recovered:1793887531",
@@ -3337,8 +3343,8 @@
         "post_id": "x:2119308687676432672",
         "kind": "alert",
         "created_at": 1794117927,
-        "status": "sending",
-        "sent_at": null
+        "status": "sent",
+        "sent_at": 1794117927
       },
       {
         "id": "recovered:1791101351",
