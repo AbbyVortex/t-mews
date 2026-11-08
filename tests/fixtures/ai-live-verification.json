@@ -1,0 +1,12 @@
+{
+  "request": "owner-production-promotion-20261108",
+  "cases": [
+    {"key":"training-chatter","postId":"x:2119308687676432672","role":"owner-labeled training regression; excluded from general accuracy"},
+    {"key":"usage-doubled","postId":"x:2119232059537514598","role":"unlabeled saved post; dry run only"},
+    {"key":"pro-clarification","postId":"x:2119296267545419987","role":"unlabeled saved post; dry run only"},
+    {"key":"pro-proposal","postId":"x:2119305294291612140","role":"unlabeled saved post; dry run only"},
+    {"key":"ordinary-reply","postId":"x:2119309070658318698","role":"unlabeled saved post; dry run only"},
+    {"key":"banked-counter","postId":"x:2117035794678546764","role":"known positive regression; dry run only"}
+  ],
+  "notificationProbes": ["diagnostic", "ai-only"]
+}

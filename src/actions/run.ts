@@ -4,19 +4,24 @@ import {notify} from '../pushover';
 import {fetchSource} from '../sources';
 import {recoverAlert} from './recover';
 import type {Env,Fetcher} from '../types';
+import {runLiveQueue,disableLiveQueue,serialWriter,LIVE_LIMITS,type LiveOptions} from '../ai-live';
+import {isCriticalMachine} from '../ai-live-policy';
 export interface Store {load(initialize?:boolean):Promise<Snapshot|undefined>;save(snapshot:Snapshot):Promise<void>}
 export type ActionMode = 'test'|'monitor'|'check'|'recover';
-export async function runAction(mode:ActionMode,store:Store,secrets:{user:string,token:string},fetcher:Fetcher=fetch,now=Math.floor(Date.now()/1000),postId?:string) {
+export async function runAction(mode:ActionMode,store:Store,secrets:{user:string,token:string},fetcher:Fetcher=fetch,now=Math.floor(Date.now()/1000),postId?:string,live?:LiveOptions) {
+ const startedWall=Date.now();
  if(mode==='check') {
   const items=await fetchSource({name:'fxtwitter',url:'https://fxtwitter.com/thsottiaux/feed.xml?with_replies=true&count=100'},fetcher);
   return {source:'fxtwitter',items:items.length};
  }
  const db=new LocalD1(await store.load(mode==='test'));
+ const deadline=startedWall+(live?.runMs??LIVE_LIMITS.runMs),persist=serialWriter();
+ const checkpoint=()=>persist(()=>store.save(db.snapshot()));
  const env:Env={DB:db.asD1(),MONITOR_ENABLED:'true',SOURCE_BASELINE_KEY:'fxtwitter-with-replies-v1',SOURCES_JSON:JSON.stringify([{name:'fxtwitter',url:'https://fxtwitter.com/thsottiaux/feed.xml?with_replies=true&count=100'}]),PUSHOVER_USER_KEY:secrets.user,PUSHOVER_APP_TOKEN:secrets.token};
  // A durable pre-send claim must be acknowledged before making the irreversible request.
  const safeFetch=(async(input:any,init:any)=>{
   if(String(input)==='https://api.pushover.net/1/messages.json') {
-   await store.save(db.snapshot());
+   await checkpoint();
    // Give delivery its full timeout after the durable checkpoint has completed.
    return fetcher(input,{...init,signal:AbortSignal.timeout(8000)});
   }
@@ -33,10 +38,17 @@ export async function runAction(mode:ActionMode,store:Store,secrets:{user:string
    if(test?.status!=='sent')throw new Error('A successful one-time Pushover test is required before monitoring');
    if(mode==='recover')return await recoverAlert(env,postId,now,safeFetch);
    // Primary Actions operation has no expiry. Preserve any legacy actionsEndAt as history.
-   await monitor(env,now,safeFetch);
+   if(live&&!live.enabled)await disableLiveQueue(env,now);
+   await monitor(env,now,safeFetch,live?.enabled?{live:true,defer:(_id,verdict)=>!isCriticalMachine(verdict),deadline}:undefined);
+   if(live?.enabled){
+    await checkpoint();
+    const durable={...live,store:{load:live.store.load.bind(live.store),save:(id:string,record:Record<string,any>,signal?:AbortSignal)=>persist(()=>live.store.save(id,record,signal))}};
+    const result=await runLiveQueue(env,()=>db.snapshot(),checkpoint,durable,now,startedWall,deadline,safeFetch);
+    try{live.report?.(result);}catch{ /* Reporting does not affect delivery. */ }
+   }
   }
   return {mode,posts:(await db.prepare('SELECT COUNT(*) n FROM posts').first<any>())?.n,notifications:(await db.prepare("SELECT COUNT(*) n FROM notifications WHERE status='sent'").first<any>())?.n};
  }finally {
-  try {await store.save(db.snapshot());}finally{db.close();}
+  try {await checkpoint();}finally{db.close();}
  }
 }

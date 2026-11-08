@@ -1,0 +1,34 @@
+name: Production AI notification verification
+on:
+  push:
+    branches: [main]
+    paths: ['tests/fixtures/ai-live-verification.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: t-mews-runtime
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.event.repository.private == false && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - run: npm install --global pnpm@11.19.0 --ignore-scripts
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+      - name: Fixed no-send evaluations and two once-only synthetic notifications
+        run: pnpm exec tsx scripts/ai-live-verify.ts
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          T_MEWS_AI_MODEL: ${{ vars.T_MEWS_AI_MODEL }}
+          T_MEWS_AI_REASONING: ${{ vars.T_MEWS_AI_REASONING }}
+          PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
+          PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}

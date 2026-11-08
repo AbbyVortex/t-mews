@@ -5,6 +5,7 @@ import {within,readBoundedJson,type ShadowCandidate,type ShadowEvidence,type Sha
 
 const TOPIC=/\b(?:banked|resets?|resetting)\b|🍄/i;
 const BANKED=/\bbanked\b/i;
+const ALLOWANCE=/\b(?:usage|limits?|allowances?|quotas?|(?:pro|paid) plans?|business (?:\d+|plans?)|subscription)\b/i;
 const WINDOW=72*60*60;
 const validTime=(n:unknown):n is number=>typeof n==='number'&&Number.isSafeInteger(n)&&n>=0;
 function ownPost(p:Record<string,any>):boolean {
@@ -13,7 +14,7 @@ function ownPost(p:Record<string,any>):boolean {
 }
 
 /** Recent history is background evidence, never an inferred reply relationship. */
-export function candidateFromSnapshot(snapshot:Snapshot,id:string):ShadowCandidate|undefined {
+export function candidateFromSnapshot(snapshot:Snapshot,id:string,includeAllowance=false):ShadowCandidate|undefined {
  const p=snapshot.tables.posts.find(p=>p.id===id);
  if(!p||!ownPost(p)||p.baseline!==0)return;
  const row=snapshot.tables.events.find(e=>e.id===`analysis:${p.id}`&&e.event_type==='post_analysis');
@@ -29,8 +30,9 @@ export function candidateFromSnapshot(snapshot:Snapshot,id:string):ShadowCandida
  const verdict=analysis?.verdict??classify(p.text,refs);
  const publishedAt=validTime(p.published_at)?p.published_at:null;
  const recentContext:ShadowEvidence[]=publishedAt===null?[]:snapshot.tables.posts
-  .filter(h=>h.id!==id&&ownPost(h)&&validTime(h.published_at)&&h.published_at<publishedAt&&h.published_at>=publishedAt-WINDOW&&TOPIC.test(h.text))
+  .filter(h=>h.id!==id&&ownPost(h)&&validTime(h.published_at)&&h.published_at<publishedAt&&h.published_at>=publishedAt-WINDOW&&(TOPIC.test(h.text)||(includeAllowance&&ALLOWANCE.test(h.text))))
   .sort((a,b)=>Number(BANKED.test(p.text)&&BANKED.test(b.text))-Number(BANKED.test(p.text)&&BANKED.test(a.text))
+   ||(includeAllowance?Number(ALLOWANCE.test(p.text)&&ALLOWANCE.test(b.text))-Number(ALLOWANCE.test(p.text)&&ALLOWANCE.test(a.text)):0)
    ||Number(b.kind==='post')-Number(a.kind==='post')||b.published_at-a.published_at||String(a.id).localeCompare(String(b.id)))
   .slice(0,4).sort((a,b)=>a.published_at-b.published_at||String(a.id).localeCompare(String(b.id)))
   .map(h=>({id:h.id,url:h.canonical_url,text:h.text.slice(0,700),publishedAt:h.published_at,author:'thsottiaux',source:'saved-history'}));
