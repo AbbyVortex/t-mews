@@ -1,7 +1,7 @@
 {
   "version": 1,
   "id": "probe:live-20261108-usage-doubled",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794123814,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
@@ -34,5 +34,22 @@
     "classification": "IRRELEVANT",
     "notify": false,
     "display": null
-  }
+  },
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 862,
+    "output_tokens": 74,
+    "total_tokens": 936,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002464,
+  "result": {
+    "category": "limit_change",
+    "rationale": "ProプランとBusiness 100の利用枠を2倍にしたと明言しており、リセット配布ではなく実質的な利用上限の変更を伝えている。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "elapsedMs": 3359
 }
