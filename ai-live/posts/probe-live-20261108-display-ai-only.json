@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "id": "probe:live-20261108-display-ai-only",
+  "status": "decided",
+  "createdAt": 1794123848,
+  "synthetic": true,
+  "apiRequests": 0,
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "reason": "synthetic display probe"
+  },
+  "result": {
+    "category": "announcement",
+    "rationale": "表示形式と配送の制御試験です。実際のTibo投稿の判定ではありません。",
+    "confidence": 1,
+    "uncertainty": ""
+  },
+  "delivery": {
+    "kind": "normal",
+    "mismatch": true,
+    "priority": 1,
+    "title": "[表示試験] 💣 AIが発見！ [判定不一致]",
+    "message": "これは承認済みの表示・配送試験です。新しい配布速報ではありません。\n🛠機械: — IRRELEVANT\n🤖AI: 💣実施予告・配布 (announcement)\n理由: 表示形式と配送の制御試験です。実際のTibo投稿の判定ではありません。\n\n投稿時刻: 不明\n検知遅延: 不明\n\n本人: AI本番通知の表示確認。新しい配布・利用枠変更の速報ではありません。",
+    "notificationId": "ai-live-probe:20261108:ai-only"
+  }
+}
