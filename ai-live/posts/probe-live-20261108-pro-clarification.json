@@ -8,5 +8,30 @@
   "promptVersion": "tibo-live-20261108-v1",
   "postId": "x:2119296267545419987",
   "evaluationRole": "unlabeled saved post; dry run only",
-  "notificationAllowed": false
+  "notificationAllowed": false,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2119296267545419987",
+    "url": "https://x.com/thsottiaux/status/2119296267545419987",
+    "publishedAt": 1794114579,
+    "text": "Saw some confusions, but all Pro plans have no 5-hour limits, and give the following usage compared to Plus.\n\n✅ Pro 100 = 10X\n\n✅ Pro 200 = 20X\n\n✅ Pro 500 = 50X, access to ultrafast",
+    "related": [],
+    "recentContext": [
+      {
+        "id": "x:2119232059537514598",
+        "url": "https://x.com/thsottiaux/status/2119232059537514598",
+        "text": "@Tech_girl We doubled the usage on Pro plans and Business 100",
+        "publishedAt": 1794099271,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "not_applicable"
+  },
+  "inputHash": "0b157e7a4e3da91c3146ce67a1866d917da7014c15cb240a0ee85a902fb266c6",
+  "machine": {
+    "classification": "CANDIDATE",
+    "notify": false,
+    "display": null
+  }
 }
