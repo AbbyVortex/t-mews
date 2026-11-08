@@ -1,7 +1,7 @@
 {
   "version": 1,
   "id": "probe:live-20261108-pro-clarification",
-  "status": "decided",
+  "status": "complete",
   "createdAt": 1794123820,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
@@ -50,5 +50,6 @@
     "confidence": 0.98,
     "uncertainty": ""
   },
-  "elapsedMs": 2816
+  "elapsedMs": 2816,
+  "updatedAt": 1794123825
 }
