@@ -2534,13 +2534,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 296
+      },
+      {
+        "id": "x:2119528988033073501",
+        "x_status_id": "2119528988033073501",
+        "canonical_url": "https://x.com/thsottiaux/status/2119528988033073501",
+        "fingerprint": "86ba3cc4f3126066e95aef0cc23b3b67fe5819ff66d6413c144522bd9f5186b1",
+        "published_at": 1794170064,
+        "detected_at": 1794170129,
+        "text": "@MillionInt Jerry, I challenge you to make a game",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 65
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794169527,
+        "last_success_at": 1794170129,
         "last_failure_at": 1794163529,
         "offline_since": null,
         "failure_episodes": 506,
@@ -2557,6 +2574,10 @@
         "value": "\"fxtwitter\""
       },
       {
+        "key": "aiLiveQueue",
+        "value": "[{\"id\":\"x:2119528988033073501\",\"queuedAt\":1794170129}]"
+      },
+      {
         "key": "baselineAt",
         "value": "1788855495"
       },
@@ -2570,7 +2591,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794169527"
+        "value": "1794170129"
       }
     ],
     "events": [
@@ -2771,6 +2792,12 @@
         "event_type": "post_analysis",
         "created_at": 1794117927,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@ForwardEditor We hesitated to embed https://x.com into the codex app to make sense of the resets, but decided against it.\"}}"
+      },
+      {
+        "id": "analysis:x:2119528988033073501",
+        "event_type": "post_analysis",
+        "created_at": 1794170129,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@MillionInt Jerry, I challenge you to make a game\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3482,8 +3509,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794169527,
-    "lastRssAttemptAt": 1794169527,
+    "lastRssSuccessAt": 1794170129,
+    "lastRssAttemptAt": 1794170129,
     "sourceState": "online",
     "error": null
   }
