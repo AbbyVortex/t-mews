@@ -2398,13 +2398,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 449
+      },
+      {
+        "id": "x:2119611877810639072",
+        "x_status_id": "2119611877810639072",
+        "canonical_url": "https://x.com/thsottiaux/status/2119611877810639072",
+        "fingerprint": "fabe3037d29d53d13b8926d96589229930a8de0d44ee00dddb0f28e4015c2403",
+        "published_at": 1794189826,
+        "detected_at": 1794189933,
+        "text": "@maria_rcks Congrats to Theo",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 107
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794189327,
+        "last_success_at": 1794189933,
         "last_failure_at": 1794184526,
         "offline_since": null,
         "failure_episodes": 511,
@@ -2422,7 +2439,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2119611877810639072\",\"queuedAt\":1794189933}]"
       },
       {
         "key": "baselineAt",
@@ -2438,7 +2455,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794189327"
+        "value": "1794189933"
       }
     ],
     "events": [
@@ -2633,6 +2650,12 @@
         "event_type": "post_analysis",
         "created_at": 1794171327,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@garrytan Thanks for running those and publishing\"}}"
+      },
+      {
+        "id": "analysis:x:2119611877810639072",
+        "event_type": "post_analysis",
+        "created_at": 1794189933,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@maria_rcks Congrats to Theo\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3332,8 +3355,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794189327,
-    "lastRssAttemptAt": 1794189327,
+    "lastRssSuccessAt": 1794189933,
+    "lastRssAttemptAt": 1794189933,
     "sourceState": "online",
     "error": null
   }
