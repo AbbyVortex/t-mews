@@ -3,176 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2114199013176303641",
-        "x_status_id": "2114199013176303641",
-        "canonical_url": "https://x.com/thsottiaux/status/2114199013176303641",
-        "fingerprint": "480aba24a3d3022d62f244d9df81d649ab12b8d1f62dc1224767ae781a5cbe7f",
-        "published_at": 1792899299,
-        "detected_at": 1792899329,
-        "text": "@alexandr_wang Congrats, that’s not a butt",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 30
-      },
-      {
-        "id": "x:2114200152701575656",
-        "x_status_id": "2114200152701575656",
-        "canonical_url": "https://x.com/thsottiaux/status/2114200152701575656",
-        "fingerprint": "e5e789203dcd3e58a93b157b8e1fb3981ad1a751b825a8af9789ee3493f9e0a6",
-        "published_at": 1792899571,
-        "detected_at": 1792899933,
-        "text": "Day 20/ Rest and reset",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 362
-      },
-      {
-        "id": "x:2114200291319124163",
-        "x_status_id": "2114200291319124163",
-        "canonical_url": "https://x.com/thsottiaux/status/2114200291319124163",
-        "fingerprint": "d671999fb513afdcfffc077c714b51fb3cb474217811cef515606d361b1a0016",
-        "published_at": 1792899604,
-        "detected_at": 1792899933,
-        "text": "By midnight PST",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 329
-      },
-      {
-        "id": "x:2114228044072403055",
-        "x_status_id": "2114228044072403055",
-        "canonical_url": "https://x.com/thsottiaux/status/2114228044072403055",
-        "fingerprint": "cac7d0f2927bd8b00df13debb54ecdbb659398e07bf2d59111ff731885d43d7d",
-        "published_at": 1792906220,
-        "detected_at": 1792906530,
-        "text": "@theo Not a real improvement, put the reset in the bag",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 310
-      },
-      {
-        "id": "x:2114228445043691592",
-        "x_status_id": "2114228445043691592",
-        "canonical_url": "https://x.com/thsottiaux/status/2114228445043691592",
-        "fingerprint": "cebf5db34de31014a0e3143c9ff1a5de8fc0bab8e820b35eb02f08321654f0e3",
-        "published_at": 1792906316,
-        "detected_at": 1792906530,
-        "text": "@_jayyy18_13k",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 214
-      },
-      {
-        "id": "x:2114237083652882932",
-        "x_status_id": "2114237083652882932",
-        "canonical_url": "https://x.com/thsottiaux/status/2114237083652882932",
-        "fingerprint": "55a78b98cbde60e074d9c3648e04cf059a1dda1c2efd5a02d7aab688448ce41f",
-        "published_at": 1792908376,
-        "detected_at": 1792909528,
-        "text": "It is all propagated. Enjoy some mad codexing tomorrow. Fun week ahead too.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 1152
-      },
-      {
-        "id": "x:2114237441250828563",
-        "x_status_id": "2114237441250828563",
-        "canonical_url": "https://x.com/thsottiaux/status/2114237441250828563",
-        "fingerprint": "e8fab1461404c8d2c273aeb3997a1afcac69a99f36d8c5dfa94395acf651995a",
-        "published_at": 1792908461,
-        "detected_at": 1792909528,
-        "text": "@ScriptedAlchemy .com",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 1067
-      },
-      {
-        "id": "x:2114365873049993364",
-        "x_status_id": "2114365873049993364",
-        "canonical_url": "https://x.com/thsottiaux/status/2114365873049993364",
-        "fingerprint": "95f5174953b77cbb7b57b89afc1432875b09a3a6a54cf2407bbf5df3963797dc",
-        "published_at": 1792939081,
-        "detected_at": 1792939530,
-        "text": "@theo Love to see it!!",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 449
-      },
-      {
-        "id": "x:2114435715605885396",
-        "x_status_id": "2114435715605885396",
-        "canonical_url": "https://x.com/thsottiaux/status/2114435715605885396",
-        "fingerprint": "283b2820be51c2a5b2c8985d146962c2ddbcb69431826f551b239f69c5c2ec64",
-        "published_at": 1792955733,
-        "detected_at": 1792956330,
-        "text": "@kirtandopamine Reality",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 597
-      },
-      {
-        "id": "x:2114435873857028129",
-        "x_status_id": "2114435873857028129",
-        "canonical_url": "https://x.com/thsottiaux/status/2114435873857028129",
-        "fingerprint": "fdf6df353f9799afc638ab9d3cc63721fb17ce0af9c8df6ac25365f3a68984cf",
-        "published_at": 1792955771,
-        "detected_at": 1792956330,
-        "text": "@himanshutwtxs Did you?",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 559
-      },
-      {
         "id": "x:2114588174249071102",
         "x_status_id": "2114588174249071102",
         "canonical_url": "https://x.com/thsottiaux/status/2114588174249071102",
@@ -2574,7 +2404,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794185732,
+        "last_success_at": 1794186332,
         "last_failure_at": 1794184526,
         "offline_since": null,
         "failure_episodes": 511,
@@ -2604,32 +2434,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1794099929"
+        "value": "1794186332"
       },
       {
         "key": "lastSuccess",
-        "value": "1794185732"
+        "value": "1794186332"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2114200152701575656",
-        "event_type": "post_analysis",
-        "created_at": 1792899933,
-        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Day 20/ Rest and reset\"}}"
-      },
-      {
-        "id": "analysis:x:2114228044072403055",
-        "event_type": "post_analysis",
-        "created_at": 1792906530,
-        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@theo Not a real improvement, put the reset in the bag\"}}"
-      },
-      {
-        "id": "analysis:x:2114237083652882932",
-        "event_type": "post_analysis",
-        "created_at": 1792909528,
-        "details": "{\"related\":[{\"xStatusId\":\"2114200291319124163\",\"url\":\"https://x.com/thsottiaux/status/2114200291319124163\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"By midnight PST\",\"provenance\":\"feed\",\"publishedAt\":1792899604}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"It is all propagated.\"}}"
-      },
       {
         "id": "analysis:x:2114588174249071102",
         "event_type": "post_analysis",
@@ -2839,18 +2651,6 @@
         "event_type": "notification_sent",
         "created_at": 1793888735,
         "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:post:x:2114200152701575656",
-        "event_type": "notification_sent",
-        "created_at": 1792899933,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2114200152701575656\"}"
-      },
-      {
-        "id": "notification:post:x:2114228044072403055",
-        "event_type": "notification_sent",
-        "created_at": 1792906530,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2114228044072403055\"}"
       },
       {
         "id": "notification:post:x:2114588174249071102",
@@ -3532,8 +3332,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794185732,
-    "lastRssAttemptAt": 1794185732,
+    "lastRssSuccessAt": 1794186332,
+    "lastRssAttemptAt": 1794186332,
     "sourceState": "online",
     "error": null
   }
