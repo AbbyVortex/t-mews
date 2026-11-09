@@ -2455,15 +2455,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794249331"
-      },
-      {
-        "key": "outage",
-        "value": "1794247529"
-      },
-      {
-        "key": "recoverySince",
-        "value": "1794249331"
+        "value": "1794249932"
       }
     ],
     "events": [
@@ -2753,6 +2745,12 @@
         "id": "notification:recovered:1793887531",
         "event_type": "notification_sent",
         "created_at": 1793889941,
+        "details": "{\"kind\":\"recovered\",\"postId\":null}"
+      },
+      {
+        "id": "notification:recovered:1794247529",
+        "event_type": "notification_sent",
+        "created_at": 1794249932,
         "details": "{\"kind\":\"recovered\",\"postId\":null}"
       }
     ],
@@ -3370,8 +3368,8 @@
         "post_id": null,
         "kind": "recovered",
         "created_at": 1794249932,
-        "status": "sending",
-        "sent_at": null
+        "status": "sent",
+        "sent_at": 1794249932
       },
       {
         "id": "test",
