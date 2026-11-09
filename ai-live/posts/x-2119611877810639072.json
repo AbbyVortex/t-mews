@@ -53,5 +53,52 @@
       "display": null
     }
   },
-  "queuedAt": 1794189933
+  "queuedAt": 1794189933,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2119611877810639072",
+    "url": "https://x.com/thsottiaux/status/2119611877810639072",
+    "publishedAt": 1794189826,
+    "text": "@maria_rcks Congrats to Theo",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2119595096928571776",
+        "url": "https://x.com/maria_rcks/status/2119595096928571776",
+        "text": "In other news, I'm excited to announce that I'll be joining Anthropic!\n\nClaude has been a huge part of how I build things, so getting to work on it is kind of surreal. Thank you to everyone who helped make this happen.\n\nAlso really grateful for my time at T3 Code and for the awesome team.\n\nMore soon.",
+        "author": "maria_rcks",
+        "publishedAt": 1794185825,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2119232059537514598",
+        "url": "https://x.com/thsottiaux/status/2119232059537514598",
+        "text": "@Tech_girl We doubled the usage on Pro plans and Business 100",
+        "publishedAt": 1794099271,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      },
+      {
+        "id": "x:2119296267545419987",
+        "url": "https://x.com/thsottiaux/status/2119296267545419987",
+        "text": "Saw some confusions, but all Pro plans have no 5-hour limits, and give the following usage compared to Plus.\n\n✅ Pro 100 = 10X\n\n✅ Pro 200 = 20X\n\n✅ Pro 500 = 50X, access to ultrafast",
+        "publishedAt": 1794114579,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      },
+      {
+        "id": "x:2119308687676432672",
+        "url": "https://x.com/thsottiaux/status/2119308687676432672",
+        "text": "@ForwardEditor We hesitated to embed https://x.com into the codex app to make sense of the resets, but decided against it.",
+        "publishedAt": 1794117540,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "79ced00c680b0652f09b3aad89cd6652b6c3f325fd5b8b8f1c033b8726a268f1",
+  "requestPreparedAt": 1794189939104
 }
