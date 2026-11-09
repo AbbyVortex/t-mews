@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2119611877810639072",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794189933,
-  "updatedAt": 1794189933,
+  "updatedAt": 1794189943,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -100,5 +100,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "79ced00c680b0652f09b3aad89cd6652b6c3f325fd5b8b8f1c033b8726a268f1",
-  "requestPreparedAt": 1794189939104
+  "requestPreparedAt": 1794189939104,
+  "apiStartedAt": 1794189940097,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1164,
+    "output_tokens": 71,
+    "total_tokens": 1235,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.003038,
+  "result": {
+    "category": "unrelated",
+    "rationale": "Anthropicへの入社報告に対する祝福であり、CodexやChatGPTの利用枠、リセット付与、有料プラン変更とは関係がありません。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794189943693,
+  "elapsedMs": 4943,
+  "decidedAt": 1794189943693,
+  "detectedToDecisionMs": 10693
 }
