@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2120266880963473789",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794346530,
-  "updatedAt": 1794346530,
+  "updatedAt": 1794346543,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -110,5 +110,27 @@
     "parentStatus": "not_applicable;quote:x:2120206375137484875=present"
   },
   "inputHash": "640518395d75d64d32fd5918c1b20147b0e357006fc3c69d2da46b01a38d5362",
-  "requestPreparedAt": 1794346535962
+  "requestPreparedAt": 1794346535962,
+  "apiStartedAt": 1794346538993,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1148,
+    "output_tokens": 75,
+    "total_tokens": 1223,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.003046,
+  "result": {
+    "category": "unrelated",
+    "rationale": "Claudeのインタラクティブコネクター公開への反応であり、Codex・ChatGPTの利用枠、リセット付与、有料プラン変更に関する情報ではない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794346543133,
+  "elapsedMs": 7173,
+  "decidedAt": 1794346543133,
+  "detectedToDecisionMs": 13133
 }
