@@ -63,5 +63,52 @@
       "display": null
     }
   },
-  "queuedAt": 1794346530
+  "queuedAt": 1794346530,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2120267268517249036",
+    "url": "https://x.com/thsottiaux/status/2120267268517249036",
+    "publishedAt": 1794346084,
+    "text": "How many of you have a small business?",
+    "related": [
+      {
+        "relation": "quote",
+        "text": "Now in beta: Businesses in ChatGPT. Claim your business, manage your information, and get insights on how people engage with you. Eligible businesses can also build a Business Agent to answer customers’ questions and help them explore what you offer. https://openai.com/index/int…",
+        "author": "OpenAI",
+        "id": "x:2120216592395174382",
+        "url": "https://x.com/OpenAI/status/2120216592395174382",
+        "publishedAt": null,
+        "source": "feed"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2119232059537514598",
+        "url": "https://x.com/thsottiaux/status/2119232059537514598",
+        "text": "@Tech_girl We doubled the usage on Pro plans and Business 100",
+        "publishedAt": 1794099271,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      },
+      {
+        "id": "x:2119296267545419987",
+        "url": "https://x.com/thsottiaux/status/2119296267545419987",
+        "text": "Saw some confusions, but all Pro plans have no 5-hour limits, and give the following usage compared to Plus.\n\n✅ Pro 100 = 10X\n\n✅ Pro 200 = 20X\n\n✅ Pro 500 = 50X, access to ultrafast",
+        "publishedAt": 1794114579,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      },
+      {
+        "id": "x:2119308687676432672",
+        "url": "https://x.com/thsottiaux/status/2119308687676432672",
+        "text": "@ForwardEditor We hesitated to embed https://x.com into the codex app to make sense of the resets, but decided against it.",
+        "publishedAt": 1794117540,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "not_applicable;quote:x:2120216592395174382=present"
+  },
+  "inputHash": "a4970456a50849624ec89e2f613e133efc9307f616b2f24840d8673c20f9757b",
+  "requestPreparedAt": 1794346537028
 }
