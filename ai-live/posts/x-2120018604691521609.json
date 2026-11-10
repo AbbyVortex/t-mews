@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2120018604691521609",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794287132,
-  "updatedAt": 1794287132,
+  "updatedAt": 1794287141,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -100,5 +100,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "7d93c5092cf473f269e9f2f2266aac88fa51fc65a70aea8ba8f6dd13902f12dd",
-  "requestPreparedAt": 1794287137576
+  "requestPreparedAt": 1794287137576,
+  "apiStartedAt": 1794287138602,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1094,
+    "output_tokens": 66,
+    "total_tokens": 1160,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002848,
+  "result": {
+    "category": "unrelated",
+    "rationale": "取得済みの親投稿「good morning」への挨拶で、利用枠・リセット・有料プランに関する情報はありません。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794287141951,
+  "elapsedMs": 4613,
+  "decidedAt": 1794287141951,
+  "detectedToDecisionMs": 9951
 }
