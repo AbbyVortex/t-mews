@@ -2313,13 +2313,64 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 350
+      },
+      {
+        "id": "x:2120266880963473789",
+        "x_status_id": "2120266880963473789",
+        "canonical_url": "https://x.com/thsottiaux/status/2120266880963473789",
+        "fingerprint": "e59abafab0b2c3c7d8409ec719fe61122e7bd27bcb5d0d8d74c3ea02777c65c2",
+        "published_at": 1794345991,
+        "detected_at": 1794346530,
+        "text": "Labs innovating together ftw",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 539
+      },
+      {
+        "id": "x:2120267268517249036",
+        "x_status_id": "2120267268517249036",
+        "canonical_url": "https://x.com/thsottiaux/status/2120267268517249036",
+        "fingerprint": "d8135ac2e51dc0b807c2014936f00517d1269653658afd8c5fbf7014bfc458ea",
+        "published_at": 1794346084,
+        "detected_at": 1794346530,
+        "text": "How many of you have a small business?",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 446
+      },
+      {
+        "id": "x:2120267636516995218",
+        "x_status_id": "2120267636516995218",
+        "canonical_url": "https://x.com/thsottiaux/status/2120267636516995218",
+        "fingerprint": "d5c90123091c144ed31749c514f24025d8a8397d8f8ffbf58ada7e789c4301a8",
+        "published_at": 1794346171,
+        "detected_at": 1794346530,
+        "text": "@inferencetoken @ajambrosino congrats",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 359
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794345929,
+        "last_success_at": 1794346530,
         "last_failure_at": 1794344730,
         "offline_since": null,
         "failure_episodes": 537,
@@ -2337,7 +2388,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2120267636516995218\",\"queuedAt\":1794346530},{\"id\":\"x:2120267268517249036\",\"queuedAt\":1794346530},{\"id\":\"x:2120266880963473789\",\"queuedAt\":1794346530}]"
       },
       {
         "key": "baselineAt",
@@ -2353,7 +2404,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794345929"
+        "value": "1794346530"
       }
     ],
     "events": [
@@ -2548,6 +2599,24 @@
         "event_type": "post_analysis",
         "created_at": 1794287729,
         "details": "{\"related\":[{\"xStatusId\":\"2119883176726409645\",\"url\":\"https://x.com/OpenAIDevs/status/2119883176726409645\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"You can now connect multiple local computers to the same dot and choose which one it uses for a task. It can build and test your app on a dedicated machine while you keep coding on your laptop.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Dots can now control many machines in addition to its own little cloud computer that we provide by default.\"}}"
+      },
+      {
+        "id": "analysis:x:2120266880963473789",
+        "event_type": "post_analysis",
+        "created_at": 1794346530,
+        "details": "{\"related\":[{\"xStatusId\":\"2120206375137484875\",\"url\":\"https://x.com/claudeai/status/2120206375137484875\",\"author\":\"claudeai\",\"relation\":\"quote\",\"text\":\"Also new: with interactive connectors, you can now open the full version of a tool inside Claude. Work in Adobe, Atlassian, and Box beside your conversation. Make changes yourself, or ask Claude to make them with you. Rolling out on web and desktop.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Labs innovating together ftw\"}}"
+      },
+      {
+        "id": "analysis:x:2120267268517249036",
+        "event_type": "post_analysis",
+        "created_at": 1794346530,
+        "details": "{\"related\":[{\"xStatusId\":\"2120216592395174382\",\"url\":\"https://x.com/OpenAI/status/2120216592395174382\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"Now in beta: Businesses in ChatGPT. Claim your business, manage your information, and get insights on how people engage with you. Eligible businesses can also build a Business Agent to answer customers’ questions and help them explore what you offer. https://openai.com/index/int…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"How many of you have a small business?\"}}"
+      },
+      {
+        "id": "analysis:x:2120267636516995218",
+        "event_type": "post_analysis",
+        "created_at": 1794346530,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@inferencetoken @ajambrosino congrats\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3285,8 +3354,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794345929,
-    "lastRssAttemptAt": 1794345929,
+    "lastRssSuccessAt": 1794346530,
+    "lastRssAttemptAt": 1794346530,
     "sourceState": "online",
     "error": null
   }
