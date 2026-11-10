@@ -63,5 +63,52 @@
       "display": null
     }
   },
-  "queuedAt": 1794287729
+  "queuedAt": 1794287729,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2120021043876106429",
+    "url": "https://x.com/thsottiaux/status/2120021043876106429",
+    "publishedAt": 1794287379,
+    "text": "Dots can now control many machines in addition to its own little cloud computer that we provide by default.",
+    "related": [
+      {
+        "relation": "quote",
+        "text": "You can now connect multiple local computers to the same dot and choose which one it uses for a task. It can build and test your app on a dedicated machine while you keep coding on your laptop.",
+        "author": "OpenAIDevs",
+        "id": "x:2119883176726409645",
+        "url": "https://x.com/OpenAIDevs/status/2119883176726409645",
+        "publishedAt": null,
+        "source": "feed"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2119232059537514598",
+        "url": "https://x.com/thsottiaux/status/2119232059537514598",
+        "text": "@Tech_girl We doubled the usage on Pro plans and Business 100",
+        "publishedAt": 1794099271,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      },
+      {
+        "id": "x:2119296267545419987",
+        "url": "https://x.com/thsottiaux/status/2119296267545419987",
+        "text": "Saw some confusions, but all Pro plans have no 5-hour limits, and give the following usage compared to Plus.\n\n✅ Pro 100 = 10X\n\n✅ Pro 200 = 20X\n\n✅ Pro 500 = 50X, access to ultrafast",
+        "publishedAt": 1794114579,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      },
+      {
+        "id": "x:2119308687676432672",
+        "url": "https://x.com/thsottiaux/status/2119308687676432672",
+        "text": "@ForwardEditor We hesitated to embed https://x.com into the codex app to make sense of the resets, but decided against it.",
+        "publishedAt": 1794117540,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "not_applicable;quote:x:2119883176726409645=present"
+  },
+  "inputHash": "cec2cdb36d83b724ec8e3e28a4d50c3b9ab875bde795b04298f429154c069e2c",
+  "requestPreparedAt": 1794287734739
 }
