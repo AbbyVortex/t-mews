@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2120021043876106429",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794287729,
-  "updatedAt": 1794287729,
+  "updatedAt": 1794287739,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -110,5 +110,27 @@
     "parentStatus": "not_applicable;quote:x:2119883176726409645=present"
   },
   "inputHash": "cec2cdb36d83b724ec8e3e28a4d50c3b9ab875bde795b04298f429154c069e2c",
-  "requestPreparedAt": 1794287734739
+  "requestPreparedAt": 1794287734739,
+  "apiStartedAt": 1794287735628,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1150,
+    "output_tokens": 78,
+    "total_tokens": 1228,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.00308,
+  "result": {
+    "category": "unrelated",
+    "rationale": "複数のローカル端末を接続し、タスクの実行先を選べる機能の紹介。リセット付与や利用上限、有料プラン条件の変更ではない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794287739768,
+  "elapsedMs": 5030,
+  "decidedAt": 1794287739768,
+  "detectedToDecisionMs": 10768
 }
