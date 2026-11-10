@@ -53,5 +53,52 @@
       "display": null
     }
   },
-  "queuedAt": 1794346530
+  "queuedAt": 1794346530,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2120267636516995218",
+    "url": "https://x.com/thsottiaux/status/2120267636516995218",
+    "publishedAt": 1794346171,
+    "text": "@inferencetoken @ajambrosino congrats",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2120234873839607921",
+        "url": "https://x.com/inferencetoken/status/2120234873839607921",
+        "text": "Guess this is my job now",
+        "author": "inferencetoken",
+        "publishedAt": 1794338360,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2119232059537514598",
+        "url": "https://x.com/thsottiaux/status/2119232059537514598",
+        "text": "@Tech_girl We doubled the usage on Pro plans and Business 100",
+        "publishedAt": 1794099271,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      },
+      {
+        "id": "x:2119296267545419987",
+        "url": "https://x.com/thsottiaux/status/2119296267545419987",
+        "text": "Saw some confusions, but all Pro plans have no 5-hour limits, and give the following usage compared to Plus.\n\n✅ Pro 100 = 10X\n\n✅ Pro 200 = 20X\n\n✅ Pro 500 = 50X, access to ultrafast",
+        "publishedAt": 1794114579,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      },
+      {
+        "id": "x:2119308687676432672",
+        "url": "https://x.com/thsottiaux/status/2119308687676432672",
+        "text": "@ForwardEditor We hesitated to embed https://x.com into the codex app to make sense of the resets, but decided against it.",
+        "publishedAt": 1794117540,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "b91f8b64a02c086797474328325a435befe33192f21da2e67e0e30aaeb2451a7",
+  "requestPreparedAt": 1794346538454
 }
