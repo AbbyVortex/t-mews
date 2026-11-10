@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2120267268517249036",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794346530,
-  "updatedAt": 1794346530,
+  "updatedAt": 1794346543,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -110,5 +110,27 @@
     "parentStatus": "not_applicable;quote:x:2120216592395174382=present"
   },
   "inputHash": "a4970456a50849624ec89e2f613e133efc9307f616b2f24840d8673c20f9757b",
-  "requestPreparedAt": 1794346537028
+  "requestPreparedAt": 1794346537028,
+  "apiStartedAt": 1794346539962,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1151,
+    "output_tokens": 79,
+    "total_tokens": 1230,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.003092,
+  "result": {
+    "category": "unrelated",
+    "rationale": "小規模事業者への問いかけと、ChatGPTの事業者向け新機能の引用。リセット付与や利用枠、有料プラン条件の変更に関する情報ではない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794346543142,
+  "elapsedMs": 6115,
+  "decidedAt": 1794346543142,
+  "detectedToDecisionMs": 13142
 }
