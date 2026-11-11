@@ -2364,13 +2364,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 359
+      },
+      {
+        "id": "x:2120304649807020238",
+        "x_status_id": "2120304649807020238",
+        "canonical_url": "https://x.com/thsottiaux/status/2120304649807020238",
+        "fingerprint": "3610a2810caa1c7325ba134fdcb15bed86f141bf792f5c08d712630ff3d5ee3a",
+        "published_at": 1794354996,
+        "detected_at": 1794355531,
+        "text": "@embw_l0x We're assembling one of the best teams ever and I do talk to folks at Anthropic every once in a while. Couldn't be more excited for the months ahead.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 535
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794354931,
+        "last_success_at": 1794355531,
         "last_failure_at": 1794348929,
         "offline_since": null,
         "failure_episodes": 538,
@@ -2388,7 +2405,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2120304649807020238\",\"queuedAt\":1794355531}]"
       },
       {
         "key": "baselineAt",
@@ -2404,7 +2421,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794354931"
+        "value": "1794355531"
       }
     ],
     "events": [
@@ -2617,6 +2634,12 @@
         "event_type": "post_analysis",
         "created_at": 1794346530,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@inferencetoken @ajambrosino congrats\"}}"
+      },
+      {
+        "id": "analysis:x:2120304649807020238",
+        "event_type": "post_analysis",
+        "created_at": 1794355531,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@embw_l0x We're assembling one of the best teams ever and I do talk to folks at Anthropic every once in a while.\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3354,8 +3377,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794354931,
-    "lastRssAttemptAt": 1794354931,
+    "lastRssSuccessAt": 1794355531,
+    "lastRssAttemptAt": 1794355531,
     "sourceState": "online",
     "error": null
   }
