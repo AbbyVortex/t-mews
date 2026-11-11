@@ -2364,13 +2364,47 @@
         "notified": 1,
         "notification_status": "sent",
         "detection_latency_seconds": 20
+      },
+      {
+        "id": "x:2120410480204525936",
+        "x_status_id": "2120410480204525936",
+        "canonical_url": "https://x.com/thsottiaux/status/2120410480204525936",
+        "fingerprint": "982cb2d33ebcfff52aa895994fad50f62c9858d224bfa16b7df1130e7b0dc14d",
+        "published_at": 1794380228,
+        "detected_at": 1794380726,
+        "text": "Thursday is feeling codexy to me. Perhaps also a good time for a banked reset.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 498
+      },
+      {
+        "id": "x:2120411235716063700",
+        "x_status_id": "2120411235716063700",
+        "canonical_url": "https://x.com/thsottiaux/status/2120411235716063700",
+        "fingerprint": "6f70950b7198cce74c49de9b0034799ac9b1eceac5586444b39e61906d99869d",
+        "published_at": 1794380408,
+        "detected_at": 1794380726,
+        "text": "@iso_morph Many such cases.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 318
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794380135,
+        "last_success_at": 1794380726,
         "last_failure_at": 1794379529,
         "offline_since": null,
         "failure_episodes": 547,
@@ -2388,7 +2422,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2120411235716063700\",\"queuedAt\":1794380726},{\"id\":\"x:2120410480204525936\",\"queuedAt\":1794380726}]"
       },
       {
         "key": "baselineAt",
@@ -2404,7 +2438,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794380135"
+        "value": "1794380726"
       }
     ],
     "events": [
@@ -2629,6 +2663,18 @@
         "event_type": "post_analysis",
         "created_at": 1794380135,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"It’s been a while without resets.\"}}"
+      },
+      {
+        "id": "analysis:x:2120410480204525936",
+        "event_type": "post_analysis",
+        "created_at": 1794380726,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Perhaps also a good time for a banked reset.\"}}"
+      },
+      {
+        "id": "analysis:x:2120411235716063700",
+        "event_type": "post_analysis",
+        "created_at": 1794380726,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@iso_morph Many such cases.\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3380,8 +3426,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794380135,
-    "lastRssAttemptAt": 1794380135,
+    "lastRssSuccessAt": 1794380726,
+    "lastRssAttemptAt": 1794380726,
     "sourceState": "online",
     "error": null
   }
