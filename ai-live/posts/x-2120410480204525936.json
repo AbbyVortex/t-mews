@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2120410480204525936",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794380726,
-  "updatedAt": 1794380726,
+  "updatedAt": 1794380744,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -59,5 +59,27 @@
     "parentStatus": "not_applicable"
   },
   "inputHash": "3d7e2f7b794cbbe40a6fe371891009ffbaa3dbc03b154a12491ca5739ab737a5",
-  "requestPreparedAt": 1794380738179
+  "requestPreparedAt": 1794380738179,
+  "apiStartedAt": 1794380739890,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 845,
+    "output_tokens": 139,
+    "total_tokens": 984,
+    "cached_tokens": 0,
+    "reasoning_tokens": 41
+  },
+  "referenceCostUsd": 0.00308,
+  "result": {
+    "category": "attention",
+    "rationale": "木曜日のBanked Reset実施を示唆する具体的な予告。直前のリセット再開をほのめかす投稿とも整合し、注目に値する。",
+    "confidence": 0.95,
+    "uncertainty": "「Perhaps」という提案的な表現であり、実施が確定した告知ではない。"
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794380744640,
+  "elapsedMs": 6461,
+  "decidedAt": 1794380744640,
+  "detectedToDecisionMs": 18640
 }
