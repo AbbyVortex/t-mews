@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2120410006273380750",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794380135,
-  "updatedAt": 1794380135,
+  "updatedAt": 1794380145,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -41,5 +41,27 @@
     "parentStatus": "not_applicable"
   },
   "inputHash": "009f76601e1aeb98386c6698c180f99a5bdc36b3ad4ee47d782cefb64f4acad8",
-  "requestPreparedAt": 1794380139700
+  "requestPreparedAt": 1794380139700,
+  "apiStartedAt": 1794380140607,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 771,
+    "output_tokens": 91,
+    "total_tokens": 862,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002452,
+  "result": {
+    "category": "attention",
+    "rationale": "リセットがしばらくないことに触れ、自身の復帰をほのめかしており、リセット再開を示唆する注目すべき予告。",
+    "confidence": 0.89,
+    "uncertainty": "リセット実施の確約や時期、対象は示されていない。"
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794380145402,
+  "elapsedMs": 5702,
+  "decidedAt": 1794380145402,
+  "detectedToDecisionMs": 10402
 }
