@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "x:2120410480204525936",
+  "status": "claimed",
+  "createdAt": 1794380726,
+  "updatedAt": 1794380726,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "machine": {
+    "classification": "CANDIDATE",
+    "notify": true,
+    "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+    "display": "advisory",
+    "evidence": "Perhaps also a good time for a banked reset."
+  },
+  "candidate": {
+    "id": "x:2120410480204525936",
+    "url": "https://x.com/thsottiaux/status/2120410480204525936",
+    "text": "Thursday is feeling codexy to me. Perhaps also a good time for a banked reset.",
+    "related": [],
+    "publishedAt": 1794380228,
+    "kind": "post",
+    "discoveredAt": 1794380726,
+    "recentContext": [
+      {
+        "id": "x:2120410006273380750",
+        "url": "https://x.com/thsottiaux/status/2120410006273380750",
+        "text": "It’s been a while without resets. Maybe I should come back out of the basement",
+        "publishedAt": 1794380115,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "rule": {
+      "classification": "CANDIDATE",
+      "notify": true,
+      "display": "advisory"
+    }
+  },
+  "queuedAt": 1794380726
+}
