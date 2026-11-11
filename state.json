@@ -2347,17 +2347,34 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 535
+      },
+      {
+        "id": "x:2120410006273380750",
+        "x_status_id": "2120410006273380750",
+        "canonical_url": "https://x.com/thsottiaux/status/2120410006273380750",
+        "fingerprint": "8d71754186294d46be7a6d5e1f358d323487dbdcb89c7e9a0996bb273de78333",
+        "published_at": 1794380115,
+        "detected_at": 1794380135,
+        "text": "It’s been a while without resets. Maybe I should come back out of the basement",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 20
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1794378927,
+        "state": "online",
+        "last_success_at": 1794380135,
         "last_failure_at": 1794379529,
-        "offline_since": 1794379529,
+        "offline_since": null,
         "failure_episodes": 547,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2371,7 +2388,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2120410006273380750\",\"queuedAt\":1794380135}]"
       },
       {
         "key": "baselineAt",
@@ -2387,11 +2404,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794378927"
-      },
-      {
-        "key": "outage",
-        "value": "1794379529"
+        "value": "1794380135"
       }
     ],
     "events": [
@@ -2610,6 +2623,12 @@
         "event_type": "post_analysis",
         "created_at": 1794355531,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@embw_l0x We're assembling one of the best teams ever and I do talk to folks at Anthropic every once in a while.\"}}"
+      },
+      {
+        "id": "analysis:x:2120410006273380750",
+        "event_type": "post_analysis",
+        "created_at": 1794380135,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"It’s been a while without resets.\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3347,9 +3366,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794378927,
-    "lastRssAttemptAt": 1794379529,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1794380135,
+    "lastRssAttemptAt": 1794380135,
+    "sourceState": "online",
+    "error": null
   }
 }
