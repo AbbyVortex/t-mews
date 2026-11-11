@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2120410006273380750",
-  "status": "decided",
+  "status": "complete",
   "createdAt": 1794380135,
-  "updatedAt": 1794380145,
+  "updatedAt": 1794380149,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -63,5 +63,26 @@
   "apiCompletedAt": 1794380145402,
   "elapsedMs": 5702,
   "decidedAt": 1794380145402,
-  "detectedToDecisionMs": 10402
+  "detectedToDecisionMs": 10402,
+  "delivery": {
+    "kind": "normal",
+    "mismatch": false,
+    "priority": 0,
+    "title": "🍄 関連注意報",
+    "message": "🛠機械: 🍄 CANDIDATE\n🤖AI: 🍄関連注意 (attention)\n理由: リセットがしばらくないことに触れ、自身の復帰をほのめかしており、リセット再開を示唆する注目すべき予告。\n不確実性: リセット実施の確約や時期、対象は示されていない。\n\n投稿時刻: 2026/11/11 15:55:15 JST\n検知遅延: 20秒\n\n本人: It’s been a while without resets.\n本文: It’s been a while without resets. Maybe I should come back out of the basement\nhttps://x.com/thsottiaux/status/2120410006273380750",
+    "id": "post:x:2120410006273380750",
+    "receipts": [
+      {
+        "id": "post:x:2120410006273380750",
+        "post_id": "x:2120410006273380750",
+        "kind": "alert",
+        "created_at": 1794380146,
+        "status": "sent",
+        "sent_at": 1794380148
+      }
+    ],
+    "detectedToFirstSendMs": 13000,
+    "detectedToLastSendMs": 13000,
+    "publishedToFirstSendMs": 33000
+  }
 }
