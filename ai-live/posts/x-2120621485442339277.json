@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2120621485442339277",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794431132,
-  "updatedAt": 1794431132,
+  "updatedAt": 1794431145,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -84,5 +84,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "134daafafcb8430601f9b6d04fe4b77f5435a017516239f25d57f12ae9a662bf",
-  "requestPreparedAt": 1794431139012
+  "requestPreparedAt": 1794431139012,
+  "apiStartedAt": 1794431139879,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1003,
+    "output_tokens": 80,
+    "total_tokens": 1083,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002806,
+  "result": {
+    "category": "unrelated",
+    "rationale": "返信先はTiboの返信で通知欄が荒れるという話題で、本人の挨拶もそれに応じた冗談。利用枠やリセットに関する新情報はない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794431145221,
+  "elapsedMs": 6688,
+  "decidedAt": 1794431145221,
+  "detectedToDecisionMs": 13221
 }
