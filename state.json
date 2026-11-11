@@ -3,40 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2114922374978277786",
-        "x_status_id": "2114922374978277786",
-        "canonical_url": "https://x.com/thsottiaux/status/2114922374978277786",
-        "fingerprint": "9889f0ff74d75b218f5249a65bd84d725d4f1ca5cc3470ef20084e90f5e91baf",
-        "published_at": 1793071762,
-        "detected_at": 1793072730,
-        "text": "@TokenGremlin Interesting",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 968
-      },
-      {
-        "id": "x:2115148258372964831",
-        "x_status_id": "2115148258372964831",
-        "canonical_url": "https://x.com/thsottiaux/status/2115148258372964831",
-        "fingerprint": "3d1dbbba3d57c30fe876d2824aee0577078c46f7262fa641a8f0c58088078a9c",
-        "published_at": 1793125617,
-        "detected_at": 1793126129,
-        "text": "@BrenBuilds A sign of great things to come",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 512
-      },
-      {
         "id": "x:2115272201922572627",
         "x_status_id": "2115272201922572627",
         "canonical_url": "https://x.com/thsottiaux/status/2115272201922572627",
@@ -2386,12 +2352,12 @@
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1794358530,
+        "state": "online",
+        "last_success_at": 1794359730,
         "last_failure_at": 1794359135,
-        "offline_since": 1794359135,
+        "offline_since": null,
         "failure_episodes": 539,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2417,15 +2383,11 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1794273329"
+        "value": "1794359730"
       },
       {
         "key": "lastSuccess",
-        "value": "1794358530"
-      },
-      {
-        "key": "outage",
-        "value": "1794359135"
+        "value": "1794359730"
       }
     ],
     "events": [
@@ -3381,9 +3343,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794358530,
-    "lastRssAttemptAt": 1794359135,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1794359730,
+    "lastRssAttemptAt": 1794359730,
+    "sourceState": "online",
+    "error": null
   }
 }
