@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "x:2120410006273380750",
+  "status": "claimed",
+  "createdAt": 1794380135,
+  "updatedAt": 1794380135,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "machine": {
+    "classification": "CANDIDATE",
+    "notify": true,
+    "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+    "display": "advisory",
+    "evidence": "It’s been a while without resets."
+  },
+  "candidate": {
+    "id": "x:2120410006273380750",
+    "url": "https://x.com/thsottiaux/status/2120410006273380750",
+    "text": "It’s been a while without resets. Maybe I should come back out of the basement",
+    "related": [],
+    "publishedAt": 1794380115,
+    "kind": "post",
+    "discoveredAt": 1794380135,
+    "recentContext": [],
+    "rule": {
+      "classification": "CANDIDATE",
+      "notify": true,
+      "display": "advisory"
+    }
+  },
+  "queuedAt": 1794380135
+}
