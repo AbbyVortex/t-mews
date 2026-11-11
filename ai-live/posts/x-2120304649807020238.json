@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2120304649807020238",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794355531,
-  "updatedAt": 1794355531,
+  "updatedAt": 1794355540,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -100,5 +100,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "392f3b8a7cb749779eae4e2b777543a3899d2e277803d08e6ecf6cb486130fc9",
-  "requestPreparedAt": 1794355535913
+  "requestPreparedAt": 1794355535913,
+  "apiStartedAt": 1794355536925,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1185,
+    "output_tokens": 73,
+    "total_tokens": 1258,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.0031,
+  "result": {
+    "category": "unrelated",
+    "rationale": "チーム編成やAnthropicとの交流、今後への期待を述べた返信で、利用枠・リセット付与・有料プラン変更に関する情報はない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794355540508,
+  "elapsedMs": 4851,
+  "decidedAt": 1794355540508,
+  "detectedToDecisionMs": 9508
 }
