@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2120410480204525936",
-  "status": "decided",
+  "status": "complete",
   "createdAt": 1794380726,
-  "updatedAt": 1794380744,
+  "updatedAt": 1794380748,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -81,5 +81,26 @@
   "apiCompletedAt": 1794380744640,
   "elapsedMs": 6461,
   "decidedAt": 1794380744640,
-  "detectedToDecisionMs": 18640
+  "detectedToDecisionMs": 18640,
+  "delivery": {
+    "kind": "normal",
+    "mismatch": false,
+    "priority": 0,
+    "title": "🍄 関連注意報",
+    "message": "🛠機械: 🍄 CANDIDATE\n🤖AI: 🍄関連注意 (attention)\n理由: 木曜日のBanked Reset実施を示唆する具体的な予告。直前のリセット再開をほのめかす投稿とも整合し、注目に値する。\n不確実性: 「Perhaps」という提案的な表現であり、実施が確定した告知ではない。\n\n投稿時刻: 2026/11/11 15:57:08 JST\n検知遅延: 8分18秒\n\n本人: Perhaps also a good time for a banked reset.\n本文: Thursday is feeling codexy to me. Perhaps also a good time for a banked reset.\nhttps://x.com/thsottiaux/status/2120410480204525936",
+    "id": "post:x:2120410480204525936",
+    "receipts": [
+      {
+        "id": "post:x:2120410480204525936",
+        "post_id": "x:2120410480204525936",
+        "kind": "alert",
+        "created_at": 1794380746,
+        "status": "sent",
+        "sent_at": 1794380747
+      }
+    ],
+    "detectedToFirstSendMs": 21000,
+    "detectedToLastSendMs": 21000,
+    "publishedToFirstSendMs": 519000
+  }
 }
