@@ -3,227 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2115272201922572627",
-        "x_status_id": "2115272201922572627",
-        "canonical_url": "https://x.com/thsottiaux/status/2115272201922572627",
-        "fingerprint": "00103f5b85e108967480c96cb22847a73e10bed6a9a0eb2dfc394324e9cc7d5e",
-        "published_at": 1793155167,
-        "detected_at": 1793155532,
-        "text": "@Xanderwow_A What's going on",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 365
-      },
-      {
-        "id": "x:2115273064481218829",
-        "x_status_id": "2115273064481218829",
-        "canonical_url": "https://x.com/thsottiaux/status/2115273064481218829",
-        "fingerprint": "2f2e229f2505506938afa97b82fa8bb6ac1bdc3afe71f65a40619236782a3c58",
-        "published_at": 1793155373,
-        "detected_at": 1793155532,
-        "text": "Day 23/ Much requested iCloud Main & Calendar plugins. Just kidding, today is a reset. Still much requested though!",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 159
-      },
-      {
-        "id": "x:2115273253711409208",
-        "x_status_id": "2115273253711409208",
-        "canonical_url": "https://x.com/thsottiaux/status/2115273253711409208",
-        "fingerprint": "646989bfa12da2459c7d30e4d367959ef9eb9cb623b6b0dea40e108f54d63582",
-        "published_at": 1793155418,
-        "detected_at": 1793155532,
-        "text": "Lands by midnight PST.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 114
-      },
-      {
-        "id": "x:2115289940233961584",
-        "x_status_id": "2115289940233961584",
-        "canonical_url": "https://x.com/thsottiaux/status/2115289940233961584",
-        "fingerprint": "a389cee794025802d71d4e7bf9a44b9e2ab54fb6c7d71e2a5a0b9225e146f6d4",
-        "published_at": 1793159396,
-        "detected_at": 1793159729,
-        "text": "@TokenGremlin @poteto lend me some of your strength, there is still time",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 333
-      },
-      {
-        "id": "x:2115290111147712544",
-        "x_status_id": "2115290111147712544",
-        "canonical_url": "https://x.com/thsottiaux/status/2115290111147712544",
-        "fingerprint": "6623f34497444ea0e31a39475a72e3b9f2ff96d5bf4b4341d8e969da65d0860c",
-        "published_at": 1793159437,
-        "detected_at": 1793159729,
-        "text": "@matteing Hi Sergio",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 292
-      },
-      {
-        "id": "x:2115290318652444729",
-        "x_status_id": "2115290318652444729",
-        "canonical_url": "https://x.com/thsottiaux/status/2115290318652444729",
-        "fingerprint": "5989e74930ada83759fabaaaaeb83ceb2ed4b71133ae0e1acd7450887387d1f8",
-        "published_at": 1793159486,
-        "detected_at": 1793159729,
-        "text": "@AdamHoltererer Maybe it’s because I have bad long term memory.",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 243
-      },
-      {
-        "id": "x:2115297093879472332",
-        "x_status_id": "2115297093879472332",
-        "canonical_url": "https://x.com/thsottiaux/status/2115297093879472332",
-        "fingerprint": "f9ca4de75c68b7cec7bf7075427ec1524ef2c51b0bbf38b9c437153c1122c023",
-        "published_at": 1793161102,
-        "detected_at": 1793161542,
-        "text": "https://www.poteto.com has landed",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 440
-      },
-      {
-        "id": "x:2115299029294920189",
-        "x_status_id": "2115299029294920189",
-        "canonical_url": "https://x.com/thsottiaux/status/2115299029294920189",
-        "fingerprint": "26bdd35db262a12bbb9e103a27a07752b1517ee980cef616a644de10866fc960",
-        "published_at": 1793161563,
-        "detected_at": 1793162133,
-        "text": "@mark_k @OpenAI Taking notes",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 570
-      },
-      {
-        "id": "x:2115329600897319076",
-        "x_status_id": "2115329600897319076",
-        "canonical_url": "https://x.com/thsottiaux/status/2115329600897319076",
-        "fingerprint": "384ebf2052c577fb4358e34f041e9f86eb77f1dec354e97d7caf8048d9f2b313",
-        "published_at": 1793168852,
-        "detected_at": 1793169341,
-        "text": "@BenjaminDEKR Pretty crazy but we have this thing called GPT and it just does stuff when you ask",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 489
-      },
-      {
-        "id": "x:2115330127886463244",
-        "x_status_id": "2115330127886463244",
-        "canonical_url": "https://x.com/thsottiaux/status/2115330127886463244",
-        "fingerprint": "0bdfdc6afd1808cacdb951e8c39a360a20603585d033f82ce2dd1e882b3d970b",
-        "published_at": 1793168978,
-        "detected_at": 1793169341,
-        "text": "And it's done. See you tomorrow for some good news.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 363
-      },
-      {
-        "id": "x:2115473170279080149",
-        "x_status_id": "2115473170279080149",
-        "canonical_url": "https://x.com/thsottiaux/status/2115473170279080149",
-        "fingerprint": "eab1171493834b22a780e0b033a4b9c38edf3262f548dc3674c552b3b2917ba7",
-        "published_at": 1793203082,
-        "detected_at": 1793203533,
-        "text": "Pretty wild that this site got 3M views.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 451
-      },
-      {
-        "id": "x:2115473280677363810",
-        "x_status_id": "2115473280677363810",
-        "canonical_url": "https://x.com/thsottiaux/status/2115473280677363810",
-        "fingerprint": "4e762cf74c2cfcb298a63b140d84159901d7a8b54579ca2f52eab6dff9fcbaaf",
-        "published_at": 1793203108,
-        "detected_at": 1793203533,
-        "text": "@Ananth7e If only",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 425
-      },
-      {
-        "id": "x:2115588390414581916",
-        "x_status_id": "2115588390414581916",
-        "canonical_url": "https://x.com/thsottiaux/status/2115588390414581916",
-        "fingerprint": "5193449370155eb96b1290b1ac285c6df4eda3303b86584cfdcb8b8e7cc1aaf7",
-        "published_at": 1793230552,
-        "detected_at": 1793231132,
-        "text": "Team is working on this but it's not rolling out just yet, sorry for any confusion. Plan is to bring together best of both Chat / Work capabilities together at some point this year, but we're going to proceed carefully here and take our time.\n\nWe'll have more to share soon.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 580
-      },
-      {
         "id": "x:2115622002581188681",
         "x_status_id": "2115622002581188681",
         "canonical_url": "https://x.com/thsottiaux/status/2115622002581188681",
@@ -2420,12 +2199,12 @@
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1794446128,
+        "state": "online",
+        "last_success_at": 1794447337,
         "last_failure_at": 1794446731,
-        "offline_since": 1794446731,
+        "offline_since": null,
         "failure_episodes": 567,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2451,42 +2230,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1794359730"
+        "value": "1794447337"
       },
       {
         "key": "lastSuccess",
-        "value": "1794446128"
-      },
-      {
-        "key": "outage",
-        "value": "1794446731"
+        "value": "1794447337"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2115273064481218829",
-        "event_type": "post_analysis",
-        "created_at": 1793155532,
-        "details": "{\"related\":[{\"xStatusId\":\"2115139248458191070\",\"url\":\"https://x.com/ChatGPT/status/2115139248458191070\",\"author\":\"ChatGPT\",\"relation\":\"quote\",\"text\":\"Much requested, and now yours to connect: iCloud Mail and Calendar plugins are available in ChatGPT. Ask ChatGPT to find that email, catch up on your inbox, check what’s next, or update a calendar event. Phew. Available on all ChatGPT plans on web, desktop, and iOS.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Just kidding, today is a reset.\"}}"
-      },
-      {
-        "id": "analysis:x:2115330127886463244",
-        "event_type": "post_analysis",
-        "created_at": 1793169341,
-        "details": "{\"related\":[{\"xStatusId\":\"2115273253711409208\",\"url\":\"https://x.com/thsottiaux/status/2115273253711409208\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Lands by midnight PST.\",\"provenance\":\"feed\",\"publishedAt\":1793155418}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"And it's done.\"}}"
-      },
-      {
-        "id": "analysis:x:2115473170279080149",
-        "event_type": "post_analysis",
-        "created_at": 1793203533,
-        "details": "{\"related\":[{\"xStatusId\":\"2115297093879472332\",\"url\":\"https://x.com/thsottiaux/status/2115297093879472332\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"https://www.poteto.com has landed\",\"provenance\":\"feed\",\"publishedAt\":1793161102}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Pretty wild that this site got 3M views.\"}}"
-      },
-      {
-        "id": "analysis:x:2115588390414581916",
-        "event_type": "post_analysis",
-        "created_at": 1793231132,
-        "details": "{\"related\":[{\"xStatusId\":\"2115565560603824452\",\"url\":\"https://x.com/Angaisb_/status/2115565560603824452\",\"author\":\"Angaisb_\",\"relation\":\"quote\",\"text\":\"ChatGPT is unifying Chat and Work I wonder how that changes usage limits\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Team is working on this but it's not rolling out just yet, sorry for any confusion.\"}}"
-      },
       {
         "id": "analysis:x:2115622002581188681",
         "event_type": "post_analysis",
@@ -2732,12 +2483,6 @@
         "event_type": "notification_sent",
         "created_at": 1794317729,
         "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:post:x:2115273064481218829",
-        "event_type": "notification_sent",
-        "created_at": 1793155532,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2115273064481218829\"}"
       },
       {
         "id": "notification:post:x:2115850175868727621",
@@ -3467,9 +3212,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794446128,
-    "lastRssAttemptAt": 1794446731,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1794447337,
+    "lastRssAttemptAt": 1794447337,
+    "sourceState": "online",
+    "error": null
   }
 }
