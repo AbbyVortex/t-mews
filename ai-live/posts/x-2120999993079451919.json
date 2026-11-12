@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2120999993079451919",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794521129,
-  "updatedAt": 1794521129,
+  "updatedAt": 1794521142,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -95,5 +95,27 @@
     "parentStatus": "not_applicable;quote:x:2120970988796170275=present"
   },
   "inputHash": "3dd83f230c6667f51b5454fb01fdf77306c865e01e840d1875dc4176bdacc701",
-  "requestPreparedAt": 1794521137175
+  "requestPreparedAt": 1794521137175,
+  "apiStartedAt": 1794521138082,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1056,
+    "output_tokens": 98,
+    "total_tokens": 1154,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.003092,
+  "result": {
+    "category": "announcement",
+    "rationale": "Tibo自身がBanked Resetの有効化と、各アカウントへ近日中に反映される見込みを明言している。引用先への単なる反応ではなく、付与の告知。",
+    "confidence": 0.99,
+    "uncertainty": "具体的な反映時刻や対象条件の詳細は示されていない。"
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794521142386,
+  "elapsedMs": 5212,
+  "decidedAt": 1794521142386,
+  "detectedToDecisionMs": 13386
 }
