@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2120999993079451919",
-  "status": "decided",
+  "status": "complete",
   "createdAt": 1794521129,
-  "updatedAt": 1794521142,
+  "updatedAt": 1794521145,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -117,5 +117,26 @@
   "apiCompletedAt": 1794521142386,
   "elapsedMs": 5212,
   "decidedAt": 1794521142386,
-  "detectedToDecisionMs": 13386
+  "detectedToDecisionMs": 13386,
+  "delivery": {
+    "kind": "normal",
+    "mismatch": true,
+    "priority": 1,
+    "title": "💣 実施予告・配布 [判定不一致]",
+    "message": "🛠機械: 🍄 CANDIDATE\n🤖AI: 💣実施予告・配布 (announcement)\n理由: Tibo自身がBanked Resetの有効化と、各アカウントへ近日中に反映される見込みを明言している。引用先への単なる反応ではなく、付与の告知。\n不確実性: 具体的な反映時刻や対象条件の詳細は示されていない。\n\n投稿時刻: 2026/11/13 6:59:39 JST\n検知遅延: 5分50秒\n\n本人: We shipped some good updates to dots today and the banked reset has been activated and should land in everyones accounts sometime soon!\nhttps://x.com/thsottiaux/status/2120999993079451919",
+    "id": "post:x:2120999993079451919",
+    "receipts": [
+      {
+        "id": "post:x:2120999993079451919",
+        "post_id": "x:2120999993079451919",
+        "kind": "alert",
+        "created_at": 1794521143,
+        "status": "sent",
+        "sent_at": 1794521144
+      }
+    ],
+    "detectedToFirstSendMs": 15000,
+    "detectedToLastSendMs": 15000,
+    "publishedToFirstSendMs": 365000
+  }
 }
