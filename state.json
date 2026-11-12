@@ -2194,13 +2194,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 596
+      },
+      {
+        "id": "x:2120999993079451919",
+        "x_status_id": "2120999993079451919",
+        "canonical_url": "https://x.com/thsottiaux/status/2120999993079451919",
+        "fingerprint": "e9f9c6290ccb7f52d7930cf32a79cbbb6fa41a17ba38396b4f9763a6f177f778",
+        "published_at": 1794520779,
+        "detected_at": 1794521129,
+        "text": "We shipped some good updates to dots today and the banked reset has been activated and should land in everyones accounts sometime soon!",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 350
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794520535,
+        "last_success_at": 1794521129,
         "last_failure_at": 1794516930,
         "offline_since": null,
         "failure_episodes": 581,
@@ -2218,7 +2235,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2120999993079451919\",\"queuedAt\":1794521129}]"
       },
       {
         "key": "baselineAt",
@@ -2234,7 +2251,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794520535"
+        "value": "1794521129"
       }
     ],
     "events": [
@@ -2453,6 +2470,12 @@
         "event_type": "post_analysis",
         "created_at": 1794431132,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@charlierguo Hi 👋 Buzz Buzz\"}}"
+      },
+      {
+        "id": "analysis:x:2120999993079451919",
+        "event_type": "post_analysis",
+        "created_at": 1794521129,
+        "details": "{\"related\":[{\"xStatusId\":\"2120970988796170275\",\"url\":\"https://x.com/ChatGPT/status/2120970988796170275\",\"author\":\"ChatGPT\",\"relation\":\"quote\",\"text\":\"Your dot now has… ⚡️ Faster replies 💬 Less jargon 🫡 Better follow-through And, they can now follow your custom instructions. Tell your dot in the thread things like how to behave or which actions need your go-ahead. “always talk in lowercase.” “Show me a draft before sending a…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"We shipped some good updates to dots today and the banked reset has been activated and should land in everyones accounts sometime soon!\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3212,8 +3235,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794520535,
-    "lastRssAttemptAt": 1794520535,
+    "lastRssSuccessAt": 1794521129,
+    "lastRssAttemptAt": 1794521129,
     "sourceState": "online",
     "error": null
   }
