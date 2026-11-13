@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2121134582527594929",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794552930,
-  "updatedAt": 1794552930,
+  "updatedAt": 1794552943,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -100,5 +100,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "234d2b3af7daeccbdf1d5d2c07c6010feebad5543aa8c85c990a802c5daf2eca",
-  "requestPreparedAt": 1794552939331
+  "requestPreparedAt": 1794552939331,
+  "apiStartedAt": 1794552940639,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1064,
+    "output_tokens": 75,
+    "total_tokens": 1139,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002878,
+  "result": {
+    "category": "unrelated",
+    "rationale": "安否を尋ねる投稿への挨拶とチームの近況報告であり、リセット付与・利用枠・有料プランに関する新情報はありません。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794552943959,
+  "elapsedMs": 4992,
+  "decidedAt": 1794552943959,
+  "detectedToDecisionMs": 13959
 }
