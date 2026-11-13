@@ -2058,13 +2058,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 337
+      },
+      {
+        "id": "x:2121132035653894561",
+        "x_status_id": "2121132035653894561",
+        "canonical_url": "https://x.com/thsottiaux/status/2121132035653894561",
+        "fingerprint": "9f67874cf848d777a454663a52bbf1c7ffc09340ed77e717eae2614bd846d6ca",
+        "published_at": 1794552260,
+        "detected_at": 1794552330,
+        "text": "@ajambrosino sino",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 70
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794551732,
+        "last_success_at": 1794552330,
         "last_failure_at": 1794549327,
         "offline_since": null,
         "failure_episodes": 587,
@@ -2082,7 +2099,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2121132035653894561\",\"queuedAt\":1794552330}]"
       },
       {
         "key": "baselineAt",
@@ -2098,7 +2115,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794551732"
+        "value": "1794552330"
       }
     ],
     "events": [
@@ -2311,6 +2328,12 @@
         "event_type": "post_analysis",
         "created_at": 1794536132,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"How can codex be improved?\"}}"
+      },
+      {
+        "id": "analysis:x:2121132035653894561",
+        "event_type": "post_analysis",
+        "created_at": 1794552330,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@ajambrosino sino\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3072,8 +3095,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794551732,
-    "lastRssAttemptAt": 1794551732,
+    "lastRssSuccessAt": 1794552330,
+    "lastRssAttemptAt": 1794552330,
     "sourceState": "online",
     "error": null
   }
