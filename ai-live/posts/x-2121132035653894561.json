@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2121132035653894561",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794552330,
-  "updatedAt": 1794552330,
+  "updatedAt": 1794552344,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -100,5 +100,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "df54a982accbd0871381e3a595c64a93087556dc43091ecb1d91807c520391bd",
-  "requestPreparedAt": 1794552339288
+  "requestPreparedAt": 1794552339288,
+  "apiStartedAt": 1794552340298,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1054,
+    "output_tokens": 92,
+    "total_tokens": 1146,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.003028,
+  "result": {
+    "category": "unrelated",
+    "rationale": "「sino」という短い返信と、取得済みの親投稿「bro」には、リセット・利用枠・有料プランに関する情報がない。",
+    "confidence": 0.98,
+    "uncertainty": "返信の意図は不明。直近のリセット告知とのつながりは確認できない。"
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794552344740,
+  "elapsedMs": 5748,
+  "decidedAt": 1794552344740,
+  "detectedToDecisionMs": 14740
 }
