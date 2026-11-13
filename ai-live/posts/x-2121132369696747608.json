@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2121132369696747608",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794552930,
-  "updatedAt": 1794552930,
+  "updatedAt": 1794552944,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -100,5 +100,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "6cdf31bc3d6c06c6ee23ce6b36f2a47d6fa4c92f48ad9f51c435764d829cba95",
-  "requestPreparedAt": 1794552938439
+  "requestPreparedAt": 1794552938439,
+  "apiStartedAt": 1794552939805,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1107,
+    "output_tokens": 80,
+    "total_tokens": 1187,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.003014,
+  "result": {
+    "category": "unrelated",
+    "rationale": "取得済みの返信先はフィードバックへの姿勢を批判する投稿で、「Sounds like bliss」はそれへの反応。リセット付与や利用枠・有料プランに関する情報はない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794552944150,
+  "elapsedMs": 6011,
+  "decidedAt": 1794552944150,
+  "detectedToDecisionMs": 14150
 }
