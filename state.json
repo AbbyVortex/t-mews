@@ -2075,13 +2075,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 70
+      },
+      {
+        "id": "x:2121132369696747608",
+        "x_status_id": "2121132369696747608",
+        "canonical_url": "https://x.com/thsottiaux/status/2121132369696747608",
+        "fingerprint": "43456a095179da0e4d022448a389b0c348f2ffd1365933e336925d29f382c08c",
+        "published_at": 1794552340,
+        "detected_at": 1794552930,
+        "text": "@snowy_smile_ Sounds like bliss",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 590
+      },
+      {
+        "id": "x:2121134582527594929",
+        "x_status_id": "2121134582527594929",
+        "canonical_url": "https://x.com/thsottiaux/status/2121134582527594929",
+        "fingerprint": "bb489a7d42403519d6bdbe3f3e26e54496991c0bbc6bd25350126654b9e97256",
+        "published_at": 1794552867,
+        "detected_at": 1794552930,
+        "text": "@argofowl Hi 👋 Doing well. Team is busy",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 63
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794552330,
+        "last_success_at": 1794552930,
         "last_failure_at": 1794549327,
         "offline_since": null,
         "failure_episodes": 587,
@@ -2099,7 +2133,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2121134582527594929\",\"queuedAt\":1794552930},{\"id\":\"x:2121132369696747608\",\"queuedAt\":1794552930}]"
       },
       {
         "key": "baselineAt",
@@ -2115,7 +2149,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794552330"
+        "value": "1794552930"
       }
     ],
     "events": [
@@ -2334,6 +2368,18 @@
         "event_type": "post_analysis",
         "created_at": 1794552330,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@ajambrosino sino\"}}"
+      },
+      {
+        "id": "analysis:x:2121132369696747608",
+        "event_type": "post_analysis",
+        "created_at": 1794552930,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@snowy_smile_ Sounds like bliss\"}}"
+      },
+      {
+        "id": "analysis:x:2121134582527594929",
+        "event_type": "post_analysis",
+        "created_at": 1794552930,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@argofowl Hi 👋 Doing well.\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3095,8 +3141,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794552330,
-    "lastRssAttemptAt": 1794552330,
+    "lastRssSuccessAt": 1794552930,
+    "lastRssAttemptAt": 1794552930,
     "sourceState": "online",
     "error": null
   }
