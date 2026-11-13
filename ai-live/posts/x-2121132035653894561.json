@@ -53,5 +53,52 @@
       "display": null
     }
   },
-  "queuedAt": 1794552330
+  "queuedAt": 1794552330,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2121132035653894561",
+    "url": "https://x.com/thsottiaux/status/2121132035653894561",
+    "publishedAt": 1794552260,
+    "text": "@ajambrosino sino",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2121063046173110465",
+        "url": "https://x.com/ajambrosino/status/2121063046173110465",
+        "text": "@thsottiaux bro",
+        "author": "ajambrosino",
+        "publishedAt": 1794535812,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2120410006273380750",
+        "url": "https://x.com/thsottiaux/status/2120410006273380750",
+        "text": "It’s been a while without resets. Maybe I should come back out of the basement",
+        "publishedAt": 1794380115,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      },
+      {
+        "id": "x:2120410480204525936",
+        "url": "https://x.com/thsottiaux/status/2120410480204525936",
+        "text": "Thursday is feeling codexy to me. Perhaps also a good time for a banked reset.",
+        "publishedAt": 1794380228,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      },
+      {
+        "id": "x:2120999993079451919",
+        "url": "https://x.com/thsottiaux/status/2120999993079451919",
+        "text": "We shipped some good updates to dots today and the banked reset has been activated and should land in everyones accounts sometime soon!",
+        "publishedAt": 1794520779,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "df54a982accbd0871381e3a595c64a93087556dc43091ecb1d91807c520391bd",
+  "requestPreparedAt": 1794552339288
 }
