@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2121036562058400200",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794529533,
-  "updatedAt": 1794529533,
+  "updatedAt": 1794529543,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -90,5 +90,27 @@
     "parentStatus": "not_applicable"
   },
   "inputHash": "c043eb3e7ee6c953dae2f543a15072061e4811b1b9f4b3ee31d94f33e5fed59b",
-  "requestPreparedAt": 1794529538726
+  "requestPreparedAt": 1794529538726,
+  "apiStartedAt": 1794529539714,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1014,
+    "output_tokens": 84,
+    "total_tokens": 1098,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002868,
+  "result": {
+    "category": "unrelated",
+    "rationale": "自動パッチ適用・自動レッドチーミングのサイバーセキュリティツールに関する発表であり、利用枠、リセット付与、有料プラン条件への言及はない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794529543486,
+  "elapsedMs": 4761,
+  "decidedAt": 1794529543486,
+  "detectedToDecisionMs": 10486
 }
