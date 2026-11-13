@@ -3,193 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2115622002581188681",
-        "x_status_id": "2115622002581188681",
-        "canonical_url": "https://x.com/thsottiaux/status/2115622002581188681",
-        "fingerprint": "77b653f0970be145806d83ef1e178a716e3ef3be023f8e31100c9a5ec5f525f3",
-        "published_at": 1793238566,
-        "detected_at": 1793238929,
-        "text": "Day 24/ Text your dot just like anyone else. Makes it super easy to share/forward things, leave it voice notes or you can even go creative with \"Hey Siri, text Iggy to <INSERT WILD REQUEST>\" and sit back and relax.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 363
-      },
-      {
-        "id": "x:2115648685069742441",
-        "x_status_id": "2115648685069742441",
-        "canonical_url": "https://x.com/thsottiaux/status/2115648685069742441",
-        "fingerprint": "49d16e76ac9af95e7ccff8ef716e5d8880109009ff4da837fb26ecf534fac86e",
-        "published_at": 1793244928,
-        "detected_at": 1793245540,
-        "text": "@alexandr_wang Muse couldn't build a website so the man just did a redirect",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 612
-      },
-      {
-        "id": "x:2115648938149818370",
-        "x_status_id": "2115648938149818370",
-        "canonical_url": "https://x.com/thsottiaux/status/2115648938149818370",
-        "fingerprint": "b4717b48f1662ad598b56f255225e442344b5b58cd6a14a2826a8bf363939c95",
-        "published_at": 1793244988,
-        "detected_at": 1793245540,
-        "text": "@alexandr_wang @alexandr_wang DM me for a free trial of Pro",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 552
-      },
-      {
-        "id": "x:2115649073302904875",
-        "x_status_id": "2115649073302904875",
-        "canonical_url": "https://x.com/thsottiaux/status/2115649073302904875",
-        "fingerprint": "426175eef663be350f6506dcbe3283a30476ee4fb8a66076087cafc8096afd5c",
-        "published_at": 1793245020,
-        "detected_at": 1793245540,
-        "text": "@rezoundous Low, but not zero",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 520
-      },
-      {
-        "id": "x:2115847315173069025",
-        "x_status_id": "2115847315173069025",
-        "canonical_url": "https://x.com/thsottiaux/status/2115847315173069025",
-        "fingerprint": "3c840e6103769c54826cb2502f9ef600b96b18473ed9108059f822c7f85c90e9",
-        "published_at": 1793292285,
-        "detected_at": 1793292329,
-        "text": "@theo Theo, is that you?",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 44
-      },
-      {
-        "id": "x:2115847364670030218",
-        "x_status_id": "2115847364670030218",
-        "canonical_url": "https://x.com/thsottiaux/status/2115847364670030218",
-        "fingerprint": "cb61a488e2f5cd92df94447327bd581cbd5a6e40eabd141948029c41136ca92c",
-        "published_at": 1793292296,
-        "detected_at": 1793292329,
-        "text": "@poteto Bring it on",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 33
-      },
-      {
-        "id": "x:2115850175868727621",
-        "x_status_id": "2115850175868727621",
-        "canonical_url": "https://x.com/thsottiaux/status/2115850175868727621",
-        "fingerprint": "f3938e86670f6cf466c12caf0a71d7fb86c8e1797726f58f597ea2ac707988d1",
-        "published_at": 1793292967,
-        "detected_at": 1793293530,
-        "text": "Day 25/\n\nWe are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today.\n\nWe heard your kind feedback and won’t be reducing usage limits for Pro 200, so your Work and Codex usage will stay the same. We’re also going to continue offering extended limits for dots for now, and usage of your dot will still continue to be separate from your default usage.\n\nAnd we'll of course also keep shipping better models and other efficiency improvements that increase your effective usage over time.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "LIMIT_CHANGE",
-        "reason": "confirmed allowance, limit rule or subscription consumption change",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 563
-      },
-      {
-        "id": "x:2115851621137784832",
-        "x_status_id": "2115851621137784832",
-        "canonical_url": "https://x.com/thsottiaux/status/2115851621137784832",
-        "fingerprint": "ff31021ce24c2f0023fc8779eb030381e1a79d49a54c6e246ae0539728b05271",
-        "published_at": 1793293311,
-        "detected_at": 1793293530,
-        "text": "Graduating from The Reset Company to The Token Company.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 219
-      },
-      {
-        "id": "x:2115851811576053881",
-        "x_status_id": "2115851811576053881",
-        "canonical_url": "https://x.com/thsottiaux/status/2115851811576053881",
-        "fingerprint": "149a43a740bb00330fc22b577c2bb230e623aa787c8d2ebb5f4ec2fea12de491",
-        "published_at": 1793293357,
-        "detected_at": 1793293530,
-        "text": "@StefanoGPT Yes",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 173
-      },
-      {
-        "id": "x:2115890336107233347",
-        "x_status_id": "2115890336107233347",
-        "canonical_url": "https://x.com/thsottiaux/status/2115890336107233347",
-        "fingerprint": "0c547a46cbfcf618c292d4bd77d85594fa2360dded20b1fd531015670e56d6bf",
-        "published_at": 1793302542,
-        "detected_at": 1793303131,
-        "text": "Send your kind feedback to this person",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 589
-      },
-      {
-        "id": "x:2115974268936712436",
-        "x_status_id": "2115974268936712436",
-        "canonical_url": "https://x.com/thsottiaux/status/2115974268936712436",
-        "fingerprint": "2c895e071067d414f59f4c39fb71bd624d400e4c5248e5ad6a5ed334dbeb9780",
-        "published_at": 1793322553,
-        "detected_at": 1793322931,
-        "text": "@ajambrosino You merge, I split",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 378
-      },
-      {
         "id": "x:2116044153515815186",
         "x_status_id": "2116044153515815186",
         "canonical_url": "https://x.com/thsottiaux/status/2116044153515815186",
@@ -2234,7 +2047,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794533733,
+        "last_success_at": 1794534329,
         "last_failure_at": 1794524131,
         "offline_since": null,
         "failure_episodes": 582,
@@ -2264,38 +2077,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1794447337"
+        "value": "1794534329"
       },
       {
         "key": "lastSuccess",
-        "value": "1794533733"
+        "value": "1794534329"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2115622002581188681",
-        "event_type": "post_analysis",
-        "created_at": 1793238929,
-        "details": "{\"related\":[{\"xStatusId\":\"2115496387613786374\",\"url\":\"https://x.com/ChatGPT/status/2115496387613786374\",\"author\":\"ChatGPT\",\"relation\":\"quote\",\"text\":\"By popular request, you can now text your dot. Give it a task to take off your plate or something to keep an eye on, using text, photos, or even voice notes. It will text you proactively with relevant updates. Safe, secure texting via iMessage or RCS. You’re the only one who can…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Day 24/ Text your dot just like anyone else.\"}}"
-      },
-      {
-        "id": "analysis:x:2115850175868727621",
-        "event_type": "post_analysis",
-        "created_at": 1793293530,
-        "details": "{\"verdict\":{\"classification\":\"LIMIT_CHANGE\",\"notify\":true,\"reason\":\"confirmed allowance, limit rule or subscription consumption change\",\"display\":\"limit\",\"evidence\":\"Day 25/\"}}"
-      },
-      {
-        "id": "analysis:x:2115851621137784832",
-        "event_type": "post_analysis",
-        "created_at": 1793293530,
-        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Graduating from The Reset Company to The Token Company.\"}}"
-      },
-      {
-        "id": "analysis:x:2115890336107233347",
-        "event_type": "post_analysis",
-        "created_at": 1793303131,
-        "details": "{\"related\":[{\"xStatusId\":\"2115855769665147254\",\"url\":\"https://x.com/ajambrosino/status/2115855769665147254\",\"author\":\"ajambrosino\",\"relation\":\"quote\",\"text\":\"hi all, two things: 1. usage limits are back to being double – your feedback worked 2. we today kicked off an intense sprint to dramatically improve the app simplicity and performance. i will oversee this. more to come. now, send me your complaints\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Send your kind feedback to this person\"}}"
-      },
       {
         "id": "analysis:x:2116256600436641887",
         "event_type": "post_analysis",
@@ -2529,18 +2318,6 @@
         "event_type": "notification_sent",
         "created_at": 1794317729,
         "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:post:x:2115850175868727621",
-        "event_type": "notification_sent",
-        "created_at": 1793293530,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2115850175868727621\"}"
-      },
-      {
-        "id": "notification:post:x:2115851621137784832",
-        "event_type": "notification_sent",
-        "created_at": 1793293530,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2115851621137784832\"}"
       },
       {
         "id": "notification:post:x:2116256600436641887",
@@ -3272,8 +3049,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794533733,
-    "lastRssAttemptAt": 1794533733,
+    "lastRssSuccessAt": 1794534329,
+    "lastRssAttemptAt": 1794534329,
     "sourceState": "online",
     "error": null
   }
