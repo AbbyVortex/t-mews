@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2121062974161092792",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794536132,
-  "updatedAt": 1794536132,
+  "updatedAt": 1794536143,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -90,5 +90,27 @@
     "parentStatus": "not_applicable"
   },
   "inputHash": "56910f74716a9c6630f6ed3f0b19d317cac2bd20cee0f9558913dc458a16c341",
-  "requestPreparedAt": 1794536137853
+  "requestPreparedAt": 1794536137853,
+  "apiStartedAt": 1794536138713,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 991,
+    "output_tokens": 68,
+    "total_tokens": 1059,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002662,
+  "result": {
+    "category": "unrelated",
+    "rationale": "Codexの改善案を広く募る投稿であり、利用枠・リセット付与・有料プランに関する具体的な情報はありません。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794536143095,
+  "elapsedMs": 5242,
+  "decidedAt": 1794536143095,
+  "detectedToDecisionMs": 11095
 }
