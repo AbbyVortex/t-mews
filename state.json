@@ -2211,13 +2211,30 @@
         "notified": 1,
         "notification_status": "sent",
         "detection_latency_seconds": 350
+      },
+      {
+        "id": "x:2121036562058400200",
+        "x_status_id": "2121036562058400200",
+        "canonical_url": "https://x.com/thsottiaux/status/2121036562058400200",
+        "fingerprint": "f1f1739305e857af02861dc80d2d2635e8b2c3df5bb5853e12bbe9bd77bfbe60",
+        "published_at": 1794529498,
+        "detected_at": 1794529533,
+        "text": "We announced new tools we're developing for cybersecurity today across automated patching and automated red teaming. Watch the recording here https://openai.com/cyber-at-the-frontier/",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 35
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794528985,
+        "last_success_at": 1794529533,
         "last_failure_at": 1794524131,
         "offline_since": null,
         "failure_episodes": 582,
@@ -2235,7 +2252,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2121036562058400200\",\"queuedAt\":1794529533}]"
       },
       {
         "key": "baselineAt",
@@ -2251,7 +2268,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794528985"
+        "value": "1794529533"
       }
     ],
     "events": [
@@ -2476,6 +2493,12 @@
         "event_type": "post_analysis",
         "created_at": 1794521129,
         "details": "{\"related\":[{\"xStatusId\":\"2120970988796170275\",\"url\":\"https://x.com/ChatGPT/status/2120970988796170275\",\"author\":\"ChatGPT\",\"relation\":\"quote\",\"text\":\"Your dot now has… ⚡️ Faster replies 💬 Less jargon 🫡 Better follow-through And, they can now follow your custom instructions. Tell your dot in the thread things like how to behave or which actions need your go-ahead. “always talk in lowercase.” “Show me a draft before sending a…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"We shipped some good updates to dots today and the banked reset has been activated and should land in everyones accounts sometime soon!\"}}"
+      },
+      {
+        "id": "analysis:x:2121036562058400200",
+        "event_type": "post_analysis",
+        "created_at": 1794529533,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"We announced new tools we're developing for cybersecurity today across automated patching and automated red teaming.\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3249,8 +3272,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794528985,
-    "lastRssAttemptAt": 1794528985,
+    "lastRssSuccessAt": 1794529533,
+    "lastRssAttemptAt": 1794529533,
     "sourceState": "online",
     "error": null
   }
