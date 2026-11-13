@@ -2041,13 +2041,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 35
+      },
+      {
+        "id": "x:2121062974161092792",
+        "x_status_id": "2121062974161092792",
+        "canonical_url": "https://x.com/thsottiaux/status/2121062974161092792",
+        "fingerprint": "c15be7d48edac8c7f88cdb1aa4e65c2e1a91335790f75254098e7c7c45ac55ca",
+        "published_at": 1794535795,
+        "detected_at": 1794536132,
+        "text": "How can codex be improved? Try not to say model.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 337
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794535527,
+        "last_success_at": 1794536132,
         "last_failure_at": 1794524131,
         "offline_since": null,
         "failure_episodes": 582,
@@ -2065,7 +2082,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2121062974161092792\",\"queuedAt\":1794536132}]"
       },
       {
         "key": "baselineAt",
@@ -2081,7 +2098,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794535527"
+        "value": "1794536132"
       }
     ],
     "events": [
@@ -2288,6 +2305,12 @@
         "event_type": "post_analysis",
         "created_at": 1794529533,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"We announced new tools we're developing for cybersecurity today across automated patching and automated red teaming.\"}}"
+      },
+      {
+        "id": "analysis:x:2121062974161092792",
+        "event_type": "post_analysis",
+        "created_at": 1794536132,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"How can codex be improved?\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3049,8 +3072,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794535527,
-    "lastRssAttemptAt": 1794535527,
+    "lastRssSuccessAt": 1794536132,
+    "lastRssAttemptAt": 1794536132,
     "sourceState": "online",
     "error": null
   }
