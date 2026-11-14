@@ -2325,6 +2325,12 @@
         "details": "{\"kind\":\"offline\",\"postId\":null}"
       },
       {
+        "id": "notification:offline:1794674135",
+        "event_type": "notification_sent",
+        "created_at": 1794675333,
+        "details": "{\"kind\":\"offline\",\"postId\":null}"
+      },
+      {
         "id": "notification:post:x:2116405414921384099",
         "event_type": "notification_sent",
         "created_at": 1793425531,
@@ -2513,8 +2519,8 @@
         "post_id": null,
         "kind": "offline",
         "created_at": 1794675333,
-        "status": "sending",
-        "sent_at": null
+        "status": "sent",
+        "sent_at": 1794675333
       },
       {
         "id": "online",
