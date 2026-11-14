@@ -25,22 +25,12 @@ export async function monitor(env: Env, now=Math.floor(Date.now()/1000), fetcher
   if(items) break;
  }
  if(!items) {
-  const outage=state.outage??now;
-  await env.DB.batch([put(env.DB,'outage',outage),env.DB.prepare("DELETE FROM state WHERE key='recoverySince'")]);
-  if(now-outage>=900) await notify(env,`offline:${outage}`,'offline','📡 T-MEWS sensor offline','すべての利用可能なRSSソースが15分以上連続で取得に失敗しています。',now,fetcher);
+  if(!state.outage) await put(env.DB,'outage',now).run();
   return;
  }
- if(state.outage) {
-  const warning=await env.DB.prepare('SELECT status FROM notifications WHERE id=?').bind(`offline:${state.outage}`).first<{status:string}>();
-  const recoverySince=state.recoverySince??now;
-  if(warning && now-recoverySince<600) {
-   await put(env.DB,'recoverySince',recoverySince).run();
-  }else {
-   if(warning && ['sent','unknown','sending'].includes(warning.status)) await notify(env,`recovered:${state.outage}`,'recovered','📡 T-MEWS sensor recovered',`RSS取得の連続成功を10分以上確認しました。ソース: ${active}`,now,fetcher);
-   await env.DB.prepare("DELETE FROM state WHERE key IN ('outage','recoverySince')").run();
-  }
- }
- await env.DB.batch([put(env.DB,'lastSuccess',now),put(env.DB,'activeSource',active)]);
+ const successWrites=[put(env.DB,'lastSuccess',now),put(env.DB,'activeSource',active)];
+ if(state.outage||state.recoverySince) successWrites.push(env.DB.prepare("DELETE FROM state WHERE key IN ('outage','recoverySince')"));
+ await env.DB.batch(successWrites);
  // An empty observation is healthy, but cannot establish the historical baseline.
  if(!items.length&&!state.baselineAt) return;
  const bootstrap=!state.baselineAt;

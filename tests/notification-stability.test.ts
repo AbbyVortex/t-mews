@@ -32,26 +32,25 @@ test('short 404/success oscillation is silent and unchanged feeds remain success
  assert.equal(h.state().publicStatus?.lastRssSuccessAt,start+3600);
  assert.deepEqual(h.state().tables.posts,before.tables.posts);
 });
-test('long outage stays one episode through flapping; recovery waits ten minutes but important posts do not',async t=>{
+test('long outages and recovery update radar health without pushes; important posts still notify',async t=>{
  const h=await harness(t),before=structuredClone(h.state());
- h.set(404);await h.run(300);await h.run(1199);assert.equal(h.messages.length,2);
- await h.run(1200);assert.match(h.messages.at(-1)!,/offline/);
- h.set(200,xml('2','We will reset the usage limits tomorrow.',start+1400));await h.run(1500);
- assert.equal(h.messages.length,4);assert.match(h.messages.at(-1)!,/リセット予告/);
- assert.equal(h.state().tables.state.some(r=>r.key==='outage'),true);
- h.set(404);await h.run(1800);await h.run(3000);
- assert.equal(h.messages.length,4,'same episode must not emit another offline');
- h.set(200,xml('2','We will reset the usage limits tomorrow.',start+1400));
- await h.run(3300);await h.run(3600);assert.equal(h.messages.length,4);
- await h.run(3900);await h.run(4500);
- assert.equal(h.messages.length,5);assert.match(h.messages.at(-1)!,/recovered/);
- assert.equal(h.state().tables.state.some(r=>['outage','recoverySince'].includes(r.key)),false);
+ h.set(404);await h.run(300);await h.run(1200);await h.run(2400);
+ assert.equal(h.messages.length,2);
+ assert.deepEqual(h.state().publicStatus,{version:1,lastRssSuccessAt:start,lastRssAttemptAt:start+2400,sourceState:'offline',error:'http_404'});
+ assert.deepEqual(h.state().tables.notifications,before.tables.notifications);
+ h.set(200,xml('2','We will reset the usage limits tomorrow.',start+2600));await h.run(2700);
+ assert.equal(h.messages.length,3);assert.match(h.messages.at(-1)!,/リセット予告/);
+ assert.equal(h.state().publicStatus?.sourceState,'online');
+ assert.equal(h.state().publicStatus?.lastRssSuccessAt,start+2700);
+ assert.equal(h.state().tables.state.some(r=>r.key==='outage'),false);
+ h.set(503);await h.run(3300);await h.run(4500);
+ assert.equal(h.state().publicStatus?.sourceState,'offline');
+ h.set(200,xml('2','We will reset the usage limits tomorrow.',start+2600));await h.run(5100);await h.run(5700);
+ assert.equal(h.state().publicStatus?.sourceState,'online');
+ assert.equal(h.messages.length,3);
  for(const row of before.tables.notifications)assert.deepEqual(h.state().tables.notifications.find(n=>n.id===row.id),row);
  assert.deepEqual(h.state().tables.state.find(r=>r.key==='baselineAt'),before.tables.state.find(r=>r.key==='baselineAt'));
  assert.equal(h.state().tables.notifications.filter(n=>n.id==='post:x:2').length,1);
- // A later genuine outage is a new episode, with its own single notification.
- h.set(503);await h.run(5100);await h.run(6300);
- assert.equal(h.messages.filter(x=>x.includes('offline')).length,2);
 });
 test('invalid responses preserve last success and data; authenticated-by-content empty feed is success',async t=>{
  const h=await harness(t),before=structuredClone(h.state());

@@ -75,18 +75,22 @@ test('Actions: no test means no monitoring; missing or invalid state fails close
  const store=new MemoryStore();const db=new LocalD1();store.state=db.snapshot();db.close();
  await assert.rejects(runAction('monitor',store,secrets,async()=>{throw new Error('must not fetch')}));
 });
-test('Actions: temporary RSS failure and recovery across delayed runs',async()=>{
- const store=new MemoryStore();let outage=false;const titles:string[]=[];
+test('Actions: an outage warned before the update recovers silently and keeps its notification history',async()=>{
+ const store=new MemoryStore();const titles:string[]=[];
  const fetcher=(async(input:any,init:any)=>{
   if(String(input).includes('pushover')){titles.push(new URLSearchParams(init.body).get('title')!);return Response.json({status:1});}
-  return outage?new Response('',{status:503}):new Response(xml('1','Codex performance',start-100));
+  return new Response(xml('1','Codex performance',start-100));
  }) as typeof fetch;
  await runAction('test',store,secrets,fetcher,start);await runAction('monitor',store,secrets,fetcher,start);
- outage=true;await runAction('monitor',store,secrets,fetcher,start+300);await runAction('monitor',store,secrets,fetcher,start+900);
+ const outage=start+300;
+ const warning={id:`offline:${outage}`,post_id:null,kind:'offline',created_at:start+1200,status:'sent',sent_at:start+1200};
+ store.state!.tables.notifications.push(warning);
+ store.state!.tables.state.push({key:'outage',value:String(outage)},{key:'recoverySince',value:String(start+1500)});
+ await runAction('monitor',store,secrets,fetcher,start+2100);
  assert.equal(titles.length,2);
- await runAction('monitor',store,secrets,fetcher,start+1200);assert.match(titles.at(-1)!,/offline/);
- outage=false;await runAction('monitor',store,secrets,fetcher,start+1500);assert.match(titles.at(-1)!,/offline/);
- await runAction('monitor',store,secrets,fetcher,start+2100);assert.match(titles.at(-1)!,/recovered/);
+ assert.equal(store.state!.publicStatus?.sourceState,'online');
+ assert.deepEqual(store.state!.tables.notifications.find(row=>row.id===warning.id),warning);
+ assert.equal(store.state!.tables.state.some(row=>['outage','recoverySince'].includes(row.key)),false);
 });
 
 test('Actions: primary operation survives the legacy five-day expiry and retains delivery dedup',async()=>{
