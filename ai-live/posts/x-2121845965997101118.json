@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2121845965997101118",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794723331,
-  "updatedAt": 1794723331,
+  "updatedAt": 1794723341,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -58,5 +58,27 @@
     "parentStatus": "not_applicable"
   },
   "inputHash": "9b55f3fe7b501a67c150001ab93263deebf6b10f5995665318afe90ba5fdb22c",
-  "requestPreparedAt": 1794723336674
+  "requestPreparedAt": 1794723336674,
+  "apiStartedAt": 1794723337699,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 870,
+    "output_tokens": 77,
+    "total_tokens": 947,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.00251,
+  "result": {
+    "category": "unrelated",
+    "rationale": "DaybreakのモデルやCodexプラグイン、セキュリティ機能への意見募集であり、利用枠・リセット付与・有料プラン条件の新情報はありません。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794723341093,
+  "elapsedMs": 4420,
+  "decidedAt": 1794723341093,
+  "detectedToDecisionMs": 10093
 }
