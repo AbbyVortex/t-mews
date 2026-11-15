@@ -1922,17 +1922,34 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 63
+      },
+      {
+        "id": "x:2121845965997101118",
+        "x_status_id": "2121845965997101118",
+        "canonical_url": "https://x.com/thsottiaux/status/2121845965997101118",
+        "fingerprint": "38dafdaf0628bb52390be0b817b31b4646e84baf2d4f3c950c3071d1430643f1",
+        "published_at": 1794722474,
+        "detected_at": 1794723331,
+        "text": "Cyber team wants your feedback on Daybreak. Models, codex plugins, blue/red access, documentation, red teaming & defense factory... What can we do better or improve?",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 857
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1794722139,
+        "state": "online",
+        "last_success_at": 1794723331,
         "last_failure_at": 1794722728,
-        "offline_since": 1794722728,
+        "offline_since": null,
         "failure_episodes": 627,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -1946,7 +1963,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2121845965997101118\",\"queuedAt\":1794723331}]"
       },
       {
         "key": "baselineAt",
@@ -1962,11 +1979,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794722139"
-      },
-      {
-        "key": "outage",
-        "value": "1794722728"
+        "value": "1794723331"
       }
     ],
     "events": [
@@ -2185,6 +2198,12 @@
         "event_type": "post_analysis",
         "created_at": 1794552930,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@argofowl Hi 👋 Doing well.\"}}"
+      },
+      {
+        "id": "analysis:x:2121845965997101118",
+        "event_type": "post_analysis",
+        "created_at": 1794723331,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Cyber team wants your feedback on Daybreak.\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -2962,9 +2981,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794722139,
-    "lastRssAttemptAt": 1794722728,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1794723331,
+    "lastRssAttemptAt": 1794723331,
+    "sourceState": "online",
+    "error": null
   }
 }
