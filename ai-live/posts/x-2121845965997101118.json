@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "id": "x:2121845965997101118",
+  "status": "claimed",
+  "createdAt": 1794723331,
+  "updatedAt": 1794723331,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "reason": "no usage reset or material allowance signal",
+    "evidence": "Cyber team wants your feedback on Daybreak."
+  },
+  "candidate": {
+    "id": "x:2121845965997101118",
+    "url": "https://x.com/thsottiaux/status/2121845965997101118",
+    "text": "Cyber team wants your feedback on Daybreak. Models, codex plugins, blue/red access, documentation, red teaming & defense factory... What can we do better or improve?",
+    "related": [],
+    "publishedAt": 1794722474,
+    "kind": "post",
+    "discoveredAt": 1794723331,
+    "recentContext": [
+      {
+        "id": "x:2120999993079451919",
+        "url": "https://x.com/thsottiaux/status/2120999993079451919",
+        "text": "We shipped some good updates to dots today and the banked reset has been activated and should land in everyones accounts sometime soon!",
+        "publishedAt": 1794520779,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "rule": {
+      "classification": "IRRELEVANT",
+      "notify": false,
+      "display": null
+    }
+  },
+  "queuedAt": 1794723331
+}
