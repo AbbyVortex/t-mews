@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122206990101536852",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794809136,
-  "updatedAt": 1794809136,
+  "updatedAt": 1794809148,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -40,5 +40,27 @@
     "parentStatus": "not_applicable"
   },
   "inputHash": "92a4ce18e2e27cad50f8b7b19734022985fb1c86b51ec90f3433b72f8c9bd208",
-  "requestPreparedAt": 1794809141141
+  "requestPreparedAt": 1794809141141,
+  "apiStartedAt": 1794809142093,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 774,
+    "output_tokens": 99,
+    "total_tokens": 873,
+    "cached_tokens": 0,
+    "reasoning_tokens": 25
+  },
+  "referenceCostUsd": 0.002538,
+  "result": {
+    "category": "unrelated",
+    "rationale": "Codexの「model at capacity」エラー修正に関する投稿で、リセット付与や利用枠・有料プラン条件の変更を示す情報ではありません。",
+    "confidence": 0.97,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794809148552,
+  "elapsedMs": 7412,
+  "decidedAt": 1794809148552,
+  "detectedToDecisionMs": 12552
 }
