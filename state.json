@@ -3,142 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2116935471976919340",
-        "x_status_id": "2116935471976919340",
-        "canonical_url": "https://x.com/thsottiaux/status/2116935471976919340",
-        "fingerprint": "fbd516228fa1f26d4bd8f028fe3b3c26e0331939b9ad43c7f9f48af07a78279c",
-        "published_at": 1793551721,
-        "detected_at": 1793552131,
-        "text": "@jxnlco @wesleytian @romainhuet 😂",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 410
-      },
-      {
-        "id": "x:2116935650511585696",
-        "x_status_id": "2116935650511585696",
-        "canonical_url": "https://x.com/thsottiaux/status/2116935650511585696",
-        "fingerprint": "e43fac0c49e0a581cfcec0b8ae7bc6a7da4295650fd0bce63c021c43ee0d02f7",
-        "published_at": 1793551764,
-        "detected_at": 1793552131,
-        "text": "Dot still autocorrects to dog and that makes many texts I receive hilarious",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 367
-      },
-      {
-        "id": "x:2116935821534380166",
-        "x_status_id": "2116935821534380166",
-        "canonical_url": "https://x.com/thsottiaux/status/2116935821534380166",
-        "fingerprint": "ad8619712a6e7191972321524ca6af75309a05e110bc792c6e4dd83fe13c728f",
-        "published_at": 1793551805,
-        "detected_at": 1793552131,
-        "text": "I love my dog, I have it on speed dial, arranged my haircut yesterday",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 326
-      },
-      {
-        "id": "x:2116936031866077423",
-        "x_status_id": "2116936031866077423",
-        "canonical_url": "https://x.com/thsottiaux/status/2116936031866077423",
-        "fingerprint": "1d958d25060f598593295bf1b5c5671b3220f64aadb841a9ddacbaae5ee295aa",
-        "published_at": 1793551855,
-        "detected_at": 1793552131,
-        "text": "My dog sent you the meeting notes from yesterday, did you see them?",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 276
-      },
-      {
-        "id": "x:2116936205623611781",
-        "x_status_id": "2116936205623611781",
-        "canonical_url": "https://x.com/thsottiaux/status/2116936205623611781",
-        "fingerprint": "7497e96681faf9e516cb72b3d3aeda9ac1695d6dd4577e862ec9b23f2a5ca246",
-        "published_at": 1793551896,
-        "detected_at": 1793552131,
-        "text": "My dog just patched that bug we couldn’t find for two weeks. Clever dog",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 235
-      },
-      {
-        "id": "x:2116942192497533418",
-        "x_status_id": "2116942192497533418",
-        "canonical_url": "https://x.com/thsottiaux/status/2116942192497533418",
-        "fingerprint": "e90ae8740c9a3c60fc35a44e2c7528e85c21f137d2b427bdd9d72f542c0bf37a",
-        "published_at": 1793553324,
-        "detected_at": 1793553329,
-        "text": "@TokenGremlin I demand a banked reset",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 5
-      },
-      {
-        "id": "x:2117035666332954818",
-        "x_status_id": "2117035666332954818",
-        "canonical_url": "https://x.com/thsottiaux/status/2117035666332954818",
-        "fingerprint": "26ec8f19d595d2e18cfb4a1de52ac6828933f91f251001ebd7ac20b35228b183",
-        "published_at": 1793575610,
-        "detected_at": 1793576132,
-        "text": "@poteto @MyCrazyIdeal it's fine to admit we plan these together months in advance",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 522
-      },
-      {
-        "id": "x:2117035794678546764",
-        "x_status_id": "2117035794678546764",
-        "canonical_url": "https://x.com/thsottiaux/status/2117035794678546764",
-        "fingerprint": "73a2f97f7b2e31e974bcb8f0b53e3c68ca3ff66b4caf104533b225323d9d86c9",
-        "published_at": 1793575640,
-        "detected_at": 1793576132,
-        "text": "Day 28/ Banked 2/2",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 492
-      },
-      {
         "id": "x:2117151734506397716",
         "x_status_id": "2117151734506397716",
         "canonical_url": "https://x.com/thsottiaux/status/2117151734506397716",
@@ -1945,7 +1809,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794794739,
+        "last_success_at": 1794795338,
         "last_failure_at": 1794792930,
         "offline_since": null,
         "failure_episodes": 645,
@@ -1975,20 +1839,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1794708930"
+        "value": "1794795338"
       },
       {
         "key": "lastSuccess",
-        "value": "1794794739"
+        "value": "1794795338"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2116942192497533418",
-        "event_type": "post_analysis",
-        "created_at": 1793553329,
-        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@TokenGremlin I demand a banked reset\"}}"
-      },
       {
         "id": "analysis:x:2117151734506397716",
         "event_type": "post_analysis",
@@ -2240,12 +2098,6 @@
         "event_type": "notification_sent",
         "created_at": 1794675333,
         "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:post:x:2116942192497533418",
-        "event_type": "notification_sent",
-        "created_at": 1793553329,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2116942192497533418\"}"
       },
       {
         "id": "notification:post:x:2119308687676432672",
@@ -2981,8 +2833,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794794739,
-    "lastRssAttemptAt": 1794794739,
+    "lastRssSuccessAt": 1794795338,
+    "lastRssAttemptAt": 1794795338,
     "sourceState": "online",
     "error": null
   }
