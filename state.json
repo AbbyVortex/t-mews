@@ -1803,13 +1803,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 857
+      },
+      {
+        "id": "x:2122206990101536852",
+        "x_status_id": "2122206990101536852",
+        "canonical_url": "https://x.com/thsottiaux/status/2122206990101536852",
+        "fingerprint": "0ed8ee7886d6589b645af1e143902209c99277ec5639488afdbfe3abf0984fda",
+        "published_at": 1794808549,
+        "detected_at": 1794809136,
+        "text": "Codex team might have actually fixed the \"model at capacity\" errors that have been pestering you.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 587
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794808539,
+        "last_success_at": 1794809136,
         "last_failure_at": 1794806733,
         "offline_since": null,
         "failure_episodes": 648,
@@ -1827,7 +1844,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2122206990101536852\",\"queuedAt\":1794809136}]"
       },
       {
         "key": "baselineAt",
@@ -1843,7 +1860,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794808539"
+        "value": "1794809136"
       }
     ],
     "events": [
@@ -2062,6 +2079,12 @@
         "event_type": "post_analysis",
         "created_at": 1794723331,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Cyber team wants your feedback on Daybreak.\"}}"
+      },
+      {
+        "id": "analysis:x:2122206990101536852",
+        "event_type": "post_analysis",
+        "created_at": 1794809136,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Codex team might have actually fixed the \\\"model at capacity\\\" errors that have been pestering you.\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -2833,8 +2856,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794808539,
-    "lastRssAttemptAt": 1794808539,
+    "lastRssSuccessAt": 1794809136,
+    "lastRssAttemptAt": 1794809136,
     "sourceState": "online",
     "error": null
   }
