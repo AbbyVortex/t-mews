@@ -28,5 +28,17 @@
       "display": null
     }
   },
-  "queuedAt": 1794809136
+  "queuedAt": 1794809136,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122206990101536852",
+    "url": "https://x.com/thsottiaux/status/2122206990101536852",
+    "publishedAt": 1794808549,
+    "text": "Codex team might have actually fixed the \"model at capacity\" errors that have been pestering you.",
+    "related": [],
+    "recentContext": [],
+    "parentStatus": "not_applicable"
+  },
+  "inputHash": "92a4ce18e2e27cad50f8b7b19734022985fb1c86b51ec90f3433b72f8c9bd208",
+  "requestPreparedAt": 1794809141141
 }
