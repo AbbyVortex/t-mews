@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "x:2122206990101536852",
+  "status": "claimed",
+  "createdAt": 1794809136,
+  "updatedAt": 1794809136,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "reason": "no usage reset or material allowance signal",
+    "evidence": "Codex team might have actually fixed the \"model at capacity\" errors that have been pestering you."
+  },
+  "candidate": {
+    "id": "x:2122206990101536852",
+    "url": "https://x.com/thsottiaux/status/2122206990101536852",
+    "text": "Codex team might have actually fixed the \"model at capacity\" errors that have been pestering you.",
+    "related": [],
+    "publishedAt": 1794808549,
+    "kind": "post",
+    "discoveredAt": 1794809136,
+    "recentContext": [],
+    "rule": {
+      "classification": "IRRELEVANT",
+      "notify": false,
+      "display": null
+    }
+  },
+  "queuedAt": 1794809136
+}
