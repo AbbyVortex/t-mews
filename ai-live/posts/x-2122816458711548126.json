@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122816458711548126",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794954333,
-  "updatedAt": 1794954333,
+  "updatedAt": 1794954353,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "1338c61ab160c13ca5c83679e4f16d8d0c60e8442938ff31ab77a4564b690102",
-  "requestPreparedAt": 1794954345964
+  "requestPreparedAt": 1794954345964,
+  "apiStartedAt": 1794954347210,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1075,
+    "output_tokens": 187,
+    "total_tokens": 1262,
+    "cached_tokens": 0,
+    "reasoning_tokens": 84
+  },
+  "referenceCostUsd": 0.00402,
+  "result": {
+    "category": "chatter",
+    "rationale": "モデルの改善や低コスト・高速化への一般的な評価。親投稿にはPlus枠の消費への言及があるが、Tibo自身は利用上限・消費ルールの具体的変更やリセット付与を告知していない。",
+    "confidence": 0.95,
+    "uncertainty": "親投稿の末尾が途切れている。"
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794954353460,
+  "elapsedMs": 8065,
+  "decidedAt": 1794954353460,
+  "detectedToDecisionMs": 20460
 }
