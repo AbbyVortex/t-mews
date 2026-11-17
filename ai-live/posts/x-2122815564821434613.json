@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122815564821434613",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794953730,
-  "updatedAt": 1794953730,
+  "updatedAt": 1794953744,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "039ecd61136061d6086799d76cbea75f1eac7aae2d7ae3cc3ce5661974827b50",
-  "requestPreparedAt": 1794953739473
+  "requestPreparedAt": 1794953739473,
+  "apiStartedAt": 1794953740450,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 943,
+    "output_tokens": 74,
+    "total_tokens": 1017,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002626,
+  "result": {
+    "category": "unrelated",
+    "rationale": "モデル性能ベンチマーク「ClutterBench」が何かを尋ねているだけで、利用枠・リセット付与・有料プラン変更に関する情報はありません。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794953744981,
+  "elapsedMs": 6428,
+  "decidedAt": 1794953744981,
+  "detectedToDecisionMs": 14981
 }
