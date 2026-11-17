@@ -28,5 +28,17 @@
       "display": null
     }
   },
-  "queuedAt": 1794939329
+  "queuedAt": 1794939329,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122754551187132438",
+    "url": "https://x.com/thsottiaux/status/2122754551187132438",
+    "publishedAt": 1794939098,
+    "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+    "related": [],
+    "recentContext": [],
+    "parentStatus": "not_applicable"
+  },
+  "inputHash": "9fba42ea5c9c6705c508038d65708c5b774f738154f5bdae2e41dcf598661d66",
+  "requestPreparedAt": 1794939335018
 }
