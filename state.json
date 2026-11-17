@@ -3,108 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2117151734506397716",
-        "x_status_id": "2117151734506397716",
-        "canonical_url": "https://x.com/thsottiaux/status/2117151734506397716",
-        "fingerprint": "b4dfc424168ff03286d4f29b41474f505fc1553ed83f625a9b816044814b9ba4",
-        "published_at": 1793603282,
-        "detected_at": 1793603730,
-        "text": "@poteto Game so good because poteto used all the compute and forced Elon to pull the plug\n\nhttps://x.com/elonmusk/status/2116992258520064397?a=VVmI1URYiApKYQUo05k&s=20",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 448
-      },
-      {
-        "id": "x:2117151862705230048",
-        "x_status_id": "2117151862705230048",
-        "canonical_url": "https://x.com/thsottiaux/status/2117151862705230048",
-        "fingerprint": "38fc93b5b0971ad84acac88ab8d87eaeacbecade22a80ed50582003c48451402",
-        "published_at": 1793603313,
-        "detected_at": 1793603730,
-        "text": "@poteto I finished it though",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 417
-      },
-      {
-        "id": "x:2117283124833055196",
-        "x_status_id": "2117283124833055196",
-        "canonical_url": "https://x.com/thsottiaux/status/2117283124833055196",
-        "fingerprint": "acbd6abf00553a96450fce95895386734a30a23a2d5660b7332e2f8ab3702296",
-        "published_at": 1793634608,
-        "detected_at": 1793634930,
-        "text": "Fellow resetters, heads up that we're working on expanding the family of frontier models that power dots, including GPT-6 Astra and GPT-6.1 Terra and some others in the future. Terra brings speed and a nice personality upgrade, and will help us bring dots to more people.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 322
-      },
-      {
-        "id": "x:2117283355427495983",
-        "x_status_id": "2117283355427495983",
-        "canonical_url": "https://x.com/thsottiaux/status/2117283355427495983",
-        "fingerprint": "4aa6bc63133e22eb2bb4f8e48529e9e7d5fe786fb83d424eb39f381b21e3c0f6",
-        "published_at": 1793634663,
-        "detected_at": 1793634930,
-        "text": "Your dot will choose the best model for the task, drawing on different models for different parts of the work.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 267
-      },
-      {
-        "id": "x:2117364233210151160",
-        "x_status_id": "2117364233210151160",
-        "canonical_url": "https://x.com/thsottiaux/status/2117364233210151160",
-        "fingerprint": "0adc1c19c02b3d2a8a96250a719258ab5eff9612486c0ecf211e2ad7f8d0d9bc",
-        "published_at": 1793653946,
-        "detected_at": 1793654130,
-        "text": "@jxnlco Always been a fan",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 184
-      },
-      {
-        "id": "x:2117412956950638872",
-        "x_status_id": "2117412956950638872",
-        "canonical_url": "https://x.com/thsottiaux/status/2117412956950638872",
-        "fingerprint": "2e3522a3269a68751780277b233a3a32b70ef911dbc71233737c5a1b7b12afaa",
-        "published_at": 1793665563,
-        "detected_at": 1793666130,
-        "text": "We know some Git-fu. Excited the team is finally able to talk about it a bit. Massive props to @tnm and team",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 567
-      },
-      {
         "id": "x:2117489367417803042",
         "x_status_id": "2117489367417803042",
         "canonical_url": "https://x.com/thsottiaux/status/2117489367417803042",
@@ -1826,7 +1724,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794881141,
+        "last_success_at": 1794881744,
         "last_failure_at": 1794878736,
         "offline_since": null,
         "failure_episodes": 663,
@@ -1856,26 +1754,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1794795338"
+        "value": "1794881744"
       },
       {
         "key": "lastSuccess",
-        "value": "1794881141"
+        "value": "1794881744"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2117151734506397716",
-        "event_type": "post_analysis",
-        "created_at": 1793603730,
-        "details": "{\"related\":[{\"xStatusId\":\"2116992258520064397\",\"url\":\"https://x.com/elonmusk/status/2116992258520064397\",\"author\":\"elonmusk\",\"relation\":\"quote\",\"text\":\"@DogecoinNorway The cost of serving Grok Bot was unsustainably high relative to revenue\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@poteto Game so good because poteto used all the compute and forced Elon to pull the plug\"}}"
-      },
-      {
-        "id": "analysis:x:2117412956950638872",
-        "event_type": "post_analysis",
-        "created_at": 1793666130,
-        "details": "{\"related\":[{\"xStatusId\":\"2117408792346509663\",\"url\":\"https://x.com/OpenAIDevs/status/2117408792346509663\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"We built Pando, a new Git backend for our monorepo, to handle more pushes and fetches without changing how our engineers and agents use Git. Pando cut push latency by ~80% and now serves nearly a petabyte of Git data a day. We can grow Git capacity alongside agent usage.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"We know some Git-fu.\"}}"
-      },
       {
         "id": "analysis:x:2117888243119304945",
         "event_type": "post_analysis",
@@ -2856,8 +2742,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794881141,
-    "lastRssAttemptAt": 1794881141,
+    "lastRssSuccessAt": 1794881744,
+    "lastRssAttemptAt": 1794881744,
     "sourceState": "online",
     "error": null
   }
