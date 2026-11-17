@@ -1769,13 +1769,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 231
+      },
+      {
+        "id": "x:2122815564821434613",
+        "x_status_id": "2122815564821434613",
+        "canonical_url": "https://x.com/thsottiaux/status/2122815564821434613",
+        "fingerprint": "0fb9b16dd4ff7d57f68a59289f3f9a930a4ea161fd87a4e373d8755e0d2fcb64",
+        "published_at": 1794953645,
+        "detected_at": 1794953730,
+        "text": "@AdamHoltererer What is ClutterBench",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 85
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794953130,
+        "last_success_at": 1794953730,
         "last_failure_at": 1794951342,
         "offline_since": null,
         "failure_episodes": 681,
@@ -1793,7 +1810,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2122815564821434613\",\"queuedAt\":1794953730}]"
       },
       {
         "key": "baselineAt",
@@ -1809,7 +1826,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794953130"
+        "value": "1794953730"
       }
     ],
     "events": [
@@ -2040,6 +2057,12 @@
         "event_type": "post_analysis",
         "created_at": 1794939329,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes\"}}"
+      },
+      {
+        "id": "analysis:x:2122815564821434613",
+        "event_type": "post_analysis",
+        "created_at": 1794953730,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@AdamHoltererer What is ClutterBench\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -2825,8 +2848,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794953130,
-    "lastRssAttemptAt": 1794953130,
+    "lastRssSuccessAt": 1794953730,
+    "lastRssAttemptAt": 1794953730,
     "sourceState": "online",
     "error": null
   }
