@@ -28,5 +28,27 @@
       "display": null
     }
   },
-  "queuedAt": 1794886821
+  "queuedAt": 1794886821,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122534533216268747",
+    "url": "https://x.com/thsottiaux/status/2122534533216268747",
+    "publishedAt": 1794886642,
+    "text": "@AdamHoltererer 6.1 Sol forever",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122389587163062381",
+        "url": "https://x.com/AdamHoltererer/status/2122389587163062381",
+        "text": "OpenAI really needs to release a new model soon",
+        "author": "AdamHoltererer",
+        "publishedAt": 1794852084,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "de38face4ca2d2dd28b27c81bf07e69f268114992f3ec54cd6a1c2d6d3abecdb",
+  "requestPreparedAt": 1794886829690
 }
