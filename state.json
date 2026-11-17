@@ -1718,17 +1718,34 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 587
+      },
+      {
+        "id": "x:2122534533216268747",
+        "x_status_id": "2122534533216268747",
+        "canonical_url": "https://x.com/thsottiaux/status/2122534533216268747",
+        "fingerprint": "0c6eaf97a16305ef43c1b8db505b6e3af9578e4040ce4b091ae31bd26eaad67e",
+        "published_at": 1794886642,
+        "detected_at": 1794886821,
+        "text": "@AdamHoltererer 6.1 Sol forever",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 179
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1794885937,
+        "state": "online",
+        "last_success_at": 1794886821,
         "last_failure_at": 1794886527,
-        "offline_since": 1794886527,
+        "offline_since": null,
         "failure_episodes": 664,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -1742,7 +1759,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2122534533216268747\",\"queuedAt\":1794886821}]"
       },
       {
         "key": "baselineAt",
@@ -1758,11 +1775,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794885937"
-      },
-      {
-        "key": "outage",
-        "value": "1794886527"
+        "value": "1794886821"
       }
     ],
     "events": [
@@ -1975,6 +1988,12 @@
         "event_type": "post_analysis",
         "created_at": 1794809136,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Codex team might have actually fixed the \\\"model at capacity\\\" errors that have been pestering you.\"}}"
+      },
+      {
+        "id": "analysis:x:2122534533216268747",
+        "event_type": "post_analysis",
+        "created_at": 1794886821,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@AdamHoltererer 6.1 Sol forever\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -2746,9 +2765,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794885937,
-    "lastRssAttemptAt": 1794886527,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1794886821,
+    "lastRssAttemptAt": 1794886821,
+    "sourceState": "online",
+    "error": null
   }
 }
