@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1794954333
+  "queuedAt": 1794954333,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122816458711548126",
+    "url": "https://x.com/thsottiaux/status/2122816458711548126",
+    "publishedAt": 1794953858,
+    "text": "@notjazii Team never stops. We'll get it right on all levels one day, in the meantime it's a pretty good jump on all fronts and cheaper/faster.",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122797001465385073",
+        "url": "https://x.com/notjazii/status/2122797001465385073",
+        "text": "hate against openai is forced\n\nit’s been about 2 hours since gpt 6.2 released and all i see on x is hate\n\n> this is an opus 5/4.8 level model \n> there is nothing good about these model \n> why even release a models this bad\n> and a lot more too\n\ngot access to both models in codex 1.5 hours after release and from my testing so far, they’re huge step up from 6.1 sol and 6 astra\n\nmodels are super cheap and efficient too as 6 astra used to burn through my plus limits in just 30 mins\n\nbut with 6.2 ast",
+        "author": "notjazii",
+        "publishedAt": 1794949219,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "1338c61ab160c13ca5c83679e4f16d8d0c60e8442938ff31ab77a4564b690102",
+  "requestPreparedAt": 1794954345964
 }
