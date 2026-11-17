@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1794954333
+  "queuedAt": 1794954333,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122816053348847795",
+    "url": "https://x.com/thsottiaux/status/2122816053348847795",
+    "publishedAt": 1794953761,
+    "text": "@Conor_D_Dart Much faster too",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122782531292463511",
+        "url": "https://x.com/Conor_D_Dart/status/2122782531292463511",
+        "text": "I am testing GPT 6.2 Astra and Sol, and so far I don’t see anything negative. \n\nIgnore the negative reviews until YOU have tested it yourself",
+        "author": "Conor_D_Dart",
+        "publishedAt": 1794945769,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "e56fa195c00d700432f739506949fcc106a0f6d0b07a3650af7b66603b0c8d5f",
+  "requestPreparedAt": 1794954345224
 }
