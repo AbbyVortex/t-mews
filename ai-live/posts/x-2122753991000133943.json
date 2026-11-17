@@ -38,5 +38,27 @@
       "display": null
     }
   },
-  "queuedAt": 1794939329
+  "queuedAt": 1794939329,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122753991000133943",
+    "url": "https://x.com/thsottiaux/status/2122753991000133943",
+    "publishedAt": 1794938964,
+    "text": "GPT-6.2 Sol & Astra are *finally* here. We've also expanded ultrafast to Pro 200 plans for GPT-6.2 Sol, it's my go-to model for most day to day things.",
+    "related": [
+      {
+        "relation": "quote",
+        "text": "Some of you have been asking very politely. Some of you have just been asking. GPT-6.2 Astra and Sol are now available. Super efficient and built to perform where it counts—the real world. https://openai.com/index/introducing-gpt-6-2-astra-sol",
+        "author": "OpenAI",
+        "id": "x:2122750124543926515",
+        "url": "https://x.com/OpenAI/status/2122750124543926515",
+        "publishedAt": null,
+        "source": "feed"
+      }
+    ],
+    "recentContext": [],
+    "parentStatus": "not_applicable;quote:x:2122750124543926515=present"
+  },
+  "inputHash": "c76f4c9998604ef0683541797d005d3f255bf69b49caa326665bc9f6f188d562",
+  "requestPreparedAt": 1794939334087
 }
