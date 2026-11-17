@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122753991000133943",
-  "status": "decided",
+  "status": "complete",
   "createdAt": 1794939329,
-  "updatedAt": 1794939339,
+  "updatedAt": 1794939344,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -82,5 +82,26 @@
   "apiCompletedAt": 1794939339715,
   "elapsedMs": 5629,
   "decidedAt": 1794939339715,
-  "detectedToDecisionMs": 10715
+  "detectedToDecisionMs": 10715,
+  "delivery": {
+    "kind": "normal",
+    "mismatch": true,
+    "priority": 0,
+    "title": "📈 AIが発見！ [判定不一致]",
+    "message": "🛠機械: — IRRELEVANT\n🤖AI: 📈利用枠・プラン変更 (limit_change)\n理由: GPT-6.2 SolのultrafastをPro 200プランにも拡大したと本人が明言しており、有料プランの利用範囲に関する具体的な変更。\n\n投稿時刻: 2026/11/18 3:09:24 JST\n検知遅延: 6分5秒\n\n本人: GPT-6.2 Sol & Astra are *finally* here.\n本文: GPT-6.2 Sol & Astra are *finally* here. We've also expanded ultrafast to Pro 200 plans for GPT-6.2 Sol, it's my go-to model for most day to day things.\nhttps://x.com/thsottiaux/status/2122753991000133943",
+    "id": "post:x:2122753991000133943",
+    "receipts": [
+      {
+        "id": "post:x:2122753991000133943",
+        "post_id": "x:2122753991000133943",
+        "kind": "alert",
+        "created_at": 1794939340,
+        "status": "sent",
+        "sent_at": 1794939342
+      }
+    ],
+    "detectedToFirstSendMs": 13000,
+    "detectedToLastSendMs": 13000,
+    "publishedToFirstSendMs": 378000
+  }
 }
