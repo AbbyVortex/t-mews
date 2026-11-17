@@ -1735,13 +1735,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 179
+      },
+      {
+        "id": "x:2122753991000133943",
+        "x_status_id": "2122753991000133943",
+        "canonical_url": "https://x.com/thsottiaux/status/2122753991000133943",
+        "fingerprint": "d28d099e3b9ccd9b149467909139afd4611705890ee9151b8571c32050051945",
+        "published_at": 1794938964,
+        "detected_at": 1794939329,
+        "text": "GPT-6.2 Sol & Astra are *finally* here. We've also expanded ultrafast to Pro 200 plans for GPT-6.2 Sol, it's my go-to model for most day to day things.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 365
+      },
+      {
+        "id": "x:2122754551187132438",
+        "x_status_id": "2122754551187132438",
+        "canonical_url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "fingerprint": "03e0ba0afb2388fee1f6c514b174ead5b95aead014f7555e4c1deac2016586c7",
+        "published_at": 1794939098,
+        "detected_at": 1794939329,
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 231
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794938738,
+        "last_success_at": 1794939329,
         "last_failure_at": 1794938142,
         "offline_since": null,
         "failure_episodes": 680,
@@ -1759,7 +1793,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2122753991000133943\",\"queuedAt\":1794939329},{\"id\":\"x:2122754551187132438\",\"queuedAt\":1794939329}]"
       },
       {
         "key": "baselineAt",
@@ -1775,7 +1809,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794938738"
+        "value": "1794939329"
       }
     ],
     "events": [
@@ -1994,6 +2028,18 @@
         "event_type": "post_analysis",
         "created_at": 1794886821,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@AdamHoltererer 6.1 Sol forever\"}}"
+      },
+      {
+        "id": "analysis:x:2122753991000133943",
+        "event_type": "post_analysis",
+        "created_at": 1794939329,
+        "details": "{\"related\":[{\"xStatusId\":\"2122750124543926515\",\"url\":\"https://x.com/OpenAI/status/2122750124543926515\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"Some of you have been asking very politely. Some of you have just been asking. GPT-6.2 Astra and Sol are now available. Super efficient and built to perform where it counts—the real world. https://openai.com/index/introducing-gpt-6-2-astra-sol\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"GPT-6.2 Sol & Astra are *finally* here.\"}}"
+      },
+      {
+        "id": "analysis:x:2122754551187132438",
+        "event_type": "post_analysis",
+        "created_at": 1794939329,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -2765,8 +2811,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794938738,
-    "lastRssAttemptAt": 1794938738,
+    "lastRssSuccessAt": 1794939329,
+    "lastRssAttemptAt": 1794939329,
     "sourceState": "online",
     "error": null
   }
