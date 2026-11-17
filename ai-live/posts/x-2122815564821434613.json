@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1794953730
+  "queuedAt": 1794953730,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122815564821434613",
+    "url": "https://x.com/thsottiaux/status/2122815564821434613",
+    "publishedAt": 1794953645,
+    "text": "@AdamHoltererer What is ClutterBench",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122795736676946429",
+        "url": "https://x.com/AdamHoltererer/status/2122795736676946429",
+        "text": "GPT 6.2 is state-of-the-art on ClutterBench, surprisingly\n\nThis was previously dominated by Claude models\n\nGoogle's models are all below 12th btw",
+        "author": "AdamHoltererer",
+        "publishedAt": 1794948917,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "039ecd61136061d6086799d76cbea75f1eac7aae2d7ae3cc3ce5661974827b50",
+  "requestPreparedAt": 1794953739473
 }
