@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122753991000133943",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794939329,
-  "updatedAt": 1794939329,
+  "updatedAt": 1794939339,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -60,5 +60,27 @@
     "parentStatus": "not_applicable;quote:x:2122750124543926515=present"
   },
   "inputHash": "c76f4c9998604ef0683541797d005d3f255bf69b49caa326665bc9f6f188d562",
-  "requestPreparedAt": 1794939334087
+  "requestPreparedAt": 1794939334087,
+  "apiStartedAt": 1794939336014,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 923,
+    "output_tokens": 77,
+    "total_tokens": 1000,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002616,
+  "result": {
+    "category": "limit_change",
+    "rationale": "GPT-6.2 SolのultrafastをPro 200プランにも拡大したと本人が明言しており、有料プランの利用範囲に関する具体的な変更。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794939339715,
+  "elapsedMs": 5629,
+  "decidedAt": 1794939339715,
+  "detectedToDecisionMs": 10715
 }
