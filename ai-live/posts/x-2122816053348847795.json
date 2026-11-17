@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122816053348847795",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794954333,
-  "updatedAt": 1794954333,
+  "updatedAt": 1794954350,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "e56fa195c00d700432f739506949fcc106a0f6d0b07a3650af7b66603b0c8d5f",
-  "requestPreparedAt": 1794954345224
+  "requestPreparedAt": 1794954345224,
+  "apiStartedAt": 1794954346360,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 942,
+    "output_tokens": 74,
+    "total_tokens": 1016,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002624,
+  "result": {
+    "category": "unrelated",
+    "rationale": "取得済みの親投稿に対しモデルの速度向上を述べた返信。リセット付与や利用枠・有料プラン条件の変更を示す情報はない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794954350122,
+  "elapsedMs": 5735,
+  "decidedAt": 1794954350122,
+  "detectedToDecisionMs": 17122
 }
