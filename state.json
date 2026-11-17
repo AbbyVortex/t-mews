@@ -1786,13 +1786,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 85
+      },
+      {
+        "id": "x:2122816053348847795",
+        "x_status_id": "2122816053348847795",
+        "canonical_url": "https://x.com/thsottiaux/status/2122816053348847795",
+        "fingerprint": "9e9bdd3a5bc35d66502d68575c82d00be0e6b4b537d45ea059f6d74f665a3989",
+        "published_at": 1794953761,
+        "detected_at": 1794954333,
+        "text": "@Conor_D_Dart Much faster too",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 572
+      },
+      {
+        "id": "x:2122816458711548126",
+        "x_status_id": "2122816458711548126",
+        "canonical_url": "https://x.com/thsottiaux/status/2122816458711548126",
+        "fingerprint": "4d73f27049238c9ba8821067566725c37f81f75b7ad222a368fa637a68ee5ea3",
+        "published_at": 1794953858,
+        "detected_at": 1794954333,
+        "text": "@notjazii Team never stops. We'll get it right on all levels one day, in the meantime it's a pretty good jump on all fronts and cheaper/faster.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 475
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794953730,
+        "last_success_at": 1794954333,
         "last_failure_at": 1794951342,
         "offline_since": null,
         "failure_episodes": 681,
@@ -1810,7 +1844,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2122816458711548126\",\"queuedAt\":1794954333},{\"id\":\"x:2122816053348847795\",\"queuedAt\":1794954333}]"
       },
       {
         "key": "baselineAt",
@@ -1826,7 +1860,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794953730"
+        "value": "1794954333"
       }
     ],
     "events": [
@@ -2063,6 +2097,18 @@
         "event_type": "post_analysis",
         "created_at": 1794953730,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@AdamHoltererer What is ClutterBench\"}}"
+      },
+      {
+        "id": "analysis:x:2122816053348847795",
+        "event_type": "post_analysis",
+        "created_at": 1794954333,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@Conor_D_Dart Much faster too\"}}"
+      },
+      {
+        "id": "analysis:x:2122816458711548126",
+        "event_type": "post_analysis",
+        "created_at": 1794954333,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@notjazii Team never stops.\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -2848,8 +2894,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794953730,
-    "lastRssAttemptAt": 1794953730,
+    "lastRssSuccessAt": 1794954333,
+    "lastRssAttemptAt": 1794954333,
     "sourceState": "online",
     "error": null
   }
