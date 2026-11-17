@@ -1749,8 +1749,8 @@
         "classification": "IRRELEVANT",
         "reason": "no usage reset or material allowance signal",
         "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
+        "notified": 1,
+        "notification_status": "sent",
         "detection_latency_seconds": 365
       },
       {
@@ -2100,6 +2100,12 @@
         "event_type": "notification_sent",
         "created_at": 1794521144,
         "details": "{\"kind\":\"alert\",\"postId\":\"x:2120999993079451919\"}"
+      },
+      {
+        "id": "notification:post:x:2122753991000133943",
+        "event_type": "notification_sent",
+        "created_at": 1794939342,
+        "details": "{\"kind\":\"alert\",\"postId\":\"x:2122753991000133943\"}"
       },
       {
         "id": "notification:recovered:1793887531",
@@ -2684,8 +2690,8 @@
         "post_id": "x:2122753991000133943",
         "kind": "alert",
         "created_at": 1794939340,
-        "status": "sending",
-        "sent_at": null
+        "status": "sent",
+        "sent_at": 1794939342
       },
       {
         "id": "recovered:1791101351",
