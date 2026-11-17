@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122754551187132438",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794939329,
-  "updatedAt": 1794939329,
+  "updatedAt": 1794939341,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -40,5 +40,27 @@
     "parentStatus": "not_applicable"
   },
   "inputHash": "9fba42ea5c9c6705c508038d65708c5b774f738154f5bdae2e41dcf598661d66",
-  "requestPreparedAt": 1794939335018
+  "requestPreparedAt": 1794939335018,
+  "apiStartedAt": 1794939337079,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 777,
+    "output_tokens": 116,
+    "total_tokens": 893,
+    "cached_tokens": 0,
+    "reasoning_tokens": 36
+  },
+  "referenceCostUsd": 0.002714,
+  "result": {
+    "category": "chatter",
+    "rationale": "モデルの効率性により速度・コスト・利用枠の持ちが向上するという一般的な説明で、具体的な利用上限の変更やReset付与の告知ではありません。",
+    "confidence": 0.96,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794939341342,
+  "elapsedMs": 6325,
+  "decidedAt": 1794939341342,
+  "detectedToDecisionMs": 12342
 }
