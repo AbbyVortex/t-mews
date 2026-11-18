@@ -1871,13 +1871,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 88
+      },
+      {
+        "id": "x:2122928699838492690",
+        "x_status_id": "2122928699838492690",
+        "canonical_url": "https://x.com/thsottiaux/status/2122928699838492690",
+        "fingerprint": "2e1bbed0bdeeffd709e50b726cad7283cee6bc0b6c94869af3de67e203cc053f",
+        "published_at": 1794980618,
+        "detected_at": 1794980737,
+        "text": "@theo Love Theo and all, but ... :D",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 119
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794980143,
+        "last_success_at": 1794980737,
         "last_failure_at": 1794977136,
         "offline_since": null,
         "failure_episodes": 687,
@@ -1895,7 +1912,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2122928699838492690\",\"queuedAt\":1794980737}]"
       },
       {
         "key": "baselineAt",
@@ -1911,7 +1928,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794980143"
+        "value": "1794980737"
       }
     ],
     "events": [
@@ -2202,6 +2219,12 @@
         "event_type": "post_analysis",
         "created_at": 1794974743,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@swyx It's that is the only critique of the launch, I'm glad.\"}}"
+      },
+      {
+        "id": "analysis:x:2122928699838492690",
+        "event_type": "post_analysis",
+        "created_at": 1794980737,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@theo Love Theo and all, but ...\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -2987,8 +3010,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794980143,
-    "lastRssAttemptAt": 1794980143,
+    "lastRssSuccessAt": 1794980737,
+    "lastRssAttemptAt": 1794980737,
     "sourceState": "online",
     "error": null
   }
