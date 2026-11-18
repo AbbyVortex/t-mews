@@ -37,5 +37,26 @@
       "display": null
     }
   },
-  "queuedAt": 1794981342
+  "queuedAt": 1794981342,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122929829863735594",
+    "url": "https://x.com/thsottiaux/status/2122929829863735594",
+    "publishedAt": 1794980888,
+    "text": "If you have Pro 200/500, I do recommend trying out 6.2 Sol ultrafast, it's quite the blast to use and a completely different feel. I'm excited to keep pushing in bringing these speeds to more users over time.",
+    "related": [],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "not_applicable"
+  },
+  "inputHash": "3be64c2d2bb845bc384526a8e0e043df0d854a8fb43ca9666b7e7cf65c8b0341",
+  "requestPreparedAt": 1794981349241
 }
