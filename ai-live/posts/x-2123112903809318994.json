@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "id": "x:2123112903809318994",
+  "status": "claimed",
+  "createdAt": 1795025130,
+  "updatedAt": 1795025130,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "reason": "no usage reset or material allowance signal",
+    "evidence": "@Yampeleg What are you using it for?"
+  },
+  "candidate": {
+    "id": "x:2123112903809318994",
+    "url": "https://x.com/thsottiaux/status/2123112903809318994",
+    "text": "@Yampeleg What are you using it for?",
+    "related": [],
+    "publishedAt": 1795024536,
+    "kind": "reply",
+    "discoveredAt": 1795025130,
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "rule": {
+      "classification": "IRRELEVANT",
+      "notify": false,
+      "display": null
+    }
+  },
+  "queuedAt": 1795025130
+}
