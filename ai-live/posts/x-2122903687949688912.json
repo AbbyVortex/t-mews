@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1794974743
+  "queuedAt": 1794974743,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122903687949688912",
+    "url": "https://x.com/thsottiaux/status/2122903687949688912",
+    "publishedAt": 1794974655,
+    "text": "@swyx It's that is the only critique of the launch, I'm glad. It is indeed truly all about efficiency and topline capabilities. We'll highlight more interesting things in the next launch video.",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122862646265520150",
+        "url": "https://x.com/swyx/status/2122862646265520150",
+        "text": "the fact that nobody with decisionmaking power saw this coming a mile away and vetoed the 6.2 astra ad is my primary critique of the astra launch\n\nthe model itself is solid minor version improvement guys, efficiency is one of the three most impt RL objectives rn and they are world leading here!!! i am daily driving astra and it is the best workflow automation model i’ve used, no longer getting stuck in horrible loops and efficiently learning thru compactions and skill writing. it’s running a lot",
+        "author": "swyx",
+        "publishedAt": 1794964870,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "21379df1c5556256f56adab4fa8de81dd1a4c5ce7bb5bf5a9ac8fee328d09328",
+  "requestPreparedAt": 1794974749567
 }
