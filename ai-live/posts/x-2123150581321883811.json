@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123150581321883811",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795033539,
-  "updatedAt": 1795033539,
+  "updatedAt": 1795033553,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "a982f9f680dbdc5a41bec51089e127dd2050bf01acf089cda1d8771d12ae4fed",
-  "requestPreparedAt": 1795033548569
+  "requestPreparedAt": 1795033548569,
+  "apiStartedAt": 1795033549645,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1020,
+    "output_tokens": 76,
+    "total_tokens": 1096,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.0028,
+  "result": {
+    "category": "unrelated",
+    "rationale": "モデル同士のチェス対戦結果への「GG」という反応。親投稿のトークン数・費用比較は、利用枠や有料プランの変更を示していない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795033553991,
+  "elapsedMs": 6605,
+  "decidedAt": 1795033553991,
+  "detectedToDecisionMs": 14991
 }
