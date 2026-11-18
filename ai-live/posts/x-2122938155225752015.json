@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122938155225752015",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794983129,
-  "updatedAt": 1794983129,
+  "updatedAt": 1794983140,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "47777bb6c0cba14175194e075fbfb5968d2f783badd7dbb898cb131854f63bc3",
-  "requestPreparedAt": 1794983135604
+  "requestPreparedAt": 1794983135604,
+  "apiStartedAt": 1794983136448,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 940,
+    "output_tokens": 71,
+    "total_tokens": 1011,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.00259,
+  "result": {
+    "category": "unrelated",
+    "rationale": "👀の返信先はモデルの能力評価やベンチマークの話で、リセット付与・利用枠・有料プラン変更への言及はない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794983140444,
+  "elapsedMs": 5165,
+  "decidedAt": 1794983140444,
+  "detectedToDecisionMs": 11444
 }
