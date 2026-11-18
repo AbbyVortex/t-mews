@@ -1837,13 +1837,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 167
+      },
+      {
+        "id": "x:2122851449474605281",
+        "x_status_id": "2122851449474605281",
+        "canonical_url": "https://x.com/thsottiaux/status/2122851449474605281",
+        "fingerprint": "f6af186547d69caf0a2cbdb94afd795b96f4a5d839aef6796f5e203af9942380",
+        "published_at": 1794962200,
+        "detected_at": 1794962729,
+        "text": "@skalskip92 Awkward",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 529
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794962141,
+        "last_success_at": 1794962729,
         "last_failure_at": 1794959728,
         "offline_since": null,
         "failure_episodes": 682,
@@ -1861,7 +1878,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2122851449474605281\",\"queuedAt\":1794962729}]"
       },
       {
         "key": "baselineAt",
@@ -1877,7 +1894,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794962141"
+        "value": "1794962729"
       }
     ],
     "events": [
@@ -2132,6 +2149,12 @@
         "event_type": "post_analysis",
         "created_at": 1794962141,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@dingchilling Pretty!\"}}"
+      },
+      {
+        "id": "analysis:x:2122851449474605281",
+        "event_type": "post_analysis",
+        "created_at": 1794962729,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@skalskip92 Awkward\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -2917,8 +2940,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794962141,
-    "lastRssAttemptAt": 1794962141,
+    "lastRssSuccessAt": 1794962729,
+    "lastRssAttemptAt": 1794962729,
     "sourceState": "online",
     "error": null
   }
