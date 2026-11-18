@@ -2041,13 +2041,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 51
+      },
+      {
+        "id": "x:2123112623294320913",
+        "x_status_id": "2123112623294320913",
+        "canonical_url": "https://x.com/thsottiaux/status/2123112623294320913",
+        "fingerprint": "cae749c3f826dc2e7b9ed5124546586b035c8aee10144e1dbf1ddb98a20ea980",
+        "published_at": 1795024469,
+        "detected_at": 1795024527,
+        "text": "@theo Thank you Theo ❤️",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 58
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795023940,
+        "last_success_at": 1795024527,
         "last_failure_at": 1795023327,
         "offline_since": null,
         "failure_episodes": 694,
@@ -2065,7 +2082,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2123112623294320913\",\"queuedAt\":1795024527}]"
       },
       {
         "key": "baselineAt",
@@ -2081,7 +2098,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795023940"
+        "value": "1795024527"
       }
     ],
     "events": [
@@ -2432,6 +2449,12 @@
         "event_type": "post_analysis",
         "created_at": 1794986732,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@mattshumer_ I do think you all coordinated on a slack channel 👀\"}}"
+      },
+      {
+        "id": "analysis:x:2123112623294320913",
+        "event_type": "post_analysis",
+        "created_at": 1795024527,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@theo Thank you Theo ❤️\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3231,8 +3254,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795023940,
-    "lastRssAttemptAt": 1795023940,
+    "lastRssSuccessAt": 1795024527,
+    "lastRssAttemptAt": 1795024527,
     "sourceState": "online",
     "error": null
   }
