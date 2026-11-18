@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1794986130
+  "queuedAt": 1794986130,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122950072623350250",
+    "url": "https://x.com/thsottiaux/status/2122950072623350250",
+    "publishedAt": 1794985714,
+    "text": "@Wilf_Lin Yes",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122935062031417431",
+        "url": "https://x.com/Wilf_Lin/status/2122935062031417431",
+        "text": "@thsottiaux ultrafast now available in 200?",
+        "author": "Wilf_Lin",
+        "publishedAt": 1794982135,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "798db3991cec29448aa5424a89fe5a29bf2ec3069fbb0c63e53a7aaf8882454a",
+  "requestPreparedAt": 1794986134902
 }
