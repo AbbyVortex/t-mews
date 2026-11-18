@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1794983129
+  "queuedAt": 1794983129,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122938155225752015",
+    "url": "https://x.com/thsottiaux/status/2122938155225752015",
+    "publishedAt": 1794982873,
+    "text": "@iruletheworldmo 👀",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122895745380491419",
+        "url": "https://x.com/iruletheworldmo/status/2122895745380491419",
+        "text": "i have to be consistent because there’s no better benchmark then eci. \n\nthere’s a strong chance everyone is saying this model is a genius in a week.",
+        "author": "iruletheworldmo",
+        "publishedAt": 1794972761,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "47777bb6c0cba14175194e075fbfb5968d2f783badd7dbb898cb131854f63bc3",
+  "requestPreparedAt": 1794983135604
 }
