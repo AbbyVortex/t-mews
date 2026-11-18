@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122929634916679820",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794981342,
-  "updatedAt": 1794981342,
+  "updatedAt": 1794981356,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -58,5 +58,27 @@
     "parentStatus": "not_applicable"
   },
   "inputHash": "66181b2da8e058e9684f41daf5deddc016953efa04e35046131530af52054b7b",
-  "requestPreparedAt": 1794981350227
+  "requestPreparedAt": 1794981350227,
+  "apiStartedAt": 1794981352441,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 968,
+    "output_tokens": 76,
+    "total_tokens": 1044,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002696,
+  "result": {
+    "category": "unrelated",
+    "rationale": "モデル評価の温度差を、先行アクセス後の改良と再テスト不足で説明する投稿。リセット付与や利用枠・有料プラン条件の新情報はない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794981356481,
+  "elapsedMs": 6254,
+  "decidedAt": 1794981356481,
+  "detectedToDecisionMs": 14481
 }
