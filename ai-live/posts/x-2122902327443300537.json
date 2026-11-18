@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1794974743
+  "queuedAt": 1794974743,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122902327443300537",
+    "url": "https://x.com/thsottiaux/status/2122902327443300537",
+    "publishedAt": 1794974331,
+    "text": "@adonis_singh What are they getting wrong? Curious",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122851213993779342",
+        "url": "https://x.com/adonis_singh/status/2122851213993779342",
+        "text": "6.2-Astra and 6.2-Sol take #1 and #2 on Eyebench!\n\nBoth are within 2 questions of a perfect score.\n\nSol is also the cheapest model in the top 10, which is quite insane",
+        "author": "adonis_singh",
+        "publishedAt": 1794962144,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "521c954844478dcf9c31321e7bd284acbf97f51cf6e1e042ae9d04687b2f2ca0",
+  "requestPreparedAt": 1794974748152
 }
