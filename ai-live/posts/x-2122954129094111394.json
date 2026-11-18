@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122954129094111394",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794986732,
-  "updatedAt": 1794986732,
+  "updatedAt": 1794986752,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "e11c8095aa109a0cd8e3c101ba6a22d64903459ea545dbcbc80443568390775b",
-  "requestPreparedAt": 1794986747795
+  "requestPreparedAt": 1794986747795,
+  "apiStartedAt": 1794986749380,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 963,
+    "output_tokens": 73,
+    "total_tokens": 1036,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002656,
+  "result": {
+    "category": "unrelated",
+    "rationale": "モデルレビューの同時投稿やSlackでの示し合わせをめぐる返信であり、利用枠・リセット付与・有料プラン変更に関する情報はありません。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794986752428,
+  "elapsedMs": 4816,
+  "decidedAt": 1794986752428,
+  "detectedToDecisionMs": 20428
 }
