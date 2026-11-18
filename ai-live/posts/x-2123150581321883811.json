@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1795033539
+  "queuedAt": 1795033539,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123150581321883811",
+    "url": "https://x.com/thsottiaux/status/2123150581321883811",
+    "publishedAt": 1795033519,
+    "text": "@Leapofcode GG",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2123078382628000098",
+        "url": "https://x.com/Leapofcode/status/2123078382628000098",
+        "text": "🏆 AND WE HAVE A WINNER!\n\nGPT-6.2 Astra defeats Claude Fable 5.2 ♟️\n\nFinal Stats: 71 moves | 204,219 tokens | $2.0671\n\nToken & Cost Breakdown:\n • GPT-6.2 Astra: 70,203 tokens | $0.6052\n • Claude Fable 5.2: 134,016 tokens | $1.4619\n\nAstra takes the win using almost half the tokens and costing significantly less.\n\nGG! ♟️",
+        "author": "Leapofcode",
+        "publishedAt": 1795016305,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "a982f9f680dbdc5a41bec51089e127dd2050bf01acf089cda1d8771d12ae4fed",
+  "requestPreparedAt": 1795033548569
 }
