@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1794962141
+  "queuedAt": 1794962141,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122850498202271748",
+    "url": "https://x.com/thsottiaux/status/2122850498202271748",
+    "publishedAt": 1794961974,
+    "text": "@dingchilling Pretty!",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122813429941694523",
+        "url": "https://x.com/dingchilling/status/2122813429941694523",
+        "text": "GPT-6.2 Astra on the Art Bench! :)",
+        "author": "dingchilling",
+        "publishedAt": 1794953136,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "6639a42a4c7d52b09c24224c21bed50d304900f926d299629e00f1a9590a8d77",
+  "requestPreparedAt": 1794962147140
 }
