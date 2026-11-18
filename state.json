@@ -2143,17 +2143,34 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 162
+      },
+      {
+        "id": "x:2123179276199735535",
+        "x_status_id": "2123179276199735535",
+        "canonical_url": "https://x.com/thsottiaux/status/2123179276199735535",
+        "fingerprint": "45889c6684e403c380e447aa1a2ce4a6bd94fbd3ae6a3073994263e426d16a8d",
+        "published_at": 1795040360,
+        "detected_at": 1795040739,
+        "text": "@DannyIO It does like math",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 379
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1795039543,
+        "state": "online",
+        "last_success_at": 1795040739,
         "last_failure_at": 1795040135,
-        "offline_since": 1795040135,
+        "offline_since": null,
         "failure_episodes": 697,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -2167,7 +2184,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2123179276199735535\",\"queuedAt\":1795040739}]"
       },
       {
         "key": "baselineAt",
@@ -2183,11 +2200,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795039543"
-      },
-      {
-        "key": "outage",
-        "value": "1795040135"
+        "value": "1795040739"
       }
     ],
     "events": [
@@ -2574,6 +2587,12 @@
         "event_type": "post_analysis",
         "created_at": 1795039543,
         "details": "{\"related\":[{\"xStatusId\":\"2123100386638877054\",\"url\":\"https://x.com/OpenAI/status/2123100386638877054\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"Working with @AMD, our models identified up to 14% PPA improvement on flagship GPU IP in less than five months—building on designs AMD’s engineers had already spent years optimizing. The same approach helped improve Jalapeño, our first custom inference chip, with gains verified …\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"GPT-6.2 Astra is pretty good at hard things.\"}}"
+      },
+      {
+        "id": "analysis:x:2123179276199735535",
+        "event_type": "post_analysis",
+        "created_at": 1795040739,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@DannyIO It does like math\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3373,9 +3392,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795039543,
-    "lastRssAttemptAt": 1795040135,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1795040739,
+    "lastRssAttemptAt": 1795040739,
+    "sourceState": "online",
+    "error": null
   }
 }
