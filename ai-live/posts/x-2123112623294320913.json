@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1795024527
+  "queuedAt": 1795024527,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123112623294320913",
+    "url": "https://x.com/thsottiaux/status/2123112623294320913",
+    "publishedAt": 1795024469,
+    "text": "@theo Thank you Theo ❤️",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122991778622263514",
+        "url": "https://x.com/theo/status/2122991778622263514",
+        "text": "I took this to heart and spent the last few hours doing another deep dive on GPT-6.2 Astra\n\ntl;dr - things are better than when I tested, but IMO still \"directionally, very bad\"\n\nI'm going to keep using the same example I've hyperfixated on since the start: \"why is creating a worktree so slow?\"\n\nI had a long thread trying to diagnose perf issues while using t3 code on a particular VPS. 2 of the 3 were fast, 1 was really slow.\n\nI asked astra outright \"why is this so slow?\", and it said a bunch of",
+        "author": "theo",
+        "publishedAt": 1794995657,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "831411f46bd2cf24a19fc28792d6a4d2f82e27c340428859d96c0ad83d1f7184",
+  "requestPreparedAt": 1795024532138
 }
