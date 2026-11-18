@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1794986732
+  "queuedAt": 1794986732,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122952910137135379",
+    "url": "https://x.com/thsottiaux/status/2122952910137135379",
+    "publishedAt": 1794986390,
+    "text": "@MiaAI_lab Yes, that's the whole point of getting feedback",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122934710640730231",
+        "url": "https://x.com/MiaAI_lab/status/2122934710640730231",
+        "text": "So you gave access to the models, to influencers, when you know your models aren't ready and have issues?  🤔",
+        "author": "MiaAI_lab",
+        "publishedAt": 1794982051,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "712a7495346d257b547282820a18c38d2c6720b4f507089b95d22b61f72ee3b3",
+  "requestPreparedAt": 1794986738460
 }
