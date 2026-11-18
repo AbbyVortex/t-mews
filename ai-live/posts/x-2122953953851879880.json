@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122953953851879880",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794986732,
-  "updatedAt": 1794986732,
+  "updatedAt": 1794986743,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "1d371e1f4cbf63dc1ff7f70c4eb645c3a6a9d9a2943eb9e765651d294a6a91aa",
-  "requestPreparedAt": 1794986737562
+  "requestPreparedAt": 1794986737562,
+  "apiStartedAt": 1794986739958,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 969,
+    "output_tokens": 90,
+    "total_tokens": 1059,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002838,
+  "result": {
+    "category": "unrelated",
+    "rationale": "モデルへの適応や性能、次世代での使いやすさに関する返信。取得済みの親投稿もモデルの価格・速度の感想であり、利用枠や有料プランの変更、リセット付与の情報ではない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794986743380,
+  "elapsedMs": 6003,
+  "decidedAt": 1794986743380,
+  "detectedToDecisionMs": 11380
 }
