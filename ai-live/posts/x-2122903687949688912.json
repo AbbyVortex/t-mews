@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122903687949688912",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794974743,
-  "updatedAt": 1794974743,
+  "updatedAt": 1794974755,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "21379df1c5556256f56adab4fa8de81dd1a4c5ce7bb5bf5a9ac8fee328d09328",
-  "requestPreparedAt": 1794974749567
+  "requestPreparedAt": 1794974749567,
+  "apiStartedAt": 1794974751230,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1038,
+    "output_tokens": 79,
+    "total_tokens": 1117,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002866,
+  "result": {
+    "category": "unrelated",
+    "rationale": "発売広告への批評に応じ、モデルの効率・能力と次回動画の内容に言及した投稿。リセット付与、利用上限、料金プランの変更を示す情報はない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794974755595,
+  "elapsedMs": 6347,
+  "decidedAt": 1794974755595,
+  "detectedToDecisionMs": 12595
 }
