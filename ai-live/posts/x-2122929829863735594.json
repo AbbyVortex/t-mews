@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122929829863735594",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794981342,
-  "updatedAt": 1794981342,
+  "updatedAt": 1794981357,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -58,5 +58,27 @@
     "parentStatus": "not_applicable"
   },
   "inputHash": "3be64c2d2bb845bc384526a8e0e043df0d854a8fb43ca9666b7e7cf65c8b0341",
-  "requestPreparedAt": 1794981349241
+  "requestPreparedAt": 1794981349241,
+  "apiStartedAt": 1794981351256,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 881,
+    "output_tokens": 151,
+    "total_tokens": 1032,
+    "cached_tokens": 0,
+    "reasoning_tokens": 74
+  },
+  "referenceCostUsd": 0.003272,
+  "result": {
+    "category": "chatter",
+    "rationale": "Pro 200/500利用者へのモデル推奨と高速化への一般的な抱負であり、利用枠・プラン条件の変更やリセット付与の新情報はありません。",
+    "confidence": 0.92,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794981357154,
+  "elapsedMs": 7915,
+  "decidedAt": 1794981357154,
+  "detectedToDecisionMs": 15154
 }
