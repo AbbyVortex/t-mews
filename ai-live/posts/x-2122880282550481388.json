@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122880282550481388",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794969938,
-  "updatedAt": 1794969938,
+  "updatedAt": 1794969950,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "8069bc17d913dc4db580149fdae605f6ac435830b244017ad4f92961a1484927",
-  "requestPreparedAt": 1794969944648
+  "requestPreparedAt": 1794969944648,
+  "apiStartedAt": 1794969946641,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1021,
+    "output_tokens": 115,
+    "total_tokens": 1136,
+    "cached_tokens": 0,
+    "reasoning_tokens": 43
+  },
+  "referenceCostUsd": 0.003192,
+  "result": {
+    "category": "chatter",
+    "rationale": "使用量の消費にも触れたモデル称賛への短い同調で、リセット付与や利用枠・料金プラン変更の新情報はありません。",
+    "confidence": 0.93,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794969950904,
+  "elapsedMs": 6429,
+  "decidedAt": 1794969950904,
+  "detectedToDecisionMs": 12904
 }
