@@ -1888,13 +1888,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 119
+      },
+      {
+        "id": "x:2122929634916679820",
+        "x_status_id": "2122929634916679820",
+        "canonical_url": "https://x.com/thsottiaux/status/2122929634916679820",
+        "fingerprint": "0e0ad0d743a76c1189897d0c9ed8f4c7e1b40b4596a9142ac28733724c023451",
+        "published_at": 1794980841,
+        "detected_at": 1794981342,
+        "text": "One of the funny reasons for the difference in vibes between the influencers and the crowd today on 6.2 Sol/Astra is that we gave a few folks access a while ago and then made a lot of changes in the last 3-4 days and I'm pretty sure no re-testing was done within those days and the videos were produced last week.\n\nDon't get me wrong, while the models are a hefty jump compared to their GPT predecessors, they are by no means perfect and there are a few things the teams are excited for the models to get better at in future iterations in terms of taste and niceness of use. Love all the feedback and we hear you!",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 501
+      },
+      {
+        "id": "x:2122929829863735594",
+        "x_status_id": "2122929829863735594",
+        "canonical_url": "https://x.com/thsottiaux/status/2122929829863735594",
+        "fingerprint": "e28686e046830f1ff99500b3f0304743b5b8ab3f3269488cd74af7cd4c746f84",
+        "published_at": 1794980888,
+        "detected_at": 1794981342,
+        "text": "If you have Pro 200/500, I do recommend trying out 6.2 Sol ultrafast, it's quite the blast to use and a completely different feel. I'm excited to keep pushing in bringing these speeds to more users over time.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 454
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794980737,
+        "last_success_at": 1794981342,
         "last_failure_at": 1794977136,
         "offline_since": null,
         "failure_episodes": 687,
@@ -1912,7 +1946,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2122929634916679820\",\"queuedAt\":1794981342},{\"id\":\"x:2122929829863735594\",\"queuedAt\":1794981342}]"
       },
       {
         "key": "baselineAt",
@@ -1928,7 +1962,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794980737"
+        "value": "1794981342"
       }
     ],
     "events": [
@@ -2225,6 +2259,18 @@
         "event_type": "post_analysis",
         "created_at": 1794980737,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@theo Love Theo and all, but ...\"}}"
+      },
+      {
+        "id": "analysis:x:2122929634916679820",
+        "event_type": "post_analysis",
+        "created_at": 1794981342,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"One of the funny reasons for the difference in vibes between the influencers and the crowd today on 6.2 Sol/Astra is that we gave a few folks access a while ago and then made a lot of changes in the last 3-4 days and I'm pretty sure no re-testing was done within those days and the videos were produced last week.\"}}"
+      },
+      {
+        "id": "analysis:x:2122929829863735594",
+        "event_type": "post_analysis",
+        "created_at": 1794981342,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"If you have Pro 200/500, I do recommend trying out 6.2 Sol ultrafast, it's quite the blast to use and a completely different feel.\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3010,8 +3056,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794980737,
-    "lastRssAttemptAt": 1794980737,
+    "lastRssSuccessAt": 1794981342,
+    "lastRssAttemptAt": 1794981342,
     "sourceState": "online",
     "error": null
   }
