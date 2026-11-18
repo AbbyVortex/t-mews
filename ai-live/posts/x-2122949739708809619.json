@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122949739708809619",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794986130,
-  "updatedAt": 1794986130,
+  "updatedAt": 1794986140,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "9cc4b1a55c01279a3482fd9a86536045fb505e16a9812bb146e71553a15a7e44",
-  "requestPreparedAt": 1794986135840
+  "requestPreparedAt": 1794986135840,
+  "apiStartedAt": 1794986137446,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 954,
+    "output_tokens": 78,
+    "total_tokens": 1032,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002688,
+  "result": {
+    "category": "unrelated",
+    "rationale": "Codexの説明を平易にするカスタム指示と、モデルの話し方の改善への言及。利用枠、リセット付与、有料プラン条件に関する情報はない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794986140731,
+  "elapsedMs": 5077,
+  "decidedAt": 1794986140731,
+  "detectedToDecisionMs": 10731
 }
