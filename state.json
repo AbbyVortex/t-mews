@@ -2048,10 +2048,10 @@
         "source": "fxtwitter",
         "state": "offline",
         "last_success_at": 1795005935,
-        "last_failure_at": 1795007729,
+        "last_failure_at": 1795008330,
         "offline_since": 1795006529,
         "failure_episodes": 690,
-        "error": "http_404"
+        "error": "fetch_or_parse_failed"
       }
     ],
     "state": [
@@ -3236,8 +3236,8 @@
   "publicStatus": {
     "version": 1,
     "lastRssSuccessAt": 1795005935,
-    "lastRssAttemptAt": 1795007729,
+    "lastRssAttemptAt": 1795008330,
     "sourceState": "offline",
-    "error": "http_404"
+    "error": "fetch_or_parse_failed"
   }
 }
