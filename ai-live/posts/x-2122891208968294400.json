@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1794971743
+  "queuedAt": 1794971743,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122891208968294400",
+    "url": "https://x.com/thsottiaux/status/2122891208968294400",
+    "publishedAt": 1794971680,
+    "text": "@JoshPurtell Beauty is in the eye of the beholder, but clearly the models are polarizing. A bit like we had in the early codex days. These models are clearly extremely capable but have a couple of rough edges that we will sand down over time.",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122852757170213351",
+        "url": "https://x.com/JoshPurtell/status/2122852757170213351",
+        "text": "Days like this I genuinely feel like I live in a different universe from the rest of the world.\n\nSaw ubiquitous 6.2 hate / it's over for OpenAI yada yada ... ran the highest-signal autoresearch bench and 6.2 sol/astr are *absolute monsters*.\n\nAstra 6.2 saturates it at low effort",
+        "author": "JoshPurtell",
+        "publishedAt": 1794962512,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "4d4e5edd95e214b38da1ea3f55f7351c232040469382d50fdeba7163506cd869",
+  "requestPreparedAt": 1794971749114
 }
