@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1794969938
+  "queuedAt": 1794969938,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122880282550481388",
+    "url": "https://x.com/thsottiaux/status/2122880282550481388",
+    "publishedAt": 1794969075,
+    "text": "@pradeepXkapoor Let's go bro",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122820808494182521",
+        "url": "https://x.com/pradeepXkapoor/status/2122820808494182521",
+        "text": "Lmao bro gpt 6.2 is actually good. Both Astra and sol are doing great, reminds me of 5.6 honestly. Yes it nuked my usage but it’s fine. Not sure what is up with some of the big peeps like matthew, theo and some other folks talking shit about it. gpt 6.2 is not bad at all\n\nBro don’t tell me this is some strategy to downplay openai just because anthropic ipo is on Thursday, but it’s getting pretty obvious now isnt it",
+        "author": "pradeepXkapoor",
+        "publishedAt": 1794954895,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "8069bc17d913dc4db580149fdae605f6ac435830b244017ad4f92961a1484927",
+  "requestPreparedAt": 1794969944648
 }
