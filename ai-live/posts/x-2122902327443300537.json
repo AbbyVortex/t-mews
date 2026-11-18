@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122902327443300537",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794974743,
-  "updatedAt": 1794974743,
+  "updatedAt": 1794974754,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "521c954844478dcf9c31321e7bd284acbf97f51cf6e1e042ae9d04687b2f2ca0",
-  "requestPreparedAt": 1794974748152
+  "requestPreparedAt": 1794974748152,
+  "apiStartedAt": 1794974750153,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 964,
+    "output_tokens": 83,
+    "total_tokens": 1047,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002758,
+  "result": {
+    "category": "unrelated",
+    "rationale": "取得済みの返信先はモデルのベンチマーク成績についてで、Tiboの質問もその話題への反応。リセット付与や利用枠・有料プラン変更に関する情報はない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794974754134,
+  "elapsedMs": 6199,
+  "decidedAt": 1794974754134,
+  "detectedToDecisionMs": 11134
 }
