@@ -37,5 +37,26 @@
       "display": null
     }
   },
-  "queuedAt": 1794981342
+  "queuedAt": 1794981342,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122929634916679820",
+    "url": "https://x.com/thsottiaux/status/2122929634916679820",
+    "publishedAt": 1794980841,
+    "text": "One of the funny reasons for the difference in vibes between the influencers and the crowd today on 6.2 Sol/Astra is that we gave a few folks access a while ago and then made a lot of changes in the last 3-4 days and I'm pretty sure no re-testing was done within those days and the videos were produced last week.\n\nDon't get me wrong, while the models are a hefty jump compared to their GPT predecessors, they are by no means perfect and there are a few things the teams are excited for the models to get better at in future iterations in terms of taste and niceness of use. Love all the feedback and we hear you!",
+    "related": [],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "not_applicable"
+  },
+  "inputHash": "66181b2da8e058e9684f41daf5deddc016953efa04e35046131530af52054b7b",
+  "requestPreparedAt": 1794981350227
 }
