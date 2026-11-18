@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1794986732
+  "queuedAt": 1794986732,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122953953851879880",
+    "url": "https://x.com/thsottiaux/status/2122953953851879880",
+    "publishedAt": 1794986639,
+    "text": "@The_Alex Alex, let's go, sorry you have to adapt a bit, but it pays off. Next generation will make it all more natural, in the meantime the raw power is indeed there already.",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122945976566690254",
+        "url": "https://x.com/The_Alex/status/2122945976566690254",
+        "text": "6.2 Astra is cheap and fast I'll give it that. Had a rough day 1 with it but excited to keep using it and tuning it to my use cases!",
+        "author": "The_Alex",
+        "publishedAt": 1794984737,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "1d371e1f4cbf63dc1ff7f70c4eb645c3a6a9d9a2943eb9e765651d294a6a91aa",
+  "requestPreparedAt": 1794986737562
 }
