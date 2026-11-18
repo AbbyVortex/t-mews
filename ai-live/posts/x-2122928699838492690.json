@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1794980737
+  "queuedAt": 1794980737,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122928699838492690",
+    "url": "https://x.com/thsottiaux/status/2122928699838492690",
+    "publishedAt": 1794980618,
+    "text": "@theo Love Theo and all, but ... :D",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122916936417935419",
+        "url": "https://x.com/theo/status/2122916936417935419",
+        "text": "According to Artificial Analysis, Opus 5.5 is no longer on the pareto line (best value per intelligence)\n\nLove AA and all, but they really need some behavioral benches to smooth out this gap. Opus 5.5 is still the best value available for real long running code work.",
+        "author": "theo",
+        "publishedAt": 1794977814,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "392a78f31bc8ea497db741e77201979974ac5c4c0c6471d43b079d7f35bd43b1",
+  "requestPreparedAt": 1794980743237
 }
