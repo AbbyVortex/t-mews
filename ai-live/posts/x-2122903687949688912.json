@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "id": "x:2122903687949688912",
+  "status": "claimed",
+  "createdAt": 1794974743,
+  "updatedAt": 1794974743,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "reason": "no usage reset or material allowance signal",
+    "evidence": "@swyx It's that is the only critique of the launch, I'm glad."
+  },
+  "candidate": {
+    "id": "x:2122903687949688912",
+    "url": "https://x.com/thsottiaux/status/2122903687949688912",
+    "text": "@swyx It's that is the only critique of the launch, I'm glad. It is indeed truly all about efficiency and topline capabilities. We'll highlight more interesting things in the next launch video.",
+    "related": [],
+    "publishedAt": 1794974655,
+    "kind": "reply",
+    "discoveredAt": 1794974743,
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "rule": {
+      "classification": "IRRELEVANT",
+      "notify": false,
+      "display": null
+    }
+  },
+  "queuedAt": 1794974743
+}
