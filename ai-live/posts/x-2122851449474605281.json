@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122851449474605281",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794962729,
-  "updatedAt": 1794962729,
+  "updatedAt": 1794962739,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "e0b1dfdca07a1a2c1da669782e1c0e64506ebb92e11eefa94185c3eb0360298c",
-  "requestPreparedAt": 1794962735108
+  "requestPreparedAt": 1794962735108,
+  "apiStartedAt": 1794962735903,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 951,
+    "output_tokens": 75,
+    "total_tokens": 1026,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002652,
+  "result": {
+    "category": "unrelated",
+    "rationale": "物体検出ベンチマークの好成績に対する短い反応で、リセット付与・利用枠・有料プランの変更に関する情報はありません。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794962739740,
+  "elapsedMs": 4948,
+  "decidedAt": 1794962739740,
+  "detectedToDecisionMs": 10740
 }
