@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1794969938
+  "queuedAt": 1794969938,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122880368600621508",
+    "url": "https://x.com/thsottiaux/status/2122880368600621508",
+    "publishedAt": 1794969095,
+    "text": "@arcprize @OpenAI !!",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122751233442156678",
+        "url": "https://x.com/arcprize/status/2122751233442156678",
+        "text": "GPT-6.2 Astra from @OpenAI on ARC-AGI (Verified):\n\n- ARC-AGI-3: 100.0% (SOTA), $4.1K (provider adapter), 70.3%, $24.2K (standard)\n- ARC-AGI-2: 95.8% (SOTA), $0.50/task\n- ARC-AGI-1: 98.5%, $0.17/task\n\nGPT-6.2 Astra is the first model to achieve a 100% score on ARC-AGI-3.",
+        "author": "arcprize",
+        "publishedAt": 1794938307,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "2d935495eea44f1f3e1973a3d55e271740d8b1e7ca18d9285a37968d3fed538b",
+  "requestPreparedAt": 1794969943643
 }
