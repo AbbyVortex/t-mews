@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "id": "x:2122953953851879880",
+  "status": "claimed",
+  "createdAt": 1794986732,
+  "updatedAt": 1794986732,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "reason": "no usage reset or material allowance signal",
+    "evidence": "@The_Alex Alex, let's go, sorry you have to adapt a bit, but it pays off."
+  },
+  "candidate": {
+    "id": "x:2122953953851879880",
+    "url": "https://x.com/thsottiaux/status/2122953953851879880",
+    "text": "@The_Alex Alex, let's go, sorry you have to adapt a bit, but it pays off. Next generation will make it all more natural, in the meantime the raw power is indeed there already.",
+    "related": [],
+    "publishedAt": 1794986639,
+    "kind": "reply",
+    "discoveredAt": 1794986732,
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "rule": {
+      "classification": "IRRELEVANT",
+      "notify": false,
+      "display": null
+    }
+  },
+  "queuedAt": 1794986732
+}
