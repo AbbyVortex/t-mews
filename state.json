@@ -1820,13 +1820,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 843
+      },
+      {
+        "id": "x:2122891208968294400",
+        "x_status_id": "2122891208968294400",
+        "canonical_url": "https://x.com/thsottiaux/status/2122891208968294400",
+        "fingerprint": "a70b487bdf157bebfc61ac9baa9ca89b644cf51008875032640d2d21f78d86de",
+        "published_at": 1794971680,
+        "detected_at": 1794971743,
+        "text": "@JoshPurtell Beauty is in the eye of the beholder, but clearly the models are polarizing. A bit like we had in the early codex days. These models are clearly extremely capable but have a couple of rough edges that we will sand down over time.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 63
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794971141,
+        "last_success_at": 1794971743,
         "last_failure_at": 1794969329,
         "offline_since": null,
         "failure_episodes": 685,
@@ -1844,7 +1861,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2122891208968294400\",\"queuedAt\":1794971743}]"
       },
       {
         "key": "baselineAt",
@@ -1860,7 +1877,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794971141"
+        "value": "1794971743"
       }
     ],
     "events": [
@@ -2133,6 +2150,12 @@
         "event_type": "post_analysis",
         "created_at": 1794969938,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@arcprize @OpenAI !!\"}}"
+      },
+      {
+        "id": "analysis:x:2122891208968294400",
+        "event_type": "post_analysis",
+        "created_at": 1794971743,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@JoshPurtell Beauty is in the eye of the beholder, but clearly the models are polarizing.\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -2918,8 +2941,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794971141,
-    "lastRssAttemptAt": 1794971141,
+    "lastRssSuccessAt": 1794971743,
+    "lastRssAttemptAt": 1794971743,
     "sourceState": "online",
     "error": null
   }
