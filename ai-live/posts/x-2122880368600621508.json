@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122880368600621508",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794969938,
-  "updatedAt": 1794969938,
+  "updatedAt": 1794969949,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "2d935495eea44f1f3e1973a3d55e271740d8b1e7ca18d9285a37968d3fed538b",
-  "requestPreparedAt": 1794969943643
+  "requestPreparedAt": 1794969943643,
+  "apiStartedAt": 1794969945622,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1030,
+    "output_tokens": 81,
+    "total_tokens": 1111,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.00287,
+  "result": {
+    "category": "unrelated",
+    "rationale": "取得済みの返信先はARC-AGIの性能・コスト評価で、「!!」はその成果への反応。リセット付与や利用枠・有料プランの変更を示す情報はない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794969949768,
+  "elapsedMs": 6338,
+  "decidedAt": 1794969949768,
+  "detectedToDecisionMs": 11768
 }
