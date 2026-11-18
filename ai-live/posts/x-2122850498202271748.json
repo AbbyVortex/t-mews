@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122850498202271748",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794962141,
-  "updatedAt": 1794962141,
+  "updatedAt": 1794962151,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "6639a42a4c7d52b09c24224c21bed50d304900f926d299629e00f1a9590a8d77",
-  "requestPreparedAt": 1794962147140
+  "requestPreparedAt": 1794962147140,
+  "apiStartedAt": 1794962147918,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 912,
+    "output_tokens": 78,
+    "total_tokens": 990,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002604,
+  "result": {
+    "category": "unrelated",
+    "rationale": "取得済みの親投稿はArt Benchに関するもので、「Pretty!」はその見た目への反応。利用枠、リセット付与、有料プラン変更に関する情報はない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794962151791,
+  "elapsedMs": 4919,
+  "decidedAt": 1794962151791,
+  "detectedToDecisionMs": 10791
 }
