@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1795025130
+  "queuedAt": 1795025130,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123112903809318994",
+    "url": "https://x.com/thsottiaux/status/2123112903809318994",
+    "publishedAt": 1795024536,
+    "text": "@Yampeleg What are you using it for?",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122990260900823340",
+        "url": "https://x.com/Yampeleg/status/2122990260900823340",
+        "text": "No, you are all wrong.\n\nAstra 6.2 is insanely good.",
+        "author": "Yampeleg",
+        "publishedAt": 1794995296,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "9583cb9e2762edb2d47f3d0160b12d00b598f34de5f54518009185ef955ee482",
+  "requestPreparedAt": 1795025140842
 }
