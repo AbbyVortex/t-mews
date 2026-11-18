@@ -1820,13 +1820,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 475
+      },
+      {
+        "id": "x:2122850498202271748",
+        "x_status_id": "2122850498202271748",
+        "canonical_url": "https://x.com/thsottiaux/status/2122850498202271748",
+        "fingerprint": "5461038aca2c22647a0ebfd0814b47abd0e6ffeddd46112c968e87293862da5e",
+        "published_at": 1794961974,
+        "detected_at": 1794962141,
+        "text": "@dingchilling Pretty!",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 167
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794961530,
+        "last_success_at": 1794962141,
         "last_failure_at": 1794959728,
         "offline_since": null,
         "failure_episodes": 682,
@@ -1844,7 +1861,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2122850498202271748\",\"queuedAt\":1794962141}]"
       },
       {
         "key": "baselineAt",
@@ -1860,7 +1877,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794961530"
+        "value": "1794962141"
       }
     ],
     "events": [
@@ -2109,6 +2126,12 @@
         "event_type": "post_analysis",
         "created_at": 1794954333,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@notjazii Team never stops.\"}}"
+      },
+      {
+        "id": "analysis:x:2122850498202271748",
+        "event_type": "post_analysis",
+        "created_at": 1794962141,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@dingchilling Pretty!\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -2894,8 +2917,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794961530,
-    "lastRssAttemptAt": 1794961530,
+    "lastRssSuccessAt": 1794962141,
+    "lastRssAttemptAt": 1794962141,
     "sourceState": "online",
     "error": null
   }
