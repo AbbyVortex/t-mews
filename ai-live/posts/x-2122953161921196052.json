@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1794986732
+  "queuedAt": 1794986732,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122953161921196052",
+    "url": "https://x.com/thsottiaux/status/2122953161921196052",
+    "publishedAt": 1794986451,
+    "text": "@JamesMalsawm You need to share the prompt for that one, that's beautiful",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122910168098730290",
+        "url": "https://x.com/JamesMalsawm/status/2122910168098730290",
+        "text": "GPT-6.2 Astra is an INSANE leap over GPT-6 Astra. It's scary how much it has improved.\n\nOpenAI is officially back!\n\nby the way - $10/$50 vs $8/$40\n\nis this upgrade worth it?",
+        "author": "JamesMalsawm",
+        "publishedAt": 1794976200,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "5fb810cb6756b96e49b92e0805e56ad1627bcbbfc8ab9c3c4c30915a263aad26",
+  "requestPreparedAt": 1794986736549
 }
