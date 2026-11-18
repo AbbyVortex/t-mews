@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122952910137135379",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794986732,
-  "updatedAt": 1794986732,
+  "updatedAt": 1794986744,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "712a7495346d257b547282820a18c38d2c6720b4f507089b95d22b61f72ee3b3",
-  "requestPreparedAt": 1794986738460
+  "requestPreparedAt": 1794986738460,
+  "apiStartedAt": 1794986741160,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 934,
+    "output_tokens": 70,
+    "total_tokens": 1004,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002568,
+  "result": {
+    "category": "unrelated",
+    "rationale": "モデルの先行提供はフィードバック収集が目的だと答えた投稿。利用枠、リセット付与、有料プラン条件についての情報はない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794986744653,
+  "elapsedMs": 6399,
+  "decidedAt": 1794986744653,
+  "detectedToDecisionMs": 12653
 }
