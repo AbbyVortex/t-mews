@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122950072623350250",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794986130,
-  "updatedAt": 1794986130,
+  "updatedAt": 1794986144,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "798db3991cec29448aa5424a89fe5a29bf2ec3069fbb0c63e53a7aaf8882454a",
-  "requestPreparedAt": 1794986134902
+  "requestPreparedAt": 1794986134902,
+  "apiStartedAt": 1794986136549,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 915,
+    "output_tokens": 274,
+    "total_tokens": 1189,
+    "cached_tokens": 0,
+    "reasoning_tokens": 178
+  },
+  "referenceCostUsd": 0.00457,
+  "result": {
+    "category": "limit_change",
+    "rationale": "「ultrafastが200で利用可能になったか」という質問を肯定し、該当する有料枠でのアクセス拡大を確認している。",
+    "confidence": 0.82,
+    "uncertainty": "「200」が指すプラン名・通貨や、具体的な提供条件は明示されていない。"
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794986144894,
+  "elapsedMs": 10248,
+  "decidedAt": 1794986144894,
+  "detectedToDecisionMs": 14894
 }
