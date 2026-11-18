@@ -37,5 +37,26 @@
       "display": null
     }
   },
-  "queuedAt": 1795025130
+  "queuedAt": 1795025130,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123113107048501273",
+    "url": "https://x.com/thsottiaux/status/2123113107048501273",
+    "publishedAt": 1795024584,
+    "text": "How is 6.2 Sol treating you today?",
+    "related": [],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "not_applicable"
+  },
+  "inputHash": "d7749460b4e8083217ae92465024da1fffc65c3bb9978184856f84bd47403e22",
+  "requestPreparedAt": 1795025138363
 }
