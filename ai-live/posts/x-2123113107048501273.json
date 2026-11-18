@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123113107048501273",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795025130,
-  "updatedAt": 1795025130,
+  "updatedAt": 1795025142,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -58,5 +58,27 @@
     "parentStatus": "not_applicable"
   },
   "inputHash": "d7749460b4e8083217ae92465024da1fffc65c3bb9978184856f84bd47403e22",
-  "requestPreparedAt": 1795025138363
+  "requestPreparedAt": 1795025138363,
+  "apiStartedAt": 1795025140184,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 64,
+    "total_tokens": 907,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002326,
+  "result": {
+    "category": "unrelated",
+    "rationale": "「6.2 Sol」の使用感を尋ねる投稿で、リセット付与、利用枠、料金プランの新情報はありません。",
+    "confidence": 0.97,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795025142678,
+  "elapsedMs": 4316,
+  "decidedAt": 1795025142678,
+  "detectedToDecisionMs": 12678
 }
