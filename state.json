@@ -2109,13 +2109,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 20
+      },
+      {
+        "id": "x:2123151267002503570",
+        "x_status_id": "2123151267002503570",
+        "canonical_url": "https://x.com/thsottiaux/status/2123151267002503570",
+        "fingerprint": "bd72988cf8bdc2bd8a64c5f689e54e0bed4006713886315857c9bf6abc195467",
+        "published_at": 1795033682,
+        "detected_at": 1795034127,
+        "text": "@AdamHoltererer Climbing",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 445
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795033539,
+        "last_success_at": 1795034127,
         "last_failure_at": 1795032328,
         "offline_since": null,
         "failure_episodes": 696,
@@ -2133,7 +2150,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2123151267002503570\",\"queuedAt\":1795034127}]"
       },
       {
         "key": "baselineAt",
@@ -2149,7 +2166,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795033539"
+        "value": "1795034127"
       }
     ],
     "events": [
@@ -2524,6 +2541,12 @@
         "event_type": "post_analysis",
         "created_at": 1795033539,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@Leapofcode GG\"}}"
+      },
+      {
+        "id": "analysis:x:2123151267002503570",
+        "event_type": "post_analysis",
+        "created_at": 1795034127,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@AdamHoltererer Climbing\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3323,8 +3346,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795033539,
-    "lastRssAttemptAt": 1795033539,
+    "lastRssSuccessAt": 1795034127,
+    "lastRssAttemptAt": 1795034127,
     "sourceState": "online",
     "error": null
   }
