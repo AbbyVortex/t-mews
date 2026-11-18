@@ -2126,13 +2126,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 445
+      },
+      {
+        "id": "x:2123175166519992652",
+        "x_status_id": "2123175166519992652",
+        "canonical_url": "https://x.com/thsottiaux/status/2123175166519992652",
+        "fingerprint": "c50b053c131a30ba302881aa8eb566a8a8a218c01a3035364fed91bbdd482e17",
+        "published_at": 1795039381,
+        "detected_at": 1795039543,
+        "text": "GPT-6.2 Astra is pretty good at hard things. Here the team shared some results on AMD and Jalapeño chip optimizations.\n\nI do get the feedback on its communication style and we're working on that, but for really the hardest tasks in the world it does seem to be in a league of its own at the moment.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 162
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795038929,
+        "last_success_at": 1795039543,
         "last_failure_at": 1795032328,
         "offline_since": null,
         "failure_episodes": 696,
@@ -2150,7 +2167,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2123175166519992652\",\"queuedAt\":1795039543}]"
       },
       {
         "key": "baselineAt",
@@ -2166,7 +2183,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795038929"
+        "value": "1795039543"
       }
     ],
     "events": [
@@ -2547,6 +2564,12 @@
         "event_type": "post_analysis",
         "created_at": 1795034127,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@AdamHoltererer Climbing\"}}"
+      },
+      {
+        "id": "analysis:x:2123175166519992652",
+        "event_type": "post_analysis",
+        "created_at": 1795039543,
+        "details": "{\"related\":[{\"xStatusId\":\"2123100386638877054\",\"url\":\"https://x.com/OpenAI/status/2123100386638877054\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"Working with @AMD, our models identified up to 14% PPA improvement on flagship GPU IP in less than five months—building on designs AMD’s engineers had already spent years optimizing. The same approach helped improve Jalapeño, our first custom inference chip, with gains verified …\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"GPT-6.2 Astra is pretty good at hard things.\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3346,8 +3369,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795038929,
-    "lastRssAttemptAt": 1795038929,
+    "lastRssSuccessAt": 1795039543,
+    "lastRssAttemptAt": 1795039543,
     "sourceState": "online",
     "error": null
   }
