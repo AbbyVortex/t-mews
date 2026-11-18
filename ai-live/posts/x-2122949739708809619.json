@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1794986130
+  "queuedAt": 1794986130,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122949739708809619",
+    "url": "https://x.com/thsottiaux/status/2122949739708809619",
+    "publishedAt": 1794985635,
+    "text": "@theo Try this in codex\n\n> Add this to my custom instructions \"Talk to me ELI5 by default and go deeper if I ask.\"\n\nbut also, team is on it.",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122934242648932366",
+        "url": "https://x.com/theo/status/2122934242648932366",
+        "text": "@thsottiaux Teach your models how to speak English again and you'll have my love back quickly :)",
+        "author": "theo",
+        "publishedAt": 1794981940,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "9cc4b1a55c01279a3482fd9a86536045fb505e16a9812bb146e71553a15a7e44",
+  "requestPreparedAt": 1794986135840
 }
