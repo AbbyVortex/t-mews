@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1794962729
+  "queuedAt": 1794962729,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122851449474605281",
+    "url": "https://x.com/thsottiaux/status/2122851449474605281",
+    "publishedAt": 1794962200,
+    "text": "@skalskip92 Awkward",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122826476252746149",
+        "url": "https://x.com/skalskip92/status/2122826476252746149",
+        "text": "GPT-6.2 is getting roasted on X\n\nmeanwhile, Astra and Sol just took #1 and #2 on my object detection benchmark\n\nso I have some awkwardly positive results to share\n\n↓ benchmarks and examples",
+        "author": "skalskip92",
+        "publishedAt": 1794956246,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "e0b1dfdca07a1a2c1da669782e1c0e64506ebb92e11eefa94185c3eb0360298c",
+  "requestPreparedAt": 1794962735108
 }
