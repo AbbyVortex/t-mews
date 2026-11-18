@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1795034127
+  "queuedAt": 1795034127,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123151267002503570",
+    "url": "https://x.com/thsottiaux/status/2123151267002503570",
+    "publishedAt": 1795033682,
+    "text": "@AdamHoltererer Climbing",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2123073463703183566",
+        "url": "https://x.com/AdamHoltererer/status/2123073463703183566",
+        "text": "Based on my very limited experience:",
+        "author": "AdamHoltererer",
+        "publishedAt": 1795015133,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "e6979b599499453da42e2ac8b94b0833787ba138108d556300663669ae9240a1",
+  "requestPreparedAt": 1795034136753
 }
