@@ -2092,13 +2092,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 546
+      },
+      {
+        "id": "x:2123150581321883811",
+        "x_status_id": "2123150581321883811",
+        "canonical_url": "https://x.com/thsottiaux/status/2123150581321883811",
+        "fingerprint": "303aeaa7e8ef17db4cf802851f2b365b1ef61fe6709e8f67ecb690967278b724",
+        "published_at": 1795033519,
+        "detected_at": 1795033539,
+        "text": "@Leapofcode GG",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 20
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795032945,
+        "last_success_at": 1795033539,
         "last_failure_at": 1795032328,
         "offline_since": null,
         "failure_episodes": 696,
@@ -2116,7 +2133,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2123150581321883811\",\"queuedAt\":1795033539}]"
       },
       {
         "key": "baselineAt",
@@ -2132,7 +2149,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795032945"
+        "value": "1795033539"
       }
     ],
     "events": [
@@ -2501,6 +2518,12 @@
         "event_type": "post_analysis",
         "created_at": 1795025130,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"How is 6.2 Sol treating you today?\"}}"
+      },
+      {
+        "id": "analysis:x:2123150581321883811",
+        "event_type": "post_analysis",
+        "created_at": 1795033539,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@Leapofcode GG\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3300,8 +3323,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795032945,
-    "lastRssAttemptAt": 1795032945,
+    "lastRssSuccessAt": 1795033539,
+    "lastRssAttemptAt": 1795033539,
     "sourceState": "online",
     "error": null
   }
