@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1794986732
+  "queuedAt": 1794986732,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2122954129094111394",
+    "url": "https://x.com/thsottiaux/status/2122954129094111394",
+    "publishedAt": 1794986681,
+    "text": "@mattshumer_ I do think you all coordinated on a slack channel 👀",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2122895253468295605",
+        "url": "https://x.com/mattshumer_/status/2122895253468295605",
+        "text": "Why are they all posting reviews at the same time: there's an embargo.\n\nWhy are the reviews all negative: the model is bad.\n\nIt's pretty simple, guys.\n\nThere's no conspiracy. We're just giving our opinions.",
+        "author": "mattshumer_",
+        "publishedAt": 1794972644,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "e11c8095aa109a0cd8e3c101ba6a22d64903459ea545dbcbc80443568390775b",
+  "requestPreparedAt": 1794986747795
 }
