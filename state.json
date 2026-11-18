@@ -1837,13 +1837,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 63
+      },
+      {
+        "id": "x:2122902327443300537",
+        "x_status_id": "2122902327443300537",
+        "canonical_url": "https://x.com/thsottiaux/status/2122902327443300537",
+        "fingerprint": "cd26aa13a3b1e004856470d7af6e07fd1f9fdac75ab0be23d6eda00efea8c1d8",
+        "published_at": 1794974331,
+        "detected_at": 1794974743,
+        "text": "@adonis_singh What are they getting wrong? Curious",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 412
+      },
+      {
+        "id": "x:2122903687949688912",
+        "x_status_id": "2122903687949688912",
+        "canonical_url": "https://x.com/thsottiaux/status/2122903687949688912",
+        "fingerprint": "df3677a07335830e3ea850fa3451350097c5b1722aebabe026b0e2fa15e3a00c",
+        "published_at": 1794974655,
+        "detected_at": 1794974743,
+        "text": "@swyx It's that is the only critique of the launch, I'm glad. It is indeed truly all about efficiency and topline capabilities. We'll highlight more interesting things in the next launch video.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 88
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1794974140,
+        "last_success_at": 1794974743,
         "last_failure_at": 1794972930,
         "offline_since": null,
         "failure_episodes": 686,
@@ -1861,7 +1895,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2122903687949688912\",\"queuedAt\":1794974743},{\"id\":\"x:2122902327443300537\",\"queuedAt\":1794974743}]"
       },
       {
         "key": "baselineAt",
@@ -1877,7 +1911,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1794974140"
+        "value": "1794974743"
       }
     ],
     "events": [
@@ -2156,6 +2190,18 @@
         "event_type": "post_analysis",
         "created_at": 1794971743,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@JoshPurtell Beauty is in the eye of the beholder, but clearly the models are polarizing.\"}}"
+      },
+      {
+        "id": "analysis:x:2122902327443300537",
+        "event_type": "post_analysis",
+        "created_at": 1794974743,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@adonis_singh What are they getting wrong?\"}}"
+      },
+      {
+        "id": "analysis:x:2122903687949688912",
+        "event_type": "post_analysis",
+        "created_at": 1794974743,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@swyx It's that is the only critique of the launch, I'm glad.\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -2941,8 +2987,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794974140,
-    "lastRssAttemptAt": 1794974140,
+    "lastRssSuccessAt": 1794974743,
+    "lastRssAttemptAt": 1794974743,
     "sourceState": "online",
     "error": null
   }
