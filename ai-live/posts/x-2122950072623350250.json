@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122950072623350250",
-  "status": "decided",
+  "status": "complete",
   "createdAt": 1794986130,
-  "updatedAt": 1794986144,
+  "updatedAt": 1794986148,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -90,5 +90,26 @@
   "apiCompletedAt": 1794986144894,
   "elapsedMs": 10248,
   "decidedAt": 1794986144894,
-  "detectedToDecisionMs": 14894
+  "detectedToDecisionMs": 14894,
+  "delivery": {
+    "kind": "normal",
+    "mismatch": true,
+    "priority": 0,
+    "title": "📈 AIが発見！ [判定不一致]",
+    "message": "🛠機械: — IRRELEVANT\n🤖AI: 📈利用枠・プラン変更 (limit_change)\n理由: 「ultrafastが200で利用可能になったか」という質問を肯定し、該当する有料枠でのアクセス拡大を確認している。\n不確実性: 「200」が指すプラン名・通貨や、具体的な提供条件は明示されていない。\n\n投稿時刻: 2026/11/18 16:08:34 JST\n検知遅延: 6分56秒\n\n本人: @Wilf_Lin Yes\nhttps://x.com/thsottiaux/status/2122950072623350250",
+    "id": "post:x:2122950072623350250",
+    "receipts": [
+      {
+        "id": "post:x:2122950072623350250",
+        "post_id": "x:2122950072623350250",
+        "kind": "alert",
+        "created_at": 1794986145,
+        "status": "sent",
+        "sent_at": 1794986147
+      }
+    ],
+    "detectedToFirstSendMs": 17000,
+    "detectedToLastSendMs": 17000,
+    "publishedToFirstSendMs": 433000
+  }
 }
