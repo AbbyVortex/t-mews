@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1795040739
+  "queuedAt": 1795040739,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123179276199735535",
+    "url": "https://x.com/thsottiaux/status/2123179276199735535",
+    "publishedAt": 1795040360,
+    "text": "@DannyIO It does like math",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2123176503861235773",
+        "url": "https://x.com/DannyIO/status/2123176503861235773",
+        "text": "@thsottiaux Working on some open math problems where I've used the previous Astra, Fable, Claude.\n\nThis Astra progressed more than all of them combined in the first few prompts. \n\nIm assuming its the one that solved Navier–Stokes?",
+        "author": "DannyIO",
+        "publishedAt": 1795039699,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "7a1b7fa1de2167570b8ede7a41709b5026111a819db44873a7c65cf436f71249",
+  "requestPreparedAt": 1795040744919
 }
