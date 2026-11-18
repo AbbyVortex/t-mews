@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "id": "x:2122929829863735594",
+  "status": "claimed",
+  "createdAt": 1794981342,
+  "updatedAt": 1794981342,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "reason": "no usage reset or material allowance signal",
+    "evidence": "If you have Pro 200/500, I do recommend trying out 6.2 Sol ultrafast, it's quite the blast to use and a completely different feel."
+  },
+  "candidate": {
+    "id": "x:2122929829863735594",
+    "url": "https://x.com/thsottiaux/status/2122929829863735594",
+    "text": "If you have Pro 200/500, I do recommend trying out 6.2 Sol ultrafast, it's quite the blast to use and a completely different feel. I'm excited to keep pushing in bringing these speeds to more users over time.",
+    "related": [],
+    "publishedAt": 1794980888,
+    "kind": "post",
+    "discoveredAt": 1794981342,
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "rule": {
+      "classification": "IRRELEVANT",
+      "notify": false,
+      "display": null
+    }
+  },
+  "queuedAt": 1794981342
+}
