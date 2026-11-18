@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2122891208968294400",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1794971743,
-  "updatedAt": 1794971743,
+  "updatedAt": 1794971754,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "4d4e5edd95e214b38da1ea3f55f7351c232040469382d50fdeba7163506cd869",
-  "requestPreparedAt": 1794971749114
+  "requestPreparedAt": 1794971749114,
+  "apiStartedAt": 1794971750037,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1025,
+    "output_tokens": 75,
+    "total_tokens": 1100,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.0028,
+  "result": {
+    "category": "unrelated",
+    "rationale": "モデルの能力や評価の分かれ方、今後の品質改善についての返信であり、利用枠・リセット付与・有料プラン条件に関する新情報はありません。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1794971754193,
+  "elapsedMs": 5457,
+  "decidedAt": 1794971754193,
+  "detectedToDecisionMs": 11193
 }
