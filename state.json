@@ -3,74 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2117489367417803042",
-        "x_status_id": "2117489367417803042",
-        "canonical_url": "https://x.com/thsottiaux/status/2117489367417803042",
-        "fingerprint": "e5d23c79bbfb39b55c828d084333e591ae08d8f1fe709acf677828e54035a9c1",
-        "published_at": 1793683780,
-        "detected_at": 1793684736,
-        "text": "Le GPT Fat",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 956
-      },
-      {
-        "id": "x:2117506709417795626",
-        "x_status_id": "2117506709417795626",
-        "canonical_url": "https://x.com/thsottiaux/status/2117506709417795626",
-        "fingerprint": "072ae5a923d90b1b0269b73433567b2919ecdfbd832d323e4bbe2e900b8b0214",
-        "published_at": 1793687915,
-        "detected_at": 1793688338,
-        "text": "@_aidan_clark_ twitter really",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 423
-      },
-      {
-        "id": "x:2117515752588853710",
-        "x_status_id": "2117515752588853710",
-        "canonical_url": "https://x.com/thsottiaux/status/2117515752588853710",
-        "fingerprint": "e159a7d8160f92edf356ccf3e5272106b0d82a93717b8ff0fab0076bfb217e80",
-        "published_at": 1793690071,
-        "detected_at": 1793690128,
-        "text": "@Raitox_tech 🫨",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 57
-      },
-      {
-        "id": "x:2117746467058405665",
-        "x_status_id": "2117746467058405665",
-        "canonical_url": "https://x.com/thsottiaux/status/2117746467058405665",
-        "fingerprint": "0e29a5b2d8fff0cf0753023b09d166d52968e8dbf4de7599a0a1d5d19b287b29",
-        "published_at": 1793745078,
-        "detected_at": 1793745331,
-        "text": "Things will change again and again and again. We’re still very early and agents today are incredible, and yet so frustrating still. Can’t wait to crack things to get that flow state back. Long journey ahead.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 253
-      },
-      {
         "id": "x:2117865198040355067",
         "x_status_id": "2117865198040355067",
         "canonical_url": "https://x.com/thsottiaux/status/2117865198040355067",
@@ -1854,17 +1786,51 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 529
+      },
+      {
+        "id": "x:2122880282550481388",
+        "x_status_id": "2122880282550481388",
+        "canonical_url": "https://x.com/thsottiaux/status/2122880282550481388",
+        "fingerprint": "f3f36c1cd26b95f4195592769e372bb86f291ff068f9e47f4853dc3fe5d76272",
+        "published_at": 1794969075,
+        "detected_at": 1794969938,
+        "text": "@pradeepXkapoor Let's go bro",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 863
+      },
+      {
+        "id": "x:2122880368600621508",
+        "x_status_id": "2122880368600621508",
+        "canonical_url": "https://x.com/thsottiaux/status/2122880368600621508",
+        "fingerprint": "4f084c270dda9b5b7f899d55aa9c84fc4f8f140457aa9c84a858a537b19164d1",
+        "published_at": 1794969095,
+        "detected_at": 1794969938,
+        "text": "@arcprize @OpenAI !!",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 843
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1794968139,
+        "state": "online",
+        "last_success_at": 1794969938,
         "last_failure_at": 1794969329,
-        "offline_since": 1794968737,
+        "offline_since": null,
         "failure_episodes": 685,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -1878,7 +1844,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2122880368600621508\",\"queuedAt\":1794969938},{\"id\":\"x:2122880282550481388\",\"queuedAt\":1794969938}]"
       },
       {
         "key": "baselineAt",
@@ -1890,15 +1856,11 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1794881744"
+        "value": "1794969938"
       },
       {
         "key": "lastSuccess",
-        "value": "1794968139"
-      },
-      {
-        "key": "outage",
-        "value": "1794968737"
+        "value": "1794969938"
       }
     ],
     "events": [
@@ -2159,6 +2121,18 @@
         "event_type": "post_analysis",
         "created_at": 1794962729,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@skalskip92 Awkward\"}}"
+      },
+      {
+        "id": "analysis:x:2122880282550481388",
+        "event_type": "post_analysis",
+        "created_at": 1794969938,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@pradeepXkapoor Let's go bro\"}}"
+      },
+      {
+        "id": "analysis:x:2122880368600621508",
+        "event_type": "post_analysis",
+        "created_at": 1794969938,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@arcprize @OpenAI !!\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -2944,9 +2918,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1794968139,
-    "lastRssAttemptAt": 1794969329,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1794969938,
+    "lastRssAttemptAt": 1794969938,
+    "sourceState": "online",
+    "error": null
   }
 }
