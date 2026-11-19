@@ -1871,17 +1871,34 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 31
+      },
+      {
+        "id": "x:2123505661741084830",
+        "x_status_id": "2123505661741084830",
+        "canonical_url": "https://x.com/thsottiaux/status/2123505661741084830",
+        "fingerprint": "41560389cb58d6b8a4c0e50dce2d4297109be2feb580336e4716b126c1f7bfbb",
+        "published_at": 1795118177,
+        "detected_at": 1795119345,
+        "text": "New Sol being particularly popular.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 1168
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1795118129,
+        "state": "online",
+        "last_success_at": 1795119345,
         "last_failure_at": 1795118741,
-        "offline_since": 1795118741,
+        "offline_since": null,
         "failure_episodes": 715,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -1895,7 +1912,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2123505661741084830\",\"queuedAt\":1795119345}]"
       },
       {
         "key": "baselineAt",
@@ -1911,11 +1928,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795118129"
-      },
-      {
-        "key": "outage",
-        "value": "1795118741"
+        "value": "1795119345"
       }
     ],
     "events": [
@@ -2296,6 +2309,12 @@
         "event_type": "post_analysis",
         "created_at": 1795118129,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Tokens go brrrrrr.\"}}"
+      },
+      {
+        "id": "analysis:x:2123505661741084830",
+        "event_type": "post_analysis",
+        "created_at": 1795119345,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"New Sol being particularly popular.\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3095,9 +3114,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795118129,
-    "lastRssAttemptAt": 1795118741,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1795119345,
+    "lastRssAttemptAt": 1795119345,
+    "sourceState": "online",
+    "error": null
   }
 }
