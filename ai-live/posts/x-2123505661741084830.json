@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123505661741084830",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795119345,
-  "updatedAt": 1795119345,
+  "updatedAt": 1795119357,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -58,5 +58,27 @@
     "parentStatus": "not_applicable"
   },
   "inputHash": "c3651ce6a0076e52a5bc4351c02165c36bdc7071f103cb697eebbc9e1f26a56b",
-  "requestPreparedAt": 1795119350591
+  "requestPreparedAt": 1795119350591,
+  "apiStartedAt": 1795119351552,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 837,
+    "output_tokens": 96,
+    "total_tokens": 933,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002634,
+  "result": {
+    "category": "unrelated",
+    "rationale": "「New Sol」の人気への言及のみで、利用枠・リセット付与・有料プラン変更に関する新情報はありません。",
+    "confidence": 0.97,
+    "uncertainty": "「New Sol」の具体的な対象は不明ですが、過去投稿だけでは利用枠の話題と結び付けられません。"
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795119357026,
+  "elapsedMs": 6436,
+  "decidedAt": 1795119357026,
+  "detectedToDecisionMs": 12026
 }
