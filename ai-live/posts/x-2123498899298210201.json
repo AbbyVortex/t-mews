@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123498899298210201",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795116938,
-  "updatedAt": 1795116938,
+  "updatedAt": 1795116949,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "3800edaed29cdff340066ab90bdd766b7db574fb8e9f879854f82280d11ed090",
-  "requestPreparedAt": 1795116943546
+  "requestPreparedAt": 1795116943546,
+  "apiStartedAt": 1795116944547,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 950,
+    "output_tokens": 82,
+    "total_tokens": 1032,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.00272,
+  "result": {
+    "category": "unrelated",
+    "rationale": "親投稿のモデル設定「Medium」に対し、「Max」はベンチマーク向けと冗談交じりに述べた返信。利用枠、リセット付与、有料プラン条件の情報ではない。",
+    "confidence": 0.98,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795116949057,
+  "elapsedMs": 5760,
+  "decidedAt": 1795116949057,
+  "detectedToDecisionMs": 11057
 }
