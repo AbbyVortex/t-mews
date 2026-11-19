@@ -1922,13 +1922,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 61
+      },
+      {
+        "id": "x:2123556256392847657",
+        "x_status_id": "2123556256392847657",
+        "canonical_url": "https://x.com/thsottiaux/status/2123556256392847657",
+        "fingerprint": "83ef7f0245df5027c5bcc4a419929c3cf8e559805a37877865a7d1e5291d3eb4",
+        "published_at": 1795130239,
+        "detected_at": 1795130738,
+        "text": "Heads up, we’re starting to test dots with a small number of ChatGPT Plus users. Looking forward to the continued feedback as we expand and I’m recently seeing a lot more positives around how good the proactivity has been after many improvements. \n\nWe’re also bringing dots to all ChatGPT Business Standard users. Rollout will start today.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 499
+      },
+      {
+        "id": "x:2123557171321561133",
+        "x_status_id": "2123557171321561133",
+        "canonical_url": "https://x.com/thsottiaux/status/2123557171321561133",
+        "fingerprint": "7beea54259ec05ff8627fd1187c863061234007c44b0df75a1f96b8dfae7b69f",
+        "published_at": 1795130458,
+        "detected_at": 1795130738,
+        "text": "We’re also working on a new mobile experience for ChatGPT! \n\nIt’s easier to get to your favorite features and discover what you can do in ChatGPT. We’re starting with Pro users who have a dot or are eligible to create one. Your dot gets its own tab, and you can pin Codex, Projects, Images, and more to the tab bar. Some of you will see the new experience by default. \n\nYou can turn it on or off anytime in Settings > New ChatGPT Design. \n\nSuper excited to hear your feedback before we roll it out more widely!\n\nMedia",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 280
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795130137,
+        "last_success_at": 1795130738,
         "last_failure_at": 1795128333,
         "offline_since": null,
         "failure_episodes": 718,
@@ -1946,7 +1980,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2123557171321561133\",\"queuedAt\":1795130738},{\"id\":\"x:2123556256392847657\",\"queuedAt\":1795130738}]"
       },
       {
         "key": "baselineAt",
@@ -1962,7 +1996,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795130137"
+        "value": "1795130738"
       }
     ],
     "events": [
@@ -2361,6 +2395,18 @@
         "event_type": "post_analysis",
         "created_at": 1795123528,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@theo I still count 6 weeks in the year\"}}"
+      },
+      {
+        "id": "analysis:x:2123556256392847657",
+        "event_type": "post_analysis",
+        "created_at": 1795130738,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Heads up, we’re starting to test dots with a small number of ChatGPT Plus users.\"}}"
+      },
+      {
+        "id": "analysis:x:2123557171321561133",
+        "event_type": "post_analysis",
+        "created_at": 1795130738,
+        "details": "{\"related\":[{\"xStatusId\":\"2123556256392847657\",\"url\":\"https://x.com/thsottiaux/status/2123556256392847657\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Heads up, we’re starting to test dots with a small number of ChatGPT Plus users. Looking forward to the continued feedback as we expand and I’m recently seeing a lot more positives around how good the proactivity has been after many improvements. We’re also bringing dots to all …\",\"provenance\":\"feed\",\"publishedAt\":1795130239}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"We’re also working on a new mobile experience for ChatGPT!\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3160,8 +3206,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795130137,
-    "lastRssAttemptAt": 1795130137,
+    "lastRssSuccessAt": 1795130738,
+    "lastRssAttemptAt": 1795130738,
     "sourceState": "online",
     "error": null
   }
