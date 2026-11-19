@@ -1854,13 +1854,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 374
+      },
+      {
+        "id": "x:2123505331531882923",
+        "x_status_id": "2123505331531882923",
+        "canonical_url": "https://x.com/thsottiaux/status/2123505331531882923",
+        "fingerprint": "aa88eb2ae75643849e0cc7ffaa25c290269a091fc81a4f78afbb9f55a96e4b58",
+        "published_at": 1795118098,
+        "detected_at": 1795118129,
+        "text": "Tokens go brrrrrr. Going to need more compute.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 31
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795117528,
+        "last_success_at": 1795118129,
         "last_failure_at": 1795111529,
         "offline_since": null,
         "failure_episodes": 714,
@@ -1878,7 +1895,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2123505331531882923\",\"queuedAt\":1795118129}]"
       },
       {
         "key": "baselineAt",
@@ -1894,7 +1911,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795117528"
+        "value": "1795118129"
       }
     ],
     "events": [
@@ -2269,6 +2286,12 @@
         "event_type": "post_analysis",
         "created_at": 1795116938,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@_simonsmith Max is for benchmaxxxing\"}}"
+      },
+      {
+        "id": "analysis:x:2123505331531882923",
+        "event_type": "post_analysis",
+        "created_at": 1795118129,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Tokens go brrrrrr.\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3068,8 +3091,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795117528,
-    "lastRssAttemptAt": 1795117528,
+    "lastRssSuccessAt": 1795118129,
+    "lastRssAttemptAt": 1795118129,
     "sourceState": "online",
     "error": null
   }
