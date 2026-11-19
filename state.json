@@ -1888,13 +1888,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 1168
+      },
+      {
+        "id": "x:2123527632700747862",
+        "x_status_id": "2123527632700747862",
+        "canonical_url": "https://x.com/thsottiaux/status/2123527632700747862",
+        "fingerprint": "391f4a4e598b078096020ba789bcf634f4352882e38c2ffc8763c7bafca83fd9",
+        "published_at": 1795123415,
+        "detected_at": 1795123528,
+        "text": "@AdamHoltererer Why did I turn into Dario",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 113
+      },
+      {
+        "id": "x:2123527849403674729",
+        "x_status_id": "2123527849403674729",
+        "canonical_url": "https://x.com/thsottiaux/status/2123527849403674729",
+        "fingerprint": "6f07884b6ddaad4372e2a52f9b0c9cd07f49932f4952d5d6058c3f6efc1fbeae",
+        "published_at": 1795123467,
+        "detected_at": 1795123528,
+        "text": "@theo I still count 6 weeks in the year",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 61
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795122942,
+        "last_success_at": 1795123528,
         "last_failure_at": 1795122342,
         "offline_since": null,
         "failure_episodes": 716,
@@ -1912,7 +1946,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2123527849403674729\",\"queuedAt\":1795123528},{\"id\":\"x:2123527632700747862\",\"queuedAt\":1795123528}]"
       },
       {
         "key": "baselineAt",
@@ -1928,7 +1962,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795122942"
+        "value": "1795123528"
       }
     ],
     "events": [
@@ -2315,6 +2349,18 @@
         "event_type": "post_analysis",
         "created_at": 1795119345,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"New Sol being particularly popular.\"}}"
+      },
+      {
+        "id": "analysis:x:2123527632700747862",
+        "event_type": "post_analysis",
+        "created_at": 1795123528,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@AdamHoltererer Why did I turn into Dario\"}}"
+      },
+      {
+        "id": "analysis:x:2123527849403674729",
+        "event_type": "post_analysis",
+        "created_at": 1795123528,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@theo I still count 6 weeks in the year\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3114,8 +3160,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795122942,
-    "lastRssAttemptAt": 1795122942,
+    "lastRssSuccessAt": 1795123528,
+    "lastRssAttemptAt": 1795123528,
     "sourceState": "online",
     "error": null
   }
