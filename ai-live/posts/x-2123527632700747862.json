@@ -37,5 +37,26 @@
       "display": null
     }
   },
-  "queuedAt": 1795123528
+  "queuedAt": 1795123528,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123527632700747862",
+    "url": "https://x.com/thsottiaux/status/2123527632700747862",
+    "publishedAt": 1795123415,
+    "text": "@AdamHoltererer Why did I turn into Dario",
+    "related": [],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "unavailable"
+  },
+  "inputHash": "6f141e3dcefcb5127a966fb0994f236a119ef87f23e59aa2807d7a6f47b6d55e",
+  "requestPreparedAt": 1795123533992
 }
