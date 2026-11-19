@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123527632700747862",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795123528,
-  "updatedAt": 1795123528,
+  "updatedAt": 1795123540,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -58,5 +58,27 @@
     "parentStatus": "unavailable"
   },
   "inputHash": "6f141e3dcefcb5127a966fb0994f236a119ef87f23e59aa2807d7a6f47b6d55e",
-  "requestPreparedAt": 1795123533992
+  "requestPreparedAt": 1795123533992,
+  "apiStartedAt": 1795123535804,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 843,
+    "output_tokens": 83,
+    "total_tokens": 926,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002516,
+  "result": {
+    "category": "unrelated",
+    "rationale": "「なぜ自分がDarioになったのか」という返信のみで、利用枠・リセット付与・有料プランへの関連は確認できません。",
+    "confidence": 0.97,
+    "uncertainty": "返信先が取得できず、発言の背景は不明です。"
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795123540195,
+  "elapsedMs": 6542,
+  "decidedAt": 1795123540195,
+  "detectedToDecisionMs": 12195
 }
