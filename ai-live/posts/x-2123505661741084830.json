@@ -37,5 +37,26 @@
       "display": null
     }
   },
-  "queuedAt": 1795119345
+  "queuedAt": 1795119345,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123505661741084830",
+    "url": "https://x.com/thsottiaux/status/2123505661741084830",
+    "publishedAt": 1795118177,
+    "text": "New Sol being particularly popular.",
+    "related": [],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "not_applicable"
+  },
+  "inputHash": "c3651ce6a0076e52a5bc4351c02165c36bdc7071f103cb697eebbc9e1f26a56b",
+  "requestPreparedAt": 1795119350591
 }
