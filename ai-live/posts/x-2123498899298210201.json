@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1795116938
+  "queuedAt": 1795116938,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123498899298210201",
+    "url": "https://x.com/thsottiaux/status/2123498899298210201",
+    "publishedAt": 1795116564,
+    "text": "@_simonsmith Max is for benchmaxxxing",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2123124416066265393",
+        "url": "https://x.com/_simonsmith/status/2123124416066265393",
+        "text": "Small feature, big impact. We set model defaults to \"Medium,\" so want to see how things stack up on that setting. This is a much more accurate picture of what the typical user in our company will experience.",
+        "author": "_simonsmith",
+        "publishedAt": 1795027281,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "3800edaed29cdff340066ab90bdd766b7db574fb8e9f879854f82280d11ed090",
+  "requestPreparedAt": 1795116943546
 }
