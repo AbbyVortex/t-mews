@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1795123528
+  "queuedAt": 1795123528,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123527849403674729",
+    "url": "https://x.com/thsottiaux/status/2123527849403674729",
+    "publishedAt": 1795123467,
+    "text": "@theo I still count 6 weeks in the year",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2123509826856878541",
+        "url": "https://x.com/theo/status/2123509826856878541",
+        "text": "It’s the end of 2026.\n\nAnthropic recently released a model that’s changed how we code forever\n\nGoogle put out a great general model that is pleasant to work with.\n\nOpenAI put out the most intelligent model ever but it sucks to actually use.",
+        "author": "theo",
+        "publishedAt": 1795119170,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "647d9dbad1d05639bd4da7ab0835f7ab934647dc5dcbbdde8a5e31941e32c21f",
+  "requestPreparedAt": 1795123532948
 }
