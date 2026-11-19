@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123557171321561133",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795130738,
-  "updatedAt": 1795130738,
+  "updatedAt": 1795130753,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -78,5 +78,27 @@
     "parentStatus": "not_applicable;quote:x:2123556256392847657=present"
   },
   "inputHash": "5ae4f13279e875cac565725cb682ed7810667d5fe6ad5cae0b2686ec66b8e713",
-  "requestPreparedAt": 1795130746115
+  "requestPreparedAt": 1795130746115,
+  "apiStartedAt": 1795130748375,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1087,
+    "output_tokens": 112,
+    "total_tokens": 1199,
+    "cached_tokens": 0,
+    "reasoning_tokens": 27
+  },
+  "referenceCostUsd": 0.003294,
+  "result": {
+    "category": "unrelated",
+    "rationale": "Proユーザー向けの新しいモバイルUIとdotsの試験提供に関する案内です。利用枠、リセット付与、有料プランの利用条件の実質的変更は示されていません。",
+    "confidence": 0.97,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795130753017,
+  "elapsedMs": 6903,
+  "decidedAt": 1795130753017,
+  "detectedToDecisionMs": 15017
 }
