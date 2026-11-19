@@ -37,5 +37,26 @@
       "display": null
     }
   },
-  "queuedAt": 1795118129
+  "queuedAt": 1795118129,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123505331531882923",
+    "url": "https://x.com/thsottiaux/status/2123505331531882923",
+    "publishedAt": 1795118098,
+    "text": "Tokens go brrrrrr. Going to need more compute.",
+    "related": [],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "not_applicable"
+  },
+  "inputHash": "53bc418147f20bba52184e1935628f2d680659649e7a09f6b8c95881c3a4eb5b",
+  "requestPreparedAt": 1795118136282
 }
