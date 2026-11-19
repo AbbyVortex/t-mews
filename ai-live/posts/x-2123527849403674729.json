@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123527849403674729",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795123528,
-  "updatedAt": 1795123528,
+  "updatedAt": 1795123539,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "647d9dbad1d05639bd4da7ab0835f7ab934647dc5dcbbdde8a5e31941e32c21f",
-  "requestPreparedAt": 1795123532948
+  "requestPreparedAt": 1795123532948,
+  "apiStartedAt": 1795123534778,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 960,
+    "output_tokens": 87,
+    "total_tokens": 1047,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.00279,
+  "result": {
+    "category": "unrelated",
+    "rationale": "年末のモデル評価に対し、今年はまだ6週間あると返したもの。今後の製品展開を示唆し得るが、使用枠・リセット付与・有料プラン変更への言及はない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795123539446,
+  "elapsedMs": 6767,
+  "decidedAt": 1795123539446,
+  "detectedToDecisionMs": 11446
 }
