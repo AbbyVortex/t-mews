@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123556256392847657",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795130738,
-  "updatedAt": 1795130738,
+  "updatedAt": 1795130754,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -58,5 +58,27 @@
     "parentStatus": "not_applicable"
   },
   "inputHash": "755a9b5c2129285c36870111f74c52a6c6ae11586b580834bc5b8e59cc4597c7",
-  "requestPreparedAt": 1795130747311
+  "requestPreparedAt": 1795130747311,
+  "apiStartedAt": 1795130749444,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 902,
+    "output_tokens": 156,
+    "total_tokens": 1058,
+    "cached_tokens": 0,
+    "reasoning_tokens": 70
+  },
+  "referenceCostUsd": 0.003364,
+  "result": {
+    "category": "unrelated",
+    "rationale": "「dots」のPlus向け小規模テストとBusiness Standard向け提供開始の告知。リセット付与や利用枠・消費ルール・有料プラン条件の変更ではなく、機能の展開情報。",
+    "confidence": 0.93,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795130754107,
+  "elapsedMs": 6796,
+  "decidedAt": 1795130754107,
+  "detectedToDecisionMs": 16107
 }
