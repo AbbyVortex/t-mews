@@ -1837,13 +1837,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 379
+      },
+      {
+        "id": "x:2123498899298210201",
+        "x_status_id": "2123498899298210201",
+        "canonical_url": "https://x.com/thsottiaux/status/2123498899298210201",
+        "fingerprint": "80ea91cdb7ba60d1f0bc922e94ef81d3b12ade992d3c4e6f3982a1b5b6e7b206",
+        "published_at": 1795116564,
+        "detected_at": 1795116938,
+        "text": "@_simonsmith Max is for benchmaxxxing",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 374
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795116335,
+        "last_success_at": 1795116938,
         "last_failure_at": 1795111529,
         "offline_since": null,
         "failure_episodes": 714,
@@ -1861,7 +1878,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2123498899298210201\",\"queuedAt\":1795116938}]"
       },
       {
         "key": "baselineAt",
@@ -1877,7 +1894,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795116335"
+        "value": "1795116938"
       }
     ],
     "events": [
@@ -2246,6 +2263,12 @@
         "event_type": "post_analysis",
         "created_at": 1795040739,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@DannyIO It does like math\"}}"
+      },
+      {
+        "id": "analysis:x:2123498899298210201",
+        "event_type": "post_analysis",
+        "created_at": 1795116938,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@_simonsmith Max is for benchmaxxxing\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3045,8 +3068,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795116335,
-    "lastRssAttemptAt": 1795116335,
+    "lastRssSuccessAt": 1795116938,
+    "lastRssAttemptAt": 1795116938,
     "sourceState": "online",
     "error": null
   }
