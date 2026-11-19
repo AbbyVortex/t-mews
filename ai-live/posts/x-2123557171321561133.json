@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "id": "x:2123557171321561133",
+  "status": "claimed",
+  "createdAt": 1795130738,
+  "updatedAt": 1795130738,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "reason": "no usage reset or material allowance signal",
+    "evidence": "We’re also working on a new mobile experience for ChatGPT!"
+  },
+  "candidate": {
+    "id": "x:2123557171321561133",
+    "url": "https://x.com/thsottiaux/status/2123557171321561133",
+    "text": "We’re also working on a new mobile experience for ChatGPT! \n\nIt’s easier to get to your favorite features and discover what you can do in ChatGPT. We’re starting with Pro users who have a dot or are eligible to create one. Your dot gets its own tab, and you can pin Codex, Projects, Images, and more to the tab bar. Some of you will see the new experience by default. \n\nYou can turn it on or off anytime in Settings > New ChatGPT Design. \n\nSuper excited to hear your feedback before we roll it out more widely!\n\nMedia",
+    "related": [
+      {
+        "relation": "quote",
+        "text": "Heads up, we’re starting to test dots with a small number of ChatGPT Plus users. Looking forward to the continued feedback as we expand and I’m recently seeing a lot more positives around how good the proactivity has been after many improvements. We’re also bringing dots to all …",
+        "author": "thsottiaux",
+        "id": "x:2123556256392847657",
+        "url": "https://x.com/thsottiaux/status/2123556256392847657",
+        "publishedAt": 1795130239,
+        "source": "feed"
+      }
+    ],
+    "publishedAt": 1795130458,
+    "kind": "post",
+    "discoveredAt": 1795130738,
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "rule": {
+      "classification": "IRRELEVANT",
+      "notify": false,
+      "display": null
+    }
+  },
+  "queuedAt": 1795130738
+}
