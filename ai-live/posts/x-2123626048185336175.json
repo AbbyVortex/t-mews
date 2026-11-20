@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1795146943
+  "queuedAt": 1795146943,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123626048185336175",
+    "url": "https://x.com/thsottiaux/status/2123626048185336175",
+    "publishedAt": 1795146879,
+    "text": "@IsaiahJGonzalez Just press home again",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2123589872581493010",
+        "url": "https://x.com/IsaiahJGonzalez/status/2123589872581493010",
+        "text": "@thsottiaux I need a faster button for new chat @thsottiaux",
+        "author": "IsaiahJGonzalez",
+        "publishedAt": 1795138254,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "78c78a6287b3cf4ad9c24268eeee4b8d149feef79b20c7dc23e03857bba39975",
+  "requestPreparedAt": 1795146948579
 }
