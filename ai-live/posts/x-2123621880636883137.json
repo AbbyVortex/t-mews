@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1795146339
+  "queuedAt": 1795146339,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123621880636883137",
+    "url": "https://x.com/thsottiaux/status/2123621880636883137",
+    "publishedAt": 1795145885,
+    "text": "@zedsolar123 @AdamHoltererer Mr. Stark, I don't feel so good",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2123570469127462921",
+        "url": "https://x.com/zedsolar123/status/2123570469127462921",
+        "text": "@thsottiaux @AdamHoltererer",
+        "author": "zedsolar123",
+        "publishedAt": 1795133628,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "7ada7940f60514660f23b91b20df0f3b31309fac40a7a2b1b52a1afb6cb7e17f",
+  "requestPreparedAt": 1795146346895
 }
