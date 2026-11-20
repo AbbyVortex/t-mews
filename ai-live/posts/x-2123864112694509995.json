@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123864112694509995",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795204532,
-  "updatedAt": 1795204532,
+  "updatedAt": 1795204543,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -60,5 +60,27 @@
     "parentStatus": "not_applicable;quote:x:2123854751150625144=present"
   },
   "inputHash": "9b535a43e1f197a08eca5903b322149d608fe7da02fa82d3a6e4e976b080235f",
-  "requestPreparedAt": 1795204537743
+  "requestPreparedAt": 1795204537743,
+  "apiStartedAt": 1795204539582,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 863,
+    "output_tokens": 79,
+    "total_tokens": 942,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002516,
+  "result": {
+    "category": "unrelated",
+    "rationale": "引用はChatGPTアプリの動作改善についてで、Tiboの投稿も投稿者の紹介にとどまる。利用枠、リセット付与、有料プラン条件に関する情報はない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795204543488,
+  "elapsedMs": 5746,
+  "decidedAt": 1795204543488,
+  "detectedToDecisionMs": 11488
 }
