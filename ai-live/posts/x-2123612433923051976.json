@@ -47,5 +47,36 @@
       "display": null
     }
   },
-  "queuedAt": 1795143929
+  "queuedAt": 1795143929,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123612433923051976",
+    "url": "https://x.com/thsottiaux/status/2123612433923051976",
+    "publishedAt": 1795143633,
+    "text": "Le ChatGPT 2.0",
+    "related": [
+      {
+        "relation": "quote",
+        "text": "We’re also working on a new mobile experience for ChatGPT! It’s easier to get to your favorite features and discover what you can do in ChatGPT. We’re starting with Pro users who have a dot or are eligible to create one. Your dot gets its own tab, and you can pin Codex, Projects…",
+        "author": "thsottiaux",
+        "id": "x:2123557171321561133",
+        "url": "https://x.com/thsottiaux/status/2123557171321561133",
+        "publishedAt": 1795130458,
+        "source": "feed"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "not_applicable;quote:x:2123557171321561133=present"
+  },
+  "inputHash": "4048fb4d5ebac309ad3e67cd9432b7eab7ce04cf6b8a2e904b170c2f908dcd7b",
+  "requestPreparedAt": 1795143934490
 }
