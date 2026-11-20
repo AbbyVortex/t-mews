@@ -28,5 +28,27 @@
       "display": null
     }
   },
-  "queuedAt": 1795204532
+  "queuedAt": 1795204532,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123867163345961285",
+    "url": "https://x.com/thsottiaux/status/2123867163345961285",
+    "publishedAt": 1795204365,
+    "text": "@DallenFrutchey IS THIS HOW WE COMMUNICATE NOW?",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2123582505039384868",
+        "url": "https://x.com/DallenFrutchey/status/2123582505039384868",
+        "text": "STOP. USING. CUSTOM. TABBARS. \n\nPLEASE",
+        "author": "DallenFrutchey",
+        "publishedAt": 1795136498,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "e80fcd137c5b3786e9ed0cf649972d9c3d5a92e64cc2f0ad5856c8fd2b9374d3",
+  "requestPreparedAt": 1795204539347
 }
