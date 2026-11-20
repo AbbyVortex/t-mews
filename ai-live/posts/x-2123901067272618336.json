@@ -28,5 +28,27 @@
       "display": null
     }
   },
-  "queuedAt": 1795212931
+  "queuedAt": 1795212931,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123901067272618336",
+    "url": "https://x.com/thsottiaux/status/2123901067272618336",
+    "publishedAt": 1795212449,
+    "text": "@theo @maria_rcks But is it true",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2123885732330885417",
+        "url": "https://x.com/theo/status/2123885732330885417",
+        "text": "@maria_rcks Maria please, multiple investors have asked me about this 💀",
+        "author": "theo",
+        "publishedAt": 1795208793,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "60bc5f8d83e7ef57e008687d14febb0afc7b0f82ed014a3dca170a2aaa74cb14",
+  "requestPreparedAt": 1795212939573
 }
