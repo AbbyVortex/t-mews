@@ -1786,17 +1786,51 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 391
+      },
+      {
+        "id": "x:2123864112694509995",
+        "x_status_id": "2123864112694509995",
+        "canonical_url": "https://x.com/thsottiaux/status/2123864112694509995",
+        "fingerprint": "3d2d42f70092a97320528c93c8090c0a29ad913fe6c8314513c32421f281e1be",
+        "published_at": 1795203638,
+        "detected_at": 1795204532,
+        "text": "First tweet from Akshay. Be nice to this one, he’s special.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 894
+      },
+      {
+        "id": "x:2123867163345961285",
+        "x_status_id": "2123867163345961285",
+        "canonical_url": "https://x.com/thsottiaux/status/2123867163345961285",
+        "fingerprint": "41a9373240a394e2a387f589f5d08c9e373a714639bdd1703c9ffffd92954d65",
+        "published_at": 1795204365,
+        "detected_at": 1795204532,
+        "text": "@DallenFrutchey IS THIS HOW WE COMMUNICATE NOW?",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 167
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1795203338,
+        "state": "online",
+        "last_success_at": 1795204532,
         "last_failure_at": 1795203937,
-        "offline_since": 1795203937,
+        "offline_since": null,
         "failure_episodes": 737,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -1810,7 +1844,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2123867163345961285\",\"queuedAt\":1795204532},{\"id\":\"x:2123864112694509995\",\"queuedAt\":1795204532}]"
       },
       {
         "key": "baselineAt",
@@ -1826,11 +1860,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795203338"
-      },
-      {
-        "key": "outage",
-        "value": "1795203937"
+        "value": "1795204532"
       }
     ],
     "events": [
@@ -2253,6 +2283,18 @@
         "event_type": "post_analysis",
         "created_at": 1795203338,
         "details": "{\"related\":[{\"xStatusId\":\"2123840812534452296\",\"url\":\"https://x.com/ajambrosino/status/2123840812534452296\",\"author\":\"ajambrosino\",\"relation\":\"quote\",\"text\":\"NEW: - ChatGPT Space for Plus! - new, simpler visual design across the app - huge performance improvements everywhere - completely rebuilt threads– better perf and design - redesigned Space home - much faster pages and slides - edit pages on mobile - more reliable Codex Remote m…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Team is locked in, upgrade your desktop app.\"}}"
+      },
+      {
+        "id": "analysis:x:2123864112694509995",
+        "event_type": "post_analysis",
+        "created_at": 1795204532,
+        "details": "{\"related\":[{\"xStatusId\":\"2123854751150625144\",\"url\":\"https://x.com/akshaynathan_/status/2123854751150625144\",\"author\":\"akshaynathan_\",\"relation\":\"quote\",\"text\":\"chatgpt app should feel much smoother. let us know where we can improve, lots more to do!\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"First tweet from Akshay.\"}}"
+      },
+      {
+        "id": "analysis:x:2123867163345961285",
+        "event_type": "post_analysis",
+        "created_at": 1795204532,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@DallenFrutchey IS THIS HOW WE COMMUNICATE NOW?\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3040,9 +3082,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795203338,
-    "lastRssAttemptAt": 1795203937,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1795204532,
+    "lastRssAttemptAt": 1795204532,
+    "sourceState": "online",
+    "error": null
   }
 }
