@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123626421138702627",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795147535,
-  "updatedAt": 1795147535,
+  "updatedAt": 1795147544,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "77b89f14aa2bd356ce7b30769589eff160d300733ec6a1dba2e699cc1474eb3f",
-  "requestPreparedAt": 1795147540590
+  "requestPreparedAt": 1795147540590,
+  "apiStartedAt": 1795147541471,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 948,
+    "output_tokens": 70,
+    "total_tokens": 1018,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002596,
+  "result": {
+    "category": "unrelated",
+    "rationale": "固定タブの人気ランキングでCodexが首位になったという話で、利用枠・リセット付与・有料プラン変更に関する情報ではありません。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795147544345,
+  "elapsedMs": 4083,
+  "decidedAt": 1795147544345,
+  "detectedToDecisionMs": 9345
 }
