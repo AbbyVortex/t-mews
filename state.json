@@ -1820,13 +1820,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 167
+      },
+      {
+        "id": "x:2123901067272618336",
+        "x_status_id": "2123901067272618336",
+        "canonical_url": "https://x.com/thsottiaux/status/2123901067272618336",
+        "fingerprint": "25117797ea107fc32145ca64fd1c33c0bbb03fb7b7f3a0ba31684eef7f764e4c",
+        "published_at": 1795212449,
+        "detected_at": 1795212931,
+        "text": "@theo @maria_rcks But is it true",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 482
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795212343,
+        "last_success_at": 1795212931,
         "last_failure_at": 1795208139,
         "offline_since": null,
         "failure_episodes": 739,
@@ -1844,7 +1861,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2123901067272618336\",\"queuedAt\":1795212931}]"
       },
       {
         "key": "baselineAt",
@@ -1860,7 +1877,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795212343"
+        "value": "1795212931"
       }
     ],
     "events": [
@@ -2295,6 +2312,12 @@
         "event_type": "post_analysis",
         "created_at": 1795204532,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@DallenFrutchey IS THIS HOW WE COMMUNICATE NOW?\"}}"
+      },
+      {
+        "id": "analysis:x:2123901067272618336",
+        "event_type": "post_analysis",
+        "created_at": 1795212931,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@theo @maria_rcks But is it true\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3082,8 +3105,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795212343,
-    "lastRssAttemptAt": 1795212343,
+    "lastRssSuccessAt": 1795212931,
+    "lastRssAttemptAt": 1795212931,
     "sourceState": "online",
     "error": null
   }
