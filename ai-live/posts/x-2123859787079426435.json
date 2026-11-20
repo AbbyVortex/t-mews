@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "x:2123859787079426435",
+  "status": "claimed",
+  "createdAt": 1795202738,
+  "updatedAt": 1795202738,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "reason": "no usage reset or material allowance signal",
+    "evidence": "@charliermarsh Actual engineering going on here."
+  },
+  "candidate": {
+    "id": "x:2123859787079426435",
+    "url": "https://x.com/thsottiaux/status/2123859787079426435",
+    "text": "@charliermarsh Actual engineering going on here.",
+    "related": [],
+    "publishedAt": 1795202607,
+    "kind": "reply",
+    "discoveredAt": 1795202738,
+    "recentContext": [],
+    "rule": {
+      "classification": "IRRELEVANT",
+      "notify": false,
+      "display": null
+    }
+  },
+  "queuedAt": 1795202738
+}
