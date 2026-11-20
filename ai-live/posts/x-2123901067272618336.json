@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123901067272618336",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795212931,
-  "updatedAt": 1795212931,
+  "updatedAt": 1795212944,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -50,5 +50,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "60bc5f8d83e7ef57e008687d14febb0afc7b0f82ed014a3dca170a2aaa74cb14",
-  "requestPreparedAt": 1795212939573
+  "requestPreparedAt": 1795212939573,
+  "apiStartedAt": 1795212940712,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 105,
+    "total_tokens": 947,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002734,
+  "result": {
+    "category": "unrelated",
+    "rationale": "本人と取得済みの返信先はいずれも真偽を問う会話のみで、利用枠・リセット付与・有料プランとの関連は確認できません。",
+    "confidence": 0.96,
+    "uncertainty": "会話の元となる主張が取得されておらず、何の真偽を尋ねているかは不明です。"
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795212944783,
+  "elapsedMs": 5651,
+  "decidedAt": 1795212944783,
+  "detectedToDecisionMs": 13783
 }
