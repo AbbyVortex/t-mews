@@ -38,5 +38,27 @@
       "display": null
     }
   },
-  "queuedAt": 1795204532
+  "queuedAt": 1795204532,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123864112694509995",
+    "url": "https://x.com/thsottiaux/status/2123864112694509995",
+    "publishedAt": 1795203638,
+    "text": "First tweet from Akshay. Be nice to this one, he’s special.",
+    "related": [
+      {
+        "relation": "quote",
+        "text": "chatgpt app should feel much smoother. let us know where we can improve, lots more to do!",
+        "author": "akshaynathan_",
+        "id": "x:2123854751150625144",
+        "url": "https://x.com/akshaynathan_/status/2123854751150625144",
+        "publishedAt": null,
+        "source": "feed"
+      }
+    ],
+    "recentContext": [],
+    "parentStatus": "not_applicable;quote:x:2123854751150625144=present"
+  },
+  "inputHash": "9b535a43e1f197a08eca5903b322149d608fe7da02fa82d3a6e4e976b080235f",
+  "requestPreparedAt": 1795204537743
 }
