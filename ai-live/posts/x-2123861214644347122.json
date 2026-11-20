@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123861214644347122",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795203338,
-  "updatedAt": 1795203338,
+  "updatedAt": 1795203350,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -60,5 +60,27 @@
     "parentStatus": "not_applicable;quote:x:2123840812534452296=present"
   },
   "inputHash": "f9a124f94abd1be2d47c3663301b99b3302b7ee9e903b61f77436ef1003d4844",
-  "requestPreparedAt": 1795203343668
+  "requestPreparedAt": 1795203343668,
+  "apiStartedAt": 1795203344662,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 899,
+    "output_tokens": 141,
+    "total_tokens": 1040,
+    "cached_tokens": 0,
+    "reasoning_tokens": 54
+  },
+  "referenceCostUsd": 0.003208,
+  "result": {
+    "category": "unrelated",
+    "rationale": "デスクトップアプリの性能・デザイン改善の紹介です。引用にPlus向け機能の記載はありますが、利用枠や料金・プラン条件の実質的な変更、リセット付与の情報はありません。",
+    "confidence": 0.94,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795203350267,
+  "elapsedMs": 6600,
+  "decidedAt": 1795203350267,
+  "detectedToDecisionMs": 12267
 }
