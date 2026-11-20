@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "x:2123867163345961285",
+  "status": "claimed",
+  "createdAt": 1795204532,
+  "updatedAt": 1795204532,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "reason": "no usage reset or material allowance signal",
+    "evidence": "@DallenFrutchey IS THIS HOW WE COMMUNICATE NOW?"
+  },
+  "candidate": {
+    "id": "x:2123867163345961285",
+    "url": "https://x.com/thsottiaux/status/2123867163345961285",
+    "text": "@DallenFrutchey IS THIS HOW WE COMMUNICATE NOW?",
+    "related": [],
+    "publishedAt": 1795204365,
+    "kind": "reply",
+    "discoveredAt": 1795204532,
+    "recentContext": [],
+    "rule": {
+      "classification": "IRRELEVANT",
+      "notify": false,
+      "display": null
+    }
+  },
+  "queuedAt": 1795204532
+}
