@@ -1684,13 +1684,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 187
+      },
+      {
+        "id": "x:2123621880636883137",
+        "x_status_id": "2123621880636883137",
+        "canonical_url": "https://x.com/thsottiaux/status/2123621880636883137",
+        "fingerprint": "8dd0f312068af697b1648f3da052148c8c363e0e1391835f776a977709ba74bd",
+        "published_at": 1795145885,
+        "detected_at": 1795146339,
+        "text": "@zedsolar123 @AdamHoltererer Mr. Stark, I don't feel so good",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 454
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795145741,
+        "last_success_at": 1795146339,
         "last_failure_at": 1795142133,
         "offline_since": null,
         "failure_episodes": 722,
@@ -1708,7 +1725,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2123621880636883137\",\"queuedAt\":1795146339}]"
       },
       {
         "key": "baselineAt",
@@ -1724,7 +1741,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795145741"
+        "value": "1795146339"
       }
     ],
     "events": [
@@ -2111,6 +2128,12 @@
         "event_type": "post_analysis",
         "created_at": 1795143929,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Team is crazy enough to think they can succeed at improving the experience used by 1.2B users in place.\"}}"
+      },
+      {
+        "id": "analysis:x:2123621880636883137",
+        "event_type": "post_analysis",
+        "created_at": 1795146339,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@zedsolar123 @AdamHoltererer Mr.\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -2898,8 +2921,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795145741,
-    "lastRssAttemptAt": 1795145741,
+    "lastRssSuccessAt": 1795146339,
+    "lastRssAttemptAt": 1795146339,
     "sourceState": "online",
     "error": null
   }
