@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123612433923051976",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795143929,
-  "updatedAt": 1795143929,
+  "updatedAt": 1795143940,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -78,5 +78,27 @@
     "parentStatus": "not_applicable;quote:x:2123557171321561133=present"
   },
   "inputHash": "4048fb4d5ebac309ad3e67cd9432b7eab7ce04cf6b8a2e904b170c2f908dcd7b",
-  "requestPreparedAt": 1795143934490
+  "requestPreparedAt": 1795143934490,
+  "apiStartedAt": 1795143936191,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 975,
+    "output_tokens": 105,
+    "total_tokens": 1080,
+    "cached_tokens": 0,
+    "reasoning_tokens": 27
+  },
+  "referenceCostUsd": 0.003,
+  "result": {
+    "category": "unrelated",
+    "rationale": "引用先はProユーザー向けの新しいモバイルUIの紹介。利用枠、リセット付与、有料プランの実質的な利用条件変更を示す内容ではない。",
+    "confidence": 0.96,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795143940828,
+  "elapsedMs": 6340,
+  "decidedAt": 1795143940828,
+  "detectedToDecisionMs": 11828
 }
