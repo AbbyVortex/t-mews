@@ -28,5 +28,27 @@
       "display": null
     }
   },
-  "queuedAt": 1795202738
+  "queuedAt": 1795202738,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123859787079426435",
+    "url": "https://x.com/thsottiaux/status/2123859787079426435",
+    "publishedAt": 1795202607,
+    "text": "@charliermarsh Actual engineering going on here.",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2123849871480463669",
+        "url": "https://x.com/charliermarsh/status/2123849871480463669",
+        "text": "In Codex, we use a WebSocket for model requests, to send data incrementally over time.\n\nWe’ve now increased the WebSocket size limit from 16 to 128 MB (8x), so large turns avoid falling back to HTTP (bad!).\n\nAnd if a request _does_ go over the limit, it’s now ~5x faster.",
+        "author": "charliermarsh",
+        "publishedAt": 1795200243,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "b9be1f26b10d8e1a9edbd8e2ab97c602aa394e4c9053691d73c9fc6a101a348e",
+  "requestPreparedAt": 1795202743844
 }
