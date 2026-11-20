@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "x:2123901067272618336",
+  "status": "claimed",
+  "createdAt": 1795212931,
+  "updatedAt": 1795212931,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "reason": "no usage reset or material allowance signal",
+    "evidence": "@theo @maria_rcks But is it true"
+  },
+  "candidate": {
+    "id": "x:2123901067272618336",
+    "url": "https://x.com/thsottiaux/status/2123901067272618336",
+    "text": "@theo @maria_rcks But is it true",
+    "related": [],
+    "publishedAt": 1795212449,
+    "kind": "reply",
+    "discoveredAt": 1795212931,
+    "recentContext": [],
+    "rule": {
+      "classification": "IRRELEVANT",
+      "notify": false,
+      "display": null
+    }
+  },
+  "queuedAt": 1795212931
+}
