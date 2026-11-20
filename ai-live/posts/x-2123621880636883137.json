@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123621880636883137",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795146339,
-  "updatedAt": 1795146339,
+  "updatedAt": 1795146351,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "7ada7940f60514660f23b91b20df0f3b31309fac40a7a2b1b52a1afb6cb7e17f",
-  "requestPreparedAt": 1795146346895
+  "requestPreparedAt": 1795146346895,
+  "apiStartedAt": 1795146347773,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 921,
+    "output_tokens": 88,
+    "total_tokens": 1009,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002722,
+  "result": {
+    "category": "unrelated",
+    "rationale": "映画の台詞を使った返信で、取得済みの親投稿にも利用枠・リセット・有料プランへの言及はありません。",
+    "confidence": 0.94,
+    "uncertainty": "親投稿はメンションのみで、冗談の具体的な文脈は不明です。"
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795146351402,
+  "elapsedMs": 4692,
+  "decidedAt": 1795146351402,
+  "detectedToDecisionMs": 12402
 }
