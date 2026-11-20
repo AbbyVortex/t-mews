@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123867163345961285",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795204532,
-  "updatedAt": 1795204532,
+  "updatedAt": 1795204543,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -50,5 +50,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "e80fcd137c5b3786e9ed0cf649972d9c3d5a92e64cc2f0ad5856c8fd2b9374d3",
-  "requestPreparedAt": 1795204539347
+  "requestPreparedAt": 1795204539347,
+  "apiStartedAt": 1795204540388,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 851,
+    "output_tokens": 73,
+    "total_tokens": 924,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002432,
+  "result": {
+    "category": "unrelated",
+    "rationale": "親投稿はカスタムタブバーへの不満で、返信もその表現への反応です。利用枠、リセット付与、有料プラン変更との関連はありません。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795204543541,
+  "elapsedMs": 4880,
+  "decidedAt": 1795204543541,
+  "detectedToDecisionMs": 11541
 }
