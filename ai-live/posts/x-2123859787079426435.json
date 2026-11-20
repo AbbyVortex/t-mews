@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123859787079426435",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795202738,
-  "updatedAt": 1795202738,
+  "updatedAt": 1795202748,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -50,5 +50,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "b9be1f26b10d8e1a9edbd8e2ab97c602aa394e4c9053691d73c9fc6a101a348e",
-  "requestPreparedAt": 1795202743844
+  "requestPreparedAt": 1795202743844,
+  "apiStartedAt": 1795202744754,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 904,
+    "output_tokens": 84,
+    "total_tokens": 988,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002648,
+  "result": {
+    "category": "unrelated",
+    "rationale": "返信先はCodexのWebSocket転送サイズと通信速度の技術的改善で、利用枠・使用量制限・有料プラン条件の変更ではありません。Tiboの返信も技術への賛辞です。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795202748872,
+  "elapsedMs": 5287,
+  "decidedAt": 1795202748872,
+  "detectedToDecisionMs": 10872
 }
