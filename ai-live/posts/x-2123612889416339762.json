@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123612889416339762",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795143929,
-  "updatedAt": 1795143929,
+  "updatedAt": 1795143940,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -58,5 +58,27 @@
     "parentStatus": "not_applicable"
   },
   "inputHash": "cea3e8c425051befc2547bc75323d802568476c4a7eb4dfaebb2754fb7ef1eaf",
-  "requestPreparedAt": 1795143935356
+  "requestPreparedAt": 1795143935356,
+  "apiStartedAt": 1795143936942,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 863,
+    "output_tokens": 73,
+    "total_tokens": 936,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002456,
+  "result": {
+    "category": "unrelated",
+    "rationale": "12億人が使う体験を改善するチームの戦略への言及で、リセット付与、利用枠、有料プランの変更に関する情報はありません。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795143940023,
+  "elapsedMs": 4668,
+  "decidedAt": 1795143940023,
+  "detectedToDecisionMs": 11023
 }
