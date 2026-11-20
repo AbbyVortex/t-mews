@@ -1956,13 +1956,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 280
+      },
+      {
+        "id": "x:2123612433923051976",
+        "x_status_id": "2123612433923051976",
+        "canonical_url": "https://x.com/thsottiaux/status/2123612433923051976",
+        "fingerprint": "b6b8a7a29f83c38ed6684c30a0b401a1461d1d6a429116a359f02a6d5a20c406",
+        "published_at": 1795143633,
+        "detected_at": 1795143929,
+        "text": "Le ChatGPT 2.0",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 296
+      },
+      {
+        "id": "x:2123612889416339762",
+        "x_status_id": "2123612889416339762",
+        "canonical_url": "https://x.com/thsottiaux/status/2123612889416339762",
+        "fingerprint": "e3fc633edb6d28050331dcf1b9d9d8e348ef682d21de91177800b8e5778aea2b",
+        "published_at": 1795143742,
+        "detected_at": 1795143929,
+        "text": "Team is crazy enough to think they can succeed at improving the experience used by 1.2B users in place. Let's see if the strategy plays out.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 187
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795143330,
+        "last_success_at": 1795143929,
         "last_failure_at": 1795142133,
         "offline_since": null,
         "failure_episodes": 722,
@@ -1980,7 +2014,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2123612433923051976\",\"queuedAt\":1795143929},{\"id\":\"x:2123612889416339762\",\"queuedAt\":1795143929}]"
       },
       {
         "key": "baselineAt",
@@ -1996,7 +2030,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795143330"
+        "value": "1795143929"
       }
     ],
     "events": [
@@ -2407,6 +2441,18 @@
         "event_type": "post_analysis",
         "created_at": 1795130738,
         "details": "{\"related\":[{\"xStatusId\":\"2123556256392847657\",\"url\":\"https://x.com/thsottiaux/status/2123556256392847657\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Heads up, we’re starting to test dots with a small number of ChatGPT Plus users. Looking forward to the continued feedback as we expand and I’m recently seeing a lot more positives around how good the proactivity has been after many improvements. We’re also bringing dots to all …\",\"provenance\":\"feed\",\"publishedAt\":1795130239}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"We’re also working on a new mobile experience for ChatGPT!\"}}"
+      },
+      {
+        "id": "analysis:x:2123612433923051976",
+        "event_type": "post_analysis",
+        "created_at": 1795143929,
+        "details": "{\"related\":[{\"xStatusId\":\"2123557171321561133\",\"url\":\"https://x.com/thsottiaux/status/2123557171321561133\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"We’re also working on a new mobile experience for ChatGPT! It’s easier to get to your favorite features and discover what you can do in ChatGPT. We’re starting with Pro users who have a dot or are eligible to create one. Your dot gets its own tab, and you can pin Codex, Projects…\",\"provenance\":\"feed\",\"publishedAt\":1795130458}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Le ChatGPT 2.0\"}}"
+      },
+      {
+        "id": "analysis:x:2123612889416339762",
+        "event_type": "post_analysis",
+        "created_at": 1795143929,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Team is crazy enough to think they can succeed at improving the experience used by 1.2B users in place.\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -3206,8 +3252,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795143330,
-    "lastRssAttemptAt": 1795143330,
+    "lastRssSuccessAt": 1795143929,
+    "lastRssAttemptAt": 1795143929,
     "sourceState": "online",
     "error": null
   }
