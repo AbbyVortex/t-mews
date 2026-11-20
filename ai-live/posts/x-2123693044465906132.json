@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123693044465906132",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795163744,
-  "updatedAt": 1795163744,
+  "updatedAt": 1795163754,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "ba1e274d7027c58df73de4caa74fb8f1a68eb3a20197f9b673a46cc64cd5457c",
-  "requestPreparedAt": 1795163750328
+  "requestPreparedAt": 1795163750328,
+  "apiStartedAt": 1795163751281,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 922,
+    "output_tokens": 73,
+    "total_tokens": 995,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002574,
+  "result": {
+    "category": "unrelated",
+    "rationale": "OpenAIの株式保有に関する投稿への絵文字の反応であり、利用枠・リセット付与・有料プラン変更に関する情報はありません。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795163754558,
+  "elapsedMs": 4428,
+  "decidedAt": 1795163754558,
+  "detectedToDecisionMs": 10558
 }
