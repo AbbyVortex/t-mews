@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "id": "x:2123612889416339762",
+  "status": "claimed",
+  "createdAt": 1795143929,
+  "updatedAt": 1795143929,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "reason": "no usage reset or material allowance signal",
+    "evidence": "Team is crazy enough to think they can succeed at improving the experience used by 1.2B users in place."
+  },
+  "candidate": {
+    "id": "x:2123612889416339762",
+    "url": "https://x.com/thsottiaux/status/2123612889416339762",
+    "text": "Team is crazy enough to think they can succeed at improving the experience used by 1.2B users in place. Let's see if the strategy plays out.",
+    "related": [],
+    "publishedAt": 1795143742,
+    "kind": "post",
+    "discoveredAt": 1795143929,
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "rule": {
+      "classification": "IRRELEVANT",
+      "notify": false,
+      "display": null
+    }
+  },
+  "queuedAt": 1795143929
+}
