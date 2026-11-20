@@ -1752,13 +1752,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 892
+      },
+      {
+        "id": "x:2123859787079426435",
+        "x_status_id": "2123859787079426435",
+        "canonical_url": "https://x.com/thsottiaux/status/2123859787079426435",
+        "fingerprint": "5e1ced1e20eecdd63f8afc8b6e46ffe3c65c1abef9d912cc2e93626e337599c9",
+        "published_at": 1795202607,
+        "detected_at": 1795202738,
+        "text": "@charliermarsh Actual engineering going on here.",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 131
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795202139,
+        "last_success_at": 1795202738,
         "last_failure_at": 1795200932,
         "offline_since": null,
         "failure_episodes": 736,
@@ -1776,7 +1793,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2123859787079426435\",\"queuedAt\":1795202738}]"
       },
       {
         "key": "baselineAt",
@@ -1792,7 +1809,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795202139"
+        "value": "1795202738"
       }
     ],
     "events": [
@@ -2203,6 +2220,12 @@
         "event_type": "post_analysis",
         "created_at": 1795163744,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@tszzl @thibaudz @Roon 🫨\"}}"
+      },
+      {
+        "id": "analysis:x:2123859787079426435",
+        "event_type": "post_analysis",
+        "created_at": 1795202738,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@charliermarsh Actual engineering going on here.\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -2990,8 +3013,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795202139,
-    "lastRssAttemptAt": 1795202139,
+    "lastRssSuccessAt": 1795202738,
+    "lastRssAttemptAt": 1795202738,
     "sourceState": "online",
     "error": null
   }
