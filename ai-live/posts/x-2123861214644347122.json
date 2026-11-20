@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "x:2123861214644347122",
+  "status": "claimed",
+  "createdAt": 1795203338,
+  "updatedAt": 1795203338,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "reason": "no usage reset or material allowance signal",
+    "evidence": "Team is locked in, upgrade your desktop app."
+  },
+  "candidate": {
+    "id": "x:2123861214644347122",
+    "url": "https://x.com/thsottiaux/status/2123861214644347122",
+    "text": "Team is locked in, upgrade your desktop app. Faster, simpler and a lot more pleasant to use.",
+    "related": [
+      {
+        "relation": "quote",
+        "text": "NEW: - ChatGPT Space for Plus! - new, simpler visual design across the app - huge performance improvements everywhere - completely rebuilt threads– better perf and design - redesigned Space home - much faster pages and slides - edit pages on mobile - more reliable Codex Remote m…",
+        "author": "ajambrosino",
+        "id": "x:2123840812534452296",
+        "url": "https://x.com/ajambrosino/status/2123840812534452296",
+        "publishedAt": null,
+        "source": "feed"
+      }
+    ],
+    "publishedAt": 1795202947,
+    "kind": "post",
+    "discoveredAt": 1795203338,
+    "recentContext": [],
+    "rule": {
+      "classification": "IRRELEVANT",
+      "notify": false,
+      "display": null
+    }
+  },
+  "queuedAt": 1795203338
+}
