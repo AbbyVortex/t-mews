@@ -1718,13 +1718,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 64
+      },
+      {
+        "id": "x:2123626421138702627",
+        "x_status_id": "2123626421138702627",
+        "canonical_url": "https://x.com/thsottiaux/status/2123626421138702627",
+        "fingerprint": "6ed295aaf6158443d3c6117f89982f1748029089e690fac249705c85897f3ce8",
+        "published_at": 1795146968,
+        "detected_at": 1795147535,
+        "text": "@lawgimenez @ajambrosino We have a little leaderboard for pinned tabs and codex moved to top spot in no time",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 567
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795146943,
+        "last_success_at": 1795147535,
         "last_failure_at": 1795142133,
         "offline_since": null,
         "failure_episodes": 722,
@@ -1742,7 +1759,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2123626421138702627\",\"queuedAt\":1795147535}]"
       },
       {
         "key": "baselineAt",
@@ -1758,7 +1775,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795146943"
+        "value": "1795147535"
       }
     ],
     "events": [
@@ -2157,6 +2174,12 @@
         "event_type": "post_analysis",
         "created_at": 1795146943,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@IsaiahJGonzalez Just press home again\"}}"
+      },
+      {
+        "id": "analysis:x:2123626421138702627",
+        "event_type": "post_analysis",
+        "created_at": 1795147535,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@lawgimenez @ajambrosino We have a little leaderboard for pinned tabs and codex moved to top spot in no time\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -2944,8 +2967,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795146943,
-    "lastRssAttemptAt": 1795146943,
+    "lastRssSuccessAt": 1795147535,
+    "lastRssAttemptAt": 1795147535,
     "sourceState": "online",
     "error": null
   }
