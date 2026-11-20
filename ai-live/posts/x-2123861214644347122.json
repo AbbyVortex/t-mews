@@ -38,5 +38,27 @@
       "display": null
     }
   },
-  "queuedAt": 1795203338
+  "queuedAt": 1795203338,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123861214644347122",
+    "url": "https://x.com/thsottiaux/status/2123861214644347122",
+    "publishedAt": 1795202947,
+    "text": "Team is locked in, upgrade your desktop app. Faster, simpler and a lot more pleasant to use.",
+    "related": [
+      {
+        "relation": "quote",
+        "text": "NEW: - ChatGPT Space for Plus! - new, simpler visual design across the app - huge performance improvements everywhere - completely rebuilt threads– better perf and design - redesigned Space home - much faster pages and slides - edit pages on mobile - more reliable Codex Remote m…",
+        "author": "ajambrosino",
+        "id": "x:2123840812534452296",
+        "url": "https://x.com/ajambrosino/status/2123840812534452296",
+        "publishedAt": null,
+        "source": "feed"
+      }
+    ],
+    "recentContext": [],
+    "parentStatus": "not_applicable;quote:x:2123840812534452296=present"
+  },
+  "inputHash": "f9a124f94abd1be2d47c3663301b99b3302b7ee9e903b61f77436ef1003d4844",
+  "requestPreparedAt": 1795203343668
 }
