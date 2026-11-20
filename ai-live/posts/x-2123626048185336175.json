@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123626048185336175",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795146943,
-  "updatedAt": 1795146943,
+  "updatedAt": 1795146953,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "78c78a6287b3cf4ad9c24268eeee4b8d149feef79b20c7dc23e03857bba39975",
-  "requestPreparedAt": 1795146948579
+  "requestPreparedAt": 1795146948579,
+  "apiStartedAt": 1795146949531,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 924,
+    "output_tokens": 71,
+    "total_tokens": 995,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002558,
+  "result": {
+    "category": "unrelated",
+    "rationale": "新規チャットを素早く開くためのホーム操作の案内であり、リセット付与や利用上限、有料プランの変更とは無関係です。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795146953278,
+  "elapsedMs": 4913,
+  "decidedAt": 1795146953278,
+  "detectedToDecisionMs": 10278
 }
