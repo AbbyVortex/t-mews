@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1795163744
+  "queuedAt": 1795163744,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123693044465906132",
+    "url": "https://x.com/thsottiaux/status/2123693044465906132",
+    "publishedAt": 1795162852,
+    "text": "@tszzl @thibaudz @Roon 🫨",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2123674801508323586",
+        "url": "https://x.com/tszzl/status/2123674801508323586",
+        "text": "@thibaudz @Roon I own some shares in OpenAI",
+        "author": "tszzl",
+        "publishedAt": 1795158503,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2122754551187132438",
+        "url": "https://x.com/thsottiaux/status/2122754551187132438",
+        "text": "These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes",
+        "publishedAt": 1794939098,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "ba1e274d7027c58df73de4caa74fb8f1a68eb3a20197f9b673a46cc64cd5457c",
+  "requestPreparedAt": 1795163750328
 }
