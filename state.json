@@ -1650,13 +1650,47 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 482
+      },
+      {
+        "id": "x:2123997735326232775",
+        "x_status_id": "2123997735326232775",
+        "canonical_url": "https://x.com/thsottiaux/status/2123997735326232775",
+        "fingerprint": "43ca20419a30858a1675089f8869154c7920ea23e3c6e9c533e777d4aeb0ca4c",
+        "published_at": 1795235496,
+        "detected_at": 1795235739,
+        "text": "We’ve been messing around a bit and inadvertently created an experience that’s a bit too fun internally and now everyone is just having fun instead of working. We might not recover from this.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 243
+      },
+      {
+        "id": "x:2123998117561532424",
+        "x_status_id": "2123998117561532424",
+        "canonical_url": "https://x.com/thsottiaux/status/2123998117561532424",
+        "fingerprint": "cc1599bc000e46ba73324bb56994e3fa7612b80f243c4a8ad21dc529a8fceb4f",
+        "published_at": 1795235587,
+        "detected_at": 1795235739,
+        "text": "@DylanMcD8 DYLAN, HI! 👋",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 152
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795235129,
+        "last_success_at": 1795235739,
         "last_failure_at": 1795234537,
         "offline_since": null,
         "failure_episodes": 746,
@@ -1674,7 +1708,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2123998117561532424\",\"queuedAt\":1795235739},{\"id\":\"x:2123997735326232775\",\"queuedAt\":1795235739}]"
       },
       {
         "key": "baselineAt",
@@ -1690,7 +1724,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795235129"
+        "value": "1795235739"
       }
     ],
     "events": [
@@ -2131,6 +2165,18 @@
         "event_type": "post_analysis",
         "created_at": 1795212931,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@theo @maria_rcks But is it true\"}}"
+      },
+      {
+        "id": "analysis:x:2123997735326232775",
+        "event_type": "post_analysis",
+        "created_at": 1795235739,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"We’ve been messing around a bit and inadvertently created an experience that’s a bit too fun internally and now everyone is just having fun instead of working.\"}}"
+      },
+      {
+        "id": "analysis:x:2123998117561532424",
+        "event_type": "post_analysis",
+        "created_at": 1795235739,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@DylanMcD8 DYLAN, HI!\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -2918,8 +2964,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795235129,
-    "lastRssAttemptAt": 1795235129,
+    "lastRssSuccessAt": 1795235739,
+    "lastRssAttemptAt": 1795235739,
     "sourceState": "online",
     "error": null
   }
