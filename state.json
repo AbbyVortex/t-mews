@@ -1684,13 +1684,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 152
+      },
+      {
+        "id": "x:2124277855131664869",
+        "x_status_id": "2124277855131664869",
+        "canonical_url": "https://x.com/thsottiaux/status/2124277855131664869",
+        "fingerprint": "1fd8b08d45b5104d6db0219455d259a4aa0b65cb2baf929993367bfae386270e",
+        "published_at": 1795302282,
+        "detected_at": 1795302336,
+        "text": "Going to check out this threads thing",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 54
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795301732,
+        "last_success_at": 1795302336,
         "last_failure_at": 1795300535,
         "offline_since": null,
         "failure_episodes": 763,
@@ -1708,7 +1725,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2124277855131664869\",\"queuedAt\":1795302336}]"
       },
       {
         "key": "baselineAt",
@@ -1724,7 +1741,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795301732"
+        "value": "1795302336"
       }
     ],
     "events": [
@@ -2177,6 +2194,12 @@
         "event_type": "post_analysis",
         "created_at": 1795235739,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@DylanMcD8 DYLAN, HI!\"}}"
+      },
+      {
+        "id": "analysis:x:2124277855131664869",
+        "event_type": "post_analysis",
+        "created_at": 1795302336,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Going to check out this threads thing\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -2964,8 +2987,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795301732,
-    "lastRssAttemptAt": 1795301732,
+    "lastRssSuccessAt": 1795302336,
+    "lastRssAttemptAt": 1795302336,
     "sourceState": "online",
     "error": null
   }
