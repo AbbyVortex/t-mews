@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "x:2123998117561532424",
+  "status": "claimed",
+  "createdAt": 1795235739,
+  "updatedAt": 1795235739,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "reason": "no usage reset or material allowance signal",
+    "evidence": "@DylanMcD8 DYLAN, HI!"
+  },
+  "candidate": {
+    "id": "x:2123998117561532424",
+    "url": "https://x.com/thsottiaux/status/2123998117561532424",
+    "text": "@DylanMcD8 DYLAN, HI! 👋",
+    "related": [],
+    "publishedAt": 1795235587,
+    "kind": "reply",
+    "discoveredAt": 1795235739,
+    "recentContext": [],
+    "rule": {
+      "classification": "IRRELEVANT",
+      "notify": false,
+      "display": null
+    }
+  },
+  "queuedAt": 1795235739
+}
