@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123998117561532424",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795235739,
-  "updatedAt": 1795235739,
+  "updatedAt": 1795235752,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -50,5 +50,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "c2492b171839215ddecb2023963e63fbe8eeff3f8bb3960817df2f483223eb9b",
-  "requestPreparedAt": 1795235747176
+  "requestPreparedAt": 1795235747176,
+  "apiStartedAt": 1795235749085,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 846,
+    "output_tokens": 69,
+    "total_tokens": 915,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002382,
+  "result": {
+    "category": "unrelated",
+    "rationale": "ネイティブのタブバーに関する投稿への挨拶で、利用枠・リセット付与・有料プラン変更との関連はありません。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795235752317,
+  "elapsedMs": 5358,
+  "decidedAt": 1795235752317,
+  "detectedToDecisionMs": 13317
 }
