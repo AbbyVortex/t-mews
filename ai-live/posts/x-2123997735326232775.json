@@ -28,5 +28,17 @@
       "display": null
     }
   },
-  "queuedAt": 1795235739
+  "queuedAt": 1795235739,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123997735326232775",
+    "url": "https://x.com/thsottiaux/status/2123997735326232775",
+    "publishedAt": 1795235496,
+    "text": "We’ve been messing around a bit and inadvertently created an experience that’s a bit too fun internally and now everyone is just having fun instead of working. We might not recover from this.",
+    "related": [],
+    "recentContext": [],
+    "parentStatus": "not_applicable"
+  },
+  "inputHash": "ed97989a0648c420eeb6372e3850cc531a4eb1475839e2d91f4a229519cec11e",
+  "requestPreparedAt": 1795235745911
 }
