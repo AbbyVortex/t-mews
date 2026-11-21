@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2123997735326232775",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795235739,
-  "updatedAt": 1795235739,
+  "updatedAt": 1795235752,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -40,5 +40,27 @@
     "parentStatus": "not_applicable"
   },
   "inputHash": "ed97989a0648c420eeb6372e3850cc531a4eb1475839e2d91f4a229519cec11e",
-  "requestPreparedAt": 1795235745911
+  "requestPreparedAt": 1795235745911,
+  "apiStartedAt": 1795235748239,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 790,
+    "output_tokens": 66,
+    "total_tokens": 856,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.00224,
+  "result": {
+    "category": "unrelated",
+    "rationale": "社内で試作した楽しい体験についての投稿で、利用枠・リセット付与・有料プラン変更への言及はありません。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795235752289,
+  "elapsedMs": 6379,
+  "decidedAt": 1795235752289,
+  "detectedToDecisionMs": 13289
 }
