@@ -28,5 +28,27 @@
       "display": null
     }
   },
-  "queuedAt": 1795235739
+  "queuedAt": 1795235739,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2123998117561532424",
+    "url": "https://x.com/thsottiaux/status/2123998117561532424",
+    "publishedAt": 1795235587,
+    "text": "@DylanMcD8 DYLAN, HI! 👋",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2123613130337214477",
+        "url": "https://x.com/DylanMcD8/status/2123613130337214477",
+        "text": "I am SO tired of apps abandoning native tab bars\n\nSTOP IT",
+        "author": "DylanMcD8",
+        "publishedAt": 1795143799,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "c2492b171839215ddecb2023963e63fbe8eeff3f8bb3960817df2f483223eb9b",
+  "requestPreparedAt": 1795235747176
 }
