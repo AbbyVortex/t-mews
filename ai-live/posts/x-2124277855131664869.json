@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2124277855131664869",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795302336,
-  "updatedAt": 1795302336,
+  "updatedAt": 1795302346,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -40,5 +40,27 @@
     "parentStatus": "not_applicable"
   },
   "inputHash": "a09466bb593461cc102c2dae28ffd7556438577f2ac2fe50764ceddfca9e8677",
-  "requestPreparedAt": 1795302340976
+  "requestPreparedAt": 1795302340976,
+  "apiStartedAt": 1795302341914,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 761,
+    "output_tokens": 63,
+    "total_tokens": 824,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002152,
+  "result": {
+    "category": "unrelated",
+    "rationale": "Threadsを試すという投稿で、CodexやChatGPTの利用枠、リセット付与、有料プラン変更との関連はありません。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795302346425,
+  "elapsedMs": 5449,
+  "decidedAt": 1795302346425,
+  "detectedToDecisionMs": 10425
 }
