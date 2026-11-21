@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "x:2124277855131664869",
+  "status": "claimed",
+  "createdAt": 1795302336,
+  "updatedAt": 1795302336,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "reason": "no usage reset or material allowance signal",
+    "evidence": "Going to check out this threads thing"
+  },
+  "candidate": {
+    "id": "x:2124277855131664869",
+    "url": "https://x.com/thsottiaux/status/2124277855131664869",
+    "text": "Going to check out this threads thing",
+    "related": [],
+    "publishedAt": 1795302282,
+    "kind": "post",
+    "discoveredAt": 1795302336,
+    "recentContext": [],
+    "rule": {
+      "classification": "IRRELEVANT",
+      "notify": false,
+      "display": null
+    }
+  },
+  "queuedAt": 1795302336
+}
