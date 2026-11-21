@@ -1691,10 +1691,10 @@
         "source": "fxtwitter",
         "state": "offline",
         "last_success_at": 1795286133,
-        "last_failure_at": 1795286733,
+        "last_failure_at": 1795287329,
         "offline_since": 1795286733,
         "failure_episodes": 758,
-        "error": "empty_or_oversized_feed"
+        "error": "http_404"
       }
     ],
     "state": [
@@ -2969,8 +2969,8 @@
   "publicStatus": {
     "version": 1,
     "lastRssSuccessAt": 1795286133,
-    "lastRssAttemptAt": 1795286733,
+    "lastRssAttemptAt": 1795287329,
     "sourceState": "offline",
-    "error": "empty_or_oversized_feed"
+    "error": "http_404"
   }
 }
