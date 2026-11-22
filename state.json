@@ -1417,12 +1417,12 @@
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "online",
+        "state": "offline",
         "last_success_at": 1795335939,
-        "last_failure_at": 1795332929,
-        "offline_since": null,
-        "failure_episodes": 768,
-        "error": null
+        "last_failure_at": 1795336531,
+        "offline_since": 1795336531,
+        "failure_episodes": 769,
+        "error": "http_404"
       }
     ],
     "state": [
@@ -1453,6 +1453,10 @@
       {
         "key": "lastSuccess",
         "value": "1795335939"
+      },
+      {
+        "key": "outage",
+        "value": "1795336531"
       }
     ],
     "events": [
@@ -2693,8 +2697,8 @@
   "publicStatus": {
     "version": 1,
     "lastRssSuccessAt": 1795335939,
-    "lastRssAttemptAt": 1795335939,
-    "sourceState": "online",
-    "error": null
+    "lastRssAttemptAt": 1795336531,
+    "sourceState": "offline",
+    "error": "http_404"
   }
 }
