@@ -1701,13 +1701,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 54
+      },
+      {
+        "id": "x:2124322968499282388",
+        "x_status_id": "2124322968499282388",
+        "canonical_url": "https://x.com/thsottiaux/status/2124322968499282388",
+        "fingerprint": "0ad04cf20cdc58386f0a13c3bfe7183279204fc011c745d1af215453bf099029",
+        "published_at": 1795313038,
+        "detected_at": 1795313133,
+        "text": "Team is already preparing another big update, but how are things since yesterday’s update to the ChatGPT/Codex desktop app? What still requires attention and is not quite there?",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 95
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795312531,
+        "last_success_at": 1795313133,
         "last_failure_at": 1795308939,
         "offline_since": null,
         "failure_episodes": 765,
@@ -1725,7 +1742,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2124322968499282388\",\"queuedAt\":1795313133}]"
       },
       {
         "key": "baselineAt",
@@ -1741,7 +1758,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795312531"
+        "value": "1795313133"
       }
     ],
     "events": [
@@ -2200,6 +2217,12 @@
         "event_type": "post_analysis",
         "created_at": 1795302336,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Going to check out this threads thing\"}}"
+      },
+      {
+        "id": "analysis:x:2124322968499282388",
+        "event_type": "post_analysis",
+        "created_at": 1795313133,
+        "details": "{\"related\":[{\"xStatusId\":\"2123840812534452296\",\"url\":\"https://x.com/ajambrosino/status/2123840812534452296\",\"author\":\"ajambrosino\",\"relation\":\"quote\",\"text\":\"NEW: - ChatGPT Space for Plus! - new, simpler visual design across the app - huge performance improvements everywhere - completely rebuilt threads– better perf and design - redesigned Space home - much faster pages and slides - edit pages on mobile - more reliable Codex Remote m…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Team is already preparing another big update, but how are things since yesterday’s update to the ChatGPT/Codex desktop app?\"}}"
       },
       {
         "id": "notification:ai-live-probe:20261108:ai-only",
@@ -2987,8 +3010,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795312531,
-    "lastRssAttemptAt": 1795312531,
+    "lastRssSuccessAt": 1795313133,
+    "lastRssAttemptAt": 1795313133,
     "sourceState": "online",
     "error": null
   }
