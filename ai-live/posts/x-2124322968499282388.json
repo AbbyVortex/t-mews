@@ -38,5 +38,27 @@
       "display": null
     }
   },
-  "queuedAt": 1795313133
+  "queuedAt": 1795313133,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2124322968499282388",
+    "url": "https://x.com/thsottiaux/status/2124322968499282388",
+    "publishedAt": 1795313038,
+    "text": "Team is already preparing another big update, but how are things since yesterday’s update to the ChatGPT/Codex desktop app? What still requires attention and is not quite there?",
+    "related": [
+      {
+        "relation": "quote",
+        "text": "NEW: - ChatGPT Space for Plus! - new, simpler visual design across the app - huge performance improvements everywhere - completely rebuilt threads– better perf and design - redesigned Space home - much faster pages and slides - edit pages on mobile - more reliable Codex Remote m…",
+        "author": "ajambrosino",
+        "id": "x:2123840812534452296",
+        "url": "https://x.com/ajambrosino/status/2123840812534452296",
+        "publishedAt": null,
+        "source": "feed"
+      }
+    ],
+    "recentContext": [],
+    "parentStatus": "not_applicable;quote:x:2123840812534452296=present"
+  },
+  "inputHash": "f13d1c442163a89bbfb6e00ce6367e0aab50ac5bd46d53fc286f1d1d5505f448",
+  "requestPreparedAt": 1795313138692
 }
