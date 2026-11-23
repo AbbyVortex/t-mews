@@ -37,5 +37,36 @@
       "display": null
     }
   },
-  "queuedAt": 1795456532
+  "queuedAt": 1795456532,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2124923142762361133",
+    "url": "https://x.com/thsottiaux/status/2124923142762361133",
+    "publishedAt": 1795456131,
+    "text": "@charliermarsh Charlie is in the hunt",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2124507314384146925",
+        "url": "https://x.com/charliermarsh/status/2124507314384146925",
+        "text": "In the latest Codex release, Code Mode calls get 10ms faster via tool catalog reuse across cells.\n\nThis happens billions of times a day. If you are waste in the harness I will hunt you down.",
+        "author": "charliermarsh",
+        "publishedAt": 1795356989,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2124922313019953319",
+        "url": "https://x.com/thsottiaux/status/2124922313019953319",
+        "text": "New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31. \n\nAlready on Business? We will have a gift for you, too. Stay tuned 👀",
+        "publishedAt": 1795455933,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "9e8bcb5c9278604ff8899bc2bb75e87525a5e8ba13c4211336e13e3c1f34143e",
+  "requestPreparedAt": 1795456539560
 }
