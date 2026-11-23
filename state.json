@@ -1259,13 +1259,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 401
+      },
+      {
+        "id": "x:2124998553856844186",
+        "x_status_id": "2124998553856844186",
+        "canonical_url": "https://x.com/thsottiaux/status/2124998553856844186",
+        "fingerprint": "38959ce3becd1633514cab1827fef62a47351daad7ba9e63732a45250113d66e",
+        "published_at": 1795474110,
+        "detected_at": 1795474539,
+        "text": "You should feel a significant jump in quality of answers on ChatGPT once rolled out to you.\n\nTogether with all the investments we are making across simplifying the app, making it faster and merging chat & work, it's going to be quite the improvement in day to day experience by the end of the year.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 429
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795473941,
+        "last_success_at": 1795474539,
         "last_failure_at": 1795470940,
         "offline_since": null,
         "failure_episodes": 800,
@@ -1283,7 +1300,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2124998553856844186\",\"queuedAt\":1795474539}]"
       },
       {
         "key": "baselineAt",
@@ -1299,7 +1316,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795473941"
+        "value": "1795474539"
       }
     ],
     "events": [
@@ -1746,6 +1763,12 @@
         "event_type": "post_analysis",
         "created_at": 1795456532,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@charliermarsh Charlie is in the hunt\"}}"
+      },
+      {
+        "id": "analysis:x:2124998553856844186",
+        "event_type": "post_analysis",
+        "created_at": 1795474539,
+        "details": "{\"related\":[{\"xStatusId\":\"2124942186425069836\",\"url\":\"https://x.com/ChatGPT/status/2124942186425069836\",\"author\":\"ChatGPT\",\"relation\":\"quote\",\"text\":\"We’re rolling out a version of GPT-6.2 Sol in the Chat tab, optimized for everyday conversation. It’s much better at handling complex requests, especially when you give it detailed instructions or ask it to find information online. A few improvements you might notice in everyday…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"You should feel a significant jump in quality of answers on ChatGPT once rolled out to you.\"}}"
       },
       {
         "id": "notification:offline:1794247529",
@@ -2529,8 +2552,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795473941,
-    "lastRssAttemptAt": 1795473941,
+    "lastRssSuccessAt": 1795474539,
+    "lastRssAttemptAt": 1795474539,
     "sourceState": "online",
     "error": null
   }
