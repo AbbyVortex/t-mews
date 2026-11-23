@@ -1191,13 +1191,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 95
+      },
+      {
+        "id": "x:2124922313019953319",
+        "x_status_id": "2124922313019953319",
+        "canonical_url": "https://x.com/thsottiaux/status/2124922313019953319",
+        "fingerprint": "59bced4a439a5593dd8889a142d6987c4ad7ccdc44bec286b062535fb489c060",
+        "published_at": 1795455933,
+        "detected_at": 1795455938,
+        "text": "New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31. \n\nAlready on Business? We will have a gift for you, too. Stay tuned 👀",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 5
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795455328,
+        "last_success_at": 1795455938,
         "last_failure_at": 1795454736,
         "offline_since": null,
         "failure_episodes": 796,
@@ -1215,7 +1232,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2124922313019953319\",\"queuedAt\":1795455938}]"
       },
       {
         "key": "baselineAt",
@@ -1231,7 +1248,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795455328"
+        "value": "1795455938"
       }
     ],
     "events": [
@@ -1654,6 +1671,12 @@
         "event_type": "post_analysis",
         "created_at": 1795313133,
         "details": "{\"related\":[{\"xStatusId\":\"2123840812534452296\",\"url\":\"https://x.com/ajambrosino/status/2123840812534452296\",\"author\":\"ajambrosino\",\"relation\":\"quote\",\"text\":\"NEW: - ChatGPT Space for Plus! - new, simpler visual design across the app - huge performance improvements everywhere - completely rebuilt threads– better perf and design - redesigned Space home - much faster pages and slides - edit pages on mobile - more reliable Codex Remote m…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Team is already preparing another big update, but how are things since yesterday’s update to the ChatGPT/Codex desktop app?\"}}"
+      },
+      {
+        "id": "analysis:x:2124922313019953319",
+        "event_type": "post_analysis",
+        "created_at": 1795455938,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31.\"}}"
       },
       {
         "id": "notification:offline:1794247529",
@@ -2423,8 +2446,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795455328,
-    "lastRssAttemptAt": 1795455328,
+    "lastRssSuccessAt": 1795455938,
+    "lastRssAttemptAt": 1795455938,
     "sourceState": "online",
     "error": null
   }
