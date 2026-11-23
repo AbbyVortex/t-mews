@@ -3,227 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2119293235353006321",
-        "x_status_id": "2119293235353006321",
-        "canonical_url": "https://x.com/thsottiaux/status/2119293235353006321",
-        "fingerprint": "4cf401f53717ab0d2653a14077b150b0861e00ed2cbe3be788932eaaaf7551fd",
-        "published_at": 1794113856,
-        "detected_at": 1794114330,
-        "text": "@hakmgpt That is not correct.",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 474
-      },
-      {
-        "id": "x:2119294044480401585",
-        "x_status_id": "2119294044480401585",
-        "canonical_url": "https://x.com/thsottiaux/status/2119294044480401585",
-        "fingerprint": "e00fab8131c14be3dbab703122e73b02936c052a2c5d764e66b51cf74e32dbde",
-        "published_at": 1794114049,
-        "detected_at": 1794114330,
-        "text": "@JamesMalsawm Yes, but I am also very fond of this little x bubble",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 281
-      },
-      {
-        "id": "x:2119296267545419987",
-        "x_status_id": "2119296267545419987",
-        "canonical_url": "https://x.com/thsottiaux/status/2119296267545419987",
-        "fingerprint": "4232e11622a97f4bff7fcf01ae9af6c9ac3b70006defca8b17577fd21a9082a5",
-        "published_at": 1794114579,
-        "detected_at": 1794114928,
-        "text": "Saw some confusions, but all Pro plans have no 5-hour limits, and give the following usage compared to Plus.\n\n✅ Pro 100 = 10X\n\n✅ Pro 200 = 20X\n\n✅ Pro 500 = 50X, access to ultrafast",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "possible usage signal without a confirmed change or strong hint",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 349
-      },
-      {
-        "id": "x:2119303444683255991",
-        "x_status_id": "2119303444683255991",
-        "canonical_url": "https://x.com/thsottiaux/status/2119303444683255991",
-        "fingerprint": "036a3db354f5fa98fb901df74f927d6c72fd191014a9dbdcdfd51a3e413b44f6",
-        "published_at": 1794116290,
-        "detected_at": 1794116731,
-        "text": "@techleadhd",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 441
-      },
-      {
-        "id": "x:2119304055126425939",
-        "x_status_id": "2119304055126425939",
-        "canonical_url": "https://x.com/thsottiaux/status/2119304055126425939",
-        "fingerprint": "77290641a1526656c02e424edbdabac0c7531d8caa86fc98b140cf567c2ef8a4",
-        "published_at": 1794116436,
-        "detected_at": 1794116731,
-        "text": "@JamesMalsawm Pretty wild to me that GPT 6.1 Terra gets compared to Opus 5.5. No doubt that it's a great model, but it's not meant to compete in the big leagues. We've got other models for that.",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 295
-      },
-      {
-        "id": "x:2119304841873023158",
-        "x_status_id": "2119304841873023158",
-        "canonical_url": "https://x.com/thsottiaux/status/2119304841873023158",
-        "fingerprint": "dbd2884cdc3a4c53ba5a9da499b219e8d54d7951a1b8416c1902e7f8c4e40858",
-        "published_at": 1794116623,
-        "detected_at": 1794116731,
-        "text": "@TJwithAI Basement is fun",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 108
-      },
-      {
-        "id": "x:2119305294291612140",
-        "x_status_id": "2119305294291612140",
-        "canonical_url": "https://x.com/thsottiaux/status/2119305294291612140",
-        "fingerprint": "2aa879e9c2cdec55bc4c4d2e13caeb6b1262384b643881ef9685d8ba6fd05c2e",
-        "published_at": 1794116731,
-        "detected_at": 1794116731,
-        "text": "Would a Pro 50 make sense? Wdyt?",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 0
-      },
-      {
-        "id": "x:2119305379100450928",
-        "x_status_id": "2119305379100450928",
-        "canonical_url": "https://x.com/thsottiaux/status/2119305379100450928",
-        "fingerprint": "a3a1f3df5bd1473ed574de8e00966facc50852d8a8616e1c1cec6c25cc0e1509",
-        "published_at": 1794116751,
-        "detected_at": 1794117330,
-        "text": "@JamesMalsawm They already did, come over",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 579
-      },
-      {
-        "id": "x:2119308687676432672",
-        "x_status_id": "2119308687676432672",
-        "canonical_url": "https://x.com/thsottiaux/status/2119308687676432672",
-        "fingerprint": "69588df01119106465af94de7de83bba7fdac1db2025bdef7e7712e845976e95",
-        "published_at": 1794117540,
-        "detected_at": 1794117927,
-        "text": "@ForwardEditor We hesitated to embed https://x.com into the codex app to make sense of the resets, but decided against it.",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 387
-      },
-      {
-        "id": "x:2119309070658318698",
-        "x_status_id": "2119309070658318698",
-        "canonical_url": "https://x.com/thsottiaux/status/2119309070658318698",
-        "fingerprint": "476a5b544567bcaf1a544c94d762b7157f2082b3daef830e0c81d2e428be603a",
-        "published_at": 1794117631,
-        "detected_at": 1794117927,
-        "text": "@alexmichael @claudeai @bot @Meta @OpenAI Alfred plays to win",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 296
-      },
-      {
-        "id": "x:2119528988033073501",
-        "x_status_id": "2119528988033073501",
-        "canonical_url": "https://x.com/thsottiaux/status/2119528988033073501",
-        "fingerprint": "86ba3cc4f3126066e95aef0cc23b3b67fe5819ff66d6413c144522bd9f5186b1",
-        "published_at": 1794170064,
-        "detected_at": 1794170129,
-        "text": "@MillionInt Jerry, I challenge you to make a game",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 65
-      },
-      {
-        "id": "x:2119532403593191733",
-        "x_status_id": "2119532403593191733",
-        "canonical_url": "https://x.com/thsottiaux/status/2119532403593191733",
-        "fingerprint": "46374ead7caafef64ef3a6d7845cb35f9e669855818e9d1c5adb84a090f1bfd4",
-        "published_at": 1794170878,
-        "detected_at": 1794171327,
-        "text": "@garrytan Thanks for running those and publishing",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 449
-      },
-      {
-        "id": "x:2119611877810639072",
-        "x_status_id": "2119611877810639072",
-        "canonical_url": "https://x.com/thsottiaux/status/2119611877810639072",
-        "fingerprint": "fabe3037d29d53d13b8926d96589229930a8de0d44ee00dddb0f28e4015c2403",
-        "published_at": 1794189826,
-        "detected_at": 1794189933,
-        "text": "@maria_rcks Congrats to Theo",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 107
-      },
-      {
         "id": "x:2120018604691521609",
         "x_status_id": "2120018604691521609",
         "canonical_url": "https://x.com/thsottiaux/status/2120018604691521609",
@@ -1418,7 +1197,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795404937,
+        "last_success_at": 1795405539,
         "last_failure_at": 1795403128,
         "offline_since": null,
         "failure_episodes": 784,
@@ -1448,44 +1227,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1795318541"
+        "value": "1795405539"
       },
       {
         "key": "lastSuccess",
-        "value": "1795404937"
+        "value": "1795405539"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2119305294291612140",
-        "event_type": "post_analysis",
-        "created_at": 1794116731,
-        "details": "{\"related\":[{\"xStatusId\":\"2119296267545419987\",\"url\":\"https://x.com/thsottiaux/status/2119296267545419987\",\"author\":\"thsottiaux\",\"relation\":\"quote\",\"text\":\"Saw some confusions, but all Pro plans have no 5-hour limits, and give the following usage compared to Plus. ✅ Pro 100 = 10X ✅ Pro 200 = 20X ✅ Pro 500 = 50X, access to ultrafast\",\"provenance\":\"feed\",\"publishedAt\":1794114579}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Would a Pro 50 make sense?\"}}"
-      },
-      {
-        "id": "analysis:x:2119308687676432672",
-        "event_type": "post_analysis",
-        "created_at": 1794117927,
-        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"@ForwardEditor We hesitated to embed https://x.com into the codex app to make sense of the resets, but decided against it.\"}}"
-      },
-      {
-        "id": "analysis:x:2119528988033073501",
-        "event_type": "post_analysis",
-        "created_at": 1794170129,
-        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@MillionInt Jerry, I challenge you to make a game\"}}"
-      },
-      {
-        "id": "analysis:x:2119532403593191733",
-        "event_type": "post_analysis",
-        "created_at": 1794171327,
-        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@garrytan Thanks for running those and publishing\"}}"
-      },
-      {
-        "id": "analysis:x:2119611877810639072",
-        "event_type": "post_analysis",
-        "created_at": 1794189933,
-        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@maria_rcks Congrats to Theo\"}}"
-      },
       {
         "id": "analysis:x:2120018604691521609",
         "event_type": "post_analysis",
@@ -1907,18 +1656,6 @@
         "details": "{\"related\":[{\"xStatusId\":\"2123840812534452296\",\"url\":\"https://x.com/ajambrosino/status/2123840812534452296\",\"author\":\"ajambrosino\",\"relation\":\"quote\",\"text\":\"NEW: - ChatGPT Space for Plus! - new, simpler visual design across the app - huge performance improvements everywhere - completely rebuilt threads– better perf and design - redesigned Space home - much faster pages and slides - edit pages on mobile - more reliable Codex Remote m…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Team is already preparing another big update, but how are things since yesterday’s update to the ChatGPT/Codex desktop app?\"}}"
       },
       {
-        "id": "notification:ai-live-probe:20261108:ai-only",
-        "event_type": "notification_sent",
-        "created_at": 1794123851,
-        "details": "{\"kind\":\"ai-live-probe\",\"postId\":\"probe:live-20261108-display-ai-only\"}"
-      },
-      {
-        "id": "notification:ai-live-probe:20261108:diagnostic",
-        "event_type": "notification_sent",
-        "created_at": 1794123847,
-        "details": "{\"kind\":\"ai-live-probe\",\"postId\":\"probe:live-20261108-display-diagnostic\"}"
-      },
-      {
         "id": "notification:offline:1794247529",
         "event_type": "notification_sent",
         "created_at": 1794248780,
@@ -1935,12 +1672,6 @@
         "event_type": "notification_sent",
         "created_at": 1794675333,
         "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:post:x:2119308687676432672",
-        "event_type": "notification_sent",
-        "created_at": 1794117927,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2119308687676432672\"}"
       },
       {
         "id": "notification:post:x:2120410006273380750",
@@ -2692,8 +2423,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795404937,
-    "lastRssAttemptAt": 1795404937,
+    "lastRssSuccessAt": 1795405539,
+    "lastRssAttemptAt": 1795405539,
     "sourceState": "online",
     "error": null
   }
