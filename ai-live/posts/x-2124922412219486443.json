@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "id": "x:2124922412219486443",
+  "status": "claimed",
+  "createdAt": 1795456532,
+  "updatedAt": 1795456532,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "reason": "no usage reset or material allowance signal",
+    "evidence": "Sign up for ChatGPT Business: https://chatgpt.com/pricing/?type=team"
+  },
+  "candidate": {
+    "id": "x:2124922412219486443",
+    "url": "https://x.com/thsottiaux/status/2124922412219486443",
+    "text": "Sign up for ChatGPT Business: https://chatgpt.com/pricing/?type=team",
+    "related": [],
+    "publishedAt": 1795455956,
+    "kind": "post",
+    "discoveredAt": 1795456532,
+    "recentContext": [
+      {
+        "id": "x:2124922313019953319",
+        "url": "https://x.com/thsottiaux/status/2124922313019953319",
+        "text": "New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31. \n\nAlready on Business? We will have a gift for you, too. Stay tuned 👀",
+        "publishedAt": 1795455933,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "rule": {
+      "classification": "IRRELEVANT",
+      "notify": false,
+      "display": null
+    }
+  },
+  "queuedAt": 1795456532
+}
