@@ -37,5 +37,26 @@
       "display": null
     }
   },
-  "queuedAt": 1795456532
+  "queuedAt": 1795456532,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2124922412219486443",
+    "url": "https://x.com/thsottiaux/status/2124922412219486443",
+    "publishedAt": 1795455956,
+    "text": "Sign up for ChatGPT Business: https://chatgpt.com/pricing/?type=team",
+    "related": [],
+    "recentContext": [
+      {
+        "id": "x:2124922313019953319",
+        "url": "https://x.com/thsottiaux/status/2124922313019953319",
+        "text": "New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31. \n\nAlready on Business? We will have a gift for you, too. Stay tuned 👀",
+        "publishedAt": 1795455933,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "not_applicable"
+  },
+  "inputHash": "f3f293a797f7ce46b1ddb4313279fb2a1ec18fbef810c791964536e64c1278d1",
+  "requestPreparedAt": 1795456538232
 }
