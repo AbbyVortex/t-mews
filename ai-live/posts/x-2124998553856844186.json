@@ -1,7 +1,7 @@
 {
   "version": 1,
   "id": "x:2124998553856844186",
-  "status": "decided",
+  "status": "complete",
   "createdAt": 1795474539,
   "updatedAt": 1795474551,
   "model": "gpt-6.1-sol",
@@ -100,5 +100,10 @@
   "apiCompletedAt": 1795474551085,
   "elapsedMs": 5311,
   "decidedAt": 1795474551085,
-  "detectedToDecisionMs": 12085
+  "detectedToDecisionMs": 12085,
+  "delivery": {
+    "kind": "none",
+    "mismatch": false,
+    "receipts": []
+  }
 }
