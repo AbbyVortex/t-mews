@@ -47,5 +47,36 @@
       "display": null
     }
   },
-  "queuedAt": 1795474539
+  "queuedAt": 1795474539,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2124998553856844186",
+    "url": "https://x.com/thsottiaux/status/2124998553856844186",
+    "publishedAt": 1795474110,
+    "text": "You should feel a significant jump in quality of answers on ChatGPT once rolled out to you.\n\nTogether with all the investments we are making across simplifying the app, making it faster and merging chat & work, it's going to be quite the improvement in day to day experience by the end of the year.",
+    "related": [
+      {
+        "relation": "quote",
+        "text": "We’re rolling out a version of GPT-6.2 Sol in the Chat tab, optimized for everyday conversation. It’s much better at handling complex requests, especially when you give it detailed instructions or ask it to find information online. A few improvements you might notice in everyday…",
+        "author": "ChatGPT",
+        "id": "x:2124942186425069836",
+        "url": "https://x.com/ChatGPT/status/2124942186425069836",
+        "publishedAt": null,
+        "source": "feed"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2124922313019953319",
+        "url": "https://x.com/thsottiaux/status/2124922313019953319",
+        "text": "New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31. \n\nAlready on Business? We will have a gift for you, too. Stay tuned 👀",
+        "publishedAt": 1795455933,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "not_applicable;quote:x:2124942186425069836=present"
+  },
+  "inputHash": "f748e0ec54534f6328c20de0c618938f63dbbc3f436aa02ea52bcf8411fc4899",
+  "requestPreparedAt": 1795474545775
 }
