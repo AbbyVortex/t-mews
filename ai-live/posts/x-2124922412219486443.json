@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2124922412219486443",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795456532,
-  "updatedAt": 1795456532,
+  "updatedAt": 1795456550,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -58,5 +58,27 @@
     "parentStatus": "not_applicable"
   },
   "inputHash": "f3f293a797f7ce46b1ddb4313279fb2a1ec18fbef810c791964536e64c1278d1",
-  "requestPreparedAt": 1795456538232
+  "requestPreparedAt": 1795456538232,
+  "apiStartedAt": 1795456542024,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 874,
+    "output_tokens": 124,
+    "total_tokens": 998,
+    "cached_tokens": 0,
+    "reasoning_tokens": 51
+  },
+  "referenceCostUsd": 0.002988,
+  "result": {
+    "category": "chatter",
+    "rationale": "直前のBusiness利用枠倍増告知に続く申込リンクの案内のみで、新たな付与・利用枠変更・重要な条件説明はありません。",
+    "confidence": 0.95,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795456550836,
+  "elapsedMs": 12605,
+  "decidedAt": 1795456550836,
+  "detectedToDecisionMs": 18836
 }
