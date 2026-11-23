@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2124998553856844186",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795474539,
-  "updatedAt": 1795474539,
+  "updatedAt": 1795474551,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -78,5 +78,27 @@
     "parentStatus": "not_applicable;quote:x:2124942186425069836=present"
   },
   "inputHash": "f748e0ec54534f6328c20de0c618938f63dbbc3f436aa02ea52bcf8411fc4899",
-  "requestPreparedAt": 1795474545775
+  "requestPreparedAt": 1795474545775,
+  "apiStartedAt": 1795474546635,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1038,
+    "output_tokens": 81,
+    "total_tokens": 1119,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002886,
+  "result": {
+    "category": "unrelated",
+    "rationale": "ChatGPTの回答品質向上やアプリ改善への言及であり、リセット付与、利用枠、料金プラン条件の新情報はありません。引用も会話向けモデルの展開案内です。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795474551085,
+  "elapsedMs": 5311,
+  "decidedAt": 1795474551085,
+  "detectedToDecisionMs": 12085
 }
