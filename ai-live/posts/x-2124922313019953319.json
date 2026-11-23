@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2124922313019953319",
-  "status": "decided",
+  "status": "complete",
   "createdAt": 1795455938,
-  "updatedAt": 1795455954,
+  "updatedAt": 1795455959,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -62,5 +62,26 @@
   "apiCompletedAt": 1795455954928,
   "elapsedMs": 11188,
   "decidedAt": 1795455954928,
-  "detectedToDecisionMs": 16928
+  "detectedToDecisionMs": 16928,
+  "delivery": {
+    "kind": "normal",
+    "mismatch": true,
+    "priority": 0,
+    "title": "📈 AIが発見！ [判定不一致]",
+    "message": "🛠機械: — IRRELEVANT\n🤖AI: 📈利用枠・プラン変更 (limit_change)\n理由: 11月30日までに新規作成されたChatGPT Businessワークスペースは、全シート種別の含有利用枠が12月31日まで2倍になるとの具体的な告知。既存Business向けの特典も予告しています。\n不確実性: 既存Business向け特典の内容・時期は未発表です。\n\n投稿時刻: 2026/11/24 2:45:33 JST\n検知遅延: 5秒\n\n本人: New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31.\n本文: New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31. \n\nAlready on Business? We will have a gift for you, too. Stay tuned 👀\nhttps://x.com/thsottiaux/status/2124922313019953319",
+    "id": "post:x:2124922313019953319",
+    "receipts": [
+      {
+        "id": "post:x:2124922313019953319",
+        "post_id": "x:2124922313019953319",
+        "kind": "alert",
+        "created_at": 1795455956,
+        "status": "sent",
+        "sent_at": 1795455957
+      }
+    ],
+    "detectedToFirstSendMs": 19000,
+    "detectedToLastSendMs": 19000,
+    "publishedToFirstSendMs": 24000
+  }
 }
