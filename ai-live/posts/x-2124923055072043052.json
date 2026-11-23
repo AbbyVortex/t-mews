@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "id": "x:2124923055072043052",
+  "status": "claimed",
+  "createdAt": 1795456532,
+  "updatedAt": 1795456532,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "reason": "no usage reset or material allowance signal",
+    "evidence": "Inside OpenAI, dots are quickly becoming the primary way to get things done."
+  },
+  "candidate": {
+    "id": "x:2124923055072043052",
+    "url": "https://x.com/thsottiaux/status/2124923055072043052",
+    "text": "Inside OpenAI, dots are quickly becoming the primary way to get things done. We have dots building the dots system.",
+    "related": [
+      {
+        "relation": "quote",
+        "text": "quick recap of dots improvements we rolled out over the past few days, starting with a new home for your dot in the latest ChatGPT app.",
+        "author": "_samirism",
+        "id": "x:2124862749247189124",
+        "url": "https://x.com/_samirism/status/2124862749247189124",
+        "publishedAt": null,
+        "source": "feed"
+      }
+    ],
+    "publishedAt": 1795456110,
+    "kind": "post",
+    "discoveredAt": 1795456532,
+    "recentContext": [
+      {
+        "id": "x:2124922313019953319",
+        "url": "https://x.com/thsottiaux/status/2124922313019953319",
+        "text": "New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31. \n\nAlready on Business? We will have a gift for you, too. Stay tuned 👀",
+        "publishedAt": 1795455933,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "rule": {
+      "classification": "IRRELEVANT",
+      "notify": false,
+      "display": null
+    }
+  },
+  "queuedAt": 1795456532
+}
