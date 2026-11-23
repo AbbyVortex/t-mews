@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2124922313019953319",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795455938,
-  "updatedAt": 1795455938,
+  "updatedAt": 1795455954,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -40,5 +40,27 @@
     "parentStatus": "not_applicable"
   },
   "inputHash": "1b8260faec0e5a9f97774dbbc9a6e033d4abc385c71fb8e5046effa818ad7294",
-  "requestPreparedAt": 1795455943741
+  "requestPreparedAt": 1795455943741,
+  "apiStartedAt": 1795455944745,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 800,
+    "output_tokens": 108,
+    "total_tokens": 908,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.00268,
+  "result": {
+    "category": "limit_change",
+    "rationale": "11月30日までに新規作成されたChatGPT Businessワークスペースは、全シート種別の含有利用枠が12月31日まで2倍になるとの具体的な告知。既存Business向けの特典も予告しています。",
+    "confidence": 0.99,
+    "uncertainty": "既存Business向け特典の内容・時期は未発表です。"
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795455954928,
+  "elapsedMs": 11188,
+  "decidedAt": 1795455954928,
+  "detectedToDecisionMs": 16928
 }
