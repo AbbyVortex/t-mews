@@ -1208,13 +1208,64 @@
         "notified": 1,
         "notification_status": "sent",
         "detection_latency_seconds": 5
+      },
+      {
+        "id": "x:2124922412219486443",
+        "x_status_id": "2124922412219486443",
+        "canonical_url": "https://x.com/thsottiaux/status/2124922412219486443",
+        "fingerprint": "e592d991dab2ca380ebfbd84a7ad3a1a64753b3245c2616fedb29e24557eb4b5",
+        "published_at": 1795455956,
+        "detected_at": 1795456532,
+        "text": "Sign up for ChatGPT Business: https://chatgpt.com/pricing/?type=team",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 576
+      },
+      {
+        "id": "x:2124923055072043052",
+        "x_status_id": "2124923055072043052",
+        "canonical_url": "https://x.com/thsottiaux/status/2124923055072043052",
+        "fingerprint": "ba0864a6889111f6145f88749ab143eae4ce3748fedf5816dbc71bd8f4d0825c",
+        "published_at": 1795456110,
+        "detected_at": 1795456532,
+        "text": "Inside OpenAI, dots are quickly becoming the primary way to get things done. We have dots building the dots system.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 422
+      },
+      {
+        "id": "x:2124923142762361133",
+        "x_status_id": "2124923142762361133",
+        "canonical_url": "https://x.com/thsottiaux/status/2124923142762361133",
+        "fingerprint": "a0afa01b69c2d886dbd2a7b6aa53a2df46b8bd8caa54292e7f6f6e75bec0e0d0",
+        "published_at": 1795456131,
+        "detected_at": 1795456532,
+        "text": "@charliermarsh Charlie is in the hunt",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 401
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795455938,
+        "last_success_at": 1795456532,
         "last_failure_at": 1795454736,
         "offline_since": null,
         "failure_episodes": 796,
@@ -1232,7 +1283,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2124923142762361133\",\"queuedAt\":1795456532},{\"id\":\"x:2124923055072043052\",\"queuedAt\":1795456532},{\"id\":\"x:2124922412219486443\",\"queuedAt\":1795456532}]"
       },
       {
         "key": "baselineAt",
@@ -1248,7 +1299,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795455938"
+        "value": "1795456532"
       }
     ],
     "events": [
@@ -1677,6 +1728,24 @@
         "event_type": "post_analysis",
         "created_at": 1795455938,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31.\"}}"
+      },
+      {
+        "id": "analysis:x:2124922412219486443",
+        "event_type": "post_analysis",
+        "created_at": 1795456532,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Sign up for ChatGPT Business: https://chatgpt.com/pricing/?type=team\"}}"
+      },
+      {
+        "id": "analysis:x:2124923055072043052",
+        "event_type": "post_analysis",
+        "created_at": 1795456532,
+        "details": "{\"related\":[{\"xStatusId\":\"2124862749247189124\",\"url\":\"https://x.com/_samirism/status/2124862749247189124\",\"author\":\"_samirism\",\"relation\":\"quote\",\"text\":\"quick recap of dots improvements we rolled out over the past few days, starting with a new home for your dot in the latest ChatGPT app.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Inside OpenAI, dots are quickly becoming the primary way to get things done.\"}}"
+      },
+      {
+        "id": "analysis:x:2124923142762361133",
+        "event_type": "post_analysis",
+        "created_at": 1795456532,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@charliermarsh Charlie is in the hunt\"}}"
       },
       {
         "id": "notification:offline:1794247529",
@@ -2460,8 +2529,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795455938,
-    "lastRssAttemptAt": 1795455938,
+    "lastRssSuccessAt": 1795456532,
+    "lastRssAttemptAt": 1795456532,
     "sourceState": "online",
     "error": null
   }
