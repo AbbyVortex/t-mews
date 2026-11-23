@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2124923142762361133",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795456532,
-  "updatedAt": 1795456532,
+  "updatedAt": 1795456549,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -68,5 +68,27 @@
     "parentStatus": "fetched"
   },
   "inputHash": "9e8bcb5c9278604ff8899bc2bb75e87525a5e8ba13c4211336e13e3c1f34143e",
-  "requestPreparedAt": 1795456539560
+  "requestPreparedAt": 1795456539560,
+  "apiStartedAt": 1795456543128,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 973,
+    "output_tokens": 80,
+    "total_tokens": 1053,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.002746,
+  "result": {
+    "category": "unrelated",
+    "rationale": "返信先はCodexのツール呼び出し高速化に関する投稿で、Tiboの返信もその話題への反応。利用枠・リセット・有料プラン変更の情報はない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795456549507,
+  "elapsedMs": 10230,
+  "decidedAt": 1795456549507,
+  "detectedToDecisionMs": 17507
 }
