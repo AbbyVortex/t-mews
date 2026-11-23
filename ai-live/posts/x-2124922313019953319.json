@@ -28,5 +28,17 @@
       "display": null
     }
   },
-  "queuedAt": 1795455938
+  "queuedAt": 1795455938,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2124922313019953319",
+    "url": "https://x.com/thsottiaux/status/2124922313019953319",
+    "publishedAt": 1795455933,
+    "text": "New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31. \n\nAlready on Business? We will have a gift for you, too. Stay tuned 👀",
+    "related": [],
+    "recentContext": [],
+    "parentStatus": "not_applicable"
+  },
+  "inputHash": "1b8260faec0e5a9f97774dbbc9a6e033d4abc385c71fb8e5046effa818ad7294",
+  "requestPreparedAt": 1795455943741
 }
