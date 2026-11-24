@@ -1310,13 +1310,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 598
+      },
+      {
+        "id": "x:2125284868414394550",
+        "x_status_id": "2125284868414394550",
+        "canonical_url": "https://x.com/thsottiaux/status/2125284868414394550",
+        "fingerprint": "b24d09c0657c318c556909680781edc682dd23bf4e5c7bc47a83287d3bef2eaa",
+        "published_at": 1795542373,
+        "detected_at": 1795542942,
+        "text": "Hi. We’re beginning to roll out the combined Chat and Work experience to a small group of Pro users to learn from feedback before we roll out more broadly. \n\nLet us know what you think and where we can improve!",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 569
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795542340,
+        "last_success_at": 1795542942,
         "last_failure_at": 1795535741,
         "offline_since": null,
         "failure_episodes": 809,
@@ -1334,7 +1351,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2125284868414394550\",\"queuedAt\":1795542942}]"
       },
       {
         "key": "baselineAt",
@@ -1350,7 +1367,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795542340"
+        "value": "1795542942"
       }
     ],
     "events": [
@@ -1815,6 +1832,12 @@
         "event_type": "post_analysis",
         "created_at": 1795508742,
         "details": "{\"related\":[{\"xStatusId\":\"2124980590717911527\",\"url\":\"https://x.com/OpenAI/status/2124980590717911527\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"We’re introducing Shirudo, an open-source Linux runtime allowing agents to defend systems without downtime. It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time to test and roll out patches. Built by @cisco together with OpenAI. …\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"allowanceScope\":\"unknown\",\"evidence\":\"We’re working with Cisco on what we think are going to be key infrastructure primitives in the new era of cybersecurity.\"}}"
+      },
+      {
+        "id": "analysis:x:2125284868414394550",
+        "event_type": "post_analysis",
+        "created_at": 1795542942,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"allowanceScope\":\"unknown\",\"evidence\":\"Hi.\"}}"
       },
       {
         "id": "notification:offline:1794316530",
@@ -2586,8 +2609,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795542340,
-    "lastRssAttemptAt": 1795542340,
+    "lastRssSuccessAt": 1795542942,
+    "lastRssAttemptAt": 1795542942,
     "sourceState": "online",
     "error": null
   }
