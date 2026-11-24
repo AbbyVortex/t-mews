@@ -1299,7 +1299,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795491929,
+        "last_success_at": 1795492536,
         "last_failure_at": 1795489529,
         "offline_since": null,
         "failure_episodes": 803,
@@ -1329,11 +1329,11 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1795405539"
+        "value": "1795492536"
       },
       {
         "key": "lastSuccess",
-        "value": "1795491929"
+        "value": "1795492536"
       }
     ],
     "events": [
@@ -1794,12 +1794,6 @@
         "details": "{\"related\":[{\"xStatusId\":\"2125007927098699827\",\"url\":\"https://x.com/OpenAI/status/2125007927098699827\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"In one run, GPT-6 Cyber helped us validate 948 Linux kernel bugs that could grant local root access and generate patches for review. Our researchers @clintgibler and @ky1ebot share their findings and how they worked with maintainers to get fixes upstream. Read the research: http…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Worth listening to if you're curious what goes on in the minds of the people at OpenAI who are obsessively trying to patch all the flaws in OSS software and infrastructure we all rely on\"}}"
       },
       {
-        "id": "notification:offline:1794247529",
-        "event_type": "notification_sent",
-        "created_at": 1794248780,
-        "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
         "id": "notification:offline:1794316530",
         "event_type": "notification_sent",
         "created_at": 1794317729,
@@ -1846,12 +1840,6 @@
         "event_type": "notification_sent",
         "created_at": 1795455957,
         "details": "{\"kind\":\"alert\",\"postId\":\"x:2124922313019953319\"}"
-      },
-      {
-        "id": "notification:recovered:1794247529",
-        "event_type": "notification_sent",
-        "created_at": 1794249932,
-        "details": "{\"kind\":\"recovered\",\"postId\":null}"
       },
       {
         "id": "notification:recovered:1794316530",
@@ -2575,8 +2563,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795491929,
-    "lastRssAttemptAt": 1795491929,
+    "lastRssSuccessAt": 1795492536,
+    "lastRssAttemptAt": 1795492536,
     "sourceState": "online",
     "error": null
   }
