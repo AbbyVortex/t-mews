@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2125141302501417232",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795508742,
-  "updatedAt": 1795508742,
+  "updatedAt": 1795508752,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261124-v2",
@@ -79,5 +79,28 @@
     "parentStatus": "not_applicable;quote:x:2124980590717911527=present"
   },
   "inputHash": "356ed7e3064f1b33908164f1bcf3b73ffc1028c943661c486f76bf7a7084e384",
-  "requestPreparedAt": 1795508748123
+  "requestPreparedAt": 1795508748123,
+  "apiStartedAt": 1795508749215,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1274,
+    "output_tokens": 81,
+    "total_tokens": 1355,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.003358,
+  "result": {
+    "allowanceScope": "not_applicable",
+    "category": "unrelated",
+    "rationale": "Ciscoと共同開発するサイバーセキュリティ基盤の紹介であり、利用枠、Reset付与、有料プラン条件の変更に関する情報ではない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795508752888,
+  "elapsedMs": 4765,
+  "decidedAt": 1795508752888,
+  "detectedToDecisionMs": 10888
 }
