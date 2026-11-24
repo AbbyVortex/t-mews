@@ -47,5 +47,36 @@
       "display": null
     }
   },
-  "queuedAt": 1795481133
+  "queuedAt": 1795481133,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2125027477877887231",
+    "url": "https://x.com/thsottiaux/status/2125027477877887231",
+    "publishedAt": 1795481006,
+    "text": "Worth listening to if you're curious what goes on in the minds of the people at OpenAI who are obsessively trying to patch all the flaws in OSS software and infrastructure we all rely on",
+    "related": [
+      {
+        "relation": "quote",
+        "text": "In one run, GPT-6 Cyber helped us validate 948 Linux kernel bugs that could grant local root access and generate patches for review. Our researchers @clintgibler and @ky1ebot share their findings and how they worked with maintainers to get fixes upstream. Read the research: http…",
+        "author": "OpenAI",
+        "id": "x:2125007927098699827",
+        "url": "https://x.com/OpenAI/status/2125007927098699827",
+        "publishedAt": null,
+        "source": "feed"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2124922313019953319",
+        "url": "https://x.com/thsottiaux/status/2124922313019953319",
+        "text": "New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31. \n\nAlready on Business? We will have a gift for you, too. Stay tuned 👀",
+        "publishedAt": 1795455933,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "not_applicable;quote:x:2125007927098699827=present"
+  },
+  "inputHash": "6099f56f83aec73644eaf93ffe41df4525a7c25ceba0cb0ec61a0504d3e6cfcc",
+  "requestPreparedAt": 1795481141013
 }
