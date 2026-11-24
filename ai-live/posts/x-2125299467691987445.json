@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2125299467691987445",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795545929,
-  "updatedAt": 1795545929,
+  "updatedAt": 1795545949,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261124-v2",
@@ -75,5 +75,28 @@
     "parentStatus": "not_applicable"
   },
   "inputHash": "f4d025b8fd71bf18ca036c22c855922dd608cfa9b229f28d23dd2a12fdf65268",
-  "requestPreparedAt": 1795545942394
+  "requestPreparedAt": 1795545942394,
+  "apiStartedAt": 1795545944419,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1222,
+    "output_tokens": 143,
+    "total_tokens": 1365,
+    "cached_tokens": 0,
+    "reasoning_tokens": 73
+  },
+  "referenceCostUsd": 0.003874,
+  "result": {
+    "allowanceScope": "not_applicable",
+    "category": "unrelated",
+    "rationale": "ChatGPT Businessへの登録リンクのみで、使用枠・料金条件の変更やリセット付与について新しい情報はありません。",
+    "confidence": 0.94,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795545949617,
+  "elapsedMs": 7223,
+  "decidedAt": 1795545949617,
+  "detectedToDecisionMs": 20617
 }
