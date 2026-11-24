@@ -1293,13 +1293,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 127
+      },
+      {
+        "id": "x:2125141302501417232",
+        "x_status_id": "2125141302501417232",
+        "canonical_url": "https://x.com/thsottiaux/status/2125141302501417232",
+        "fingerprint": "6d782f28ecac227255e5a78b947fdf95ea9c29fa2a7aa84fa8cdebf06078105f",
+        "published_at": 1795508144,
+        "detected_at": 1795508742,
+        "text": "We’re working with Cisco on what we think are going to be key infrastructure primitives in the new era of cybersecurity. \n\nEverything needs to be built to be operated safely by aligned agents at machine speed.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 598
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795508141,
+        "last_success_at": 1795508742,
         "last_failure_at": 1795502138,
         "offline_since": null,
         "failure_episodes": 805,
@@ -1317,7 +1334,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2125141302501417232\",\"queuedAt\":1795508742}]"
       },
       {
         "key": "baselineAt",
@@ -1333,7 +1350,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795508141"
+        "value": "1795508742"
       }
     ],
     "events": [
@@ -1792,6 +1809,12 @@
         "event_type": "post_analysis",
         "created_at": 1795481133,
         "details": "{\"related\":[{\"xStatusId\":\"2125007927098699827\",\"url\":\"https://x.com/OpenAI/status/2125007927098699827\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"In one run, GPT-6 Cyber helped us validate 948 Linux kernel bugs that could grant local root access and generate patches for review. Our researchers @clintgibler and @ky1ebot share their findings and how they worked with maintainers to get fixes upstream. Read the research: http…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Worth listening to if you're curious what goes on in the minds of the people at OpenAI who are obsessively trying to patch all the flaws in OSS software and infrastructure we all rely on\"}}"
+      },
+      {
+        "id": "analysis:x:2125141302501417232",
+        "event_type": "post_analysis",
+        "created_at": 1795508742,
+        "details": "{\"related\":[{\"xStatusId\":\"2124980590717911527\",\"url\":\"https://x.com/OpenAI/status/2124980590717911527\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"We’re introducing Shirudo, an open-source Linux runtime allowing agents to defend systems without downtime. It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time to test and roll out patches. Built by @cisco together with OpenAI. …\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"allowanceScope\":\"unknown\",\"evidence\":\"We’re working with Cisco on what we think are going to be key infrastructure primitives in the new era of cybersecurity.\"}}"
       },
       {
         "id": "notification:offline:1794316530",
@@ -2563,8 +2586,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795508141,
-    "lastRssAttemptAt": 1795508141,
+    "lastRssSuccessAt": 1795508742,
+    "lastRssAttemptAt": 1795508742,
     "sourceState": "online",
     "error": null
   }
