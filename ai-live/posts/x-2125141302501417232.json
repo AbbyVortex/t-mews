@@ -48,5 +48,36 @@
       "display": null
     }
   },
-  "queuedAt": 1795508742
+  "queuedAt": 1795508742,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2125141302501417232",
+    "url": "https://x.com/thsottiaux/status/2125141302501417232",
+    "publishedAt": 1795508144,
+    "text": "We’re working with Cisco on what we think are going to be key infrastructure primitives in the new era of cybersecurity. \n\nEverything needs to be built to be operated safely by aligned agents at machine speed.",
+    "related": [
+      {
+        "relation": "quote",
+        "text": "We’re introducing Shirudo, an open-source Linux runtime allowing agents to defend systems without downtime. It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time to test and roll out patches. Built by @cisco together with OpenAI. …",
+        "author": "OpenAI",
+        "id": "x:2124980590717911527",
+        "url": "https://x.com/OpenAI/status/2124980590717911527",
+        "publishedAt": null,
+        "source": "feed"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2124922313019953319",
+        "url": "https://x.com/thsottiaux/status/2124922313019953319",
+        "text": "New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31. \n\nAlready on Business? We will have a gift for you, too. Stay tuned 👀",
+        "publishedAt": 1795455933,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "not_applicable;quote:x:2124980590717911527=present"
+  },
+  "inputHash": "356ed7e3064f1b33908164f1bcf3b73ffc1028c943661c486f76bf7a7084e384",
+  "requestPreparedAt": 1795508748123
 }
