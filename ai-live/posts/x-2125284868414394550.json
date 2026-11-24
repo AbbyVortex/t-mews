@@ -38,5 +38,26 @@
       "display": null
     }
   },
-  "queuedAt": 1795542942
+  "queuedAt": 1795542942,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2125284868414394550",
+    "url": "https://x.com/thsottiaux/status/2125284868414394550",
+    "publishedAt": 1795542373,
+    "text": "Hi. We’re beginning to roll out the combined Chat and Work experience to a small group of Pro users to learn from feedback before we roll out more broadly. \n\nLet us know what you think and where we can improve!",
+    "related": [],
+    "recentContext": [
+      {
+        "id": "x:2124922313019953319",
+        "url": "https://x.com/thsottiaux/status/2124922313019953319",
+        "text": "New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31. \n\nAlready on Business? We will have a gift for you, too. Stay tuned 👀",
+        "publishedAt": 1795455933,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "not_applicable"
+  },
+  "inputHash": "f975fd489c2b95dc048a9858c1e4b6f690aa5fe0ad2efea8594385b7b67671f5",
+  "requestPreparedAt": 1795542947782
 }
