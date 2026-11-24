@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "id": "x:2125027477877887231",
+  "status": "claimed",
+  "createdAt": 1795481133,
+  "updatedAt": 1795481133,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261108-v1",
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "reason": "no usage reset or material allowance signal",
+    "evidence": "Worth listening to if you're curious what goes on in the minds of the people at OpenAI who are obsessively trying to patch all the flaws in OSS software and infrastructure we all rely on"
+  },
+  "candidate": {
+    "id": "x:2125027477877887231",
+    "url": "https://x.com/thsottiaux/status/2125027477877887231",
+    "text": "Worth listening to if you're curious what goes on in the minds of the people at OpenAI who are obsessively trying to patch all the flaws in OSS software and infrastructure we all rely on",
+    "related": [
+      {
+        "relation": "quote",
+        "text": "In one run, GPT-6 Cyber helped us validate 948 Linux kernel bugs that could grant local root access and generate patches for review. Our researchers @clintgibler and @ky1ebot share their findings and how they worked with maintainers to get fixes upstream. Read the research: http…",
+        "author": "OpenAI",
+        "id": "x:2125007927098699827",
+        "url": "https://x.com/OpenAI/status/2125007927098699827",
+        "publishedAt": null,
+        "source": "feed"
+      }
+    ],
+    "publishedAt": 1795481006,
+    "kind": "post",
+    "discoveredAt": 1795481133,
+    "recentContext": [
+      {
+        "id": "x:2124922313019953319",
+        "url": "https://x.com/thsottiaux/status/2124922313019953319",
+        "text": "New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31. \n\nAlready on Business? We will have a gift for you, too. Stay tuned 👀",
+        "publishedAt": 1795455933,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "rule": {
+      "classification": "IRRELEVANT",
+      "notify": false,
+      "display": null
+    }
+  },
+  "queuedAt": 1795481133
+}
