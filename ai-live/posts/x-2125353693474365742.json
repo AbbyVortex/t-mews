@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2125353693474365742",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795559141,
-  "updatedAt": 1795559141,
+  "updatedAt": 1795559152,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261124-v2",
@@ -85,5 +85,28 @@
     "parentStatus": "fetched"
   },
   "inputHash": "421a6f76923ee9cc3427cc038a6aed15229c7465001a1bc2feafc9a0f34c33b7",
-  "requestPreparedAt": 1795559147450
+  "requestPreparedAt": 1795559147450,
+  "apiStartedAt": 1795559148776,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1391,
+    "output_tokens": 86,
+    "total_tokens": 1477,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.003642,
+  "result": {
+    "allowanceScope": "not_applicable",
+    "category": "unrelated",
+    "rationale": "Agents APIの予算管理・サンドボックス機能の発表を称賛する返信。Codex/ChatGPTの利用枠、Reset付与、有料プラン条件への新情報はない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795559152925,
+  "elapsedMs": 5682,
+  "decidedAt": 1795559152925,
+  "detectedToDecisionMs": 11925
 }
