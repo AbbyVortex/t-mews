@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2125027477877887231",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795481133,
-  "updatedAt": 1795481133,
+  "updatedAt": 1795481146,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261108-v1",
@@ -78,5 +78,27 @@
     "parentStatus": "not_applicable;quote:x:2125007927098699827=present"
   },
   "inputHash": "6099f56f83aec73644eaf93ffe41df4525a7c25ceba0cb0ec61a0504d3e6cfcc",
-  "requestPreparedAt": 1795481141013
+  "requestPreparedAt": 1795481141013,
+  "apiStartedAt": 1795481141980,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1020,
+    "output_tokens": 70,
+    "total_tokens": 1090,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.00274,
+  "result": {
+    "category": "unrelated",
+    "rationale": "OSSの脆弱性検証・修正に関する研究紹介であり、利用枠、リセット付与、有料プラン条件についての新情報はありません。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795481146400,
+  "elapsedMs": 5388,
+  "decidedAt": 1795481146400,
+  "detectedToDecisionMs": 13400
 }
