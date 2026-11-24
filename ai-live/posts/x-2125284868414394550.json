@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "x:2125284868414394550",
+  "status": "claimed",
+  "createdAt": 1795542942,
+  "updatedAt": 1795542942,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261124-v2",
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "reason": "no usage reset or material allowance signal",
+    "allowanceScope": "unknown",
+    "evidence": "Hi."
+  },
+  "candidate": {
+    "id": "x:2125284868414394550",
+    "url": "https://x.com/thsottiaux/status/2125284868414394550",
+    "text": "Hi. We’re beginning to roll out the combined Chat and Work experience to a small group of Pro users to learn from feedback before we roll out more broadly. \n\nLet us know what you think and where we can improve!",
+    "related": [],
+    "publishedAt": 1795542373,
+    "kind": "post",
+    "discoveredAt": 1795542942,
+    "recentContext": [
+      {
+        "id": "x:2124922313019953319",
+        "url": "https://x.com/thsottiaux/status/2124922313019953319",
+        "text": "New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31. \n\nAlready on Business? We will have a gift for you, too. Stay tuned 👀",
+        "publishedAt": 1795455933,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "rule": {
+      "classification": "IRRELEVANT",
+      "notify": false,
+      "display": null
+    }
+  },
+  "queuedAt": 1795542942
+}
