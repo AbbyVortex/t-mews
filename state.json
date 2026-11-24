@@ -1276,13 +1276,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 429
+      },
+      {
+        "id": "x:2125027477877887231",
+        "x_status_id": "2125027477877887231",
+        "canonical_url": "https://x.com/thsottiaux/status/2125027477877887231",
+        "fingerprint": "d8631c47c34e9a2f4b295d8eeb916271951ff5c85d99867e251729757f86b540",
+        "published_at": 1795481006,
+        "detected_at": 1795481133,
+        "text": "Worth listening to if you're curious what goes on in the minds of the people at OpenAI who are obsessively trying to patch all the flaws in OSS software and infrastructure we all rely on",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 127
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795480542,
+        "last_success_at": 1795481133,
         "last_failure_at": 1795470940,
         "offline_since": null,
         "failure_episodes": 800,
@@ -1300,7 +1317,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2125027477877887231\",\"queuedAt\":1795481133}]"
       },
       {
         "key": "baselineAt",
@@ -1316,7 +1333,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795480542"
+        "value": "1795481133"
       }
     ],
     "events": [
@@ -1769,6 +1786,12 @@
         "event_type": "post_analysis",
         "created_at": 1795474539,
         "details": "{\"related\":[{\"xStatusId\":\"2124942186425069836\",\"url\":\"https://x.com/ChatGPT/status/2124942186425069836\",\"author\":\"ChatGPT\",\"relation\":\"quote\",\"text\":\"We’re rolling out a version of GPT-6.2 Sol in the Chat tab, optimized for everyday conversation. It’s much better at handling complex requests, especially when you give it detailed instructions or ask it to find information online. A few improvements you might notice in everyday…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"You should feel a significant jump in quality of answers on ChatGPT once rolled out to you.\"}}"
+      },
+      {
+        "id": "analysis:x:2125027477877887231",
+        "event_type": "post_analysis",
+        "created_at": 1795481133,
+        "details": "{\"related\":[{\"xStatusId\":\"2125007927098699827\",\"url\":\"https://x.com/OpenAI/status/2125007927098699827\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"In one run, GPT-6 Cyber helped us validate 948 Linux kernel bugs that could grant local root access and generate patches for review. Our researchers @clintgibler and @ky1ebot share their findings and how they worked with maintainers to get fixes upstream. Read the research: http…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Worth listening to if you're curious what goes on in the minds of the people at OpenAI who are obsessively trying to patch all the flaws in OSS software and infrastructure we all rely on\"}}"
       },
       {
         "id": "notification:offline:1794247529",
@@ -2552,8 +2575,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795480542,
-    "lastRssAttemptAt": 1795480542,
+    "lastRssSuccessAt": 1795481133,
+    "lastRssAttemptAt": 1795481133,
     "sourceState": "online",
     "error": null
   }
