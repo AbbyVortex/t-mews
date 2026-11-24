@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2125299248782778588",
-  "status": "decided",
+  "status": "complete",
   "createdAt": 1795545929,
-  "updatedAt": 1795545947,
+  "updatedAt": 1795545952,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261124-v2",
@@ -82,5 +82,26 @@
   "apiCompletedAt": 1795545947619,
   "elapsedMs": 6166,
   "decidedAt": 1795545947619,
-  "detectedToDecisionMs": 18619
+  "detectedToDecisionMs": 18619,
+  "delivery": {
+    "kind": "normal",
+    "mismatch": true,
+    "priority": 1,
+    "title": "💣 実施予告・配布 [判定不一致]",
+    "message": "🛠機械: 🍄 CANDIDATE\n🤖AI: 💣実施予告・配布 (announcement)\n理由: ChatGPT Businessチーム向けにBanked Resetの付与を明確に発表。併せて12月31日まで追加料金なしのfast modeも案内している。独立したリセット付与の告知を含むため、対象範囲はnot_applicable。\n\n投稿時刻: 2026/11/25 3:43:21 JST\n検知遅延: 2分8秒\nリセット予定（日本時間）: 未確定（時刻表現はあるが対応範囲外）\nリセット予定（原文）: We have two small things for you, a banked reset and fast mode at no extra charge through Dec 31.\n\n本人: We have two small things for you, a banked reset and fast mode at no extra charge through Dec 31.\n本文: To all the ChatGPT Business teams out there. We have two small things for you, a banked reset and fast mode at no extra charge through Dec 31. Have fun!\nhttps://x.com/thsottiaux/status/2125299248782778588",
+    "id": "post:x:2125299248782778588",
+    "receipts": [
+      {
+        "id": "post:x:2125299248782778588",
+        "post_id": "x:2125299248782778588",
+        "kind": "alert",
+        "created_at": 1795545948,
+        "status": "sent",
+        "sent_at": 1795545950
+      }
+    ],
+    "detectedToFirstSendMs": 21000,
+    "detectedToLastSendMs": 21000,
+    "publishedToFirstSendMs": 149000
+  }
 }
