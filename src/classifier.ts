@@ -1,3 +1,4 @@
+import {allowanceScope} from './allowance-scope';
 import type { Classification, RelatedPost, Verdict } from './types';
 
 const RESET = /\breset(?:s|ting)?\b/;
@@ -213,5 +214,7 @@ export function classify(text: string, related: RelatedPost[] = []): Verdict {
     display: PRODUCT.test(t) ? 'announcement' : 'advisory',
     reason: 'author explicitly distributes mushrooms; product context determines announcement certainty',
     evidence: sentences(text).find(s => /🍄|\bmushrooms?\b/.test(normalize(s))) ?? text.trim()};
-  return {...body, ...(body.classification === 'LIMIT_CHANGE' ? {display: 'limit' as const} : {}), evidence: ownEvidence(text, body.classification)};
+  const scope = allowanceScope(text);
+  return {...body, allowanceScope: scope, ...(scope === 'excluded' ? {notify: false, reason: body.reason + '; allowance change only affects other plans'} : {}),
+    ...(body.classification === 'LIMIT_CHANGE' ? {display: 'limit' as const} : {}), evidence: ownEvidence(text, body.classification)};
 }

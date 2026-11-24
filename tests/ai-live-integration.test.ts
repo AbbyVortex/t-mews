@@ -13,7 +13,7 @@ type Category='announcement'|'attention'|'limit_change'|'chatter'|'unrelated';
 const item=(id:string,text:string,time=START+60,title='')=>
  '<item><title>'+title+'</title><link>https://x.com/thsottiaux/status/'+id+'</link><pubDate>'+new Date(time*1000).toUTCString()+'</pubDate><description><![CDATA['+text+']]></description></item>';
 const feed=(...items:string[])=>'<rss><channel><title>@thsottiaux</title>'+items.join('')+'</channel></rss>';
-const result=(category:Category)=>({category,rationale:category==='chatter'?'一般的な雑談で新しい運用情報はありません。':'固定された試験用の理由。',confidence:0.91,uncertainty:''});
+const result=(category:Category)=>({category,allowanceScope:'unknown',rationale:category==='chatter'?'一般的な雑談で新しい運用情報はありません。':'固定された試験用の理由。',confidence:0.91,uncertainty:''});
 const response=(category:Category)=>Response.json({status:'completed',model:'gpt-6.1-sol',
  usage:{input_tokens:200,output_tokens:50,total_tokens:250,input_tokens_details:{cached_tokens:0},output_tokens_details:{reasoning_tokens:10}},
  output:[{type:'message',content:[{type:'output_text',text:JSON.stringify(result(category))}]}]});
@@ -396,3 +396,56 @@ test('turning live AI OFF closes its queue with conventional delivery, and ON ne
 
 
 
+
+
+test('allowance scope suppresses all excluded delivery paths and survives restart without replay',async()=>{
+ const initial=await initialized();
+ for(const liveEnabled of [false,true])for(const outcome of ['limit_change','attention','chatter','unrelated','timeout'] as const){
+  const text='We doubled Codex usage limits for Pro 200.';
+  const f=fixture(initial,feed(item('2',text)));let calls=0;
+  const config={...f.options(async()=>{calls++;if(outcome==='timeout')throw Error('network');return response(outcome);}),enabled:liveEnabled};
+  await f.run(config);
+  assert.equal(calls,liveEnabled?1:0);assert.equal(f.pushes.length,0,outcome);
+  const row=f.store.state!.tables.posts.find(p=>p.id==='x:2')!;
+  assert.equal(row.classification,'LIMIT_CHANGE');assert.equal(row.notification_status,'not_relevant');
+  const analysis=f.store.state!.tables.events.find(e=>e.id==='analysis:x:2')!;
+  assert.equal(JSON.parse(analysis.details).verdict.allowanceScope,'excluded');
+  if(liveEnabled)assert.equal(f.live.records.get('x:2')?.delivery.allowanceScope,'excluded');
+  const again=fixture(f.store.state,feed(item('2',text)));again.live.records=structuredClone(f.live.records);
+  await again.run({...again.options(async()=>{throw Error('past post must not call AI');}),enabled:liveEnabled},START+600);
+  assert.equal(again.pushes.length,0);assert.deepEqual(again.store.state!.tables.notifications,initial.tables.notifications);
+ }
+});
+
+test('AI-only excluded plan attention/changes suppress diagnostics and cannot become pending sends on restart',async()=>{
+ for(const category of ['attention','limit_change','chatter'] as const){
+  const f=fixture(await initialized(),feed(item('2','What about extra Codex usage for organizations?')));let calls=0;
+  const ai=(async()=>{calls++;return Response.json({status:'completed',output:[{type:'message',content:[{type:'output_text',text:JSON.stringify({...result(category),allowanceScope:'excluded'})}]}]});}) as typeof fetch;
+  await f.run(f.options(ai));assert.equal(calls,1);assert.equal(f.pushes.length,0);
+  assert.equal(f.live.records.get('x:2')?.result.allowanceScope,'excluded');
+  const after=fixture(f.store.state,feed(item('2','What about extra Codex usage for organizations?')));after.live.records=structuredClone(f.live.records);
+  await after.run(after.options(async()=>{throw Error('already processed');}),START+600);assert.equal(after.pushes.length,0);
+ }
+});
+
+test('relevant, mixed, unspecified and independent Reset alerts retain immediate delivery and fallback',async()=>{
+ for(const text of ['We doubled Codex limits for Plus.','We doubled Codex limits for Pro 100.',
+  'We doubled Codex limits for Plus and Enterprise.','We doubled Codex limits for Pro.',
+  'We doubled Codex limits for all users.','We doubled Codex limits.',
+  'Enterprise limits doubled. Resetting the usage limits tomorrow.']){
+  const f=fixture(await initialized(),feed(item('2',text)));
+  await f.run(f.options(async()=>{assert.equal(f.pushes.length,1,'critical notification precedes AI');throw Error('network');}));
+  assert.equal(f.pushes.length,1,text);assert.doesNotMatch(f.pushes[0].get('title')!,/判定不一致/);
+ }
+});
+
+test('ambiguous immediate limit notices do not add an excluded AI diagnostic; relevant AI corrections still notify',async()=>{
+ for(const [text,scope,expected] of [
+  ['We doubled Codex limits for Pro.','excluded',1],
+  ['We doubled Codex limits for Pro 200.','included',1],
+ ] as const){
+  const f=fixture(await initialized(),feed(item('2',text)));
+  await f.run(f.options(async()=>Response.json({status:'completed',output:[{type:'message',content:[{type:'output_text',text:JSON.stringify({...result('limit_change'),allowanceScope:scope})}]}]})));
+  assert.equal(f.pushes.length,expected);assert.equal(f.store.state!.tables.notifications.some(n=>n.kind==='ai-diagnostic'),false);
+ }
+});

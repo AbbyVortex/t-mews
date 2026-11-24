@@ -14,9 +14,17 @@ function machineCategory(verdict:Verdict):EffectiveCategory {
 const aiCategory=(result:LiveResult):EffectiveCategory=>result.category==='chatter'||result.category==='unrelated'?'none':result.category;
 export const isCriticalMachine=(verdict:Verdict):boolean=>['announcement','limit_change'].includes(machineCategory(verdict));
 
+export function excludesAllowanceNotification(machine:Verdict,result?:LiveResult):boolean {
+ const resetSignal=machine.notify&&machine.allowanceScope===undefined&&machine.classification!=='LIMIT_CHANGE';
+ const independentReset=result?.category==='announcement'||result?.category==='attention'&&result.allowanceScope==='not_applicable';
+ return !resetSignal&&!independentReset&&(result?.allowanceScope==='excluded'
+  ||machine.allowanceScope==='excluded'&&result?.allowanceScope!=='included');
+}
+
 /** Compare effective notification meanings while retaining both original labels for display. */
 export function planLiveNotification(machine:Verdict,result:LiveResult|undefined,earlySent:boolean,unavailable?:string):LiveNotificationPlan|undefined {
  const conventional=machineCategory(machine);
+ if(excludesAllowanceNotification(machine,result))return;
  if(!result){
   if(earlySent||!machine.notify)return;
   return {kind:'fallback',mismatch:false,priority:conventional==='announcement'&&machine.classification==='RESET_ANNOUNCED'?1:0};

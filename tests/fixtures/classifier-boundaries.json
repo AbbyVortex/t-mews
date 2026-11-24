@@ -176,7 +176,7 @@
   },
   {
     "text": "Introducing a new Codex team plan with no 5h limits.",
-    "expectedNotify": true,
-    "reason": "A confirmed new-plan exemption also works within a sentence."
+    "expectedNotify": false,
+    "reason": "A Team-only allowance exemption is classified but outside the Plus/Pro 100 notification audience."
   }
 ]

@@ -8,7 +8,7 @@ import {notify,alertTitle,alertMessage} from './pushover';
 import {candidateFromSnapshot,prioritizeCandidates} from './shadow-context';
 import {shadowInput,within,type ShadowCandidate,type ShadowMetrics} from './ai-shadow';
 import {classifyLive,LIVE_PROMPT_VERSION,type LiveResult} from './ai-live-classifier';
-import {formatLiveNotification,isCriticalMachine,planLiveNotification} from './ai-live-policy';
+import {excludesAllowanceNotification,formatLiveNotification,isCriticalMachine,planLiveNotification} from './ai-live-policy';
 import {readLiveQueue,writeLiveQueue,type LiveQueueEntry} from './ai-live-queue';
 
 export const LIVE_LIMITS={runMs:180000,requestMs:45000,concurrency:3} as const;
@@ -84,6 +84,10 @@ export async function runLiveQueue(env:Env,snapshot:()=>Snapshot,checkpoint:()=>
    const early=!!prior&&isCriticalMachine(machine);
    const plan=planLiveNotification(machine,result,early,error);
    let delivery:Record<string,any>={kind:'none',mismatch:false};
+   if(excludesAllowanceNotification(machine,result)){
+    delivery.allowanceScope='excluded';
+    if(!prior)await env.DB.prepare("UPDATE posts SET notification_status='not_relevant' WHERE id=?").bind(entry.id).run();
+   }
    if(plan){
     const message=formatLiveNotification(post,machine,result,plan,row.detection_latency_seconds,error);
     const id=early?`ai-diff:${entry.id}`:`post:${entry.id}`;

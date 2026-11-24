@@ -50,7 +50,7 @@ export async function monitor(env: Env, now=Math.floor(Date.now()/1000), fetcher
   const status=historical?'baseline':post.kind==='repost'?'suppressed_repost':verdict.notify?'pending':'not_relevant';
   newRows.push([post.id,post.xStatusId,post.url,post.fingerprint,post.publishedAt,now,post.text,post.source,post.kind,verdict.classification,verdict.reason,historical?1:0,0,status,latency]);
   if(delivery?.live&&!historical&&post.kind!=='repost'&&!liveQueue.some(e=>e.id===post.id))liveQueue.push({id:post.id,queuedAt:now});
-  if(post.related?.length||verdict.notify||(delivery?.live&&!historical&&post.kind!=='repost'))writes.push(saveAnalysis(env.DB,post,verdict,now));
+  if(post.related?.length||verdict.notify||verdict.allowanceScope==='excluded'||(delivery?.live&&!historical&&post.kind!=='repost'))writes.push(saveAnalysis(env.DB,post,verdict,now));
   known.results.push({id:post.id,x_status_id:post.xStatusId,canonical_url:post.url,fingerprint:post.fingerprint});
  }
  // Baseline rows and its marker commit in one D1 transaction.
@@ -67,6 +67,7 @@ export async function monitor(env: Env, now=Math.floor(Date.now()/1000), fetcher
   const post:Item={id:row.id,xStatusId:row.x_status_id,url:row.canonical_url,fingerprint:row.fingerprint,text:row.text,publishedAt:row.published_at,source:row.source,kind:row.kind,related:analysis.related};
   const classification=row.classification as ReturnType<typeof classify>['classification'];
   const verdict=analysis.verdict??classify(post.text,post.related);
+  if(!verdict.notify)continue;
   if(delivery?.live&&liveQueue.some(e=>e.id===post.id)&&delivery.defer(post.id,verdict))continue;
   if(delivery?.live&&Date.now()>=delivery.deadline)break;
   const note=delivery?.live&&liveQueue.some(e=>e.id===post.id)?'🛠機械: '+classification+'\n🤖AI: 判定待ち（機械速報）\n':'';

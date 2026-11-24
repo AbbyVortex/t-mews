@@ -51,7 +51,7 @@ async function harness() {
    assert.equal(body.model,'gpt-6.1-sol');assert.equal(body.reasoning.effort,'medium');assert.equal(body.store,false);
    const category=example.key==='training-chatter'?'chatter':example.key==='banked-counter'?'announcement':example.key.startsWith('pro-')?'attention':example.key==='usage-doubled'?'limit_change':'unrelated';
    return Response.json({status:'completed',model:'gpt-6.1-sol',usage:{input_tokens:300,output_tokens:50,total_tokens:350,output_tokens_details:{reasoning_tokens:5}},
-    output:[{type:'message',content:[{type:'output_text',text:JSON.stringify({category,rationale:'モック応答。意味分類の実精度の証拠ではない。',confidence:.9,uncertainty:''})}]}]});
+    output:[{type:'message',content:[{type:'output_text',text:JSON.stringify({category,allowanceScope:'unknown',rationale:'モック応答。意味分類の実精度の証拠ではない。',confidence:.9,uncertainty:''})}]}]});
   }
   if(url==='https://api.pushover.net/1/messages.json'){
    const body=new URLSearchParams(init.body),state=snapshot();
