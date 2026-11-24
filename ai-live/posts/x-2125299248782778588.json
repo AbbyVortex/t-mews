@@ -38,5 +38,26 @@
       "display": "advisory"
     }
   },
-  "queuedAt": 1795545929
+  "queuedAt": 1795545929,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2125299248782778588",
+    "url": "https://x.com/thsottiaux/status/2125299248782778588",
+    "publishedAt": 1795545801,
+    "text": "To all the ChatGPT Business teams out there. We have two small things for you, a banked reset and fast mode at no extra charge through Dec 31. Have fun!",
+    "related": [],
+    "recentContext": [
+      {
+        "id": "x:2124922313019953319",
+        "url": "https://x.com/thsottiaux/status/2124922313019953319",
+        "text": "New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31. \n\nAlready on Business? We will have a gift for you, too. Stay tuned 👀",
+        "publishedAt": 1795455933,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "not_applicable"
+  },
+  "inputHash": "bb316a9d09cd089c7392466460cc5ff4e5ceed5c29a29b3be167fa67739cefce",
+  "requestPreparedAt": 1795545941455
 }
