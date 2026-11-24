@@ -8,7 +8,8 @@ export function allowanceScope(text: string): AllowanceScope {
  const normalized = text.normalize('NFKC').toLowerCase()
   .replace(/\bpro\s*(?:\(\s*)?\$\s*(\d+)(?:\s*\/\s*(?:mo(?:nth)?))?\s*\)?|\$\s*(\d+)\s+pro\b/g, (_, before, after) => 'pro '+(before??after));
  const claims = normalized.split(/(?<=[.!?;])\s+|\n+|\s+(?:but|while|whereas)\s+/)
-  .map(claim => claim.replace(/\b(?:unlike|compared (?:with|to)|in comparison (?:with|to))\b[^,;.!?]*(?:,|(?=[;.!?]|$))/g, '')
+  .map(claim => claim.replace(/\b(?:unlike|compared (?:with|to)|in comparison (?:with|to))\b[^,;.!?]*(?:,|(?=[;.!?]|$))/g,
+   comparison => CHANGE.test(comparison) ? comparison : '')
    .replace(/,\s*(?:plus|pro[ -]?\d+|prolite)\b[^,.!?]*\b(?:unchanged|same)\b[^,.!?]*/g, ''))
   .filter(claim => CHANGE.test(claim) && !/\b(?:unchanged|not changing|no changes?|stays? the same)\b/.test(claim));
  if (!claims.length) return 'unknown';

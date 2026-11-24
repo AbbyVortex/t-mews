@@ -30,6 +30,7 @@ const examples = [
  ['Pro 200 has higher Codex limits. We doubled Codex weekly limits for Plus.', 'included'],
  ['Pro 200 has higher limits. We doubled Codex weekly limits.', 'unknown'],
  ['Pro 200 Codex weekly limits doubled, compared to Plus.', 'excluded'],
+ ['Pro 200 Codex limits doubled, compared to Plus whose quota also increased.', 'included'],
 ] as const;
 for (const [text,scope] of examples) test('allowance recipients: '+text,()=>{
  assert.equal(allowanceScope(text),scope);
