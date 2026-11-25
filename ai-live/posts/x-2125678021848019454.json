@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2125678021848019454",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795637131,
-  "updatedAt": 1795637131,
+  "updatedAt": 1795637146,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261124-v2",
@@ -85,5 +85,28 @@
     "parentStatus": "fetched"
   },
   "inputHash": "a62367862b52dab8d9ee1d2ee32542b9c62e8ac92c567bc1512f98c3fe8548e4",
-  "requestPreparedAt": 1795637140289
+  "requestPreparedAt": 1795637140289,
+  "apiStartedAt": 1795637141989,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1395,
+    "output_tokens": 88,
+    "total_tokens": 1483,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.00367,
+  "result": {
+    "allowanceScope": "not_applicable",
+    "category": "unrelated",
+    "rationale": "取得済みの返信先はOpenAIへの入社報告で、投稿は歓迎の挨拶。👀にもリセットや利用枠・有料プラン変更との関連は認められない。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795637146075,
+  "elapsedMs": 6146,
+  "decidedAt": 1795637146075,
+  "detectedToDecisionMs": 15075
 }
