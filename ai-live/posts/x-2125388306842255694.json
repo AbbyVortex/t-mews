@@ -46,5 +46,44 @@
       "display": null
     }
   },
-  "queuedAt": 1795567531
+  "queuedAt": 1795567531,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2125388306842255694",
+    "url": "https://x.com/thsottiaux/status/2125388306842255694",
+    "publishedAt": 1795567034,
+    "text": "@TokenGremlin @amorriscode @trq212 Wait, is that true?",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2125343598090522778",
+        "url": "https://x.com/TokenGremlin/status/2125343598090522778",
+        "text": "NO FUCKING WAY.\n\nBro left Anthropic, played WoW for several weeks, probably had some fun playing GTA 6, and then joined OpenAI. \n\nOpenAI now has two former KEY Anthropic employees. The creator of Claude Code for Desktop (@amorriscode) and Anthropic's former Tibo (@trq212).\n\nThe potential for Codex improvements is insane. We should start seeing them soon.",
+        "author": "TokenGremlin",
+        "publishedAt": 1795556375,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2124922313019953319",
+        "url": "https://x.com/thsottiaux/status/2124922313019953319",
+        "text": "New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31. \n\nAlready on Business? We will have a gift for you, too. Stay tuned 👀",
+        "publishedAt": 1795455933,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      },
+      {
+        "id": "x:2125299248782778588",
+        "url": "https://x.com/thsottiaux/status/2125299248782778588",
+        "text": "To all the ChatGPT Business teams out there. We have two small things for you, a banked reset and fast mode at no extra charge through Dec 31. Have fun!",
+        "publishedAt": 1795545801,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "0bb84f8978309eef610e8923bcd4fd878b2123a62c3c613cc278fd475295dd3b",
+  "requestPreparedAt": 1795567538236
 }
