@@ -46,5 +46,44 @@
       "display": null
     }
   },
-  "queuedAt": 1795637131
+  "queuedAt": 1795637131,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2125678021848019454",
+    "url": "https://x.com/thsottiaux/status/2125678021848019454",
+    "publishedAt": 1795636108,
+    "text": "@trq212 Welcome to the team! So much to do 👀",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2125675533761671405",
+        "url": "https://x.com/trq212/status/2125675533761671405",
+        "text": "I've joined OpenAI!\n\nI'm very proud of my time at Anthropic, and I'll continue to root for my former colleagues. Both companies have important roles to play in the future.\n\nThere is a tremendous amount of work ahead of us to bring AI to the world, and it will demand the very best of all of us. I felt that I could personally contribute the most to this effort at OpenAI.\n\nI believe this is one of the great strengths of Silicon Valley, the flow of ideas and people.\n\nI'm excited to join a team I've ",
+        "author": "trq212",
+        "publishedAt": 1795635515,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2124922313019953319",
+        "url": "https://x.com/thsottiaux/status/2124922313019953319",
+        "text": "New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31. \n\nAlready on Business? We will have a gift for you, too. Stay tuned 👀",
+        "publishedAt": 1795455933,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      },
+      {
+        "id": "x:2125299248782778588",
+        "url": "https://x.com/thsottiaux/status/2125299248782778588",
+        "text": "To all the ChatGPT Business teams out there. We have two small things for you, a banked reset and fast mode at no extra charge through Dec 31. Have fun!",
+        "publishedAt": 1795545801,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "a62367862b52dab8d9ee1d2ee32542b9c62e8ac92c567bc1512f98c3fe8548e4",
+  "requestPreparedAt": 1795637140289
 }
