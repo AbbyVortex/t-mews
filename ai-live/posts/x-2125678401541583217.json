@@ -46,5 +46,44 @@
       "display": null
     }
   },
-  "queuedAt": 1795637131
+  "queuedAt": 1795637131,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2125678401541583217",
+    "url": "https://x.com/thsottiaux/status/2125678401541583217",
+    "publishedAt": 1795636198,
+    "text": "@charliermarsh This man is unstoppable",
+    "related": [
+      {
+        "relation": "reply",
+        "id": "x:2125675768231727399",
+        "url": "https://x.com/charliermarsh/status/2125675768231727399",
+        "text": "Over the past two weeks, we reduced baseline memory use in the ChatGPT desktop app by over 40%.\n\nHere's each release measured after five minutes on macOS.",
+        "author": "charliermarsh",
+        "publishedAt": 1795635570,
+        "source": "fxtwitter-api-v2"
+      }
+    ],
+    "recentContext": [
+      {
+        "id": "x:2124922313019953319",
+        "url": "https://x.com/thsottiaux/status/2124922313019953319",
+        "text": "New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31. \n\nAlready on Business? We will have a gift for you, too. Stay tuned 👀",
+        "publishedAt": 1795455933,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      },
+      {
+        "id": "x:2125299248782778588",
+        "url": "https://x.com/thsottiaux/status/2125299248782778588",
+        "text": "To all the ChatGPT Business teams out there. We have two small things for you, a banked reset and fast mode at no extra charge through Dec 31. Have fun!",
+        "publishedAt": 1795545801,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "fetched"
+  },
+  "inputHash": "cc6e00c6980784fbac38fce7b04c6e41ac3acf2cf921b891cc255893667233c9",
+  "requestPreparedAt": 1795637141365
 }
