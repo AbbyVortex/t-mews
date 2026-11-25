@@ -1310,13 +1310,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 497
+      },
+      {
+        "id": "x:2125494608826372329",
+        "x_status_id": "2125494608826372329",
+        "canonical_url": "https://x.com/thsottiaux/status/2125494608826372329",
+        "fingerprint": "b6fcf5509623995973e99732e551dba26a0ebd7acd9259c5ed9a24591ffaf374",
+        "published_at": 1795592379,
+        "detected_at": 1795592729,
+        "text": "@jxnlco very tool of you",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 350
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795592131,
+        "last_success_at": 1795592729,
         "last_failure_at": 1795578332,
         "offline_since": null,
         "failure_episodes": 820,
@@ -1334,7 +1351,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2125494608826372329\",\"queuedAt\":1795592729}]"
       },
       {
         "key": "baselineAt",
@@ -1350,7 +1367,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795592131"
+        "value": "1795592729"
       }
     ],
     "events": [
@@ -1815,6 +1832,12 @@
         "event_type": "post_analysis",
         "created_at": 1795567531,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"allowanceScope\":\"unknown\",\"evidence\":\"@TokenGremlin @amorriscode @trq212 Wait, is that true?\"}}"
+      },
+      {
+        "id": "analysis:x:2125494608826372329",
+        "event_type": "post_analysis",
+        "created_at": 1795592729,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"allowanceScope\":\"unknown\",\"evidence\":\"@jxnlco very tool of you\"}}"
       },
       {
         "id": "notification:offline:1794674135",
@@ -2588,8 +2611,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795592131,
-    "lastRssAttemptAt": 1795592131,
+    "lastRssSuccessAt": 1795592729,
+    "lastRssAttemptAt": 1795592729,
     "sourceState": "online",
     "error": null
   }
