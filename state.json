@@ -1378,13 +1378,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 359
+      },
+      {
+        "id": "x:2125387147633189101",
+        "x_status_id": "2125387147633189101",
+        "canonical_url": "https://x.com/thsottiaux/status/2125387147633189101",
+        "fingerprint": "b8f0cc79c6be1d675ae09c55c6a2f651b2dda7d2f6d33140ef98984e128df34d",
+        "published_at": 1795566758,
+        "detected_at": 1795566939,
+        "text": "@danshipper @every 👀",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 181
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795566339,
+        "last_success_at": 1795566939,
         "last_failure_at": 1795565128,
         "offline_since": null,
         "failure_episodes": 815,
@@ -1402,7 +1419,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2125387147633189101\",\"queuedAt\":1795566939}]"
       },
       {
         "key": "baselineAt",
@@ -1418,7 +1435,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795566339"
+        "value": "1795566939"
       }
     ],
     "events": [
@@ -1907,6 +1924,12 @@
         "event_type": "post_analysis",
         "created_at": 1795559141,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"allowanceScope\":\"unknown\",\"evidence\":\"@AzianMike Team is shipping\"}}"
+      },
+      {
+        "id": "analysis:x:2125387147633189101",
+        "event_type": "post_analysis",
+        "created_at": 1795566939,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"allowanceScope\":\"unknown\",\"evidence\":\"@danshipper @every 👀\"}}"
       },
       {
         "id": "notification:offline:1794316530",
@@ -2692,8 +2715,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795566339,
-    "lastRssAttemptAt": 1795566339,
+    "lastRssSuccessAt": 1795566939,
+    "lastRssAttemptAt": 1795566939,
     "sourceState": "online",
     "error": null
   }
