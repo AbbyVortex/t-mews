@@ -3,108 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2120018604691521609",
-        "x_status_id": "2120018604691521609",
-        "canonical_url": "https://x.com/thsottiaux/status/2120018604691521609",
-        "fingerprint": "79f439558cc01c04647f965cc9669fc4c1e70443820397b121afad66a81cc9c7",
-        "published_at": 1794286798,
-        "detected_at": 1794287132,
-        "text": "@ajambrosino good evening",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 334
-      },
-      {
-        "id": "x:2120021043876106429",
-        "x_status_id": "2120021043876106429",
-        "canonical_url": "https://x.com/thsottiaux/status/2120021043876106429",
-        "fingerprint": "a95fa266384f47e934f1de2c7c4b848d9927f6f8a6489a15bd4436dc341e5dd3",
-        "published_at": 1794287379,
-        "detected_at": 1794287729,
-        "text": "Dots can now control many machines in addition to its own little cloud computer that we provide by default.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 350
-      },
-      {
-        "id": "x:2120266880963473789",
-        "x_status_id": "2120266880963473789",
-        "canonical_url": "https://x.com/thsottiaux/status/2120266880963473789",
-        "fingerprint": "e59abafab0b2c3c7d8409ec719fe61122e7bd27bcb5d0d8d74c3ea02777c65c2",
-        "published_at": 1794345991,
-        "detected_at": 1794346530,
-        "text": "Labs innovating together ftw",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 539
-      },
-      {
-        "id": "x:2120267268517249036",
-        "x_status_id": "2120267268517249036",
-        "canonical_url": "https://x.com/thsottiaux/status/2120267268517249036",
-        "fingerprint": "d8135ac2e51dc0b807c2014936f00517d1269653658afd8c5fbf7014bfc458ea",
-        "published_at": 1794346084,
-        "detected_at": 1794346530,
-        "text": "How many of you have a small business?",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 446
-      },
-      {
-        "id": "x:2120267636516995218",
-        "x_status_id": "2120267636516995218",
-        "canonical_url": "https://x.com/thsottiaux/status/2120267636516995218",
-        "fingerprint": "d5c90123091c144ed31749c514f24025d8a8397d8f8ffbf58ada7e789c4301a8",
-        "published_at": 1794346171,
-        "detected_at": 1794346530,
-        "text": "@inferencetoken @ajambrosino congrats",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 359
-      },
-      {
-        "id": "x:2120304649807020238",
-        "x_status_id": "2120304649807020238",
-        "canonical_url": "https://x.com/thsottiaux/status/2120304649807020238",
-        "fingerprint": "3610a2810caa1c7325ba134fdcb15bed86f141bf792f5c08d712630ff3d5ee3a",
-        "published_at": 1794354996,
-        "detected_at": 1794355531,
-        "text": "@embw_l0x We're assembling one of the best teams ever and I do talk to folks at Anthropic every once in a while. Couldn't be more excited for the months ahead.",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 535
-      },
-      {
         "id": "x:2120410006273380750",
         "x_status_id": "2120410006273380750",
         "canonical_url": "https://x.com/thsottiaux/status/2120410006273380750",
@@ -1418,7 +1316,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795578933,
+        "last_success_at": 1795579532,
         "last_failure_at": 1795578332,
         "offline_since": null,
         "failure_episodes": 820,
@@ -1448,50 +1346,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1795492536"
+        "value": "1795579532"
       },
       {
         "key": "lastSuccess",
-        "value": "1795578933"
+        "value": "1795579532"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2120018604691521609",
-        "event_type": "post_analysis",
-        "created_at": 1794287132,
-        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@ajambrosino good evening\"}}"
-      },
-      {
-        "id": "analysis:x:2120021043876106429",
-        "event_type": "post_analysis",
-        "created_at": 1794287729,
-        "details": "{\"related\":[{\"xStatusId\":\"2119883176726409645\",\"url\":\"https://x.com/OpenAIDevs/status/2119883176726409645\",\"author\":\"OpenAIDevs\",\"relation\":\"quote\",\"text\":\"You can now connect multiple local computers to the same dot and choose which one it uses for a task. It can build and test your app on a dedicated machine while you keep coding on your laptop.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Dots can now control many machines in addition to its own little cloud computer that we provide by default.\"}}"
-      },
-      {
-        "id": "analysis:x:2120266880963473789",
-        "event_type": "post_analysis",
-        "created_at": 1794346530,
-        "details": "{\"related\":[{\"xStatusId\":\"2120206375137484875\",\"url\":\"https://x.com/claudeai/status/2120206375137484875\",\"author\":\"claudeai\",\"relation\":\"quote\",\"text\":\"Also new: with interactive connectors, you can now open the full version of a tool inside Claude. Work in Adobe, Atlassian, and Box beside your conversation. Make changes yourself, or ask Claude to make them with you. Rolling out on web and desktop.\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"Labs innovating together ftw\"}}"
-      },
-      {
-        "id": "analysis:x:2120267268517249036",
-        "event_type": "post_analysis",
-        "created_at": 1794346530,
-        "details": "{\"related\":[{\"xStatusId\":\"2120216592395174382\",\"url\":\"https://x.com/OpenAI/status/2120216592395174382\",\"author\":\"OpenAI\",\"relation\":\"quote\",\"text\":\"Now in beta: Businesses in ChatGPT. Claim your business, manage your information, and get insights on how people engage with you. Eligible businesses can also build a Business Agent to answer customers’ questions and help them explore what you offer. https://openai.com/index/int…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"How many of you have a small business?\"}}"
-      },
-      {
-        "id": "analysis:x:2120267636516995218",
-        "event_type": "post_analysis",
-        "created_at": 1794346530,
-        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@inferencetoken @ajambrosino congrats\"}}"
-      },
-      {
-        "id": "analysis:x:2120304649807020238",
-        "event_type": "post_analysis",
-        "created_at": 1794355531,
-        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@embw_l0x We're assembling one of the best teams ever and I do talk to folks at Anthropic every once in a while.\"}}"
-      },
       {
         "id": "analysis:x:2120410006273380750",
         "event_type": "post_analysis",
@@ -1955,12 +1817,6 @@
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"allowanceScope\":\"unknown\",\"evidence\":\"@TokenGremlin @amorriscode @trq212 Wait, is that true?\"}}"
       },
       {
-        "id": "notification:offline:1794316530",
-        "event_type": "notification_sent",
-        "created_at": 1794317729,
-        "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
         "id": "notification:offline:1794674135",
         "event_type": "notification_sent",
         "created_at": 1794675333,
@@ -2007,12 +1863,6 @@
         "event_type": "notification_sent",
         "created_at": 1795545950,
         "details": "{\"kind\":\"alert\",\"postId\":\"x:2125299248782778588\"}"
-      },
-      {
-        "id": "notification:recovered:1794316530",
-        "event_type": "notification_sent",
-        "created_at": 1794320732,
-        "details": "{\"kind\":\"recovered\",\"postId\":null}"
       },
       {
         "id": "notification:recovered:1794674135",
@@ -2738,8 +2588,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795578933,
-    "lastRssAttemptAt": 1795578933,
+    "lastRssSuccessAt": 1795579532,
+    "lastRssAttemptAt": 1795579532,
     "sourceState": "online",
     "error": null
   }
