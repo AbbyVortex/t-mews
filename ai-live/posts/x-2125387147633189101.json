@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2125387147633189101",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795566939,
-  "updatedAt": 1795566939,
+  "updatedAt": 1795566953,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261124-v2",
@@ -85,5 +85,28 @@
     "parentStatus": "fetched"
   },
   "inputHash": "ec6c2ba348bb911fe3beb6282b2b300dd9eaf2e072f8bab815978bc54f97e5a8",
-  "requestPreparedAt": 1795566947452
+  "requestPreparedAt": 1795566947452,
+  "apiStartedAt": 1795566948523,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1303,
+    "output_tokens": 89,
+    "total_tokens": 1392,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.003496,
+  "result": {
+    "allowanceScope": "not_applicable",
+    "category": "unrelated",
+    "rationale": "取得済みの返信先はDuetから競合製品への乗り換えに関する投稿で、👀という反応にリセット付与や利用枠・有料プラン変更の情報はありません。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795566953010,
+  "elapsedMs": 5760,
+  "decidedAt": 1795566953010,
+  "detectedToDecisionMs": 14010
 }
