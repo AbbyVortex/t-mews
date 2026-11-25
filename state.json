@@ -1395,13 +1395,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 181
+      },
+      {
+        "id": "x:2125388306842255694",
+        "x_status_id": "2125388306842255694",
+        "canonical_url": "https://x.com/thsottiaux/status/2125388306842255694",
+        "fingerprint": "a88008cc5951ca3517702d6231e95d3617008971d7ecbe1a71f868cb259889f2",
+        "published_at": 1795567034,
+        "detected_at": 1795567531,
+        "text": "@TokenGremlin @amorriscode @trq212 Wait, is that true?",
+        "source": "fxtwitter",
+        "kind": "reply",
+        "classification": "IRRELEVANT",
+        "reason": "no usage reset or material allowance signal",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "not_relevant",
+        "detection_latency_seconds": 497
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795566939,
+        "last_success_at": 1795567531,
         "last_failure_at": 1795565128,
         "offline_since": null,
         "failure_episodes": 815,
@@ -1419,7 +1436,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2125388306842255694\",\"queuedAt\":1795567531}]"
       },
       {
         "key": "baselineAt",
@@ -1435,7 +1452,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795566939"
+        "value": "1795567531"
       }
     ],
     "events": [
@@ -1930,6 +1947,12 @@
         "event_type": "post_analysis",
         "created_at": 1795566939,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"allowanceScope\":\"unknown\",\"evidence\":\"@danshipper @every 👀\"}}"
+      },
+      {
+        "id": "analysis:x:2125388306842255694",
+        "event_type": "post_analysis",
+        "created_at": 1795567531,
+        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"allowanceScope\":\"unknown\",\"evidence\":\"@TokenGremlin @amorriscode @trq212 Wait, is that true?\"}}"
       },
       {
         "id": "notification:offline:1794316530",
@@ -2715,8 +2738,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795566939,
-    "lastRssAttemptAt": 1795566939,
+    "lastRssSuccessAt": 1795567531,
+    "lastRssAttemptAt": 1795567531,
     "sourceState": "online",
     "error": null
   }
