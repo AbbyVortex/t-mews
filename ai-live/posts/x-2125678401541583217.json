@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "x:2125678401541583217",
+  "status": "claimed",
+  "createdAt": 1795637131,
+  "updatedAt": 1795637131,
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "promptVersion": "tibo-live-20261124-v2",
+  "machine": {
+    "classification": "IRRELEVANT",
+    "notify": false,
+    "reason": "no usage reset or material allowance signal",
+    "allowanceScope": "unknown",
+    "evidence": "@charliermarsh This man is unstoppable"
+  },
+  "candidate": {
+    "id": "x:2125678401541583217",
+    "url": "https://x.com/thsottiaux/status/2125678401541583217",
+    "text": "@charliermarsh This man is unstoppable",
+    "related": [],
+    "publishedAt": 1795636198,
+    "kind": "reply",
+    "discoveredAt": 1795637131,
+    "recentContext": [
+      {
+        "id": "x:2124922313019953319",
+        "url": "https://x.com/thsottiaux/status/2124922313019953319",
+        "text": "New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31. \n\nAlready on Business? We will have a gift for you, too. Stay tuned 👀",
+        "publishedAt": 1795455933,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      },
+      {
+        "id": "x:2125299248782778588",
+        "url": "https://x.com/thsottiaux/status/2125299248782778588",
+        "text": "To all the ChatGPT Business teams out there. We have two small things for you, a banked reset and fast mode at no extra charge through Dec 31. Have fun!",
+        "publishedAt": 1795545801,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "rule": {
+      "classification": "IRRELEVANT",
+      "notify": false,
+      "display": null
+    }
+  },
+  "queuedAt": 1795637131
+}
