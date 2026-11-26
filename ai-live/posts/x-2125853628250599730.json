@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2125853628250599730",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795678540,
-  "updatedAt": 1795678540,
+  "updatedAt": 1795678552,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261124-v2",
@@ -91,5 +91,28 @@
     "parentStatus": "not_applicable"
   },
   "inputHash": "ccf236d5c9a18662ae27d287b5eb2b97e26b6bb294b0c29b33877d526bf6f60f",
-  "requestPreparedAt": 1795678546431
+  "requestPreparedAt": 1795678546431,
+  "apiStartedAt": 1795678547526,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1414,
+    "output_tokens": 78,
+    "total_tokens": 1492,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.003608,
+  "result": {
+    "allowanceScope": "not_applicable",
+    "category": "announcement",
+    "rationale": "「Banked reset is online」と、バンク済みリセットの提供開始を明言。直前の付与予告に続く実施報告に当たる。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795678552633,
+  "elapsedMs": 6203,
+  "decidedAt": 1795678552633,
+  "detectedToDecisionMs": 12633
 }
