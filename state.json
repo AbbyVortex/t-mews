@@ -3,74 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2120410006273380750",
-        "x_status_id": "2120410006273380750",
-        "canonical_url": "https://x.com/thsottiaux/status/2120410006273380750",
-        "fingerprint": "8d71754186294d46be7a6d5e1f358d323487dbdcb89c7e9a0996bb273de78333",
-        "published_at": 1794380115,
-        "detected_at": 1794380135,
-        "text": "It’s been a while without resets. Maybe I should come back out of the basement",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 20
-      },
-      {
-        "id": "x:2120410480204525936",
-        "x_status_id": "2120410480204525936",
-        "canonical_url": "https://x.com/thsottiaux/status/2120410480204525936",
-        "fingerprint": "982cb2d33ebcfff52aa895994fad50f62c9858d224bfa16b7df1130e7b0dc14d",
-        "published_at": 1794380228,
-        "detected_at": 1794380726,
-        "text": "Thursday is feeling codexy to me. Perhaps also a good time for a banked reset.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 498
-      },
-      {
-        "id": "x:2120411235716063700",
-        "x_status_id": "2120411235716063700",
-        "canonical_url": "https://x.com/thsottiaux/status/2120411235716063700",
-        "fingerprint": "6f70950b7198cce74c49de9b0034799ac9b1eceac5586444b39e61906d99869d",
-        "published_at": 1794380408,
-        "detected_at": 1794380726,
-        "text": "@iso_morph Many such cases.",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 318
-      },
-      {
-        "id": "x:2120621485442339277",
-        "x_status_id": "2120621485442339277",
-        "canonical_url": "https://x.com/thsottiaux/status/2120621485442339277",
-        "fingerprint": "5658f87223c95c57c33480fa43a5538dc1a71c2fc63b116f40bbe8ccb0017791",
-        "published_at": 1794430536,
-        "detected_at": 1794431132,
-        "text": "@charlierguo Hi 👋 Buzz Buzz",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 596
-      },
-      {
         "id": "x:2120999993079451919",
         "x_status_id": "2120999993079451919",
         "canonical_url": "https://x.com/thsottiaux/status/2120999993079451919",
@@ -1384,7 +1316,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795665342,
+        "last_success_at": 1795665943,
         "last_failure_at": 1795656939,
         "offline_since": null,
         "failure_episodes": 834,
@@ -1414,38 +1346,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1795579532"
+        "value": "1795665943"
       },
       {
         "key": "lastSuccess",
-        "value": "1795665342"
+        "value": "1795665943"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2120410006273380750",
-        "event_type": "post_analysis",
-        "created_at": 1794380135,
-        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"It’s been a while without resets.\"}}"
-      },
-      {
-        "id": "analysis:x:2120410480204525936",
-        "event_type": "post_analysis",
-        "created_at": 1794380726,
-        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Perhaps also a good time for a banked reset.\"}}"
-      },
-      {
-        "id": "analysis:x:2120411235716063700",
-        "event_type": "post_analysis",
-        "created_at": 1794380726,
-        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@iso_morph Many such cases.\"}}"
-      },
-      {
-        "id": "analysis:x:2120621485442339277",
-        "event_type": "post_analysis",
-        "created_at": 1794431132,
-        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@charlierguo Hi 👋 Buzz Buzz\"}}"
-      },
       {
         "id": "analysis:x:2120999993079451919",
         "event_type": "post_analysis",
@@ -1913,18 +1821,6 @@
         "event_type": "notification_sent",
         "created_at": 1794675333,
         "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:post:x:2120410006273380750",
-        "event_type": "notification_sent",
-        "created_at": 1794380148,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2120410006273380750\"}"
-      },
-      {
-        "id": "notification:post:x:2120410480204525936",
-        "event_type": "notification_sent",
-        "created_at": 1794380747,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2120410480204525936\"}"
       },
       {
         "id": "notification:post:x:2120999993079451919",
@@ -2694,8 +2590,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795665342,
-    "lastRssAttemptAt": 1795665342,
+    "lastRssSuccessAt": 1795665943,
+    "lastRssAttemptAt": 1795665943,
     "sourceState": "online",
     "error": null
   }
