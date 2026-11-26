@@ -1310,13 +1310,30 @@
         "notified": 1,
         "notification_status": "sent",
         "detection_latency_seconds": 329
+      },
+      {
+        "id": "x:2125853628250599730",
+        "x_status_id": "2125853628250599730",
+        "canonical_url": "https://x.com/thsottiaux/status/2125853628250599730",
+        "fingerprint": "bfc90ac1d309f25f370693b004b26595d23fd3562ef78186fb3904db217332bf",
+        "published_at": 1795677976,
+        "detected_at": 1795678540,
+        "text": "Banked reset is online",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 564
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795677931,
+        "last_success_at": 1795678540,
         "last_failure_at": 1795673128,
         "offline_since": null,
         "failure_episodes": 836,
@@ -1334,7 +1351,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2125853628250599730\",\"queuedAt\":1795678540}]"
       },
       {
         "key": "baselineAt",
@@ -1350,7 +1367,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795677931"
+        "value": "1795678540"
       }
     ],
     "events": [
@@ -1815,6 +1832,12 @@
         "event_type": "post_analysis",
         "created_at": 1795661739,
         "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"As a small token to apologize for the mistake, we’ll be adding one banked reset for everyone on Go, Plus, Pro, and Business.\"}}"
+      },
+      {
+        "id": "analysis:x:2125853628250599730",
+        "event_type": "post_analysis",
+        "created_at": 1795678540,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"Banked reset is online\"}}"
       },
       {
         "id": "notification:offline:1794674135",
@@ -2590,8 +2613,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795677931,
-    "lastRssAttemptAt": 1795677931,
+    "lastRssSuccessAt": 1795678540,
+    "lastRssAttemptAt": 1795678540,
     "sourceState": "online",
     "error": null
   }
