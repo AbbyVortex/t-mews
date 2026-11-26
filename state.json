@@ -1361,13 +1361,30 @@
         "notified": 0,
         "notification_status": "not_relevant",
         "detection_latency_seconds": 933
+      },
+      {
+        "id": "x:2125784147889393806",
+        "x_status_id": "2125784147889393806",
+        "canonical_url": "https://x.com/thsottiaux/status/2125784147889393806",
+        "fingerprint": "7aed01b4b23dbbd5fa67783c9f61e5a2e7e197ba1a136205d6488a89b212640b",
+        "published_at": 1795661410,
+        "detected_at": 1795661739,
+        "text": "We made a billing mistake at launch of GPT-6.2 that incorrectly discounted GPT-6.2 Astra and Sol usage for most users. \n\nWe’ve fixed this now, so the same work will use more of your plan’s usage allowance. Comparing to last week, you will reach your limits 40% faster on GPT-6.2 Astra and 25% faster on Sol. You should still see these go further in usage compared to 6 Astra and 6.1 Sol. Other models weren’t affected, and we won’t charge you for the difference on past usage.\n\nAs a small token to apologize for the mistake, we’ll be adding one banked reset for everyone on Go, Plus, Pro, and Business.",
+        "source": "fxtwitter",
+        "kind": "post",
+        "classification": "CANDIDATE",
+        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
+        "baseline": 0,
+        "notified": 0,
+        "notification_status": "pending",
+        "detection_latency_seconds": 329
       }
     ],
     "source_health": [
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795661130,
+        "last_success_at": 1795661739,
         "last_failure_at": 1795656939,
         "offline_since": null,
         "failure_episodes": 834,
@@ -1385,7 +1402,7 @@
       },
       {
         "key": "aiLiveQueue",
-        "value": "[]"
+        "value": "[{\"id\":\"x:2125784147889393806\",\"queuedAt\":1795661739}]"
       },
       {
         "key": "baselineAt",
@@ -1401,7 +1418,7 @@
       },
       {
         "key": "lastSuccess",
-        "value": "1795661130"
+        "value": "1795661739"
       }
     ],
     "events": [
@@ -1884,6 +1901,12 @@
         "event_type": "post_analysis",
         "created_at": 1795637131,
         "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"allowanceScope\":\"unknown\",\"evidence\":\"@charliermarsh This man is unstoppable\"}}"
+      },
+      {
+        "id": "analysis:x:2125784147889393806",
+        "event_type": "post_analysis",
+        "created_at": 1795661739,
+        "details": "{\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"As a small token to apologize for the mistake, we’ll be adding one banked reset for everyone on Go, Plus, Pro, and Business.\"}}"
       },
       {
         "id": "notification:offline:1794674135",
@@ -2657,8 +2680,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795661130,
-    "lastRssAttemptAt": 1795661130,
+    "lastRssSuccessAt": 1795661739,
+    "lastRssAttemptAt": 1795661739,
     "sourceState": "online",
     "error": null
   }
