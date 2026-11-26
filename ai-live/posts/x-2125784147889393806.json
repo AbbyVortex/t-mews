@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2125784147889393806",
-  "status": "claimed",
+  "status": "decided",
   "createdAt": 1795661739,
-  "updatedAt": 1795661739,
+  "updatedAt": 1795661749,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261124-v2",
@@ -75,5 +75,28 @@
     "parentStatus": "not_applicable"
   },
   "inputHash": "8d9a838330d69d73c5ed3243ca3ecefc875fb90d83c6010ceb3b0fc6e7342404",
-  "requestPreparedAt": 1795661744321
+  "requestPreparedAt": 1795661744321,
+  "apiStartedAt": 1795661745509,
+  "actualModel": "gpt-6.1-sol",
+  "responseStatus": "completed",
+  "usage": {
+    "input_tokens": 1355,
+    "output_tokens": 103,
+    "total_tokens": 1458,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "referenceCostUsd": 0.00374,
+  "result": {
+    "allowanceScope": "not_applicable",
+    "category": "announcement",
+    "rationale": "Go・Plus・Pro・Business全員にバンク済みリセット1回を付与すると明言。併せて課金計算の修正により、GPT-6.2 Astraは40%、Solは25%早く利用上限に達する変更も告知。",
+    "confidence": 0.99,
+    "uncertainty": ""
+  },
+  "apiRequests": 1,
+  "apiCompletedAt": 1795661749162,
+  "elapsedMs": 4841,
+  "decidedAt": 1795661749162,
+  "detectedToDecisionMs": 10162
 }
