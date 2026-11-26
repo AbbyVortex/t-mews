@@ -46,5 +46,34 @@
       "display": "advisory"
     }
   },
-  "queuedAt": 1795661739
+  "queuedAt": 1795661739,
+  "input": {
+    "author": "thsottiaux",
+    "id": "x:2125784147889393806",
+    "url": "https://x.com/thsottiaux/status/2125784147889393806",
+    "publishedAt": 1795661410,
+    "text": "We made a billing mistake at launch of GPT-6.2 that incorrectly discounted GPT-6.2 Astra and Sol usage for most users. \n\nWe’ve fixed this now, so the same work will use more of your plan’s usage allowance. Comparing to last week, you will reach your limits 40% faster on GPT-6.2 Astra and 25% faster on Sol. You should still see these go further in usage compared to 6 Astra and 6.1 Sol. Other models weren’t affected, and we won’t charge you for the difference on past usage.\n\nAs a small token to apologize for the mistake, we’ll be adding one banked reset for everyone on Go, Plus, Pro, and Business.",
+    "related": [],
+    "recentContext": [
+      {
+        "id": "x:2124922313019953319",
+        "url": "https://x.com/thsottiaux/status/2124922313019953319",
+        "text": "New ChatGPT Business workspaces created by Nov 30 get double the included usage for every seat type through Dec 31. \n\nAlready on Business? We will have a gift for you, too. Stay tuned 👀",
+        "publishedAt": 1795455933,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      },
+      {
+        "id": "x:2125299248782778588",
+        "url": "https://x.com/thsottiaux/status/2125299248782778588",
+        "text": "To all the ChatGPT Business teams out there. We have two small things for you, a banked reset and fast mode at no extra charge through Dec 31. Have fun!",
+        "publishedAt": 1795545801,
+        "author": "thsottiaux",
+        "source": "saved-history"
+      }
+    ],
+    "parentStatus": "not_applicable"
+  },
+  "inputHash": "8d9a838330d69d73c5ed3243ca3ecefc875fb90d83c6010ceb3b0fc6e7342404",
+  "requestPreparedAt": 1795661744321
 }
