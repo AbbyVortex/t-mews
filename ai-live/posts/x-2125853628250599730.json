@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2125853628250599730",
-  "status": "decided",
+  "status": "complete",
   "createdAt": 1795678540,
-  "updatedAt": 1795678552,
+  "updatedAt": 1795678556,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261124-v2",
@@ -114,5 +114,26 @@
   "apiCompletedAt": 1795678552633,
   "elapsedMs": 6203,
   "decidedAt": 1795678552633,
-  "detectedToDecisionMs": 12633
+  "detectedToDecisionMs": 12633,
+  "delivery": {
+    "kind": "normal",
+    "mismatch": true,
+    "priority": 1,
+    "title": "💣 実施予告・配布 [判定不一致]",
+    "message": "🛠機械: 🍄 CANDIDATE\n🤖AI: 💣実施予告・配布 (announcement)\n理由: 「Banked reset is online」と、バンク済みリセットの提供開始を明言。直前の付与予告に続く実施報告に当たる。\n\n投稿時刻: 2026/11/26 16:26:16 JST\n検知遅延: 9分24秒\n\n本人: Banked reset is online\nhttps://x.com/thsottiaux/status/2125853628250599730",
+    "id": "post:x:2125853628250599730",
+    "receipts": [
+      {
+        "id": "post:x:2125853628250599730",
+        "post_id": "x:2125853628250599730",
+        "kind": "alert",
+        "created_at": 1795678554,
+        "status": "sent",
+        "sent_at": 1795678555
+      }
+    ],
+    "detectedToFirstSendMs": 15000,
+    "detectedToLastSendMs": 15000,
+    "publishedToFirstSendMs": 579000
+  }
 }
