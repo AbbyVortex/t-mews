@@ -1,9 +1,9 @@
 {
   "version": 1,
   "id": "x:2125784147889393806",
-  "status": "decided",
+  "status": "complete",
   "createdAt": 1795661739,
-  "updatedAt": 1795661749,
+  "updatedAt": 1795661753,
   "model": "gpt-6.1-sol",
   "reasoning": "medium",
   "promptVersion": "tibo-live-20261124-v2",
@@ -98,5 +98,26 @@
   "apiCompletedAt": 1795661749162,
   "elapsedMs": 4841,
   "decidedAt": 1795661749162,
-  "detectedToDecisionMs": 10162
+  "detectedToDecisionMs": 10162,
+  "delivery": {
+    "kind": "normal",
+    "mismatch": true,
+    "priority": 1,
+    "title": "💣 実施予告・配布 [判定不一致]",
+    "message": "🛠機械: 🍄 CANDIDATE\n🤖AI: 💣実施予告・配布 (announcement)\n理由: Go・Plus・Pro・Business全員にバンク済みリセット1回を付与すると明言。併せて課金計算の修正により、GPT-6.2 Astraは40%、Solは25%早く利用上限に達する変更も告知。\n\n投稿時刻: 2026/11/26 11:50:10 JST\n検知遅延: 5分29秒\n\n本人: As a small token to apologize for the mistake, we’ll be adding one banked reset for everyone on Go, Plus, Pro, and Business.\n本文: We made a billing mistake at launch of GPT-6.2 that incorrectly discounted GPT-6.2 Astra and Sol usage for most users. \n\nWe’ve fixed this now, so the same work will use more of your plan’s usage allowance. Comparing to last week, you will reach your limits 40% faster on GPT-6.2 Astra and 25% faster on Sol. You should still see these go further in usage compared to 6 Astra and 6.1 Sol. Other models weren’t affected, and we won’t charge you for the difference on past usage.\n\nAs a small token to apologize for the mistake, we’ll be adding one banked reset for everyone on Go, Plus, Pro, and Business.\nhttps://x.com/thsottiaux/status/2125784147889393806",
+    "id": "post:x:2125784147889393806",
+    "receipts": [
+      {
+        "id": "post:x:2125784147889393806",
+        "post_id": "x:2125784147889393806",
+        "kind": "alert",
+        "created_at": 1795661750,
+        "status": "sent",
+        "sent_at": 1795661751
+      }
+    ],
+    "detectedToFirstSendMs": 12000,
+    "detectedToLastSendMs": 12000,
+    "publishedToFirstSendMs": 341000
+  }
 }
