@@ -13,7 +13,10 @@ const episodeId = (s: unknown): s is string => typeof s === 'string' && /^[0-9a-
 const freshnessMs = 30 * 60_000;
 
 interface Config {releaseId: number; host: string; port: number; mac: Buffer; key: Buffer}
-interface Claim {id: string; episode: string; sentAt: number; phase: 'claimed'}
+interface Claim {
+  id: string; episode: string; sentAt: number; phase: 'claimed';
+  signal?: [RadarSignal['kind'], number, number, number | null];
+}
 interface Gate {state: 'awake'|'sleeping'; episode: string; at: number; watchActive: boolean; signalId?: string | null}
 
 function configFrom(raw: string): Config {
@@ -93,7 +96,8 @@ export async function dispatchRadarWake(env: Record<string,string|undefined>, {
   if (!armed(before.gate,signal,due,now()) || before.claim?.id === signal.id || before.claim?.episode === before.gate.episode) return false;
   // Resolve the private destination before committing or making the final state observation.
   const address=await resolveAddress(config.host);
-  const claim:Claim={id:signal.id,episode:before.gate.episode,sentAt:now(),phase:'claimed'};
+  const claim:Claim={id:signal.id,episode:before.gate.episode,sentAt:now(),phase:'claimed',
+    signal:[signal.kind,signal.publishedAt,signal.observedAt,signal.dueAt??null]};
   const name=markerPrefix+' '+JSON.stringify(claim);
   const hmac=createHmac('sha256',config.key).update('radar-v1\n'+claim.episode+'\n'+claim.id).digest('hex').slice(0,32);
   const packet=Buffer.concat([Buffer.from('KINOKO1:'+hmac,'ascii'),Buffer.alloc(6,255),...Array<Buffer>(16).fill(config.mac)]);

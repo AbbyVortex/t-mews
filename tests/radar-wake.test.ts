@@ -58,12 +58,25 @@ test('radar transport: one claimed signal emits an authenticated prefix and a co
  const packet=f.packets[0], marker=Buffer.from('KINOKO1:b1049fdcfcd915e3effb4ef7f4e0fb56','ascii');
  const wol=Buffer.from('ff'.repeat(6)+'001122334455'.repeat(16),'hex');
  assert.deepEqual(packet,Buffer.concat([marker,wol]));
- assert.equal(f.name,'KINOKO-RADAR '+JSON.stringify({id:signal.id,episode,sentAt:now,phase:'claimed'}));
+ assert.equal(f.name,'KINOKO-RADAR '+JSON.stringify({id:signal.id,episode,sentAt:now,phase:'claimed',
+  signal:[signal.kind,signal.publishedAt,signal.observedAt,null]}));
  assert.equal(await run(),false);assert.equal(f.packets.length,1);
  f.signal.id='x:456';assert.equal(await run(),false,'first wake in flight for same sleep');
  f.gate.episode='01'.repeat(16);f.signal.id=signal.id;
  assert.equal(await run(),false,'previous signal already claimed, even for a new sleep');
  assert.equal(f.requests.filter(r=>r.startsWith('PATCH')).length,1);
+});
+
+test('radar transport: the claim carries the exact due signal; receipts written before this handoff still deduplicate',async()=>{
+ const {f,run}=fixture();
+ f.signal.id='hash:'+'a'.repeat(64);f.signal.kind='announcement';f.signal.dueAt=now-1000;
+ assert.equal(await run(),true);
+ const claim=JSON.parse(f.name.slice('KINOKO-RADAR '.length));
+ assert.deepEqual(claim.signal,[f.signal.kind,f.signal.publishedAt,f.signal.observedAt,f.signal.dueAt]);
+ assert.ok(f.name.length<=255);
+ delete claim.signal;
+ f.name='KINOKO-RADAR '+JSON.stringify(claim);
+ assert.equal(await run(),false);assert.equal(f.packets.length,1);
 });
 
 test('radar transport: awake, repeated hints while active, sleep after signal, stale and already consumed signals do not send',async()=>{
