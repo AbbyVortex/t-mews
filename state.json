@@ -3,57 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2120999993079451919",
-        "x_status_id": "2120999993079451919",
-        "canonical_url": "https://x.com/thsottiaux/status/2120999993079451919",
-        "fingerprint": "e9f9c6290ccb7f52d7930cf32a79cbbb6fa41a17ba38396b4f9763a6f177f778",
-        "published_at": 1794520779,
-        "detected_at": 1794521129,
-        "text": "We shipped some good updates to dots today and the banked reset has been activated and should land in everyones accounts sometime soon!",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "CANDIDATE",
-        "reason": "author mentions reset; advisory does not confirm a reset or its timing",
-        "baseline": 0,
-        "notified": 1,
-        "notification_status": "sent",
-        "detection_latency_seconds": 350
-      },
-      {
-        "id": "x:2121036562058400200",
-        "x_status_id": "2121036562058400200",
-        "canonical_url": "https://x.com/thsottiaux/status/2121036562058400200",
-        "fingerprint": "f1f1739305e857af02861dc80d2d2635e8b2c3df5bb5853e12bbe9bd77bfbe60",
-        "published_at": 1794529498,
-        "detected_at": 1794529533,
-        "text": "We announced new tools we're developing for cybersecurity today across automated patching and automated red teaming. Watch the recording here https://openai.com/cyber-at-the-frontier/",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 35
-      },
-      {
-        "id": "x:2121062974161092792",
-        "x_status_id": "2121062974161092792",
-        "canonical_url": "https://x.com/thsottiaux/status/2121062974161092792",
-        "fingerprint": "c15be7d48edac8c7f88cdb1aa4e65c2e1a91335790f75254098e7c7c45ac55ca",
-        "published_at": 1794535795,
-        "detected_at": 1794536132,
-        "text": "How can codex be improved? Try not to say model.",
-        "source": "fxtwitter",
-        "kind": "post",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 337
-      },
-      {
         "id": "x:2121132035653894561",
         "x_status_id": "2121132035653894561",
         "canonical_url": "https://x.com/thsottiaux/status/2121132035653894561",
@@ -1332,12 +1281,12 @@
     "source_health": [
       {
         "source": "fxtwitter",
-        "state": "offline",
-        "last_success_at": 1795751734,
+        "state": "online",
+        "last_success_at": 1795753530,
         "last_failure_at": 1795752927,
-        "offline_since": 1795752330,
+        "offline_since": null,
         "failure_episodes": 854,
-        "error": "http_404"
+        "error": null
       }
     ],
     "state": [
@@ -1363,36 +1312,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1795665943"
+        "value": "1795753530"
       },
       {
         "key": "lastSuccess",
-        "value": "1795751734"
-      },
-      {
-        "key": "outage",
-        "value": "1795752330"
+        "value": "1795753530"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2120999993079451919",
-        "event_type": "post_analysis",
-        "created_at": 1794521129,
-        "details": "{\"related\":[{\"xStatusId\":\"2120970988796170275\",\"url\":\"https://x.com/ChatGPT/status/2120970988796170275\",\"author\":\"ChatGPT\",\"relation\":\"quote\",\"text\":\"Your dot now has… ⚡️ Faster replies 💬 Less jargon 🫡 Better follow-through And, they can now follow your custom instructions. Tell your dot in the thread things like how to behave or which actions need your go-ahead. “always talk in lowercase.” “Show me a draft before sending a…\",\"provenance\":\"feed\"}],\"verdict\":{\"classification\":\"CANDIDATE\",\"notify\":true,\"reason\":\"author mentions reset; advisory does not confirm a reset or its timing\",\"display\":\"advisory\",\"evidence\":\"We shipped some good updates to dots today and the banked reset has been activated and should land in everyones accounts sometime soon!\"}}"
-      },
-      {
-        "id": "analysis:x:2121036562058400200",
-        "event_type": "post_analysis",
-        "created_at": 1794529533,
-        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"We announced new tools we're developing for cybersecurity today across automated patching and automated red teaming.\"}}"
-      },
-      {
-        "id": "analysis:x:2121062974161092792",
-        "event_type": "post_analysis",
-        "created_at": 1794536132,
-        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"How can codex be improved?\"}}"
-      },
       {
         "id": "analysis:x:2121132035653894561",
         "event_type": "post_analysis",
@@ -1848,12 +1775,6 @@
         "event_type": "notification_sent",
         "created_at": 1794675333,
         "details": "{\"kind\":\"offline\",\"postId\":null}"
-      },
-      {
-        "id": "notification:post:x:2120999993079451919",
-        "event_type": "notification_sent",
-        "created_at": 1794521144,
-        "details": "{\"kind\":\"alert\",\"postId\":\"x:2120999993079451919\"}"
       },
       {
         "id": "notification:post:x:2122753991000133943",
@@ -2631,9 +2552,9 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795751734,
-    "lastRssAttemptAt": 1795752927,
-    "sourceState": "offline",
-    "error": "http_404"
+    "lastRssSuccessAt": 1795753530,
+    "lastRssAttemptAt": 1795753530,
+    "sourceState": "online",
+    "error": null
   }
 }
