@@ -4,7 +4,8 @@ import { classify } from './classifier';
 import { notify, alertTitle, alertMessage } from './pushover';
 import {resolveRelated,saveAnalysis,readAnalysis} from './post-analysis';
 import {parseLiveQueue,writeLiveQueue,LIVE_QUEUE_KEY} from './ai-live-queue';
-export interface MonitorDelivery {live:boolean;defer:(id:string,verdict:ReturnType<typeof classify>)=>boolean;deadline:number}
+import {radarSignal,saveRadarSignal} from './radar-watch';
+export interface MonitorDelivery {live:boolean;radar?:boolean;defer:(id:string,verdict:ReturnType<typeof classify>)=>boolean;deadline:number}
 const put = (db:D1Database,key:string,value:unknown) => db.prepare('INSERT INTO state VALUES(?,?) ON CONFLICT(key) DO UPDATE SET value=excluded.value').bind(key,JSON.stringify(value));
 export async function readState(db:D1Database): Promise<Record<string,any>> { const r=await db.prepare('SELECT * FROM state').all<{key:string,value:string}>();return Object.fromEntries(r.results.map(r=>[r.key,JSON.parse(r.value)])); }
 export async function monitor(env: Env, now=Math.floor(Date.now()/1000), fetcher: Fetcher=fetch, delivery?:MonitorDelivery) {
@@ -49,7 +50,13 @@ export async function monitor(env: Env, now=Math.floor(Date.now()/1000), fetcher
   const latency=post.publishedAt===null || post.publishedAt>now+60 ? null : Math.max(0,now-post.publishedAt);
   const status=historical?'baseline':post.kind==='repost'?'suppressed_repost':verdict.notify?'pending':'not_relevant';
   newRows.push([post.id,post.xStatusId,post.url,post.fingerprint,post.publishedAt,now,post.text,post.source,post.kind,verdict.classification,verdict.reason,historical?1:0,0,status,latency]);
-  if(delivery?.live&&!historical&&post.kind!=='repost'&&!liveQueue.some(e=>e.id===post.id))liveQueue.push({id:post.id,queuedAt:now});
+  if(!historical&&post.kind!=='repost'){
+   if(delivery?.live&&!liveQueue.some(e=>e.id===post.id))liveQueue.push({id:post.id,queuedAt:now,radar:delivery.radar});
+   else if(delivery?.radar&&!delivery.live){
+    const signal=radarSignal(post,verdict,now,now);
+    if(signal)writes.push(saveRadarSignal(env.DB,signal));
+   }
+  }
   if(post.related?.length||verdict.notify||verdict.allowanceScope==='excluded'||(delivery?.live&&!historical&&post.kind!=='repost'))writes.push(saveAnalysis(env.DB,post,verdict,now));
   known.results.push({id:post.id,x_status_id:post.xStatusId,canonical_url:post.url,fingerprint:post.fingerprint});
  }

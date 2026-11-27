@@ -50,6 +50,13 @@ jobs:
           T_MEWS_AI_MODEL: ${{ vars.T_MEWS_AI_MODEL }}
           T_MEWS_AI_REASONING: ${{ vars.T_MEWS_AI_REASONING }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      - name: Check for a radar wake after monitor state is saved
+        if: success() && github.repository == 'AbbyVortex/t-mews' && github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || inputs.operation == 'monitor')
+        run: node --experimental-strip-types scripts/radar-wake.mjs
+        env:
+          OPERATION: ${{ inputs.operation || 'monitor' }}
+          GITHUB_TOKEN: ${{ github.token }}
+          KINOKO_RADAR_WAKE: ${{ secrets.KINOKO_RADAR_WAKE }}
   keepalive:
     if: >-
       github.event.repository.private == false &&

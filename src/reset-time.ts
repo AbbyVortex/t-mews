@@ -168,7 +168,7 @@ function instant(date: CalendarDate, clock: Clock, zone: Zone): number[] {
   return matches;
 }
 
-function render(context: Context, publishedAt: number | null): string[] {
+function render(context: Context, publishedAt: number | null): {lines: string[]; scheduledAt: number | null} {
   const times = clocks(context.text);
   const prefix = times.length ? context.text.slice(0, times[0].index) : context.text;
   const deadline = /\b(?:by|before|until|no later than)\b[^.!?;]*$/i.test(prefix);
@@ -185,6 +185,7 @@ function render(context: Context, publishedAt: number | null): string[] {
   const date = !reason && zone ? dateFor(context.text, publishedAt, zone) : undefined;
   if (!reason && !date) reason = '日付を確定できない';
   let converted: string | undefined;
+  let scheduledAt: number | null = null;
   if (!reason && date) {
     const matches = instant(date, times[0], zone);
     if (matches.length !== 1) reason = matches.length ? '夏時間の切り替えで時刻が重複する' : '夏時間の切り替えで存在しない時刻';
@@ -193,12 +194,20 @@ function render(context: Context, publishedAt: number | null): string[] {
       converted = `${p.year}/${pad(p.month)}/${pad(p.day)} ${pad(p.hour)}:${pad(p.minute)} JST`;
       if (/\b(?:around|about|approximately)\b/i.test(prefix)) converted += ' 頃';
       if (/\bafter\b/i.test(prefix)) converted += ' より後';
+      const exactRollout = !deadline && !/\b(?:around|about|approximately|after|expir\w*|claim|redeem|deadline)\b/i.test(prefix);
+      if (exactRollout) scheduledAt = matches[0];
     }
   }
   output.push(`${label}（日本時間）: ${converted ?? `未確定（${reason ?? '解釈できない'}）`}`);
   if (context.label) output.push(`関連付けの根拠: ${context.label}${inherited.length ? `（時区を参照: ${inherited.map(z => z.label).join(' / ')}）` : ''}`);
   else if (converted) output.push(`時区の根拠: 原文の ${zone.label}`);
-  return output;
+  return {lines: output, scheduledAt};
+}
+
+/** Only an unambiguous execution time can schedule a local check. */
+export function resetScheduledAt(post: Item, evidence?: string): number | null {
+  const candidates = contexts(post, evidence);
+  return candidates.length === 1 ? render(candidates[0], post.publishedAt).scheduledAt : null;
 }
 
 /** Adds timing information only; it neither classifies a post nor changes its notification threshold. */
@@ -206,7 +215,7 @@ export function resetTiming(post: Item, evidence?: string): string[] {
   try {
     if (post.kind === 'repost' || typeof post.text !== 'string') return [];
     return contexts(post, evidence).slice(0, 2).flatMap(context => {
-      try {return render(context, post.publishedAt);}
+      try {return render(context, post.publishedAt).lines;}
       catch {return [`リセット時刻（原文）: ${context.text}`, 'リセット時刻（日本時間）: 未確定（時刻を解釈できない）'];}
     });
   } catch {return [];}

@@ -1,4 +1,4 @@
-export interface LiveQueueEntry {id:string;queuedAt:number;fallback?:{code:string;at:number}}
+export interface LiveQueueEntry {id:string;queuedAt:number;radar?:boolean;fallback?:{code:string;at:number}}
 export const LIVE_QUEUE_KEY='aiLiveQueue';
 export function parseLiveQueue(value:unknown):LiveQueueEntry[] {
  if(value===undefined)return [];

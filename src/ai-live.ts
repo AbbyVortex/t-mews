@@ -10,6 +10,7 @@ import {shadowInput,within,type ShadowCandidate,type ShadowMetrics} from './ai-s
 import {classifyLive,LIVE_PROMPT_VERSION,type LiveResult} from './ai-live-classifier';
 import {excludesAllowanceNotification,formatLiveNotification,isCriticalMachine,planLiveNotification} from './ai-live-policy';
 import {readLiveQueue,writeLiveQueue,type LiveQueueEntry} from './ai-live-queue';
+import {radarSignal,saveRadarSignal} from './radar-watch';
 
 export const LIVE_LIMITS={runMs:180000,requestMs:45000,concurrency:3} as const;
 export interface LiveSummary {status:string;attempted:number;classified:number;fallback:number;pending:number;model:string;reasoning:string}
@@ -83,6 +84,10 @@ export async function runLiveQueue(env:Env,snapshot:()=>Snapshot,checkpoint:()=>
    const prior=await env.DB.prepare('SELECT * FROM notifications WHERE id=?').bind(`post:${entry.id}`).first<any>();
    const early=!!prior&&isCriticalMachine(machine);
    const plan=planLiveNotification(machine,result,early,error);
+   if(entry.radar){
+    const signal=radarSignal(post,machine,row.detected_at,Math.floor(clockMs()/1000),result);
+    if(signal)await saveRadarSignal(env.DB,signal).run();
+   }
    let delivery:Record<string,any>={kind:'none',mismatch:false};
    if(excludesAllowanceNotification(machine,result)){
     delivery.allowanceScope='excluded';

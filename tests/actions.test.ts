@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {runAction,type Store} from '../src/actions/run';
 import {LocalD1,type Snapshot} from '../src/actions/sqlite';
 import {GitHubStateStore} from '../src/actions/store';
+import type {RadarSignal} from '../src/radar-watch';
 const start=Date.parse('2026-09-08T07:00:00Z')/1000;
 const secrets={user:'u'.repeat(30),token:'t'.repeat(30)};
 const xml=(id:string,text:string,now=start+60)=>`<rss><channel><title>@thsottiaux</title><item><link>https://x.com/thsottiaux/status/${id}</link><pubDate>${new Date(now*1000).toUTCString()}</pubDate><description><![CDATA[${text}]]></description></item></channel></rss>`;
@@ -127,4 +128,48 @@ test('GitHub store uses CAS, rejects private repos and missing state',async()=>{
  }) as typeof fetch;
  const store=new GitHubStateStore('user/repo','token',mock);await store.load();snapshot.tables.state.push({key:'sample',value:'true'});await store.save(snapshot);
  assert.equal(put.sha,'old-sha');assert.equal(put.branch,'monitor-state');assert.ok(!put.content.includes('token'));
+});
+
+test('radar: baseline stays silent; failed publication recovers from the durable state without replaying posts',async()=>{
+ class RadarStore extends MemoryStore {
+  signals:RadarSignal[]=[];
+  async publishRadar(signal:RadarSignal){
+   assert.equal(JSON.parse(this.state!.tables.state.find(r=>r.key==='radarWatch')!.value).id,signal.id);
+   this.signals.push(structuredClone(signal));
+   if(this.signals.length===1)throw Error('fixture projection failure');
+  }
+ }
+ const store=new RadarStore();let rss=xml('1','Banked 1/2',start-100);let sends=0;
+ const fetcher:typeof fetch=async input=>{
+  if(String(input).includes('pushover')){sends++;return Response.json({status:1});}
+  return new Response(rss);
+ };
+ await runAction('test',store,secrets,fetcher,start);
+ await runAction('monitor',store,secrets,fetcher,start);
+ assert.equal(store.signals.length,0);
+ rss=xml('2','Banked 2/2',start+100);
+ await assert.rejects(runAction('monitor',store,secrets,fetcher,start+300),/projection failure/);
+ const beforeRetry=sends;
+ await runAction('monitor',store,secrets,fetcher,start+600);
+ await runAction('monitor',store,secrets,fetcher,start+900);
+ assert.deepEqual(store.signals.map(s=>s.id),['x:2','x:2']);
+ assert.deepEqual(store.signals[0],store.signals[1]);
+ assert.equal(store.signals[0].observedAt,(start+300)*1000);
+ assert.equal(sends,beforeRetry);
+});
+
+test('radar: a GitHub PUT with a lost acknowledgement is idempotent and a new post uses its own file SHA',async()=>{
+ const writes:{sha?:string;branch:string;content:string}[]=[];
+ const fetcher:typeof fetch=async (url,init)=>{
+  assert.ok(String(url).includes('/contents/radar-watch.json'));
+  if(init?.method==='PUT'){writes.push(JSON.parse(String(init.body)));return Response.json({});}
+  const last=writes.at(-1);
+  return last?Response.json({sha:'existing-radar-sha',encoding:'base64',content:last.content}):new Response(null,{status:404});
+ };
+ const store=new GitHubStateStore('user/repo','fixture-token',fetcher);
+ const signal:RadarSignal={version:1,id:'x:200',kind:'hint',dueAt:null,publishedAt:start*1000,observedAt:start*1000+1000};
+ await store.publishRadar(signal);await store.publishRadar(signal);await store.publishRadar({...signal,id:'x:201'});
+ assert.equal(writes.length,2);assert.equal(writes[1].sha,'existing-radar-sha');
+ assert.equal(writes[1].branch,'monitor-state');
+ assert.deepEqual(JSON.parse(Buffer.from(writes[1].content,'base64').toString()),{...signal,id:'x:201'});
 });

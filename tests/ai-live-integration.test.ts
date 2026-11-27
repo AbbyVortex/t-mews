@@ -13,7 +13,7 @@ type Category='announcement'|'attention'|'limit_change'|'chatter'|'unrelated';
 const item=(id:string,text:string,time=START+60,title='')=>
  '<item><title>'+title+'</title><link>https://x.com/thsottiaux/status/'+id+'</link><pubDate>'+new Date(time*1000).toUTCString()+'</pubDate><description><![CDATA['+text+']]></description></item>';
 const feed=(...items:string[])=>'<rss><channel><title>@thsottiaux</title>'+items.join('')+'</channel></rss>';
-const result=(category:Category)=>({category,allowanceScope:'unknown',rationale:category==='chatter'?'一般的な雑談で新しい運用情報はありません。':'固定された試験用の理由。',confidence:0.91,uncertainty:''});
+const result=(category:Category)=>({category,allowanceScope:'unknown',startsResetWatch:category==='announcement',rationale:category==='chatter'?'一般的な雑談で新しい運用情報はありません。':'固定された試験用の理由。',confidence:0.91,uncertainty:''});
 const response=(category:Category)=>Response.json({status:'completed',model:'gpt-6.1-sol',
  usage:{input_tokens:200,output_tokens:50,total_tokens:250,input_tokens_details:{cached_tokens:0},output_tokens_details:{reasoning_tokens:10}},
  output:[{type:'message',content:[{type:'output_text',text:JSON.stringify(result(category))}]}]});
@@ -112,6 +112,27 @@ test('AI-only announcements and hints alert once; unimportant agreement sends no
    assert.match(f.pushes[0].get('message')!,/IRRELEVANT/);
   }
   assert.equal(queue(f.store.state!).length,0);noSecrets(f);
+ }
+});
+
+test('the same existing AI request decides an actionable radar hint separately from advisory delivery',async()=>{
+ for(const [text,scope,starts,expected] of [
+  ['Something is cooking 👀','not_applicable',true,'hint'],
+  ['This looks interesting 👀','not_applicable',false,null],
+  ['What if Pro 100 usage limits increased?','included',true,null],
+ ] as const){
+  const f=fixture(await initialized(),feed(item('2',text)));
+  let calls=0;
+  const ai:typeof fetch=async ()=>{
+   calls++;
+   return Response.json({status:'completed',output:[{type:'message',content:[{type:'output_text',
+    text:JSON.stringify({...result('attention'),allowanceScope:scope,startsResetWatch:starts})}]}]});
+  };
+  await f.run(f.options(ai));
+  const data=f.store.state!.tables.state.find(r=>r.key==='radarWatch');
+  assert.equal(data?JSON.parse(data.value).kind:null,expected);
+  await f.run(f.options(ai),START+600);
+  assert.equal(calls,1);assert.equal(f.pushes.length,1);
  }
 });
 

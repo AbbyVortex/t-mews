@@ -6,7 +6,8 @@ import {recoverAlert} from './recover';
 import type {Env,Fetcher} from '../types';
 import {runLiveQueue,disableLiveQueue,serialWriter,LIVE_LIMITS,type LiveOptions} from '../ai-live';
 import {isCriticalMachine} from '../ai-live-policy';
-export interface Store {load(initialize?:boolean):Promise<Snapshot|undefined>;save(snapshot:Snapshot):Promise<void>}
+import type {RadarSignal} from '../radar-watch';
+export interface Store {load(initialize?:boolean):Promise<Snapshot|undefined>;save(snapshot:Snapshot):Promise<void>;publishRadar?(signal:RadarSignal):Promise<void>}
 export type ActionMode = 'test'|'monitor'|'check'|'recover';
 export async function runAction(mode:ActionMode,store:Store,secrets:{user:string,token:string},fetcher:Fetcher=fetch,now=Math.floor(Date.now()/1000),postId?:string,live?:LiveOptions) {
  const startedWall=Date.now();
@@ -39,12 +40,22 @@ export async function runAction(mode:ActionMode,store:Store,secrets:{user:string
    if(mode==='recover')return await recoverAlert(env,postId,now,safeFetch);
    // Primary Actions operation has no expiry. Preserve any legacy actionsEndAt as history.
    if(live&&!live.enabled)await disableLiveQueue(env,now);
-   await monitor(env,now,safeFetch,live?.enabled?{live:true,defer:(_id,verdict)=>!isCriticalMachine(verdict),deadline}:undefined);
+   await monitor(env,now,safeFetch,{live:live?.enabled===true,radar:true,defer:(_id,verdict)=>!isCriticalMachine(verdict),deadline});
    if(live?.enabled){
     await checkpoint();
     const durable={...live,store:{load:live.store.load.bind(live.store),save:(id:string,record:Record<string,any>,signal?:AbortSignal)=>persist(()=>live.store.save(id,record,signal))}};
     const result=await runLiveQueue(env,()=>db.snapshot(),checkpoint,durable,now,startedWall,deadline,safeFetch);
     try{live.report?.(result);}catch{ /* Reporting does not affect delivery. */ }
+   }
+   const radar=await db.prepare("SELECT value FROM state WHERE key='radarWatch'").first<string>('value');
+   if(radar&&store.publishRadar){
+    const signal:RadarSignal=JSON.parse(radar);
+    const projected=await db.prepare("SELECT value FROM state WHERE key='radarPublishedId'").first<string>('value');
+    if(projected!==JSON.stringify(signal.id)){
+     await checkpoint();
+     await store.publishRadar(signal);
+     await db.prepare("INSERT INTO state VALUES('radarPublishedId',?) ON CONFLICT(key) DO UPDATE SET value=excluded.value").bind(JSON.stringify(signal.id)).run();
+    }
    }
   }
   return {mode,posts:(await db.prepare('SELECT COUNT(*) n FROM posts').first<any>())?.n,notifications:(await db.prepare("SELECT COUNT(*) n FROM notifications WHERE status='sent'").first<any>())?.n};

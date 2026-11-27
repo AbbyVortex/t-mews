@@ -7,7 +7,7 @@ const key='fixture-api-key';
 const candidate:ShadowCandidate={id:'x:2117035794678546764',url:'https://x.com/thsottiaux/status/2117035794678546764',text:'Day 28/ Banked 2/2',
  related:[],parentStatus:'not_applicable',rule:{classification:'BANKED_RESET',notify:true,display:'announcement'},
  recentContext:[{id:'x:2116692529970311254',url:'https://x.com/thsottiaux/status/2116692529970311254',text:'Banked 1/2',publishedAt:1793493800,author:'thsottiaux',source:'saved-history'}]};
-const answer=(category:LiveResult['category']='announcement'):LiveResult=>({category,allowanceScope:'unknown',rationale:'前日の第一弾に続く第二弾の配布報告。',confidence:.98,uncertainty:''});
+const answer=(category:LiveResult['category']='announcement'):LiveResult=>({category,startsResetWatch:category==='announcement',allowanceScope:'unknown',rationale:'前日の第一弾に続く第二弾の配布報告。',confidence:.98,uncertainty:''});
 const response=(value:unknown=answer(),extra:Record<string,unknown>={})=>Response.json({status:'completed',model:'gpt-6.1-sol',output:[{type:'message',content:[{type:'output_text',text:JSON.stringify(value)}]}],...extra});
 const options={model:'gpt-6.1-sol',reasoning:'medium',apiKey:key};
 const signal=()=>new AbortController().signal;
@@ -23,6 +23,7 @@ test('production Responses contract supports all five meanings with separated bo
    assert.deepEqual(body.text.format.schema.properties.category.enum,['announcement','attention','limit_change','chatter','unrelated']);
    assert.deepEqual(body.text.format.schema.properties.allowanceScope.enum,['included','excluded','unknown','not_applicable']);
    assert.ok(body.text.format.schema.required.includes('allowanceScope'));
+   assert.ok(body.text.format.schema.required.includes('startsResetWatch'));
    assert.deepEqual(JSON.parse(body.input),shadowInput(candidate));
    assert.ok(!body.input.includes('BANKED_RESET'));assert.ok(!body.input.includes(key));
    return response(answer(category));
@@ -59,6 +60,7 @@ test('schema violations, refusals and oversized bodies cannot become live notifi
   ()=>response({...answer(),confidence:'1'}),()=>response({...answer(),rationale:''}),()=>response({...answer(),rationale:'x'.repeat(241)}),
   ()=>response({...answer(),extra:true}),()=>new Response('x'.repeat(64001)),
   ()=>response({...answer(),allowanceScope:'anything'}),()=>response({...answer(),allowanceScope:undefined}),
+  ()=>response({...answer(),startsResetWatch:'true'}),()=>response({...answer(),startsResetWatch:undefined}),
   ()=>Response.json({status:'completed',output:[{type:'message',content:[{type:'refusal'}]}]})]){
   await assert.rejects(classifyLive(candidate,{...options,fetcher:async()=>make()},signal()),e=>e instanceof Error&&['bad_json','refused'].includes(e.message));
  }

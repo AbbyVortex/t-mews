@@ -1,4 +1,5 @@
 import type {Snapshot} from './sqlite';
+import type {RadarSignal} from '../radar-watch';
 const branch='monitor-state';
 export class GitHubStateStore {
  private sha:string|undefined;
@@ -36,5 +37,16 @@ export class GitHubStateStore {
   if(Buffer.byteLength(text)>900_000)throw new Error('State size limit reached; no push sent');
   const result=await this.api('/contents/state.json','PUT',{message:'Update monitor state',branch,content:Buffer.from(text).toString('base64'),...(this.sha?{sha:this.sha}:{})});
   this.sha=result.content.sha;this.previous=text;
+ }
+ async publishRadar(signal:RadarSignal):Promise<void> {
+  const path='/contents/radar-watch.json';
+  const file=await this.api(path+'?ref='+branch,'GET',undefined,true);
+  const text=JSON.stringify(signal)+'\n';
+  const content=Buffer.from(text).toString('base64');
+  if(file){
+   if(file.encoding!=='base64')throw new Error('Unsupported radar state');
+   if(Buffer.from(file.content,'base64').toString('utf8')===text)return;
+  }
+  await this.api(path,'PUT',{message:'Publish reset watch signal',branch,content,...(file?{sha:file.sha}:{})});
  }
 }
