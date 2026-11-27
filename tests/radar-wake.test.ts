@@ -27,7 +27,9 @@ function fixture(){
    assert.equal(new Headers(options?.headers).get('If-Match'),'"revision"');
    if(f.patchStatus!==200)return new Response(null,{status:f.patchStatus});
    const change=JSON.parse(String(options?.body));
-   assert.deepEqual(Object.keys(change),['name']);
+   assert.deepEqual(Object.keys(change).sort(),['name','tag_name']);
+   assert.equal(change.tag_name,'kinoko-radar-private-gate');
+   f.tag=change.tag_name;
    f.name=change.name;f.afterPatch();return Response.json(release());
   }
   assert.equal(method,'GET');f.onRead(++f.step);

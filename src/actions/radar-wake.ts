@@ -101,9 +101,10 @@ export async function dispatchRadarWake(env: Record<string,string|undefined>, {
   const name=markerPrefix+' '+JSON.stringify(claim);
   const hmac=createHmac('sha256',config.key).update('radar-v1\n'+claim.episode+'\n'+claim.id).digest('hex').slice(0,32);
   const packet=Buffer.concat([Buffer.from('KINOKO1:'+hmac,'ascii'),Buffer.alloc(6,255),...Array<Buffer>(16).fill(config.mac)]);
-  // The monitor workflow serializes dispatchers. The host writes only body, never name.
+  // Both writers must repeat the existing tag or GitHub can assign an untagged draft name.
+  // The monitor workflow serializes dispatchers; only it writes the claim title.
   const update=await api(path,{method:'PATCH',headers:{'Content-Type':'application/json',
-    ...(before.etag && !before.etag.startsWith('W/')?{'If-Match':before.etag}:{})},body:JSON.stringify({name})});
+    ...(before.etag && !before.etag.startsWith('W/')?{'If-Match':before.etag}:{})},body:JSON.stringify({name,tag_name:gateTag})});
   if (update.status === 409 || update.status === 412) return false;
   if (!update.ok) throw Error('radar_claim_unavailable');
   const stillAuthorized = (value:ReturnType<typeof releaseGate>) => value.name === name
