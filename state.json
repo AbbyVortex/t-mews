@@ -3,57 +3,6 @@
   "tables": {
     "posts": [
       {
-        "id": "x:2121132035653894561",
-        "x_status_id": "2121132035653894561",
-        "canonical_url": "https://x.com/thsottiaux/status/2121132035653894561",
-        "fingerprint": "9f67874cf848d777a454663a52bbf1c7ffc09340ed77e717eae2614bd846d6ca",
-        "published_at": 1794552260,
-        "detected_at": 1794552330,
-        "text": "@ajambrosino sino",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 70
-      },
-      {
-        "id": "x:2121132369696747608",
-        "x_status_id": "2121132369696747608",
-        "canonical_url": "https://x.com/thsottiaux/status/2121132369696747608",
-        "fingerprint": "43456a095179da0e4d022448a389b0c348f2ffd1365933e336925d29f382c08c",
-        "published_at": 1794552340,
-        "detected_at": 1794552930,
-        "text": "@snowy_smile_ Sounds like bliss",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 590
-      },
-      {
-        "id": "x:2121134582527594929",
-        "x_status_id": "2121134582527594929",
-        "canonical_url": "https://x.com/thsottiaux/status/2121134582527594929",
-        "fingerprint": "bb489a7d42403519d6bdbe3f3e26e54496991c0bbc6bd25350126654b9e97256",
-        "published_at": 1794552867,
-        "detected_at": 1794552930,
-        "text": "@argofowl Hi 👋 Doing well. Team is busy",
-        "source": "fxtwitter",
-        "kind": "reply",
-        "classification": "IRRELEVANT",
-        "reason": "no usage reset or material allowance signal",
-        "baseline": 0,
-        "notified": 0,
-        "notification_status": "not_relevant",
-        "detection_latency_seconds": 63
-      },
-      {
         "id": "x:2121845965997101118",
         "x_status_id": "2121845965997101118",
         "canonical_url": "https://x.com/thsottiaux/status/2121845965997101118",
@@ -1282,7 +1231,7 @@
       {
         "source": "fxtwitter",
         "state": "online",
-        "last_success_at": 1795839929,
+        "last_success_at": 1795840536,
         "last_failure_at": 1795831527,
         "offline_since": null,
         "failure_episodes": 875,
@@ -1312,32 +1261,14 @@
       },
       {
         "key": "lastCleanup",
-        "value": "1795753530"
+        "value": "1795840536"
       },
       {
         "key": "lastSuccess",
-        "value": "1795839929"
+        "value": "1795840536"
       }
     ],
     "events": [
-      {
-        "id": "analysis:x:2121132035653894561",
-        "event_type": "post_analysis",
-        "created_at": 1794552330,
-        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@ajambrosino sino\"}}"
-      },
-      {
-        "id": "analysis:x:2121132369696747608",
-        "event_type": "post_analysis",
-        "created_at": 1794552930,
-        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@snowy_smile_ Sounds like bliss\"}}"
-      },
-      {
-        "id": "analysis:x:2121134582527594929",
-        "event_type": "post_analysis",
-        "created_at": 1794552930,
-        "details": "{\"verdict\":{\"classification\":\"IRRELEVANT\",\"notify\":false,\"reason\":\"no usage reset or material allowance signal\",\"evidence\":\"@argofowl Hi 👋 Doing well.\"}}"
-      },
       {
         "id": "analysis:x:2121845965997101118",
         "event_type": "post_analysis",
@@ -2552,8 +2483,8 @@
   },
   "publicStatus": {
     "version": 1,
-    "lastRssSuccessAt": 1795839929,
-    "lastRssAttemptAt": 1795839929,
+    "lastRssSuccessAt": 1795840536,
+    "lastRssAttemptAt": 1795840536,
     "sourceState": "online",
     "error": null
   }
